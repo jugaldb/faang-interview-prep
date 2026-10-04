@@ -1,6 +1,6 @@
 # System design interview framework
 
-For your 45 to 60 minute HLD round. When you finish you will know what to say, what to draw, and when to move on, minute by minute.
+For your 45 to 60 minute HLD round. Use it as a minute-by-minute script: what to say, what to draw, when to move on.
 
 ## What you are graded on
 
@@ -39,6 +39,8 @@ Based on Hello Interview's [delivery framework](https://www.hellointerview.com/l
 | ByteByteGo's 4 steps | Understand the problem and scope (3 to 10 min), high-level design and buy-in (10 to 15), design in depth (10 to 25), wrap up (3 to 5) ([chapter](https://bytebytego.com/courses/system-design-interview/a-framework-for-system-design-interviews)). Same idea, wider time ranges. |
 | LLD or OOD round | A 35-minute class-design version: see [the LLD framework](low-level-design.md#the-35-minute-lld-framework). |
 | ML system design | Problem framing 5 to 7 min, high-level design 2 to 3, data and features 10, modeling 10, inference and evaluation 7, then depth ([Hello Interview ML](https://www.hellointerview.com/learn/ml-system-design/in-a-hurry/delivery)). |
+| Mobile system design | Introductions 2 to 5 min, requirements 5, high-level design 10, detailed discussion 20 to 30, your questions 5. Scope is usually the client plus its API ([mobile-system-design](https://github.com/weeeBox/mobile-system-design)). |
+| Front-end system design | Same flow, but the boxes are UI components, client state and the API contract. Use the [GreatFrontEnd playbook](https://www.greatfrontend.com/front-end-system-design-playbook) framework pages (most solved questions are premium). |
 
 ## Step 1: Requirements (0:00 to 0:05)
 
@@ -151,7 +153,7 @@ Drawing rules that keep the board readable:
 | Label each arrow with the call (`POST /v1/urls`, `enqueue`) | Shows you know what moves where |
 | Number the steps of each request flow | Makes "walk me through a read" easy |
 | Write the database type and key next to each store | Data modeling is graded |
-| Keep the first version to 5 to 8 boxes | Simple and working beats complete and unfinished |
+| Keep the first version to 5 to 8 boxes | A small design that works scores higher than a big one you never finish |
 
 Practice in the tool you will use. Meta uses [Excalidraw](https://excalidraw.com/) for both design round types, and it is the most popular choice at Amazon ([interviewing.io Amazon](https://interviewing.io/guides/hiring-process/amazon)).
 
@@ -262,17 +264,17 @@ Paste this into Excalidraw (or a doc) at the start of every practice session and
 
 | Company | What changes | Source |
 |---|---|---|
-| [Meta](../companies/meta.md) | E4 and up only. Your recruiter picks System Design (infra) or Product Architecture (more API and data model detail) from your background. Excalidraw. Interviewers may withhold scale numbers, so set your own. Candidates report depth questions on how quadtrees and geohashing work and on writing SQL. Some interviewers only say "what else", so be ready to drive. | [HI E4](https://www.hellointerview.com/guides/meta/e4), [Aced](https://www.aced.io/guides/meta-software-engineer-interview), [interviewing.io](https://interviewing.io/guides/hiring-process/meta-facebook) |
-| [Amazon](../companies/amazon.md) | Expect 1 to 2 Leadership Principle questions inside the design round; keep each answer to about 2 minutes. Prompts are often a piece of the team's own system. If stuck, talk about performance. SDE II design is judged on practicality, accuracy, efficiency, reliability, optimization and scalability. | [interviewing.io](https://interviewing.io/guides/hiring-process/amazon), [Amazon SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep) |
-| [Google](../companies/google.md) | Design is rare before L5. Ask more clarifying questions than usual. Leaked questions get retired, so learn the method. | [interviewing.io](https://interviewing.io/guides/hiring-process/google), [HI L4](https://www.hellointerview.com/guides/google/l4) |
-| [Microsoft](../companies/microsoft.md) | The round sets your level and is sometimes run by the hiring manager. Questions tie to the team's product; compliance topics are common. Tools: Codility Canvas or Excalidraw. | [interviewing.io](https://interviewing.io/guides/hiring-process/microsoft), [Aced](https://www.aced.io/guides/microsoft-software-engineer-interview) |
-| [Uber](../companies/uber.md) | One hour. Entry-level candidates get simpler high-level systems. Leave the last 15 minutes for follow-ups. | [Aced](https://www.aced.io/guides/uber-software-engineer-interview) |
+| [Meta](../companies/meta.md) | E4 and up only. 45 minutes, either System Design (scale, distributed systems) or Product Architecture (API design, data models, client-server). Sources disagree on who picks, so ask your recruiter which type you get and state a preference. Excalidraw. Meta's own guide says to practice each question on paper in about 30 minutes. Interviewers may withhold scale numbers, so set your own. Candidates report depth questions on quadtrees, geohashing and SQL. Some interviewers only say "what else", so be ready to drive. | [Meta prep page](https://www.metacareers.com/swe-prep-onsite/) (Full Loop guide PDF), [HI E4](https://www.hellointerview.com/guides/meta/e4), [Aced](https://www.aced.io/guides/meta-software-engineer-interview), [interviewing.io](https://interviewing.io/guides/hiring-process/meta-facebook) |
+| [Amazon](../companies/amazon.md) | Expect 1 to 2 Leadership Principle questions inside the design round; keep each answer to about 2 minutes. Prompts are often a piece of the team's own system. If stuck, talk about performance. SDE II design is judged on practicality, accuracy, efficiency, reliability, optimization and scalability. If the recruiter says Bluescape, do one practice design in it first ([Bluescape guide](https://community.bluescape.com/t/preparing-for-your-job-interview-in-bluescape/778)). | [interviewing.io](https://interviewing.io/guides/hiring-process/amazon), [Amazon SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep) |
+| [Google](../companies/google.md) | No dedicated design round before L5. Ask more clarifying questions than usual: interviewers plant "linchpin" details. Leaked questions get retired, so learn the method. In the 2026 pilot, be ready to defend the design of a past project in the behavioral round. | [interviewing.io](https://interviewing.io/guides/hiring-process/google), [HI L4](https://www.hellointerview.com/guides/google/l4), [Aced](https://www.aced.io/blog/google-ai-coding-interview) |
+| [Microsoft](../companies/microsoft.md) | The round sets your level; Aced warns a lack of domain knowledge can mean a down-level. There is no question bank: prompts come from the team's use cases (example: "Design a chat feature for users of Microsoft Azure"). Compliance topics are common. Sometimes run by the hiring manager. Tools: Codility Canvas or Excalidraw. | [interviewing.io](https://interviewing.io/guides/hiring-process/microsoft), [Aced](https://www.aced.io/guides/microsoft-software-engineer-interview) |
+| [Uber](../companies/uber.md) | One hour. Entry-level candidates get simpler high-level systems. Leave the last 15 minutes for follow-ups. Ask at the start whether they want LLD (classes) or HLD (schema, services); one SDE-1 candidate wrote classes when the interviewers wanted a schema. | [Aced](https://www.aced.io/guides/uber-software-engineer-interview), reports |
 | [Atlassian](../companies/atlassian.md) | 60 minutes, questions ladder up or down. Ask clarifying questions even when the answer seems obvious; one 2026 candidate was down-leveled for skipping them. | [Atlassian](https://www.atlassian.com/company/careers/resources/interviewing/engineering), reports |
 | [Netflix](../companies/netflix.md) | Design is the most important round. Expect bespoke prompts, security-only design, and reverse system design. | [interviewing.io](https://interviewing.io/guides/hiring-process/netflix) |
 | [Apple](../companies/apple.md) | Not standardized by team. Talk about reliability. | [interviewing.io](https://interviewing.io/guides/hiring-process/apple) |
 | [OpenAI](../companies/openai.md) | Excalidraw, with heavy questions on how queues, caches, load balancers and databases work inside. Do not name a technology you cannot explain. | Reports |
 | [Stripe](../companies/stripe.md) | About 1 hour on a whiteboarding tool. Payment-flavored: idempotent APIs, ledgers, retries, reconciliation. | Reports |
-| [Coinbase](../companies/coinbase.md) | Coinbase's tips: keep it general, name a technology you know, say what you do not know. | Reports |
+| [Coinbase](../companies/coinbase.md) | Coinbase's own interview blog advises: keep it general, name a technology you know, say what you do not know. | [Company page](../companies/coinbase.md) |
 | [Walmart Global Tech](../companies/walmart.md) | Drive the round and keep it simple. One 2026 candidate lost an HLD round by over-engineering scale in the last 10 minutes. | Reports |
 | [Pinterest](../companies/pinterest.md), [Instacart](../companies/instacart.md), [Robinhood](../companies/robinhood.md) | Start at low scale before sharding (Pinterest). Favor correctness and consistency over caching for inventory (Instacart). Expect follow-ups on failure modes, idempotency and deduplication (Robinhood). | Reports |
 

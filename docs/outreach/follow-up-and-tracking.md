@@ -4,13 +4,14 @@ For anyone with outreach in flight. You leave with a follow-up schedule for each
 
 ## The rule: 3 touches, then stop
 
-My follow-up rule during the month I landed interviews with Amazon, Meta, Ramp, and The Trade Desk: wait a week, keep it short, reference the first message, and never send more than two follow-ups ([How I Got Interviews at Amazon, Meta & Startups](https://jugaldb.substack.com/p/how-i-got-interviews-at-amazon-meta)). The sources below agree: give it a few business days, then send at most two follow-ups.
+My follow-up rule during the month I landed interviews with Amazon, Meta, Ramp, and The Trade Desk: wait a week, keep it short, reference the first message, and never send more than two follow-ups ([How I Got Interviews at Amazon, Meta & Startups](https://jugaldb.substack.com/p/how-i-got-interviews-at-amazon-meta)). The other sources agree:
 
 | Source | Rule |
 |---|---|
 | Jugal, [The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every) | Wait 5 to 7 business days, follow up once, twice max, then move on |
 | Jugal, [7 videos on networking your way to offers](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to) | Bump if there is no reply after 5 days |
 | Jugal, [How I Landed My Internship](https://jugaldb.substack.com/p/how-i-landed-my-internship-before) | For a cold message about an internship, follow up in 7 to 10 days |
+| Jugal, [How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting) | Follow-ups are "limited, spaced out, and never pushy". "Silence is normal" |
 | [Hunter, 31M emails](https://hunter.io/the-state-of-cold-email) | Three total messages more than doubled total replies (6.8% vs 3.3%); three is the optimal max |
 | [The Muse meeting-request template](https://www.themuse.com/advice/introducing-the-email-template-thatll-get-you-a-meeting-with-anyone-you-ask) | No reply in about a week: send one follow-up. Still nothing: move on |
 | Steve Dalton's 3B7 rule, via [Duke Career Hub](https://careerhub.students.duke.edu/blog/2023/09/07/following-up-is-the-most-critical-part-of-your-outreach/) | No reply in 3 business days: contact someone else at the company. At 7 business days: email the first person again |
@@ -199,6 +200,8 @@ More messages, including recruiter replies and connection notes: [templates](tem
 
 One row per person, not per company. Two people at Stripe means two rows.
 
+Short on time? Jugal's [6-week roadmap](https://jugaldb.substack.com/p/the-only-6-week-job-search-roadmap) starts with seven columns: `Company | Role | JD | Referrer | Status | Last Touch | Next Step`. Use that in week one, then switch to the full template below once you send more than a few messages a week.
+
 ### Columns
 
 Paste this line into cell A1 of a new Google Sheet, then use Data, Split text to columns, separator comma. Name the tab `Outreach`.
@@ -277,6 +280,15 @@ Format the reply-rate cell as a percent. Track applications in the same sheet or
 ## Daily and weekly routine
 
 Jugal sets aside 30 minutes a week to reach out, reply, and check in, and keeps 2 to 3 go-to questions ready ([The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every)). In heavy search mode he blocked 10 minutes a day for 10 to 15 emails ([The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing)).
+
+Two heavier daily rhythms from his posts:
+
+| Rhythm | Every day | Source |
+|---|---|---|
+| Networking week of a 6-week push | 20 new DMs, 1 follow-up, 1 thank-you update. After every conversation: update the tracker, write down one insight, ask for one referral or suggestion | [The Only 6-Week Job Search Roadmap](https://jugaldb.substack.com/p/the-only-6-week-job-search-roadmap) |
+| 15 minutes with LinkedIn Premium | 10 minutes: DM 3 to 5 targeted recruiters or hiring managers. 3 minutes: "follow up on yesterday's messages". 2 minutes: send 10 connection requests with a note | [How I Got LinkedIn Premium for Free](https://jugaldb.substack.com/p/how-i-got-linkedin-premium-for-free) |
+
+> **Watch out:** These are Jugal's targets, not limits LinkedIn publishes. LinkedIn restricts accounts whose invitations are often ignored or left pending ([finding people](finding-people.md#stay-inside-linkedins-limits)), so cut the numbers if requests pile up. Read "follow up on yesterday's messages" as answering replies; bumps to people who have not replied still wait 5 to 7 business days.
 
 ### Every day (10 minutes)
 

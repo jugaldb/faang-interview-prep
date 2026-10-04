@@ -1,6 +1,6 @@
 # Build your behavioral story bank
 
-For anyone with a behavioral round in the next 2 to 6 weeks. You will finish with 8 to 10 written stories, a grid that shows which story answers which question, and answers mapped to the 50 most common questions.
+For anyone with a behavioral round in the next 2 to 6 weeks. You finish with 8 to 10 written stories, a grid that shows which story answers which question, and a story picked for each of the 50 most common questions.
 
 ## How many stories you need
 
@@ -10,13 +10,13 @@ For anyone with a behavioral round in the next 2 to 6 weeks. You will finish wit
 | [Amazon's STAR worksheet](https://duaa2xs5z3ldn.cloudfront.net/assets/McsJv4WXKWb_FlRc_LRX21Ro-EvUopwEW-LeadershipPrinciplesSTARtemplate.pdf) | List 10 to 15 significant moments | Not covering all 16 principles is expected |
 | [Jugal's Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the) | 6 to 7 rock-solid stories | Map each one to 2 to 3 Leadership Principles and keep a cheat sheet |
 | [Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview/) | 3 to 5 core projects | Most questions get answered from a few key projects |
-| [Google's old interview page](https://web.archive.org/web/20200504185427/https://careers.google.com/how-we-hire/interview/) (Laszlo Bock) | Three answers per likely question | Have another story ready so a second interviewer hears something new |
+| [Google's old interview page](https://web.archive.org/web/20200504185427/https://careers.google.com/how-we-hire/interview/) (archived 2020) | Three answers per likely question | Have another story ready so the next interviewer hears something new |
 
-Target 8 to 10. Fewer than 6 and you will repeat yourself across a loop. More than 12 and you will not rehearse them well.
+Target 8 to 10, with Jugal's 6 to 7 as the floor. Below that you will repeat stories: an Amazon loop is four to six interviews ([About Amazon](https://www.aboutamazon.com/news/workplace/amazon-interview-guide)), each with 2 or 3 behavioral questions. Above 12, you will not get each story to the 10 out-loud run-throughs it needs.
 
 ## Step 1: Brainstorm 20 to 30 moments
 
-Write one line per moment. Do not judge yet. Use your resume as the trigger, newest first ([Amazon worksheet](https://duaa2xs5z3ldn.cloudfront.net/assets/McsJv4WXKWb_FlRc_LRX21Ro-EvUopwEW-LeadershipPrinciplesSTARtemplate.pdf)).
+Write one line per moment and do not judge yet. Stop at 20 lines minimum. Use your resume as the trigger, newest first ([Amazon worksheet](https://duaa2xs5z3ldn.cloudfront.net/assets/McsJv4WXKWb_FlRc_LRX21Ro-EvUopwEW-LeadershipPrinciplesSTARtemplate.pdf)).
 
 | Where to look | Stories it usually gives you |
 |---|---|
@@ -181,7 +181,7 @@ Learning and proof: Since then I always [new habit].
   On [later project], that meant [result].
 ```
 
-Conflict. interviewing.io warns against conflict stories that turn into an argument about who was technically right ([interviewing.io](https://interviewing.io/guides/amazon-leadership-principles)).
+Conflict: interviewing.io warns against conflict stories that turn into an argument about who was technically right ([interviewing.io](https://interviewing.io/guides/amazon-leadership-principles)). Short on conflict stories? Austen McDonald lists the kinds that work in [Conflict Stories 1 of 5](https://thebehavioral.substack.com/p/conflict-stories-1-of-5-workplace).
 
 ```text
 Context (20 s): [Project], [who], [the decision on the table], [deadline or stakes].
@@ -227,7 +227,7 @@ A title that teases the challenge and the evidence helps you recall the right st
 
 The question: "Tell me about a time you solved a problem nobody asked you to solve." The story is a composite example, not a real person. Copy the structure, not the facts.
 
-### Weak version (about 40 seconds)
+### Weak version (about 30 seconds)
 
 ```text
 So in my internship we had a lot of issues with our tests. They were really slow
@@ -281,7 +281,7 @@ and I did the same when login errors spiked in my capstone app.
 
 | Problem in the weak version | Fix in the strong version |
 |---|---|
-| "We" hides the candidate (5 times) | Every action starts with "I" |
+| "We" hides the candidate (4 times) | Every action starts with "I" |
 | No stakes | A slipped release and an hour a day lost |
 | No numbers | 40 to 24 minutes, 20% to under 2%, 600 runs, 9 tests |
 | No ownership signal | Not her project; she asked for time and kept her own deadline |
@@ -325,6 +325,8 @@ His note: "See how that hits Customer Obsession, Bias for Action, AND Ownership?
 ## The 50 most common questions, by theme
 
 Deduplicated from the [Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview-questions/), [awesome-behavioral-interviews](https://github.com/ashishps1/awesome-behavioral-interviews), [IGotAnOffer](https://igotanoffer.com/en/advice/amazon-leadership-principles), [Amazon's interview pages](https://www.amazon.jobs/content/en/how-we-hire/interview-loop), [Google's interview tips](https://www.google.com/about/careers/applications/interview-tips/), Hello Interview, interviewing.io, PracHub, and Jugal's posts. The "use this story" column points to the story types in step 3.
+
+Do this: copy the tables into your notes and add the title of your own story to every row. A blank row means you need another story, or the [bridge script](index.md#scripts-for-hard-moments) for that question.
 
 ### Introduction and motivation
 
@@ -426,7 +428,7 @@ Deduplicated from the [Tech Interview Handbook](https://www.techinterviewhandboo
 | 49 | Tell me about a difficult customer or user. | User first | Empathy, problem solving |
 | 50 | Tell me about a time you put the user first or pushed back for the user. | User first | User focus |
 
-> **Tip:** Laszlo Bock, Google's former head of people operations, advised writing out your top 20 likely questions with three answers for each, so a second interviewer hears a different story ([archived Google page](https://web.archive.org/web/20200504185427/https://careers.google.com/how-we-hire/interview/)). Do that for questions 8, 16, 21, 22, 26, 30, and 36.
+> **Tip:** Google's old careers page told candidates to write down the top 20 likely questions and three answers for each, so the next interviewer hears a different story ([archived Google page](https://web.archive.org/web/20200504185427/https://careers.google.com/how-we-hire/interview/)). Do that for questions 8, 16, 21, 22, 26, 30, and 36.
 
 ## Rehearse until it sounds natural
 
@@ -448,7 +450,7 @@ Deduplicated from the [Tech Interview Handbook](https://www.techinterviewhandboo
 
 - [Amazon Leadership Principles STAR worksheet (PDF)](https://duaa2xs5z3ldn.cloudfront.net/assets/McsJv4WXKWb_FlRc_LRX21Ro-EvUopwEW-LeadershipPrinciplesSTARtemplate.pdf): Amazon's official 4-page story worksheet. How to use it: fill it before any Amazon round; it works for other companies too.
 - [interviewing.io: Stop memorizing STAR](https://interviewing.io/blog/stop-memorizing-star-for-behavioral-interviews-start-selecting-better-stories): brainstorm, scope, evidence, filter, title. How to use it: follow it for steps 1 to 7 above.
-- [awesome-behavioral-interviews](https://github.com/ashishps1/awesome-behavioral-interviews): prep grid image, 50 questions with sample answers. How to use it: copy the grid; use the questions for drills.
+- [awesome-behavioral-interviews](https://github.com/ashishps1/awesome-behavioral-interviews): prep grid image, 51 questions with sample answers. How to use it: copy the grid; use the questions for drills. The sample answers are generic (one claims "over five years of experience"), so never reuse them.
 - [Behavioral Interview Preparation Grid (Notion)](https://ashishps.notion.site/ashishps/Behavioral-Interview-Preparation-Grid-95f97d42f3494d86a3a683752c4b54b5): duplicable grid. How to use it: duplicate it and fill one column per story.
 - [Byte by Byte: behavioral interviews](https://www.byte-by-byte.com/behavioral-interviews/): grid-first method with short answers. How to use it: read its first three steps.
 - [Andrew Yeung: Your behavioral story bank](https://www.andrew.today/p/your-behavioral-story-bank): spreadsheet method for a large story library. How to use it: optional, if you prefer a spreadsheet.

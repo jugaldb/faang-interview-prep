@@ -14,7 +14,7 @@ The 25 patterns behind most big tech coding questions. Each one has the cues tha
 6. **Write a cheat-sheet page for the pattern** with the [pattern cheat sheet template](how-to-practice.md#pattern-cheat-sheet-template): cues, your template, 2 anchor problems with a one-line insight each, and your usual bug.
 7. **After all 25, mix.** Open unseen problems and name the pattern within 2 minutes, before you write code.
 
-Problems marked Premium need LeetCode Premium. This page avoids them. All templates below were run against test inputs before publishing.
+Every linked problem is free on LeetCode (checked Oct 4, 2026). Every template below was run against test inputs before publishing.
 
 ## Find the pattern from the problem
 
@@ -52,7 +52,7 @@ Read the problem, then scan this table. Sean Prashad's version of this idea, the
 | Count ways or best value, the same subproblems repeat | Dynamic programming | [Dynamic programming](#dynamic-programming) |
 | Nothing above fits | "Map/Set for O(1) time & O(n) space" or "Sort input for O(nlogn) time and O(1) space" | [Hashing](#hashing) |
 
-The input size narrows it further. n up to 20 points to backtracking or bitmask DP. n of 10^5 or more needs O(n log n) or better. Full table: [Pick the target from the input size](topics.md#pick-the-target-from-the-input-size).
+The input size narrows it further: n up to 20 points to backtracking or bitmask DP, and n of 10^5 or more needs O(n log n) or better. Full table: [Pick the target from the input size](topics.md#pick-the-target-from-the-input-size).
 
 ## Hashing
 
@@ -63,7 +63,7 @@ Use it when:
 - You group items that share a property (anagrams, same letter pattern).
 - The input is not sorted and the brute force compares every pair.
 
-Watch out: a hash map costs O(n) extra space. If the input is already sorted, [two pointers](#two-pointers) does the job in O(1) space.
+> **Watch out:** a hash map costs O(n) extra space. If the input is already sorted, [two pointers](#two-pointers) does the job in O(1) space.
 
 ```python
 from collections import defaultdict
@@ -106,7 +106,7 @@ Use it when:
 - You remove, move or partition elements in place.
 - You compare from both ends, as in a palindrome check.
 
-Watch out: for 3Sum, sort, fix one number, run two pointers on the rest, and skip duplicates at both levels.
+> **Watch out:** for 3Sum, sort, fix one number, run two pointers on the rest, and skip duplicates at both levels.
 
 ```python
 def two_sum_sorted(nums, target):
@@ -152,7 +152,7 @@ Use it when:
 - A sequence where each value points to the next one (happy numbers, values used as indices).
 - You must use O(1) extra space.
 
-Watch out: "kth node from the end" uses the same two pointers with a fixed gap of k, both moving one step at a time.
+> **Watch out:** "kth node from the end" uses the same two pointers with a fixed gap of k, both moving one step at a time.
 
 ```python
 def middle_node(head):
@@ -197,7 +197,7 @@ Use it when:
 - The window has a fixed size k.
 - You can update the window's state in O(1) when one element enters or leaves.
 
-Watch out: negative numbers break "shrink while the sum is too big". Use [prefix sums](#prefix-sums) instead.
+> **Watch out:** negative numbers break "shrink while the sum is too big". Use [prefix sums](#prefix-sums) instead.
 
 ```python
 from collections import Counter
@@ -246,7 +246,7 @@ Use it when:
 - You count subarrays with sum k, divisible by k, or with equal 0s and 1s, and negatives are allowed.
 - You apply many range updates, then read once (a difference array).
 
-Watch out: seed the hash map with `{0: 1}`. Without it you miss subarrays that start at index 0.
+> **Watch out:** seed the hash map with `{0: 1}`. Without it you miss subarrays that start at index 0.
 
 ```python
 from collections import defaultdict
@@ -293,7 +293,7 @@ Use it when:
 - You merge, insert, intersect, or count overlapping intervals.
 - You need the minimum number of rooms, arrows or removals.
 
-Watch out: ask whether [1, 2] and [2, 3] overlap ([TIH: Interval](https://www.techinterviewhandbook.org/algorithms/interval/)). Sort by start to merge. Sort by end to keep the most non-overlapping intervals.
+> **Watch out:** ask whether [1, 2] and [2, 3] overlap ([TIH: Interval](https://www.techinterviewhandbook.org/algorithms/interval/)). Sort by start to merge. Sort by end to keep the most non-overlapping intervals.
 
 ```python
 import heapq
@@ -342,7 +342,7 @@ Use it when:
 - You must find the missing number, the duplicate, or the first missing positive.
 - O(1) extra space is required, so a set is not allowed.
 
-Watch out: the other O(1)-space trick marks a value as seen by making `nums[abs(x) - 1]` negative. Know both.
+> **Watch out:** the other O(1)-space trick marks a value as seen by making `nums[abs(x) - 1]` negative. Know both.
 
 ```python
 def first_missing_positive(nums):
@@ -379,7 +379,7 @@ Use it when:
 - You compare or reorder the two halves of a list.
 - You must use O(1) extra memory.
 
-Watch out: use a dummy node in front of the head whenever the head can change.
+> **Watch out:** use a dummy node in front of the head whenever the head can change.
 
 ```python
 class ListNode:
@@ -432,7 +432,7 @@ Use it when:
 - **Monotonic stack:** you need the next greater or next smaller element, days until a warmer day, a stock span, or the largest rectangle.
 - **Monotonic deque:** you need the max or min of every sliding window.
 
-Watch out: store indices on the stack, not values. You almost always need the distance between positions.
+> **Watch out:** store indices on the stack, not values. You almost always need the distance between positions.
 
 ```python
 def is_valid(s):                                 # stack: matching
@@ -481,7 +481,7 @@ Use it when:
 - You need the first or last position of a value, an insert position, or a peak.
 - **On the answer:** "minimize the maximum" or "the smallest speed, capacity or day count that works", and a yes/no check is monotonic: if x works, every larger x works too.
 
-Watch out: use one template for every variant: find the first index where a condition becomes true, on a half-open range. Most bugs come from mixing templates. In Java and C++, write `lo + (hi - lo) / 2` to avoid overflow.
+> **Watch out:** use one template for every variant: find the first index where a condition becomes true, on a half-open range. Most bugs come from mixing templates. In Java and C++, write `lo + (hi - lo) / 2` to avoid overflow.
 
 ```python
 def lower_bound(nums, target):                   # first index with nums[i] >= target
@@ -583,7 +583,7 @@ Use it when:
 - A node's answer depends on its children's answers ("return two things from a subtree").
 - The tree is a BST and you validate it, find the kth smallest, or find an LCA. In-order traversal of a BST is sorted.
 
-Watch out: very deep trees can hit Python's default recursion limit of about 1000 ([TIH: Recursion](https://www.techinterviewhandbook.org/algorithms/recursion/)). Say so, or use an explicit stack.
+> **Watch out:** very deep trees can hit Python's default recursion limit of about 1000 ([TIH: Recursion](https://www.techinterviewhandbook.org/algorithms/recursion/)). Say so, or use an explicit stack.
 
 ```python
 class TreeNode:
@@ -638,7 +638,7 @@ Use it when:
 - You check whether two nodes connect, count components, or copy a graph.
 - Regions touch the border (start the search from the border cells).
 
-Watch out: build the adjacency list first, and add both directions for an undirected edge. The templates below use an explicit stack, so deep graphs cannot hit Python's recursion limit.
+> **Watch out:** build the adjacency list first, and add both directions for an undirected edge. The templates below use an explicit stack, so deep graphs cannot hit Python's recursion limit.
 
 ```python
 from collections import defaultdict
@@ -708,7 +708,7 @@ Use it when:
 - The graph is a set of states: lock combinations, word ladders, a board game.
 - Something spreads from many sources at once (rot, distance to the nearest 0).
 
-Watch out: mark a cell visited when you add it to the queue, not when you pop it. Otherwise the same cell enters the queue many times.
+> **Watch out:** mark a cell visited when you add it to the queue, not when you pop it. Otherwise the same cell enters the queue many times.
 
 ```python
 from collections import deque
@@ -760,7 +760,7 @@ Use it when:
 - You must say whether all tasks can finish (a cycle check in a directed graph).
 - You order letters from a sorted list of words in an unknown alphabet.
 
-Watch out: if the order you build has fewer than n nodes, the graph has a cycle and no valid order exists.
+> **Watch out:** if the order you build has fewer than n nodes, the graph has a cycle and no valid order exists.
 
 ```python
 from collections import defaultdict, deque
@@ -807,7 +807,7 @@ Use it when:
 - One edge creates a cycle (a redundant connection).
 - You build a minimum spanning tree with Kruskal: sort edges by weight, union if not yet connected.
 
-Watch out: use both path compression and union by size. Without them, find can degrade to O(n).
+> **Watch out:** use both path compression and union by size. Without them, find can degrade to O(n).
 
 ```python
 class DSU:
@@ -899,7 +899,7 @@ Use it when:
 - **K-way merge:** you merge k sorted lists, or find the kth smallest across sorted rows.
 - **Two heaps:** a running median, or two pools such as free and busy servers.
 
-Watch out: Python's `heapq` is a min-heap. For a max-heap, push negated values. Built-in max-heap functions exist only from Python 3.14 ([heapq docs](https://docs.python.org/3/library/heapq.html)), so do not rely on them.
+> **Watch out:** Python's `heapq` is a min-heap. For a max-heap, push negated values. Built-in max-heap functions exist only from Python 3.14 ([heapq docs](https://docs.python.org/3/library/heapq.html)), so do not rely on them.
 
 ```python
 import heapq
@@ -943,7 +943,7 @@ class MedianFinder:                              # two heaps
         return (-self.low[0] + self.high[0]) / 2
 ```
 
-Top K is O(n log k). K-way merge is O(N log k) for N total items. Each median insert is O(log n). Learn it: [Hello Interview: Heap](https://www.hellointerview.com/learn/code/heap/overview) and [TIH: Heap](https://www.techinterviewhandbook.org/algorithms/heap/).
+Top K is O(n log k), k-way merge is O(N log k) for N total items, and each median insert is O(log n). Learn it: [Hello Interview: Heap](https://www.hellointerview.com/learn/code/heap/overview) and [TIH: Heap](https://www.techinterviewhandbook.org/algorithms/heap/).
 
 Problems, easy to hard:
 
@@ -966,7 +966,7 @@ Use it when:
 - n is small, often 20 or less.
 - It is a constraint puzzle: N-Queens, Sudoku, word search.
 
-Watch out: append a copy (`path[:]`), not `path` itself. Undo every change right after the recursive call. For permutations, replace `start` with a `used` array.
+> **Watch out:** append a copy (`path[:]`), not `path` itself. Undo every change right after the recursive call. For permutations, replace `start` with a `used` array.
 
 ```python
 def subsets_with_dup(nums):
@@ -986,7 +986,7 @@ def subsets_with_dup(nums):
     return result
 ```
 
-Subsets: O(n * 2^n). Permutations: O(n * n!). Recursion depth O(n). Learn it: [Hello Interview: Backtracking](https://www.hellointerview.com/learn/code/backtracking/overview) or [Striver's recursion and backtracking playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9).
+Subsets cost O(n * 2^n) and permutations O(n * n!), with O(n) recursion depth. Learn it: [Hello Interview: Backtracking](https://www.hellointerview.com/learn/code/backtracking/overview) or [Striver's recursion and backtracking playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9).
 
 Problems, easy to hard:
 
@@ -1008,7 +1008,7 @@ Use it when:
 - You can argue a local choice is never worse than any other: the earliest end, the farthest reach, the smallest item that fits.
 - Sean Prashad: "If need to count/divide optimally", try "Greedy, Dynamic programming".
 
-Watch out: if you cannot say why the choice is safe, test a small counterexample. If it fails, switch to [dynamic programming](#dynamic-programming).
+> **Watch out:** if you cannot say why the choice is safe, test a small counterexample. If it fails, switch to [dynamic programming](#dynamic-programming).
 
 ```python
 def can_jump(nums):
@@ -1054,7 +1054,7 @@ Use it when:
 - You search for many words in a grid at once.
 - You want the maximum XOR of two numbers (a trie over bits).
 
-Watch out: in Word Search II, delete words from the trie once found, or the same grid path gets explored again and again.
+> **Watch out:** in Word Search II, delete words from the trie once found, or the same grid path gets explored again and again.
 
 ```python
 class Trie:
@@ -1104,7 +1104,7 @@ Use it when:
 - You count set bits, check a power of two, or reverse bits.
 - You add without `+`, or treat subsets as bitmasks.
 
-Watch out: Python integers never overflow. For 32-bit problems, mask with `0xFFFFFFFF` and handle the sign yourself.
+> **Watch out:** Python integers never overflow. For 32-bit problems, mask with `0xFFFFFFFF` and handle the sign yourself.
 
 ```python
 def single_number(nums):                         # pairs cancel: x ^ x == 0, x ^ 0 == x
@@ -1148,7 +1148,7 @@ Use it when:
 - You change a matrix in place (set zeroes, game of life).
 - You search a matrix sorted by rows and columns.
 
-Watch out: for in-place updates, encode the old and new state in the same cell, or use the first row and column as markers, so you do not read values you already changed.
+> **Watch out:** for in-place updates, encode the old and new state in the same cell, or use the first row and column as markers, so you do not read values you already changed.
 
 ```python
 def spiral_order(matrix):

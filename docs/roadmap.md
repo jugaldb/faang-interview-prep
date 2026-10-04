@@ -175,4 +175,12 @@ Comp basics, scripts and comparing offers.
 
 </div>
 
+## Week-by-week problem plans
+
+The Core DSA phase asks you to finish one main list. If you want the problems laid out by day or week, follow one of these and tick the matching pattern tasks as you finish each block.
+
+- [Michael's FAANG 10-Week Roadmap](https://jugaldb.substack.com/p/michaels-ultimate-faang-10-week-roadmap): 5 to 6 linked LeetCode problems a week, grouped by pattern, from Jugal's interview with Michael, CEO of Simplify. How to use it: do one week's set each week and log every problem. For 5 more problems on each of 15 patterns, use [Michael's Guide to FAANG DSA](https://jugaldb.substack.com/p/michaels-guide-to-faang-dsa).
+- [Master DSA with patterns](https://jugaldb.substack.com/p/company-wise-dsa-patterns): Jugal's day-by-day 60-day plan with LeetCode links by company and pattern. How to use it: budget 60 to 90 minutes a day, and on days 56 and 57 solve 4 problems a day from a target company's list.
+- [I Cleared Amazon, Google, and Meta With Only 120 LeetCode Problems](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta): the 60-day block plan behind Jugal's 120 problems, plus his pattern map for 8 companies. How to use it: move to the next block only when you can name each pattern from the problem statement alone.
+
 Next: [What jobs to apply for](jobs/index.md)

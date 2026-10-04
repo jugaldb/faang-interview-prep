@@ -1,6 +1,6 @@
 # Microsoft behavioral interview
 
-For interns, new grads (level 59 or 60) and early-career engineers (61 or 62) interviewing at Microsoft. When you finish, you will have STAR(R) stories for growth mindset and Microsoft's values, a strengths and weaknesses answer, and a plan for the behavioral minutes at the start of each round.
+For Microsoft interns, new grads (level 59 or 60) and early-career engineers (61 or 62). You finish with STAR(R) stories for growth mindset and Microsoft's values, a strengths and weaknesses answer, and a plan for the behavioral minutes at the start of each round.
 
 ## What Microsoft scores
 
@@ -11,7 +11,7 @@ Microsoft publishes two lists. Prepare stories for both.
 | Values | Respect, Integrity, Accountability | [Microsoft About page](https://www.microsoft.com/en-us/about) |
 | Culture | Growth mindset, Customer obsessed, Diverse and inclusive, One Microsoft | [Microsoft Careers culture page](https://careers.microsoft.com/v2/global/en/culture) |
 
-Microsoft's interview tips describe growth mindset as being "true learners who can acquire new skills rapidly" ([interview tips](https://careers.microsoft.com/v2/global/en/hiring-tips/interview-tips.html)). This is the trait most stories should show.
+Microsoft's interview tips describe growth mindset as being "true learners who can acquire new skills rapidly" ([interview tips](https://careers.microsoft.com/v2/global/en/hiring-tips/interview-tips.html)). Make it the trait at least 2 of your stories show.
 
 | Trait | What it looks like in an answer | Story to prepare |
 |---|---|---|
@@ -50,9 +50,9 @@ Microsoft usually has no single behavioral round. Behavioral questions are mixed
 | Stage | Behavioral content | Source |
 |---|---|---|
 | Official structure | Most interviews include 2 to 4 conversations with potential teammates and cross-functional colleagues, each up to an hour | [Microsoft hiring tips](https://careers.microsoft.com/v2/global/en/hiring-tips) |
-| Students (interns, new grads) | An initial interview and, if selected, a final interview. All virtual. Expect behavioral and technical questions in each | [Microsoft student interviewing](https://careers.microsoft.com/v2/global/en/hiring-tips/student-interviewing) |
+| Students (interns, new grads) | An initial interview and, if selected, a final interview. All virtual. Expect behavioral and technical questions in each. Aced says a student process can take up to two months | [Microsoft student interviewing](https://careers.microsoft.com/v2/global/en/hiring-tips/student-interviewing), [Aced](https://www.aced.io/blog/microsoft-interview-process) |
 | Intern final round | Usually 2 technical interviews on the same day, with resume and project questions alongside coding. Some candidates get a third behavioral round (reported). Microsoft says to allow up to 90 days for a decision and that it cannot speed up review for competing offer deadlines | [University internship FAQ](https://careers.microsoft.com/v2/global/en/universityinternship), [intern interviews](../internships/intern-interviews.md) |
-| Full-time loop | 4 to 5 back-to-back interviews of 45 to 60 minutes, each mixing behavioral, resume and coding or design. Some 2025 to 2026 candidate reports show 3 to 4 | [Aced](https://www.aced.io/blog/microsoft-interview-process) |
+| Full-time loop | Aced describes 4 to 6 back-to-back interviews of 45 to 60 minutes, each mixing behavioral, resume and coding or design. Many 2025 to 2026 candidate reports show 3 to 4, usually on Microsoft Teams | [Aced](https://www.aced.io/blog/microsoft-interview-process), candidate reports |
 | AA ("As Appropriate") round | A final interview with a senior person, usually only if earlier rounds go well. Mix of behavioral, project discussion and sometimes coding or low-level design (candidate reports, 2025) | [GfG: SDE-1 Hyderabad](https://www.geeksforgeeks.org/interview-experiences/microsoft-interview-experience-for-sde-1-hyderabad/), [GfG: SDE II level 61](https://www.geeksforgeeks.org/interview-experiences/microsoft-interview-experience-for-sde-ii-level-61/) |
 
 Three more facts shape how you prepare:
@@ -84,10 +84,10 @@ About 6 hours in total.
 3. **Day 2 (90 min).** Rewrite each story in STAR(R). Add one Reflection line to every story: "Next time I would...".
 4. **Day 2 (30 min).** Map one story each to Respect, Integrity and Accountability, and two stories to growth mindset (template below).
 5. **Day 3 (30 min).** Write your strengths and weaknesses answer now. interviewing.io notes many candidates struggle with this question because they invent an answer on the spot.
-6. **Day 3 (20 min).** Pick one Microsoft product you use and one concrete improvement. This is a common question.
+6. **Day 3 (20 min).** Pick one Microsoft product you use and one concrete improvement. Aced lists "What's your favorite Microsoft product? How would you improve it?" as a Microsoft question. Template below.
 7. **Day 3 (20 min).** Write "why Microsoft, why this team" (template below). Read the mission on the [About page](https://www.microsoft.com/en-us/about) first.
 8. **Day 4.** Say every story out loud, timed to 2 minutes. Cut setup to under 30 seconds.
-9. **Day 5.** Do 1 to 2 mocks on [Aced Practice](https://www.aced.io/practice) (free). Ask your partner to open with 2 behavioral questions, then give you a coding problem, like a real Microsoft round.
+9. **Day 5.** Do 1 to 2 mocks on [Aced Practice](https://www.aced.io/practice) (formerly Pramp; free monthly credits). Ask your partner to open with 2 behavioral questions, then give you a coding problem, like a real Microsoft round. Record it and check that the behavioral part stayed under 15 minutes.
 10. **Night before.** Run the checklist at the end of this page.
 
 ## Growth mindset: three stories to have
@@ -153,8 +153,9 @@ Microsoft's interview tips ask for a vision beyond the role. Line 4 covers it in
 | 10 | Where do you see yourself in five years? | Vision beyond the role | Aced |
 | 11 | What's your favorite Microsoft product? How would you improve it? | Customer obsessed | Aced |
 | 12 | What are your top 2 strengths and weaknesses? | Self-awareness | [interviewing.io](https://interviewing.io/guides/hiring-process/microsoft) |
-| 13 | What was the most challenging part of your project, and how did you solve it? | Problem solving | Candidate report, level 60 loop, 2026 |
+| 13 | What was the most challenging part of your project, and how did you solve it? | Problem solving | Candidate report, level 60 loop, Feb 2026 |
 | 14 | What exactly did you build on this project, and what was the measurable impact? | Accountability | Candidate report, 2025 to 2026 |
+| 15 | Tell me about your hackathon experience. | Growth mindset | Candidate report, AA round, level 60, Nov 2025 |
 
 AI practice: Jugal's prompt "Give me 5 PM interview questions for Microsoft." works for any role. Swap PM for SWE, then use "Critique this answer: Tell me about a time you failed." on your own written answer ([The job hunt I didn't burn out doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing)).
 
@@ -206,13 +207,14 @@ Edit what it gives you. Jugal's rule: AI gets you a 70% draft, and the last 30% 
 | [Microsoft university internship FAQ](https://careers.microsoft.com/v2/global/en/universityinternship) | Official intern FAQ: virtual interviews, referrals not required, up to 90 days for a decision | Read before you follow up with a recruiter |
 | [Microsoft students page](https://careers.microsoft.com/v2/global/en/students) | Internships, Explore, Discovery and other programs | First and second years: check Explore |
 | [interviewing.io Microsoft guide](https://interviewing.io/guides/hiring-process/microsoft) | Team-dependent process and behavioral weight | Read the section on common mistakes |
-| [Aced: Microsoft interview process](https://www.aced.io/blog/microsoft-interview-process) (freemium) | Behavioral questions and competency list | Drill the questions out loud |
+| [Aced: Microsoft interview process](https://www.aced.io/blog/microsoft-interview-process) (freemium) | 14 behavioral questions and a competency list | Drill the questions out loud |
 | [GfG: Microsoft SDE-1 Hyderabad](https://www.geeksforgeeks.org/interview-experiences/microsoft-interview-experience-for-sde-1-hyderabad/) | Candidate report naming the AA round (Jul 2025) | Read to see how a final AA round can mix coding and behavioral |
 | [GfG: Microsoft SDE II level 61](https://www.geeksforgeeks.org/interview-experiences/microsoft-interview-experience-for-sde-ii-level-61/) | Candidate report, 60-minute AA round (Oct 2025) | For 1 to 3 year candidates targeting 61 or 62 |
 | [Jugal: Behavioral interview preparation](https://jugaldb.substack.com/p/behavioral-interview-preparation) | STAR basics, 2 to 3 minute answers, company question lists | Use the timing rule. At Microsoft aim for the low end |
 | [Jugal: Craft the elevator pitch](https://jugaldb.substack.com/p/craft-the-elevator-pitch-that-gets) | 6-step pitch | Use steps 2 to 4 for "Tell me about yourself" |
-| [Aced Practice](https://www.aced.io/practice) | Free peer mocks | Run one mixed behavioral plus coding mock |
+| [Aced Practice](https://www.aced.io/practice) (freemium) | Peer mocks (formerly Pramp), free monthly credits | Run one mixed behavioral plus coding mock |
 | [Free Mock Interview](https://freemockinterview.com/) | Free AI voice mock with a report | Find where you ramble past 2 minutes |
+| [Tech Interview Handbook: final questions](https://www.techinterviewhandbook.org/final-questions/) | Questions to ask, grouped by topic | Pick 2 per interviewer, different for each round |
 
 Related pages: [Microsoft company guide](../companies/microsoft.md), [behavioral basics](index.md), [story bank](story-bank.md), [low-level design](../system-design/low-level-design.md) (for 61 and 62 loops).
 

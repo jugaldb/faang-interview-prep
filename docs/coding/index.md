@@ -83,7 +83,7 @@ How to spend the hours:
 
 ## The 12-week learning order
 
-Coding only, about 7 to 10 hours a week. It matches the 12-week plan on [Start here](../start-here.md#12-week-plan-student-with-classes). Starting from zero? Use the [16-week plan](../start-here.md#16-week-plan-starting-from-zero), which spends extra weeks on the same order.
+Coding only, about 7 to 10 hours a week, matching the 12-week plan on [Start here](../start-here.md#12-week-plan-student-with-classes). Starting from zero? Use the [16-week plan](../start-here.md#16-week-plan-starting-from-zero), which spends extra weeks on the same order.
 
 | Week | Topics to learn ([Topics](topics.md)) | Patterns to drill ([Patterns](patterns.md)) | New problems | Done when |
 |---|---|---|---|---|

@@ -1,13 +1,15 @@
 # How behavioral interviews work
 
-For interns, new grads, and engineers with 0 to 3 years of experience. By the end you will know how the round is graded, how to time a STAR answer, and you will have a 5-step plan that ends with 8 to 10 rehearsed stories.
+For interns, new grads, and engineers with 0 to 3 years of experience. You leave with the grading rubric, a timed STAR skeleton, and a 2-week plan that ends with 8 to 10 rehearsed stories.
 
 ## Why this round decides offers
 
-- Steve Huynh, an ex-Amazon Principal Engineer who ran about 1,000 interviews (about 600 as a Bar Raiser), says candidates who missed offers rarely lacked technical skill. They lost on how they presented their work. He suggests moving about 10 of your 80 to 100 prep hours to stories ([Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)).
+- Steve Huynh, an ex-Amazon Principal Engineer and Bar Raiser, sat on nearly a thousand interview loops. He writes that candidates who missed offers "seldom failed because they lacked technical skill." His fix: if you plan 80 hours of prep, move 10 of them to stories ([Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)).
 - Hello Interview reports that most down-leveling decisions come from the behavioral round, not from technical gaps ([Hello Interview](https://www.hellointerview.com/blog/how-behavioral-interviews-really-work)).
 - At Amazon, about half of an SDE loop is Leadership Principle questions ([About Amazon](https://www.aboutamazon.com/news/workplace/amazon-interview-guide)). Each interviewer typically asks 2 or 3 of them ([Amazon SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)).
-- When I was prepping for final rounds at Amazon and Meta, I asked friends at Google, Amazon, and Meta where strong candidates fail. The pattern was the same: the behavioral round, not coding ([Why Smart Candidates Still Fail FAANG Interviews](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang)).
+- When I was prepping for final rounds at Amazon and Meta, I asked friends at Google, Amazon, and Meta where strong candidates fail. The answer was the same: the behavioral round, not coding ([Why Smart Candidates Still Fail FAANG Interviews](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang)).
+
+Do this now: put 10 to 12 hours of story prep on your calendar over the next 2 weeks, then follow [the 5-step prep plan](#the-5-step-prep-plan).
 
 ## How the round is scored
 
@@ -29,7 +31,7 @@ One interviewer does not decide alone: a debrief or committee reviews all the no
 
 ### The 8 competencies most rubrics test
 
-From the Tech Interview Handbook rubric, written by an ex-Meta engineering manager. A typical interview asks 5 or 6 questions and goes deep on each.
+From the [Tech Interview Handbook rubric](https://www.techinterviewhandbook.org/behavioral-interview-rubrics/) by Lior Neu-ner, an ex-Meta engineering manager. A typical interview asks 5 or 6 questions and goes deep on each.
 
 | Competency | Typical question | A strong junior answer shows |
 |---|---|---|
@@ -42,6 +44,8 @@ From the Tech Interview Handbook rubric, written by an ex-Meta engineering manag
 | Growth | Tell me about critical feedback you received. | You changed a behavior and can show the later result |
 | Communication | Explain a technical topic to a non-engineer. | Short, clear, adjusted to the listener |
 
+Do this: copy the 8 competencies into a doc and write one story idea next to each. Any row you leave blank is the first gap to fill in [Build your story bank](story-bank.md).
+
 ### What junior scope sounds like
 
 | Level | Scope of impact in your stories | Source |
@@ -52,7 +56,7 @@ From the Tech Interview Handbook rubric, written by an ex-Meta engineering manag
 
 Hello Interview's example of a junior-level conflict is a code review debate about how to structure a class. Small scope is fine. Vague is not.
 
-Check every story against Huynh's four dimensions ([Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)):
+Then score each story on Huynh's four dimensions before you rehearse it ([Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)):
 
 | Dimension | Ask of your story | Entry-level target |
 |---|---|---|
@@ -128,7 +132,7 @@ Budget 10 to 12 hours over 2 weeks. That matches Huynh's suggestion of about 10 
 3. **Write each story as a STAR card with a number (3 hours).** Use the [story card](story-bank.md#step-5-write-each-story-on-a-card). Map each story to 2 or 3 company values. Then do an "I" audit: replace every "we" that hides your own action.
 4. **Rehearse out loud and record (2 hours).** Time each story, then have a friend ask "why?" and "what exactly did you do?" five times per story.
     - Jugal's rule: "Record yourself. Watch it back. Cringe. Do it again. The first time you tell these stories, they'll sound scripted. By the tenth time, they'll sound natural." ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the))
-5. **Run 2 or 3 mocks and fix the weakest story (2 to 3 hours).** Use a peer, an AI tool, or a paid interviewer from the resources below, and ask your partner to grade each answer as poor, borderline, solid, or outstanding.
+5. **Run 2 or 3 mocks and fix the weakest story (2 to 3 hours).** Book a free peer on [Aced Practice](https://www.aced.io/practice), do one AI session on [Free Mock Interview](https://freemockinterview.com/), or pay for one on [interviewing.io](https://interviewing.io/). Ask your partner to grade each answer as poor, borderline, solid, or outstanding. More options: [Mock interviews](../coding/mock-interviews.md).
     - After each mock, ask two of Jugal's review questions: "Did I talk enough?" and "Would you hire me based on this interview?"
 
 ### Two-week schedule
@@ -173,6 +177,8 @@ Budget 10 to 12 hours over 2 weeks. That matches Huynh's suggestion of about 10 
 | Confidential details | Unreleased features, revenue numbers | Use public information or relative numbers | [About Amazon](https://www.aboutamazon.com/news/workplace/amazon-job-interview-mistakes) |
 | Invented stories | A story built to fit the question | Use a real story or say you have not faced it | [interviewing.io](https://interviewing.io/guides/amazon-leadership-principles) |
 
+Do this: play back each recorded story and tick off every row above it hits. Fix those lines before the next take.
+
 > **Watch out:** interviewing.io's advice on a missing story is that no answer is often better than a bad one. Use the bridge script below instead of inventing a story.
 
 ## Scripts for hard moments
@@ -202,7 +208,7 @@ After a long answer (once or twice per interview; idea from Amazon's loop page):
 
 ## Tell me about yourself
 
-The Tech Interview Handbook lists it among the three questions to prepare first ([Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview/)). Keep it to 60 to 90 seconds. Jugal's 6-step pitch (hook, introduce yourself, highlight value, align with the audience, call to action, practice) works here with small changes ([Craft the Elevator Pitch](https://jugaldb.substack.com/p/craft-the-elevator-pitch-that-gets)).
+The Tech Interview Handbook lists it among the three questions to prepare first, and its [self-introduction guide](https://www.techinterviewhandbook.org/self-introduction/) says it is almost always asked first ([Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview/)). Keep it to 60 to 90 seconds. Jugal's 6-step pitch (hook, introduce yourself, highlight value, align with the audience, call to action, practice) works here with small changes ([Craft the Elevator Pitch](https://jugaldb.substack.com/p/craft-the-elevator-pitch-that-gets)).
 
 ```text
 Present (20 s): I'm [name], a [year and degree] at [school] / [role] at [company].
@@ -214,11 +220,11 @@ Why here (20 s): I'm interested in [team or company] because [specific product,
 Hand-off (5 s): Happy to go deeper on any of those.
 ```
 
-For the 30-second career fair version, see [Career fairs](../outreach/career-fairs.md).
+Write it, read it aloud with a timer, and cut until it fits 90 seconds. For the 30-second career fair version, see [Career fairs](../outreach/career-fairs.md).
 
 ## Questions to ask at the end
 
-Prepare 3 per interviewer. Do not repeat the same question across a loop.
+Prepare 3 per interviewer. Do not repeat the same question across a loop. Pick from the list below or from the [Tech Interview Handbook's final questions](https://www.techinterviewhandbook.org/final-questions/).
 
 - What does success look like in this role in the first 90 days? ([Grow with Google](https://grow.google/grow-your-career/articles/interview-tips/))
 - What are the biggest challenges the team faces now, and how would this role help? (same source)
@@ -271,7 +277,9 @@ Free first.
 - [MIT CAPD: STAR method](https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/): STAR with a time split and worksheet. How to use it: time one story against the 20/10/60/10 split.
 - [Google interview tips](https://www.google.com/about/careers/applications/interview-tips/): Google's official behavioral guidance. How to use it: turn each heading into a row of your story grid.
 - [Google re:Work: structured interviewing](https://rework.withgoogle.com/intl/en/guides/a-guide-to-structured-interviewing-for-better-hiring-practices): how Google writes questions and rubrics. How to use it: read the section on behavioral versus hypothetical questions.
-- [ashishps1/awesome-behavioral-interviews](https://github.com/ashishps1/awesome-behavioral-interviews): tips, a prep grid, and 50 questions with sample answers. How to use it: use the questions as a drill bank, not the sample answers as scripts.
+- [ashishps1/awesome-behavioral-interviews](https://github.com/ashishps1/awesome-behavioral-interviews): tips, a prep grid, 51 questions with sample answers, and 16 questions to ask the interviewer. How to use it: use the questions as a drill bank, not the sample answers as scripts.
+- [Tech Interview Handbook: self introduction](https://www.techinterviewhandbook.org/self-introduction/): how to structure "Tell me about yourself". How to use it: draft your 60-second version with it, then compare to the template above.
+- [Austen McDonald: Getting the Most Out of Mock Behavioral Interviews](https://thebehavioral.substack.com/p/getting-the-most-out-of-mock-behavioral): a former Meta hiring committee chair on running mocks. How to use it: send it to your mock partner before the session.
 - [Free Mock Interview](https://freemockinterview.com/): free AI mock interviews with a feedback report, no login. How to use it: do one spoken session for your target role and read the report for rambling (Jugal recommends it in [this 30-day plan](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use)).
 - [Aced Practice](https://www.aced.io/practice) (formerly [Pramp](https://www.pramp.com/)): free peer mock interviews. How to use it: book 2 peer sessions and ask your partner to push on follow-ups.
 - [Hello Interview behavioral course](https://www.hellointerview.com/learn/behavioral/course/why-the-behavioral-matters) (freemium): decode, select, and deliver, built on CARL. How to use it: read the free chapters.

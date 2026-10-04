@@ -1,16 +1,16 @@
 # System design fundamentals cheat sheet
 
-For anyone with an HLD round, and useful for LLD too. When you finish you will have 50 concepts in your own words, the latency numbers, and an estimation sheet you can redo from memory.
+For anyone with an HLD round, and useful for LLD too. You end with 51 concepts in your own words, the latency numbers, and an estimation sheet you can redo from memory.
 
 ## How to use this page
 
 1. Work through one table per sitting. For each row, open the free link and read only the section on that concept.
 2. Close the tab and write the one-line meaning in your own words. If you cannot, read it again.
-3. Turn rows into flashcards. The [System Design Primer](https://github.com/donnemartin/system-design-primer) includes Anki flashcard decks you can import.
+3. Turn rows into flashcards, or import the System Design Primer's ready-made [Anki decks](https://github.com/donnemartin/system-design-primer#anki-flashcards). Review 10 minutes a day.
 4. Copy the [latency numbers](#latency-numbers-to-know) and the [estimation cheat sheet](#estimation-cheat-sheet) onto one page of notes.
 5. Before every mock, re-read the [trade-off table](#trade-offs-you-will-be-asked-to-defend).
 
-> **Tip:** You do not need all 50 for a new grad loop. If your loop is LLD-only, read the caching, rate limiting, idempotency and isolation-level rows, then move to [Low-level design](low-level-design.md).
+> **Tip:** A new grad loop does not need all 51. If your loop is LLD-only, read the caching, rate limiting, idempotency and isolation-level rows, then move to [Low-level design](low-level-design.md).
 
 ## Scale and performance
 
@@ -134,7 +134,7 @@ Name a real technology only if you can explain how it works inside. OpenAI inter
 | Monolith vs microservices | Small team, early product, interview default | Teams that must deploy and scale parts independently |
 | Retry vs fail fast | The call is idempotent and the failure looks temporary | The dependency is down: open the circuit breaker |
 
-For a URL shortener, also know why Hello Interview's breakdown uses a 302 redirect rather than a 301 ([breakdown](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly)).
+For a URL shortener, know why Hello Interview's [breakdown](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly) picks a 302 redirect over a 301. Browsers cache a 301, so later clicks skip your server. A 302 sends every click through you, so you can count clicks and change or expire links.
 
 ## Latency numbers to know
 

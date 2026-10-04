@@ -48,6 +48,12 @@ Processes change and most details below come from third-party guides and employe
 
 > **Tip:** Jugal's rule is to ask for a referral "only after you've actually talked" ([7 videos on networking](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to)). A 15-minute call turns a stranger into a referrer who can say something true about you.
 
+How Jugal picks whom to talk to ([How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting)):
+
+1. Companies whose products he uses, whose work he respects, and where he sees a realistic fit.
+2. Engineers, hiring managers, and senior team members, "not just recruiters". People in managerial or lead roles carry real weight, and most candidates never reach out to them ([How I Landed My Internship](https://jugaldb.substack.com/p/how-i-landed-my-internship-before)).
+3. The first goal is to learn how the team works, what it values, and whether you fit. "Referrals often follow naturally."
+
 ## What your referrer needs from you
 
 Send all of it in one message. Jugal: "Make the referral take them 60 seconds, not 10 minutes."
@@ -91,6 +97,8 @@ Applying to SWE Intern, ID 7712345, because she wants to work on Stripe's paymen
 8. When they say yes, send [R9](templates.md#r9-when-the-referrer-says-yes) so they never have to ask twice.
 9. If they say no or go quiet, thank them once and move on. Do not follow up a referral ask more than once.
 10. Log the referrer, date, and job ID in your tracker ([follow-up and tracking](follow-up-and-tracking.md)).
+
+> **Watch out:** Jugal's [Referral Engine](https://jugaldb.substack.com/p/the-referral-engine-n8n-hunter-gemini) drafts referral emails to HR and IT contacts it finds with Hunter. Those are cold asks to strangers, the weakest channel above. If you use it, keep it to 1 to 3 people per company and rewrite the first line of every draft ([n8n automation](n8n-automation.md)).
 
 ## After you are referred
 

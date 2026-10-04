@@ -233,7 +233,7 @@ Next: [apply to Job ID / email them by date / attend info session]
 3. Keep your pitch and 2 questions on a sticky note beside the camera.
 4. In group sessions, use the chat: paste the typed opener above with your job ID and LinkedIn.
 5. Note the names of speakers and reps. Screenshot the participant list where that is allowed; Jugal's networking guide suggests it for follow-ups ([Holy Grail of Networking](https://jugaldb.notion.site/The-Holy-Grail-of-Networking-A-Z-with-templates-1a0af2117b838027aa5cd47911f2a20f)).
-6. Send a thank-you to the speaker or rep within 24 hours. That message is how Jugal got his first internship.
+6. Send a thank-you to the speaker or rep within 24 hours.
 
 ## Conference expos
 
@@ -274,7 +274,7 @@ Thanks again,
 [LinkedIn]
 ```
 
-LinkedIn note (under 200 characters, the limit for a personalized invitation). Free accounts get 3 personalized notes a month, per [LinkedIn help](https://www.linkedin.com/help/linkedin/answer/a563153), so spend them on the reps you most want to hear from:
+LinkedIn note (under 200 characters, the limit for a personalized invitation). Free accounts get 3 to 5 personalized notes a month (LinkedIn's help pages give both numbers: [a563153](https://www.linkedin.com/help/linkedin/answer/a563153), [a550555](https://www.linkedin.com/help/billing/answer/a550555)), so spend them on the reps you most want to hear from:
 
 ```text
 Hi [Name], thanks for the chat at the [Company] booth at [Fair] about [topic]. I applied to [role] ([Job ID]) tonight. Would love to stay connected.

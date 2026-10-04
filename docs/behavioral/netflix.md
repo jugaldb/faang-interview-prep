@@ -1,12 +1,12 @@
 # Netflix behavioral interview
 
-For anyone interviewing at Netflix, where culture rounds can sink a strong technical loop. When you finish, you will have read the culture memo, written 8 stories (one per value), 2 feedback stories, and an honest view on the keeper test.
+For anyone interviewing at Netflix, where culture rounds can sink a strong technical loop. You finish having read the culture memo, with 8 stories (one per value), 2 feedback stories and an honest view on the keeper test.
 
 ## Start with the culture memo
 
-Netflix expects candidates to have read its culture memo ([interviewing.io Netflix guide](https://interviewing.io/guides/hiring-process/netflix)). The current memo was rewritten in 2024 and lives on [jobs.netflix.com/culture](https://jobs.netflix.com/culture), with a download button for the full text.
+Netflix expects candidates to have read its culture memo. Interviewers told interviewing.io that candidates who skip it fail the behavioral round ([interviewing.io Netflix guide](https://interviewing.io/guides/hiring-process/netflix)). The memo lives on [jobs.netflix.com/culture](https://jobs.netflix.com/culture). The [PDF version](https://jobs.netflix.com/netflix-culture.pdf) is 5 pages, footer "Last updated: June 2024".
 
-1. Open [the culture memo](https://jobs.netflix.com/culture) and read it end to end once (about 30 minutes).
+1. Download [the memo PDF](https://jobs.netflix.com/netflix-culture.pdf) and read it end to end once (5 pages, about 30 minutes).
 2. Read it again with a pen. Mark every phrase that describes a behavior, such as "farming for dissent".
 3. Copy the 8 values into the story grid below.
 4. Write one sentence per value: "The closest I have come to this is [moment]."
@@ -40,7 +40,7 @@ The value names are from the memo. The meanings are short paraphrases. Read the 
 
 | Phrase in the memo | Plain meaning | Story it suggests |
 |---|---|---|
-| Keeper test | Managers ask "if X wanted to leave, would I fight to keep them?" If not, Netflix parts ways | Your honest view of working under it (see below) |
+| Keeper test | Managers ask "if X wanted to leave, would I fight to keep them?" or "knowing everything I know today, would I hire X again?" If not, Netflix parts ways | Your honest view of working under it (see below) |
 | Context not control | Leaders share context and let people decide, instead of approving every step | A time you made a good call because someone gave you context |
 | Informed captain | One person owns each decision after gathering input | A decision you owned end to end |
 | Farming for dissent | Actively ask people to disagree before deciding | A time you asked for pushback before deciding |
@@ -53,16 +53,18 @@ The value names are from the memo. The meanings are short paraphrases. Read the 
 
 ## Round format
 
-Most public reports describe experienced-hire loops. If you are an intern or new grad, ask your recruiter which of these rounds you will have.
+Netflix publishes the shape of the student process. Most detailed public reports describe experienced-hire loops, so ask your recruiter which of the rounds below you will have.
 
 | Stage | What happens | Source |
 |---|---|---|
+| New grad (official) | A take-home assessment, then two interview rounds covering technical, role-specific and behavioral skills. Roles usually post in late September or October | [Netflix new grads page](https://jobs.netflix.com/careers/new-grads) |
+| Intern (official) | A take-home assessment, then about 2 to 3 interview rounds with the same three areas. Roles post from mid-August to early September | [Netflix internships page](https://jobs.netflix.com/careers/internships) |
 | Recruiter culture screen (about 30 min) | Motivation, how you read the memo, logistics such as visa sponsorship, location and compensation | [PracHub report](https://prachub.com/interview-questions/answer-netflix-culture-screen-questions) (freemium) |
-| Full loop (about 8 interviews) | Mostly system design, plus behavioral and coding. Often team-dependent, and you can interview with more than one team | [interviewing.io](https://interviewing.io/guides/hiring-process/netflix) |
-| Behavioral interviews | Run by hiring managers, 1 to 2 directors (one from a partner org) and an HR business partner | interviewing.io |
-| "Dream Team" interview | Run by a director | interviewing.io |
+| Experienced loop (about 8 interviews) | Mostly system design, then behavioral, then coding. Team-dependent, and you can interview with more than one team at once | [interviewing.io](https://interviewing.io/guides/hiring-process/netflix) |
+| Behavioral interviews | Usually run by an HR business partner (HRBP) and 1 to 2 directors (when there are two, one is from a partner org). Hiring managers do not lead them | interviewing.io |
+| "Dream Team" interview | A more intense behavioral round run by a director: scale, accountability, candor, risk-taking | interviewing.io |
 
-- interviewing.io states that you will be rejected if you fail the behavioral screen.
+- interviewing.io states that you will be rejected if you fail the behavioral screen. A strong coding round does not offset it.
 - Jugal's Netflix breakdown says the loop weighs culture fit and system design heavily, even for IC roles. His summary: Netflix equals ownership, design and culture alignment ([How to crack FAANG interviews, Part 5](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020)).
 - Search open roles on [Netflix jobs](https://explore.jobs.netflix.net/careers) and read the team's job description before the culture screen.
 
@@ -75,14 +77,14 @@ About 9 hours in total.
 3. **Day 3 (60 min).** Write 2 feedback stories with the template below: one where you gave hard feedback (upward if you can), one where you received it and changed.
 4. **Day 3 (30 min).** Write 1 informed captain story: you owned a decision, asked for dissent, then the team committed.
 5. **Day 4 (30 min).** Prepare the recruiter screen: why Netflix, why this team, your visa status, location preference and a compensation approach. See [negotiation scripts](../negotiation/scripts.md) for deflecting the number.
-6. **Day 4 (20 min).** Decide your honest view on the keeper test and on Netflix's content slate. Both come up.
+6. **Day 4 (20 min).** Decide your honest view on the keeper test and on Netflix's content slate. The memo raises both, and interviewing.io's recorded [Netflix behavioral mock](https://interviewing.io/mocks/netflix-behavioral-interview-1) includes a keeper test question. Watch it (free) and note how the interviewer probes.
 7. **Day 5 (45 min).** Practice the question bank out loud. Answer both halves of every feedback question.
 8. **Day 6 (30 min).** Prepare 2 questions for each director (list below).
-9. **Day 7.** Do 2 mocks on [Aced Practice](https://www.aced.io/practice) (free) or one paid mock on [interviewing.io](https://interviewing.io/mocks). Ask your partner to challenge your weakest value story.
+9. **Day 7.** Do 2 mocks on [Aced Practice](https://www.aced.io/practice) (formerly Pramp; free monthly credits) or one paid mock on [interviewing.io](https://interviewing.io/mocks). Ask your partner to challenge your weakest value story.
 
 ## Feedback stories
 
-Candor is the value Netflix tests most directly. Prepare both directions.
+4 of the 10 reported questions below are about feedback. Prepare both directions.
 
 ```text
 Giving feedback
@@ -190,16 +192,19 @@ Practice prompts from the memo (not reported questions, but they target the same
 
 | Resource | What it is | How to use it |
 |---|---|---|
-| [Netflix culture memo](https://jobs.netflix.com/culture) | Official memo (2024 rewrite): principles, values, keeper test | Read twice, then write one story per value |
+| [Netflix culture memo](https://jobs.netflix.com/culture) | Official memo: principles, values, keeper test | Read twice, then write one story per value |
+| [Netflix culture memo PDF](https://jobs.netflix.com/netflix-culture.pdf) | Same memo as a 5-page PDF (last updated June 2024) | Print it and write a story next to each value |
+| [Netflix new grads](https://jobs.netflix.com/careers/new-grads) and [internships](https://jobs.netflix.com/careers/internships) | Official student process and posting windows | Set a reminder for mid-August (interns) and late September (new grads) |
 | [Netflix jobs](https://explore.jobs.netflix.net/careers) | Current job search | Read your team's job description before the recruiter screen |
 | [interviewing.io Netflix guide](https://interviewing.io/guides/hiring-process/netflix) | Loop shape, who runs behavioral, Dream Team interview | Prepare questions for directors |
+| [interviewing.io Netflix behavioral mock](https://interviewing.io/mocks/netflix-behavioral-interview-1) | Free recorded senior behavioral mock with transcript: feedback, migrations, keeper test | Watch once. Note the feedback to say "I" alongside "we" and cut technical detail |
 | [PracHub Netflix behavioral list](https://prachub.com/companies/netflix/positions/software-engineer/categories/behavioral-and-leadership) (freemium) | Candidate-reported prompts, 2025 to 2026 | Practice the feedback prompts. Ignore the AI-written model answers |
 | [PracHub: give and receive feedback](https://prachub.com/interview-questions/how-do-you-give-and-receive-feedback) (freemium) | Verbatim feedback prompts | Answer both halves out loud |
 | [PracHub: culture screen](https://prachub.com/interview-questions/answer-netflix-culture-screen-questions) (freemium) | Recruiter culture screen scenario | Prepare logistics answers. Note it wrongly says the memo uses "freedom and responsibility" |
 | [Jugal: How to crack FAANG interviews, Part 5](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020) | Netflix patterns and a 5-week plan | Use for the coding and design side of the same loop |
 | [Jugal: How to prepare for behavioral interviews](https://jugaldb.substack.com/p/how-to-prepare-for-behavioral-interviews) | Story-first framework | Build your 6 to 7 core stories first, then add value stories |
-| [Aced Practice](https://www.aced.io/practice) | Free peer mocks | Ask your partner to play a skeptical director |
-| [interviewing.io mocks](https://interviewing.io/mocks) (paid) | Anonymous mocks with big tech interviewers | One mock before a Netflix loop, if budget allows |
+| [Aced Practice](https://www.aced.io/practice) (freemium) | Peer mocks (formerly Pramp), free monthly credits | Ask your partner to play a skeptical director |
+| [interviewing.io mock library](https://interviewing.io/mocks) | Free recorded mocks; live anonymous mocks are paid | One paid mock before a Netflix loop, if budget allows |
 
 Related pages: [Netflix company guide](../companies/netflix.md), [system design](../system-design/index.md) (most of the Netflix loop), [behavioral basics](index.md), [story bank](story-bank.md).
 

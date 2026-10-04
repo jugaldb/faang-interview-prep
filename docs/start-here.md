@@ -74,7 +74,7 @@ Do these in order. Steps 5 to 7 run every week once they start.
 
 ## Step 5: Pick a timeline plan
 
-Each plan lists the focus, the pages to use, and what you should have at the end of the week. If you fall behind, repeat a week instead of skipping it.
+If you fall behind, repeat a week instead of skipping it.
 
 ### 4-week plan (interview or OA already scheduled)
 
@@ -148,15 +148,24 @@ For you if you have never practiced interview-style problems, or you want the fu
 
 > **Tip:** Problem count is not the goal. You are ready when you can solve most Medium problems you have not seen before in 20 to 25 minutes ([NeetCode's rule](https://github.com/neetcode-gh/lesson-data/blob/main/howToUseNeetcode.md)). "I cleared Amazon, Google, and Meta with only 120 LeetCode problems" ([post](https://jugaldb.substack.com/p/ai-engineering-101-the-once-a-day)).
 
+### Week-by-week plans from Ascend
+
+Use one of these inside the plan you picked when you want every day or week spelled out.
+
+| Plan | Length | What it covers | How to use it |
+|---|---|---|---|
+| [The Only 6-Week Job Search Roadmap](https://jugaldb.substack.com/p/the-only-6-week-job-search-roadmap) | 6 weeks | The whole search: resume and LinkedIn, one clickable project, networking, applications, interview prep, then a final push for offers and referrals | Run it beside the 4 or 8 week plan. Keep its weekly rhythm: Mon plan, Tue to Wed build or tailor, Thu mock, Fri polish, Sat post and apply, Sun review |
+| [I Cleared Amazon, Google, and Meta With Only 120 LeetCode Problems](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta) | 60 days | Jugal's coding plan: 5 pattern blocks, then timed company sprints, then 2 days of mocks only | Use it as the coding track of the 8 or 12 week plan. Move to the next pattern only when you can name it from the problem statement alone |
+| [Master DSA with patterns](https://jugaldb.substack.com/p/company-wise-dsa-patterns) | 60 days | A day-by-day coding plan with LeetCode links by company and pattern | Budget 60 to 90 minutes a day. On days 56 and 57, solve 4 problems a day from a target company's list |
+| [Michael's FAANG 10-Week Roadmap](https://jugaldb.substack.com/p/michaels-ultimate-faang-10-week-roadmap) | 10 weeks | 5 to 6 linked LeetCode problems a week, one or two patterns per week, from Jugal's interview with Michael, CEO of Simplify | Do one week's set each week. For 5 more problems per pattern, use [Michael's Guide to FAANG DSA](https://jugaldb.substack.com/p/michaels-guide-to-faang-dsa) |
+
 ## How to use the interactive roadmap
 
 1. Open the [interactive roadmap](roadmap.md).
 2. Choose your track: Intern, New grad, or Experienced.
 3. Work through the phases in order. Each task links to the page or resource you need.
-4. Tick each task when it is done. Progress saves in this browser.
-5. Use the same browser on the same device. A private window, a different device, or clearing site data starts you from zero.
-
-Every `- [ ]` checklist on the site works the same way: click to tick, and it stays ticked in this browser.
+4. Tick each task when it is done. Progress saves in this browser, and every `- [ ]` checklist on the site works the same way.
+5. Use the same browser on the same device. A private window, a different device, or clearing site data starts you from zero. To move your progress, use Export progress, then Import progress on the new device.
 
 ## How to use company pages
 
@@ -165,7 +174,7 @@ Every `- [ ]` checklist on the site works the same way: click to tick, and it st
 3. Finish a core list from [Problem lists](coding/problem-lists.md) first. Company lists are the last part of prep, not the first.
 4. Start the company list 2 to 3 weeks before the interview. Solve the most frequent problems top to bottom, then the signature problems.
 5. Treat frequency as a signal, not a promise. The counts come from user-reported LeetCode company tags in two open datasets: [liquidslr/leetcode-company-wise-problems](https://github.com/liquidslr/leetcode-company-wise-problems) and [snehasishroy/leetcode-companywise-interview-questions](https://github.com/snehasishroy/leetcode-companywise-interview-questions).
-6. Follow the 4-week plan at the bottom of each full guide.
+6. Follow the 4-week plan at the bottom of each full guide. For the five FAANG companies, Jugal's 5-week plans add a linked problem set per week: [Meta](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part), [Amazon](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8), [Google](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e), [Apple](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8), [Netflix](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020).
 7. Read the reported questions and the company's [behavioral page](behavioral/index.md) in the final week.
 
 ## Your first week checklist

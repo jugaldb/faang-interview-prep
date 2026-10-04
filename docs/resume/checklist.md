@@ -68,7 +68,7 @@ Run this before every important application. Tick the boxes; the site saves your
 - [ ] Every number is real, and you can explain it for 5 minutes.
 - [ ] Every listed tool was used in something you can describe.
 - [ ] Titles and dates match LinkedIn and your offer letters.
-- [ ] AI edits reviewed line by line, with nothing invented ([check the AI's work](tailoring.md#check-the-ais-work)).
+- [ ] AI edits reviewed line by line ([check the AI's work](tailoring.md#check-the-ais-work)). No invented technologies, metrics, responsibilities, or projects, Jugal's rule in [I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume).
 - [ ] No hidden text, white text, or prompts anywhere.
 
 ### Proofreading

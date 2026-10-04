@@ -48,7 +48,7 @@ I applied to over 700 roles and got 3 interviews before I figured out how Linked
 
 ## Step 1: Photo
 
-LinkedIn Help says members with a photo get up to 2X more profile views ([Create a good LinkedIn profile](https://www.linkedin.com/help/linkedin/answer/a554351)). The "21x more views" figure online is from a 2016 blog page that no longer exists. Use 2X.
+LinkedIn Help says members with a photo get up to 2X more profile views ([Create a good LinkedIn profile](https://www.linkedin.com/help/linkedin/answer/a554351)).
 
 1. Take the photo. Face a window, phone at eye level, plain wall behind you, head and shoulders in frame, collared shirt or plain top.
 2. Optional: clean it up with Google's Nano Banana image model in the [Gemini app](https://gemini.google.com/) or [Google AI Studio](https://aistudio.google.com/models/nano-banana). Follow [Create Professional LinkedIn Photo in Seconds](https://jugaldb.substack.com/p/ai-tool-gave-me-professional-linkedin): upload your photo, paste the prompt below, generate 3 variations.
@@ -240,6 +240,19 @@ Skills: [skill], [skill], [skill]
 | Weak | Worked on backend APIs for the payments team. |
 | Strong | Built 4 Go endpoints for refund processing on AWS Lambda, handling 30k requests a day and cutting manual refund tickets by 60%. |
 
+Prompt to rewrite one role's bullets (adapted from [The LinkedIn Profile Playbook](https://jugaldb.substack.com/p/the-linkedin-profile-playbook-how); "Sales Navigator" changed to recruiter search):
+
+```text
+I need help rewriting my LinkedIn experience bullets to be more impactful and keyword-rich for recruiter searches.
+Role I want to improve: [e.g. Software Engineer Intern at X, May 2026 to Aug 2026]
+My current bullets for that role: [PASTE YOUR CURRENT BULLETS]
+Technologies and tools I used in this role: [e.g. Java, Spring Boot, AWS Lambda, PostgreSQL]
+Metrics or results I can explain in an interview: [e.g. team of 4, 30k requests a day, refund tickets down 60%]
+Roles I am targeting with this profile: [e.g. Software Engineer New Grad, Backend Engineer, SDE I]
+
+Rewrite my bullets. Each one: action verb, what I built or fixed, technology used, measurable result. Make every bullet keyword-rich for LinkedIn Recruiter searches. Give me 4 to 6 rewritten bullets. After each one, note which search keywords it targets. Do not invent any fact or number I did not give you.
+```
+
 Use only numbers you can explain in an interview. To keep resume and profile in sync, run Jugal's reverse flow: copy your finished profile into Claude, ChatGPT, or Gemini with his prompt, and paste the LaTeX output into Overleaf ([From LinkedIn to ATS Resume in 1 minute](https://jugaldb.substack.com/p/from-linkedin-to-ats-resume-in-1)).
 
 ## Step 7: Projects
@@ -268,6 +281,20 @@ LinkedIn allows up to 100 skills ([LinkedIn Help](https://www.linkedin.com/help/
 3. Use the exact spelling from job descriptions: "Amazon Web Services (AWS)", "Kubernetes", "Machine Learning".
 4. Reorder so the skills from your 5 job descriptions sit on top.
 5. Ask 3 to 5 classmates or teammates to endorse your top 3 skills, and endorse theirs ([The LinkedIn Profile Playbook](https://jugaldb.substack.com/p/the-linkedin-profile-playbook-how)).
+
+Prompt to find your skill gaps (adapted from [The LinkedIn Profile Playbook](https://jugaldb.substack.com/p/the-linkedin-profile-playbook-how)):
+
+```text
+I need a complete LinkedIn skills list that matches what recruiters search for my target roles.
+My background: [e.g. CS senior, 2 internships in backend Java and AWS]
+Technologies and tools I have used in jobs or projects: [e.g. Java, Python, AWS Lambda, Docker, PostgreSQL, Kafka, REST APIs, Git]
+Technologies I am learning or have used minimally: [e.g. Go, Terraform, Redis]
+Roles I want to be found for: [e.g. Software Engineer New Grad, Backend Engineer, SDE I]
+
+Give me a recommended LinkedIn skills list of up to 50 skills, using only skills I have used, not the ones I am learning. Organize them into categories: Core Technical Skills, Frameworks and Libraries, Cloud and Infrastructure, Data and Databases, Practices and Methodologies, and Soft Skills. Then, in a separate list, mark with an asterisk any skill that appears frequently in job postings for my target roles but that I have not mentioned. Those are my highest-priority gaps.
+```
+
+Add skills from the main list only. The asterisk list is what to learn next, not what to add.
 
 Recruiter skill search pulls from four places: your Skills section, skill keywords anywhere on your profile, your shared resume, and inferred skills ([Recruiter skills help](https://www.linkedin.com/help/recruiter/answer/a593591)). Put each target skill in at least two of: headline, About, Experience text, Skills.
 
@@ -473,7 +500,7 @@ Deeper explanation of filters and spotlights: [How recruiters search](recruiter-
 
 | Myth or mistake | What is true |
 |---|---|
-| "Photos get 21x more views" | LinkedIn Help today says up to 2X ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a554351)) |
+| "Photos get 21x more views" | That figure is from a 2016 blog page that no longer exists. LinkedIn Help today says up to 2X ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a554351)) |
 | "Turn on Creator Mode" | Removed in early 2024 |
 | "Take Skill Assessments" | Retired ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a507663)) |
 | "Open to Work always hurts" | LinkedIn reports 2X recruiter messages for both options. The only study found showed a negative effect for senior IT candidates, not juniors ([ISPA dissertation, 2022](https://repositorio.ispa.pt/entities/publication/68f81486-5840-418a-a9f9-f8c6f5dda424)). Recruiters only avoids the debate |
@@ -486,7 +513,7 @@ Deeper explanation of filters and spotlights: [How recruiters search](recruiter-
 ## Jugal's posts for this section
 
 - [How I got 47 recruiter messages within a month](https://jugaldb.substack.com/p/how-i-got-47-recruiter-messages-within): the original experiment. How to use it: copy the About structure and headline format; skip its Creator Mode step.
-- [The LinkedIn Profile Playbook](https://jugaldb.substack.com/p/the-linkedin-profile-playbook-how): 8 sections, each with a Claude prompt. How to use it: run one prompt per section while you work through this page.
+- [The LinkedIn Profile Playbook](https://jugaldb.substack.com/p/the-linkedin-profile-playbook-how): 8 sections, each with a Claude prompt. How to use it: Steps 3, 5, 6, and 8 above carry its headline, About, experience, and skills prompts; take the certification, Open to Work, and resume-review prompts from the post.
 - [Create Professional LinkedIn Photo in Seconds](https://jugaldb.substack.com/p/ai-tool-gave-me-professional-linkedin): the full headshot prompt. How to use it: Step 1.
 - [LinkedIn Step By Step (Notion)](https://jugaldb.notion.site/LinkedIn-Step-By-Step-by-Jugal-Bhatt-265af2117b838071a066e4db145acf57): the long guide behind the 47-messages post, with a 30-day plan. How to use it: follow the 30-day plan after this page.
 - [From LinkedIn to ATS Resume in 1 minute](https://jugaldb.substack.com/p/from-linkedin-to-ats-resume-in-1): profile to LaTeX resume. How to use it: after Step 6, to keep both in sync.

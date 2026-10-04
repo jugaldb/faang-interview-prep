@@ -56,10 +56,10 @@ Sources: [Simplify Summer 2027 timeline](https://simplify.jobs/blog/summer-2027-
 
 First and second years: your target is Summer 2028. Shift every row above by 12 months and be ready 2 weeks before each date. Windows are moving earlier: Google's Summer 2026 US SWE intern posting went live in mid-October 2025 (per Extern, cited in Jugal's [494 post](https://jugaldb.substack.com/p/494-summer-2027-internships-are-already)), and the Summer 2027 one went live in July 2026.
 
-- [ ] Jan to Mar 2027: build one project with real users or a measurable result. See [zero experience](finding-and-applying.md#zero-experience-build-proof-in-6-weeks).
+- [ ] Jan to Mar 2027: build one project with real users or a measurable result. See [zero experience](finding-and-applying.md#zero-experience-build-proof-in-6-weeks) and Jugal's [AI internship prep post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer) for what to build.
 - [ ] Jan to Mar 2027: land one merged open source pull request.
 - [ ] Feb to Mar 2027: apply to Outreachy (February), GSoC (March) or a research program for Summer 2027. See [programs](programs.md).
-- [ ] Apr to Jun 2027: watch quant firms. SIG posted on Apr 9 this cycle and Optiver on Jul 1.
+- [ ] Apr to Jun 2027: watch quant firms. SIG posted on Apr 9 this cycle and Optiver on Jul 1. Jugal: quant applications open June to August and many close by September to October ([Breaking into HFT](https://jugaldb.substack.com/p/breaking-into-high-frequency-trading), [new grad HFT guide](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles)).
 - [ ] India: Apr 2027 Goldman Sachs India Hackathon, May HackOn With Amazon, Jun Flipkart GRiD, Sep Amazon ML Challenge.
 - [ ] Jun 15, 2027: one-page resume final, reviewed by 2 people. Use [resume rules](../resume/index.md).
 - [ ] Jul 1, 2027: resume PDF, English transcript PDF, GitHub and LinkedIn links in one folder.

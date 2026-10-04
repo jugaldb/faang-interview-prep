@@ -12,9 +12,9 @@ For anyone who knows which platform their OA runs on. Each section gives you the
 | CodeSignal GCA | 4 problems, 70 min, any order | Assessment Score 200 to 600 | Spending 40 minutes on question 3 | [Practice area](https://app.codesignal.com/assessments/practice) (login) |
 | CodeSignal ICA | 1 project in 4 levels, 90 min | 200 to 600 | Messy level 1 code slows levels 3 and 4 | [Mock ICA repo](https://github.com/PaulLockett/CodeSignal_Practice_Industry_Coding_Framework) |
 | Codility | 1 to 3 tasks, 30 min to 2 hours | Percent of tests passed, correctness plus performance | Pressing Submit is final. Code that does not compile scores 0 | [Demo test](https://app.codility.com/demo/take-sample-test/) |
-| HackerEarth | Coding plus MCQ, common in India | Per test case and per MCQ | Browser lockdown and webcam checks | [HackerEarth practice](https://www.hackerearth.com/practice/) |
+| HackerEarth | Coding plus MCQ, common in India | Hidden test cases for code, plus MCQ marks | Browser lockdown and webcam checks | [HackerEarth practice](https://www.hackerearth.com/practice/) |
 | Karat | Live 60-minute interview with a Karat engineer | Interviewer write-up plus recording | It is a live interview, not a solo test | [Karat candidate page](https://karat.com/candidate-experience/) |
-| HireVue | Recorded video answers, sometimes games | Competency ratings | Rambling past the time limit | [HireVue candidate FAQ](https://www.hirevue.com/candidates/faq) |
+| HireVue | Recorded video answers, sometimes games | Competency ratings | Answers with no structure. Use the shape below | [HireVue candidate FAQ](https://www.hirevue.com/candidates/faq) |
 
 ## HackerRank
 
@@ -135,7 +135,7 @@ No company publishes a cutoff. Ignore "you need 820" claims from old threads.
 6. Using a second account to dodge a cooldown is not permitted.
 7. Technical failure mid-test: email support@codesignal.com the same day ([can I redo it](https://support.codesignal.com/hc/en-us/articles/360040382593-I-didn-t-do-my-best-on-this-assessment-Can-I-re-do-it)).
 
-> **Tip:** Spend your attempts in priority order. Take the GCA for your top company only when you have done at least two timed 4-problem sets. That score follows you for six months.
+> **Tip:** Spend your attempts in priority order. Take the GCA for your top company only after at least two timed 4-problem sets. Any company that asks during your cooldown gets that same score.
 
 ### What is proctored
 
@@ -209,7 +209,7 @@ Karat runs first-round technical interviews for other companies. It is live, not
 1. Format: one hour. A brief intro, about 10 minutes of discussion questions, then about 40 minutes of programming ([Karat candidate experience](https://karat.com/candidate-experience/)).
 2. What counts most: "The most important thing we are evaluating is how successfully your code solves the problem."
 3. The recruiter gets the video recording and a written summary. Audio and code playback are recorded even with your camera off ([Karat FAQ](https://karat.com/customer-faq)).
-4. You can book evenings and weekends. Karat says 60% of interviews happen outside core business hours. Pick the time you think best.
+4. You can book evenings and weekends. Karat says 60% of interviews happen outside core business hours. Book the slot when you think most clearly.
 5. Integrity: no outside help, no non-original code, no pasting the question into a search engine or a GPT. Interviewers flag typing outside the window, looking between monitors, and code that appears in an unusual "top-down or line-by-line manner". Flagged interviews get a full second review. Some modules include a built-in AI assistant. Others allow none.
 
 What companies ask through Karat (from candidate reports):

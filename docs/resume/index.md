@@ -164,12 +164,13 @@ Certificates add searchable terms and recognizable provider names at entry level
 
 1. Put them in their own section, clearly labelled. Never under Experience.
 2. Pick 3 to 7 that match the job. Do not dump every course.
-3. Use one line each:
+3. Use one line each. Add an optional Topics line when the certificate name hides the skills:
 
 ```text
 CERTIFICATIONS
 [Certificate name], [Provider], [Year]
 [Certificate name], [Provider], [Year]
+Topics: [Python, SQL, APIs, Docker]
 ```
 
 Certificates rarely beat projects. Jugal's heading from [Top 30 AI Certifications](https://jugaldb.substack.com/p/top-30-ai-certifications-you-need): "Certificates Get the Interview and Projects Get the Offer."
@@ -264,6 +265,7 @@ Strong: Backend engineer, 2 years on payments APIs in Java and AWS; cut p99 late
 - [The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually): why Overleaf plus Jake's Resume is his base.
 - [The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing): draft with ChatGPT, tailor in Teal, apply with Simplify. Use the workflow, but still edit every line by hand.
 - [I talked to 7 FAANG recruiters](https://jugaldb.substack.com/p/i-talked-to-7-faang-recruiters-none): his free Claude skill (Job Search Coach) with a resume optimizer and per-job tailoring modules.
+- [How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting): the resume, referral, and timing system he used for interviews at Amazon, Meta, The Trade Desk, and Ramp.
 
 All posts by section: [Substack index](../resources/substack.md).
 

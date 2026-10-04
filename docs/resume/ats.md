@@ -9,7 +9,7 @@ An applicant tracking system (ATS) is a database plus a workflow tool. Recruiter
 Three things can remove you before a person reads your resume:
 
 1. **Knockout questions on the form.** Work authorization, location, graduation date, degree. Oracle's Taleo docs say a disqualification question means a candidate "can be instantly exited from the application process" ([Oracle Taleo prescreening](https://docs.oracle.com/en/cloud/saas/taleo-enterprise/20b/otrec/candidate-prescreening.html)).
-2. **Recruiter searches and AI grades.** Recruiters search full resume text ([Greenhouse](https://support.greenhouse.io/hc/en-us/articles/115004600186-Search-resumes-for-keywords)). AI tools grade fit against the job's qualifications ([Workday HiredScore](https://doc.workday.com/hiredscore/en-us/workday-hiredscore/recruiter-productivity-/reference--candidate-grades.html)).
+2. **Recruiter searches and AI grades.** Recruiters search full resume text ([Greenhouse](https://support.greenhouse.io/hc/en-us/articles/115004600186-Search-resumes-for-keywords)). AI tools grade fit against the job's qualifications ([Workday HiredScore](https://doc.workday.com/hiredscore/en-us/workday-hiredscore/recruiter-productivity-/reference--candidate-grades.html)). On a 2026 call with Jugal, one recruiter said her req had 1,400 applicants and she "saw maybe 40 resumes" ([I talked to 7 FAANG recruiters](https://jugaldb.substack.com/p/i-talked-to-7-faang-recruiters-none)). One account, not a rule, but it shows why ranking matters.
 3. **Volume and timing.** Roles fill while you wait. In a 2025 vendor survey of 25 US recruiters, 52% said applying early improves your chances, and one admitted to reviewing "first-come, first-served" ([Enhancv](https://enhancv.com/blog/does-ats-reject-resumes/)). Apply in the first week a role opens ([internship timing](../internships/index.md)).
 
 Fonts and design rarely reject you on their own. They can scramble parsing, and a scrambled profile does badly in search and in front of a human.
@@ -28,7 +28,7 @@ Fonts and design rarely reject you on their own. They can scramble parsing, and 
 
 ## What the big systems do
 
-Look at the apply URL to see which system a company uses. Examples checked Oct 2026.
+Look at the apply URL to see which system a company uses. Examples checked Oct 2026. To search these domains for fresh postings, use the Google `site:` query in [where to find jobs](../jobs/where-to-find-jobs.md#google-search-across-ats-sites), built on Jugal's [Stop Applying to Ghost Jobs](https://jugaldb.substack.com/p/stop-applying-to-ghost-jobs).
 
 | System | Apply URL contains (examples) | What it does with your resume | What to do |
 |---|---|---|---|
@@ -82,6 +82,7 @@ Look at the apply URL to see which system a company uses. Examples checked Oct 2
 | Icons for phone, email, LinkedIn | The words themselves |
 | Photos, logos, charts, skill bars | Nothing |
 | Creative headings such as "Things I've Built" | "Projects" |
+| A certificate listed under Experience, which reads as a job you never had | A Certifications section, one line each. Jugal: "Never put 'Google' or 'Microsoft' in your Experience section unless you actually worked there" ([The "Borrowed Logo" Strategy](https://jugaldb.substack.com/p/the-borrowed-logo-strategy-how-to); format in [certifications](index.md#certifications-and-courses)) |
 | A scanned PDF or an image export from a design tool | A PDF exported from LaTeX, Word, or Google Docs |
 | Contact details in the page header or footer | The first lines of the page body |
 
@@ -101,7 +102,7 @@ Look at the apply URL to see which system a company uses. Examples checked Oct 2
     ```
 
 4. **Parser test (3 minutes).** Upload the PDF to the [OpenResume parser](https://www.open-resume.com/resume-parser); "File data is used locally and never leaves your browser." Check name, email, phone, school, degree, each job title, company, and dates. Every field it misses is a risk.
-5. **Lint (optional, 3 minutes).** Run a free [Resume Worded scan](https://resumeworded.com/resume-scanner). Fix the flags you agree with and ignore the score.
+5. **Lint (optional, 3 minutes).** Run a free [Resume Worded scan](https://resumeworded.com/resume-scanner), or paste Jugal's "Act like an ATS" prompt with the job description into any chat model ([Step 6 of his prompt chain](tailoring.md#jugals-8-step-ai-prompt-chain), from [I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume)). Fix the flags you agree with and ignore any score.
 6. **Real form check.** The first time you apply on a Workday site, use the resume autofill and watch where each field lands. Fix every field before you submit.
 
 | Symptom | Likely cause | Fix |

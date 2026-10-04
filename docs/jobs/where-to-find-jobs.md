@@ -99,7 +99,7 @@ Many companies publish open roles as public JSON through their ATS. You can read
 2. For Greenhouse, open `https://boards-api.greenhouse.io/v1/boards/[board]/jobs`. Example: [Anthropic feed](https://boards-api.greenhouse.io/v1/boards/anthropic/jobs).
 3. For Ashby, open `https://api.ashbyhq.com/posting-api/job-board/[board]`. Example: [OpenAI feed](https://api.ashbyhq.com/posting-api/job-board/openai).
 4. Ctrl+F for "new grad", "early career", "intern", "university".
-5. Check your 10 to 20 target feeds once a week, or automate it with Jugal's n8n workflow ([n8n automation](../outreach/n8n-automation.md)).
+5. Check your 10 to 20 target feeds once a week, or automate it. Jugal's [Ultimate Job Search Workflow with n8n](https://jugaldb.substack.com/p/ultimate-job-search-workflow-with) pulls fresh roles daily, scores each one against your resume and logs them in a Google Sheet. Setup: [n8n automation](../outreach/n8n-automation.md).
 
 ## Google search across ATS sites
 
@@ -119,7 +119,7 @@ The query below adds Ashby and Oracle Cloud, which his original list missed. Amo
 
 > **Watch out:** the 24-hour filter goes by when Google found the page, which can differ from the posting date. Check the date on the job page itself. Workday job pages live on `myworkdayjobs.com`, so use that domain in `site:`.
 
-Google's own job panel (search "[role] jobs" on google.com) had the highest response rate in Huntr's 2025 data (11.3%). Use it as a second discovery source.
+Also search "[role] jobs" on google.com. Google's job panel had the highest response rate in the Huntr table above.
 
 ## LinkedIn
 
@@ -166,7 +166,7 @@ A ready example: [software engineer new grad, US, past 24 hours](https://www.lin
 | [TrueUp](https://www.trueup.io/) | Jobs at big tech, unicorns and YC companies | Filter entry level. It also tracks layoffs |
 | [Built In entry-level](https://builtin.com/jobs/entry-level) | Entry-level tech roles with salary ranges, by US city | Good for city-based searches |
 | [RippleMatch](https://ripplematch.com/) and [WayUp](https://www.wayup.com/) | Student job matching | Optional extras |
-| [Wellfound](https://wellfound.com/) | Startups, with salary and equity shown | Filter "Recently Active" and "Seed/Series A" ([Jugal's startup post](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer)) |
+| [Wellfound](https://wellfound.com/) | Startups, with salary and equity shown | Filter "Recently Active" and "Seed/Series A" ([Jugal's startup post](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer)). Students: Jugal lists it for startup internships ([How I Landed My Internship](https://jugaldb.substack.com/p/how-i-landed-my-internship-before)) |
 | [YC Work at a Startup](https://www.workatastartup.com/) and [YC Jobs](https://www.ycombinator.com/jobs) | One profile, apply to YC startups | Build one profile. YC founders can contact you directly |
 | [Welcome to the Jungle](https://www.welcometothejungle.com/en) | Job platform for the US, UK and France (Otta merged into it) | Good for UK and US startups |
 | [Glassdoor](https://www.glassdoor.com/) | Reviews and reported interview questions | Read 20 minutes of interview reports before each loop |

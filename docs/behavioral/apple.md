@@ -1,6 +1,6 @@
 # Apple behavioral interview
 
-For students and early-career engineers interviewing with an Apple team. When you finish, you will have a specific "why Apple, why this team" answer, one project you can defend in depth, and 8 stories for the hiring manager and team rounds.
+For students and early-career engineers interviewing with an Apple team. You finish with a specific "why Apple, why this team" answer, one project you can defend in depth, and 8 stories for the hiring manager and team rounds.
 
 ## How Apple is different
 
@@ -11,11 +11,11 @@ Apple has no public interview prep guide and no separate values interview. Each 
 | You apply to a team, not to the company | Each loop is different. A friend's Apple loop tells you little about yours | [interviewing.io Apple guide](https://interviewing.io/guides/hiring-process/apple) |
 | The hiring manager has the most influence | The manager conversation is the behavioral round that matters most | interviewing.io |
 | Onsite rounds are with your future teammates | Every interviewer is also asking "do I want to work with this person?" | interviewing.io |
-| Onsite is 3 to 8 rounds of 45 to 60 minutes; some teams ask for a presentation or a take-home | Ask your recruiter what your loop includes | [Aced, formerly Exponent](https://www.aced.io/blog/apple-interview-process), interviewing.io |
-| Decisions happen in a live group discussion with thumbs up, down or neutral votes. An onsite can be ended early | A weak round can end the day. Treat each round as must-pass | interviewing.io |
+| Onsite is 3 to 8 rounds of 45 to 60 minutes (Aced; interviewing.io says 6 to 8). Some teams ask for a presentation or a take-home | Ask your recruiter what your loop includes | [Aced, formerly Exponent](https://www.aced.io/blog/apple-interview-process), interviewing.io |
+| Decisions happen in a same-day group discussion with thumbs up, down or middle votes. If feedback is consistently below the bar by the fourth round, the hiring manager can end the onsite early | A weak early round can end the day. Treat each round as must-pass | interviewing.io |
 | AI use during interviews is prohibited | No AI tools open. Confirm the rules with your recruiter | interviewing.io |
 | You can interview with several Apple teams at once | Apply to 2 to 3 teams whose work matches your projects | interviewing.io |
-| Timeline runs from 3 weeks to 4 months | Keep other processes going | Aced |
+| Resume to final interviews takes 1 to 4 months, sometimes faster | Keep other processes going | Aced |
 
 Jugal's Apple breakdown describes the loop as systems-heavy, with a strong focus on clarity of thought and edge cases ([How to crack FAANG interviews, Part 4](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8)). Expect much of the behavioral signal to come from how you explain your technical work. The "tell me about a time" questions are only part of it.
 
@@ -50,7 +50,7 @@ Apple's careers pages describe how people work there. Use this language to choos
 | Onsite (3 to 8 rounds) | Coding, domain depth, sometimes design, plus a hiring manager or behavioral round centered on "why Apple" | Each interviewer may ask 1 or 2 behavioral questions |
 | Group decision | Live discussion, thumbs up, down or neutral | You will not see this. Strong rounds everywhere matter |
 
-Sources: [interviewing.io](https://interviewing.io/guides/hiring-process/apple), [Aced](https://www.aced.io/blog/apple-interview-process), candidate reports. Loops vary by team: some India IS&T roles and US teams add an online test, and junior loops are often shorter than experienced ones.
+Sources: [interviewing.io](https://interviewing.io/guides/hiring-process/apple), [Aced](https://www.aced.io/blog/apple-interview-process), candidate reports. Loops vary by team: some teams (most reports are from India IS&T roles) add an online test, and junior loops are often shorter than experienced ones.
 
 ## Prepare in 6 days
 
@@ -61,9 +61,9 @@ About 7 hours in total.
 3. **Day 2 (60 min).** Write your "why Apple, why this team" answer: one personal product story, one team reason, one value. Template below.
 4. **Day 2 (90 min).** Pick the one project closest to the team's domain. Fill the project walkthrough template. Practice defending every decision in it.
 5. **Day 3 (90 min).** Write 8 STAR stories: conflict, challenging project, leadership in a team, deadline pressure, a weakness you are developing, a design disagreement, a quality or detail story, an AI tools story. Use the [story bank](story-bank.md) method.
-6. **Day 4 (45 min).** Practice the Aced questions and 5 of Jugal's Apple questions out loud (question bank below). Time each answer to 2 to 3 minutes.
+6. **Day 4 (45 min).** Practice the Aced questions and 5 of Jugal's Apple questions out loud (question bank below). Time each answer to 2 to 3 minutes. Record one answer on [Free Mock Interview](https://freemockinterview.com/) and cut every generic sentence.
 7. **Day 5 (30 min).** If your recruiter mentioned a presentation, build a 10-minute talk on your walkthrough project and rehearse it twice.
-8. **Day 6.** Do 1 to 2 mocks on [Aced Practice](https://www.aced.io/practice) (free). Ask your partner to push on "why did you choose that?" 5 times in a row.
+8. **Day 6.** Do 1 to 2 mocks on [Aced Practice](https://www.aced.io/practice) (formerly Pramp; free monthly credits). Ask your partner to push on "why did you choose that?" 5 times in a row.
 9. **Night before.** Run the checklist at the end of this page.
 
 ## Questions to ask your recruiter
@@ -150,7 +150,7 @@ Confidential? [Describe the shape of the problem, never internal names or number
 | 15 | Tell me about a time you simplified a complex problem. | Craft | Jugal's Apple list |
 | 16 | What product of ours do you admire and why? | Motivation, analysis | Jugal's Apple list |
 
-Jugal's full list of 15 Apple questions, each with what a good answer shows, is in [Why smart candidates still fail FAANG interviews](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang). One India IS&T intern report (Oct 2025) grouped the managerial round's questions as Collaboration, Invention and Results. Make sure you have one story for each.
+Jugal's full list of 15 Apple questions, each with a one-line note on how to answer, is in [Why smart candidates still fail FAANG interviews](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang). One India IS&T intern report ([LeetCode Discuss, Oct 2025](https://leetcode.com/discuss/post/7276464/apple-interview-experience-by-nullp0inte-n7du/)) split the managerial round into three themes, Collaboration, Invention and Results, with about 5 to 6 behavioral questions each. Have at least 2 stories per theme.
 
 ## Red flags
 
@@ -192,7 +192,7 @@ The first four come from [interviewing.io's Apple guide](https://interviewing.io
 |---|---|---|
 | [Work at Apple](https://www.apple.com/careers/us/work-at-apple.html) | Official description of the functional org and collaborative debate | Use its language when you explain why your expertise fits a team |
 | [Life at Apple](https://www.apple.com/careers/us/life-at-apple.html) | Apple values list | Pick one value you have a real story for |
-| [Apple shared values stories](https://www.apple.com/careers/us/life-at-apple/shared-values.html) | Employee stories about privacy, accessibility, environment | Read 2 stories close to your team's area before the loop |
+| [Apple shared values stories](https://www.apple.com/careers/us/life-at-apple/shared-values.html) | Employee stories about privacy, accessibility, environment, well-being and community | Read 2 stories close to your team's area before the loop |
 | [Apple Teams](https://www.apple.com/careers/us/work-at-apple/teams.html) | Team pages | Read the page for your team before writing "why this team" |
 | [Apple Students](https://www.apple.com/careers/us/work-at-apple/students.html) | Internships and co-ops for bachelor's, master's and PhD students | Interns: search team-specific internships and read each description |
 | [interviewing.io Apple guide](https://interviewing.io/guides/hiring-process/apple) | Team-based hiring, "why Apple" red flags, decision meeting | Build your "why Apple" from its red flag list |
@@ -200,7 +200,7 @@ The first four come from [interviewing.io's Apple guide](https://interviewing.io
 | [Jugal: How to crack FAANG interviews, Part 4](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8) | Apple patterns and a 5-week plan | Use for the technical side of the same loop |
 | [Jugal: Why smart candidates still fail FAANG](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang) | 15 Apple questions with what each tests | Answer 5 a day in the last week |
 | [Jugal: How to prepare for behavioral interviews](https://jugaldb.substack.com/p/how-to-prepare-for-behavioral-interviews) | Story-first framework with an Apple section | Read the Apple section before writing "why Apple" |
-| [Aced Practice](https://www.aced.io/practice) | Free peer mocks | Ask your partner to drill "why did you choose that?" |
+| [Aced Practice](https://www.aced.io/practice) (freemium) | Peer mocks (formerly Pramp), free monthly credits | Ask your partner to drill "why did you choose that?" |
 | [Free Mock Interview](https://freemockinterview.com/) | Free AI voice mock with a report | Record your "why Apple" and cut anything generic |
 
 Related pages: [Apple company guide](../companies/apple.md), [behavioral basics](index.md), [story bank](story-bank.md), [system design basics](../system-design/index.md).

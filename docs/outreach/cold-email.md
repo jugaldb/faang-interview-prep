@@ -45,7 +45,7 @@ Find names, titles, and profiles for each row with [finding people](finding-peop
 | Rule | Number | Source |
 |---|---|---|
 | Length of the body | 50 to 125 words | [Boomerang, 40M emails](https://blog.boomerangapp.com/2016/02/7-tips-for-getting-more-responses-to-your-emails-with-data/) |
-| Subject length | 3 to 4 words did best; stay under 7 | Boomerang; Jugal's Referral Engine prompt caps subjects at 7 words |
+| Subject length | 3 to 4 words did best; stay under 7 | Boomerang; Jugal's [Referral Engine](https://jugaldb.substack.com/p/the-referral-engine-n8n-hunter-gemini) prompt caps subjects at 7 words |
 | Questions | 1 to 3. Zero questions gets fewer replies | Boomerang |
 | Reading level | Plain words. Third-grade level got a 36% lift over college level | Boomerang |
 | Personal line | One specific thing they built, wrote, or posted | [Jugal, networking post](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to) |
@@ -205,6 +205,17 @@ I'm applying to [role] at [Company] and would love 15 minutes to hear what the t
 Thanks either way, [Name]
 ```
 
+His shortest version, from [How I Got Interviews at Amazon, Meta & Startups](https://jugaldb.substack.com/p/how-i-got-interviews-at-amazon-meta). His rule there: "Keep it short. No pitch. No pressure." Put a common-ground line before the second sentence, since this version has none.
+
+```text
+Hi [Name],
+I admire your work at [Company]. I'm interested in [Role]
+and would love to learn more about your team's work.
+Would you be open to a quick call?
+```
+
+He sends it with his resume attached. To a hiring manager, link the resume instead.
+
 ### 4. Interest plus a referral ask (Jugal's 2025 template)
 
 From [The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing), with one change: the original opens with "Hope you're doing well." Here that line is replaced by a common-ground line, because Jugal's 2026 post says generic openers are where most cold emails die.
@@ -226,7 +237,7 @@ Use this one for people you share real common ground with. Cold referral asks to
 
 ### 5. Professor or lab (research internship or TA role)
 
-Jugal's TA email from [The $0 Masters in the US](https://jugaldb.substack.com/p/the-0-master-in-the-us-just-one-email). Follow up after 7 to 10 days.
+Jugal's TA email from [The $0 Masters in the US](https://jugaldb.substack.com/p/the-0-master-in-the-us-just-one-email). Follow up after 7 to 10 days, and send the second follow-up too: "One of my professors replied after the second follow-up, and that turned into a full-semester TAship" ([How I Paid $0 for a U.S. Degree](https://jugaldb.substack.com/p/how-i-paid-0-for-a-us-degree-without)).
 
 ```text
 Subject: TA Opportunity for [Course Name]: [Semester]
@@ -404,5 +415,6 @@ UK readers: the ICO says the PECR rule on direct marketing email does not apply 
 - [Avinash Singh: cold email, referral and follow-up templates](https://www.youtube.com/watch?v=sNCrk3DtcUc): template walkthrough. How to use it: bookmark; change one line per template.
 - [Jugal: The Holy Grail of Networking (Notion)](https://jugaldb.notion.site/The-Holy-Grail-of-Networking-A-Z-with-templates-1a0af2117b838027aa5cd47911f2a20f): Boolean searches, templates, and email finders. How to use it: take the search strings to [finding people](finding-people.md).
 - [The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every): Jugal's relationship-first approach for introverts. How to use it: pick 2 to 3 people, not 20.
+- [Jugal's AI job application tools post](https://jugaldb.substack.com/p/how-to-supercharge-your-job-applications) (June 2026): tools for applying, interview prep, and networking, with his longer 15-minute chat email. How to use it: find the address with Apollo or Hunter from its networking list, then send [M3](templates.md#m3-jugals-admiring-your-work-email) with a first line you wrote. His own rule there: send "fewer, better" messages.
 
 Next: [Automate outreach with n8n](n8n-automation.md)

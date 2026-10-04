@@ -6,7 +6,9 @@ For anyone with an OA link in their inbox, or one on the way. When you finish th
 
 ## What an OA is
 
-An online assessment (OA) is a timed test a company sends after you apply. A platform such as HackerRank or CodeSignal grades it automatically, often before a recruiter has read your resume closely. Pass, and your application moves forward. Fail, and most companies close it without a call.
+An online assessment (OA) is a timed test a company sends after you apply. A platform such as HackerRank or CodeSignal grades it automatically, often before a recruiter has read your resume closely.
+
+Pass, and your application moves forward. Fail, and most companies close it without a call.
 
 ### The OA types you will meet
 
@@ -29,7 +31,7 @@ Every row has its own playbook. Platforms are on [OA platforms](platforms.md). E
 
 1. You apply. Many companies email the OA within hours or days. Some send it to every applicant automatically ([Cisco](../companies/cisco.md) US, [Airbnb](../companies/airbnb.md) in 2026 reports, [Snowflake](../companies/snowflake.md) interns).
 2. You get a window, usually about a week or two. IBM links are valid 7 days. Amazon's SDE II OA gives 7 days ([Amazon SDE II OA prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-oa-prep)).
-3. The platform scores your code. Some companies use a pass bar. Others rank you against everyone who took it.
+3. The platform scores your code. Some companies use a pass bar: Pinterest says a passing score triggers the recruiter call (see [Pinterest](../companies/pinterest.md)). Most never say how they use the score.
 4. A recruiter looks at the score together with your resume. At [Cisco](../companies/cisco.md), candidates report the resume review happens after the OA.
 5. You hear back in 1 to 3 weeks, or not at all. Goldman Sachs says "within three weeks" ([Goldman Sachs HackerRank guide](https://www.goldmansachs.com/careers/blog/guide-to-hackerrank)).
 
@@ -47,14 +49,14 @@ Every row has its own playbook. Platforms are on [OA platforms](platforms.md). E
 Three rules follow from this table:
 
 1. Every hidden test case is a point. A brute force that passes 8 of 15 tests beats a clever idea that never compiles.
-2. Hidden tests include large inputs. Your time complexity decides the last third of the points. See [constraints to complexity](strategy.md#read-the-constraints-first).
+2. Hidden tests include large inputs. Your time complexity decides whether you get those points. See [constraints to complexity](strategy.md#read-the-constraints-first).
 3. HackerRank compares output exactly. A stray debug `print` can fail a correct answer.
 
 ## What gets you cut
 
 | Reason | What it looks like | Fix |
 |---|---|---|
-| Brute force on large hidden tests | Passes the samples, fails half the hidden tests on time | Read the constraints before coding. [Strategy: constraints](strategy.md#read-the-constraints-first) |
+| Brute force on large hidden tests | Passes the samples, times out on the large hidden tests | Read the constraints before coding. [Strategy: constraints](strategy.md#read-the-constraints-first) |
 | Output format | Correct logic, zero points | Print exactly what is asked. Debug to stderr. [Strategy: reading input](strategy.md#reading-input-stdin-templates) |
 | Code that does not compile at the end | Codility scores it 0 | Keep a compiling version at all times. [Strategy: partial credit](strategy.md#partial-credit-tactics) |
 | One question eats the clock | 50 minutes on Q3, Q4 blank | Time boxes and the 10-minute stuck rule. [Strategy: time](strategy.md#time-allocation-during-the-test) |

@@ -88,7 +88,7 @@ Send 15 to 25 tailored applications a week. That is close to the median pace (ab
 | Core | About 25 | Mid-size tech, unicorns, bank tech arms | Full or light tailoring, outreach for the best fits |
 | Likely | 10 to 20 | Startups (YC, Wellfound), non-tech companies with strong tech teams | Light tailoring, fast applications |
 
-International students: run the [sponsorship check](international-students.md#check-if-a-company-sponsors) before a company goes on the list.
+International students: run the [sponsorship check](international-students.md#check-if-a-company-sponsors) before a company goes on the list ([Jugal's free method](https://jugaldb.substack.com/p/how-to-check-if-a-company-sponsors)).
 
 ## Channel priority: referral, then recruiter, then direct
 
@@ -115,7 +115,7 @@ The interviewing.io survey covers experienced engineers (average 8 years), so tr
 | Microsoft | Referral must be in before you apply (per [Simplify](https://simplify.jobs/blog/swe-interview-prep-roadmap-2027)). Summer 2027 intern postings take applications "during the first week of each month from August through February" ([posting](https://apply.careers.microsoft.com/careers/job/1970393556922922)) | Get the referral first. Apply in the first week of a month |
 | Netflix | A separate Airtable form arrives by email after you apply ([Simplify](https://simplify.jobs/blog/netflix-new-grad-software-engineer-guide)) | Finish it the same day |
 | Amazon | Rolling review ([SDE 2026 posting](https://amazon.jobs/en/jobs/3177934/software-development-engineer-2026-us)). The Summer 2027 US intern posting says applicants "will be considered at all locations we host interns in the United States" ([posting](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa)). Jugal suggests 20 to 30 applications over two days across SDE, intern and AWS roles, and reapplying after 6 months ([post](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)). Amazon does not publish a cooldown | Apply in week one. Interns: one application to the main posting covers every US location, so spend the rest on different teams (AWS, Robotics) only if you fit them. See [Amazon](../companies/amazon.md) |
-| Anthropic Fellows, Claude Corps | No visa sponsorship ([job post](https://job-boards.greenhouse.io/anthropic/jobs/5183044008)) | F-1 students: confirm your work authorization first |
+| Anthropic Fellows, Claude Corps | No visa sponsorship ([job post](https://job-boards.greenhouse.io/anthropic/jobs/5183044008)). Claude Corps also excludes F-1 CPT, OPT and STEM OPT ([eligibility](https://www.anthropic.com/claude-corps/fellow)) | F-1 students: confirm your work authorization first |
 | Anthropic (all roles) | Write application answers yourself first, then you may refine with Claude ([policy](https://www.anthropic.com/candidate-ai-guidance)) | Follow each company's AI policy |
 
 ## Timing
@@ -124,6 +124,7 @@ The interviewing.io survey covers experienced engineers (average 8 years), so tr
 2. **Ignore "best day and time to apply" advice.** No credible 2025 to 2026 data supports it.
 3. **Start 3 months before you need an offer.** The median search took 82 days to a first offer in Q2 2026.
 4. **Write down the date you applied.** In a rolling system, your submission dates are your only feedback loop ([Jugal](https://jugaldb.substack.com/p/494-summer-2027-internships-are-already)).
+5. **Match your approach to company size.** Large companies: apply early and mirror the job description's language. Startups: show you know the product and get into a direct conversation with the team ([Jugal's callback system](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting)).
 
 ## Recruiting calendar
 
@@ -226,7 +227,8 @@ Jugal's rule: "a tool removes the grunt work, it doesn't remove the thinking" ([
 1. **Set up one assistant chat for the whole search.** Paste the setup prompt below with your resume, and keep using that same chat.
 2. **Tailor your top roles with the 7-prompt sequence** from [I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume) (prompts copied on [Resume tailoring](../resume/tailoring.md)). Never let AI invent a skill or a number.
 3. **Automate the daily pull** with Jugal's n8n workflow ([Ultimate Job Search Workflow with n8n](https://jugaldb.substack.com/p/ultimate-job-search-workflow-with), setup on [n8n automation](../outreach/n8n-automation.md)).
-4. **Spend the saved hours talking to engineers and recruiters** at your target companies. That is where the same post tells you to put the time.
+4. **Generate likely behavioral questions** for each loop. Jugal's prompt: "Give me 6 behavioral questions for a [role] role at [company]" ([post](https://jugaldb.substack.com/p/i-used-ai-to-apply-for-100-jobs-without)). Answer them with your [story bank](../behavioral/story-bank.md).
+5. **Spend the saved hours talking to engineers and recruiters** at your target companies. That is where the same post tells you to put the time.
 
 Setup prompt, verbatim from [Jugal's post](https://jugaldb.substack.com/p/7-videos-to-run-your-entire-job-search):
 
@@ -236,16 +238,18 @@ You are my job search assistant for the next 60 days. My background: [paste your
 
 More from Ascend on running a search:
 
-- [The Only 6-Week Job Search Roadmap](https://jugaldb.substack.com/p/the-only-6-week-job-search-roadmap): week 1 resume, LinkedIn and tracker; week 2 one clickable project; week 3 networking; week 4 applying; week 5 interview prep and a second project; week 6 push for offers. How to use it: copy the six weekly goals into your calendar.
+- [The Only 6-Week Job Search Roadmap](https://jugaldb.substack.com/p/the-only-6-week-job-search-roadmap): week 1 resume, LinkedIn and tracker; week 2 one clickable project; week 3 networking; week 4 applying; week 5 interview prep and a second project; week 6 push for offers. How to use it: copy the six weekly goals into your calendar, and give every application one human touch (a DM, a referral ask or a warm intro), as week 4 says.
 - [Want a Job in the Next 30 Days?](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use): keep applications running in the background while you prep coding, design and mocks. How to use it: copy the 4-week rhythm into your calendar.
 - [How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting): Jugal's system for resumes, referrals, cover letters, timing and AI use. How to use it: talk to an engineer at the company before you apply, as the referral section describes.
 - [The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing): low-effort daily system with a cold email template. How to use it: block 10 minutes a day for outreach.
+- [I Used AI to Apply for 100+ Jobs Without Burning Out](https://jugaldb.substack.com/p/i-used-ai-to-apply-for-100-jobs-without): autofill and auto-apply tools (Simplify, LoopCV), AI resume tailoring and a 15-minute-chat message. In that search Jugal went from 5 applications a week to 50+. How to use it: use autofill for form fields, and keep full tailoring for your top 20 roles. The Interview Warmup link in it is retired.
+- [Jugal's AI job application guide](https://jugaldb.substack.com/p/how-to-supercharge-your-job-applications): the same tool groups (apply, prep, network, resume) plus a longer 15-minute-chat email. How to use it: adapt the email for hiring managers at your Reach tier companies.
 
 ## When to slow down or stop
 
 1. **Keep applying until you sign.** 18% of Huntr's Q1 2026 survey respondents had an offer withdrawn ([Huntr](https://huntr.co/research/job-search-trends-q1-2026)).
 2. **Drop to 5 applications a week once you have 2 or more final rounds scheduled.** Move the time to interview prep.
-3. **After a rejection, ask the recruiter when you can reapply.** Google's FAQ says about a year for the same type of role.
+3. **After a rejection, ask the recruiter when you can reapply.**
 4. **Got an offer with a short deadline?** Use the extension scripts on [Negotiation scripts](../negotiation/scripts.md).
 
 Next: [International students](international-students.md)

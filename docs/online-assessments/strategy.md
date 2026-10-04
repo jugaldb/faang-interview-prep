@@ -25,7 +25,7 @@ Do these before any plan. They take one evening.
 ## 72-hour plan
 
 - [ ] Hour 1: Read the invite. Read the platform section on [OA platforms](platforms.md). Take that platform's practice test.
-- [ ] Day 1: Solve the top 6 problems on your [company page](company-oa-formats.md) with a 30-minute timer each.
+- [ ] Day 1: Solve the top 6 most-asked problems on your company's guide (find it in the [companies index](../companies/index.md)) with a 30-minute timer each.
 - [ ] Day 2: One full mock in the exact format. For a GCA, that is 4 problems in 70 minutes. For a 2-problem HackerRank OA, 2 mediums in 70 minutes.
 - [ ] Day 3 morning: Re-solve every problem you missed, without notes. Run the [day-of checklist](#day-before-and-day-of-checklist). Take the OA.
 
@@ -41,7 +41,7 @@ Week 1: platform and fundamentals.
 
 Week 2: company and format.
 
-- [ ] Days 8 to 10: 5 problems a day from your company page. Use Jugal's timer rule: "Set a timer. 30 minutes per medium problem. If you can't solve it in 30, look at the solution, understand it, and move on. Come back to it three days later." ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the))
+- [ ] Days 8 to 10: 5 problems a day from your company's guide. Use Jugal's timer rule: "Set a timer. 30 minutes per medium problem. If you can't solve it in 30, look at the solution, understand it, and move on. Come back to it three days later." ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the))
 - [ ] Day 11: Drill your format's special part. Progressive: [ICA playbook](#progressive-ica-tasks). Repo: [repo playbook](#ai-assisted-repo-tasks). MCQs: OS, DBMS, networks, OOP and aptitude.
 - [ ] Day 12: Full mock under real conditions. Webcam on, one tab, no notes, timer running.
 - [ ] Day 13: Fix your weakest pattern. If it is Amazon, read the [Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles) for the Workstyles section.
@@ -64,7 +64,7 @@ Week 2: timed GCA-style sets.
 
 Week 3: company-specific.
 
-- [ ] 15 problems from each of your top 3 company pages. Free company-tagged lists: [snehasishroy/leetcode-companywise-interview-questions](https://github.com/snehasishroy/leetcode-companywise-interview-questions).
+- [ ] 15 problems from each of your top 3 company guides ([companies index](../companies/index.md)). Free company-tagged lists: [snehasishroy/leetcode-companywise-interview-questions](https://github.com/snehasishroy/leetcode-companywise-interview-questions).
 - [ ] One more contest as a mock.
 - [ ] Start the [stress-test habit](#test-your-code-like-the-hidden-tests-will) on every problem you get wrong.
 
@@ -84,7 +84,7 @@ Week 4: your format, then full mocks.
 
 1. Read every question first. Spend 2 to 3 minutes. Codility recommends it, and you need it to choose the order.
 2. Solve the easiest question first. Points are points.
-3. Stuck for 10 minutes with no new idea? Submit what compiles and move on. Amazon's page says "If you get stuck on a problem, move to the next one."
+3. Stuck for 10 minutes with no new idea? Save a compiling version and move on. On HackerRank and CodeSignal, submit it. On Codility, leave it in the editor, because Submit is final. Amazon's page says "If you get stuck on a problem, move to the next one."
 4. Keep the last 5 minutes for checks: every answer compiles, is submitted, and has no debug prints.
 
 ### Budgets by format
@@ -124,10 +124,13 @@ Stripe-style multi-part (1 problem, 60 min):
   Final run and submit ........ 5 min
 
 MCQ plus coding (India campus):
-  Follow each section's own timer. Do the MCQs fast and save minutes for code.
+  Each section usually has its own timer, and some cannot be revisited
+  (D. E. Shaw India reports). Answer in order. Do not plan on coming back.
 ```
 
-The Goldman minutes are official, and the GCA split is trimmed from CodeSignal's official module times. The rest are starting points built from candidate reports. One Amazon candidate said switching between the file tree, editor and AI panel ate most of their time ([LeetCode post](https://leetcode.com/discuss/post/8279707/amazon-oa-sde-1-assessment-experience-ne-becb/)). Another lost 40 of 60 minutes to dependency installs ([Amazon page](../companies/amazon.md)).
+The Goldman minutes are official, and the GCA split is trimmed from CodeSignal's official module times. The rest are starting points built from candidate reports.
+
+One Amazon candidate said switching between the file tree, editor and AI panel ate most of their time ([LeetCode post](https://leetcode.com/discuss/post/8279707/amazon-oa-sde-1-assessment-experience-ne-becb/)). Another lost 40 of 60 minutes to dependency installs ([Amazon page](../companies/amazon.md)).
 
 ## Read the constraints first
 
@@ -148,7 +151,7 @@ A safe estimate is about 10^8 simple operations per second ([USACO Guide](https:
 
 1. Read all questions. Note the constraints for each.
 2. Start with the easiest.
-3. Write the brute force if the optimal idea is not clear within 5 minutes. Submit it. It collects the small tests.
+3. Write the brute force if the optimal idea is not clear within 5 minutes. Submit it (on Codility, keep it in the editor instead). It collects the small tests.
 4. Run the samples. Then add your own inputs: empty, one element, all equal, duplicates, negatives, the largest values.
 5. Improve toward the target complexity. Keep the working version until the new one passes.
 6. Debug with prints to stderr, never stdout: `print(x, file=sys.stderr)`, `System.err.println(x)`, `cerr << x`. Exact-match graders compare stdout.
@@ -168,7 +171,7 @@ A safe estimate is about 10^8 simple operations per second ([USACO Guide](https:
 
 Tactics that pick up points:
 
-1. **Brute force first.** A correct O(n^2) solution often passes half the tests. A wrong O(n) one passes none.
+1. **Brute force first.** A correct O(n^2) solution usually passes the small tests. A wrong O(n) one passes none.
 2. **Handle small inputs separately if you must.** If you cannot find the full solution, use brute force when n is small and your best heuristic when it is large. Say so in a comment.
 3. **Return the right type on every path.** A stub that returns nothing fails every test.
 4. **Use 64-bit integers for sums and products.** In Java and C++, a sum of 10^5 values up to 10^9 overflows `int`.
@@ -177,7 +180,7 @@ Tactics that pick up points:
 
 ## Test your code like the hidden tests will
 
-Hidden tests target the same edge cases every time. Check each one before you submit.
+Hidden tests usually include these cases. Check each one before you submit.
 
 - [ ] Empty input, or the smallest allowed (n = 1)
 - [ ] All elements equal, or all distinct
@@ -188,7 +191,7 @@ Hidden tests target the same edge cases every time. Check each one before you su
 - [ ] The largest values (does it overflow?)
 - [ ] No valid answer (return what the spec says: `-1`, `[]`, an empty string)
 
-When a problem keeps failing hidden tests, compare your fast solution against a slow one that is obviously correct on thousands of random small inputs. This takes 3 minutes to write and finds bugs your examples miss:
+When a problem keeps failing hidden tests, compare your fast solution against a slow one that is obviously correct, on thousands of random small inputs. It is a few minutes of typing and finds bugs your examples miss:
 
 ```python
 import random
@@ -219,11 +222,13 @@ else:
     print("3000 random tests passed")
 ```
 
-Use this only where the platform lets you run custom code, and type it yourself. Do not paste it in.
+Build this habit in practice first. During an OA, use it only if you have spare time and the platform runs your code: type it into the editor yourself, run it, then delete it before you submit.
 
 ## Reading input (stdin templates)
 
-Most HackerRank and Codility questions give you a function stub, so you only fill in the function. Some questions say "read from STDIN" and give you an empty editor. Flipkart's story problems and some Cloudflare and OpenAI tests are like this. These templates read every token regardless of line breaks, which survives odd spacing in test files.
+Most HackerRank and Codility questions give you a function stub, so you only fill in the function. Some questions say "read from STDIN" and give you an empty editor. Flipkart's story problems and some Cloudflare and OpenAI tests are like this.
+
+These templates read every token regardless of line breaks, which survives odd spacing in test files.
 
 The example input is a number of test cases, then for each case `n` and `n` integers:
 
@@ -464,6 +469,7 @@ The day before:
 - [ ] If the link redirects to a login page, turn off pop-up and ad blockers for the test site (Amazon's troubleshooting advice).
 - [ ] Quit every AI tool, copilot, overlay, screen recorder and notification app.
 - [ ] Keep the allowed docs bookmarked in one window.
+- [ ] Block the time: 2 hours for Amazon full-time, 90 minutes for Amazon intern, 70 to 90 minutes for CodeSignal.
 - [ ] Sleep.
 
 Thirty minutes before:
@@ -472,7 +478,6 @@ Thirty minutes before:
 - [ ] Water nearby. Check the rules page before using scratch paper.
 - [ ] Close every app and tab except the test.
 - [ ] Bathroom now. Codility says its timer cannot be paused once you start. Assume the same everywhere.
-- [ ] Block 2 hours for Amazon full-time, 90 minutes for Amazon intern, 70 to 90 minutes for CodeSignal.
 
 After you submit:
 

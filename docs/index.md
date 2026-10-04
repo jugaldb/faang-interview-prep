@@ -63,10 +63,8 @@ For working engineers moving to big tech or moving up a level.
 ## How to use this in 3 steps
 
 1. Pick a 4, 8, 12, or 16 week plan on [Start here](start-here.md) and block the hours on your calendar.
-2. Open the [interactive roadmap](roadmap.md), choose your track, and tick tasks as you finish them. Progress saves in your browser.
+2. Open the [interactive roadmap](roadmap.md), choose your track, and tick tasks as you finish them. Progress saves in your browser, and so does every checklist on the site.
 3. Pick 3 to 5 target companies on [Companies](companies/index.md). Use their pages in the last 2 to 3 weeks before each interview.
-
-Every checklist on this site is clickable and remembers what you ticked in this browser.
 
 ## Who made this
 
@@ -74,10 +72,10 @@ Jugal Bhatt is an AI Engineer at Amazon. Before that, he was a Founding Software
 
 From his own search:
 
-- "When I was searching for my first US role, I sent around 700 applications and got 3 interviews." He fixed it with people, not a better resume ([post](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to)).
-- "I cleared Amazon, Google, and Meta with only 120 LeetCode problems" by doing small, specific reps instead of chasing volume ([post](https://jugaldb.substack.com/p/ai-engineering-101-the-once-a-day)).
+- "When I was searching for my first US role, I sent around 700 applications and got 3 interviews." He fixed it with people, not a better resume, and now gets 50+ recruiter messages a month ([post](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to)).
+- "Everyone told me I needed at least 400 solved problems before I could even think about applying to FAANG. I had 120." He cleared Amazon, Google, and Meta anyway. His 60-day pattern plan is in [I Cleared Amazon, Google, and Meta With Only 120 LeetCode Problems](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta).
 
-New guides go out weekly in his newsletter.
+Follow him for new guides:
 
 - [Ascend on Substack](https://jugaldb.substack.com): free weekly newsletter on job search, interviews, and AI careers.
 - [LinkedIn](https://www.linkedin.com/in/jugaldb): daily posts on job search and AI careers.

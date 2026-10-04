@@ -25,7 +25,9 @@ Counts are from Oct 4, 2026.
 | [Google Careers intern search](https://www.google.com/about/careers/applications/jobs/results/?q=Software%20Engineering%20Intern&employment_type=INTERN) | Every live Google intern posting worldwide | Create a job alert. Google windows can be 4 days long |
 | Company student pages | Each company's own early-career page | Open the [company guide](../companies/index.md) for each target. Join each company's talent community or job alert |
 
-More sources (job boards, ghost jobs, freshness) are on [where to find jobs](../jobs/where-to-find-jobs.md). For a student-written guide to the whole process, read [Pitt CS Zero to Offer](https://pittcs.wiki/guides/zero-to-offer), the guide linked from the Simplify repo.
+More sources (job boards, ghost jobs, freshness) are on [where to find jobs](../jobs/where-to-find-jobs.md), including the Google search from Jugal's [Stop Applying to Ghost Jobs](https://jugaldb.substack.com/p/stop-applying-to-ghost-jobs) that finds roles straight on company ATS sites. For a student-written guide to the whole process, read [Pitt CS Zero to Offer](https://pittcs.wiki/guides/zero-to-offer), the guide linked from the Simplify repo.
+
+Read: [The New Grad and Internship Prep for 2026](https://jugaldb.substack.com/p/the-new-grad-and-internship-prep): Jugal's one-page kit with outreach templates, resume templates, a ChatGPT tailoring prompt and a power-verb table. How to use it: take the templates and the prompt, and use the 2027 lists above instead of its 2026 links.
 
 > **Tip:** Watching 10 to 20 specific companies? Many publish their open roles as JSON, and Jugal's [n8n workflows](../outreach/n8n-automation.md) can check feeds like these on a schedule.
 >
@@ -166,6 +168,18 @@ Thank you for your time,
 [Name]
 ```
 
+```text
+G. Cold email to an engineer at a quant or HFT firm (Jugal's Breaking into HFT post)
+
+Subject: Interest in Quant Role @ [Company Name]
+
+Hi [Name],
+I'm a [Year] CS/Math student at [University], and I'm fascinated by the intersection of low-latency systems and quantitative research. I'm preparing for roles in firms like [Company] and would be grateful for any guidance or a quick 15-minute chat on how to best position myself.
+
+Thanks in advance,
+[Your Name]
+```
+
 ## Career fairs and events
 
 Jugal's first internship came from an event. In his second year he joined a virtual career fair and sent the speaker a thank-you message on LinkedIn afterwards. That led to a reply, a call, an introduction, and three months later his first internship ([The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every)).
@@ -211,6 +225,14 @@ What to build, from Jugal's [FAANG AI internship prep post](https://jugaldb.subs
 - [ ] A retrieval-augmented (RAG) system where you can explain how you measured retrieval quality.
 - [ ] Something with real users, however few.
 - [ ] A meaningful contribution to an open source library that practitioners use.
+
+An on-campus job also gives you a first Experience line, and F-1 students can work on campus up to 20 hours a week while school is in session. Jugal's route: ask a senior in your club before you check job boards, get introduced to their supervisor, and apply before the job goes public. Then check the campus job portal every Sunday and log where you applied and who referred you ([The On-Campus Job That Paid Me $35 an Hour](https://jugaldb.substack.com/p/the-on-campus-job-that-paid-me-35)).
+
+```text
+Message to a senior (Jugal's on-campus job post)
+
+Hey, I'm looking for an on-campus job. Do you know if [department] is hiring again soon?
+```
 
 Resume layout with no experience: Education, Projects, Skills, then Activities (hackathons, clubs, teaching). Courses and certificates go in their own labeled section, never under Experience. Jugal's [Borrowed Logo post](https://jugaldb.substack.com/p/the-borrowed-logo-strategy-how-to) lists free certificates from big-name providers and that honesty rule.
 

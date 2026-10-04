@@ -1,16 +1,17 @@
 # System design: what to learn and when
 
-For interns, new grads and engineers with 0 to 3 years of experience. When you finish this page you will know which design round your loop has, what you can skip, and which 4 or 6 week plan to follow.
+For interns, new grads and engineers with 0 to 3 years of experience. Use it to find which design round your loop has, what to skip, and which plan to follow.
 
-## The five kinds of design round
+## The six kinds of design round
 
 | Round | What you do | What you hand in | Length | Prep page |
 |---|---|---|---|---|
 | High-level design (HLD), usually just called "system design" | Design a large system (URL shortener, chat, news feed) that serves many users | Requirements, API, boxes and arrows, data model, trade-offs | 45 to 60 min | [Framework](framework.md), [Problems](problems.md) |
 | Product architecture (Meta's name for its product-track design round) | Design a user-facing product with more focus on APIs, data models and client-server flow | Same as HLD, with more API detail and less infrastructure scale | 45 min | [Framework](framework.md#company-specific-adjustments) |
 | Low-level design (LLD), also called object-oriented design (OOD) | Design the classes for a contained problem (parking lot, elevator, LRU cache) | Classes, interfaces, key methods, often some real code | 35 to 60 min | [Low-level design](low-level-design.md) |
-| Machine coding | Build a working, modular program from a written spec, then defend it in a code review | Running code with a demo from a main method, no UI | 90 to 120 min plus review | [Machine coding playbook](low-level-design.md#machine-coding-round-playbook) |
+| Machine coding | Build a working, modular program from a written spec, then defend it in a code review | Running code with a demo from a main method, no UI | 60 to 120 min plus review | [Machine coding playbook](low-level-design.md#machine-coding-round-playbook) |
 | Project walkthrough ("reverse system design") | Explain the design of something you built and defend each choice | One clear diagram and the trade-offs you made | 30 to 60 min | [Your own project](problems.md#reverse-system-design-your-own-project) |
+| Front-end or mobile system design | Design a client app or widget (news feed UI, autocomplete, chat screen) | Components, state, client-server API, performance and offline trade-offs | 45 to 60 min | [Front-end and mobile resources](resources.md#front-end-and-mobile-system-design) |
 
 > **Watch out:** LLD and HLD are different interviews. Hello Interview's LLD guide says they have "almost nothing in common" ([source](https://www.hellointerview.com/learn/low-level-design/in-a-hurry/introduction)). LLD is classes and state. HLD is services, data stores and scale. Ask your recruiter which one you have.
 
@@ -18,8 +19,8 @@ For interns, new grads and engineers with 0 to 3 years of experience. When you f
 
 Three rules hold across most companies:
 
-- Most entry-level SWE loops have no full system design round, "though there are plenty of exceptions" ([Hello Interview](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction)). Interns usually get none ([Tech Interview Handbook](https://www.techinterviewhandbook.org/system-design/)).
-- Design becomes common at mid-level (about 2 to 3 years) and is the main signal at senior.
+- Most entry-level SWE loops have no system design round, "though there are plenty of exceptions" ([Hello Interview](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction)). Interns usually get none ([Tech Interview Handbook](https://www.techinterviewhandbook.org/system-design/)).
+- Design becomes common at mid-level and is the norm at senior, where it carries extra weight (same Hello Interview page).
 - At 1 to 3 years, the design round often sets your level. A weak round can turn a Meta E4 loop into an E3 offer ([Hello Interview E4 guide](https://www.hellointerview.com/guides/meta/e4)), and Microsoft uses design to level you up or down ([Aced Microsoft guide](https://www.aced.io/guides/microsoft-software-engineer-interview)).
 
 Level names below follow each company's ladder. For the cross-company map (L3, E3, SDE I, 59 and so on) see [What jobs to apply for](../jobs/index.md). Rows marked "reports" come from 2025 to 2026 candidate reports collected for the company pages; formats vary by team, so confirm with your recruiter.
@@ -28,14 +29,14 @@ Level names below follow each company's ladder. For the cross-company map (L3, E
 
 | Company | Intern | New grad | 1 to 3 years | Source |
 |---|---|---|---|---|
-| [Google](../companies/google.md) | None | L3: none. Two 45-min onsite coding rounds; coding can include light class design | L4: a dedicated design round is rare in 2026; design may surface inside coding. Infra and AI teams may swap one coding round for a domain round | [HI L4](https://www.hellointerview.com/guides/google/l4), [Aced L3](https://www.aced.io/guides/google-software-engineer-new-grad-interview) |
-| [Meta](../companies/meta.md) | None | E3: none. 2 coding (one may be AI-enabled) plus 1 behavioral | E4: one 45-min round. Infra track gets System Design, product track gets Product Architecture. Drawn in Excalidraw | [HI E3](https://www.hellointerview.com/guides/meta/e3), [HI E4](https://www.hellointerview.com/guides/meta/e4) |
-| [Amazon](../companies/amazon.md) | Usually none | SDE I: one OOD round is common (parking lot, Linux `find` API, pizza billing, package dependencies). Some new grad loops report no design round | SDE II: "at least one question on software systems design" (official), 20 min of design scenarios in the OA, often an extra LLD round | [HI L4](https://www.hellointerview.com/guides/amazon/l4), [Amazon SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep) |
-| [Microsoft](../companies/microsoft.md) | Usually none | 59 to 60: varies by team, could be HLD, LLD or none | 61 to 62: design round common, sets your level, questions tie to the team's product | [Aced](https://www.aced.io/guides/microsoft-software-engineer-interview), [interviewing.io](https://interviewing.io/guides/hiring-process/microsoft) |
+| [Google](../companies/google.md) | None | L3: none. Two 45-min onsite coding rounds; coding can include light class design. 2026 pilot (select US teams): the Googleyness round adds a design talk about a past project | L4: no dedicated design round (Google keeps it for L5 and up); design may surface inside coding. Infra and AI teams may swap one coding round for a domain round | [HI L4](https://www.hellointerview.com/guides/google/l4), [Aced L3](https://www.aced.io/guides/google-software-engineer-new-grad-interview), [Aced pilot](https://www.aced.io/blog/google-ai-coding-interview) |
+| [Meta](../companies/meta.md) | None | E3: none. 2 coding (one may be AI-enabled) plus 1 behavioral | E4: one 45-min round, either System Design (infra) or Product Architecture (APIs, data models). Ask your recruiter which one. Drawn in Excalidraw | [HI E3](https://www.hellointerview.com/guides/meta/e3), [HI E4](https://www.hellointerview.com/guides/meta/e4), [Meta prep page](https://www.metacareers.com/swe-prep-onsite/) |
+| [Amazon](../companies/amazon.md) | Usually none | SDE I: one OOD round is common (parking lot, Linux `find` API, pizza billing, package dependencies). Aced says not every loop includes it, so ask | SDE II: "at least one question on software systems design" (official), 20 min of design scenarios in the OA, often an extra LLD round | [HI L4](https://www.hellointerview.com/guides/amazon/l4), [Aced](https://www.aced.io/guides/amazon-software-development-engineer-interview), [Amazon SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep) |
+| [Microsoft](../companies/microsoft.md) | Usually none | 59: usually no HLD, but expect OOP or data-modeling questions. 60 with 1 to 2 years (India): an LLD round is common, sometimes with runnable code | 61 to 62: LLD and HLD. The design round sets your level; questions come from the team's own product | [Aced](https://www.aced.io/guides/microsoft-software-engineer-interview), [interviewing.io](https://interviewing.io/guides/hiring-process/microsoft), reports |
 | [Apple](../companies/apple.md) | Rare | ICT2: rare; some India junior loops include an LLD-flavored round | ICT3: team-specific design. Talk about reliability, privacy, on-device vs cloud | [interviewing.io](https://interviewing.io/guides/hiring-process/apple), reports |
-| [Netflix](../companies/netflix.md) | n/a | Netflix mostly hires experienced engineers | Design is the most important round. Bespoke prompts, sometimes security-only or reverse system design | [interviewing.io](https://interviewing.io/guides/hiring-process/netflix) |
+| [Netflix](../companies/netflix.md) | A design round was reported for 2026 SWE interns: learn APIs, data modeling and caching | Varies by team | Design is the most important round. Bespoke prompts, sometimes security-only or reverse system design | [interviewing.io](https://interviewing.io/guides/hiring-process/netflix), reports |
 | [Nvidia](../companies/nvidia.md) | Final 2 to 4 interviews can mix coding with system design or domain questions (CUDA, GPU, systems) | Team-dependent | Team-dependent | [Simplify Nvidia FAQ](https://simplify.jobs/blog/nvidia-internship-faq/) |
-| [Uber](../companies/uber.md) | Not reported | 1-hour design and architecture round on simple high-level systems. Backend specialized coding can be "implement a parking lot data structure". India: machine coding is the first onsite round | Same rounds, deeper. Leave the last 15 min for follow-ups | [Aced Uber](https://www.aced.io/guides/uber-software-engineer-interview), [workat.tech](https://workat.tech/machine-coding/article/what-is-a-machine-coding-round-omfn1w54ojlg) (dated) |
+| [Uber](../companies/uber.md) | Not standard; some 2026 co-op candidates heard design may appear | Aced: entry level gets a 1-hour round on simple high-level systems. US reports: often no standalone HLD. India SDE-1: a design round (messaging app with schema, or LLD of food delivery) | L4: a 60-min machine-coding LLD with running code and tests, plus HLD. Leave the last 15 min of HLD for follow-ups | [Aced Uber](https://www.aced.io/guides/uber-software-engineer-interview), reports |
 | [LinkedIn](../companies/linkedin.md) | India: none | IC2 (the usual new grad level): full 60-min "Software Design and Architecture" round, HLD with LLD depth | Same. One 2026 report says a below-average design rating alone caused a reject | Reports |
 | [Salesforce](../companies/salesforce.md) | Not reported | AMTS: LLD and OOP (LRU then LFU as classes, library management) | MTS: dedicated LLD round (Splitwise, LUDO) plus HLD inside the hiring manager round | Reports |
 | [Adobe](../companies/adobe.md) | Not reported | Light: a simple design plus OOP questions (India campus) | MTS-2: dedicated LLD round plus HLD inside the hiring manager round | Reports |
@@ -114,11 +115,11 @@ Level names below follow each company's ladder. For the cross-company map (L3, E
 
 | If your loop is | Skip | Do instead |
 |---|---|---|
-| Any intern loop (except Tesla, Agoda, Nvidia, Databricks, ServiceNow, Cloudflare and Spotify US, which report some design) | System design prep | [Coding](../coding/index.md) and [behavioral](../behavioral/index.md). See [Intern interviews](../internships/intern-interviews.md) |
-| Google L3 or Meta E3 only | Full HLD prep, papers, DDIA | Spend 2 hours on Hello Interview's [introduction](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction) and [delivery framework](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery). Prepare to explain your own project's architecture |
+| Any intern loop, except the ones that report some design: Tesla, Agoda, Nvidia, Databricks, ServiceNow, Cloudflare, Spotify (US), Netflix (2026), D. E. Shaw (LLD) and Cisco (light LLD) | System design prep | [Coding](../coding/index.md) and [behavioral](../behavioral/index.md). See [Intern interviews](../internships/intern-interviews.md) |
+| Google L3 or Meta E3 only | Full HLD prep, papers, DDIA | Spend 2 hours on Hello Interview's [introduction](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction) and [delivery framework](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery). Fill the [project template](problems.md#reverse-system-design-your-own-project) for your best project |
 | Amazon SDE I | Web-scale HLD | LLD: parking lot, Amazon Locker, LRU cache. Then [Leadership Principles](../behavioral/amazon-leadership-principles.md) |
 | Flipkart, PhonePe or similar SDE 1 | Distributed systems depth, papers | [Machine coding practice](low-level-design.md#machine-coding-round-playbook), patterns by name, DB schema design |
-| Quant or HFT new grad | Web-scale HLD | OS, networking, memory, C++, and low-latency topics: locks, TCP vs UDP, kernel bypass ([Jugal's HFT post](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles)) |
+| Quant or HFT new grad | Web-scale HLD | OS, networking, memory, C++, and the low-latency list from [Jugal's HFT post](https://jugaldb.substack.com/p/breaking-into-high-frequency-trading): multithreading, locks and mutexes; TCP vs UDP; kernel bypass (DPDK, RDMA) |
 | Meta E4, Amazon SDE II, Microsoft 61 to 62, LinkedIn IC2, Airbnb G8, DoorDash E4 | Nothing. Design sets your level | The [6-week plan](#6-week-plan-0-to-3-years-hld-round) |
 
 ## Step 1: Find out exactly what your loop has (15 minutes)
@@ -147,9 +148,10 @@ Thank you,
 | Your situation | Plan | Time |
 |---|---|---|
 | Google or Meta new grad, no design round | 2-hour primer (skip table above) | 2 hours once |
-| Amazon SDE I, Uber, Atlassian P30, Salesforce AMTS, Databricks L3, D. E. Shaw, Oracle campus | [4-week plan](#4-week-plan-new-grad-sde-i-lld-heavy-loops) | 1 to 1.5 hours a day |
+| Amazon SDE I, Uber new grad, Atlassian P30, Salesforce AMTS, Databricks L3, D. E. Shaw, Oracle campus | [4-week plan](#4-week-plan-new-grad-sde-i-lld-heavy-loops) | 1 to 1.5 hours a day |
 | Flipkart, PhonePe, Swiggy-style SDE 1 or SDE 2, Rippling SDE-1, Walmart SWE III India | [Machine coding track](low-level-design.md#2-week-machine-coding-plan), run alongside DSA | 2 to 4 weeks |
-| Meta E4, Amazon SDE II, Microsoft 61 to 62, LinkedIn IC2, Uber, Airbnb G8, DoorDash E4, Stripe L2 | [6-week plan](#6-week-plan-0-to-3-years-hld-round) | About 1.5 hours a day |
+| Meta E4, Amazon SDE II, Microsoft 61 to 62, LinkedIn IC2, Uber L4, Airbnb G8, DoorDash E4, Stripe L2 | [6-week plan](#6-week-plan-0-to-3-years-hld-round) | About 1.5 hours a day |
+| Front-end or mobile roles | Week 1 of the 4-week plan, then the [front-end and mobile resources](resources.md#front-end-and-mobile-system-design) | 2 to 3 weeks |
 | ML engineer or AI engineer roles | Add the [ML and AI add-on](#ml-and-ai-engineer-add-on-2-weeks) to either plan | 2 extra weeks |
 
 Run system design alongside coding, not instead of it. For the full weekly hour budget across sections, see [Start here](../start-here.md).
@@ -189,21 +191,51 @@ About 1 to 1.5 hours a day. Draw every practice design in [Excalidraw](https://e
 
 About 1.5 hours a day. Every problem is timed at 45 minutes with the [whiteboard skeleton](framework.md#the-whiteboard-skeleton).
 
-- [ ] **Week 1:** Do week 1 of the 4-week plan. Add five free chapters: [replication](https://www.karanpratapsingh.com/courses/system-design/database-replication) and [sharding](https://www.karanpratapsingh.com/courses/system-design/sharding) (Karan Pratap Singh), [consistent hashing](https://www.hellointerview.com/learn/system-design/core-concepts/consistent-hashing) and [CAP](https://www.hellointerview.com/learn/system-design/core-concepts/cap-theorem) (Hello Interview), and [PACELC](https://www.karanpratapsingh.com/courses/system-design/pacelc-theorem) (Karan Pratap Singh).
-- [ ] **Week 2:** Read Hello Interview's [key technologies](https://www.hellointerview.com/learn/system-design/in-a-hurry/key-technologies) and its pages on [Redis](https://www.hellointerview.com/learn/system-design/deep-dives/redis), [Kafka](https://www.hellointerview.com/learn/system-design/deep-dives/kafka), [Cassandra](https://www.hellointerview.com/learn/system-design/deep-dives/cassandra), [DynamoDB](https://www.hellointerview.com/learn/system-design/deep-dives/dynamodb) and [Elasticsearch](https://www.hellointerview.com/learn/system-design/deep-dives/elasticsearch). Read the [patterns overview](https://www.hellointerview.com/learn/system-design/in-a-hurry/patterns). Read ByteByteGo's [consistent hashing](https://bytebytego.com/courses/system-design-interview/design-consistent-hashing) and [key-value store](https://bytebytego.com/courses/system-design-interview/design-a-key-value-store) chapters. Optional: sections 4 and 5 of the [Dynamo paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf).
-- [ ] **Week 3:** One problem per weekday: Bitly, Dropbox, Ticketmaster, Facebook News Feed, WhatsApp (links on [Problems](problems.md#the-classic-problems)).
-- [ ] **Week 4:** YouTube, rate limiter, Top-K, Uber, web crawler. Add ByteByteGo's [YouTube](https://bytebytego.com/courses/system-design-interview/design-youtube) and [gaming leaderboard](https://bytebytego.com/courses/system-design-interview/real-time-gaming-leaderboard) chapters.
-- [ ] **Week 5:** Company prep. Meta: LeetCode, Ad Click Aggregator and Top-K from the [E4 list](problems.md#reported-prompts-by-company-2025-to-2026), and practice setting your own scale numbers. Amazon SDE II: 2 LLD problems, the reliability pillar of [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/), and 2-minute [LP answers](../behavioral/amazon-leadership-principles.md). Microsoft: one design tied to the team's product. Everyone else: 3 prompts from your company's [reported list](problems.md#reported-prompts-by-company-2025-to-2026).
-- [ ] **Week 6:** 3 to 4 mocks. Redo 3 problems from memory. Prepare 2 [project walkthroughs](problems.md#reverse-system-design-your-own-project). Read 2 posts from the target company's [engineering blog](resources.md#engineering-blogs-by-company).
+**Week 1: fundamentals plus distributed data**
+
+- [ ] Do every task in week 1 of the 4-week plan.
+- [ ] Read [replication](https://www.karanpratapsingh.com/courses/system-design/database-replication), [sharding](https://www.karanpratapsingh.com/courses/system-design/sharding) and [PACELC](https://www.karanpratapsingh.com/courses/system-design/pacelc-theorem) (Karan Pratap Singh).
+- [ ] Read Hello Interview's [consistent hashing](https://www.hellointerview.com/learn/system-design/core-concepts/consistent-hashing) and [CAP](https://www.hellointerview.com/learn/system-design/core-concepts/cap-theorem) pages.
+
+**Week 2: key technologies**
+
+- [ ] Read Hello Interview's [key technologies](https://www.hellointerview.com/learn/system-design/in-a-hurry/key-technologies), then [Redis](https://www.hellointerview.com/learn/system-design/deep-dives/redis), [Kafka](https://www.hellointerview.com/learn/system-design/deep-dives/kafka), [Cassandra](https://www.hellointerview.com/learn/system-design/deep-dives/cassandra), [DynamoDB](https://www.hellointerview.com/learn/system-design/deep-dives/dynamodb) and [Elasticsearch](https://www.hellointerview.com/learn/system-design/deep-dives/elasticsearch). One a day.
+- [ ] Read the [patterns overview](https://www.hellointerview.com/learn/system-design/in-a-hurry/patterns).
+- [ ] Read ByteByteGo's [consistent hashing](https://bytebytego.com/courses/system-design-interview/design-consistent-hashing) and [key-value store](https://bytebytego.com/courses/system-design-interview/design-a-key-value-store) chapters.
+- [ ] Optional: sections 4 and 5 of the [Dynamo paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf).
+
+**Week 3: five classic problems, one per weekday**
+
+- [ ] [Bitly](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly), [Dropbox](https://www.hellointerview.com/learn/system-design/problem-breakdowns/dropbox), [Ticketmaster](https://www.hellointerview.com/learn/system-design/problem-breakdowns/ticketmaster), [Facebook News Feed](https://www.hellointerview.com/learn/system-design/problem-breakdowns/fb-news-feed), [WhatsApp](https://www.hellointerview.com/learn/system-design/problem-breakdowns/whatsapp). Use the [practice method](problems.md#how-to-practice-one-problem-60-to-75-minutes).
+
+**Week 4: five harder problems**
+
+- [ ] [YouTube](https://www.hellointerview.com/learn/system-design/problem-breakdowns/youtube), [rate limiter](https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-rate-limiter), [Top-K](https://www.hellointerview.com/learn/system-design/problem-breakdowns/top-k), [Uber](https://www.hellointerview.com/learn/system-design/problem-breakdowns/uber), [web crawler](https://www.hellointerview.com/learn/system-design/problem-breakdowns/web-crawler).
+- [ ] Read ByteByteGo's [YouTube](https://bytebytego.com/courses/system-design-interview/design-youtube) and [gaming leaderboard](https://bytebytego.com/courses/system-design-interview/real-time-gaming-leaderboard) chapters as a second view.
+
+**Week 5: company prep**
+
+- [ ] Meta: read the design section of the Full Loop guide on [Meta's prep page](https://www.metacareers.com/swe-prep-onsite/). Do LeetCode, Ad Click Aggregator and Top-K from the [E4 list](problems.md#reported-prompts-by-company-2025-to-2026). Set your own scale numbers out loud.
+- [ ] Amazon SDE II: 2 LLD problems, the [reliability pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html), the Builders' Library article on [timeouts, retries and backoff with jitter](https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter), and 2-minute [LP answers](../behavioral/amazon-leadership-principles.md).
+- [ ] Microsoft: one design tied to the team's product, for example "Design a chat feature for users of Microsoft Azure" ([Aced](https://www.aced.io/guides/microsoft-software-engineer-interview)).
+- [ ] Everyone else: 3 prompts from your company's [reported list](problems.md#reported-prompts-by-company-2025-to-2026).
+
+**Week 6: mocks and review**
+
+- [ ] Do 3 to 4 mocks with the [rubric](framework.md#run-a-mock-with-this-rubric).
+- [ ] Redo 3 problems from memory.
+- [ ] Prepare 2 [project walkthroughs](problems.md#reverse-system-design-your-own-project).
+- [ ] Read 2 posts from the target company's [engineering blog](resources.md#engineering-blogs-by-company).
 
 ## ML and AI engineer add-on (2 weeks)
 
-Entry-level ML roles usually exclude an ML system design round; it becomes common at mid-level ([Hello Interview ML design](https://www.hellointerview.com/learn/ml-system-design/in-a-hurry/introduction)). Add these weeks if your loop has one, or if you will be asked to design an LLM product.
+Entry-level ML roles usually have no ML system design round; it becomes common at mid-level ([Hello Interview ML design](https://www.hellointerview.com/learn/ml-system-design/in-a-hurry/introduction)). Add these 2 weeks if your loop has one, or if you may be asked to design an LLM product.
 
 - [ ] Read Hello Interview's [ML design introduction](https://www.hellointerview.com/learn/ml-system-design/in-a-hurry/introduction) and [delivery framework](https://www.hellointerview.com/learn/ml-system-design/in-a-hurry/delivery).
 - [ ] Do the three free breakdowns timed at 45 minutes: [video recommendations](https://www.hellointerview.com/learn/ml-system-design/problem-breakdowns/video-recommendations), [harmful content](https://www.hellointerview.com/learn/ml-system-design/problem-breakdowns/harmful-content), [bot detection](https://www.hellointerview.com/learn/ml-system-design/problem-breakdowns/bot-detection).
 - [ ] Read Eugene Yan's [system design for recommendations and search](https://eugeneyan.com/writing/system-design-for-discovery/) and [patterns for LLM systems](https://eugeneyan.com/writing/llm-patterns/).
 - [ ] Read Anthropic's [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) and learn the pattern names.
+- [ ] Read Chip Huyen's [Building a generative AI platform](https://huyenchip.com/2024/07/25/genai-platform.html). Use its five steps (context and RAG, guardrails, model router and gateway, cache, write actions) as your skeleton for "design a RAG chatbot" or "design an LLM gateway".
 - [ ] Follow the production habit in [Jugal's AI Engineering 101 plan](https://jugaldb.substack.com/p/ai-engineering-101-the-once-a-day): one infra concept a day from [Made With ML](https://madewithml.com/) (model routing, caching, rate limiting), two lines in your own words.
 - [ ] Prepare one project you can defend end to end with the README checklist from [Jugal's shipping ML post](https://jugaldb.substack.com/p/7-videos-on-shipping-ml-to-production).
 
@@ -215,8 +247,10 @@ More ML and LLM design resources are on [Resources](resources.md#ml-and-ai-syste
 - **What to know for that round:** client-server architecture, SQL vs NoSQL, caching (Redis, Memcached), load balancing, REST API design and message queues (same post). His video walks through the plan: [How I cleared Amazon Technical Interview, DSA + System Design, 4 week plan](https://www.youtube.com/watch?v=8bNRRelp7n0).
 - **Where people freeze:** his 30-day plan puts [System Design Lab](https://systemdesignlab.netlify.app/) in week 3 "if your role needs it" with three rules: start with the fundamentals track, actually run the simulations, and practice saying your reasoning out loud ([post](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use)).
 - **Startups test practical trade-offs:** be able to say why you would pick S3 over GCS, or when to use a queue like SQS ([post](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer)).
-- **Defend your own architecture:** Jugal reports that Google's behavioral round in its 2026 pilot includes a design conversation about your past work ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)). Google has not published this, but every company asks about your projects, so prepare it anyway.
+- **Defend your own architecture:** Jugal writes that Google's behavioral round now includes a design conversation about your prior work ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)). Aced reports the same from an internal Google document: a 2026 pilot for junior and mid-level roles on select US teams ([Aced](https://www.aced.io/blog/google-ai-coding-interview)). Google has no public page on it yet.
 - **Explain a project properly:** "explain the user problem, the architecture, how you evaluated the output, what tradeoffs you made, and what you would improve in the next version" ([post](https://jugaldb.substack.com/p/how-to-become-an-ai-engineer-in-2026)).
+- **Meta new grads:** design is for E4 and up; E3 may get another coding round instead ([Jugal's Meta and Amazon guide](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and)).
+- **Netflix:** Jugal went through Netflix's loop and saw how much it cares about system design even for IC roles ([post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020)).
 
 ## Myths that waste prep time
 

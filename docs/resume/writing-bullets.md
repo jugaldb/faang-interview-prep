@@ -29,7 +29,7 @@ Use any order, but keep all three parts. Jugal's two notes from [The Resume Temp
 - On the tools part: "it's frequently the most important to recruiters and ATS systems, especially for technical roles."
 - On outcomes: "If a bullet doesn't have a Z, it usually doesn't belong on your resume, or it needs to be rewritten until it does."
 
-Jugal's worked example from the same post:
+A software engineering example from the same post:
 
 ```text
 Migrated legacy authentication system (X) to OAuth 2.0 using Node.js and Auth0 (Y),
@@ -52,9 +52,10 @@ Built [thing] with [tech] that [does what]; used by [N] [users or teams] / proce
 | Bock, Google (2014), [post copy](https://www.calstatela.edu/sites/default/files/formula_for_a_winning_resume.docx) | "Studied financial performance of companies and made investment recommendations" | "Improved portfolio performance by 12% ($1.2M) over one year by refining cost of capital calculations for information-poor markets and re-weighting portfolio based on resulting valuations" |
 | Jugal, [Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the) | "Designed a service for the checkout system." | "Redesigned the checkout adapter using Java and SIP protocol, reducing dropped calls by 20% across 60% of the client base." |
 | Jugal, [I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume) | "Developed backend APIs using Golang." | "Built Golang APIs processing 1M+ requests per day, reducing request latency by 25%." He adds: "But only if those numbers are actually true." |
+| Jugal, [The LinkedIn Profile Playbook](https://jugaldb.substack.com/p/the-linkedin-profile-playbook-how) | "Led a team and improved system performance." | "Led 6 engineers to cut API latency by 40%, shipping 2 weeks ahead of schedule." |
 | Amazon recruiter Bhavishya Lingam ([About Amazon](https://www.aboutamazon.com/news/workplace/amazon-job-application-resume-writing-tips)) | "Responsible for introducing new tech stack into our organization" | Led the rollout of new efficiency software that cut errors by 25% and customer complaints by 37% year over year (paraphrased; the original opens with "Successfully") |
 
-Bock's "($1.2M)" tells the reader whether 12% is a big deal. That is the baseline doing its job. In the Amazon example, cut "Successfully"; the numbers already say it.
+Bock's "($1.2M)" is the baseline: it tells the reader whether 12% is a big deal. In the Amazon example, cut "Successfully"; the numbers already say it.
 
 ## Write one bullet in 5 minutes
 
@@ -145,7 +146,7 @@ Bock: "there is almost always something you can point to" ([post copy](https://w
 3. Read adoption data. On GitHub, open Insights, then Traffic: it shows views and clones for the past 14 days only, so screenshot it monthly ([GitHub docs](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository)). For a Python package, check [pypistats.org](https://pypistats.org/).
 4. Read history. Count merged PRs, issues closed, and releases.
 5. Count users honestly. Check your hosting dashboard or analytics, or run a sign-up sheet or a quick poll.
-6. Build an eval set for AI or ML work. Write 30 to 50 cases with expected answers, run them before and after one change, and report both numbers.
+6. Build an eval set for AI or ML work. Write 30 to 50 cases with expected answers, run them before and after one change, and report both numbers. Jugal: "Ten lazy test cases will give you a confident, wrong score. Write cases that actually try to break your system" ([AI Engineering 101](https://jugaldb.substack.com/p/ai-engineering-101-the-once-a-day)).
 7. State scope when nothing is measurable: "for 3 teams", "across 12 services", "in 36 hours".
 
 Rules for numbers:
@@ -173,6 +174,7 @@ Rules for numbers:
 | Deployed full-stack app with users | End-to-end product work | A problem you, your club, or your campus actually has |
 | Rebuild of a real system (Git, Redis, a database, an interpreter) | Systems depth | [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) |
 | AI app with an eval set | AI engineering | Jugal's three: an AI resume reviewer, a PDF chatbot with citations, a research agent ([How to become an AI engineer in 2026](https://jugaldb.substack.com/p/how-to-become-an-ai-engineer-in-2026)) |
+| Business-problem AI project (for forward deployed engineer roles) | You can find a business problem, build, deploy, and explain the value | Jugal's ideas: customer support automation, internal document assistant, invoice processing. Publish it as a case study with measured impact ([The Hidden AI Career](https://jugaldb.substack.com/p/the-hidden-ai-career-paying-up-to)) |
 | Open-source pull requests | Working in a real codebase, code review | [Good First Issue](https://goodfirstissue.dev/), [Up For Grabs](https://up-for-grabs.net/) |
 | Selective open-source program | Selectivity plus an Experience line | [Google Summer of Code](https://summerofcode.withgoogle.com/), [MLH Fellowship](https://fellowship.mlh.com/), [LFX Mentorship](https://mentorship.lfx.linuxfoundation.org/) |
 | Hackathon build | Speed, teamwork, scope control | Your campus and online hackathons. More programs: [internship programs](../internships/programs.md) |
@@ -236,6 +238,8 @@ More on AI engineer roles: [roles to target](../jobs/index.md).
 | Same verb repeated | "Developed... Developed..." | Vary the first verb |
 | Inflated scope | "Led the migration" when you wrote one script | "Wrote the backfill script for the migration" |
 | Adjectives instead of numbers | "Highly scalable, world-class service" | Replace with requests per second, users, latency |
+
+Jugal's version of the ownership rule: "'Our club hosted a workshop' hides you. 'I cold-messaged 12 professors and 3 said yes' shows you" ([OpenAI Will Pay You to Lead AI on Your Campus](https://jugaldb.substack.com/p/openai-will-pay-you-to-lead-ai-on)).
 
 ## Length and count
 

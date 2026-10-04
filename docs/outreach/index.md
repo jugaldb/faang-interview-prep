@@ -126,8 +126,6 @@ A suggested week (10 to 15 first messages, plus follow-ups):
 - Sending cold referral asks to dozens of strangers. Talk first ([referrals](referrals.md)).
 - Attaching a resume to a first cold email to a hiring manager. interviewing.io says skip the attachment and include 1 to 2 links instead.
 - Opening with "I hope this email finds you well" and a life story. Jugal: most cold emails "die in the first two lines" because of it ([7 videos on networking](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to)).
-- Following up 5 times. Three touches total, then stop.
-- Mass mail merges with no personal line. See the Hunter numbers above.
 - Spending a referral on a company that does not sponsor, when you need sponsorship.
 - Letting a referral link expire. Meta's link lasts 30 days, according to Aced ([referrals](referrals.md#how-it-works-at-google-meta-amazon-and-microsoft)).
 
@@ -139,6 +137,7 @@ A suggested week (10 to 15 first messages, plus follow-ups):
 | [The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every) | Jugal's relationship rituals, introvert plan, 3 templates | Adopt the 30-minutes-a-week ritual |
 | [Holy Grail of Networking (Notion)](https://jugaldb.notion.site/The-Holy-Grail-of-Networking-A-Z-with-templates-1a0af2117b838027aa5cd47911f2a20f) | Jugal's Boolean strings, connection and follow-up templates | Use the Boolean strings on [finding people](finding-people.md) |
 | [How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting) | Jugal's system: talk to engineers, managers, and senior team members before you need a referral | Read the referrals section before your first chat |
+| [7 videos to run your entire job search with AI](https://jugaldb.substack.com/p/7-videos-to-run-your-entire-job-search) | Jugal's AI setup for the repetitive parts of a search (Aug 2026) | Run its setup prompt, then spend the hours AI saves on "talking to actual humans at the companies you want" |
 | [How I Got Interviews at Amazon, Meta & Startups](https://jugaldb.substack.com/p/how-i-got-interviews-at-amazon-meta) | Jugal's earlier version: email finders, "wait a week before following up", "Don't send more than two follow-ups" | Use its follow-up rules with [F1 to F6](templates.md#follow-ups) |
 | [Duke Career Hub on the 3B7 routine](https://careerhub.students.duke.edu/blog/2023/09/07/following-up-is-the-most-critical-part-of-your-outreach/) | Steve Dalton's follow-up rule from The 2-Hour Job Search | Day 3: write to a second person. Day 7: re-send to the first. |
 | [interviewing.io: get in the door, part 1](https://interviewing.io/blog/how-to-get-in-the-door-at-top-companies-part-1) | Survey data on which channels work | Read the channel table once |

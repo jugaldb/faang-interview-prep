@@ -21,9 +21,9 @@ For every application that matters. A full pass takes 30 to 45 minutes and a qui
 Jugal's two rules:
 
 - "One tailored resume per type of role" ([Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
-- Maximize how many applications turn into interviews, not how many you submit ([I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume)).
+- Maximize how many applications turn into interviews, not how many you submit ([I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume)). In his words: "A focused search of 50 applications beats a scattered search of 500. I know because I ran the 700-application version" ([7 videos to run your entire job search with AI](https://jugaldb.substack.com/p/7-videos-to-run-your-entire-job-search)).
 
-How many applications to send and in what order: [application strategy](../jobs/application-strategy.md).
+How many applications to send and in what order: [application strategy](../jobs/application-strategy.md). To sort many postings into tiers, Jugal's n8n workflow scores each new job against your resume (0 to 100) every morning ([n8n automation](../outreach/n8n-automation.md), from [Ultimate Job Search Workflow with n8n](https://jugaldb.substack.com/p/ultimate-job-search-workflow-with)).
 
 ## Build role-type versions once
 
@@ -249,6 +249,8 @@ His rules from the same post:
 
 One prompt instead of eight. From [The New Grad and Internship prep for 2026](https://jugaldb.substack.com/p/the-new-grad-and-internship-prep), with bullet symbols changed to hyphens. A longer version is in his [Notion resume guide](https://jugaldb.notion.site/Resume-Template-How-Do-I-improve-my-resume-1a0af2117b83809ea355d5d724ea5109).
 
+Use it as a consultant, not a writer. Jugal: "The goal is not keyword stuffing." The output should point to missing skills, under-emphasized achievements, and experience that "isn't clearly visible on the page" ([The Resume Template I Recommend](https://jugaldb.substack.com/p/the-resume-template-i-recommend-and)).
+
 ```text
 I want you to act as an experienced ATS expert and resume consultant. I will provide you with a job description and my resume. Please
 
@@ -299,6 +301,8 @@ Jugal's free Claude skill. Its resume modules rewrite your resume for one job de
 
 ## Check the AI's work
 
+Jugal: "AI saves time, but judgment stays human" ([How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting)).
+
 1. Diff it. Put your base resume and the AI version side by side. Check every changed number, tool, title, and date.
 2. Run the interview test on each changed bullet: could you talk about it for 5 minutes?
 3. Remove words you would never say out loud.
@@ -315,7 +319,7 @@ Jugal's free Claude skill. Its resume modules rewrite your resume for one job de
 | [Resume Matcher](https://github.com/srbhr/Resume-Matcher) | Free, open source | Local AI tailoring when you do not want to paste your resume into a hosted tool | |
 | [Text Analyzer](https://www.online-utility.org/text/analyzer.jsp) | Free | Word frequency across 3 to 5 postings | |
 
-Jugal's routine targets a ">85% match" in Teal or Resume Worded ([How I turned my resume into a job magnet](https://jugaldb.substack.com/p/how-i-turned-my-resume-into-a-job)). Resume Worded's own page calls 85 or above a good score on its scale.
+Jugal's routine targets a ">85% match" in Teal or Resume Worded ([How I turned my resume into a job magnet](https://jugaldb.substack.com/p/how-i-turned-my-resume-into-a-job)). Resume Worded's own page calls 85 or above a good score on its scale. His steps in [I Used AI to Apply for 100+ Jobs Without Burning Out](https://jugaldb.substack.com/p/i-used-ai-to-apply-for-100-jobs-without): drop your resume and the job link into Teal, let it rewrite bullets to the job's keywords, then check the result in Resume Worded. He reports his match score went from 52% to 89%.
 
 Treat that number as a lint inside one tool. Employers never see it; their systems match against their own criteria ([how ATS works](ats.md)).
 

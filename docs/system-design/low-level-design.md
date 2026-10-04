@@ -1,6 +1,6 @@
 # Low-level design and machine coding
 
-For SDE I, SDE 2 and India product company candidates. When you finish you will know which LLD format your loop uses, how it is graded, which patterns matter, and you will have 28 practice problems and a machine coding routine.
+For SDE I, SDE 2 and India product company candidates. Inside: which LLD format your loop uses, how it is graded, the patterns that matter, 28 practice problems and a machine coding routine.
 
 ## Four formats, one skill
 
@@ -8,7 +8,7 @@ For SDE I, SDE 2 and India product company candidates. When you finish you will 
 |---|---|---|---|---|
 | OOD or LLD round (whiteboard or doc) | 35 to 60 min | Classes, interfaces, key methods, 2 to 3 methods implemented | Partly. US big tech expects some real code; India and Asia often accept structured pseudocode ([Hello Interview](https://www.hellointerview.com/learn/low-level-design/in-a-hurry/introduction)) | Amazon SDE I, Salesforce, Goldman Sachs, D. E. Shaw, Oracle |
 | Multi-part class problem inside a coding round | 45 to 90 min | A class that grows over 2 to 4 parts, with tests | Yes, runnable | Atlassian Code Design, Jane Street, Two Sigma, Bloomberg, Lyft's 90-min Laptop round |
-| Machine coding | 90 to 120 min plus a review | A working, modular program with a demo from a main method, no UI | Yes, runnable and extensible | Flipkart, PhonePe, Uber India, Rippling, Swiggy-style companies |
+| Machine coding | 60 to 120 min plus a review | A working, modular program with a demo from a main method, no UI | Yes, runnable and extensible | Flipkart, PhonePe, Uber (60 min at L4), Rippling, Swiggy-style companies |
 | Progressive build in the online assessment | Varies | A small system built level by level (bank, file storage, key-value store) | Yes, graded by tests | Airbnb, Coinbase, Anthropic, eBay, Meta (see [OA formats](../online-assessments/company-oa-formats.md)) |
 
 Some companies call it OOD, some LLD: "They're the same interview, just a different name" ([Hello Interview](https://www.hellointerview.com/learn/low-level-design/in-a-hurry/introduction)).
@@ -22,8 +22,16 @@ Rows marked "reports" come from 2025 to 2026 candidate reports collected for the
 | [Amazon](../companies/amazon.md) | SDE I | One OOD round. Discuss classes, relationships and key methods without full code, then handle "curveball" extensions | Linux `find` command API, parking lot, pizza billing, package system with dependencies, file search; also rate limiter, AWS billing for one user, train fare calculator with a weekend cap | [HI L4](https://www.hellointerview.com/guides/amazon/l4), reports |
 | [Flipkart](../companies/flipkart.md) | SDE 1 lateral, SDE 2 | Machine coding, then a code-review viva where you extend your code live and sketch a UML class diagram. Design rounds in a Google Doc: entities, full schema, APIs, service classes | BNPL, quick commerce, food ordering, distributed task scheduler, conference room booking, restaurant ordering, gym management | [Flipkart SDE prep doc](https://www.flipkartcareers.com/assets/flipkart_pdf/SDE.pdf), reports |
 | [PhonePe](../companies/phonepe.md) | 0 to 3 years | Machine coding assignment with a later review that focuses on concurrency | Customer issue resolution system, fitness class booking (tiers, waitlist, thread safety), leaderboard with concurrent score submissions, email and SMS provider layer, app version rollout, logger library with sinks | Reports |
-| [Uber](../companies/uber.md) | Entry level | US backend: specialized coding such as "implement a parking lot data structure". India: machine coding as the first onsite round | Parking lot | [Aced](https://www.aced.io/guides/uber-software-engineer-interview), [workat.tech](https://workat.tech/machine-coding/article/what-is-a-machine-coding-round-omfn1w54ojlg) (dated) |
-| Swiggy, Ola, Cred, Razorpay, Udaan, Gojek | SDE 1, SDE 2 | Machine coding | See the workat.tech practice list below | [workat.tech](https://workat.tech/machine-coding/article/what-is-a-machine-coding-round-omfn1w54ojlg) (written a few years ago) |
+| [Uber](../companies/uber.md) | Entry level to L4 | US backend: specialized coding such as "implement a parking lot data structure". L4: a 60-min machine-coding LLD with running code and tests. India SDE-1: LLD of a food delivery system with classes and tables | Splitwise, parking lot, circuit breaker with OPEN, CLOSED and HALF_OPEN states, pub-sub queue with ordering, in-memory file system with mkdir, cd and pwd | [Aced](https://www.aced.io/guides/uber-software-engineer-interview), reports |
+| Swiggy, Ola, Cred, Razorpay, Udaan | SDE 1, SDE 2 | Machine coding as the first onsite round | See the workat.tech practice list below | [workat.tech](https://workat.tech/machine-coding/article/what-is-a-machine-coding-round-omfn1w54ojlg) (written a few years ago) |
+| [Microsoft](../companies/microsoft.md) | 60 (1 to 2 years), 61 to 62 | LLD round common in India loops, sometimes with runnable code. New grads (59) get OOP or data-modeling questions instead | Cache with strategy-pattern eviction, notification module, cart backend with REST APIs, message queue with concurrency | Reports |
+| [Google](../companies/google.md) | L3, L4 | No LLD round, but coding rounds often ask you to implement a class with several methods | AdService, BookShelfManager | Reports |
+| [DoorDash](../companies/doordash.md) | Onsite loops (E4, some E3) | Code Craft: practical service or API work that acts as the LLD round; an AI-enabled version exists since late 2025 | Dasher payout endpoint calling a mocked upstream service | Reports |
+| [Roblox](../companies/roblox.md) | Some loops | Low-level systems design | Bump allocator, multithreaded ResourceLoader | Reports |
+| [Intuit](../companies/intuit.md) | SE1 (India, Uptime track) | LLD round | Producer-consumer, Java streams | Reports |
+| [PayPal](../companies/paypal.md) | Early career and up | Machine-coding class design inside the OA (45 min) and role-specialization rounds | Library management in Java, booking system, concurrency control, notification system | Reports |
+| [Cisco](../companies/cisco.md) | Intern, new grad | Light LLD tied to your projects | Design a router in Python, multithreading design | Reports |
+| [Nvidia](../companies/nvidia.md) | Experienced, team-dependent | LLD; systems teams probe concurrency design | Parking lot, data sync to Slack and email, thread-safe shared pointers | Reports |
 | [Atlassian](../companies/atlassian.md) | P30 and up | Code Design in your own IDE with tests, plus an AI-enabled Code Design round on an existing repo | Snake game, middleware router, tennis court booking, rating systems | [Atlassian](https://www.atlassian.com/company/careers/resources/interviewing/engineering), reports |
 | [Salesforce](../companies/salesforce.md) | AMTS, MTS | LLD graded as "production-ready" OOP | LRU then LFU as classes, library management; MTS: Splitwise, LUDO, inventory reservation (reserve, confirm, release) | Reports |
 | [Walmart Global Tech](../companies/walmart.md) | SWE III | LLD in compiling Java | Strategy, Observer, Factory, Singleton, SOLID, ThreadPoolExecutor, LRU, BookMyShow with database locking and isolation levels | Reports |
@@ -117,7 +125,7 @@ class ParkingLot {
 Extension: weekend pricing = new PricingStrategy class. EV spots = new SpotSize + fits() rule.
 ```
 
-## OOP and SOLID in one place
+## OOP and SOLID
 
 Read Hello Interview's [OOP concepts](https://www.hellointerview.com/learn/low-level-design/in-a-hurry/oop-concepts) and [design principles](https://www.hellointerview.com/learn/low-level-design/in-a-hurry/design-principles) pages, then use this table to check yourself.
 
@@ -179,17 +187,17 @@ Line to have ready: "`book()` checks and reserves the seat while holding the loc
 
 ## Practice problems
 
-AL = [awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) (solutions in several languages), WT = [workat.tech machine coding](https://workat.tech/machine-coding/practice), HI = Hello Interview LLD, SDP = System Design Primer notebooks. Level labels for workat.tech prompts are its own.
+AL = [awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) (solutions in several languages), WT = [workat.tech machine coding](https://workat.tech/machine-coding/practice), HI = Hello Interview LLD, SDP = System Design Primer notebooks. Levels for WT prompts are workat.tech's own labels; the rest are our estimate.
 
 | # | Problem | Level | What it teaches | Free write-ups | Reported at |
 |---|---|---|---|---|---|
-| 1 | Parking lot | SDE I | Entities, spot allocation strategy, pricing strategy, enums | [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/parking-lot.md), [WT](https://workat.tech/machine-coding/practice/design-parking-lot-qm6hwq4wkhp8), [SDP](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/parking_lot/parking_lot.ipynb), [LeetCode 1603](https://leetcode.com/problems/design-parking-system/) | [Amazon](../companies/amazon.md), [Goldman Sachs](../companies/goldman-sachs.md), [Oracle](../companies/oracle.md), [Uber](../companies/uber.md) |
+| 1 | Parking lot | SDE I to II | Entities, spot allocation strategy, pricing strategy, enums | [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/parking-lot.md), [WT](https://workat.tech/machine-coding/practice/design-parking-lot-qm6hwq4wkhp8), [SDP](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/parking_lot/parking_lot.ipynb), [LeetCode 1603](https://leetcode.com/problems/design-parking-system/) | [Amazon](../companies/amazon.md), [Goldman Sachs](../companies/goldman-sachs.md), [Oracle](../companies/oracle.md), [Uber](../companies/uber.md) |
 | 2 | Elevator | SDE I to II | State machine, scheduling strategy, request queues, concurrency | [HI](https://www.hellointerview.com/learn/low-level-design/problem-breakdowns/elevator), [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/elevator-system.md) | [Pinterest](../companies/pinterest.md), [Roblox](../companies/roblox.md) |
 | 3 | LRU cache | SDE I | Hash map plus doubly linked list for O(1) get and put; thread safety as the follow-up | [LeetCode 146](https://leetcode.com/problems/lru-cache/), [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/lru-cache.md), [SDP](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/lru_cache/lru_cache.ipynb), then [LFU, LeetCode 460](https://leetcode.com/problems/lfu-cache/) | [Salesforce](../companies/salesforce.md), [Walmart](../companies/walmart.md), [Adobe](../companies/adobe.md), [Qualcomm](../companies/qualcomm.md), [Jane Street](../companies/jane-street.md) |
 | 4 | Rate limiter (classes) | SDE I to II | Strategy for each algorithm, per-client state, thread safety | [BBG rate limiter](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter) for the algorithms | [Amazon](../companies/amazon.md), [Adobe](../companies/adobe.md) |
 | 5 | Splitwise | SDE I to II | Split strategies (equal, exact, percent), balance graph, simplifying debts | [WT](https://workat.tech/machine-coding/practice/splitwise-problem-0kp2yneec2q2), [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/splitwise.md) | [Salesforce](../companies/salesforce.md) |
 | 6 | Snake and ladder | SDE I | Board, dice, players, turn loop, input parsing | [WT](https://workat.tech/machine-coding/practice/snake-and-ladder-problem-zgtac9lxwntg), [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/snake-and-ladder.md) | [Morgan Stanley](../companies/morgan-stanley.md) |
-| 7 | Library management | SDE I | Book vs BookItem, members, checkout and returns, fines, search | [WT](https://workat.tech/machine-coding/practice/design-library-management-system-jgjrv8q8b136), [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/library-management-system.md) | [Salesforce](../companies/salesforce.md), [Oracle](../companies/oracle.md), [PhonePe](../companies/phonepe.md) |
+| 7 | Library management | SDE II | Book vs BookItem, members, checkout and returns, fines, search | [WT](https://workat.tech/machine-coding/practice/design-library-management-system-jgjrv8q8b136), [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/library-management-system.md) | [Salesforce](../companies/salesforce.md), [Oracle](../companies/oracle.md), [PhonePe](../companies/phonepe.md) |
 | 8 | Tic-tac-toe or Connect Four | SDE I | Board representation, win detection, N x N extension | [HI Connect Four](https://www.hellointerview.com/learn/low-level-design/problem-breakdowns/connect-four), [WT](https://workat.tech/machine-coding/practice/design-tic-tac-toe-smyfi9x064ry), [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/tic-tac-toe.md) | [Two Sigma](../companies/two-sigma.md) (Connect-7) |
 | 9 | Amazon Locker | SDE I | Locker sizes, assignment, pickup codes, expiry | [HI](https://www.hellointerview.com/learn/low-level-design/problem-breakdowns/amazon-locker) | [Amazon](../companies/amazon.md) |
 | 10 | Vending machine | SDE I | State pattern (idle, has money, dispensing), inventory, change | [AL](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/vending-machine.md), [AL coffee machine](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/coffee-vending-machine.md) | |
@@ -244,7 +252,7 @@ Premium only (checked Oct 2026): 362 Design Hit Counter, 359 Logger Rate Limiter
 
 ### What the round looks like
 
-- You get a written problem and 90 to 120 minutes. Flipkart's official prep doc describes a 120-minute block; 2025 to 2026 candidates report 90 minutes.
+- You get a written problem and 60 to 120 minutes. Flipkart's [official prep doc](https://www.flipkartcareers.com/assets/flipkart_pdf/SDE.pdf) describes a 120-minute block (15 minutes pre-coding, 90 coding, 15 demo); Uber L4 candidates report 60 minutes.
 - You must hand in working, demonstrable code: modular, readable, with separation of concerns, a main method or simple command line to run it, and no UI ([workat.tech](https://workat.tech/machine-coding/article/what-is-a-machine-coding-round-omfn1w54ojlg)).
 - A code review follows. Reviewers ask you to extend the code live, justify classes and patterns, explain concurrency, and sometimes draw the class diagram (Flipkart and PhonePe reports).
 
@@ -330,6 +338,7 @@ Run this after every practice session. Based on workat.tech's expectations.
 | [Atlassian](../companies/atlassian.md) | Open a blank project with a test framework (JUnit or pytest) before the round; you write, run and test on screen share. Finish part 1 fast and keep classes open for parts 2 and 3 |
 | [Walmart Global Tech](../companies/walmart.md) | Reports say LLD rounds expect compiling Java code, not class diagrams alone: LRU with generics, ThreadPoolExecutor, BookMyShow with locking |
 | [Salesforce](../companies/salesforce.md) | Write LRU and then LFU as clean classes with clear responsibilities; "production-ready" OOP is graded |
+| [Uber](../companies/uber.md) | The L4 machine-coding round is 60 minutes with running code and tests. Get to running code early, then refactor and add tests; interfaces and extensible classes score well. Practice Splitwise, parking lot and a circuit breaker with OPEN, CLOSED and HALF_OPEN states |
 
 ### 2-week machine coding plan
 
@@ -345,7 +354,7 @@ Run this alongside DSA. Each session is 90 to 120 minutes with runnable code.
 - [ ] Day 8: [Library Management](https://workat.tech/machine-coding/practice/design-library-management-system-jgjrv8q8b136).
 - [ ] Day 9: [In-memory key-value store](https://workat.tech/machine-coding/practice/design-key-value-store-6gz6cq124k65).
 - [ ] Day 10: One reported prompt from your target company (table above), written from the description alone.
-- [ ] Day 11: Make your booking solution thread-safe and write a test that runs two threads against it.
+- [ ] Day 11: [Movie ticket booking](https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/movie-ticket-booking-system.md) with one lock per show. Write a test where two threads book the same seat; exactly one must succeed.
 - [ ] Days 12 and 13: Two timed sessions with a friend who adds a new requirement at minute 60. Extend without rewriting.
 - [ ] Day 14: Redo your weakest problem from scratch and practice naming every pattern out loud.
 
@@ -363,7 +372,7 @@ Run this alongside DSA. Each session is 90 to 120 minutes with runnable code.
 | [faif/python-patterns](https://github.com/faif/python-patterns) | Patterns and idioms in Python | Python users: same use |
 | [workat.tech machine coding](https://workat.tech/machine-coding/practice) | Real prompts labeled by level; the articles say they were written a few years ago | Your machine coding practice set |
 | [kumaransg/LLD](https://github.com/kumaransg/LLD) | Collection of LLD questions and implementations | Extra problems; code quality varies |
-| [Concept&Coding on YouTube](https://www.youtube.com/@ConceptandCoding) | LLD and HLD channel widely used by India candidates | Watch a problem video only after you attempt it |
+| [Concept && Coding (Shrayansh Jain) on YouTube](https://www.youtube.com/@ConceptAndCodingByShrayansh) | LLD and HLD channel widely used by India candidates | Watch a problem video only after you attempt it |
 | [Hello Interview Premium](https://www.hellointerview.com/pricing) (paid) | Premium LLD breakdowns and guided practice | Only after the free set is done |
 
 > **Watch out:** GitHub repos that copy the paid "Grokking the Object Oriented Design Interview" text appear to be unauthorized mirrors. Skip them.

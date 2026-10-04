@@ -48,6 +48,8 @@ Use these only when a note adds a reason to accept. Free accounts get 3 to 5 per
 
 > **Tip:** People can reply to your note without accepting the request ([LinkedIn Help a563153](https://www.linkedin.com/help/linkedin/answer/a563153)). If a Premium member has Open Profile on, the Message button works without a connection or an InMail credit, so use that instead of a note ([LinkedIn Help a545663](https://www.linkedin.com/help/linkedin/answer/a545663)).
 
+> **Tip:** Premium removes the note limit. Jugal's [How I Got LinkedIn Premium for Free](https://jugaldb.substack.com/p/how-i-got-linkedin-premium-for-free) has a DM asking LinkedIn employees who took the Plus One Pledge whether they know of any Premium offers. He calls it a long shot: send a few personal messages, follow up once, then move on.
+
 ### C1. Engineer whose work you read
 
 When to use: they wrote a post, blog, talk, or PR you actually read, and they work on a team you want.
@@ -482,7 +484,7 @@ Priya
 
 ### M3. Jugal's "admiring your work" email
 
-When to use: there is an open role and the person's work connects to it. Source: [The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every).
+When to use: there is an open role and the person's work connects to it. Source: [The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every). Jugal reuses it in [The New Grad and Internship prep for 2026](https://jugaldb.substack.com/p/the-new-grad-and-internship-prep) and in his [AI job application tools post](https://jugaldb.substack.com/p/how-to-supercharge-your-job-applications), where he finds the address with Apollo or Hunter first ([finding people](finding-people.md#find-the-email-address)).
 
 ```text
 Subject: Admiring Your Work at [Company Name]

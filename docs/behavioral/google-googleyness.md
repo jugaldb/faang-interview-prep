@@ -1,6 +1,6 @@
 # Google Googleyness and Leadership round
 
-For anyone with a Google loop, from intern to early career. You will finish knowing what the Googleyness and Leadership (G&L) round scores, how to answer past-behavior and hypothetical questions, what happens at hiring committee and team match, and you will have 50 practice questions.
+For anyone with a Google loop, from intern to early career. You leave knowing what the Googleyness and Leadership (G&L) round scores, how to answer past-behavior and hypothetical questions, and what happens at hiring committee and team match, with 50 practice questions.
 
 ## Where G&L fits in Google's process
 
@@ -9,13 +9,14 @@ For anyone with a Google loop, from intern to early career. You will finish know
 | Google Hiring Assessment (some roles) | An online assessment designed to measure workstyle skills; may come before any interview | [Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/) |
 | Recruiter conversations | One or two calls | same |
 | Interview panel | Video or in person. Every candidate is scored with the same structured rubrics. No brainteasers | same |
-| G&L round | Commonly one 45-minute behavioral round next to 3 to 4 coding rounds at L3 and L4 | [Hello Interview: Google L4](https://www.hellointerview.com/guides/google/l4) |
+| G&L round | At L4, one 45-minute behavioral round in an onsite with 2 to 3 coding rounds, after one coding phone screen | [Hello Interview: Google L4](https://www.hellointerview.com/guides/google/l4) |
 | Hiring committee | An independent group of Googlers reviews your interview feedback | [Google internship prep deck, 2018](https://services.google.com/fh/files/misc/preparing_for_google_technical_internship_interviews.pdf) |
 | Team match | Calls with hiring managers. The offer comes after a team picks you | [IGotAnOffer](https://igotanoffer.com/en/advice/google-team-matching) |
 
 - Google says the whole process typically takes 6 to 8 weeks, and that AI tools are not permitted during interviews ([Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/)).
+- Google lets you apply to up to three jobs every 30 days. It typically asks you to wait at least a year before reapplying for the same type of role (same source).
 - Google has brought back in-person interviews for some roles. Often the first rounds are virtual and a later one is onsite ([Google interview tips](https://www.google.com/about/careers/applications/interview-tips/)).
-- Hello Interview reports the hiring assessment is about 50 questions in 30 to 45 minutes, and that failing it locks you out for 6 months. Google's own page does not give these details.
+- Hello Interview reports the hiring assessment is about 50 questions in 30 to 45 minutes, mandatory, and that failing it locks you out for 6 months. Google's own page only says you "may be asked" to take it and gives none of these details. Expect it, and answer it the way you actually work.
 - At L4, Hello Interview says G&L looks at growth and fit more than proven leadership, and your level is decided mostly by coding.
 - Interns: Google's 2018 deck describes two 45-minute technical interviews, committee review, then host matching. If no host project fits, the process can end there. See [intern interviews](../internships/intern-interviews.md).
 
@@ -24,7 +25,7 @@ For anyone with a Google loop, from intern to early career. You will finish know
 Business Insider reported in May 2026, from an internal document confirmed by a Google spokesperson, that Google is piloting changes for junior to mid-level roles on select US teams, starting with Cloud and Platforms and Devices ([Business Insider](https://www.businessinsider.com/google-job-interview-software-engineers-ai-assistant-coding-2026-5)):
 
 - The G&L round adds a technical design discussion about one of your past projects.
-- A new code comprehension round where you read, debug, and improve a codebase with Gemini allowed.
+- A new code comprehension round, from the second half of 2026, where you "read, debug, and optimize" an existing codebase with Gemini allowed.
 - Junior candidates get an open-ended engineering challenge in place of one technical round.
 
 Jugal's read: "Google's behavioral round now includes a technical design conversation grounded in your prior work. If you cannot explain why you chose one architecture over another in your own projects, that round will expose it." ([How to Prepare for FAANG AI Engineer Internship Season](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer))
@@ -71,6 +72,8 @@ Google re:Work calls the leadership it wants from individual contributors "emerg
 
 Jugal's summary of what strong G&L answers show: "humility, openness to feedback, intellectual honesty, and a genuine desire to learn rather than simply to win." ([How to Prepare for Behavioral Interviews at FAANG](https://jugaldb.substack.com/p/how-to-prepare-for-behavioral-interviews))
 
+Do this: write one story title next to each of the 9 attributes in the table. Every blank row is a gap to fill from your [story bank](story-bank.md) before the mock on day 6 of the plan below.
+
 ## Past-behavior vs hypothetical questions
 
 G&L mixes both types ([Google interview tips](https://www.google.com/about/careers/applications/interview-tips/), [re:Work](https://rework.withgoogle.com/intl/en/guides/a-guide-to-structured-interviewing-for-better-hiring-practices)).
@@ -85,7 +88,7 @@ G&L mixes both types ([Google interview tips](https://www.google.com/about/caree
 
 ### How to answer a hypothetical
 
-This skeleton combines the steps in Google's own video on hypothetical questions ([Google Students](https://www.youtube.com/watch?v=eIMR82oO2Dc), summarized by [IGotAnOffer](https://igotanoffer.com/en/advice/google-hypothetical-interview-questions)) with Google coach Jeff H Sipe's Clarify, Framework, Assumptions, Solution method ([Jeff H Sipe](https://practice-interviews.ghost.io/googleyness-leadership-decision-making/)).
+This skeleton combines the steps in Google's own video on general cognitive ability questions ([Google Students](https://www.youtube.com/watch?v=eIMR82oO2Dc), summarized by [IGotAnOffer](https://igotanoffer.com/en/advice/google-hypothetical-interview-questions)) with Google interview coach Jeff H Sipe's Clarify, Framework, Assumptions, Solution method ([Jeff H Sipe](https://practice-interviews.ghost.io/googleyness-leadership-decision-making/)).
 
 ```text
 1. Pause:    "Let me take a moment to think about that."
@@ -169,7 +172,7 @@ Sources: GOOG = [Google interview tips](https://www.google.com/about/careers/app
 | 19 | When did you have to influence a team without authority? | Leading without the title | JB |
 | 20 | Share a moment when your personal values clashed with a work decision. | Doing the right thing | JB |
 | 21 | When have you felt out of place on a team, and what did you do? | Growth, team | JB |
-| 22 | Tell me about a time you used data to change a decision. | Data | GOOG |
+| 22 | Tell me about a time you used data to change a decision. | Data | Adapted from GOOG "Focus on data" |
 
 ### Hypothetical (12)
 
@@ -230,7 +233,7 @@ The committee never meets you. It reads your interviewer's notes. Google's re:Wo
 4. **Say "I" for your actions.** The note-taker writes down who did what.
 5. **End with the result and the lesson.** That is the last thing in the notes.
 
-Order varies: in the US, hiring committee usually comes before team match, while Hello Interview and Coditioning report that EU offices often run team match first ([Hello Interview](https://www.hellointerview.com/guides/google/l4), [Coditioning](https://www.coditioning.com/blog/107/google-swe-team-matching-hiring-committee)). Ask your recruiter which order applies to you.
+Hiring committee usually comes before team match, but the order varies. Hello Interview reports that at EU offices especially, team match often comes first ([Hello Interview](https://www.hellointerview.com/guides/google/l4)), and Coditioning says the order can vary by candidate and team ([Coditioning](https://www.coditioning.com/blog/107/google-swe-team-matching-hiring-committee)). Ask your recruiter which order applies to you.
 
 ## Team match calls
 
@@ -323,7 +326,8 @@ Coaches and guides:
 - [Hello Interview: Google L4 guide](https://www.hellointerview.com/guides/google/l4): current loop, including the hiring assessment and G&L. How to use it: read the behavioral section.
 - [Hello Interview: Team Match Survival Guide](https://hellointerview.substack.com/p/team-match-survival-guide): research steps and questions for match calls. How to use it: do its 10-minute research step before each call.
 - [Coditioning: Google team matching and hiring committee](https://www.coditioning.com/blog/107/google-swe-team-matching-hiring-committee): what match calls ask and how order varies. How to use it: use its pitch checklist.
-- [PracHub: Googleyness in 2026](https://prachub.com/resources/googleyness-what-it-is-and-how-to-pass-the-google-behavioral-interview-2026): pillars and 10 recurring questions. How to use it: add its questions to your grid.
+- [PracHub: Googleyness in 2026](https://prachub.com/resources/googleyness-what-it-is-and-how-to-pass-the-google-behavioral-interview-2026): four pillars and 12 recurring questions. How to use it: add its questions to your grid.
+- [LeetCode Discuss: Googlyness frequently asked questions](https://leetcode.com/discuss/post/5963463/googlyness-frequently-asked-questions-by-55sh/): a candidate-compiled list grouped into general, project and ambiguity, and role-related questions. How to use it: optional extra drill bank once the 50 above are done.
 - [PracHub: Google SWE intern team matching 2027](https://prachub.com/resources/google-swe-intern-team-matching-2027-timeline-match-calls-and-what-improves-your-odds): intern host matching, official vs reported. How to use it: interns, follow its follow-up etiquette.
 - [Jeff H Sipe: G&L decision making](https://practice-interviews.ghost.io/googleyness-leadership-decision-making/): a Google interview coach on hypotheticals. How to use it: practice the Clarify, Framework, Assumptions, Solution steps.
 - [Jeff H Sipe on YouTube](https://www.youtube.com/c/JeffHSipe): many G&L videos, for example [decision making](https://www.youtube.com/watch?v=M82iiv4fMqs). How to use it: watch 2 videos in your prep week.
@@ -336,6 +340,6 @@ From Jugal:
 - [How to Prepare for Behavioral Interviews at FAANG](https://jugaldb.substack.com/p/how-to-prepare-for-behavioral-interviews): what Google's round rewards. How to use it: read the Google section on day 1.
 - [Why Smart Candidates Still Fail FAANG Interviews](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang): 15 Googliness questions with what each answer should show. How to use it: map each to a story.
 
-Process details and the most asked coding problems are on the [Google company page](../companies/google.md). Google Interview Warmup, which older guides recommend, is discontinued (as of Oct 2026).
+Process details and the most asked coding problems are on the [Google company page](../companies/google.md). Google Interview Warmup, which older guides recommend, now redirects to a general article (checked Oct 2026), so treat it as discontinued.
 
 Next: [Meta behavioral round](meta.md)

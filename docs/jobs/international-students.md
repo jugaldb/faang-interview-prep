@@ -32,6 +32,15 @@ I was not selected in the H-1B lottery this year, so this is not theory for me (
 
 Video walkthrough from Jugal for international candidates: [How to land your dream job in USA 2025 (Jugal Bhatt with Yudi J)](https://www.youtube.com/watch?v=jcnsNJ3VcN4).
 
+### Keep your F-1 status while you search
+
+From Jugal's [U.S. visa guide](https://jugaldb.substack.com/p/step-by-step-guide-applying-for-a) and [Study in the States](https://studyinthestates.dhs.gov/maintaining-status):
+
+- [ ] Stay enrolled full time every term. If you cannot, talk to your DSO first.
+- [ ] Work off campus only with CPT or OPT authorization in hand. Unauthorized work can end your status.
+- [ ] Keep your passport valid at all times.
+- [ ] Tell your DSO about any change of address, major or program. Address changes are due within 10 days.
+
 ## D/S rule: what changed and what did not
 
 | Date | Event |
@@ -271,7 +280,7 @@ FY2025 totals: 114,806 initial employment approvals across 28,277 employers, 61%
 Roles that usually do not work on F-1:
 
 - Defense and aerospace roles under export control. Jugal names SpaceX, Anduril, RTX, Northrop Grumman and most Palantir defense roles. SpaceX's posting, for example, requires a US citizen, green card holder, refugee or asylee, or someone eligible for export authorization from the State Department ([posting](https://job-boards.greenhouse.io/spacex/jobs/8621757002)).
-- Programs that state no sponsorship, such as the [Anthropic Fellows Program](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) and [Claude Corps](https://www.anthropic.com/claude-corps/fellow).
+- Programs that state no sponsorship, such as the [Anthropic Fellows Program](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) and [Claude Corps](https://www.anthropic.com/claude-corps/fellow). Claude Corps also rules out F-1 CPT, OPT and STEM OPT. Jugal's [June 2026 post](https://jugaldb.substack.com/p/anthropic-will-pay-you-85k-to-put) said OPT might qualify, but Anthropic's eligibility page now says it does not.
 
 > **Watch out:** the "no sponsorship" symbols on the Simplify job lists are rare. A missing symbol does not mean the role sponsors. Some job posts state it in plain words, for example: no "H-1B, TN, O-1, green card, or F-1-related status such as EAD, OPT, CPT".
 
@@ -368,8 +377,9 @@ Warm introductions matter more for you than for anyone else. Jugal: "Your job se
 
 Jugal's full walkthrough for Indian students: [Step-by-Step Guide: Applying for a U.S. Visa](https://jugaldb.substack.com/p/step-by-step-guide-applying-for-a).
 
-## Taxes on CPT and OPT pay
+## SSN and taxes on CPT and OPT pay
 
+- You need a Social Security Number to get paid. F-1 students qualify once they have a job: on-campus work, a TA or RA role, CPT or OPT. Apply in person at a Social Security office with your passport, I-20, job offer or EAD, and a DSO letter (Jugal's steps: [How I Got My First US Credit Card](https://jugaldb.substack.com/p/how-i-got-my-first-us-credit-card)).
 - F-1 students who are nonresident aliens (generally fewer than 5 calendar years in the US) are exempt from Social Security and Medicare tax on on-campus, CPT and OPT wages ([IRS](https://www.irs.gov/individuals/international-taxpayers/foreign-student-liability-for-social-security-and-medicare-taxes)). Check your first paystub. If those taxes were withheld, ask payroll to fix it.
 - Students from India can claim the standard deduction under the US-India tax treaty, which other nonresident aliens cannot ([IRS Publication 519](https://www.irs.gov/publications/p519)).
 - This is not tax advice. Use your school's tax resources.
@@ -386,7 +396,7 @@ Jugal's full walkthrough for Indian students: [Step-by-Step Guide: Applying for 
 | Higher degree | A new program at a higher level brings a new 12 months of OPT. A US master's also makes you eligible for the separate 20,000 advanced-degree cap | Only if you actually want the degree |
 | Another country | UK, Canada or Germany (below) | You are open to moving |
 
-Start collecting O-1 evidence as a student. Jugal judged and organized hackathons before he learned that judging others' work is one of the criteria ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)). Only EB-1A is a self-petition: an O-1A needs a US employer or agent to file.
+Start collecting O-1 evidence as a student: Jugal judged and organized hackathons before he learned that judging others' work is one of the criteria ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)). His [H-1B lottery post](https://jugaldb.substack.com/p/i-didnt-get-selected-in-h1-b-lottery) has a cold email for offering to judge a hackathon. Only EB-1A is a self-petition: an O-1A needs a US employer or agent to file.
 
 ## UK, Canada and Germany options
 
@@ -407,6 +417,10 @@ Where to find these jobs: [UK and Europe boards](where-to-find-jobs.md#uk-and-eu
 2. **For a US internship while enrolled abroad,** you need a J-1 intern sponsor through [BridgeUSA](https://j1visa.state.gov/programs/intern). It covers students enrolled at a degree-granting school outside the US, or graduated within 12 months. Ask the company which sponsor it uses.
 3. **Plan the L-1 route.** One continuous year at a US company's office abroad can lead to a transfer.
 4. **Funding a US master's:** Jugal studied at UIUC without paying tuition through a TA-ship ([The $0 Masters in the US](https://jugaldb.substack.com/p/the-0-master-in-the-us-just-one-email)). Indian students looking for Fulbright should use [USIEF](https://www.usief.org.in/), not the US Fulbright student site.
+    - [How I Paid $0 for a U.S. Degree](https://jugaldb.substack.com/p/how-i-paid-0-for-a-us-degree-without): his TA method and professor email template. How to use it: meet professors in office hours, apply for TA roles outside your department too, and follow up politely if there is no reply after 7 days. Not every TA role comes with a tuition waiver.
+    - [I Studied in the USA for FREE](https://jugaldb.substack.com/p/i-studied-in-the-usa-for-free-here): the same story, updated June 2026 ("I actually got paid $3000 every month for studying"). It also links his paid TA community on Skool.
+    - [How To Find $10K in Scholarships](https://jugaldb.substack.com/p/how-to-find-10k-in-scholarships-without): where to look and a tracker. How to use it: start 6 to 12 months before your program and never pay to apply.
+    - [How I Saved $6,000 as an International Student](https://jugaldb.substack.com/p/how-i-saved-6000-as-an-international): rent, travel and shopping savings. How to use it: check with your international office before you sell unused items for cash.
 5. **Paid student programs:** confirm with your international office that you can accept a stipend before you commit ([Jugal on campus programs](https://jugaldb.substack.com/p/openai-will-pay-you-to-lead-ai-on)).
 
 ## Key dates to calendar

@@ -8,10 +8,10 @@ Amazon says every candidate is evaluated through its Leadership Principles (LPs)
 
 | Stage | What happens | Where the LPs show up | Source |
 |---|---|---|---|
-| Online assessment (students) | Coding plus a Workstyles Assessment (about 15 minutes); full-time adds a Work Simulation (about 60 minutes) | The Workstyles Assessment is built on the LPs | [Amazon SDE OA](https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa) |
+| Online assessment (students) | Coding (about 70 minutes) plus a Workstyles Assessment (about 15 minutes); full-time adds a Work Simulation (about 60 minutes) | The Workstyles Assessment is built on the LPs | [Amazon SDE OA](https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa) |
 | Phone screen | Technical and behavioral questions | Amazon publishes 5 sample behavioral questions; update within 2 business days | [Amazon phone screen](https://www.amazon.jobs/content/en/how-we-hire/phone-screening) |
 | Loop | 2 to 7 interviewers including a Bar Raiser, 45 to 60 minutes each | Interviewers are assigned LPs to assess; each asks 2 or 3 behavioral questions | [Interview loop](https://www.amazon.jobs/content/en/how-we-hire/interview-loop), [SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep) |
-| Weight | About half of an SDE loop is behavioral | LP answers are as much of the decision as code | [About Amazon](https://www.aboutamazon.com/news/workplace/amazon-interview-guide) |
+| Weight | For SDE roles, about half of the process is technical; the rest is LP questions | LP answers weigh as much as code | [About Amazon](https://www.aboutamazon.com/news/workplace/amazon-interview-guide) |
 | Decision | Update within 5 business days of the loop; the whole process averages 3 to 6 weeks | The debrief weighs the LP notes | [Interview loop](https://www.amazon.jobs/content/en/how-we-hire/interview-loop), [FAQ](https://www.amazon.jobs/content/en/faq/interview-process) |
 
 When I went through my Amazon loop, it was three technical rounds plus a Bar Raiser ([The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually)). Loop shape varies by role and level. Ask your recruiter for yours.
@@ -40,7 +40,9 @@ Amazon treats all principles as equal and says the job description usually shows
 | Cover with flex stories | Frugality, Hire and Develop the Best | Reuse a constraint story and a mentoring story |
 | Low priority for SDEs | Strive to be Earth's Best Employer, Success and Scale Bring Broad Responsibility | interviewing.io says engineers are rarely asked these; have one story that shows you considered side effects |
 
-Amazon's worksheet says it is normal if your experience does not cover all 16 ([Amazon worksheet](https://duaa2xs5z3ldn.cloudfront.net/assets/McsJv4WXKWb_FlRc_LRX21Ro-EvUopwEW-LeadershipPrinciplesSTARtemplate.pdf)).
+Jugal's top 4 to memorize are Customer Obsession, Bias for Action, Dive Deep, and Have Backbone; Disagree and Commit ([The Definitive Guide for Meta and Amazon Engineering Interviews](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and)). All four sit in the first tier above.
+
+Amazon's worksheet says it is normal if your experience does not cover all 16 ([Amazon worksheet](https://duaa2xs5z3ldn.cloudfront.net/assets/McsJv4WXKWb_FlRc_LRX21Ro-EvUopwEW-LeadershipPrinciplesSTARtemplate.pdf)). Do this: open the job description, highlight words that match a principle (customer, ownership, deliver, dive deep), and move those principles to the top of your list.
 
 ## All 16 Leadership Principles
 
@@ -370,8 +372,9 @@ What Amazon says officially:
 What others report:
 
 - Veto power is not stated on Amazon's pages. Former Bar Raisers Steve Huynh ([Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews)) and Dave Anderson ([Scarlet Ink](https://www.scarletink.com/three-tales-from-an-amazon-bar-raiser/)) say they had it.
-- Fortune reported in August 2024 that Amazon brought Bar Raisers back into entry-level SDE I loops after removing them for a period ([Fortune](https://fortune.com/2024/08/07/amazon-bar-raisers-entry-level-interview-hiring-procedure/)). As a new grad, expect one. Confirm with your recruiter.
-- You may not be told which interviewer is the Bar Raiser. Amazon says to treat every interviewer the same and not to tailor answers to their role ([Interview loop](https://www.amazon.jobs/content/en/how-we-hire/interview-loop)).
+- Fortune reported in August 2024, citing an internal memo obtained by Business Insider, that Amazon brought Bar Raisers back into entry-level SDE-1 (L4) loops after removing them during the pandemic hiring boom ([Fortune](https://fortune.com/2024/08/07/amazon-bar-raisers-entry-level-interview-hiring-procedure/)). As a new grad, expect one. Confirm with your recruiter.
+- Amazon's pages do not say you will be told which interviewer is the Bar Raiser. The loop page says to treat every interviewer the same and not to tailor answers to their role ([Interview loop](https://www.amazon.jobs/content/en/how-we-hire/interview-loop)).
+- Ex-Bar Raiser David Markley told Business Insider in May 2025 that a candidate can get an "inclined to hire" status that "sticks around for six more months" even without an offer, which may help if you apply to another Amazon role in that window ([Business Insider](https://www.businessinsider.com/former-amazon-bar-raiser-tips-to-land-offer-inclined-hire-2025-5)). This is his account, not an official policy.
 
 ### How to prepare for the Bar Raiser
 
@@ -412,8 +415,9 @@ The student SDE online assessment includes a Workstyles Assessment of about 15 m
 1. Read all 16 principles on the [official page](https://www.amazon.jobs/content/en/our-workplace/leadership-principles) the day before.
 2. Take the practice test linked from the [SDE OA page](https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa).
 3. Use Amazon's free prep course: [full-time SDE](https://d36nnaydmp89fp.cloudfront.net/index.html) or [SDE intern](https://d1fkqbr9gy4tb4.cloudfront.net/index.html).
-4. Answer the way you actually work. Amazon says there is no practice needed for this part, so don't try to game it.
-5. Block about 2.5 hours for the full-time OA. Amazon's page suggests setting aside up to two hours, but its listed section averages add up to about 150 minutes.
+4. Answer the way you actually work. Amazon says there is no practice needed for the Workstyles part, so don't try to game it. Jugal's tip: stay consistent, because similar statements come back in different words ([The Definitive Guide for Meta and Amazon Engineering Interviews](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and)).
+5. For the Work Simulation (emails and chats from a fictional team), use Jugal's three tie-breakers from the same post: customer over everything, propose a solution yourself instead of "checking with the boss", and ask for logs or metrics instead of guessing. Ignore that post's "20-minute" length; Amazon lists the average as 60 minutes.
+6. Block about 2.5 hours for the full-time OA. Amazon's page says to set aside up to two hours, but its listed section averages (70 + 15 + 60 + 5 minutes) add up to 150 minutes. Interns: about 90 minutes.
 
 Full OA details: [OA formats by company](../online-assessments/company-oa-formats.md) and the [Amazon company page](../companies/amazon.md).
 
@@ -505,9 +509,10 @@ Why Amazon (45 to 60 seconds):
 
 ## Logistics worth knowing (as of Oct 2026)
 
-- Amazon is piloting AI transcription of interviews with your explicit consent. Its FAQ says it is voluntary, does not affect your evaluation, and transcripts are not shared with candidates ([FAQ](https://www.amazon.jobs/content/en/faq/interview-process), [About Amazon, Jan 2026](https://www.aboutamazon.com/news/workplace/artificial-intelligence-resume-jobs-hiring-amazon)).
+- Amazon is piloting AI transcription of interviews with your explicit consent. Its FAQ says it is voluntary, does not affect your evaluation, and transcripts are not shared with candidates ([FAQ](https://www.amazon.jobs/content/en/faq/interview-process), [About Amazon, Jan 2026](https://www.aboutamazon.com/news/workplace/artificial-intelligence-resume-jobs-hiring-amazon)). It only runs on some Zoom interviews, and only if you opted in under the AI preferences in your amazon.jobs account settings ([Phone screen](https://www.amazon.jobs/content/en/how-we-hire/phone-screening)).
 - In remote interviews a second Amazonian may shadow. It does not affect the outcome ([SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)).
-- You can ask for a Candid Chat with an employee from an affinity group during the process ([Candid Chats](https://www.amazon.jobs/content/en/how-we-hire/candid-chats)).
+- Remote loops run on Zoom or Amazon Chime; your recruiter tells you which. Test your camera and screen sharing the day before ([Remote interviews](https://www.amazon.jobs/content/en/how-we-hire/remote-interview)).
+- You can ask for a Candid Chat with an employee from an affinity group during the process ([Candid Chats](https://www.amazon.jobs/content/en/how-we-hire/candid-chats)). Accommodations are requested through the [accommodations page](https://www.amazon.jobs/content/en/how-we-hire/accommodations).
 
 ## Resources
 
@@ -516,6 +521,8 @@ Official, free:
 - [Amazon Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles): official text of all 16, each with a short video. How to use it: underline the verbs in each principle and find a story that shows that verb.
 - [Amazon interview loop](https://www.amazon.jobs/content/en/how-we-hire/interview-loop): STAR guidance, "I" not "we", loop logistics. How to use it: read the STAR section twice before your loop.
 - [Amazon STAR worksheet (PDF)](https://duaa2xs5z3ldn.cloudfront.net/assets/McsJv4WXKWb_FlRc_LRX21Ro-EvUopwEW-LeadershipPrinciplesSTARtemplate.pdf): the official story worksheet. How to use it: fill it during days 4 to 7.
+- [STAR Method: How to Ace Your Amazon Interview](https://www.youtube.com/watch?v=UQrTMxouDUY): official Inside Amazon video, linked from the SDE II page. How to use it: watch once before writing story cards, then match your answer length to it.
+- [Amazon Leadership Principles (SIP)](https://www.youtube.com/watch?v=CpcxVE5JIX4): official Inside Amazon video on the principles. How to use it: watch on day 1 next to the official page.
 - [Amazon SDE OA prep](https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa): student OA format, including the Workstyles Assessment. How to use it: take the practice test.
 - [Amazon SDE II interview prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep): behavioral best practices and the worksheet link. How to use it: read the behavioral section even as a new grad.
 - [Amazon How We Hire](https://www.amazon.jobs/content/en/how-we-hire): hub for every stage. How to use it: open the page for your role.
@@ -529,6 +536,7 @@ Coaches and practice:
 
 - [interviewing.io: Amazon Leadership Principles guide](https://interviewing.io/guides/amazon-leadership-principles): built on hundreds of Amazon LP mocks. How to use it: read the section on mistakes and follow-up drilling.
 - [IGotAnOffer: Amazon LP questions](https://igotanoffer.com/en/advice/amazon-leadership-principles): questions per principle and per role. How to use it: drill the SDE list.
+- [IGotAnOffer: Amazon LP question bank (PDF)](https://d3no4ktch0fdq4.cloudfront.net/public/course/files/Amazon_Leadership_Principles_interview_questions.pdf): 17 pages of questions grouped by principle. How to use it: print it and tick each question once you have a story for it.
 - [Scarlet Ink: Amazon LP interview guide](https://www.scarletink.com/interviewing-at-amazon-leadership-principles/) (freemium): an ex-Amazon Bar Raiser on good and bad answers. How to use it: read the Customer Obsession and Ownership sections.
 - [IGotAnOffer video: advice from a Bar Raiser](https://www.youtube.com/watch?v=BfbFO_HUz2A): how not to get vetoed. How to use it: watch once in week 2.
 - [Pragmatic Engineer: learnings from about 1,000 interviews](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews) (freemium): Steve Huynh's four dimensions. How to use it: score each story with them.
@@ -540,6 +548,6 @@ From Jugal:
 - [Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the): the full 6-week plan; Week 2 is the LP plan above. How to use it: follow it end to end if Amazon is your first target.
 - [Why Smart Candidates Still Fail FAANG Interviews](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang): 15 Amazon questions with what each answer should show. How to use it: add each to your LP map.
 - [How to Prepare for Behavioral Interviews at FAANG](https://jugaldb.substack.com/p/how-to-prepare-for-behavioral-interviews): what the Amazon round looks for. How to use it: read the Amazon section before day 1.
-- [The Definitive Guide for Meta and Amazon Engineering Interviews](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and): Amazon's process next to Meta's. How to use it: read if you are interviewing at both.
+- [The Definitive Guide for Meta and Amazon Engineering Interviews](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and): Amazon's process next to Meta's. How to use it: read if you are interviewing at both. Where it differs from Amazon's own pages (Work Simulation length, stories for all 16, veto power), go with the official pages linked above.
 
 Next: [Google Googleyness and Leadership](google-googleyness.md)
