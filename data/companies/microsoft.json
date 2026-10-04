@@ -18,7 +18,7 @@
   },
   {
    "stage": "Online assessment",
-   "details": "HackerRank in most 2025 to 2026 reports (Codility in early 2025 and before). Usually 2 coding questions, one easier and one medium or hard, in 60 to 110 minutes. India campus OAs are proctored with tab-switch and paste detection, some camera-on."
+   "details": "HackerRank in most 2025 to 2026 reports (Codility in early 2025 and before). Usually 2 coding questions, one easier and one medium or hard, in 60 to 110 minutes. OA rules (Explore OA, Dec 2025) say copying code, pasting external content or switching tabs is flagged, recorded and can disqualify you."
   },
   {
    "stage": "Recruiter screen",
@@ -48,7 +48,7 @@
   },
   {
    "stage": "Final round (2 or 3 interviews)",
-   "details": "US Summer 2027 SWE tracks: 2 back-to-back 45 minute interviews with a 15 minute break (a commenter: 2 LeetCode questions with Q&A after). AI SWE intern: 3 back-to-back 45 minute interviews in one day. CoreAI intern: the invite listed one live coding interview, one AI-assisted coding interview and one system design or behavioral interview (Sep 2026). India campus reports add OOP pillars, OS (paging, page faults), DBMS modelling and a detailed resume discussion."
+   "details": "US Summer 2027 SWE tracks: 2 back-to-back 45 minute interviews with a 15 minute break. Sep 2026 reports from that thread: one candidate got two LeetCode-style questions explained on a whiteboard with many edge-case questions; another had a system design and behavioral-heavy first interview and an easy-medium LeetCode second, and says the invite mentions system design may come up. AI SWE intern: 3 back-to-back 45 minute interviews in one day. CoreAI intern: the invite listed one live coding interview, one AI-assisted coding interview and one system design or behavioral interview (Sep 2026). India campus reports add OOP pillars, OS (paging, page faults), DBMS modelling and a detailed resume discussion."
   },
   {
    "stage": "Team match and offer",
@@ -92,6 +92,20 @@
  },
  "non_leetcode_formats": "LLD in runnable code (LRU cache with pluggable eviction, notification service, message queue with locks, cart service, min-heap from scratch). India intern loops include a CS fundamentals viva (OOP pillars, C vs C++ vs Java, paging and page faults, DBMS modelling). The AA (as appropriate) round is a senior leader interview that is mostly behavioral plus detailed project discussion. US SWE II hiring events run a 4-round loop (3 DSA plus 1 HLD). Some US rounds are practical API tasks the interviewer does not expect you to finish (Jan 2026). New in the Summer 2027 cycle: the CoreAI intern loop includes an AI-assisted coding interview alongside live coding and a design or behavioral round (Sep 2026).",
  "reported_questions": [
+  {
+   "title": "Find the k smallest distinct elements in an array (edge-case questions such as why k cannot be negative)",
+   "url": "",
+   "role": "SWE intern, Summer 2027 (US, 2 x 45 minute final round)",
+   "date": "2026-09",
+   "source_url": "https://www.reddit.com/r/csMajors/comments/1wq4inb/microsoft_swe_intern_interview_what_to_expect/"
+  },
+  {
+   "title": "Check whether a tree is 'good' (equal counts of A and B nodes) without using a helper function",
+   "url": "",
+   "role": "SWE intern, Summer 2027 (US, 2 x 45 minute final round)",
+   "date": "2026-09",
+   "source_url": "https://www.reddit.com/r/csMajors/comments/1wq4inb/microsoft_swe_intern_interview_what_to_expect/"
+  },
   {
    "title": "Asteroid Collision (OA intermediate question)",
    "url": "https://leetcode.com/problems/asteroid-collision/",
@@ -259,6 +273,13 @@
    "role": "SDE II, Redmond",
    "date": "2025-02",
    "source_url": "https://leetcode.com/discuss/post/6456363/microsoft-oa-sde-2-redmond-by-anonymous_-0h0l/"
+  },
+  {
+   "title": "Longest safe path in a string of letters and '#' blockers, then allow one '#' (sliding window); 3 DSA questions in Round 1",
+   "url": "",
+   "role": "L60 (location not stated)",
+   "date": "2026-05",
+   "source_url": "https://leetcode.com/discuss/post/8298268/l60-microsoft-round-1-3-dsa-by-anonymous-d2gp/"
   }
  ],
  "focus_topics": [
@@ -280,7 +301,7 @@
   "Prepare STAR(R) stories with a Reflection line; Microsoft's own interview tips add the extra R.",
   "For 60 to 62 loops, practice one LLD in working code within 35 to 45 minutes: cache with eviction strategies, notification service, producer-consumer queue.",
   "Treat the final AA round as a senior-leader behavioral and detailed project discussion: know your exact contribution, numbers and trade-offs.",
-  "In the OA, never switch tabs or paste external code; HackerRank flags both and some 2026 OAs ran camera-on.",
+  "In the OA, never switch tabs or paste external code; Microsoft's HackerRank OA rules say both are flagged, recorded and can disqualify you.",
   "Prepare real questions for your interviewers; Microsoft's official interview tips tell you to prepare questions to ask during the interview."
  ],
  "compensation_note": "Levels.fyi US software engineer data (page read Oct 4, 2026): level 59 'SDE' about $161K total comp (base $128K, stock $24K/yr, bonus $9.7K); 60 about $191K (base $141K); 61 'SDE II' about $195K; 62 about $202K. India (Levels.fyi USD figures at the site rate of about 94.5 INR/USD): 59 about 27 lakh INR, 60 about 32 lakh, 61 about 49 lakh. Reported 2026 India new grad offer: SDE 1 (L59) base 18.05 lakh INR, $35K stock over 4 years, 4.51 lakh sign-on, 0 to 20% bonus. US interns (official Summer 2027 postings): $5,690 to $11,210 per month ($7,410 to $12,250 in SF Bay Area and NYC); Explore $25.96 to $47.77 per hour ($37.58 to $54.04 in SF Bay Area and NYC). The us-intern-pay page itself does not list figures; they are in each posting. Ranges vary by location and level.",
