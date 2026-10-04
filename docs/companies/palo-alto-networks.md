@@ -2,7 +2,7 @@
 
 Cybersecurity platform (firewalls, Cortex, Unit 42). Interviews are LeetCode easy-medium plus networking, OS and security fundamentals and practical design. Updated October 2026.
 
-| | |
+| Palo Alto Networks at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern (US: 12-week summer program per the official early-career page; India: 5-month internships that convert to full time per an official Oct 2025 story; an official Mar 2025 story describes a Jan 2023 intern converting to full time by August) |

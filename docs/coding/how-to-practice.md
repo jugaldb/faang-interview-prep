@@ -15,9 +15,8 @@ For anyone who has picked a list on [problem lists](problem-lists.md). You leave
 
 1. Do 2 to 3 new problems a day, plus every re-solve that is due. Jugal's routine during his job hunt was "3 LeetCode problems a day (focus on patterns, not volume)" ([post](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing)).
 2. Do due re-solves first. Cap them at about 30% of the session. If more are due, cut new problems, not re-solves.
-3. Cluster, then mix. Jugal: "Spend two days doing ONLY sliding window problems. Then two days on binary search." ([post](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)). Once you have covered the core patterns, switch to random problems so you practice recognizing the pattern, not just applying it.
-4. Use one language for every problem. Pick it once on [the coding overview](index.md#pick-your-language) and do not switch mid-prep.
-5. Solve out loud. "Solving silently and explaining under pressure are two different skills" ([post](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually)).
+3. Cluster, then mix. Jugal: "Spend two days doing ONLY sliding window problems. Then two days on binary search." ([post](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)). Leave a pattern only when you can name it from the problem statement alone ([60-day roadmap](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta)). Once you have covered the core patterns, switch to random problems so you practice recognizing the pattern, not just applying it.
+4. Solve out loud. "Solving silently and explaining under pressure are two different skills" ([post](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually)).
 
 ## Time limits
 
@@ -30,6 +29,8 @@ Target time from reading the problem to working, tested code. These match the pe
 | Hard | 40 min | 60 min |
 
 Why so tight: Meta's [intern interview guide](https://www.metacareers.com/blog/acing-your-software-engineering-internship-interview-at-meta/) describes one to two coding questions in about 30 to 35 minutes of coding time. A Medium has to fit inside 30 minutes, with talking.
+
+Once you have a target company, tighten to Jugal's targets: Easy in 10 minutes, Medium in 20. His [Apple](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8), [Google](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e) and [Netflix](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020) 5-week plans start with these limits. All five company plans are in one post: [Optimizing your interviews at FAANG](https://jugaldb.substack.com/p/optimizing-your-interviews-at-faang).
 
 ## The per-problem routine
 

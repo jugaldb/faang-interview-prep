@@ -2,7 +2,7 @@
 
 Streaming, ads and games at global scale. Small team-run loops: CodeSignal take-home, practical coding, design-heavy rounds, and a strong culture-memo filter. Updated October 2026.
 
-| | |
+| Netflix at a glance | |
 |---|---|
 | **Category** | FAANG |
 | **Intern level** | Intern (12-week summer program; US, India, Poland and Japan; bachelor's, master's or PhD students) |
@@ -10,16 +10,16 @@ Streaming, ads and games at global scale. Small team-run loops: CodeSignal take-
 | **0 to 3 years** | L3 Engineer for 0 to about 2 yrs; L4 Engineer II for roughly 2 to 5 yrs; L5 Senior Engineer after that. New grad roles are US only. |
 | **Online assessment** | CodeSignal (2025 to 2026 student reports; Aced). Official pages call this step a 'take-home assessment'. : Summer 2026 SWE intern: 4 LeetCode-style questions in 70 minutes plus an AI-assisted General Coding Assessment scored separately. ML/AI intern versions lean on ML-flavored tasks. Netflix has not published the format. |
 | **Coding rounds** | Intern: 1 coding round plus 1 design round (2 to 3 total). New grad: within 2 rounds total. L4: phone screen plus 1 to 2 coding rounds onsite. |
-| **Behavioral** | Netflix Culture Memo: The Dream Team, People over Process, Uncomfortably Exciting, Great and Always Better; values of selflessness, judgment, candor, creativity, courage, inclusion, curiosity and resilience; the keeper test; context not control; highly aligned, loosely coupled; freedom and responsibility. |
-| **Timeline** | New grad: postings late September to October; final round to decision can exceed 3 weeks (Mar 2026). Interns: postings mid-August to early September (Summer 2026 posting appeared in early October 2025); OA in October; first interview about a month after the OA; Round 2 within weeks; team matching January to April. Aced reports some candidates finish the full loop in about 3 weeks. Candidates can interview with multiple teams at once (interviewing.io). |
+| **Behavioral** | Netflix Culture Memo: The Dream Team, People Over Process, Uncomfortably Exciting, Great and Always Better; values of selflessness, judgment, candor, creativity, courage, inclusion, curiosity and resilience; the keeper test; context not control; highly aligned, loosely coupled; farming for dissent; freedom for unusually responsible people. |
+| **Timeline** | New grad: official window is late September to October, but 2026 SWE new grad roles posted around Dec 6 to 8, 2025; final round to decision can exceed 3 weeks (Mar 2026). Interns: postings mid-August to early September per Netflix (the Summer 2026 SWE intern posting appeared in early October 2025); OA in October; first interview 30 to 35 days after the OA (Dec 2025 report); Round 2 within weeks; team matching January to April. Aced reports some candidates finish the full loop in about 3 weeks, and that for interns and new grads a team-matching step can add 2 to 3 weeks before the hiring manager interview. Candidates can interview with multiple teams at once (interviewing.io). |
 | **New grad pay** | Levels.fyi US software engineer data (page read Oct 4, 2026): L3 about $214K total comp (base $204K, stock $6.8K/yr, bonus $3.3K); L4 about $325K, all base salary; L5 about $507K. Netflix pays mostly cash and lets engineers choose a cash vs stock option mix (Simplify). Simplify reports an official L3 new grad band of $100K to $300K and self-reported offers clustered near $205K base. Europe example: L4 in Warsaw at about 425K PLN total (Mar 2025 report). |
-| **Official links** | [Careers](https://jobs.netflix.com/), [Students](https://jobs.netflix.com/careers/new-grads), [Values](https://jobs.netflix.com/culture) |
+| **Official links** | [Careers](https://jobs.netflix.com/), [Students](https://jobs.netflix.com/careers/new-grads), [Official interview prep](https://jobs.netflix.com/careers/internships), [Values](https://jobs.netflix.com/culture) |
 
 ## Interview process
 
 ### New grad
 
-1. **Apply.** Official: new grad roles are typically posted in late September or October, US only, and availability varies by year. Postings say the job is open for no less than 7 days and is removed when filled. After applying, Simplify reports a separate Airtable form sent by email.
+1. **Apply.** Official: new grad roles are typically posted in late September or October, US only, and availability varies by year. In the 2026 cycle the SWE new grad postings went up later, around Dec 6 to 8, 2025 on explore.jobs.netflix.net, after October Reddit rumors that Netflix would only convert interns. Postings say the job is open for no less than 7 days and is removed when filled. After applying, Simplify reports a separate Airtable form sent by email that you must complete.
 2. **Take-home assessment.** Official first step. Netflix has not published the format (Simplify). 2025 to 2026 student reports describe CodeSignal: a timed coding test plus a separate AI-assisted General Coding Assessment. A referred new grad applicant received both (one standard, one AI-assisted) in Jan 2026; the AI one failed with 502 errors twice.
 3. **Recruiter screen.** 30 to 45 minutes, culture-focused (Simplify); Aced says recruiters discuss background, motivation and the culture memo.
 4. **Two interview rounds.** Official: two rounds that evaluate technical, role-specific and behavioral skills, with advancement based on feedback at each stage. Expect live coding (CodeSignal or CoderPad) with practical framing plus culture questions; round content varies by team.
@@ -51,7 +51,7 @@ Prepare with [How to pass an OA](../online-assessments/strategy.md) and compare 
 - **Style:** Medium difficulty with a practical, Netflix-flavored twist; some teams avoid LeetCode entirely (interviewing.io). Two-part questions are common: solve, then apply it to a real system. Recent examples: JSON path lookup with wildcards, minimum time for parallel processes to notify N devices (binary search on time), frontend tasks (flatten an object, implement test matchers with currying, async error handling). Netflix-tagged LeetCode leans on caches and scheduling: Cache With Time Limit, Time Based Key-Value Store, LRU Cache, Course Schedule II.
 - **Environment:** CodeSignal or CoderPad live coding (Aced); video call. Some system design rounds have no drawing tool, so you explain verbally.
 - **Graded on:** Complete, working code; clarifying requirements; trade-offs and complexity; edge cases; responsiveness to hints; candid communication. Decisions are binary pass or fail from a live post-onsite discussion (interviewing.io).
-- **Reported focus topics:** Caches with expiry (TTL cache, LRU, time-based key-value store), Binary search on the answer and scheduling problems, Graphs and topological sort (Course Schedule II, Parallel Courses), Parsing and traversing nested data (JSON, objects), Concurrency and async error handling for frontend roles, System design basics even for interns: APIs, data modeling, caching, Netflix-tagged LeetCode, last 6 months (snehasishroy repo, July 2026 snapshot): Cache With Time Limit, Longest Substring Without Repeating Characters, Time Based Key-Value Store, Course Schedule II, Parallel Courses, String to Integer (atoi), Contains Duplicate III, LRU Cache, Culture memo stories: candor, judgment, ownership, dissent
+- **Reported focus topics:** Caches with expiry (TTL cache, LRU, time-based key-value store), Binary search on the answer and scheduling problems, Graphs and topological sort (Course Schedule II, Parallel Courses), Parsing and traversing nested data (JSON, objects), Concurrency and async error handling for frontend roles, System design basics even for interns: APIs, data modeling, caching, Netflix-tagged LeetCode, last 6 months (snehasishroy/leetcode-companywise-interview-questions, 8.2K stars, data as of July 12, 2026, last commit Aug 15, 2026): Cache With Time Limit, Course Schedule II, Parallel Courses, Longest Substring Without Repeating Characters, Time Based Key-Value Store, String to Integer (atoi), Contains Duplicate III, LRU Cache, Culture memo stories: candor, judgment, ownership, dissent, Jugal's 60-day company-wise DSA plan tags Netflix with intervals and Top K (Minimum Number of Arrows to Burst Balloons, Top K Frequent Elements, Kth Largest Element in an Array) and heaps or greedy (Find Median from Data Stream, Sliding Window Median, Jump Game II, Gas Station, Boats to Save People, Candy): https://jugaldb.substack.com/p/company-wise-dsa-patterns
 
 Run every practice problem through [the 45-minute framework](../coding/interview-framework.md) and the [code quality rubric](../coding/code-quality.md).
 
@@ -115,7 +115,7 @@ Start with [who needs system design](../system-design/index.md), then the [frame
 
 ## Behavioral
 
-**Framework:** Netflix Culture Memo: The Dream Team, People over Process, Uncomfortably Exciting, Great and Always Better; values of selflessness, judgment, candor, creativity, courage, inclusion, curiosity and resilience; the keeper test; context not control; highly aligned, loosely coupled; freedom and responsibility. ([official page](https://jobs.netflix.com/culture))
+**Framework:** Netflix Culture Memo: The Dream Team, People Over Process, Uncomfortably Exciting, Great and Always Better; values of selflessness, judgment, candor, creativity, courage, inclusion, curiosity and resilience; the keeper test; context not control; highly aligned, loosely coupled; farming for dissent; freedom for unusually responsible people. ([official page](https://jobs.netflix.com/culture))
 
 **What they look for:**
 
@@ -124,7 +124,7 @@ Start with [who needs system design](../system-design/index.md), then the [frame
 - Curiosity and product-mindedness
 - Impact told with metrics, including failures and what you learned
 - Willingness to disagree and then commit ('farming for dissent')
-- Real familiarity with the culture memo; interviewing.io says candidates fail on culture fit alone
+- Real familiarity with the culture memo; interviewing.io says skipping the memo means failing the behavioral round, and a failed behavioral round alone gets you rejected
 
 **Questions to prepare:**
 
@@ -155,7 +155,7 @@ Do this after you finish a core list like [Grind 75 or NeetCode 150](../coding/p
 - [ ] Week 1: Solve problems 1 to 20 from the most frequent list. Time-box each at 30 minutes.
 - [ ] Week 2: Solve problems 21 to 40. Re-solve any you failed in week 1 without looking.
 - [ ] Week 3: Solve the signature problems and every reported question above. Do 2 timed mock interviews.
-- [ ] Week 4: Write 8 stories for the Netflix Culture Memo: The Dream Team, People over Process, Uncomfortably Exciting, Great and Always Better; values of selflessness, judgment, candor, creativity, courage, inclusion, curiosity and resilience; the keeper test; context not control; highly aligned, loosely coupled; freedom and responsibility. round. Do 2 full mock loops. Review the online assessment and system design notes above.
+- [ ] Week 4: Write 8 stories for the Netflix Culture Memo: The Dream Team, People Over Process, Uncomfortably Exciting, Great and Always Better; values of selflessness, judgment, candor, creativity, courage, inclusion, curiosity and resilience; the keeper test; context not control; highly aligned, loosely coupled; farming for dissent; freedom for unusually responsible people. round. Do 2 full mock loops. Review the online assessment and system design notes above.
 
 ## Sources
 
@@ -169,7 +169,7 @@ Do this after you finish a core list like [Grind 75 or NeetCode 150](../coding/p
 - <https://jobs.netflix.com/work-life-philosophy>
 - <https://www.levels.fyi/companies/netflix/salaries/software-engineer>
 - <https://simplify.jobs/blog/netflix-new-grad-software-engineer-guide>
-- <https://interviewing.io/netflix-interview-questions>
+- <https://interviewing.io/guides/hiring-process/netflix>
 - <https://www.aced.io/guides/netflix-software-engineer-interview>
 - <https://engineeringenablement.substack.com/p/the-netflix-software-engineering>
 - <https://www.hellointerview.com/community/questions/company/Netflix>

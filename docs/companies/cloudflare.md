@@ -2,7 +2,7 @@
 
 Global network for security, performance and the Workers developer platform; interviews favor practical pair programming, real-world system design and a values-based Orange Cloud round. Updated October 2026.
 
-| | |
+| Cloudflare at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern (2027), Austin: Winter/Spring (Jan to May 2027) or Summer (May to Sep 2027), 12 to 14 weeks, full time 40 hrs/week, in office 3 to 5 days, no remote or part-time. The 2026 cycle also hired in NYC, SF, Bengaluru, Lisbon and London; other intern titles seen include Data Engineer intern and System Software Engineer intern. |

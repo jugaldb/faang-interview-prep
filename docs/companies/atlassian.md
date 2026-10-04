@@ -2,7 +2,7 @@
 
 Builds Jira, Confluence and Trello; interviews reward runnable, tested code in your own IDE, a code design round, and a values interview. Updated October 2026.
 
-| | |
+| Atlassian at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern (no P level). Summer internship for penultimate-year students; region calendars differ (US May to Sep, India May to Aug, ANZ Nov to Feb). |

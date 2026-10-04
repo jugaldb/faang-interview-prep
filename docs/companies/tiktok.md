@@ -2,7 +2,7 @@
 
 Short-video, live, e-commerce and recommendation systems; team-by-team hiring with LeetCode medium/hard coding plus OS, networking and database fundamentals questions. Updated October 2026.
 
-| | |
+| TikTok (ByteDance) at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Intern (Undergrad/Masters, MBA, PhD tracks), not leveled |

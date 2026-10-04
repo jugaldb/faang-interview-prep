@@ -2,7 +2,7 @@
 
 Builds iPhone, Mac, iOS, iCloud, Siri and Apple silicon; interviews are run by the hiring team, vary widely, and weigh domain depth and 'Why Apple?'. Updated October 2026.
 
-| | |
+| Apple at a glance | |
 |---|---|
 | **Category** | FAANG |
 | **Intern level** | Software Engineering Intern or co-op (summer internships or academic-year co-ops; official students page: 'open to those enrolled full-time and pursuing a bachelor's degree, master's degree, or doctorate'). India: IS&T intern roles are reported (e.g. Reliability Engineering IS&T Intern, Oct 2025, offer the next day); duration and PPO terms are not confirmed in sources. Apple's internship search listed 89 results on Oct 4, 2026; the newest were mostly in Europe and China. |

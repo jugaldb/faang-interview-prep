@@ -2,7 +2,7 @@
 
 Builds the Bloomberg Terminal and financial data systems; interviews are LeetCode-tagged mediums with resume talk, then HR and engineering manager rounds. Updated October 2026.
 
-| | |
+| Bloomberg at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Software Engineering Intern (summer; official page says 6 to 10 weeks or up to 6 months depending on region). Entry-level and intern SWE roles are not tied to a team at application time (official). |

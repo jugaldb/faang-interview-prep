@@ -2,7 +2,7 @@
 
 Builds Claude; no internships and few new-grad roles, so juniors enter via Fellows; interviews favor practical Python coding, concurrency and a values round. Updated October 2026.
 
-| | |
+| Anthropic at a glance | |
 |---|---|
 | **Category** | AI lab |
 | **Intern level** | None. Official careers FAQ (Oct 2026): 'We don't currently offer internships.' Closest option: the Anthropic Fellows Program (4 months, paid weekly stipend). |

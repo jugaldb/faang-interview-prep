@@ -27,7 +27,9 @@ Amazon's own rules for LP answers, paraphrased:
 7. Don't share confidential information from current or past employers ([About Amazon](https://www.aboutamazon.com/news/workplace/amazon-job-interview-mistakes)).
 8. Prepare "Why Amazon?". The loop page calls it a common question.
 
-Jugal's warning from his internship prep guide: "Prepare Amazon's behavioral component separately. Leadership Principles preparation is required on top of technical prep, and candidates routinely underestimate it." ([How to Prepare for FAANG AI Engineer Internship Season](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer))
+Jugal's summary of what the LP questions measure: "not whether you always made the right call, but whether you owned the outcome, demonstrated sound judgment, and evolved as a result" ([How to Prepare for Behavioral Interviews at FAANG](https://jugaldb.substack.com/p/how-to-prepare-for-behavioral-interviews)).
+
+His warning from his internship prep guide: "Prepare Amazon's behavioral component separately. Leadership Principles preparation is required on top of technical prep, and candidates routinely underestimate it." ([How to Prepare for FAANG AI Engineer Internship Season](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer))
 
 ## Which principles to prepare first
 

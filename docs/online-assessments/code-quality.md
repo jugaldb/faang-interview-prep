@@ -390,6 +390,4 @@ Run this on every question before the final submit.
 - [How to Crack FAANG Interviews (Part 1)](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part): "Production-Grade Code: Interviewers expect clear thought process, edge-case handling (e.g., null checks), and in-place optimizations."
 - [How to Land Anthropic's $3,850/Week AI Fellowship in 2026](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai): the 90-minute assessment covers OOP, building small systems and "Extending existing code as requirements evolve", which is the progressive-task skill above.
 
-The same habits carry into live rounds, where an interviewer watches you write. The next page covers interview rubrics, naming and testing out loud.
-
 Next: [Code quality in coding interviews](../coding/code-quality.md)

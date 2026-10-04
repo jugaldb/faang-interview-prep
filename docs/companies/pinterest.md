@@ -2,7 +2,7 @@
 
 Visual discovery and shopping platform; lean intern loop (CodeSignal, one live round), multi-part practical coding, and a new AI-assisted coding round. Updated October 2026.
 
-| | |
+| Pinterest at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineering Intern (Pintern), not leveled |

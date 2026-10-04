@@ -2,7 +2,7 @@
 
 For anyone who can solve problems alone but has not practiced solving them in front of someone. You get free and paid options with prices, a run sheet and scoring rubric for peer mocks, and a schedule for how many to do and when.
 
-Jugal's reason, from [The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually): solving silently and explaining under pressure are two different skills. From [Want a Job in the Next 30 Days?](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use): "Knowing the answer and being able to say it calmly under pressure are two different things, and you only close that gap with reps."
+Jugal's reason: "Knowing the answer and being able to say it calmly under pressure are two different things, and you only close that gap with reps" ([Want a Job in the Next 30 Days?](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use)). He makes the same point in [The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually).
 
 ## Why mocks change the result
 
@@ -35,7 +35,7 @@ What to do with it:
 | [CoderPad sandbox](https://app.coderpad.io/sandbox) | Environment only | Free | Using the same editor as many real interviews | Share it with your mock partner. Practice without running code to mimic Google, Meta, and Amazon |
 | [Free Mock Interview](https://freemockinterview.com/) | AI, voice | Free, no login | Saying answers out loud, mostly behavioral | Pick your target role and answer out loud. Read the report for where you ramble |
 | Your university career center | Human | Free for students | Behavioral rounds, nerves | Book one early in the season |
-| [interviewing.io mocks](https://interviewing.io/mocks) | Human, FAANG engineers | Paid: "Interviews start at $179"; full refund if unhappy ([FAQ](https://interviewing.io/faq)) | Calibration right before a big loop | Anonymous, voice only. Book 1 or 2 in the final 2 weeks; pick an interviewer from your target company |
+| [interviewing.io mocks](https://interviewing.io/mocks) | Human, FAANG engineers | Paid: "Interviews start at $179"; full refund if unhappy ([FAQ](https://interviewing.io/faq)) | Calibration right before a big loop | Anonymous, voice only. Book 1 or 2 in the final 2 weeks; pick an interviewer from your target company. Jugal used it before Amazon: explaining out loud "helped me articulate my thought process clearly during actual Amazon rounds" ([post](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and)) |
 | [Meetapro](https://www.meetapro.com/) | Human marketplace | Paid; prices vary by interviewer (filter by price) | A specific company or round type | Filter by company and round, read reviews, book 1 before an onsite |
 | [Aced coaching](https://www.aced.io/coaching) (formerly Exponent) | Human coaches | Paid session packs | A final pre-onsite mock with a senior coach | Book one session only, in the last 2 weeks |
 | [Preplaced](https://preplaced.in/) | Mentorship marketplace (India) | Paid, free trial | Long-term 1:1 mentorship from 600+ mentors at companies like Google, Amazon and Meta | Use the free trial to test a mentor before you pay. Ask for mock interviews in the plan |
@@ -233,7 +233,7 @@ Rules:
 | Final week | 2 to 3 | Exact format of your loop | Timing and setup |
 | Day before | 0 | Light review of your phrase bank and story bank | Rest |
 
-The minimum of 5 comes from the interviewing.io data above: "You need at least five interviews to move the needle, and they need to happen systematically and on a schedule." Jugal's own plans fit inside this: 3 timed 45-minute mocks in week 5 of each 5-week company plan ([Meta](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part), [Amazon](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8), [Google](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e)), and two sessions a day on days 3 to 7 of week 5 in [Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
+The minimum of 5 comes from the interviewing.io data above: "You need at least five interviews to move the needle, and they need to happen systematically and on a schedule." Jugal's own plans fit inside this: 3 timed 45-minute mocks in week 5 of each 5-week company plan ([Meta](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part), [Amazon](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8), [Google](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e), [Apple](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8), [Netflix](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020); all five in one post: [Optimizing your interviews at FAANG](https://jugaldb.substack.com/p/optimizing-your-interviews-at-faang)), and two sessions a day on days 3 to 7 of week 5 in [Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
 
 ### Ready signal
 
@@ -253,7 +253,8 @@ I'm really excited about interviewing at [company name]. Unfortunately, if I'm h
 2. Answer the self-review questions below in writing, adapted from Jugal's [Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
 3. Listen to the recording. Jugal: "Notice how you say 'um' forty times? Fix it. Notice how you went silent for 3 minutes? Never do that again."
 4. Re-solve any problem that took over 30 minutes, in 25 minutes or less ([Amazon prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8)). Do it 3 days later, the gap Jugal uses in his [Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
-5. Pick one fix for the next mock and write it at the top of your next scoring sheet.
+5. Record a 2-minute audio explanation of that solution, then cut it until it is clear. Every week 5 in Jugal's company plans includes a recorded explanation. His [Netflix plan](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020) caps it at 2 minutes, and his [Google plan](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e) makes it a "proof sketch" of the time and space trade-offs.
+6. Pick one fix for the next mock and write it at the top of your next scoring sheet.
 
 ```text
 SELF-REVIEW (answer in writing within 30 minutes)

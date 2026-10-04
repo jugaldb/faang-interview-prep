@@ -2,7 +2,7 @@
 
 Rideshare, bikes and scooters in North America plus FREENOW in Europe; interviews mix LeetCode screens with 90-minute laptop rounds, Byteboard assessments and product system design. Updated October 2026.
 
-| | |
+| Lyft at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineer Intern (Summer 2027 tracks: Backend, Frontend, Fullstack, Machine Learning, Test Automation; SF, Toronto, Montreal, Mexico City). |

@@ -2,7 +2,7 @@
 
 Snapdragon chips, modems, WiFi and on-device AI. Team-run, low-level interviews: C/C++ internals, pointers, bit manipulation, OS, plus LeetCode easy/medium coding. Updated October 2026.
 
-| | |
+| Qualcomm at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Intern (US titles like Software Engineering Intern, Embedded Software Engineer Intern; India 'Interim Engineering Intern'). US internships are 12 to 14 weeks in summer. |

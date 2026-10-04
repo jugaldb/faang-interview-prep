@@ -2,7 +2,7 @@
 
 Travel platform (Expedia, Hotels.com, Vrbo, B2B). Known for 3-question HackerRank OAs, runnable-code DSA rounds, travel-domain LLD, and behaviors-based STAR interviews. Updated October 2026.
 
-| | |
+| Expedia Group at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | SDE Intern / Software Development Engineer Intern (8 to 14 weeks, May or June start). |

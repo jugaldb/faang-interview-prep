@@ -2,7 +2,7 @@
 
 Indian UPI payments app and fintech group (PhonePe Group also runs Share.Market, insurance, lending and the Indus Appstore). Known for machine coding rounds, story-wrapped hard DSA and fintech-flavored design. Updated October 2026.
 
-| | |
+| PhonePe at a glance | |
 |---|---|
 | **Category** | India and Asia |
 | **Intern level** | SDE Intern (Bengaluru/Pune); summer 2027 intern interviews ran in July 2026 (LeetCode). |

@@ -2,7 +2,7 @@
 
 Networking, security (incl. Splunk) and Webex. Interviews: auto-sent HackerRank OA, then resume-driven rounds heavy on networking, OS and C, plus a manager round. Updated October 2026.
 
-| | |
+| Cisco at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern / Technical Undergraduate Intern (India offer letters show grade 'Intern/099'). Internships and co-ops run 3 to 12 months by region. |

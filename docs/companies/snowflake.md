@@ -2,7 +2,7 @@
 
 Cloud data platform (the 'AI Data Cloud'). Known for hard HackerRank OAs, LeetCode medium-hard rounds and database or infrastructure flavored design. Updated October 2026.
 
-| | |
+| Snowflake at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineer Intern (North America cohorts in Spring, Summer and Fall; EMEA and APAC year-round, 12 to 16 weeks) |

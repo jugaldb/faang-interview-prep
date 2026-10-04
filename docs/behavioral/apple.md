@@ -17,7 +17,7 @@ Apple has no public interview prep guide and no separate values interview. Each 
 | You can interview with several Apple teams at once. One candidate quoted by interviewing.io interviewed with about 12 teams and got 2 offers | Apply to 2 to 3 teams whose work matches your projects | interviewing.io |
 | Resume to final interviews takes 1 to 4 months, sometimes faster | Keep other processes going | Aced |
 
-Jugal's Apple breakdown describes the loop as systems-heavy, with a strong focus on clarity of thought and edge cases ([How to crack FAANG interviews, Part 4](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8)). Expect much of the behavioral signal to come from how you explain your technical work. The "tell me about a time" questions are only part of it.
+Jugal interviewed at Apple in late 2025 and found it "surprisingly systems-heavy with a strong focus on clarity of thought and edge cases" ([How to crack FAANG interviews, Part 4](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8)). Expect much of the behavioral signal to come from how you explain your technical work. The "tell me about a time" questions are only part of it.
 
 ## What Apple looks for
 

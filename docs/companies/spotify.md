@@ -2,7 +2,7 @@
 
 Audio streaming platform; loops pair a project-plus-trivia tech screen with coding, Spotify-feature system design, a production-debugging case study, and values interviews. Updated October 2026.
 
-| | |
+| Spotify at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Global Summer Internship Program: 10 weeks, June to August, office-based in London, Stockholm or NYC only. |

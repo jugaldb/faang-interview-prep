@@ -2,7 +2,7 @@
 
 Global card payments network. Known for a timed CodeSignal or HackerRank OA, two DSA-plus-resume technical rounds, and a hiring manager round. Updated October 2026.
 
-| | |
+| Visa at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern (US summer; India 2-month campus summer internship; UK 'Software Engineer Placement Year' in Belfast posted Sep 2026) |

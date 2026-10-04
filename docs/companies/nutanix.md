@@ -2,7 +2,7 @@
 
 San Jose hybrid multicloud and storage infrastructure company with large Bengaluru and Pune engineering. Interviews: graph-heavy DSA, systems fundamentals, debugging real codebases. Updated October 2026.
 
-| | |
+| Nutanix at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Internships in R&D (Software Engineering) and other teams. India: Summer, Monsoon and Winter interns hired through partner-college campus drives. Also commonly offered in Australia, France, Serbia, Spain, UK, US and Mexico (official FAQ). Paid (US postings list pay ranges); most internships do not sponsor visas. Official FAQ: many employees start as interns and full-time conversion is discussed with your manager during the internship. Nutanix lists a 2025 and 2026 Vault Best Internship award on its culture page. |

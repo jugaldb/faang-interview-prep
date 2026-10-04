@@ -2,7 +2,7 @@
 
 Retail brokerage, crypto and banking app. Interviews use long, finance-flavored practical coding (fractional shares, referrals), a project deep dive, and job-scheduler style design. Updated October 2026.
 
-| | |
+| Robinhood at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineering Intern (Backend, Web, iOS, Android; Summer 2027 postings in Menlo Park, New York, Bellevue). Toronto has Software Developer Intern and Winter 2027 co-op roles. |

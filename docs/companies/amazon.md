@@ -2,7 +2,7 @@
 
 Builds retail, AWS, Alexa, Prime Video and devices; known for Leadership Principles in every round, the Bar Raiser, LLD for SDE I, and AI-assisted OAs. Updated October 2026.
 
-| | |
+| Amazon at a glance | |
 |---|---|
 | **Category** | FAANG |
 | **Intern level** | SDE Intern (US: 12-week, in office, Summer 2027 posting also lets you pick Winter or Fall 2027; India: 6-month SDE intern with PPO). Amazon University Talent Acquisition (AUTA) runs student hiring. |

@@ -279,6 +279,12 @@ A pattern-first alternative to a list. Source: [I Cleared Amazon, Google, and Me
 
 > **Tip:** In the graph block, learn Dijkstra first. The [Tech Interview Handbook graph page](https://www.techinterviewhandbook.org/algorithms/graph/) rates Bellman-Ford, Floyd-Warshall, Prim and Kruskal as almost never asked.
 
+Want it day by day? Jugal's earlier [Master DSA with patterns](https://jugaldb.substack.com/p/company-wise-dsa-patterns) runs 60 days at 60 to 90 minutes a day. Copy its last three days into any plan:
+
+- [ ] Day 58, mistake log: re-solve your 3 most painful misses from scratch and write which pattern you should have recognized.
+- [ ] Day 59, full mock: 2 Mediums and 1 Hard (one DP or graph, one tree or backtracking, one array, interval or greedy) in 75 to 90 minutes, then a short debrief.
+- [ ] Day 60, trigger phrases: for each pattern, write 1 to 2 phrases ("sliding window when...") and one problem to redo later.
+
 ### Jugal's 5-week company plans
 
 Each plan has 42 to 45 problems over 4 weeks with a time cap per problem, then a week of three 45-minute mocks.
@@ -292,6 +298,29 @@ Each plan has 42 to 45 problems over 4 weeks with a time cap per problem, then a
 | Netflix | [Part 5](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020) | Arrays and strings; graphs and trees; DP and sliding window; backtracking and advanced graphs | Graph Valid Tree, Alien Dictionary and Number of Connected Components are Premium (free on NeetCode). Same strStr rename as Apple |
 
 All five posts link LeetCode company filters that now need Premium. Use the free route below instead.
+
+### Michael's 10-week pattern roadmap
+
+A lighter plan: 5 to 6 problems a week, one or two patterns per week. It comes from Jugal's interview with Michael, CEO of Simplify ([Michael's 10-week FAANG roadmap](https://jugaldb.substack.com/p/michaels-ultimate-faang-10-week-roadmap)). [Michael's Guide to FAANG DSA](https://jugaldb.substack.com/p/michaels-guide-to-faang-dsa) has the same roadmap plus 5 sample problems for each of 15 patterns. Use it beside classes, or as a pattern review after a core list.
+
+| Week | Patterns |
+|---|---|
+| 1 | Sliding window, two pointers |
+| 2 | Fast and slow pointers, merge intervals |
+| 3 | Cyclic sort, in-place linked list reversal |
+| 4 | BFS, DFS |
+| 5 | Backtracking and recursion |
+| 6 | 1D dynamic programming |
+| 7 | 2D dynamic programming |
+| 8 | Greedy, intervals |
+| 9 | Binary search |
+| 10 | Graphs: topological sort, union-find, trie |
+
+Fix before you start:
+
+- Meeting Rooms II (week 2) and Alien Dictionary (week 10) are Premium. Solve them free on NeetCode.
+- Two labels open different problems: "Maximum Sum Subarray of Size K" is [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/), and "Cyclic Sort" is [Set Mismatch](https://leetcode.com/problems/set-mismatch/).
+- Seven problems have no link in the post: [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/), [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/), [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/), [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/), [Unique Paths](https://leetcode.com/problems/unique-paths/), [Interleaving String](https://leetcode.com/problems/interleaving-string/), [Lemonade Change](https://leetcode.com/problems/lemonade-change/).
 
 ## Company-tagged lists: last, not first
 
@@ -409,6 +438,8 @@ Prices as of Oct 2026 (US page, shown as discounts that can change): **$35 a mon
 | Still working through a core list | Not yet. Every core list is free, and NeetCode hosts free copies of the Premium problems in Blind 75 and NeetCode 150 |
 | Target is Netflix, Flipkart, Adobe or Oracle | Not worth it. Their 6-month tag lists have 7 to 14 problems |
 | Splitting one account with friends | Do not. LeetCode's [terms](https://leetcode.com/terms/) forbid letting anyone else use your account and allow termination without refund |
+
+Jugal used Premium this way before Amazon: "Company frequency sorting let me prioritize high-yield questions that appeared often" ([The Definitive Guide for Meta & Amazon Engineering Interviews](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and)).
 
 Other paid options:
 

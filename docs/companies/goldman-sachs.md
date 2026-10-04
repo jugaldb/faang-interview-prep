@@ -2,7 +2,7 @@
 
 Global investment bank with large engineering teams; hiring runs HackerRank (coding plus math), a HireVue video, then CoderPad Superday interviews. Updated October 2026.
 
-| | |
+| Goldman Sachs at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Summer Analyst (Engineering). Programs range from one-week spring internships to full-time positions (official). |

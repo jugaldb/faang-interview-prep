@@ -2,7 +2,7 @@
 
 Booking Holdings' travel platform with a Bangkok engineering hub and visa relocation. Interviews: HackerRank coding, Platform round (design plus code review), system design, culture fit. Updated October 2026.
 
-| | |
+| Agoda at a glance | |
 |---|---|
 | **Category** | India and Asia |
 | **Intern level** | Software Engineer Intern. Bangkok: Summer Internship (8 to 10 weeks, June to July), Off-Cycle (4 to 16 weeks, August to April, part-time allowed), Co-op (4 to 12 months). India: 6-month SDE intern in Gurugram (on-site interviews, 2025 and 2026 cycles). |

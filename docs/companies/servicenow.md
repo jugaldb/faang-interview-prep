@@ -2,7 +2,7 @@
 
 Enterprise workflow and AI platform (ITSM, HR, customer service). Interviews: HackerRank OA, 2 to 4 LeetCode-medium rounds, plus JavaScript/Java concepts and short HLD. Updated October 2026.
 
-| | |
+| ServiceNow at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern (US, e.g., San Diego); India: Associate Software Engineer Intern / Software Development Intern (2 months, Hyderabad). |

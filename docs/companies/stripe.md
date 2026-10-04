@@ -2,7 +2,7 @@
 
 Payments and financial infrastructure APIs. Interviews are practical: multi-part business-logic coding, an API integration round and a bug squash in a real codebase. Updated October 2026.
 
-| | |
+| Stripe at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineering Intern (undergrad and grad). India: 6-month winter intern in Bengaluru reported Oct 2025. |

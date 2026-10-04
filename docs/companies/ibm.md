@@ -2,7 +2,7 @@
 
 Hybrid cloud, watsonx AI, consulting and mainframes. Known for a HackerRank OA (DSA plus REST API tasks), then light technical and manager behavioral rounds. Updated October 2026.
 
-| | |
+| IBM at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer / Software Developer Intern or Co-op (hourly). IBM also runs a Co-op Program and an Apprenticeship Program for people without degrees. |

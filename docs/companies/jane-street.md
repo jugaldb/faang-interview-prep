@@ -2,7 +2,7 @@
 
 Quant trading firm built on OCaml. SWE interviews are collaborative, multi-part practical coding problems in any language, judged on process and clarity. Updated October 2026.
 
-| | |
+| Jane Street at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Software Engineer intern: Summer Internship (NYC May to August, London June to September, Hong Kong and Singapore May to August, per Oct 4, 2026 listings; official: internships typically run 10 to 12 weeks between May and September) and a Winter Co-Op (NYC, January to April; posting says 'Must be enrolled in a co-op program'). First/second-year programs (FTTP, FOCUS, Bridge, INSIGHT, WiSE, SEE, Preview, IN FOCUS) are separate from the internship; IN FOCUS dates are moving to May 2027. |

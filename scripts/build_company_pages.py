@@ -165,7 +165,7 @@ def core_page(slug, q, p):
                                    link("Official interview prep", p.get("interview_prep_url")),
                                    link("Values", bh.get("values_url"))] if x)
     rows.append(("Official links", links))
-    L.append("| | |")
+    L.append(f"| {name} at a glance | |")
     L.append("|---|---|")
     for k, v in rows:
         if v:

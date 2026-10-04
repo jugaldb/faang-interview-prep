@@ -2,7 +2,7 @@
 
 All-in-one HR, IT and finance platform; interviews are practical multi-part coding (payroll, expenses, deliveries), LLD, and AI-assisted coding rounds. Updated October 2026.
 
-| | |
+| Rippling at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | US Summer 2027: Full Stack Software Engineer Intern, Software Engineer Intern (Backend Focused), Machine Learning Software Engineer Intern, Data Science Intern; the ML SWE intern also has a Winter 2027 term. US postings describe a 13-week internship. India interns are hired mostly through campus drives for the Bangalore program. |

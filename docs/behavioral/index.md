@@ -237,6 +237,9 @@ Prepare 3 per interviewer. Do not repeat the same question across a loop. Pick f
 
 Google states that AI tools are not permitted during its interviews ([Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/)). Use AI before, as a skeptical practice partner. Jugal's rule: "AI gives you a 70% draft fast, your job is the last 30% that makes it true and yours." ([The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually))
 
+1. Generate questions for your exact role. Jugal's starting prompt is "Give me 5 behavioral questions for a [role] role at [company]" ([Jugal's AI job application guide](https://jugaldb.substack.com/p/how-to-supercharge-your-job-applications)). Add each question to your [grid](story-bank.md#step-4-fill-the-mapping-grid).
+2. Answer one out loud, paste your answer into the prompt below, and fix what it flags.
+
 ```text
 You are a [Company] interviewer scoring a behavioral answer from a [intern / new grad]
 software engineer. Here is my story in STAR form:

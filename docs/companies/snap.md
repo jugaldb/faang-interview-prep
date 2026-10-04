@@ -2,7 +2,7 @@
 
 Snapchat, Specs and AR; live HackerRank coding at LeetCode medium/hard where speed and running code matter, plus values-based (Kind, Smart, Creative) behavioral scoring. Updated October 2026.
 
-| | |
+| Snap at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineering Intern (Summer @ Snap, 13 weeks), not leveled |

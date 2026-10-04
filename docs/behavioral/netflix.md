@@ -75,7 +75,7 @@ Netflix publishes the shape of the student process. Most detailed public reports
 | "Dream Team" interview | A more intense behavioral round run by a director: scale, accountability, candor, risk-taking | interviewing.io |
 
 - interviewing.io states that you will be rejected if you fail the behavioral screen. Treat it as must-pass.
-- Jugal's Netflix breakdown says the loop weighs culture fit and system design heavily, even for IC roles. His summary: Netflix equals ownership, design and culture alignment ([How to crack FAANG interviews, Part 5](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020)).
+- Jugal went through Netflix's loop in late 2025 and saw "how deeply they care about culture fit and system design even for IC roles." His summary: Netflix equals ownership, design and culture alignment ([How to crack FAANG interviews, Part 5](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020)).
 - Search open roles on [Netflix jobs](https://explore.jobs.netflix.net/careers) and read the team's job description before the culture screen.
 
 ## Prepare in 7 days

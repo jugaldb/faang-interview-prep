@@ -2,7 +2,7 @@
 
 Largest US bank; huge Java/Python engineering org. Interviews: HackerRank OA, HireVue video, then Superday or Code for Good hackathon, plus code review. Updated October 2026.
 
-| | |
+| JPMorgan Chase at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Software Engineer Program (SEP) Summer Intern / Summer Analyst (10 to 12 week internships per official students page) |

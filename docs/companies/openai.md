@@ -2,7 +2,7 @@
 
 Builds ChatGPT, the API and Codex; interviews favor practical multi-part coding, demanding system design and a project walkthrough. Updated October 2026.
 
-| | |
+| OpenAI at a glance | |
 |---|---|
 | **Category** | AI lab |
 | **Intern level** | Software Engineer Intern via the Emerging Talent program (Levels.fyi lists $60/hr in San Francisco for Summer 2025 and Summer 2026). |

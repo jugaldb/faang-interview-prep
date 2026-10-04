@@ -2,7 +2,7 @@
 
 Creative, document and marketing software (Photoshop, Acrobat, Firefly, Experience Cloud). Interviews: HackerRank coding with runnable tests, LLD, C++/Java depth, director round; AI-assisted rounds emerging. Updated October 2026.
 
-| | |
+| Adobe at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | '2027 Intern - Software Engineer' (US, posted Sep 18, 2026; San Jose, Waltham, San Francisco, Austin, Seattle, Lehi, New York; co-located hybrid). India: SWE intern and Product Intern with PPO to MTS-1; the Adobe India Hackathon (called 'Adobe University Hackathon' in 2026 candidate posts) is a campus route. |

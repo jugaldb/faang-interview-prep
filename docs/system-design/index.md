@@ -251,6 +251,7 @@ More ML and LLM design resources are on [Resources](resources.md#ml-and-ai-syste
 - **Explain a project properly:** "explain the user problem, the architecture, how you evaluated the output, what tradeoffs you made, and what you would improve in the next version" ([post](https://jugaldb.substack.com/p/how-to-become-an-ai-engineer-in-2026)).
 - **Meta new grads:** design is for E4 and up; E3 may get another coding round instead ([Jugal's Meta and Amazon guide](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and)).
 - **Netflix:** Jugal went through Netflix's loop and saw how much it cares about system design even for IC roles ([post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020)).
+- **Apple:** Jugal's late-2025 Apple interview was "surprisingly systems-heavy with a strong focus on clarity of thought and edge cases" ([post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8)). For Apple, name the failure cases and edge cases of every component you draw.
 
 ## Myths that waste prep time
 

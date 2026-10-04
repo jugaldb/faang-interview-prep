@@ -16,6 +16,8 @@ Get the guide (a PDF linked inside the page) from [Meta's onsite prep page](http
 | Driving results | Pushing yourself and others toward goals, showing impact, staying self-directed through roadblocks | A goal you pushed through a blocker without being told to | A number at the end, and nobody had to chase you |
 | Communicating effectively | Communicating with your team and cross-functional partners, and tailoring the message to the audience | Explaining a technical choice to a non-engineer | What you changed for that audience, and what they did next |
 
+Jugal's summary of what the round rewards: "Meta is not looking for recklessness, but for people who can move fast, learn quickly, and adjust without ego when reality changes" ([How to prepare for behavioral interviews](https://jugaldb.substack.com/p/how-to-prepare-for-behavioral-interviews)).
+
 > **Tip:** Some prep sites add a sixth signal called "Motivation". Meta's own guide lists five. Cover motivation with your "why Meta" answer and the intro, not with a separate story.
 
 ### Meta's values (context for your stories)

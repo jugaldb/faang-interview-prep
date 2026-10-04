@@ -2,7 +2,7 @@
 
 Quant investment manager run on data and distributed systems. Expect hard LeetCode-style OAs, three 60-minute codepair interviews, then project discussions. Updated October 2026.
 
-| | |
+| Two Sigma at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Software Engineering Internship (Summer 2027): 10 weeks, NYC (Soho) office, one project with an assigned mentor, ends in a final presentation. |

@@ -2,7 +2,7 @@
 
 Grocery delivery marketplace and retailer platform. Known for multi-part practical coding (grocery pricing, variable resolution), inventory design, and a new AI-enabled CodeSignal OA. Updated October 2026.
 
-| | |
+| Instacart at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineer Intern (Levels.fyi entries for Summer 2022 and 2025, remote); no intern postings open as of 2026-10-04 |

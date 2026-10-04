@@ -2,7 +2,7 @@
 
 For candidates who solve the problem and still get a "no hire". You get the rubric lines interviewers fill in, a pre-submit checklist, and a routine for testing code by hand.
 
-Jugal's summary from his [Anthropic Fellowship guide](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai): "Interviewers care about clean code and structured thinking, not just arriving at the correct answer." His [Meta prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part) lists "Production-Grade Code: Interviewers expect clear thought process, edge-case handling (e.g., null checks), and in-place optimizations."
+Jugal's summary from his [Anthropic Fellowship guide](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai): "Interviewers care about clean code and structured thinking, not just arriving at the correct answer." His [Meta prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part) lists "Production-Grade Code: Interviewers expect clear thought process, edge-case handling (e.g., null checks), and in-place optimizations." His Apple loop had "a strong focus on clarity of thought and edge cases" ([Apple prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8)).
 
 ## Passing tests is not the bar
 

@@ -156,7 +156,7 @@ Most new grads do not need it. The free sources above cover the process.
 | [Stop applying to ghost jobs](https://jugaldb.substack.com/p/stop-applying-to-ghost-jobs) | A 4-week log: 65 applications, 22 responses, 8 interviews, 4 offers |
 | [How to break into $300K+ HFT roles](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles) | Jugal's Nov 2025 new grad pay estimates for trading firms. Cross-check with Levels.fyi |
 | [How to check if a company sponsors H-1B visas](https://jugaldb.substack.com/p/how-to-check-if-a-company-sponsors) | The 4-step Data Hub check. Run it before you negotiate start dates |
-| [I didn't get selected in the H-1B lottery](https://jugaldb.substack.com/p/i-didnt-get-selected-in-h1-b-lottery) | Jugal's options after losing the 2026 lottery (EB-1A, O-1). Read it if lottery odds shape your choice between offers |
+| [I didn't get selected in the H-1B lottery](https://jugaldb.substack.com/p/i-didnt-get-selected-in-h1-b-lottery) | Jugal's options after losing the 2026 lottery (EB-1A, O-1). Read it if lottery odds shape your choice between offers. Its high-salary section lists free pay benchmarks (Levels.fyi, [BLS wage data](https://www.bls.gov/oes/), h1bdata.info) you can reuse for offer research |
 | [Bay Area monthly expenses as a student](https://jugaldb.substack.com/p/bay-area-monthly-expenses-as-a-student) | Rent, transport and food costs with a copyable budget planner. Use it to check an intern housing stipend |
 
 Every post mapped to this site: [Substack index](../resources/substack.md).

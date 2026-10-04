@@ -2,7 +2,7 @@
 
 Database, OCI cloud, Oracle Health and enterprise apps. Interviews: HackerRank DSA, CS fundamentals with Java/SQL, a 'bartender' bar-raiser round, and design even at IC2. Updated October 2026.
 
-| | |
+| Oracle at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Oracle Technical Intern Program (official name; US summer; teams named in candidate reports include OCI and Oracle Health and Analytics). India: 6-month intern plus FTE offers for campus hires (ASE track) and 'Project Intern' roles. Oracle Veteran Internship Program also exists. |

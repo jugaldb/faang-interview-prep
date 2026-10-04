@@ -2,7 +2,7 @@
 
 Builds Search, Cloud, Android, YouTube and Gemini; known for story-wrapped algorithm problems coded in a doc without running code, Googleyness, and slow team matching. Updated October 2026.
 
-| | |
+| Google at a glance | |
 |---|---|
 | **Category** | FAANG |
 | **Intern level** | Software Engineering Intern (BS, MS, PhD tracks; US, EMEA, India). India also runs 6-month SWE internships and a 2nd-year Associate Software Developer Intern (ASDI) program. STEP (1st/2nd-year US program) is discontinued as a named program. |

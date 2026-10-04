@@ -2,7 +2,7 @@
 
 Payments (PayPal, Venmo, Braintree). Known for HackerRank or Karat screens, then DSA, system design, a role specialization round, and a Bar Raiser behavioral. Updated October 2026.
 
-| | |
+| PayPal at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern (US/Canada 12 weeks, May to September; India 12 weeks, May to July, for 3rd-year students) |

@@ -2,7 +2,7 @@
 
 Algorithmic trading firm writing low-latency C++ and Python. Interviews test fundamentals deeply: OS, C++ internals, data structure internals, and implementation-heavy coding. Updated October 2026.
 
-| | |
+| Hudson River Trading at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Software Engineering Internship (C++ or Python), Summer 2027: posting lists Austin, Chicago, London, New York, Singapore (the Student Opportunities page names NYC, London, Singapore, Chicago); late May to mid-August, 'fully in-person'; Student Opportunities labels summer internships 'For 2028 Grads'. Early programs: Inside HRT (first/second-year STEM students, NYC, spring, 3 days), Explore HRT (2028 grads interested in quant trading, NYC/London/Singapore, spring), WiTTI winter internship (2 to 4 weeks in January, second-year students from underrepresented backgrounds). |

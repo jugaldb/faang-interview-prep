@@ -2,7 +2,7 @@
 
 India's leading e-commerce company (its own campus page wording), majority-owned by Walmart. Known for a 90 to 120 minute machine coding round, PSDS (DSA) rounds and LLD-heavy design rounds. Updated October 2026.
 
-| | |
+| Flipkart at a glance | |
 |---|---|
 | **Category** | India and Asia |
 | **Intern level** | SWE Intern / SDE Intern (Bengaluru). Routes: Flipkart GRiD (listed on the official Campus page as a 'technovation challenge') and on-campus 6-month intern plus FTE (6M+FTE) offers; a Jan 2025 winter intern offer came via GRiD 6.0. The Campus page also lists Girls Who Code and Women in Research, Engineering & Design (WiRED) programs. |

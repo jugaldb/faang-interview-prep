@@ -2,7 +2,7 @@
 
 Builds Facebook, Instagram, WhatsApp, Threads, Meta AI and Reality Labs; known for fast two-problem LeetCode rounds and, since late 2025, an AI-enabled coding round. Updated October 2026.
 
-| | |
+| Meta at a glance | |
 |---|---|
 | **Category** | FAANG |
 | **Intern level** | Software Engineer Intern (BS/MS/PhD; also Production Engineer and Network Production Engineer interns). Meta University (the 1st/2nd-year program) closed in 2025. |

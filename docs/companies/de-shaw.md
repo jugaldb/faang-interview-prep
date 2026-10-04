@@ -2,7 +2,7 @@
 
 Quant hedge fund with large New York and India tech teams. Interviews mix hard DSA with OS, DBMS, OOP, LLD, and math rounds. Updated October 2026.
 
-| | |
+| D. E. Shaw at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Software Developer Intern (US: New York, 12 weeks, June to August 2027; posting: applicants are 'usually approaching their final year of full-time study'). India: summer internships of 8 to 12 weeks (deshawindia.com); 6-month on-campus SDE internships with a performance-based conversion are reported by candidates (LeetCode, Aug 2025), not described on the official site. |

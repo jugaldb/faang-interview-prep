@@ -2,7 +2,7 @@
 
 Crypto exchange, wallet, Base L2 and developer platform; interviews favor production-quality practical coding (multi-level CodeSignal, pair programming) over LeetCode tricks. Updated October 2026.
 
-| | |
+| Coinbase at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineer Intern (12 weeks, summer), not leveled |

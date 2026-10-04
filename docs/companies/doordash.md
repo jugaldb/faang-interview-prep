@@ -2,7 +2,7 @@
 
 Local-commerce delivery marketplace (DoorDash, Wolt, Deliveroo); interviews are practical: runnable LeetCode-style coding, an interactive API-style coding round, debugging, and values chats. Updated October 2026.
 
-| | |
+| DoorDash at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineer Intern, 12 weeks, summer only (May or June cohort), in-person in NYC, SF, Sunnyvale, LA or Seattle; Toronto has a separate posting. |

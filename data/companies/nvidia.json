@@ -18,7 +18,7 @@
   },
   {
    "stage": "Recruiter or hiring manager screen",
-   "details": "Phone or video. Often the first round is the hiring manager: resume and detailed project discussion, sometimes ending with a short coding task (spiral matrix in the last 15 minutes, Jun 2025 report)."
+   "details": "Phone or video. interviewing.io: the process is decentralized, so some candidates skip the recruiter screen and some meet the hiring manager first. The hiring manager round is usually resume and detailed project discussion, sometimes ending with a short coding task (an experienced India System Software Engineer got spiral matrix in the last 15 minutes, Jun 2025)."
   },
   {
    "stage": "Technical screen",
@@ -26,7 +26,7 @@
   },
   {
    "stage": "Onsite (in person for full-time)",
-   "details": "Official: an onsite, in-person interview at an NVIDIA office before you can be considered for an offer. Interviews are 30 to 60 minutes each, one-on-one, small group or panel; 3 to 5 rounds mixing coding, C/C++ and OS fundamentals, domain depth, design and a hiring manager conversation. Optional 15 minute 'Insider Chat' with a Community Resource Group member."
+   "details": "Official: you complete an onsite, in-person interview at an NVIDIA office before you can be considered for an offer; bring a physical government-issued photo ID. Interviews are 30 to 60 minutes each, one-on-one, small group or panel; coding exercises usually use HackerRank on a whiteboard or a laptop NVIDIA provides. Expect 3 to 5 rounds mixing coding, C/C++ and OS fundamentals, domain depth, design and a hiring manager conversation, plus an optional 15 minute 'Insider Chat' with a Community Resource Group member that does not affect the decision."
   },
   {
    "stage": "Decision",
@@ -56,7 +56,7 @@
   }
  ],
  "process_experienced_notes": "For 1 to 3 years (IC2 or IC3), the loop is longer and more team-specific: a hiring manager round, a coding screen, then 3 to 5 interviews often on one day, including C or C++ without the STL (implement a hashmap, malloc, printf, string functions), code review rounds where you find bugs in Python code (2026 reports), LLD (parking lot, syncing user data across third-party apps), system or architecture discussion tied to the team's product, and detailed discussions on Kubernetes, Linux drivers, networking or CUDA depending on the role. Compensation and motivation can come up repeatedly in experienced India loops.",
- "timeline": "Interns: postings open mid to late August (2027 umbrella requisition opened Aug 19, 2026); Simplify says applying in November or December significantly lowers your chances and decisions take 4 to 8 weeks. Ignite opens later in the fall with a short window. Full-time: 'a matter of weeks from their first interview' (official). Reports: 1 to 5 weeks end to end; senior India loop about 1.5 months then silence (Sep 2026). India campus: placements run from Dec 1 at IITs with a single 90 minute technical round plus HR on the day.",
+ "timeline": "Interns: postings open mid to late August (2027 umbrella requisition opened Aug 19, 2026); Simplify says applying in November or December significantly lowers your chances and decisions take 4 to 8 weeks. Ignite opens later with a short window (Simplify: mid-September to mid-October; Jugal, citing Extern, notes a 13-day window in the 2026 cycle). Full-time: 'a decision within a matter of weeks from their first interview' (official). The Systems Software Engineer NCG 2026 posting (Workday shows it posted Oct 1, 2026) accepts applications at least until Oct 5, 2026, so NCG requisitions can have short windows. Reports: 1 to 5 weeks end to end; senior India loop about 1.5 months then silence (Sep 2026). India campus: placements run from Dec 1 at IITs with a single 90 minute technical round plus HR on the day.",
  "oa": {
   "platform": "HackerRank (official 'How we hire' page; India campus and US automation roles report HackerRank)",
   "format": "Team-dependent. Many US SWE candidates skip a standalone OA and go straight to recruiter and technical screens. When used: Aced reports a 75-minute HackerRank test with at least two DSA questions plus multiple-choice questions; India campus OAs are about 60 minutes with aptitude, C/C++ output and OS or computer architecture MCQs plus 2 coding questions.",
@@ -64,7 +64,7 @@
  },
  "coding": {
   "rounds": "New grad: 1 technical screen plus 1 to 3 coding rounds in the final loop. Intern: 1 to 3 interviews, often on one day.",
-  "style": "Mostly LeetCode easy to medium with occasional hards, plus low-level implementation: data structures written from scratch (linked list, hashmap without STL, malloc), pointer arithmetic, bit manipulation and endianness, C++ output prediction. Interviewers care about complexity and clean code more than syntax. interviewing.io: no internal question bank, so interviewers choose freely and questions are 'more practical'.",
+  "style": "Mostly LeetCode easy to medium with occasional hards, plus low-level implementation: data structures written from scratch (linked list, hashmap without STL, malloc), pointer arithmetic, bit manipulation and endianness, C++ output prediction. Interviewers care about complexity and clean code more than syntax. interviewing.io: no internal question bank, so interviewers choose freely and questions are 'more practical'. interviewing.io also reports at least one interview focused on the language your team uses, and code-review style rounds on some teams.",
   "environment": "HackerRank live editor (official mention) or shared editor over video for screens; in-person onsite for full-time offers. C++ matters for systems, CUDA and driver roles; Python is common for cloud, tools and ML teams; confirm the language with the recruiter.",
   "graded_on": "Correct and efficient solutions with complexity analysis, depth of low-level understanding (memory, concurrency, OS), clean code, and how well you know every line of your own projects."
  },
@@ -200,7 +200,7 @@
   {
    "title": "How would you debug a Kubernetes pod that is not reachable? Operators, reconciliation, CRD rollout and rollback, race conditions",
    "url": "",
-   "role": "System Software Engineer (cloud), India",
+   "role": "System Software Engineer, Kubernetes and Go team (location not stated)",
    "date": "2025-10",
    "source_url": "https://leetcode.com/discuss/post/7313633/nvidia-sse-by-anonymous_user-5ime/"
   },
@@ -220,7 +220,7 @@
   "Graphs and shortest paths; binary search on the answer",
   "Bit manipulation and endianness",
   "Domain depth for the team: CUDA and GPU architecture, inference (TensorRT, vLLM), Kubernetes, Linux drivers, networking",
-  "Nvidia-tagged LeetCode, last 6 months (snehasishroy repo, July 2026 snapshot): LRU Cache, Merge k Sorted Lists, Longest Substring Without Repeating Characters, Restore IP Addresses, Sliding Window Maximum, House Robber, Longest Consecutive Sequence, Min Stack, Koko Eating Bananas, Network Delay Time, Design Circular Queue, Copy List with Random Pointer, Group Anagrams"
+  "Nvidia-tagged LeetCode, last 6 months (snehasishroy/leetcode-companywise-interview-questions, 8.2K stars, data as of July 12, 2026): Longest Substring Without Repeating Characters, LRU Cache, Merge k Sorted Lists, Restore IP Addresses, Longest Consecutive Sequence, Koko Eating Bananas, Sliding Window Maximum, House Robber, Min Stack, Network Delay Time, Design Circular Queue, Copy List with Random Pointer, Group Anagrams"
  ],
  "tips": [
   "Apply in the first days a requisition opens and keep it to your best 3 to 5 roles (official advice); the 2027 SWE intern requisition opened Aug 19, 2026 and reviews resumes on an ongoing basis.",
@@ -230,9 +230,10 @@
   "Know every line of your projects; panels spend 30 minutes or more grilling internship and resume projects.",
   "Read the team's posting and prepare its domain (CUDA, Kubernetes, drivers, inference); interviewers describe the process as very team dependent.",
   "Never use ChatGPT or other unapproved tools during an interview; NVIDIA's hiring page says it results in disqualification.",
-  "For AI and deep learning roles, Jugal recommends the NVIDIA Certified Associate: Generative AI and LLMs as the one certification to prioritize, because it forces you to learn transformer internals, inference and evaluation."
+  "For AI and deep learning roles, Jugal recommends the NVIDIA Certified Associate: Generative AI and LLMs as the one certification to prioritize, because it forces you to learn transformer internals, inference and evaluation.",
+  "If one team rejects you, ask about other teams: interviewing.io reports you can interview with another NVIDIA team right away, though you restart the process (sometimes skipping the phone screen)."
  ],
- "compensation_note": "Levels.fyi US software engineer data (page read Oct 4, 2026): IC1 about $169K total comp (base $142K, stock $18.7K/yr, bonus $8.5K); IC2 about $240K (base $176K, stock $60.6K/yr); IC3 about $323K. India (Levels.fyi USD figures at the site rate of about 94.5 INR/USD): IC1 about 28.5 lakh INR, IC2 about 36.5 lakh. Official NCG posting (Systems Software Engineer, New College Grad 2026, MS or PhD): base $124,000 to $195,500 for Level 2 and $152,000 to $241,500 for Level 3, plus equity. Interns (official 2027 posting): $20 to $71 per hour; Simplify reports undergrad roles at about $50 to $70 per hour and PhD research up to $94 per hour. India NCG IC1 (2025 report): base 18.25 lakh INR with 24 lakh INR of equity vesting 40/30/20/10 over 4 years.",
+ "compensation_note": "Levels.fyi US software engineer data (page read Oct 4, 2026): IC1 about $169K total comp (base $142K, first-year stock $18.7K, bonus plus sign-on $8.5K); IC2 about $240K (base $176K, first-year stock $60.6K); IC3 about $323K. India (Levels.fyi, Oct 4, 2026): IC1 about 28.5 lakh INR, IC2 about 36.5 lakh. Official NCG posting (Systems Software Engineer, New College Grad 2026, MS or PhD): base $124,000 to $195,500 for Level 2 and $152,000 to $241,500 for Level 3, plus equity. Interns (official 2027 SWE posting): $20 to $71 per hour; Simplify reports undergrad roles at about $50 to $70 per hour, Ignite at about $18 to $54 per hour, and PhD research up to $94 per hour. India reports: IIT campus new grad (Dec 2025): base 18.25 lakh INR, 2 lakh sign-on, 2 lakh anniversary bonus, 20 lakh equity; IC1 ASIC Engineer PPO (Aug 2025): base 18.25 lakh, 24 lakh equity vesting 40/30/20/10 over 4 years; SSE intern on-campus stipend 80,000 INR per month (Jun 2025).",
  "sources": [
   "https://www.nvidia.com/en-us/about-nvidia/careers/",
   "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",

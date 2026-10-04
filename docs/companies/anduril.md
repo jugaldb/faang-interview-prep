@@ -2,7 +2,7 @@
 
 Defense tech company building autonomous systems on Lattice OS; practical, deliberately vague coding problems and repeated 'why defense' probing. US Persons only. Updated October 2026.
 
-| | |
+| Anduril at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | 2027 Software Engineer Intern (12 weeks, paid, in person at one of 9 US offices; the early-careers page lists May to August or June to September; must return to school after). Other 2027 tracks include Flight Software Engineer Intern (Costa Mesa) and electrical, mechanical, manufacturing and industrial engineering interns. |

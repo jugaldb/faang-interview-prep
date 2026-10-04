@@ -96,7 +96,7 @@ Time: 30 minutes per company.
 
 - [ ] Accept in writing ([S25](scripts.md#s25-accept)).
 - [ ] The same day, withdraw from other processes ([S29](scripts.md#s29-withdraw-from-other-processes)) and decline other offers ([S26](scripts.md#s26-decline-after-accepting-elsewhere)).
-- [ ] Save every offer email, signed letter and benefits guide in one folder.
+- [ ] Save every offer email, signed letter and benefits guide in one folder. International students, keep pay stubs there too. A salary in the top 10% for your role and region is one of the EB-1A criteria, and Jugal's post on missing the 2026 H-1B lottery says to keep your offer letter and pay stubs as evidence ([post](https://jugaldb.substack.com/p/i-didnt-get-selected-in-h1-b-lottery)).
 - [ ] International students: send the immigration questions in [S30](scripts.md#s30-sponsorship-and-wage-level) if you have not, and start the paperwork the week you sign.
 
 ## What you can negotiate

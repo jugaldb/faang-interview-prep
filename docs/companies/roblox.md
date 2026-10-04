@@ -2,7 +2,7 @@
 
 3D social gaming and creation platform. Early career starts with game-based assessments plus CodeSignal coding; loops use gaming-flavored coding and design, with LLM use banned. Updated October 2026.
 
-| | |
+| Roblox at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineer Intern ([Summer 2027] posting, 12 weeks, San Mateo, CA); open to all class standings from underclassmen to Master's; separate PhD internships |

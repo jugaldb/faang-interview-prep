@@ -2,7 +2,7 @@
 
 Data and AI platform (Spark, Delta Lake, lakehouse). Interviews are LeetCode medium-hard plus concurrency, low-level design and practical twists like IP/CIDR parsing. Updated October 2026.
 
-| | |
+| Databricks at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | Software Engineering Intern (12 or 16 weeks; SF, Mountain View, Bellevue, Amsterdam, Berlin, Belgrade, Bangalore) |

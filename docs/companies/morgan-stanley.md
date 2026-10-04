@@ -2,7 +2,7 @@
 
 Global investment bank and wealth manager with a large Java/Python tech org. Interviews: OA with debugging and aptitude, Java/OOP-heavy technical rounds, values-based behavioral. Updated October 2026.
 
-| | |
+| Morgan Stanley at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Technology intern (US Summer Analyst; exact US program title not captured). One April 2026 candidate post (2027 batch, SHL/AMCAT OA) calls the SDE intern role 'Technology Apprenticeship Program' (not confirmed on an official page). |

@@ -37,6 +37,8 @@ How to read the table:
 | [Netflix](../companies/netflix.md) | CodeSignal (2025 to 2026 student reports). Official first step for students: a "take-home assessment" | Intern (Oct 2025 reports): 4 coding questions, then a separate AI-assisted General Coding Assessment | 70 min for the coding part | AI-assisted GCA, scored separately | Netflix does not publish the format. ML and AI intern versions are more ML-flavored. Treat the assistant as a pair: plan, check its code, keep moving |
 | [Microsoft](../companies/microsoft.md) | HackerRank in most 2025 to 2026 reports. Codility in earlier cycles | Usually 2: one easier, one medium or hard. A Feb 2025 Codility OA (SDE II) had 3 in 60 min | 60 to 110 min (India campus intern: 75 min) | none | India campus OAs report tab-switch and paste detection. Passing every test does not guarantee a call. Official rule: no outside assistance "unless explicitly permitted" ([Microsoft how we hire](https://careers.microsoft.com/v2/global/en/hiring-tips.html)) |
 
+Read: [The Definitive Guide for Meta & Amazon Engineering Interviews](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and): Jugal's Feb 2026 walkthrough of Amazon's three OA sections (coding, Work Simulation, Work Style). His tips for the two non-coding sections are on [strategy](strategy.md#work-style-work-simulation-and-video-sections).
+
 ## Big tech
 
 | Company | Platform | Questions | Time | Extra sections | Notes |

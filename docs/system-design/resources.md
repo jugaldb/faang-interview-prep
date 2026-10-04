@@ -178,6 +178,7 @@ Entry-level ML roles usually skip ML system design ([Hello Interview](https://ww
 | [Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the) (his 6-week Amazon roadmap) | Scope of entry-level design (parking lot, not Netflix), the focus list, and twice-daily mocks in week 5 |
 | [The Definitive Guide for Meta and Amazon Engineering Interviews](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and) | Meta's design round is for E4 and up; E3 may get another coding round instead |
 | [How to Crack FAANG Interviews (Part 5)](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020) | Netflix: how much its loop weighs system design, even for IC roles |
+| [How to Crack FAANG Interviews (Part 4)](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8) | Apple: Jugal found his loop systems-heavy, with a focus on clarity of thought and edge cases |
 | [Want a Job in the Next 30 Days? Use these 5 websites](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use) | System Design Lab as week 3 of a 30-day plan |
 | [How I Got My First Startup Offer in 17 Days](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer) | Practical trade-offs startups test: S3 vs GCS, when to use SQS |
 | [How to Prepare for FAANG AI Engineer Internship Season](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer) | Defending design decisions from your own projects |

@@ -2,7 +2,7 @@
 
 Microsoft-owned professional network. Loops mix LinkedIn-tagged LeetCode, a design round, a project presentation round, and (new in 2025 to 2026) AI-enabled coding. Updated October 2026.
 
-| | |
+| LinkedIn at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern (US summer; India 12-week summer internship that converts to PPO). Official FAQ: interns must return to school afterwards; applications generally open in late summer. |

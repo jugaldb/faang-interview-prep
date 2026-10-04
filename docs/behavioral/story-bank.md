@@ -165,7 +165,7 @@ Result:    How did I measure success? What were the numbers?
            What trade-offs did I make? What would I do differently?
 ```
 
-### Templates for the two hardest stories
+### Templates for the hardest stories
 
 Failure, built on CARL and [IGotAnOffer's rules](https://igotanoffer.com/blogs/tech/tell-me-about-a-time-you-failed) (a real miss with consequences, not a typo, not someone else's fault, not reckless):
 
@@ -193,6 +193,14 @@ Decision: We went with [A, B, or a mix]. If it was not my option,
   I committed by [concrete action].
 Result: [Outcome in numbers]. After: [how we worked together next].
 Learning: [One sentence].
+```
+
+Changed your mind, a common Google and Amazon (Are Right, A Lot) question. Jugal's format: "what you believed, the specific evidence that changed it, and what you do differently now" ([OpenAI campus lead post](https://jugaldb.substack.com/p/openai-will-pay-you-to-lead-ai-on)).
+
+```text
+Belief: I used to think [view] about [topic], because [reason].
+Evidence: Then [specific data, test result, or person's argument] showed [what].
+Now: I [what you do differently], for example on [later project or task].
 ```
 
 ## Step 6: Add a number to every story
@@ -456,6 +464,6 @@ Do this: copy the tables into your notes and add the title of your own story to 
 - [Andrew Yeung: Your behavioral story bank](https://www.andrew.today/p/your-behavioral-story-bank): spreadsheet method for a large story library. How to use it: optional, if you prefer a spreadsheet.
 - [IGotAnOffer: Tell me about a time you failed](https://igotanoffer.com/blogs/tech/tell-me-about-a-time-you-failed): 5 rules and example answers, including student and fresher examples. How to use it: compare your failure story to the student example.
 - [Tech Interview Handbook: behavioral rubrics](https://www.techinterviewhandbook.org/behavioral-interview-rubrics/): example answers by level. How to use it: check each card against the junior example.
-- [Why Smart Candidates Still Fail FAANG Interviews](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang): Jugal's 60 company questions with what each answer should show. How to use it: add every question to your grid as a row check.
+- [Why Smart Candidates Still Fail FAANG Interviews](https://jugaldb.substack.com/p/why-smart-candidates-still-fail-faang): Jugal's 60 company questions (15 each for Amazon, Google, Meta and Apple) with what each answer should show, first published in [Behavioral Interview Preparation](https://jugaldb.substack.com/p/behavioral-interview-preparation). How to use it: add every question to your grid as a row check.
 
 Next: [Amazon Leadership Principles](amazon-leadership-principles.md)

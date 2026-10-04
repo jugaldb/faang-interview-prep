@@ -79,7 +79,7 @@ The reasons are headcount, your resume, location, and the size of the pool. TikT
 
 ## How much is enough
 
-No big tech company publishes an OA cutoff. These are single reports, not rules. Use them to calibrate, nothing more.
+No big tech company publishes an OA cutoff. These are single reports, not rules.
 
 | Company | Reported result | Outcome | Source |
 |---|---|---|---|

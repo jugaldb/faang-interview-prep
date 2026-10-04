@@ -2,7 +2,7 @@
 
 US bank and card issuer with a large tech org. Known for a 4-question CodeSignal OA and a Power Day: banking-system coding, design, case, behavioral. Updated October 2026.
 
-| | |
+| Capital One at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Technology Internship Program (TIP) intern, 10 weeks, paid; Early Internship Program for second-year undergrads (McLean, VA) |

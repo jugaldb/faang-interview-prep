@@ -2,7 +2,7 @@
 
 Data and AI platforms (Foundry, Gotham, AIP) for governments and enterprises. Known for decomposition and learning rounds, debugging exercises, and practical OAs over pure LeetCode. Updated October 2026.
 
-| | |
+| Palantir at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer, Internship or Forward Deployed Software Engineer (FDSE), Internship; 12 weeks, May to September with four start dates; also 'Year at Palantir' full-year internships (NYC, DC, Chicago) |

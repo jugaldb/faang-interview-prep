@@ -2,7 +2,7 @@
 
 Global online marketplace (search, payments, ads, eBay Live). Known for CodeSignal assessments (project-style ICA or GCA) and optimal-only DSA plus HLD/LLD loops. Updated October 2026.
 
-| | |
+| eBay at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineer Intern (NA, EMEA, APAC programs; NA applications via RippleMatch). |

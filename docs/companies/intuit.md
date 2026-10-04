@@ -2,7 +2,7 @@
 
 TurboTax, QuickBooks, Credit Karma, Mailchimp. Known for the A4A loop: a live Craft Demo on a pre-shared repo, an AI round, and quick feedback. Updated October 2026.
 
-| | |
+| Intuit at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineering Intern (US summer only, 12 weeks; Canada co-op 4+ months; India summer and 6-month co-op) |

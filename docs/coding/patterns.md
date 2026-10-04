@@ -1386,6 +1386,8 @@ How to run the sprint (1 to 2 weeks, after you know all 25 patterns):
 | Microsoft | Trees ([Tree DFS](#tree-dfs)), [Dynamic programming](#dynamic-programming), XOR ([Bit manipulation](#bit-manipulation)), [Binary search](#binary-search) | [Microsoft](../companies/microsoft.md) |
 | Apple | [Binary search](#binary-search), [Two pointers](#two-pointers), monotonic stack ([Stack](#stack-and-monotonic-stack)), [Matrix traversal](#matrix-traversal) | [Apple](../companies/apple.md) |
 
+> **Tip:** Jugal's other posts weight some companies differently. His [Meta and Amazon guide](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and) (Feb 2026) adds heaps and top K for Meta and intervals for Amazon, with named problems for each. His [Netflix plan](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020) leans on graphs, DP, sliding window, strings and backtracking. If you target one of these three, sprint on both sets.
+
 ## Where these patterns come from
 
 - [Sean Prashad: LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) ([repo](https://github.com/seanprashad/leetcode-patterns)): 179 problems tagged by pattern and by the companies that asked them, a Beginner and an Experienced roadmap, and the Helpful Tips heuristics quoted in the cue table. How to use it: filter by pattern when you need more problems for a weak pattern.
@@ -1396,7 +1398,7 @@ How to run the sprint (1 to 2 weeks, after you know all 25 patterns):
 - LeetCode study plans: [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/) (10 patterns), [Binary Search](https://leetcode.com/studyplan/binary-search/) (8 patterns), [Graph Theory](https://leetcode.com/studyplan/graph-theory/) (traversal, union-find, topological sort, Dijkstra, MST). How to use it: 2 to 3 weeks on one plan when that topic is your weakest.
 - [Jugal: Company Wise DSA patterns](https://jugaldb.notion.site/Company-Wise-DSA-patterns-26caf2117b83808eb7b2efae6afd15dc): 22 core patterns with representative problems, plus the company map above. How to use it: Part 3 as a pattern checklist, Part 1 to drill your target company.
 - [Jugal: Master DSA with patterns](https://jugaldb.substack.com/p/company-wise-dsa-patterns): the same 22 patterns as a 60-day, day-by-day plan at 60 to 90 minutes a day, with review days and mocks at the end. How to use it: follow it if you want a fixed daily schedule instead of the 2-days-per-pattern loop above.
-- [Michael's Guide to FAANG DSA](https://jugaldb.substack.com/p/michaels-guide-to-faang-dsa) (on Ascend): 15 patterns with linked sample problems for each, plus a 10-week roadmap. How to use it: a second set of problems when one pattern does not click.
+- [Michael's Guide to FAANG DSA](https://jugaldb.substack.com/p/michaels-guide-to-faang-dsa) (on Ascend): 15 patterns with linked sample problems for each, plus a 10-week roadmap (laid out on [Problem lists](problem-lists.md#michaels-10-week-pattern-roadmap)). How to use it: a second set of problems when one pattern does not click.
 - Paid, not needed: [Grokking the Coding Interview (DesignGurus)](https://www.designgurus.io/course/grokking-the-coding-interview) ($197, as of Oct 2026) and [AlgoMonster](https://algo.monster/). The free sources above cover the same patterns.
 
 ## Pattern checklist

@@ -50,6 +50,8 @@ Rows marked "reports" come from 2025 to 2026 candidate reports collected for the
 | [Qualcomm](../companies/qualcomm.md) | New grad | Systems-flavored LLD | LRU variants, custom malloc, smart pointers, circular buffer | Reports |
 | [Bloomberg](../companies/bloomberg.md) | New grad | Design-a-class problems | Wordle checker, O(1) lottery, hit counter | Reports |
 
+> **Tip:** For Amazon SDE I, Jugal's [6-week Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the) gives design two days: "You're not designing Netflix. You're designing a parking lot system or a library management system." Do problems 1 and 7 below with the [35-minute framework](#the-35-minute-lld-framework).
+
 ## How LLD is graded
 
 | Source | What they score |
@@ -58,7 +60,7 @@ Rows marked "reports" come from 2025 to 2026 candidate reports collected for the
 | [Amazon OOD round](https://www.hellointerview.com/guides/amazon/l4) | Design problem analysis, object-oriented design skills, clarity of communication, adaptability and depth. Do not get lost drawing perfect UML |
 | [Machine coding](https://workat.tech/machine-coding/article/what-is-a-machine-coding-round-omfn1w54ojlg) | Working, demonstrable code; functionally correct; modular and readable with separation of concerns; takes new requirements with minimal changes; a main method to run it; no UI. Then a code review, where workat.tech says most people get eliminated |
 
-Regional differences, per Hello Interview: US big tech expects partial real code; India and Asia expect structured pseudocode; mid-size companies in India and Asia ask about design patterns more directly and give vaguer requirements.
+Hello Interview also notes that mid-size companies in India and Asia ask about design patterns more directly and give vaguer requirements.
 
 ## The 35-minute LLD framework
 
@@ -143,7 +145,7 @@ Read Hello Interview's [OOP concepts](https://www.hellointerview.com/learn/low-l
 | DRY, KISS, YAGNI | Do not repeat logic; keep it simple; do not build what nobody asked for | Speculative abstractions, copy-pasted code | Hello Interview lists all three |
 | Composition over inheritance | Build behavior from parts you hold, not parents you extend | Subclass explosion (`CheesePizzaWithOlives`) | Decorator for pizza toppings |
 
-Free reading: [DigitalOcean: SOLID](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design), [AlgoMaster: SOLID with code](https://blog.algomaster.io/p/solid-principles-explained-with-code), and Robert C. Martin's [original principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod).
+Free reading: [DigitalOcean: SOLID](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design), [AlgoMaster: SOLID with code](https://blog.algomaster.io/p/solid-principles-explained-with-code), and Robert C. Martin's [Solid Relevance](https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html), where the author of SOLID restates each principle.
 
 ## Design patterns that come up
 

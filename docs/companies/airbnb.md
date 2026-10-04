@@ -2,7 +2,7 @@
 
 Travel marketplace (stays, experiences). Known for hard multi-part coding with runnable code, a CodeSignal progressive OA (2026), a code review round (since 2024), and a separate core values interview. Updated October 2026.
 
-| | |
+| Airbnb at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Software Engineering Intern (12-week US summer program; 2026 posting was US remote-eligible) |

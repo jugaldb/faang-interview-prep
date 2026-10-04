@@ -2,7 +2,7 @@
 
 AI CRM (Agentforce, Slack, Tableau). Interviews: HackerRank OA, LeetCode-medium DSA on CodePair, OOP/LLD rounds, and a required onsite before any offer. Updated October 2026.
 
-| | |
+| Salesforce at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Summer Intern, Software Engineer (Futureforce). Summer 2027 US posting (Aug 31, 2026): 8 US locations, must be enrolled in a North American BS/MS and return to school after the internship. India interns are titled AMTS intern (Bangalore/Hyderabad). |

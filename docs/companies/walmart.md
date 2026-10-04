@@ -2,7 +2,7 @@
 
 Builds Walmart and Sam's Club e-commerce, supply chain and payments tech. Interviews: medium DSA, Java internals and LLD, plus Karat or HackerRank screens. Updated October 2026.
 
-| | |
+| Walmart Global Tech at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | US: 'Summer Intern: Software Engineer II' (Bentonville HQ, 11 weeks). India: 'Grad Intern' / SDE Intern (2 to 6 months, Bengaluru/Chennai). |

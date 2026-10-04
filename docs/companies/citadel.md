@@ -2,7 +2,7 @@
 
 Multi-strategy hedge fund; Citadel Securities is a market maker. One joint SWE process: hard HackerRank OA, 45-minute DSA rounds, then team-specific leadership interviews. Updated October 2026.
 
-| | |
+| Citadel at a glance | |
 |---|---|
 | **Category** | Finance and quant |
 | **Intern level** | Software Engineer, Intern (US: Greenwich, Houston, Miami, New York; Europe: London). 11-week program starting with a 1-week offsite. |

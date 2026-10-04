@@ -2,7 +2,7 @@
 
 Alphabet's self-driving company (Waymo Driver, robotaxi); Google-style DSA loops with autonomy-flavored coding and design, and a strict no-AI interview policy. Updated October 2026.
 
-| | |
+| Waymo at a glance | |
 |---|---|
 | **Category** | High-growth tech |
 | **Intern level** | 2027 Summer Intern, separate BS, BS/MS, MS/PhD and PhD tracks (pay differs by degree). Hosted onsite, hybrid. Most postings are in Mountain View and San Francisco; 2027 postings also exist in London (MS/PhD simulation realism) and Warsaw (BS/MS software engineer). |

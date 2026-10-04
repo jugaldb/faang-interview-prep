@@ -2,7 +2,7 @@
 
 EVs, energy storage, Autopilot and Optimus robots. Hiring-manager-driven, team-specific loops: short LeetCode or practical coding, resume deep dives, first-principles thinking. Updated October 2026.
 
-| | |
+| Tesla at a glance | |
 |---|---|
 | **Category** | Big Tech |
 | **Intern level** | Intern (hourly, full-time). North America terms: Spring, Summer and Fall, lasting 3 to 12 months (intern FAQ, Mar 2025 snapshot); minimum 12 weeks full-time on-site (internships page, May 2026 snapshot). |
