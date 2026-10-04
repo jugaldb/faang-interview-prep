@@ -8,7 +8,7 @@
  "interview_prep_url": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/",
  "levels": {
   "intern": "Intern (unleveled, minimum 12 weeks, BS/MS/PhD, year-round). Ignite: 12-week summer pre-internship for current freshmen and sophomores.",
-  "new_grad": "IC1 (title Software Engineer) for most bachelor's new college grads, including Sep 2026 return offers; IC2 is also reported for new grads (an Apr 2026 Deep Learning Algorithms new grad offer), and an MS/PhD NCG posting quotes base ranges for 'Level 2' and 'Level 3'.",
+  "new_grad": "IC1 (title Software Engineer) for most bachelor's new college grads; a Sep 2026 BS return offer was IC1, and commenters say up-leveling to IC2 with only a bachelor's is hard. IC2 is also reported for new grads (an Apr 2026 Deep Learning Algorithms new grad offer), and an MS/PhD NCG posting quotes base ranges for 'Level 2' and 'Level 3'.",
   "early_career": "IC1 to IC2 for 0 to about 2 yrs (Levels.fyi lists typical experience of 1 to 2 years for both); IC3 'Senior' from about 3 to 4 yrs."
  },
  "process_new_grad": [
@@ -26,7 +26,7 @@
   },
   {
    "stage": "Onsite (in person for full-time)",
-   "details": "Official: you complete an onsite, in-person interview at an NVIDIA office before you can be considered for an offer; bring a physical government-issued photo ID. Interviews are 30 to 60 minutes each, one-on-one, small group or panel; coding exercises usually use HackerRank on a whiteboard or a laptop NVIDIA provides. Expect 3 to 5 rounds mixing coding, C/C++ and OS fundamentals, domain depth, design and a hiring manager conversation, plus an optional 15 minute 'Insider Chat' with a Community Resource Group member that does not affect the decision."
+   "details": "Official: you complete an onsite, in-person interview at an NVIDIA office before you can be considered for an offer; bring a physical government-issued photo ID. Interviews are 30 to 60 minutes each, one-on-one, small group or panel; coding exercises usually use HackerRank on a whiteboard or a laptop NVIDIA provides. Expect 3 to 5 rounds mixing coding, C/C++ and OS fundamentals, domain depth, design and a hiring manager conversation, plus an optional 15 minute 'Insider Chat' with a Community Resource Group member that does not affect the decision. One 2026 AI/ML new grad reported 2 screens (hiring manager plus another team) and then a 5-interview panel: 2 coding, 1 behavioral, 2 system design (Apr 2026 Reddit comment)."
   },
   {
    "stage": "Decision",
@@ -40,7 +40,7 @@
   },
   {
    "stage": "Recruiter outreach",
-   "details": "Many US candidates get no OA: a recruiter reaches out directly (Sep 2026 System Software intern report). Others report OAs for some 2027 roles (Aug 2026 Reddit thread)."
+   "details": "Many US candidates get no OA: a recruiter reaches out directly (Sep 2026 System Software intern report). In Aug 2026 one 2027 SWE intern applicant got a light OA with one DP problem while others got none; an early wave of rejections went out, and a candidate was told teams manually pick whom to interview."
   },
   {
    "stage": "Technical interviews",
@@ -282,5 +282,5 @@
   "https://www.reddit.com/r/csMajors/comments/1wumbiw/nvidia_ignite_cohort_size/",
   "https://www.reddit.com/r/csMajors/comments/1svu0i3/nvidia_vs_google_new_grad_idc_about_the_comp_help/"
  ],
- "confidence_notes": "NVIDIA's process is decentralized and very team dependent; there is no standard question bank (interviewing.io). Most detailed public reports are India campus and experienced India loops; US new grad SWE reports are sparse, so the US new grad flow combines the official How We Hire page, Simplify, Aced and a few 2026 Reddit threads. Level placement for new grads (IC1 vs IC2) varies by degree and role; a BS return offer at IC1 (Sep 2026) and MS/PhD postings quoting Level 2 and 3 are the only direct evidence. Whether an OA is used varies: some 2026 interns got none, others report OAs. Ignite's 13-day window comes from Jugal citing Extern; the Extern source itself was not verified. The 'Level 1/2/3' base ranges come from one MS/PhD posting and differ by role. [UNVERIFIED] Glassdoor snippets seen only in search results: HackerRank live editor with hidden test cases; arrays, strings and graph problems of medium to high difficulty; a 'sort two colors of balls' question; processes taking 1 to 5 weeks. LeetCode Discuss URLs were confirmed through LeetCode's GraphQL API; Reddit threads were read through Reddit's RSS feeds."
+ "confidence_notes": "NVIDIA's process is decentralized and very team dependent; there is no standard question bank (interviewing.io). Most detailed public reports are India campus and experienced India loops; US new grad SWE reports are sparse, so the US new grad flow combines the official How We Hire page, Simplify, Aced and a few 2026 Reddit threads. Level placement for new grads (IC1 vs IC2) varies by degree and role; a BS return offer at IC1 (Sep 2026) and MS/PhD postings quoting Level 2 and 3 are the only direct evidence. Whether an OA is used varies: some 2026 interns got none, others report OAs. Ignite's 13-day window comes from Jugal citing Extern (the Extern source itself was not verified); Simplify separately gives a mid-September to mid-October window. The 'Level 1/2/3' base ranges come from one MS/PhD posting and differ by role. [UNVERIFIED] Glassdoor snippets seen only in search results: HackerRank live editor with hidden test cases; arrays, strings and graph problems of medium to high difficulty; a 'sort two colors of balls' question; processes taking 1 to 5 weeks. LeetCode Discuss URLs were confirmed through LeetCode's GraphQL API; Reddit threads were read through Reddit's RSS feeds. Fact-check Oct 4, 2026: the India IC1 equity report (24 lakh, 40/30/20/10) was an ASIC Engineer PPO, not a software role, and is now labeled that way; the spiral-matrix screen came from an experienced India loop, not a new grad loop. The 'others report OAs' claim now cites the Aug 2026 thread where one applicant got a one-DP-problem OA. Levels.fyi NVIDIA stock figures are first-year stock, not per-year averages."
 }

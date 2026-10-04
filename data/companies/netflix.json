@@ -8,8 +8,8 @@
  "interview_prep_url": "https://jobs.netflix.com/careers/internships",
  "levels": {
   "intern": "Intern (12-week summer program; US, India, Poland and Japan; bachelor's, master's or PhD students)",
-  "new_grad": "L3 (Engineer). Netflix added an explicit engineering ladder in 2024 and launched a formal New Grad Program with it; Simplify calls the entry rung E1/L3.",
-  "early_career": "L3 Engineer for 0 to about 2 yrs; L4 Engineer II for roughly 2 to 5 yrs; L5 Senior Engineer after that. New grad roles are US only."
+  "new_grad": "L3. Simplify says Netflix introduced an explicit engineering ladder in 2024 (reported as E1 to E7, or L3 to L7 on Levels.fyi) and now runs a real New Grad Program; the entry rung is E1/L3.",
+  "early_career": "L3 is the entry rung for 0 to about 2 yrs (Levels.fyi: L3 engineers typically report 1 to 2 yrs). L4 is next; Levels.fyi says L4 engineers typically report 5 to 6 yrs, a sign Netflix's junior ladder is new. L5 is Senior Engineer. New grad roles are US only."
  },
  "process_new_grad": [
   {
@@ -40,7 +40,7 @@
   },
   {
    "stage": "Online assessment (CodeSignal)",
-   "details": "Oct 2025 reports: 4 LeetCode-style coding questions in 70 minutes, then a separate AI-assisted General Coding Assessment where an AI assistant is available inside CodeSignal. ML/AI intern OAs (2026) are more ML-flavored."
+   "details": "Oct 2025 reports: 4 LeetCode-style coding questions in 70 minutes, then a separate AI-assisted General Coding Assessment where an AI assistant is available inside CodeSignal. For ML or AI Scientist intern roles, a Sep 2026 Reddit commenter says the CodeSignal tasks are more ML-flavored (unconfirmed)."
   },
   {
    "stage": "Round 1",
@@ -55,11 +55,11 @@
    "details": "Can be long: one candidate passed all technical rounds in December 2025 and was still unmatched in March 2026; another was in team matching from January to April 2026 with recruiters no longer responding. Official: interns join a 12-week summer program."
   }
  ],
- "process_experienced_notes": "For L4 (Engineer II): recruiter call(s), a 30 minute hiring manager screen, a 45 to 60 minute technical phone screen (often practical rather than classic LeetCode; a Data Platform recruiter said it would not be typical LeetCode), then a virtual onsite of 4 to 5 rounds (Aced) covering coding, system design, sometimes data modeling, and behavioral. interviewing.io describes senior onsites of roughly 8 interviews, weighted toward system design, plus a 'Dream Team' culture interview with a director. An EMEA L4 loop in Jan 2026 had 3 interviews, and candidates believe Netflix expects every coding question fully implemented.",
+ "process_experienced_notes": "For L4 (Engineer II): recruiter call(s), a 30 minute hiring manager screen, a 45 to 60 minute technical phone screen (often practical rather than classic LeetCode; a Data Platform recruiter said it would not be typical LeetCode), then a virtual onsite of 4 to 5 rounds (Aced) covering coding, system design, sometimes data modeling, and behavioral. interviewing.io describes experienced-hire onsites of roughly 8 interviews, weighted toward system design, plus a 'Dream Team' culture interview with a director. An EMEA L4 loop in Jan 2026 had 3 interviews, and candidates believe Netflix expects every coding question fully implemented.",
  "timeline": "New grad: official window is late September to October, but 2026 SWE new grad roles posted around Dec 6 to 8, 2025; final round to decision can exceed 3 weeks (Mar 2026). Interns: postings mid-August to early September per Netflix (the Summer 2026 SWE intern posting appeared in early October 2025); OA in October; first interview 30 to 35 days after the OA (Dec 2025 report); Round 2 within weeks; team matching January to April. Aced reports some candidates finish the full loop in about 3 weeks, and that for interns and new grads a team-matching step can add 2 to 3 weeks before the hiring manager interview. Candidates can interview with multiple teams at once (interviewing.io).",
  "oa": {
   "platform": "CodeSignal (2025 to 2026 student reports; Aced). Official pages call this step a 'take-home assessment'.",
-  "format": "Summer 2026 SWE intern: 4 LeetCode-style questions in 70 minutes plus an AI-assisted General Coding Assessment scored separately. ML/AI intern versions lean on ML-flavored tasks. Netflix has not published the format.",
+  "format": "Summer 2026 SWE intern season: 4 LeetCode-style questions in 70 minutes plus an AI-assisted General Coding Assessment scored separately. New grad 2026 (Jan 2026): one standard and one AI-assisted CodeSignal assessment. For ML and AI Scientist intern OAs (a Winter 2027 PhD ML intern posting sent CodeSignal links in Sep 2026), a Reddit commenter says tasks are more ML-flavored than LeetCode. Netflix has not published the format.",
   "notes": "Students in the Fall 2025 cycle found the AI-assisted part hard to prepare for; reported AI-assisted GCA scores were 534, 554 and 773. Treat the AI assistant as a pair: plan, verify its code, and keep moving."
  },
  "coding": {
@@ -127,14 +127,14 @@
    "source_url": "https://leetcode.com/discuss/post/7421643/netflix-online-screening-round-1-poland-bfsh1/"
   },
   {
-   "title": "OA: 4 LeetCode-style coding questions in 70 minutes, then an AI-assisted General Coding Assessment",
+   "title": "OA format (not a question): 4 LeetCode-style coding questions in 70 minutes, then a separate AI-assisted General Coding Assessment",
    "url": "",
-   "role": "SWE intern, Summer 2026 (US)",
+   "role": "CodeSignal OA during the Summer 2026 intern season (poster did not name the role; a parallel r/leetcode thread confirms the AI part for SWE interns)",
    "date": "2025-10",
    "source_url": "https://www.reddit.com/r/csMajors/comments/1o99rz2/codesignal_assessment_with_netflix_tips/"
   },
   {
-   "title": "Round 2 for SWE interns was a system design interview (no specific prompt shared)",
+   "title": "Round 2 for a SWE intern was a system design interview (format report; no prompt shared)",
    "url": "",
    "role": "SWE intern, Summer 2026 (US)",
    "date": "2025-11",
@@ -206,5 +206,5 @@
   "https://www.reddit.com/r/leetcode/comments/1wu3oo6/netflix_ai_scientistml_engineer_intern_oa/",
   "https://jugaldb.substack.com/p/company-wise-dsa-patterns"
  ],
- "confidence_notes": "Netflix publishes the shape of the student process (take-home, then two rounds for new grads or two to three for interns) but not the content; details here come from a small number of 2025 to 2026 Reddit and LeetCode reports and secondary guides (Simplify, Aced, interviewing.io), and vary heavily by team. There is no official interview prep page beyond the process notes on the new-grads and internships pages. Whether Netflix hired 2026 new grads beyond intern conversion is disputed in an Oct 2025 Reddit thread, though Jan 2026 (new grad OAs) and Mar 2026 (completed new grad final round) threads show a new grad pipeline ran. The AI-assisted CodeSignal format and its scoring scale are not documented by Netflix. Simplify's L3 band ($100K to $300K) was not checked against a Netflix posting. Netflix's culture memo has no visible last-updated date on the page; Aced says it was updated in June 2024. Very few early-career questions are public, so most reported questions are L4, frontend or senior. LeetCode Discuss URLs were confirmed through LeetCode's GraphQL API; Reddit threads were read through Reddit's RSS feeds."
+ "confidence_notes": "Netflix publishes the shape of the student process (take-home, then two rounds for new grads or two to three for interns) but not the content; details here come from a small number of 2025 to 2026 Reddit and LeetCode reports and secondary guides (Simplify, Aced, interviewing.io), and vary heavily by team. There is no official interview prep page beyond the process notes on the new-grads and internships pages. In Oct 2025 Reddit users claimed Netflix would only convert interns for 2026, but the same thread shows 2026 SWE new grad roles posted around Dec 6 to 8, 2025, and Jan 2026 (new grad OAs) and Mar 2026 (completed new grad final round) threads confirm the pipeline ran, later than the official late September to October window. The AI-assisted CodeSignal format and its scoring scale are not documented by Netflix. Simplify's L3 band ($100K to $300K) was not checked against a Netflix posting. Netflix's culture memo has no visible last-updated date on the page; Aced says it was updated in June 2024. Very few early-career questions are public, so most reported questions are L4, frontend or senior. LeetCode Discuss URLs were confirmed through LeetCode's GraphQL API; Reddit threads were read through Reddit's RSS feeds. Fact-check Oct 4, 2026: all URLs re-fetched; official process text re-read on jobs.netflix.com; interview_prep_url now points to the internships page, which has the official 'How to Prepare for Interviews' section."
 }
