@@ -1,6 +1,6 @@
 # Code quality in online assessments
 
-For anyone whose OA code passes tests but reads like scratch work. When you finish, you will have a weak and a strong solution side by side in Python and Java, a structure for progressive tasks, a 5-minute pre-submit checklist, and a clear picture of what reviewers and detection tools look at.
+For anyone whose OA code passes tests but reads like scratch work. You leave with weak and strong solutions side by side in Python and Java, a structure for progressive tasks, a 5-minute pre-submit checklist, and the signals reviewers and detection tools check.
 
 ## Who reads your OA code
 
@@ -14,10 +14,12 @@ Passing hidden tests gets you a score. Several companies then open the code itse
 | CodeSignal ICA | Later levels force you to "reuse, encapsulate, and refactor earlier code", so messy level 1 code costs you at level 3 | [ICA rules](https://support.codesignal.com/hc/en-us/articles/19116922232983-What-are-the-Industry-Coding-Assessment-ICA-rules) |
 | Stripe, Palantir (reports) | A Stripe new grad stressed clean, modular, readable code. Palantir's 2026 new grad OA asked for production-quality code | [Stripe](../companies/stripe.md), [Palantir](../companies/palantir.md) |
 | Anthropic Fellows | "Interviewers care about clean code and structured thinking, not just arriving at the correct answer." | [Jugal's Fellows post](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai) |
+| OpenAI | "well-designed solutions to the challenge, high-quality code, optimal performance, and good test coverage" | [OpenAI interview guide](https://openai.com/interview-guide/) |
+| Goldman Sachs Diagnostics | Use the built-in assistant "while applying your own engineering judgment to evaluate, refine, and validate the final solution" | [Goldman Sachs HackerRank guide](https://www.goldmansachs.com/careers/blog/guide-to-hackerrank) |
 
-Now the counterweight. Karat says "The most important thing we are evaluating is how successfully your code solves the problem" ([Karat](https://karat.com/candidate-experience/)). A community OA guide with 2,500+ GitHub stars points out that most OA code is never read, and working messy code beats clean broken code ([Leader-board guide](https://github.com/Leader-board/OA-and-Interviews/blob/main/Online%20Assessments.md)).
+Correctness still comes first. Karat says "The most important thing we are evaluating is how successfully your code solves the problem" ([Karat](https://karat.com/candidate-experience/)). A community OA guide with 2,500+ GitHub stars says most OA code is never read, and working messy code beats clean broken code ([Leader-board guide](https://github.com/Leader-board/OA-and-Interviews/blob/main/Online%20Assessments.md)).
 
-The rule that fits both: **correct first, clean second.** Clean code costs seconds when it is a habit, and it is the version a reviewer remembers.
+So: **correct first, clean second.** Good names and a one-line complexity comment take under a minute once they are a habit.
 
 ## The five things a reader notices
 
@@ -90,14 +92,14 @@ def count_dropped_requests(timestamps: list[int], limit: int, window: int) -> in
 
 ### What we measured
 
-Both versions were run on Python 3.14:
+Both versions were run on Python 3.14 (timings from one laptop):
 
 | Check | Weak | Strong |
 |---|---|---|
 | Example input, first call | 3 (correct) | 3 (correct) |
 | Same input, second call in the same run | 5 (wrong: `res` kept the first call's data) | 3 |
 | Extra lines printed to stdout on the example | 6 | 0 |
-| 20,000 timestamps with a large limit | 3.9 seconds | under 1 millisecond |
+| 20,000 timestamps with a large limit | about 4 seconds | under 1 millisecond |
 | 2,000 random small inputs, fresh state each time | Matches strong | Matches weak |
 
 The weak version passes the samples. It fails hidden tests three ways: on time (quadratic), on output (debug prints on an exact-match grader), and on state (the global list survives between calls).
@@ -279,11 +281,23 @@ class Bank:
         return [f"{account_id}({account.outgoing})" for account_id, account in ranked[:n]]
 ```
 
-We ran an 11-call scenario on both (Python 3.14).
+We ran this 11-call scenario on both versions (Python 3.14):
 
-On a fresh `Bank()`, the weak version got 2 of 11 answers wrong: it allowed a transfer to the same account and counted it as spending, which also broke the ranking. Its sort has no tie-break either: with equal totals it returned `bob(30)` before `amy(30)`, in creation order instead of by id.
+```text
+create_account(1, "bob")  create_account(2, "amy")  create_account(3, "bob")
+deposit(4, "bob", 100)    deposit(5, "amy", 50)     deposit(6, "zed", 10)
+transfer(7, "bob", "amy", 30)    transfer(8, "amy", "bob", 30)
+transfer(9, "amy", "amy", 10)    transfer(10, "amy", "bob", 500)
+top_spenders(11, 2)       expected: ["amy(30)", "bob(30)"]
+```
 
-On a second `Bank()` in the same run, it got 8 of 11 wrong, because the module-level `accounts` dictionary survived. Test harnesses often create a new object per test, so this is exactly how hidden tests fail.
+| Run | Strong | Weak |
+|---|---|---|
+| First `Bank()` | 11 of 11 correct | 9 of 11. It accepted the same-account transfer (call 9) and counted it as spending, so call 11 returned `amy(40)` |
+| Second `Bank()` in the same process | 11 of 11 correct | 3 of 11. The module-level `accounts` dictionary kept the first run's data, so `create_account` returned `False` and balances doubled |
+| Without call 9 | `["amy(30)", "bob(30)"]` | `["bob(30)", "amy(30)"]`: creation order, because the sort has no tie-break |
+
+Test harnesses often create a new object per test. That is where shared state fails hidden tests.
 
 Why the strong version is faster at level 3:
 
@@ -327,7 +341,7 @@ Google's code review guide says comments should explain why code exists, and war
 | Writing pattern and time taken | HackerRank's AI model uses code-writing patterns, time taken, pastes and tab switches. Proctor Mode flags type-and-delete patterns ([Proctor Mode](https://support.hackerrank.com/articles/5663779659-proctor-mode)) | Normal edits and deletions are fine. A full solution appearing in one burst is not normal |
 | Line-by-line, top-down code | Karat interviewers flag code written in an unusual "top-down or line-by-line manner" ([Karat FAQ](https://karat.com/customer-faq)) | Build in steps: signature, plan comment, brute force, run, refine |
 | Keystroke replay | HackerRank reviewers can replay your session | Your replay should show the steps above |
-| AI chat transcript | HackerRank and CodeSignal show it to the employer when an assistant is enabled | Ask focused questions. Never paste the whole problem in and ask for the answer |
+| AI chat transcript | HackerRank and CodeSignal show it to the employer when an assistant is enabled. Karat's published rubric for AI-allowed rounds scores "Recognizing when AI output is incomplete, incorrect, or misleading" and "Running or testing generated code" ([Karat rubrics](https://karat.com/resource/human-ai-technical-interview-rubrics/)) | Ask focused questions. Never paste the whole problem in and ask for the answer. Test what it gives you |
 | Tab and focus changes | HackerRank logs how often and how long you leave | Stay in the window |
 
 HackerRank itself recommends that companies have a person review flags "so a false positive doesn't disqualify an honest candidate" ([HackerRank](https://www.hackerrank.com/blog/how-plagiarism-detection-works-at-hackerrank/)). Write in a way that makes that review easy: a plan comment, sensible names, visible steps.
@@ -359,6 +373,7 @@ Run this on every question before the final submit.
 - [ ] Edge cases inside the constraints are handled: empty, one element, duplicates, largest values.
 - [ ] Sums and products use 64-bit integers in Java and C++.
 - [ ] The function signature is unchanged from the stub.
+- [ ] Python: no mutable default arguments (`def f(seen=[])`), no grids built as `[[0] * m] * n`, no recursion deeper than about 1,000 calls ([Python FAQ](https://docs.python.org/3/faq/programming.html)).
 - [ ] Dead code is gone: old commented-out versions, unused helpers, unused imports.
 - [ ] It compiles in the language selected in the dropdown.
 
@@ -375,6 +390,6 @@ Run this on every question before the final submit.
 - [How to Crack FAANG Interviews (Part 1)](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part): "Production-Grade Code: Interviewers expect clear thought process, edge-case handling (e.g., null checks), and in-place optimizations."
 - [How to Land Anthropic's $3,850/Week AI Fellowship in 2026](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai): the 90-minute assessment covers OOP, building small systems and "Extending existing code as requirements evolve", which is the progressive-task skill above.
 
-The same habits carry into live rounds, where an interviewer watches you write. That page covers rubrics, naming and testing out loud.
+The same habits carry into live rounds, where an interviewer watches you write. The next page covers interview rubrics, naming and testing out loud.
 
 Next: [Code quality in coding interviews](../coding/code-quality.md)

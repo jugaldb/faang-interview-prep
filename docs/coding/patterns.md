@@ -1,6 +1,6 @@
 # Coding interview patterns
 
-The 25 patterns behind most big tech coding questions. Each one has the cues that give it away, a Python template you can type from memory, and 5 to 10 LeetCode problems ordered easy to hard.
+For anyone who has covered the matching topic on [Topics](topics.md). Each of the 25 patterns below has the cues that give it away, a Python template to type from memory, and 6 to 10 free LeetCode problems, easy to hard.
 
 > **Credit:** The pattern approach and many cues come from Sean Prashad's [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) and Fahim ul Haq's [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed). Full credits are in [Where these patterns come from](#where-these-patterns-come-from).
 
@@ -12,7 +12,7 @@ The 25 patterns behind most big tech coding questions. Each one has the cues tha
 4. **Spend 2 days on one pattern and nothing else.** "Spend two days doing ONLY sliding window problems. Then two days on binary search." ([Jugal](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
 5. **Move on when you can name the pattern from the problem statement alone,** not after reading the solution ([Jugal's 60-day roadmap](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta)).
 6. **Write a cheat-sheet page for the pattern** with the [pattern cheat sheet template](how-to-practice.md#pattern-cheat-sheet-template): cues, your template, 2 anchor problems with a one-line insight each, and your usual bug.
-7. **After all 25, mix.** Open unseen problems and name the pattern within 2 minutes, before you write code.
+7. **After all 25, mix.** Open unseen problems and name the pattern within 3 minutes, before you write code. That is one of the checks in the [readiness test](how-to-practice.md#how-to-know-you-are-ready).
 
 Every linked problem is free on LeetCode (checked Oct 4, 2026). Every template below was run against test inputs before publishing.
 
@@ -1366,7 +1366,14 @@ Google targets: do the last four rows. Jugal's Google plan covers "bitmask DP fo
 
 ## Company pattern map
 
-Jugal's map of the 4 patterns each company favors, from his own prep ([post](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta), with problems per company in his [Notion page](https://jugaldb.notion.site/Company-Wise-DSA-patterns-26caf2117b83808eb7b2efae6afd15dc)). Use it for a 1 to 2 week company sprint after you know all 25 patterns. For question frequency data, use the company pages.
+Jugal's map of the 4 patterns each company favors, from his own prep ([post](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta), with problems per company in his [Notion page](https://jugaldb.notion.site/Company-Wise-DSA-patterns-26caf2117b83808eb7b2efae6afd15dc)). It is his curation, not measured frequency. For tag frequency, use the company pages.
+
+How to run the sprint (1 to 2 weeks, after you know all 25 patterns):
+
+1. **Pick your company's row** below. Interviewing at several? Start with the patterns that repeat across their rows.
+2. **Do 2 to 3 timed problems per pattern** from that company's section of the [Notion page](https://jugaldb.notion.site/Company-Wise-DSA-patterns-26caf2117b83808eb7b2efae6afd15dc). Jugal: "the timer matters here" ([post](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta)).
+3. **Want a fixed schedule?** Use the company days in the day-by-day plan, [Master DSA with patterns](https://jugaldb.substack.com/p/company-wise-dsa-patterns).
+4. **End with mocks, not new problems:** 45 minutes, one problem, out loud ([Mock interviews](mock-interviews.md)).
 
 | Company | Patterns to sprint on | Company page |
 |---|---|---|
@@ -1388,6 +1395,8 @@ Jugal's map of the 4 patterns each company favors, from his own prep ([post](htt
 - [Tech Interview Handbook](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/) by Yangshun Tay: topic priorities, techniques and corner cases. How to use it: copy the corner cases for each topic into your cheat sheet.
 - LeetCode study plans: [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/) (10 patterns), [Binary Search](https://leetcode.com/studyplan/binary-search/) (8 patterns), [Graph Theory](https://leetcode.com/studyplan/graph-theory/) (traversal, union-find, topological sort, Dijkstra, MST). How to use it: 2 to 3 weeks on one plan when that topic is your weakest.
 - [Jugal: Company Wise DSA patterns](https://jugaldb.notion.site/Company-Wise-DSA-patterns-26caf2117b83808eb7b2efae6afd15dc): 22 core patterns with representative problems, plus the company map above. How to use it: Part 3 as a pattern checklist, Part 1 to drill your target company.
+- [Jugal: Master DSA with patterns](https://jugaldb.substack.com/p/company-wise-dsa-patterns): the same 22 patterns as a 60-day, day-by-day plan at 60 to 90 minutes a day, with review days and mocks at the end. How to use it: follow it if you want a fixed daily schedule instead of the 2-days-per-pattern loop above.
+- [Michael's Guide to FAANG DSA](https://jugaldb.substack.com/p/michaels-guide-to-faang-dsa) (on Ascend): 15 patterns with linked sample problems for each, plus a 10-week roadmap. How to use it: a second set of problems when one pattern does not click.
 - Paid, not needed: [Grokking the Coding Interview (DesignGurus)](https://www.designgurus.io/course/grokking-the-coding-interview) ($197, as of Oct 2026) and [AlgoMonster](https://algo.monster/). The free sources above cover the same patterns.
 
 ## Pattern checklist

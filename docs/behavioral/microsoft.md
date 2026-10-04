@@ -25,7 +25,7 @@ Microsoft's interview tips describe growth mindset as being "true learners who c
 
 Prep guides add a competency list: Collaboration, Drive for Results, Customer Focus, Influencing for Impact, Judgment, Adaptability ([Aced, formerly Exponent](https://www.aced.io/blog/microsoft-interview-process)). It is not on an official Microsoft page. Use it as extra rows in your grid, not as the main frame.
 
-> **Watch out:** Some prep sites cite "Create clarity, Generate energy, Deliver success" as what Microsoft looks for. We did not find these on Microsoft's careers or interview pages (Oct 2026). Do not build your prep around them.
+> **Watch out:** Some prep sites cite "Create clarity, Generate energy, Deliver success" as what Microsoft looks for. They do not appear on Microsoft's About, careers culture or interview tips pages (checked Oct 2026). Do not build your prep around them.
 
 ## STAR(R): Microsoft's own answer format
 
@@ -111,7 +111,7 @@ In [situation] it caused [small, honest consequence].
 Since then I [specific habit], and in [recent example] it meant [result]."
 ```
 
-> **Watch out:** "I'm a perfectionist" and "I work too hard" are not weaknesses. Interviewers hear them every day. Pick a real one that will not stop you from doing this job.
+> **Watch out:** "I'm a perfectionist" and "I work too hard" are disguised strengths, and interviewers recognize them. Pick a real one that will not stop you from doing this job.
 
 ## Templates
 
@@ -206,7 +206,7 @@ Edit what it gives you. Jugal's rule: AI gets you a 70% draft, and the last 30% 
 | [Microsoft student interviewing](https://careers.microsoft.com/v2/global/en/hiring-tips/student-interviewing) | Intern and new grad process | Expect behavioral and technical questions in each interview |
 | [Microsoft university internship FAQ](https://careers.microsoft.com/v2/global/en/universityinternship) | Official intern FAQ: virtual interviews, referrals not required, up to 90 days for a decision | Read before you follow up with a recruiter |
 | [Microsoft students page](https://careers.microsoft.com/v2/global/en/students) | Internships, Explore, Discovery and other programs | First and second years: check Explore |
-| [interviewing.io Microsoft guide](https://interviewing.io/guides/hiring-process/microsoft) | Team-dependent process and behavioral weight | Read the section on common mistakes |
+| [interviewing.io Microsoft guide](https://interviewing.io/guides/hiring-process/microsoft) | Team-dependent process and behavioral weight | Read the behavioral section, then write your strengths and weaknesses answer |
 | [Aced: Microsoft interview process](https://www.aced.io/blog/microsoft-interview-process) (freemium) | 14 behavioral questions and a competency list | Drill the questions out loud |
 | [GfG: Microsoft SDE-1 Hyderabad](https://www.geeksforgeeks.org/interview-experiences/microsoft-interview-experience-for-sde-1-hyderabad/) | Candidate report naming the AA round (Jul 2025) | Read to see how a final AA round can mix coding and behavioral |
 | [GfG: Microsoft SDE II level 61](https://www.geeksforgeeks.org/interview-experiences/microsoft-interview-experience-for-sde-ii-level-61/) | Candidate report, 60-minute AA round (Oct 2025) | For 1 to 3 year candidates targeting 61 or 62 |

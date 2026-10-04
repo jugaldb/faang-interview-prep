@@ -1,6 +1,6 @@
 # Behavioral at other companies
 
-For candidates with loops beyond FAANG. Each section gives the official values link, how the behavioral round runs, what the company looks for, and at least 5 questions to practice. All facts are as of Oct 2026.
+For loops outside FAANG. Find your company, open its values link, and practice the questions under it. Facts are as of Oct 2026.
 
 ## Use this page in 5 steps
 
@@ -8,23 +8,23 @@ For candidates with loops beyond FAANG. Each section gives the official values l
 2. Paste the values into the grid template at the end of this page as column headers.
 3. Map your 8 to 10 stories from your [story bank](story-bank.md) to those values. Each story should cover 2 to 3 values.
 4. Write "why [company]" with the 3-part script at the end of this page.
-5. Answer the company's questions out loud, timed to 2 to 3 minutes each. Then do one peer mock on [Aced Practice](https://www.aced.io/practice) (free).
+5. Answer the company's questions out loud, timed to 2 to 3 minutes each. Then do one peer mock on [Aced Practice](https://www.aced.io/practice) (free monthly credits).
 
 ## At a glance
 
 | Company | Values to prepare | Behavioral round | Run by | Weight |
 |---|---|---|---|---|
-| [Uber](#uber) | Uber values (2 confirmed on official pages) | "Collaboration and Leadership" round | Hiring manager | Reported Bar Raiser round is "probably the most important" |
+| [Uber](#uber) | 8 Uber values | "Collaboration and Leadership" round (75 min) | Hiring manager | Reported Bar Raiser round is "probably the most important" |
 | [Airbnb](#airbnb) | 4 core values | Core values interviews | Non-engineers | Can block an offer on its own |
 | [Stripe](#stripe) | 6 operating principles | One behavioral round | Hiring manager or a "Leveler" | The only behavioral round, and it sets level |
 | [Bloomberg](#bloomberg) | Values page (text not listed here) | HR interview, then a senior manager | HR, engineering manager | Fit called "very important" |
 | [Databricks](#databricks) | 6 culture principles | Hiring manager call, then references | Hiring manager | References weigh heavily |
-| [Nvidia](#nvidia) | No official named list | Hiring manager round | Hiring manager | Half fit, half sell |
+| [Nvidia](#nvidia) | No official named list | Hiring manager call (30 min) | Hiring manager | Half fit, half sell |
 | [LinkedIn](#linkedin) | 5 values | Host manager round, technical communication round | Hiring manager, engineers | Conversational, values-based |
 | [Salesforce](#salesforce) | 5 core values | Behavioral in every final-round interview | Each interviewer | Onsite visit required before an offer |
 | [Atlassian](#atlassian) | 5 values | Values interview, plus a management interview | Often someone outside your team | Independent hiring committee decides |
 | [Spotify](#spotify) | 3 values | Values interview in the final loop | Hiring team | Values alignment is an explicit question |
-| [DoorDash](#doordash) | Global Operating Principles | Engineering Values chat (about 30 min) | Engineering manager | Helps set level |
+| [DoorDash](#doordash) | 14 Global Operating Principles | Engineering Values chat (about 30 min) | Engineering manager | Helps set level |
 | [Coinbase](#coinbase) | Cultural tenets | Culture assessment, then 1:1 interviews | Recruiter, assessment, interviewers | Culture alignment is tested formally |
 | [Palantir](#palantir) | No published list | Behavioral inside every round | Every interviewer | Weak motivation can reject strong coders |
 | [Quant firms](#quant-firms-jane-street-citadel-two-sigma-hrt-d-e-shaw) | Varies by firm | Mostly inside technical rounds | Engineers | "Someone we want to work with" |
@@ -34,16 +34,16 @@ For candidates with loops beyond FAANG. Each section gives the official values l
 
 ## Uber
 
-**Values link:** Uber's official [interviewing guide](https://jobs.uber.com/en/uber-interview-guide/interviewing/). Its example questions name Trip Obsessed and One Uber.
-
-Aced lists eight values: Go get it, Trip obsessed, Build with heart, Stand for safety, See the forest and the trees, One Uber, Great minds don't think alike, Do the right thing ([Aced, formerly Exponent](https://www.aced.io/blog/uber-interview-process)). Only Trip Obsessed and One Uber are confirmed on an official page. Uber's old values page now redirects to a page without the list.
+**Values link:** [Uber: What moves us](https://jobs.uber.com/en/what-moves-us/) lists 8 values in a slider: Go get it, Trip obsessed, Build with heart, Stand for safety, See the forest and the trees, One Uber, Great minds don't think alike, Do the right thing. The official [interviewing guide](https://jobs.uber.com/en/uber-interview-guide/interviewing/) uses Trip obsessed and One Uber in its example questions. Both pages block automated tools. If one does not load for you, Aced lists the same 8 ([Aced, formerly Exponent](https://www.aced.io/blog/uber-interview-process)).
 
 **How the round works:**
 
 - Official: competency-based questions that start with "Describe how you have..." or "Tell me about a time when...". Uber says to prepare at least one STAR example per competency, and that hiring teams assess every candidate against its values.
-- Official prep list: be pitch ready, understand the role, prepare examples, know the values. The guide's FAQ covers AI use during interviews. Read it before your loop.
+- Official prep list: be pitch ready, understand the role (why you want it "beyond brand recognition"), prepare 1 to 2 examples per competency, know the values.
+- Official FAQ: "No, you cannot use AI tools" during your interview, including ChatGPT, automated response generators and code auto-completion.
 - Interns: a recruiter phone screen, a work-related assessment, then a "business interview" with the team. Rescheduling is limited ([internship interview guide](https://jobs.uber.com/en/uber-interview-guide/internship-interview-guide/)).
-- Full-time: the behavioral round is called "Collaboration and Leadership" and is run by the hiring manager. It covers teamwork, failures and leadership. A Bar Raiser round is described as "probably the most important round" ([interviewing.io](https://interviewing.io/uber-interview-questions)).
+- Full-time: the behavioral round is called "Collaboration and Leadership". It runs 75 minutes with the hiring manager and covers past projects, teamwork, failures and leadership ([interviewing.io](https://interviewing.io/uber-interview-questions)).
+- interviewing.io also describes a 1-hour Bar Raiser round with an interviewer from outside your team. It reviews one past project in detail (complexity, trade-offs, failures, business impact), and interviewing.io calls it "probably the most important round". New grad reports usually show 3 rounds (2 coding plus Collaboration and Leadership) without it.
 
 **What they look for:** work across teams (One Uber), focus on the people using the product (Trip Obsessed), ownership, honest failures, and detailed project walkthroughs.
 
@@ -56,7 +56,7 @@ Aced lists eight values: Go get it, Trip obsessed, Build with heart, Stand for s
 5. What is your leadership style? (Aced)
 6. Official stems to complete with your own story: "Tell me about a project that innovated how you..." and "Describe how you work across teams to..." ([Uber guide](https://jobs.uber.com/en/uber-interview-guide/interviewing/))
 
-**Do this:** Write one STAR story per competency in Uber's guide, and a 60-second pitch for "Be pitch ready".
+**Do this:** Write one STAR story per competency in Uber's guide, plus one each for Trip obsessed, One Uber and See the forest and the trees. Write a 60-second pitch for "Be pitch ready" using steps 2 to 4 of Jugal's [elevator pitch post](https://jugaldb.substack.com/p/craft-the-elevator-pitch-that-gets).
 
 Company page: [Uber](../companies/uber.md).
 
@@ -67,7 +67,7 @@ Company page: [Uber](../companies/uber.md).
 **How the round works:**
 
 - Core values interviews happen at the onsite and are run by non-engineers. interviewing.io says Airbnb weights culture fit more than most companies its size, and that you can fail these and get no offer despite strong technical rounds ([interviewing.io](https://interviewing.io/airbnb-interview-questions), 2024).
-- Candidates often report it as a separate gate after the technical onsite.
+- Candidates report it as a separate gate, often scheduled after the technical onsite. One Jan 2026 candidate said it ended after about 20 minutes.
 - Airbnb has no official interview tips page (Oct 2026).
 
 **What they look for:**
@@ -76,7 +76,7 @@ Company page: [Uber](../companies/uber.md).
 - Champion the Mission: a real connection to belonging, travel, hosting or community.
 - Embrace the Adventure: curiosity, and resilience after setbacks.
 - Be a Cereal Entrepreneur: determined, creative ways to turn big ideas into something real.
-- Community involvement and mentoring. New grad postings list it as a plus (reported).
+- Community involvement, mentoring and volunteering. New grad postings list it as a plus, and a Mar 2026 candidate was asked about it directly (reported).
 
 **Questions to practice:**
 
@@ -86,8 +86,9 @@ Company page: [Uber](../companies/uber.md).
 4. Tell me about a time you were uncomfortable and how you dealt with it. ([Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview-questions/))
 5. Tell me about a time you had to give someone terrible news. (Tech Interview Handbook)
 6. What's something you'd like to remove from the Airbnb experience? (Tech Interview Handbook)
+7. How have you contributed to a community, or what volunteer work have you done? (reported, Mar 2026)
 
-**Do this:** Speak in plain language, because your interviewer may not be an engineer. Prepare one "Be a Host" story about helping a teammate, a newcomer or a user. Then drill all 24 Airbnb questions in the Tech Interview Handbook list.
+**Do this:** Speak in plain language, because your interviewer may not be an engineer. Prepare one "Be a Host" story about helping a teammate, a newcomer or a user. Then drill all 25 Airbnb questions in the [Tech Interview Handbook list](https://www.techinterviewhandbook.org/behavioral-interview-questions/).
 
 Company page: [Airbnb](../companies/airbnb.md).
 
@@ -103,7 +104,7 @@ Company page: [Airbnb](../companies/airbnb.md).
 
 **What they look for:** working backward from users, craft and attention to detail, shipping fast on what matters, open debate without ego, and curiosity about how businesses and payments work.
 
-The page is called "Compatibility" for a reason. interviewing.io notes Stripe "is not for everyone" because of how much autonomy it gives. Read it and judge your own fit honestly.
+Stripe titles the page "Compatibility". interviewing.io notes Stripe "is not for everyone" because of how much autonomy it gives. Read all 6 principles and decide whether you would enjoy working that way before you prepare.
 
 **Questions to practice:**
 
@@ -114,19 +115,20 @@ The page is called "Compatibility" for a reason. interviewing.io notes Stripe "i
 5. Explain a project that you worked on recently that was difficult. (Tech Interview Handbook)
 6. Where do you see yourself in five years? (Tech Interview Handbook)
 
-**Do this:** Prepare one craft story where you raised the quality bar past "it works", with the detail you fixed.
+**Do this:** Write one story per operating principle. Make the craft story concrete: the quality bar you raised past "it works" and the exact detail you fixed. Prepare 2 sentences on your goals for the next 1 to 2 years, since the round is reported as "Experiences and Goals".
 
 Company page: [Stripe](../companies/stripe.md).
 
 ## Bloomberg
 
-**Values link:** [Bloomberg values page](https://www.bloomberg.com/company/values/). The page text is rendered by script and we could not confirm it, so the values are not listed here. Read it in your browser.
+**Values link:** [Bloomberg values page](https://www.bloomberg.com/company/values/). The page renders its text by script, so the value names are not listed here. Open it in your browser and copy the names into your grid.
 
 **How the round works:**
 
 - An HR interview of about 30 minutes: why Bloomberg, 4 to 5 general behavioral questions, other offers, and salary expectations (candidate reports).
 - Then an engineering manager or senior manager interview: a project walkthrough, design choices and trade-offs. interviewing.io says the final interviewer often manages at least 50 engineers and that cultural fit is "very important" ([interviewing.io](https://interviewing.io/bloomberg-interview-questions)).
-- Bloomberg's official [experienced-hire interview guide](https://www.bloomberg.com/company/careers/interview-tips/interview-guide-experienced-hires/) asks for situation, action and outcome stories on collaboration, leadership, innovation and overcoming challenges. It also asks what draws you to Bloomberg, how the role fits your long-term goals, and that you represent yourself honestly, including any use of AI.
+- Bloomberg's official [experienced-hire interview guide](https://www.bloomberg.com/company/careers/interview-tips/interview-guide-experienced-hires/) asks for situation, action and outcome stories on collaboration, leadership, innovation and overcoming challenges, plus what draws you to Bloomberg and how the role fits your long-term goals.
+- Official [How We Hire](https://www.bloomberg.com/company/careers/how-we-hire/): represent yourself honestly, including any use of AI.
 
 **What they look for:** a real reason for Bloomberg tied to its business, command of your own projects, clear communication, listening when the interviewer tries to help, and being someone the interviewer wants to work with.
 
@@ -151,8 +153,8 @@ Company page: [Bloomberg](../companies/bloomberg.md).
 
 - A 1-hour hiring manager call after the tech screen, sometimes with a Director of Engineering instead, with deep follow-up questions ([interviewing.io](https://interviewing.io/databricks-interview-questions)).
 - References are weighted heavily in the final decision, typically 1 manager and 2 senior teammates (interviewing.io).
-- New grad onsites usually include one behavioral interview with a hiring manager among about 4 interviews (reported).
-- The official [interview prep page](https://www.databricks.com/company/careers/interview-prep) says behavioral interviews show how you work, learn and collaborate. Expect prompts like "Tell me about a time...", "Describe a situation..." and "Give an example of...".
+- Official [interview prep page](https://www.databricks.com/company/careers/interview-prep): a hiring manager screen before the onsite, a loop of 4 to 6 interviews, then reference checks before the offer. Behavioral interviews show "how you work, learn, collaborate and navigate challenges", with prompts like "Tell me about a time...", "Describe a situation..." and "Give an example of...".
+- New grad onsites usually include one behavioral interview with a hiring manager among about 4 interviews (reported, 2025).
 
 **What they look for:** truth seeking (data over opinion), first-principles reasoning, bias for action, customer obsession, explaining your projects without jargon, and how you handle negative feedback.
 
@@ -170,7 +172,7 @@ Company page: [Databricks](../companies/databricks.md).
 
 ## Nvidia
 
-**Values link:** Nvidia's careers pages do not list named core values (checked Oct 2026). Read the official [How We Hire](https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/) page instead.
+**Values link:** Nvidia's careers pages do not list named core values (checked Oct 2026). The [careers home page](https://www.nvidia.com/en-us/about-nvidia/careers/) does state one culture line: "The project is the boss", even for the CEO. Read the official [How We Hire](https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/) page next.
 
 Aced lists Innovation, Speed and agility, Intellectual honesty, Excellence, One team ([Aced](https://www.aced.io/blog/nvidia-interview-process)). Treat that list as secondary.
 
@@ -178,8 +180,8 @@ Aced lists Innovation, Speed and agility, Intellectual honesty, Excellence, One 
 
 - Official: interviews last 30 to 60 minutes, as 1:1, small group or panel conversations.
 - Official: using unapproved outside tools such as ChatGPT during an interview disqualifies your candidacy.
-- Official: an optional "Insider Chat" with an employee Community Resource Group does not influence hiring decisions. Nvidia suggests applying to your top 3 to 5 matching roles.
-- The hiring manager round is about 1 hour: the first half is your background and fit, the second half is the manager selling you on the team ([interviewing.io](https://interviewing.io/nvidia-interview-questions), 2024).
+- Official: an optional 15-minute "Insider Chat" with an employee Community Resource Group, offered during the final interview, does not influence hiring decisions. Nvidia suggests limiting applications to your top 3 to 5 matching roles.
+- The hiring manager call is 30 minutes: the first part is your background and culture fit, the second part is the manager selling you on the role and team ([interviewing.io](https://interviewing.io/nvidia-interview-questions)).
 
 **What they look for:** technical depth you can explain, honesty about what you don't know, prioritization, and how you take feedback.
 
@@ -190,8 +192,9 @@ Aced lists Innovation, Speed and agility, Intellectual honesty, Excellence, One 
 3. Describe the most technically complex project you have worked on and explain why it was complex.
 4. How do you prioritize tasks?
 5. Tell me about a time when you received negative feedback and how you handled it.
+6. How do you bring clarity when a program starts with vague or ambiguous requirements?
 
-**Do this:** Use the hiring manager's selling time. Ask what later rounds test and what the team needs in your first 6 months.
+**Do this:** Prepare one story where you put the project ahead of your own preference, to match "the project is the boss". Use the hiring manager's selling time. Ask what later rounds test and what the team needs in your first 6 months.
 
 Company page: [Nvidia](../companies/nvidia.md).
 
@@ -278,7 +281,7 @@ Company page: [Atlassian](../companies/atlassian.md).
 
 ## Spotify
 
-**Values link:** [Spotify: Being here](https://www.lifeatspotify.com/being-here) lists 3 values called "The Bassline": One Team, Human Judgment, Make It Happen. The old Band Manifesto values (Innovative, Collaborative, Sincere, Passionate, Playful) are outdated, but many prep sites still list them. Spotify's [culture page](https://www.lifeatspotify.com/the-way-we-play/culture) also calls the company an AI-forward organization.
+**Values link:** [Spotify: The Way We Play](https://www.lifeatspotify.com/the-way-we-play) lists 3 values called "The Bassline": One Team, Human Judgment, Make It Happen. The old Band Manifesto values (Innovative, Collaborative, Sincere, Passionate, Playful) are outdated, but many prep sites still list them. Spotify's [culture page](https://www.lifeatspotify.com/the-way-we-play/culture) also calls the company an AI-forward organization.
 
 **How the round works:**
 
@@ -304,13 +307,13 @@ Company page: [Spotify](../companies/spotify.md).
 
 ## DoorDash
 
-**Values link:** DoorDash's [mission and values page](https://careersatdoordash.com/mission-and-values/) lists Global Operating Principles shared by DoorDash, Deliveroo and Wolt. Examples include Customer Obsessed Not Competitor-Focused, Operate at the Lowest Level of Detail, Bias for Action, Truth Seek, 1% Better Every Day, One Team One Fight, Earn Trust, and Debate then Commit.
+**Values link:** DoorDash's [mission and values page](https://careersatdoordash.com/mission-and-values/) now shows 14 Global Operating Principles shared by DoorDash, Deliveroo and Wolt: Customer Obsessed Not Competitor-Focused, Operate at the Lowest Level of Detail, Bias for Action, Truth Seek, And not Either/Or, 1% Better Every Day, Choose Optimism and Have a Plan, One Team One Fight, Earn Trust, Debate then Commit, Beginner's Mindset, Be Differentiated, Build Global Act Local, Play the Long Game.
 
-Read the page for the full list. Some names appear only inside images, so wording may differ slightly. Older prep sites list four different values.
+Most names appear only inside images, so exact wording may differ slightly. Until at least July 2026 the page grouped 12 behaviors under 4 values (We are leaders, doers, learners, one team), which is what Aced and older guides still show. Most behavior names carried over, so stories tagged with either list still work.
 
 **How the round works:**
 
-- Official ([university careers](https://careersatdoordash.com/university-careers/)): early-career interviews are 2 coding rounds plus an Engineering Values chat.
+- Official ([university careers FAQ](https://careersatdoordash.com/university-careers/)): early-career software engineer interviews are 2 coding rounds plus an Engineering Values chat, and your recruiter sends prep guides.
 - Reported: the values chat is about 30 minutes with an engineering manager, answered in STAR.
 - interviewing.io says this round helps set your level alongside system design, and is also a sell. It reports that a weak showing here does not always cost the offer if every other round goes well ([interviewing.io](https://interviewing.io/doordash-interview-questions)).
 
@@ -335,13 +338,13 @@ Company page: [DoorDash](../companies/doordash.md).
 
 The tenets are Clear communication, Efficient execution, Act like an owner, Continuous learning, Top talent, Championship team, Customer focus, Repeatable innovation, Positive energy, and Mission first. The careers page also says Coinbase is apolitical at work, is "remote-first, not remote-only", and rewards outperformance while giving unremarkable performance a generous severance package.
 
-**How the round works** (official [How to interview at Coinbase](https://www.coinbase.com/blog/how-to-interview-at-coinbase), Mar 2024):
+**How the round works** (official [How to interview at Coinbase](https://www.coinbase.com/blog/how-to-interview-at-coinbase), dated Mar 2024, so confirm current stages with your recruiter):
 
 - About 60 days across 6 stages. Only about 5% of applications pass the first review.
 - The recruiter screen asks how the mission resonates with you, how you align with the cultural tenets, and your crypto experience or interest.
 - A structured assessment of about 30 minutes measures cognitive ability and culture alignment. Engineers also take a CodeSignal test.
 - Up to four 1:1 interviews, with the focus of each shared in advance.
-- The CEO or COO reviews every offer.
+- The CEO or COO reviewed every offer (as of the Mar 2024 post).
 - Coinbase's [engineering interview post](https://www.coinbase.com/blog/how-coinbase-interviews-for-engineering-roles) (2021) asks you to say if you have seen a question before. Exaggerating your scope is a red flag.
 
 **What they look for:** mission alignment (crypto-curious counts), ownership, clear and short communication, comfort with a high-performance culture, and honesty.
@@ -363,7 +366,7 @@ Company page: [Coinbase](../companies/coinbase.md).
 
 **Values link:** Palantir publishes no values list. Its official [Getting Hired page](https://www.palantir.com/careers/getting-hired/) is the best guide.
 
-It says Palantir looks for people who are bright, adaptable and eager to be part of a tight-knit team, and that fit has to be right on both sides. The same page suggests reading CEO Alex Karp's letter to shareholders.
+It says Palantir looks for people who are bright, adaptable and eager to be part of a tight-knit team, and that fit has to be right on both sides. Palantir's careers site also links CEO Alex Karp's latest letter to shareholders. Read one from the [letters page](https://www.palantir.com/newsroom/letters/) so your "why Palantir" reflects how the company describes itself.
 
 **How the round works:**
 
@@ -381,6 +384,7 @@ It says Palantir looks for people who are bright, adaptable and eager to be part
 4. Describe Palantir to your grandmother.
 5. Teach me something you've learned.
 6. Tell me the story of how you became who you are today and what made you apply to Palantir.
+7. Describe a time your values conflicted with a decision, or you disagreed with leadership. (reported, Jan 2026)
 
 **Do this:** Practice 2 decomposition prompts out loud with a friend. Prepare a real failure, not a success in disguise. If you are considering the forward deployed role, read Jugal's [FDE post](https://jugaldb.substack.com/p/the-hidden-ai-career-paying-up-to) first.
 
@@ -393,9 +397,9 @@ Most quant firms judge fit inside technical rounds, not in a separate behavioral
 | Firm | Official link | What they say they look for | Behavioral format |
 |---|---|---|---|
 | Jane Street | [Preparing for a SWE interview](https://www.janestreet.com/preparing-for-a-software-engineering-interview/), [Interviewing](https://www.janestreet.com/join-jane-street/interviewing/) | The main question is whether they want to work with you. Tips: be nice, be clear, know your language, know what you don't know. Asking great questions matters more than knowing every answer. No finance knowledge is tested | No formal behavioral round. Collaboration is judged inside technical rounds ([interviewing.io](https://interviewing.io/jane-street-interview-questions)) |
-| Citadel | [Our Culture](https://www.citadel.com/who-we-are/our-culture/), [engineering interview process](https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/) | "The Best Idea Wins". Values: Integrity, Winning, Meritocracy, Learning, Extraordinary Colleagues | First round covers coding plus your technical interests, past internships, school projects and why Citadel. Second round: usually three 45-minute interviews mixing technical and behavioral |
+| Citadel | [Our Culture](https://www.citadel.com/who-we-are/our-culture/), [engineering interview process](https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/) | "The Best Idea Wins". Values: Integrity, Winning, Meritocracy, Learning, Extraordinary Colleagues. Official prep: read the values, reflect on how your internship contributed to business outcomes, refine your personal story | 4 steps, about 8 weeks. First round (45 min): coding plus your technical interests, past internships, school projects and why Citadel. Second round: usually three 45-minute interviews mixing technical and behavioral. Then a leadership interview with a senior engineer for a specific team |
 | Two Sigma | [Careers](https://www.twosigma.com/careers/), [Interviewing for SWE](https://www.twosigma.com/interviewing-for-software-engineering/) | Curiosity and care, analytical and low-ego, people who take ownership | Later meetings of about 60 minutes on specific projects and contributions from previous roles |
-| HRT | [Interview at HRT](https://www.hudsonrivertrading.com/hrtbeat/interview-at-hrt/) (2021) | Collaboration (do you take hints and stay open to another approach), teachability (do you apply ideas from earlier in the interview), honesty (say if you've seen a problem before) | Scored inside every technical round |
+| HRT | [Interview at HRT](https://www.hudsonrivertrading.com/hrtbeat/interview-at-hrt/) (Sep 2021) | Collaboration (do you take hints and stay open to another approach), teachability (do you apply ideas from earlier in the interview), communicating past projects at the right level of detail, honesty (say if you've seen a problem before) | Scored inside every technical round |
 | D. E. Shaw | [Interviewing](https://www.deshaw.com/careers/interviewing) | Uphold high standards, analyze rigorously, communicate clearly and concisely, thrive on collaboration, show intellectual curiosity | Inside technical and hiring manager rounds. Some processes ask for a writing sample, code sample or case study |
 
 **Questions to practice:**
@@ -411,21 +415,21 @@ Most quant firms judge fit inside technical rounds, not in a separate behavioral
 **Do this:**
 
 1. Practice thinking out loud on open-ended problems with a friend, and say "I don't know X, here is how I would find out" without freezing. Jane Street's official tip is to know what you don't know.
-2. Watch Jane Street's [mock interview video](https://www.janestreet.com/mock-interview/) and note how the candidate asks questions.
+2. Watch Jane Street's [mock interview video](https://www.janestreet.com/mock-interview/) and note how the candidate asks questions. The engineers in it say the most important advice is to practice under conditions as close to a real interview as you can.
 3. Apply early. Jugal's HFT post says applications for the next summer open as early as June to August and many close by September to October ([How to break into HFT roles](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles)). His [HFT roles overview](https://jugaldb.substack.com/p/breaking-into-high-frequency-trading) explains how SWE, quant researcher, quant trader and infrastructure roles differ.
 
 Company pages: [Jane Street](../companies/jane-street.md), [Citadel](../companies/citadel.md), [Two Sigma](../companies/two-sigma.md), [HRT](../companies/hudson-river-trading.md), [D. E. Shaw](../companies/de-shaw.md).
 
 ## OpenAI
 
-**Values link:** the [OpenAI Charter](https://openai.com/charter/) sets out four principles: broadly distributed benefits, long-term safety, technical leadership, cooperative orientation. The [careers page](https://openai.com/careers/) lists company values including Humanity first, Act with humility, Feel the AGI, and Ship joy. Both pages block automated fetches, so open them in a browser.
+**Values link:** the [OpenAI Charter](https://openai.com/charter/) sets out four principles: broadly distributed benefits, long-term safety, technical leadership, cooperative orientation. The [careers page](https://openai.com/careers/) lists 4 values (Humanity first, Act with humility, Feel the AGI, Ship joy) and 4 operating principles (Find a way, Creativity over control, Update quickly, Intense focus). Both pages block automated fetches, so open them in a browser.
 
 **How the round works** (official [interview guide](https://openai.com/interview-guide/)):
 
 - OpenAI says it cares about collaboration, effective communication, openness to feedback, and alignment with its mission and values.
 - It says it is not credential-driven and looks for high potential: you ramp up fast in a new domain and produce results.
 - The intro call covers your work and academic experience, motivations and goals.
-- Final interviews run 4 to 6 hours with 4 to 6 people over 1 to 2 days. References may be requested.
+- Final interviews run 4 to 6 hours with 4 to 6 people over 1 to 2 days, virtual by default. Expect to hear back within a week. References may be requested.
 - AI tools: some formats allow them, others test you without AI. Ask your recruiter which applies to each round.
 
 **What they look for:** mission alignment with a real reason behind it, ownership beyond your role, work with researchers and product teams, and a considered view on AI safety.
@@ -438,6 +442,7 @@ Company pages: [Jane Street](../companies/jane-street.md), [Citadel](../companie
 4. Tell me about a time you explained a technical limitation to a non-technical stakeholder. (Aced)
 5. Tell me about a time you did something outside your defined responsibilities. (reported)
 6. Tell me about a time you had to consider AI safety implications. (reported)
+7. If you were deciding whether to release a new AI model, what criteria would you use? (reported)
 
 **Do this:** Read the Charter and the last few posts from your target team. Form one opinion on one Charter principle, with a real experience behind it.
 
@@ -466,7 +471,7 @@ Company page: [OpenAI](../companies/openai.md).
 
 **Do this:** Write one honest concern about Anthropic's direction and what you would do about it if you worked there.
 
-Students: the Fellows program is the main early-career route. Jugal's [Fellows guide](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai) covers each stage, including a research discussion where he notes there isn't always a correct answer and Anthropic wants your reasoning.
+Students: Anthropic's careers FAQ says it does not currently offer internships, so the Fellows program is the main early-career route. Jugal's [Fellows guide](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai) covers each stage, including a research discussion where he notes there isn't always a correct answer and Anthropic wants your reasoning.
 
 Company page: [Anthropic](../companies/anthropic.md).
 
@@ -481,6 +486,7 @@ Company page: [Anthropic](../companies/anthropic.md).
 - GDM values curiosity and intellectual honesty. If you don't know an answer, say you're not sure.
 - Use data to show your impact. AI is fine for preparation, not in live interviews or tasks.
 - All GDM internships are managed by the Google Recruiting team. Interns apply through Google, and the [Googleyness page](google-googleyness.md) applies.
+- Referrals: GDM employees cannot refer anyone who contacts them online (for example through LinkedIn) without a direct connection. Ask people who know your work. See [referrals](../outreach/referrals.md).
 
 **Prompts from the official guide to prepare:**
 
@@ -489,6 +495,8 @@ Company page: [Anthropic](../companies/anthropic.md).
 3. How your skills made a difference to a team or project.
 4. How GDM's mission resonates with you personally.
 5. What excites you about being part of GDM's future.
+
+**Do this:** Write one STAR story for each prompt above, each with one number. Practice saying "I'm not sure" out loud on a question you can't answer, then say how you would find out.
 
 ## Templates
 
@@ -509,6 +517,9 @@ Spotify:   One Team | Human Judgment | Make It Happen
 Stripe:    Users first | Craft and beauty | Urgency and focus | Collaborate egolessly | Stay curious | Obsess over talent
 Airbnb:    Champion the Mission | Be a Host | Embrace the Adventure | Be a Cereal Entrepreneur
 LinkedIn:  Members first | Trust and care | Open, honest, constructive | One LinkedIn | Diversity, inclusion, belonging
+Databricks: Customer obsessed | Raise the bar | Truth seeking | First principles | Bias for action | Company first
+Salesforce: Trust | Customer Success | Innovation | Equality | Sustainability
+Uber:      Go get it | Trip obsessed | Build with heart | Stand for safety | Forest and trees | One Uber | Great minds | Do the right thing
 ```
 
 ### Why [company] in 3 parts
@@ -533,13 +544,14 @@ If I worked here I'd [concrete action]."
 
 | Resource | What it is | How to use it |
 |---|---|---|
-| [Tech Interview Handbook: behavioral questions](https://www.techinterviewhandbook.org/behavioral-interview-questions/) | Common questions plus company lists (Airbnb, Palantir, Stripe, Lyft, ByteDance and more) from Glassdoor | Drill your target company's list after this page |
+| [Tech Interview Handbook: behavioral questions](https://www.techinterviewhandbook.org/behavioral-interview-questions/) | Common questions plus company lists (Airbnb 25, Palantir 15, Stripe 3, Lyft, ByteDance and more) from Glassdoor | Drill your target company's list after this page |
+| [Tech Interview Handbook: behavioral interview guide](https://www.techinterviewhandbook.org/behavioral-interview/) | STAR, how many stories to prepare, the "Big Three" questions | Prepare the Big Three first: tell me about yourself, your best project, a conflict |
 | [awesome-behavioral-interviews](https://github.com/ashishps1/awesome-behavioral-interviews) | Open-source repo with STAR tips, a prep grid and sample answers | Use the grid. Do not copy its generic "why company" answers |
 | [Jugal: How to prepare for behavioral interviews](https://jugaldb.substack.com/p/how-to-prepare-for-behavioral-interviews) | Story-first framework for any company | Build 6 to 7 core stories, then map them to each company's values |
 | [Jugal: Behavioral interview preparation](https://jugaldb.substack.com/p/behavioral-interview-preparation) | STAR basics and timing (2 to 3 minutes per answer) | Use the timing rule for every company here |
-| [Aced Practice](https://www.aced.io/practice) | Free peer mock interviews (formerly Pramp) | Book 2 behavioral mocks in your last week |
+| [Aced Practice](https://www.aced.io/practice) (freemium) | Peer mock interviews (formerly Pramp), free monthly credits | Book 2 behavioral mocks in your last week |
 | [Free Mock Interview](https://freemockinterview.com/) | Free AI voice mock with a report | Run your "why [company]" and cut anything generic |
-| [interviewing.io mocks](https://interviewing.io/mocks) (paid) | Anonymous mocks with experienced interviewers | One mock before a high-stakes loop, if budget allows |
+| [interviewing.io mock library](https://interviewing.io/mocks) | Free recorded mocks with transcripts; live anonymous mocks are paid | Watch 2 behavioral replays. Book a paid mock only before a high-stakes loop |
 
 Related pages: [behavioral basics](index.md), [story bank](story-bank.md), [Amazon Leadership Principles](amazon-leadership-principles.md), [Google Googleyness](google-googleyness.md), [all company guides](../companies/index.md).
 

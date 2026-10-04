@@ -1,6 +1,6 @@
 # How to learn DSA from zero
 
-For anyone starting coding interview prep, from a first-year student to an engineer with 3 years of experience. When you finish this page you will have a language, a weekly hour budget, a 12-week learning order, and the method that gets you from zero to interview-ready.
+For anyone starting coding prep, from first-year student to 3 years of experience. When done you will have a language, a weekly hour budget, a 12-week order and an 11-step method.
 
 ## What interview-ready means
 
@@ -18,11 +18,11 @@ The full self-test with numbers is on [How to practice](how-to-practice.md#how-t
 
 ## What coding rounds test in 2026
 
-- **Algorithms are still the core.** In an October 2025 survey, 0 of 52 FAANG interviewers said their company had dropped algorithm questions. 58% said the question types changed, toward custom and multi-part problems with deeper follow-ups ([interviewing.io](https://interviewing.io/blog/how-is-ai-changing-interview-processes-not-much-and-a-whole-lot)).
-- **Meta:** select roles now have an AI assistant built into CoderPad ([Meta hiring process](https://www.metacareers.com/hiring-process/)). The AI-enabled round replaces one of two onsite coding rounds; one classic problem round with no AI stays ([Hello Interview](https://www.hellointerview.com/blog/meta-ai-enabled-coding)).
-- **Google:** its own pages say AI tools are not permitted in interviews ([How we hire](https://www.google.com/about/careers/applications/how-we-hire/)). A Gemini-assisted pilot for select US teams was reported in May 2026 ([Aced](https://www.aced.io/blog/google-ai-coding-interview)). Ask your recruiter which format you get.
+- **Algorithms are still the core.** In a 2025 interviewing.io survey of 67 interviewers, none of the 52 FAANG respondents said their company had dropped algorithm questions. 58% said they changed the kind of question, toward custom and multi-part problems with deeper follow-ups ([interviewing.io](https://interviewing.io/blog/how-is-ai-changing-interview-processes-not-much-and-a-whole-lot)).
+- **Meta (as of Oct 2026):** select roles now have an AI assistant built into CoderPad ([Meta hiring process](https://www.metacareers.com/hiring-process/)). The AI-enabled round replaces one of two onsite coding rounds; one classic problem round with no AI stays ([Hello Interview](https://www.hellointerview.com/blog/meta-ai-enabled-coding)).
+- **Google (as of Oct 2026):** its own pages say AI tools are not permitted in interviews ([How we hire](https://www.google.com/about/careers/applications/how-we-hire/)). A Gemini-assisted pilot for select US teams was reported in May 2026 ([Aced](https://www.aced.io/blog/google-ai-coding-interview)). Ask your recruiter which format you get.
 - **Amazon:** the coding part of the SDE online assessment averages 70 minutes. Public docs such as the JDK or STL are allowed, and browser use is logged ([Amazon OA prep](https://amazon.jobs/content/en/how-we-hire/university/sde-oa)).
-- **What this means for you:** learn patterns well enough to handle a problem you have never seen. Jugal: "Algorithmic fundamentals still matter, because at least one round remains assistance-free at most companies" ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)).
+- **What to do about it:** learn each pattern well enough to solve a problem you have never seen, without AI help. Jugal: "Algorithmic fundamentals still matter, because at least one round remains assistance-free at most companies" ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)). Ask your recruiter which rounds allow AI, then add that format to your practice ([AI-assisted practice](how-to-practice.md#practice-for-ai-assisted-rounds-too), [AI-enabled rounds](interview-framework.md#ai-enabled-rounds-how-to-run-them)).
 
 ## The method, step by step
 
@@ -42,30 +42,34 @@ The full self-test with numbers is on [How to practice](how-to-practice.md#how-t
 
 ## Pick your language
 
-Use the language you know best. Meta's guidance: "Meta engineers use all types of languages, so use the language you're most comfortable with" ([Meta careers blog](https://www.metacareers.com/blog/acing-your-software-engineering-internship-interview-at-meta/)).
+Use the language you know best. Meta: "Meta engineers use all types of languages, so use the language you're most comfortable with" ([Meta careers blog](https://www.metacareers.com/blog/acing-your-software-engineering-internship-interview-at-meta/)). Microsoft: "You'll be asked to code only in the language you're strong in" ([Microsoft](https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing)).
 
 | Language | Pick it if | What you get | Watch out for |
 |---|---|---|---|
 | Python | You are new to interviews, or you know it well | Short code. `dict`, `set`, `collections.deque`, `Counter`, `heapq`, `bisect`, `functools.cache` built in. NeetCode learned Python only for interviews and says the basics took "a few hours" ([NeetCode](https://github.com/neetcode-gh/lesson-data/blob/main/howToUseNeetcode.md)) | `heapq` is a min-heap (negate values for a max-heap). Recursion limit is about 1000 ([TIH](https://www.techinterviewhandbook.org/algorithms/recursion/)). `list.pop(0)` is O(n). `-3 // 2` is `-2`. No built-in sorted map |
 | Java | It is your strongest language | `HashMap`, `ArrayDeque`, `PriorityQueue`, `TreeMap` with `floorKey` and `ceilingKey` | More typing. `int` overflow. A comparator written as `a - b` can overflow: use `Integer.compare` |
 | C++ | You do competitive programming, or target systems, HFT or quant software roles | STL: `unordered_map`, ordered `map` and `set` with `lower_bound`, `priority_queue`. Quant and HFT software roles often center on C++ ([Jugal's HFT post](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles)) | `priority_queue` is a max-heap by default. Overflow (use `long long`). Long comparators |
-| JavaScript or TypeScript | You target front-end roles and know JS best | Fine for arrays, strings, maps and sets | No built-in heap or deque ([TIH heap page](https://www.techinterviewhandbook.org/algorithms/heap/)). Agree with the interviewer to assume a heap with push and pop |
+| JavaScript or TypeScript | You target front-end roles and know JS best | Fine for arrays, strings, maps and sets | No built-in heap ([TIH heap page](https://www.techinterviewhandbook.org/algorithms/heap/)) and no deque. Agree with the interviewer to assume a heap with push and pop |
 | Go or C | Avoid for DSA rounds, even if you use them at work | Nothing extra for these rounds | They lack standard library data structures, per the [Tech Interview Handbook](https://www.techinterviewhandbook.org/programming-languages-for-coding-interviews/) |
 
 Rules:
 
 1. **Use one language for every practice problem.** Switching mid-prep resets your speed.
 2. **If two languages tie, pick Python.** The [Tech Interview Handbook](https://www.techinterviewhandbook.org/programming-languages-for-coding-interviews/) author calls it his "de facto choice for algorithm coding interviews", and adds: "Most of the time, the bottleneck is in the thinking and not the writing."
-3. **Every big tech loop accepts Python, Java and C++.** Amazon's prep page lists 17 language options ([Amazon SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)). Meta's AI-enabled round supports Python, Java, TypeScript, C++, C#, Kotlin, Swift, Rust and Go ([Meta hiring process](https://www.metacareers.com/hiring-process/)).
-4. **Practice without autocomplete.** Amazon expects "syntactically correct code" and no pseudo code. Type your solutions in a plain editor at least once a week.
+3. **Python, Java and C++ are the safe picks.** The Tech Interview Handbook notes that Google's algorithm rounds have been limited to Java, C++, JavaScript or Python ([TIH](https://www.techinterviewhandbook.org/programming-languages-for-coding-interviews/)). Meta's AI-enabled round supports Python, Java, TypeScript, C++, C#, Kotlin, Swift, Rust and Go ([Meta hiring process](https://www.metacareers.com/hiring-process/)). For anything else, ask your recruiter before the screen.
+4. **Practice without autocomplete.** Amazon: "Expect to be asked to write syntactically correct code" and no pseudo code ([Amazon SDE II prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)). Type one solution a week in a plain editor with autocomplete off.
 
 Templates on [Patterns](patterns.md) are in Python. The matching Java and C++ calls are on [Topics](topics.md#language-cheat-sheets).
 
 ## Weekly hour budgets
 
-The [Tech Interview Handbook](https://www.techinterviewhandbook.org/coding-interview-prep/) puts the bare minimum at about 30 hours and good preparation at about 100 hours. Its recommended plan is 3 months at 11 hours a week ([study plan](https://www.techinterviewhandbook.org/coding-interview-study-plan/)). Plan about 50 minutes per new problem, timer plus review: that is how [Grind 75](https://www.techinterviewhandbook.org/grind75/) sizes its schedules.
+Benchmarks to plan with:
 
-Hours below are for coding only. Add 3 to 4 hours a week for applications, resume and behavioral ([Start here](../start-here.md#step-3-set-your-weekly-hour-budget)).
+- **Total:** about 30 hours for the bare minimum, about 100 hours to be well prepared ([Tech Interview Handbook](https://www.techinterviewhandbook.org/coding-interview-prep/)).
+- **Default plan:** 3 months at 11 hours a week ([TIH study plan](https://www.techinterviewhandbook.org/coding-interview-study-plan/)).
+- **Per new problem:** 50 minutes. [Grind 75](https://www.techinterviewhandbook.org/grind75/) budgets each problem at about twice its solve time (solve, then check), which averages about 50 minutes.
+
+Hours below are for coding only. Applications, outreach, resume and behavioral take another 4 or more hours a week ([Start here](../start-here.md#step-3-set-your-weekly-hour-budget)).
 
 | Your situation | Coding hours a week | New problems a week | Grind 75 schedule to open |
 |---|---|---|---|
@@ -83,7 +87,7 @@ How to spend the hours:
 
 ## The 12-week learning order
 
-Coding only, about 7 to 10 hours a week, matching the 12-week plan on [Start here](../start-here.md#12-week-plan-student-with-classes). Starting from zero? Use the [16-week plan](../start-here.md#16-week-plan-starting-from-zero), which spends extra weeks on the same order.
+Coding only, about 6 to 10 hours a week, matching the 12-week plan on [Start here](../start-here.md#12-week-plan-student-with-classes). Starting from zero? Use the [16-week plan](../start-here.md#16-week-plan-starting-from-zero), which spends extra weeks on the same order.
 
 | Week | Topics to learn ([Topics](topics.md)) | Patterns to drill ([Patterns](patterns.md)) | New problems | Done when |
 |---|---|---|---|---|
@@ -120,10 +124,11 @@ The rules he used, each from his own posts:
 
 Use his material in this order:
 
-1. **Follow the 60-day pattern roadmap** if you want patterns instead of a list. The block-by-block table is on [Problem lists](problem-lists.md#jugals-60-day-pattern-roadmap).
-2. **Use his company pattern map** in the last 1 to 2 weeks. It lists 4 patterns per company for Amazon, Google, Meta, Netflix, Uber, Airbnb, Microsoft and Apple, with problems for each, in his free [Company Wise DSA patterns](https://jugaldb.notion.site/Company-Wise-DSA-patterns-26caf2117b83808eb7b2efae6afd15dc) Notion page. A summary is on [Patterns](patterns.md#company-pattern-map).
-3. **Run a 5-week company plan** once you have a target: [Meta](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part), [Amazon](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8), [Google](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e), [Apple](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8), [Netflix](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020). Fixes for their Premium-only and renamed problems are on [Problem lists](problem-lists.md#jugals-5-week-company-plans).
-4. **Watch his Amazon walkthrough** before an Amazon loop: [How I cleared Amazon Technical Interview | DSA + System Design | 4 week plan](https://www.youtube.com/watch?v=8bNRRelp7n0). The "Dry Run Trick for Debugging" chapter starts at 11:40.
+1. **Follow the 60-day pattern roadmap** if you want patterns instead of a list. The plan is in [I Cleared Amazon, Google, and Meta With Only 120 LeetCode Problems](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta), and the day-by-day version (60 to 90 minutes a day: theory, 2 to 4 problems, notes) is [Master DSA with patterns](https://jugaldb.substack.com/p/company-wise-dsa-patterns). A block-by-block summary is on [Problem lists](problem-lists.md#jugals-60-day-pattern-roadmap).
+2. **Prefer weekly blocks?** Use the 10-week pattern plan from Jugal's interview with Michael, CEO of Simplify: one or two patterns a week, each with linked problems ([Michael's 10-week FAANG roadmap](https://jugaldb.substack.com/p/michaels-ultimate-faang-10-week-roadmap)).
+3. **Use his company pattern map** in the last 1 to 2 weeks. It lists 4 patterns per company for Amazon, Google, Meta, Netflix, Uber, Airbnb, Microsoft and Apple, with problems for each, in his free [Company Wise DSA patterns](https://jugaldb.notion.site/Company-Wise-DSA-patterns-26caf2117b83808eb7b2efae6afd15dc) Notion page. A summary is on [Patterns](patterns.md#company-pattern-map).
+4. **Run a 5-week company plan** once you have a target: [Meta](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part), [Amazon](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8), [Google](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e), [Apple](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8), [Netflix](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020). Each has 4 topic weeks with time limits, then a week of timed mocks. Fixes for their Premium-only and renamed problems are on [Problem lists](problem-lists.md#jugals-5-week-company-plans).
+5. **Watch his Amazon walkthrough** before an Amazon loop: [How I cleared Amazon Technical Interview | DSA + System Design | 4 week plan](https://www.youtube.com/watch?v=8bNRRelp7n0). The "Dry Run Trick for Debugging" chapter starts at 11:40.
 
 ## Free resources for the theory
 
@@ -134,13 +139,18 @@ Use these when a topic does not click from the page linked on [Topics](topics.md
 - [How I would learn Leetcode if I could start over (NeetCodeIO)](https://www.youtube.com/watch?v=aHZW7TuY_yo): the method in one video. How to use it: watch once in week 1, then stop planning and start.
 - [Hello Interview: data structures and algorithms](https://www.hellointerview.com/learn/code) (freemium): visual lessons for 16 patterns. How to use it: read the overview page of a pattern before day 1 of that pattern.
 - [CodeSignal Learn](https://codesignal.com/learn) (freemium): structured DSA paths with an AI tutor. How to use it: Jugal's weeks 1 to 2 pick is the "Mastering Algorithms and Data Structures" path, one module a day, asking the tutor before you look up an answer ([post](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use)).
-- [Striver's A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) (free sheet, paid TUF+ extras): 495 items from beginner problems to advanced topics, with videos; the site estimates about six months. How to use it: first and second-year students learning DSA from scratch, especially for Indian campus placements.
+- [Striver's A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) (freemium: the free tier covers the free questions; TUF+ is paid): 495 topics, about 400 practice problems plus 50 theory lessons, in 20 modules. The site estimates about six months. How to use it: if you are a first or second-year student learning DSA from scratch, especially for Indian campus placements, do one module at a time in order.
+- [Princeton Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) and [Part II](https://www.coursera.org/learn/algorithms-part2) (free on Coursera, no certificate): a university course in Java. Part I covers union-find, stacks, queues, sorting, priority queues, BSTs and hash tables. Part II covers graphs and strings. How to use it: if you have never taken a DSA class, do Part I before your spine list.
+- [LeetCode Explore cards](https://leetcode.com/explore/learn/): free short courses per topic (arrays, linked list, queue and stack, binary search, recursion, binary tree, heap, graph, trie, DP). How to use it: when a topic is new, do its card before the starter problems on [Topics](topics.md).
+- [Python Tutor](https://pythontutor.com/): a step-by-step visualizer for Python, Java, C, C++ and JavaScript. How to use it: paste a buggy linked list or recursion solution and watch the pointers and call frames change line by line.
 - [Abdul Bari: Algorithms](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O): whiteboard lectures on complexity, sorting, greedy, DP and graphs. How to use it: watch the one lecture for the topic that did not click, not the whole playlist.
 - [MIT 6.006 Introduction to Algorithms (Spring 2020)](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/): the full MIT course with lectures, notes and problem sets. How to use it: watch the hashing, heaps, graphs or DP lecture when you want the theory behind a pattern.
 - [William Fiset: Graph Theory](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P): animated graph algorithms. How to use it: watch the BFS, DFS, topological sort and Dijkstra videos in week 7 and 8.
 - [VisuAlgo](https://visualgo.net/en): step-through animations of sorting, lists, heaps, BSTs, graphs and union-find. How to use it: step through the animation once for every new data structure.
 - [Kunal Kushwaha: Java + DSA](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ): long Java DSA course from zero. How to use it: only if Java is your language and you are new to programming.
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university): a full CS study plan by John Washam. How to use it: read the advice on flashcards and doing problems while you learn. Skip the full plan unless you lack CS basics.
+- [Beyond Cracking the Coding Interview](https://www.beyondctci.com/) (paid book, 9 chapters free): the sequel to Cracking the Coding Interview, by Gayle Laakmann McDowell, Mike Mroczka, Aline Lerner and Nil Mamano. How to use it: read the free [sneak peek chapters](https://bctci.co/sneakpeek) on sliding windows and binary search before you drill those patterns.
+- [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) and [Elements of Programming Interviews](https://elementsofprogramminginterviews.com/) (paid books): the two books in the resource lists of Jugal's FAANG plans. How to use it: optional. If you buy one, use it for explanations, not as a second problem list.
 
 > **Tip:** You do not need a paid course. If you pay for one thing, make it one month of [LeetCode Premium](https://leetcode.com/subscribe/) ($35 a month as of Oct 2026) 2 to 5 weeks before a scheduled interview, for company tags. Details on [Problem lists](problem-lists.md#is-leetcode-premium-worth-it).
 

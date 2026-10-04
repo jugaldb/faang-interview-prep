@@ -1,8 +1,8 @@
 # How online assessments work
 
-For anyone with an OA link in their inbox, or one on the way. When you finish this page, you will know how OAs are scored, what gets people cut, and what to do in the next 10 minutes.
+For anyone with an OA invite now or soon. You leave with the scoring rules, the usual reasons people get cut, and a 10-minute action list.
 
-> **Tip:** Passing the hidden tests gets you counted. How you wrote the code decides what a human thinks when they open it. Both matter, and this section covers both: [strategy](strategy.md) for the score, [code quality](code-quality.md) for the read.
+> **Tip:** Hidden test cases decide your score. A person may still open your code: Amazon grades "the clarity, maintainability, and efficiency of your code". Prepare for both. Use [strategy](strategy.md) for the score and [code quality](code-quality.md) for the read.
 
 ## What an OA is
 
@@ -17,20 +17,21 @@ Pass, and your application moves forward. Fail, and most companies close it with
 | Algorithmic coding | Solve 2 to 4 LeetCode-style problems against hidden test cases | 60 to 120 min | [Amazon](../companies/amazon.md), [Microsoft](../companies/microsoft.md), [Capital One](../companies/capital-one.md), [Cisco](../companies/cisco.md), [IBM](../companies/ibm.md), [JPMorgan](../companies/jpmorgan.md) |
 | Progressive build | One spec in 4 levels. Each level extends the code you already wrote | 90 min | [Airbnb](../companies/airbnb.md), [Anthropic](../companies/anthropic.md), [Coinbase](../companies/coinbase.md), [eBay](../companies/ebay.md), [Meta](../companies/meta.md) (some roles) |
 | Multi-part practical | One long, real-world problem split into 3 to 6 parts | 60 min | [Stripe](../companies/stripe.md), [Palantir](../companies/palantir.md) (FDE intern) |
-| AI-assisted repo task | Fix bugs or add a feature in a small web app, with a built-in AI assistant | 40 to 60 min | [Amazon](../companies/amazon.md) (2026 reports), [Goldman Sachs](../companies/goldman-sachs.md) (official), [Walmart](../companies/walmart.md) (2026 reports) |
+| AI-assisted repo task | Fix bugs or add a feature in a small web app, with a built-in AI assistant | 40 to 60 min | [Amazon](../companies/amazon.md) (2026 reports), [Goldman Sachs](../companies/goldman-sachs.md) (official), [Walmart](../companies/walmart.md) (2026 reports), [IBM](../companies/ibm.md) India (second round) |
+| AI-assisted coding | Coding questions with an assistant inside the editor. The employer sees your chat | varies | [Netflix](../companies/netflix.md) intern (Oct 2025 reports), [Coinbase](../companies/coinbase.md) (one Apr 2026 loop), [Instacart](../companies/instacart.md) (2026) |
 | MCQ plus coding | CS fundamentals or aptitude multiple choice, then 2 to 3 coding problems | 60 to 120 min | India campus drives at [Cisco](../companies/cisco.md), [Oracle](../companies/oracle.md), [D. E. Shaw](../companies/de-shaw.md), [Morgan Stanley](../companies/morgan-stanley.md) |
 | Work-style questionnaire | Pick or rate statements about how you work | 15 to 60 min | Amazon Workstyles, Google Hiring Assessment, [Coinbase](../companies/coinbase.md) |
-| Work simulation | React to emails, chats and videos from a virtual team | about 60 min | Amazon full-time SDE |
-| Recorded video | Answer behavioral prompts on camera, no live person | under 30 min | [JPMorgan](../companies/jpmorgan.md), [Palo Alto Networks](../companies/palo-alto-networks.md), [Goldman Sachs](../companies/goldman-sachs.md) campus |
+| Work simulation | React to emails, chats and videos from a virtual team | official average 60 min | Amazon full-time SDE (and some 2026 intern reports) |
+| Recorded video | Answer behavioral prompts on camera, no live person | under 30 min (HireVue says set aside 45) | [JPMorgan](../companies/jpmorgan.md), [Palo Alto Networks](../companies/palo-alto-networks.md), [Goldman Sachs](../companies/goldman-sachs.md) campus |
 | Games | Short puzzle or reaction games | under 20 min for HireVue games; longer at Roblox | [Roblox](../companies/roblox.md), employers using HireVue games |
 | Live third-party screen | A 60-minute interview run by another company's engineer | 60 min | Karat at [PayPal](../companies/paypal.md) and [Walmart](../companies/walmart.md) (US) |
 
-Every row has its own playbook. Platforms are on [OA platforms](platforms.md). Each company's format is on [OA format by company](company-oa-formats.md).
+Scoring rules and free practice for each platform are on [OA platforms](platforms.md). The format for 60 companies is on [OA format by company](company-oa-formats.md).
 
 ## Where the OA sits in the process
 
 1. You apply. Many companies email the OA within hours or days. Some send it to every applicant automatically ([Cisco](../companies/cisco.md) US, [Airbnb](../companies/airbnb.md) in 2026 reports, [Snowflake](../companies/snowflake.md) interns).
-2. You get a window, usually about a week or two. IBM links are valid 7 days. Amazon's SDE II OA gives 7 days ([Amazon SDE II OA prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-oa-prep)).
+2. You get a window, usually 1 to 2 weeks. IBM links are valid 7 days. Amazon's SDE II OA gives 7 days ([Amazon SDE II OA prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-oa-prep)).
 3. The platform scores your code. Some companies use a pass bar: Pinterest says a passing score triggers the recruiter call (see [Pinterest](../companies/pinterest.md)). Most never say how they use the score.
 4. A recruiter looks at the score together with your resume. At [Cisco](../companies/cisco.md), candidates report the resume review happens after the OA.
 5. You hear back in 1 to 3 weeks, or not at all. Goldman Sachs says "within three weeks" ([Goldman Sachs HackerRank guide](https://www.goldmansachs.com/careers/blog/guide-to-hackerrank)).
@@ -43,14 +44,16 @@ Every row has its own playbook. Platforms are on [OA platforms](platforms.md). E
 | CodeSignal GCA | 4 questions, Assessment Score from 200 to 600 | Yes | Suspicion Score: pastes, copied problem text, similarity to other solutions | [GCA structure](https://support.codesignal.com/hc/en-us/articles/360040370853-What-should-I-expect-when-I-take-the-General-Coding-Assessment-GCA-and-how-is-it-structured), [Suspicion Score](https://support.codesignal.com/hc/en-us/articles/16957476906135-Using-Suspicion-Score) |
 | CodeSignal ICA | 4 progressive levels, 200 to 600 | Yes. You are not expected to finish | Same as GCA | [ICA rules](https://support.codesignal.com/hc/en-us/articles/19116922232983-What-are-the-Industry-Coding-Assessment-ICA-rules) |
 | Codility | Percent of test cases passed. Fail 4 of 10 and you score 60% | Yes, but code that does not compile scores 0 | Your code, which the company may review by hand | [Automated scoring](https://support.codility.com/hc/en-us/articles/360043318374-Automated-Scoring-Principles), [Candidate FAQ](https://app.codility.com/candidate-faq/) |
-| Karat | An interviewer's write-up. "The most important thing we are evaluating is how successfully your code solves the problem." | n/a | The full video recording plus a summary | [Karat candidate experience](https://karat.com/candidate-experience/) |
+| Karat | An interviewer's write-up. "The most important thing we are evaluating is how successfully your code solves the problem." | n/a | The full recording plus a summary | [Karat candidate experience](https://karat.com/candidate-experience/) |
 | Amazon (on HackerRank) | Test cases, plus "the clarity, maintainability, and efficiency of your code" | Yes | Webcam photo, logged browser usage | [Amazon OA prep](https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa) |
 
-Three rules follow from this table:
+Five rules follow:
 
 1. Every hidden test case is a point. A brute force that passes 8 of 15 tests beats a clever idea that never compiles.
 2. Hidden tests include large inputs. Your time complexity decides whether you get those points. See [constraints to complexity](strategy.md#read-the-constraints-first).
 3. HackerRank compares output exactly. A stray debug `print` can fail a correct answer.
+4. On HackerRank, if you edit an answer you already submitted, click Run Code and then Submit again. If you skip that, the old submission stands ([modifying submissions](https://candidatesupport.hackerrank.com/articles/5994519354-modifying-the-code-submissions-in-a-test)).
+5. Time limits depend on the language. HackerRank gives Python 3 10 seconds, Java 4 seconds, and C or C++ 2 seconds per run ([execution environment](https://candidatesupport.hackerrank.com/articles/2201684846-execution-environment), as of Oct 2026).
 
 ## What gets you cut
 
@@ -59,8 +62,10 @@ Three rules follow from this table:
 | Brute force on large hidden tests | Passes the samples, times out on the large hidden tests | Read the constraints before coding. [Strategy: constraints](strategy.md#read-the-constraints-first) |
 | Output format | Correct logic, zero points | Print exactly what is asked. Debug to stderr. [Strategy: reading input](strategy.md#reading-input-stdin-templates) |
 | Code that does not compile at the end | Codility scores it 0 | Keep a compiling version at all times. [Strategy: partial credit](strategy.md#partial-credit-tactics) |
+| An edit that never got submitted | You fixed a bug after submitting on HackerRank, but the old version was graded | Run Code, then Submit, after every edit in the last 10 minutes |
 | One question eats the clock | 50 minutes on Q3, Q4 blank | Time boxes and the 10-minute stuck rule. [Strategy: time](strategy.md#time-allocation-during-the-test) |
 | Integrity flags | CodeSignal shows companies "Proctoring Rejected" and the reason ([source](https://support.codesignal.com/hc/en-us/articles/4409230511767-Viewing-the-reason-for-a-test-taker-s-non-verified-results)) | Follow the rules exactly. [Strategy: integrity](strategy.md#integrity-rules) |
+| Setup failure | Brave browser (HackerRank does not support it), an untested webcam, a required desktop app never installed | Run the [day-before checklist](strategy.md#day-before-and-day-of-checklist) |
 | Missing the deadline | The link expires. Amazon hires "on a rolling basis" | Take it early in the window, or ask for an extension. [Template](strategy.md#templates) |
 | Skipping a non-coding section | SQL and Bash parts left blank at [Intuit](../companies/intuit.md). Back-end applicants surprised by a front-end section at [Walmart](../companies/walmart.md) | Read every section title before you start |
 | Code no one can read | Amazon grades clarity. Codility customers may review by hand | [Code quality in OAs](code-quality.md) |
@@ -68,9 +73,9 @@ Three rules follow from this table:
 
 ### What you cannot control
 
-A perfect score buys a review, not an interview. A TikTok graduate candidate scored 600/600 and got no interview ([LeetCode post](https://leetcode.com/discuss/post/7123217/graduate-backend-software-engineer-tikto-pcg1/)). Capital One candidates report the same at 600/600 ([LeetCode post](https://leetcode.com/discuss/post/6957033/capitalone-codesignal-assessment-results-sze8/)).
+A perfect score buys a review, not an interview. A TikTok graduate candidate scored 600/600 and got no interview ([LeetCode post](https://leetcode.com/discuss/post/7123217/graduate-backend-software-engineer-tikto-pcg1/)). A Capital One candidate scored 600/600 in Aug 2025 and was rejected (see [Capital One](../companies/capital-one.md)).
 
-The reasons are headcount, your resume, location, and the size of the pool. TikTok's own FAQ says many candidates pass while interviewer slots are limited (see [TikTok](../companies/tiktok.md)). Keep applying while you wait.
+The reasons are headcount, your resume, location, and the size of the pool. TikTok's own FAQ says many candidates pass while interviewer slots are limited (see [TikTok](../companies/tiktok.md)). Keep applying while you wait: [application strategy](../jobs/application-strategy.md).
 
 ## How much is enough
 
@@ -80,14 +85,15 @@ No big tech company publishes an OA cutoff. These are single reports, not rules.
 |---|---|---|---|
 | Amazon SDE I (May 2026) | About 50% on the DSA problem, strong repo task | Advanced | [LeetCode post](https://leetcode.com/discuss/post/8279707/amazon-oa-sde-1-assessment-experience-ne-becb/) |
 | Amazon intern (2026) | Full DSA solution, 2 of 6 repo tests | Shortlisted | [Amazon page](../companies/amazon.md) |
-| Meta E5 (Oct 2025) | 2 of 4 progressive levels | Replies said it was enough for them | [Blind thread](https://www.teamblind.com/post/meta-online-assessment-kh1yd3s8) |
-| Anthropic Fellows (Sep 2025) | Recruiter email said 480/600 or higher is generally enough to advance | n/a | [Anthropic page](../companies/anthropic.md) |
+| Meta E5 (Oct 2025) | 2 of 4 progressive levels | One reply says that got them a tech screen. Another says "You need level 4" | [Blind thread](https://www.teamblind.com/post/meta-online-assessment-kh1yd3s8) |
+| Anthropic Fellows (Sep 2025) | One candidate quoted a recruiter email: 480/600 or higher is generally enough to advance | n/a | [Anthropic page](../companies/anthropic.md) |
 | Stripe intern (Nov 2025) | 15 of 17 hidden tests | Interview | [Stripe page](../companies/stripe.md) |
 | Two Sigma intern (Feb 2025) | Solved 1 of 2 | Reached three technical rounds | [Two Sigma page](../companies/two-sigma.md) |
+| Coinbase (Apr 2026) | 16 of 20 tests on an AI-assisted coding OA | Advanced | [Coinbase page](../companies/coinbase.md) |
 | Visa (Dec 2025) | 567/600 | Rejected | [Visa page](../companies/visa.md) |
-| Expedia | 8 of 15 and 10 of 15 hidden tests | Rejected | [Expedia page](../companies/expedia.md) |
+| Expedia (Aug 2025) | Solved all 3 in 30 minutes | Not selected | [Expedia page](../companies/expedia.md) |
 
-Your target: full marks on the easier questions, then as many test cases as you can on the hardest one.
+Your target: full marks on the easier questions, then as many test cases as you can on the hardest one. CodeSignal says "Not all test-takers are expected to solve every question in the evaluation" ([CodeSignal prep article](https://support.codesignal.com/hc/en-us/articles/15171059136407-Preparing-for-your-CodeSignal-Assessment)).
 
 ## Myths
 
@@ -95,11 +101,13 @@ Your target: full marks on the easier questions, then as many test cases as you 
 |---|---|
 | "Nobody reads OA code." | Amazon grades "the clarity, maintainability, and efficiency of your code" ([Amazon OA prep](https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa)). Codility says your "testing team may manually review your submitted code" ([Codility FAQ](https://app.codility.com/candidate-faq/)). HackerRank reviewers get a keystroke replay. |
 | "Partial means zero." | HackerRank, Codility and CodeSignal all give credit per test case. |
+| "Amazon's OA is 2 LeetCode problems." | The official page still says two coding problems, but its FAQ says "A webcam is required at the start of the code debugging test". Since Apr to May 2026, candidates report 1 DSA problem plus 1 AI-assisted repo task. Expect either. |
 | "Amazon's intern OA has a Work Simulation." | The official intern page lists coding, Workstyles and a survey only. The Work Simulation is listed for full-time. Some 2026 intern reports mention one, so it varies. |
 | "CodeSignal switched to a 200 to 600 scale in 2026." | It switched in 2023 ("Coding Score 2023"). The score is now called the Assessment Score ([CodeSignal](https://support.codesignal.com/hc/en-us/articles/13260678794775-Converting-Historical-Coding-Score-Thresholds-to-Assessment-Score)). |
 | "You can retake CodeSignal every 2 weeks." | Not since 2023. GCA allows 3 certified attempts per 180 days, at most 2 in 30 days. |
 | "Google has no OA." | Google's own page lists the Google Hiring Assessment (workstyle) and sometimes a coding exercise ([Google how we hire](https://www.google.com/about/careers/applications/how-we-hire/)). |
 | "Run returned OK on Codility, so I solved it." | "Run" only means it compiled and passed the example ([Codility FAQ](https://app.codility.com/candidate-faq/)). |
+| "The AI chat in an AI-assisted test is private." | HackerRank shows your chat to the evaluator ([AI assistant in tests](https://candidatesupport.hackerrank.com/articles/7634558376-ai-assistant-in-tests)). CodeSignal gives employers the transcript and a session replay ([CodeSignal](https://codesignal.com/blog/introducing-ai-assisted-coding-assessments-interviews/)). |
 | "A phone with ChatGPT next to the laptop is invisible." | HackerRank Proctor Mode flags phones even partly in view, eye movement and external AI tools ([Proctor Mode](https://support.hackerrank.com/articles/5663779659-proctor-mode)). |
 
 ## Do this in the next 10 minutes
@@ -107,10 +115,11 @@ Your target: full marks on the easier questions, then as many test cases as you 
 1. Open the invite. Write down: platform, number of questions, time limit, deadline, proctoring (webcam, screen share, ID), and whether any AI assistant is allowed.
 2. Find the company on [OA format by company](company-oa-formats.md).
 3. If the platform is CodeSignal, check whether you already hold a recent certified score and how many attempts you have left. See [CodeSignal cooldowns](platforms.md#reuse-cooldowns-and-retakes).
-4. Take that platform's free practice test once today. Links are on [OA platforms](platforms.md).
-5. Pick the 72-hour, 2-week or 4-week plan on [strategy](strategy.md#pick-your-plan).
-6. Block the time in your calendar. Amazon says to "set aside up to two hours" for the full-time OA. Codility says its timer cannot be paused once you start.
-7. If the deadline clashes with exams, ask for an extension today. Use the [extension template](strategy.md#templates).
+4. If the invite mentions the HackerRank desktop app, install it on the laptop you will use and test it today ([Desktop App Mode](https://support.hackerrank.com/articles/5973590014-hackerrank-desktop-app-mode)).
+5. Take that platform's free practice test once today. Links are on [OA platforms](platforms.md).
+6. Pick the 72-hour, 2-week or 4-week plan on [strategy](strategy.md#pick-your-plan).
+7. Block the time in your calendar. Amazon says to "set aside up to two hours" for the full-time OA. Codility says its timer cannot be paused once you start.
+8. If the deadline clashes with exams, ask for an extension today. Use the [extension template](strategy.md#templates).
 
 ## Pages in this section
 
@@ -124,8 +133,9 @@ Your target: full marks on the easier questions, then as many test cases as you 
 ## From Jugal's Substack
 
 - [How to Prepare for FAANG AI Engineer Internship Season Before Applications Open](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer): "Apply to Amazon early. Often the earliest to post, sometimes in July, with an online assessment preceding interviews."
+- [The Definitive Guide for Meta & Amazon Engineering Interviews](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and): his Work Simulation and Work Style tips. They are summarized on [strategy](strategy.md#work-style-work-simulation-and-video-sections).
 - [Want a Job in the Next 30 Days? Use these 5 websites](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use): weeks 1 to 2 use CodeSignal Learn for fundamentals. The steps are in the [4-week plan](strategy.md#4-week-plan).
 - [How to Land Anthropic's $3,850/Week AI Fellowship in 2026](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai): a 90-minute coding assessment where "Interviewers care about clean code and structured thinking, not just arriving at the correct answer."
-- [Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the): the timer rule used in the prep plans.
+- [Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the): his Amazon roadmap, with the 30-minute timer rule used in the prep plans and LeetCode Mock Assessments for "Timed company-specific tests".
 
 Next: [OA platforms: what each one tests](platforms.md)

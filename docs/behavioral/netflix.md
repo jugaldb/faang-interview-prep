@@ -8,7 +8,7 @@ Netflix expects candidates to have read its culture memo. Interviewers told inte
 
 1. Download [the memo PDF](https://jobs.netflix.com/netflix-culture.pdf) and read it end to end once (5 pages, about 30 minutes).
 2. Read it again with a pen. Mark every phrase that describes a behavior, such as "farming for dissent".
-3. Copy the 8 values into the story grid below.
+3. Copy the 8 values into the story grid in the next section.
 4. Write one sentence per value: "The closest I have come to this is [moment]."
 5. Note anything in the memo you disagree with or feel unsure about. Interviewers may ask.
 
@@ -36,6 +36,16 @@ The value names are from the memo. The meanings are short paraphrases. Read the 
 | Curiosity | You learn rapidly and eagerly | A topic you learned fast because a problem needed it |
 | Resilience | You adapt quickly when circumstances change | A plan that broke, and how you adjusted |
 
+Story grid. Copy it into a sheet and mark X where a story fits. Every value needs at least one story.
+
+```text
+Story (1 line)       | Selfless | Judgment | Candor | Creativity | Courage | Inclusion | Curiosity | Resilience | Number
+---------------------|----------|----------|--------|------------|---------|-----------|-----------|------------|-------
+[Gave lead feedback] |          |          |   X    |            |    X    |           |           |            | [...]
+[Rewrote flaky job]  |          |    X     |        |            |         |           |     X     |            | [...]
+[...]                |          |          |        |            |         |           |           |            |
+```
+
 ### Phrases you should be able to explain
 
 | Phrase in the memo | Plain meaning | Story it suggests |
@@ -61,10 +71,10 @@ Netflix publishes the shape of the student process. Most detailed public reports
 | Intern (official) | A take-home assessment, then about 2 to 3 interview rounds with the same three areas. Roles post from mid-August to early September | [Netflix internships page](https://jobs.netflix.com/careers/internships) |
 | Recruiter culture screen (about 30 min) | Motivation, how you read the memo, logistics such as visa sponsorship, location and compensation | [PracHub report](https://prachub.com/interview-questions/answer-netflix-culture-screen-questions) (freemium) |
 | Experienced loop (about 8 interviews) | Mostly system design, then behavioral, then coding. Team-dependent, and you can interview with more than one team at once | [interviewing.io](https://interviewing.io/guides/hiring-process/netflix) |
-| Behavioral interviews | Usually run by an HR business partner (HRBP) and 1 to 2 directors (when there are two, one is from a partner org). Hiring managers do not lead them | interviewing.io |
+| Behavioral interviews | Usually run by an HR business partner (HRBP) and 1 to 2 directors (when there are two, one is from a partner org) | interviewing.io |
 | "Dream Team" interview | A more intense behavioral round run by a director: scale, accountability, candor, risk-taking | interviewing.io |
 
-- interviewing.io states that you will be rejected if you fail the behavioral screen. A strong coding round does not offset it.
+- interviewing.io states that you will be rejected if you fail the behavioral screen. Treat it as must-pass.
 - Jugal's Netflix breakdown says the loop weighs culture fit and system design heavily, even for IC roles. His summary: Netflix equals ownership, design and culture alignment ([How to crack FAANG interviews, Part 5](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020)).
 - Search open roles on [Netflix jobs](https://explore.jobs.netflix.net/careers) and read the team's job description before the culture screen.
 
@@ -76,7 +86,7 @@ About 9 hours in total.
 2. **Day 2 (2 hours).** Write 8 stories, one per value, in STAR format. Each story shows a behavior. None of them names the value. Use the [story bank](story-bank.md) method for finding stories.
 3. **Day 3 (60 min).** Write 2 feedback stories with the template below: one where you gave hard feedback (upward if you can), one where you received it and changed.
 4. **Day 3 (30 min).** Write 1 informed captain story: you owned a decision, asked for dissent, then the team committed.
-5. **Day 4 (30 min).** Prepare the recruiter screen: why Netflix, why this team, your visa status, location preference and a compensation approach. See [negotiation scripts](../negotiation/scripts.md) for deflecting the number.
+5. **Day 4 (30 min).** Prepare the recruiter screen: why Netflix, why this team, your visa status, location preference and a compensation approach. Write your work-authorization answer as one factual line ([international students](../jobs/international-students.md)). See [negotiation scripts](../negotiation/scripts.md) for deflecting the number.
 6. **Day 4 (20 min).** Decide your honest view on the keeper test and on Netflix's content slate. The memo raises both, and interviewing.io's recorded [Netflix behavioral mock](https://interviewing.io/mocks/netflix-behavioral-interview-1) includes a keeper test question. Watch it (free) and note how the interviewer probes.
 7. **Day 5 (45 min).** Practice the question bank out loud. Answer both halves of every feedback question.
 8. **Day 6 (30 min).** Prepare 2 questions for each director (list below).
@@ -84,7 +94,7 @@ About 9 hours in total.
 
 ## Feedback stories
 
-4 of the 10 reported questions below are about feedback. Prepare both directions.
+3 of the 10 reported questions below ask about feedback directly. Prepare both directions.
 
 ```text
 Giving feedback

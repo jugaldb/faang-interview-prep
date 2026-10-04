@@ -14,7 +14,7 @@ Apple has no public interview prep guide and no separate values interview. Each 
 | Onsite is 3 to 8 rounds of 45 to 60 minutes (Aced; interviewing.io says 6 to 8). Some teams ask for a presentation or a take-home | Ask your recruiter what your loop includes | [Aced, formerly Exponent](https://www.aced.io/blog/apple-interview-process), interviewing.io |
 | Decisions happen in a same-day group discussion with thumbs up, down or middle votes. If feedback is consistently below the bar by the fourth round, the hiring manager can end the onsite early | A weak early round can end the day. Treat each round as must-pass | interviewing.io |
 | AI use during interviews is prohibited | No AI tools open. Confirm the rules with your recruiter | interviewing.io |
-| You can interview with several Apple teams at once | Apply to 2 to 3 teams whose work matches your projects | interviewing.io |
+| You can interview with several Apple teams at once. One candidate quoted by interviewing.io interviewed with about 12 teams and got 2 offers | Apply to 2 to 3 teams whose work matches your projects | interviewing.io |
 | Resume to final interviews takes 1 to 4 months, sometimes faster | Keep other processes going | Aced |
 
 Jugal's Apple breakdown describes the loop as systems-heavy, with a strong focus on clarity of thought and edge cases ([How to crack FAANG interviews, Part 4](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8)). Expect much of the behavioral signal to come from how you explain your technical work. The "tell me about a time" questions are only part of it.
@@ -48,7 +48,7 @@ Apple's careers pages describe how people work there. Use this language to choos
 | Hiring manager screen (some teams) | Background, motivation, sometimes technical questions | The most important conversation for fit |
 | Technical screens (1 to 2) | Short intro, then coding or domain questions | Your intro should connect your projects to the team's work |
 | Onsite (3 to 8 rounds) | Coding, domain depth, sometimes design, plus a hiring manager or behavioral round centered on "why Apple" | Each interviewer may ask 1 or 2 behavioral questions |
-| Group decision | Live discussion, thumbs up, down or neutral | You will not see this. Strong rounds everywhere matter |
+| Group decision | Live discussion, thumbs up, down or middle | You will not see this. Strong rounds everywhere matter |
 
 Sources: [interviewing.io](https://interviewing.io/guides/hiring-process/apple), [Aced](https://www.aced.io/blog/apple-interview-process), candidate reports. Loops vary by team: some teams (most reports are from India IS&T roles) add an online test, and junior loops are often shorter than experienced ones.
 
