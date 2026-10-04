@@ -115,7 +115,7 @@ Blank keyword map to copy:
 
 - Source: [I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume) (Aug 12, 2026).
 - Jugal's result, from the post's subtitle: "I tried this workflow and landed eight interviews in 24 hours, including one at xAI."
-- The post's Step 1 connects a job-matching tool to Claude. The resume work starts at Step 2 and runs in any chat model: Claude, ChatGPT, or Gemini.
+- The post's Step 1 connects [Meteor](https://usemeteor.ai) (a job-matching tool Jugal built) to Claude. It is optional. The resume work starts at Step 2 and runs in any chat model: Claude, ChatGPT, or Gemini.
 
 Before you start:
 

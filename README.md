@@ -116,3 +116,7 @@ Built by Jugal Bhatt, AI Engineer at Amazon. Before that, Founding Software Engi
 - [Instagram](https://www.instagram.com/jugaldb)
 
 If this repo helped you, star it so the next person finds it.
+
+## License
+
+Content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Share and adapt it with credit and a link back to this repo.
