@@ -4,7 +4,9 @@ For anyone with a Meta loop coming up: intern, E3 new grad, or E4 with 1 to 3 ye
 
 ## What Meta scores
 
-Meta's official Full Loop guide lists five behavioral focus areas. The interviewer scores you against these. The company values are background, not the rubric. Get the guide (a PDF linked inside the page) from [Meta's onsite prep page](https://www.metacareers.com/swe-prep-onsite/). Link to the page, not the PDF: the PDF link expires.
+Meta's official Full Loop guide lists five behavioral focus areas. The interviewer scores you against these. The company values are background, not the rubric.
+
+Get the guide (a PDF linked inside the page) from [Meta's onsite prep page](https://www.metacareers.com/swe-prep-onsite/). Link to the page, not the PDF: the PDF link expires.
 
 | Focus area | What Meta's guide asks about (paraphrased) | Story you need | Strong signal |
 |---|---|---|---|
@@ -29,7 +31,7 @@ Meta's six values are on the [Meta Careers culture page](https://www.metacareers
 | Live in the future | You built for how the team will work next, not how it works today |
 | Meta, Metamates, me | You put the team's or company's outcome ahead of your own credit |
 
-> **Watch out:** "Be bold", "Be open" and "Focus on impact" are Meta's pre-2022 values. If a prep guide lists them, the guide is old.
+> **Watch out:** "Be bold" and "Be open" are Meta's pre-2022 values. If a prep guide lists them, the guide is old.
 
 ## Round format by level
 
@@ -39,7 +41,7 @@ Meta's official full loop is 4 to 6 interviews of 45 minutes each, across coding
 |---|---|---|
 | Intern interviews | No dedicated behavioral round. Each interview is about 5 minutes of intro, 30 to 35 minutes of coding, 5 minutes for your questions. The intro is your behavioral signal | [Meta intern interview post](https://www.metacareers.com/blog/acing-your-software-engineering-internship-interview-at-meta/) (updated Oct 2022) |
 | Phone screen (full-time) | 5-minute intro on how your experience and interests line up with Meta's mission, then 35 minutes of coding (two problems), then 5 minutes of questions | [Meta tech screen prep](https://www.metacareers.com/swe-prep-techscreen/) |
-| E3 new grad loop | One 45-minute behavioral interview plus coding rounds. No system design. Since Oct 2025, one coding round can be the AI-enabled round | [Hello Interview: Meta SWE interview](https://www.hellointerview.com/blog/the-meta-swe-interview), [Hello Interview E3 guide](https://www.hellointerview.com/guides/meta/e3) |
+| E3 new grad loop | One 45-minute behavioral interview plus 2 to 3 coding rounds (reports vary). No system design. Since Oct 2025, one coding round can be the AI-enabled round | [Hello Interview: Meta SWE interview](https://www.hellointerview.com/blog/the-meta-swe-interview), [Hello Interview E3 guide](https://www.hellointerview.com/guides/meta/e3) |
 | E4 loop (about 1 to 3 years) | One 45-minute behavioral, 2 coding, 1 system design or product architecture. Behavioral and design interviewers carry the most weight on your level | [interviewing.io Meta guide](https://interviewing.io/guides/hiring-process/meta-facebook) |
 
 - The official name is "Behavioral Interview". Candidates and some Meta employees call it the "Jedi" round ([Blind thread, 2019](https://www.teamblind.com/post/ran-out-of-time-in-jedi-interview-dljguu8v)). In that 2019 thread, employees said older Jedi rounds sometimes ended with a short optional coding question.
@@ -67,7 +69,7 @@ Two lines from Meta's guide decide how you should answer:
 
 | Your target | Story scope that fits | Example shape |
 |---|---|---|
-| Intern, E3 | Your own work, plus one or two moments where you helped your team ([TIH rubric](https://www.techinterviewhandbook.org/behavioral-interview-rubrics/): junior impact usually needs only you) | "I owned the export feature in my internship and cut its failure rate from [X] to [Y]" |
+| Intern, E3 | Your own work, plus one or two moments where you helped your team ([Tech Interview Handbook rubric](https://www.techinterviewhandbook.org/behavioral-interview-rubrics/): junior impact usually needs only you) | "I owned the export feature in my internship and cut its failure rate from [X] to [Y]" |
 | E4 | A feature or project you drove end to end, with other people involved | "I led a 3-person effort to move [service] to [new design], aligned [PM] on scope, shipped in [N] weeks" |
 | E5 and above | Projects longer than one quarter, influence across a team ([interviewing.io](https://interviewing.io/guides/hiring-process/meta-facebook)) | Not covered here; this site targets 0 to 3 years |
 
@@ -151,7 +153,7 @@ Result: "We shipped [B] with his safeguard. p95 latency dropped from [X] to [Y].
 Learning: "Now I bring the data before the meeting, not during it."
 ```
 
-The weak version has no "I", no number, and no view of the other side. The strong version shows all three focus signals at once: conflict, communication and results.
+The weak version has no "I", no number, and no view of the other side. The strong version covers three focus areas at once: conflict, communication and results.
 
 ## Question bank
 
@@ -261,7 +263,7 @@ role works on [problem from the job description], which is close to [your work].
 | [Jugal: How to crack FAANG interviews, Part 1](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part) | Jugal's Meta loop prep from June 2025 (coding-focused) | Use its "record yourself explaining aloud" step for stories too |
 | [Aced Practice](https://www.aced.io/practice) | Free peer mock interviews (formerly Pramp) | Book 2 behavioral mocks in the last week |
 | [Free Mock Interview](https://freemockinterview.com/) | Free AI voice mock with a written report | Run one spoken session and fix every ramble it flags |
-| [PracHub Meta behavioral list](https://prachub.com/companies/meta/positions/software-engineer/categories/behavioral-and-leadership) (freemium) | Candidate-reported 2025 to 2026 prompts | Use the prompts. Ignore the AI-written model answers |
+| [PracHub Meta behavioral list](https://prachub.com/companies/meta/positions/software-engineer/categories/behavioral-and-leadership) (freemium) | Candidate-reported 2025 to 2026 prompts | Use the prompts. Write your own answers instead of copying model answers |
 | [interviewing.io mocks](https://interviewing.io/mocks) (paid) | Anonymous mocks with FAANG interviewers | One mock before the loop, if your budget allows |
 
 Related pages: [Meta company guide](../companies/meta.md), [behavioral basics](index.md), [story bank](story-bank.md), [mock interviews](../coding/mock-interviews.md).

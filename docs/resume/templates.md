@@ -34,7 +34,7 @@ Watch his walkthrough of the resume he used: [This Resume Got Me Into Amazon](ht
 | [OpenResume builder](https://www.open-resume.com/resume-builder) | Free, open source | Web builder | A quick start | Build, then check it in [its parser](https://www.open-resume.com/resume-parser) | |
 | [Awesome-CV](https://github.com/posquit0/Awesome-CV) | Free (LPPL) | LaTeX with color headings and icons | Design-heavy CVs | Use only if the parse test passes | Icons and styled headings may not parse cleanly |
 | [Deedy Resume](https://github.com/deedy/Deedy-Resume) | Free | Two columns | Nothing for ATS | Listed only as a layout to avoid | Two columns break reading order |
-| Canva and graphic templates | Varies | Graphic | Nothing for tech applications | Avoid | Jugal: "Fancy Canva resumes look great and confuse half of all ATS systems" (his estimate). Workday recommends resumes without images |
+| Canva and graphic templates | Varies | Graphic | Nothing for tech applications | Avoid | Jugal: "Fancy Canva resumes look great and confuse half of all ATS systems" (his estimate, not a measured number; [tool stack post](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually)). Workday recommends resumes without images |
 | [resume.io UK CV templates](https://resume.io/uk/cv-templates) | Paid after a trial | Web builder | UK applicants who want a ready CV | Jugal's UK picks: "Traditional" and "Prime ATS" | A free LaTeX or Docs template does the same job |
 | [Europass](https://europass.europa.eu/en) | Free, run by the EU | Structured builder, 31 languages | EU institutions and EU-funded programs | Fill the fields, state language levels | Runs long; see [country formats](#country-formats) |
 
@@ -52,7 +52,7 @@ Time: 30 minutes for setup, one evening for content.
 8. Click Recompile. The free plan has a 10-second compile timeout (240 seconds on paid plans), so keep images out ([Overleaf plan limits](https://docs.overleaf.com/getting-started/free-and-premium-plans/plan-limits)).
 9. Download the PDF and rename it `Firstname_Lastname_Resume.pdf`.
 10. Copy the project once per role type ([role-type versions](tailoring.md#build-role-type-versions-once)).
-11. Stuck on syntax? Read Overleaf's [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes). Jugal: "Yes, you're learning LaTeX. It takes 30 minutes, stop overthinking it" ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
+11. If LaTeX syntax blocks you, read Overleaf's [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes). Jugal: "Yes, you're learning LaTeX. It takes 30 minutes, stop overthinking it" ([Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
 
 ```text
 \section{Education}
@@ -147,7 +147,7 @@ Include a 2-line personal summary under my name focused on engineering and impac
 
 ## Country formats
 
-Jugal wrote [4 Resume Templates Based on Your Country](https://jugaldb.substack.com/p/4-resume-templates-based-on-your) after an Indian reader asked whether a US resume is different. His admission in that post: "I had been through the US hiring process and cleared interviews at Google, Meta, and Amazon, but I always treated my resume as one fixed thing."
+Jugal wrote [4 Resume Templates Based on Your Country](https://jugaldb.substack.com/p/4-resume-templates-based-on-your) after someone in India asked him whether a US resume is different. His admission in that post: "I had been through the US hiring process and cleared interviews at Google, Meta, and Amazon, but I always treated my resume as one fixed thing."
 
 | Item | US | UK | India | Europe (EU) |
 |---|---|---|---|---|
@@ -166,7 +166,7 @@ Jugal wrote [4 Resume Templates Based on Your Country](https://jugaldb.substack.
 Notes:
 
 1. **Australia:** Jugal says the US style works with minor changes. **Ireland:** follow the UK column.
-2. **Europass:** the EU's official free builder in 31 languages. A vendor guide ([ResumeFast, Jul 2026](https://www.resumefast.io/blog/europass-cv-guide)) says to use it only when an EU institution, EU-funded program, or public body asks, because it reads as generic at private companies. Rule of thumb: private tech company, use a 1 to 2 page English single-column CV; EU institution, use Europass.
+2. **Europass:** the EU's official free builder in 31 languages. A vendor guide ([ResumeFast, Jul 2026](https://www.resumefast.io/blog/europass-cv-guide)) says to use it only when an EU institution, EU-funded program, or public body asks, because it reads as generic at private companies. Private tech company: a 1 to 2 page English single-column CV; EU institution: Europass.
 3. **Germany and other local conventions:** we could not verify official guidance. Follow the posting.
 4. **Work authorization abroad:** see [international students](../jobs/international-students.md).
 

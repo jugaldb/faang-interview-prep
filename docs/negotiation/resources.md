@@ -1,6 +1,6 @@
 # Offer negotiation resources
 
-Every article, book, data site and community worth your time for offer negotiation, with what to do with each one. Free resources come first. Paid ones are marked.
+Articles, books, data sites and communities for offer negotiation, each with what to do with it. Free first. Paid ones are marked.
 
 > **Watch out:** Several classic sources are old: Haseeb Qureshi (2016), Patrick McKenzie (2012), the Google ex-recruiter piece (2020), and Tech Interview Handbook's comp numbers (2021). The principles hold. Never quote their dollar figures as current.
 
@@ -66,6 +66,7 @@ Then use this site's [process](index.md), [comp basics](comp-basics.md) and [scr
 | Resource | What it is | How to use it |
 |---|---|---|
 | [Levels.fyi company pages](https://www.levels.fyi/companies/google/salaries/software-engineer) | Crowdsourced comp by company, level and location, with vesting schedules | Swap the company slug in the URL. Copy level, median base, stock, bonus and schedule. Check which stock column type it uses |
+| [Levels.fyi level comparison](https://www.levels.fyi/?compare=Google,Facebook,Amazon,Microsoft&track=Software%20Engineer) | Level ladders of several companies side by side | Swap in your companies. Confirm your offers sit at the same rung before you compare pay |
 | [Levels.fyi calculator](https://www.levels.fyi/calculator/) | Side-by-side 4-year offer comparison with vesting, sign-on, refreshers and stock growth | Enter every offer. Compare Year 1 and the 4-year total. Rerun at lower and higher stock growth |
 | [Levels.fyi 2025 report](https://www.levels.fyi/2025/) | Year-end pay trends (US entry-level median $155K in 2025) | Use as context, not as your target |
 | [Levels.fyi internships](https://www.levels.fyi/internships/) | Intern pay by season, company type and location | Compare an intern offer's hourly rate and housing |
@@ -73,8 +74,9 @@ Then use this site's [process](index.md), [comp basics](comp-basics.md) and [scr
 | [Levels.fyi benefits pages](https://www.levels.fyi/companies/google/benefits) | Crowdsourced 401(k), ESPP, HSA and perks per company | Turn the 401(k) match into dollars. Some pages show old IRS limits, so recompute |
 | [h1bdata.info](https://h1bdata.info/) | Base salaries companies filed for H-1B workers, by employer, title and city | Search "[Company] software engineer [city]" to see real filed base pay. Useful even if you do not need a visa |
 | [MyVisaJobs](https://www.myvisajobs.com/) (freemium) | H-1B and green card filings by employer, with average salaries | Check the LCA count and titles for your role over the last 2 years |
-| [AmbitionBox](https://www.ambitionbox.com/) | India salary and review data by company and role | Search "[Company] software engineer salary" for India offers. Compare with Levels.fyi India pages |
-| [TechPays](https://techpays.com/) | Europe tech comp data by Gergely Orosz, acquired by Levels.fyi in May 2026 ([announcement](https://www.levels.fyi/blog/levelsfyi-acquires-techpays.html)) | Use for UK and EU offers, alongside Levels.fyi |
+| [AmbitionBox](https://www.ambitionbox.com/) | India salary, review and offer-discussion site | Search "[Company] software engineer salary" for India offers. Compare with Levels.fyi India pages. Treat single posts as anecdotes |
+| [LeetCode Discuss, Compensation tab](https://leetcode.com/discuss/) | Anonymous offer posts from the US and India in a fixed format: years of experience, company, level, location, base, bonus, stock, total | Open the Compensation tab and search "[Company] SDE 1" or "[Company] L3". Note the date of each post |
+| [TechPays](https://techpays.com/) | Europe tech comp data by Gergely Orosz for the UK, Netherlands, Germany, Belgium, Luxembourg, Estonia and Hungary. Levels.fyi bought it in May 2026 ([announcement](https://www.levels.fyi/blog/levelsfyi-acquires-techpays.html)) | Pick the country, then the company. Compare with the Levels.fyi page for the same company |
 | [Glassdoor](https://www.glassdoor.com/) | Salary and company reviews | Use for reviews and non-tech roles. Candor says not to rely on it for tech comp, because it handles equity poorly |
 
 ## Visa data that affects your offer
@@ -129,6 +131,7 @@ Then use this site's [process](index.md), [comp basics](comp-basics.md) and [scr
 |---|---|---|
 | [Blind Offer Evaluation](https://www.teamblind.com/channels/Offer-Evaluation) | Anonymous, verified-employee forum for offer reviews | Search "[Company] new grad offer 2026" for recent packages and deadlines. Post your anonymized numbers in the format "Company, level, base, stock over 4 years, sign-on, location" |
 | [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/) | Large CS career subreddit | Search "[Company] new grad offer negotiation" and sort by new. Treat single anecdotes as anecdotes |
+| [r/csMajors](https://www.reddit.com/r/csMajors/) | Subreddit for CS students: internships and new grad recruiting | Search "[Company] offer deadline" or "[Company] intern housing" for this cycle's timelines and perks |
 | [r/developersIndia](https://www.reddit.com/r/developersIndia/) | India developer subreddit | Search "[Company] offer CTC" for India packages and notice-period stories |
 | Your university career center | Offer reviews and the school's employer deadline rules | Book an appointment the week your offer arrives. Ask for the offer guidelines in writing |
 | Classmates and seniors with offers | People who just went through the same company | Ask what the first offer was, what moved, and how long it took. Compare level, not just total |
@@ -139,21 +142,22 @@ Most new grads do not need it. The free sources above cover the process.
 
 | Service | Cost | Fits |
 |---|---|---|
-| [Levels.fyi negotiation services](https://www.levels.fyi/services/) (paid) | $1,250, $2,450 or $5,000 tiers, with a money-back guarantee if the increase falls short | Needs at least 1 year of industry experience. It does not take new grad or entry-level roles |
+| [Levels.fyi negotiation services](https://www.levels.fyi/services/) (paid) | $1,250 (one offer), $2,450 (several offers) or $5,000 (director and up). Money back if the increase is under $10K, $15K or $40K | Needs at least 1 year of industry experience. It does not take new grad or entry-level roles. Revisit after your first job |
 | [Rora](https://www.teamrora.com/) (paid) | Charged as a percentage of the increase. No increase, no fee | Aimed at AI researchers, senior engineers and fresh-grad PhD candidates |
-| [interviewing.io coaching](https://interviewing.io/blog/sabotage-salary-negotiation-before-even-start) (paid) | See the site | interviewing.io claims a 94% success rate and $50K more cash on average for its coached users |
+| interviewing.io coaching (paid), described in [this post](https://interviewing.io/blog/sabotage-salary-negotiation-before-even-start) | Not listed in the post | interviewing.io claims a 94% success rate and $50K more cash on average for its coached users. Its own claim, not an audit |
 | [Grokking Comp Negotiation in Tech](https://www.educative.io/courses/grokking-comp-negotiation) (paid, Educative) | Educative subscription | Listed on Tech Interview Handbook. Optional |
 
 ## From Jugal's Substack
 
 | Post | What to take from it |
 |---|---|
-| [The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually) | Tool 7 is Levels.fyi, for comp research, leveling and negotiation prep. Knowing what a level pays is the difference between negotiating and nodding |
-| [How I got my first startup offer in 17 days](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer) | No offers to 3 offers in under 3 weeks by running processes in parallel. That is how you get competing offers |
+| [The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually) | Tool 7 is Levels.fyi, for comp research, leveling and negotiation prep. Knowing what a level pays is "the difference between negotiating and nodding" |
+| [How I got my first startup offer in 17 days](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer) | No offers to 3 startup offers in under 3 weeks, with no referrals. Startups move fast enough to give you a competing offer |
 | [Stop applying to ghost jobs](https://jugaldb.substack.com/p/stop-applying-to-ghost-jobs) | A 4-week log: 65 applications, 22 responses, 8 interviews, 4 offers |
 | [How to break into $300K+ HFT roles](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles) | Jugal's Nov 2025 new grad pay estimates for trading firms. Cross-check with Levels.fyi |
 | [How to check if a company sponsors H-1B visas](https://jugaldb.substack.com/p/how-to-check-if-a-company-sponsors) | The 4-step Data Hub check. Run it before you negotiate start dates |
-| [How to prepare for FAANG AI engineer internship season](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer) | Jugal was not selected in the H-1B lottery. Read the O-1A evidence notes if lottery odds shape your choice between offers |
+| [I didn't get selected in the H-1B lottery](https://jugaldb.substack.com/p/i-didnt-get-selected-in-h1-b-lottery) | Jugal's options after losing the 2026 lottery (EB-1A, O-1). Read it if lottery odds shape your choice between offers |
+| [Bay Area monthly expenses as a student](https://jugaldb.substack.com/p/bay-area-monthly-expenses-as-a-student) | Rent, transport and food costs with a copyable budget planner. Use it to check an intern housing stipend |
 
 Every post mapped to this site: [Substack index](../resources/substack.md).
 
@@ -162,7 +166,8 @@ Every post mapped to this site: [Substack index](../resources/substack.md).
 - [ ] Read the six "read these first" items.
 - [ ] Bookmark the Levels.fyi page for every company in your pipeline.
 - [ ] Find your school's offer deadline guidelines and save the link.
-- [ ] Search Blind for this year's offers at your top 3 companies.
+- [ ] Find 3 recent offers at the same level for each of your top 3 companies (Blind for the US, LeetCode Discuss or AmbitionBox for India, TechPays for Europe).
+- [ ] Compare level ladders on the Levels.fyi level comparison before comparing pay.
 - [ ] International students: run the Data Hub check and the FLAG wage lookup.
 - [ ] India offers: run every offer through the ClearTax salary calculator.
 

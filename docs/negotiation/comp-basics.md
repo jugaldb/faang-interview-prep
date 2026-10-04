@@ -1,6 +1,6 @@
 # Compensation basics for tech offers
 
-For anyone expecting or holding a tech offer. When you finish, you will be able to split any offer into its parts, compute its Year 1 and 4-year value, and compare offers on the same basis.
+For anyone expecting or holding a tech offer. Use it to split an offer into its parts, compute its Year 1 and 4-year value, and compare offers on the same basis.
 
 ## The parts of an offer
 
@@ -49,7 +49,7 @@ What a cliff means: a 4,800-share grant over 4 years with a 1-year cliff and mon
 
 ## Entry-level pay by company
 
-Levels.fyi medians, fetched Oct 4, 2026. They cover everyone at that level, new grads and people with more experience alike. Use them to see the range, not as your personal target. Level names are explained in the [level mapping table](../jobs/index.md#level-mapping-across-companies).
+Levels.fyi medians, fetched Oct 4, 2026, covering everyone at that level (new grads and people with more experience alike). Use them to see the range, not as your personal target. Level names are explained in the [level mapping table](../jobs/index.md#level-mapping-across-companies).
 
 | Company | Entry level | Total | Base | Stock | Bonus | Data |
 |---|---|---|---|---|---|---|
@@ -78,7 +78,8 @@ Market context:
 - The level sets the band, and the band caps what any negotiation can reach. Candor calls level the biggest lever ([Candor](https://candor.co/guides/salary-negotiation)).
 - Amazon's level cannot change after the loop ([Levels.fyi](https://www.levels.fyi/blog/amazon-salary-negotiation.html)). Raise level questions before the final round ends, not after the offer.
 - A master's degree barely moves new grad pay at Google: L3 base for bachelor's and master's hires was within $5,000 in most locations ([Levels.fyi, 2020](https://www.levels.fyi/blog/google-salary-negotiation.html)).
-- With 1 to 3 years of experience, ask the recruiter which level you are being considered for during the screen. Then prepare your past scope as evidence for that level ([Behavioral story bank](../behavioral/story-bank.md)).
+- With 1 to 3 years of experience, ask the recruiter which level you are being considered for during the screen. Then prepare your past scope as evidence for that level ([Behavioral story bank](../behavioral/story-bank.md)). If the offer comes in a level lower, use [S16c](scripts.md#s16c-question-the-level).
+- Compare ladders across companies before you compare money. Open the [Levels.fyi level comparison](https://www.levels.fyi/?compare=Google,Facebook,Amazon,Microsoft&track=Software%20Engineer), swap in your companies, and check that your offers sit at the same rung. Google L3 against Amazon L5 is not a fair comparison.
 
 ## How the share price changes your grant
 
@@ -189,7 +190,7 @@ US federal and state rules as of Oct 2026. Not tax advice.
 - Run the startup offer at zero equity too. If you would still take it at zero, the equity is upside.
 - Some YC startup salaries beat big tech, per Jugal ([post](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer)). Compare the cash first.
 
-Questions to ask any startup (from [Levels.fyi](https://www.levels.fyi/blog/evaluate-startup-offers.html)):
+Questions to ask any startup (from [Levels.fyi](https://www.levels.fyi/blog/evaluate-startup-offers.html) and the [Holloway Guide](https://www.holloway.com/g/equity-compensation)):
 
 - [ ] How many fully diluted shares are outstanding? (Gives your ownership %.)
 - [ ] What is my strike price, and what is the latest 409A?
@@ -205,7 +206,9 @@ Questions to ask any startup (from [Levels.fyi](https://www.levels.fyi/blog/eval
 - Levels.fyi pay tiers (2023 data): general companies $20 to $35 an hour; most tech companies $45 to $60, some over $65 (Netflix, Kensho, Snap, Nuro); trading and finance $75 to $120, with Radix Trading and Vatic Investments at $150 ([Levels.fyi](https://www.levels.fyi/blog/software-internship-salaries.html)).
 - Perks seen in the same data: housing $1,000 to $6,000 a month, intern sign-on $1,000 to $25,000, relocation $500 to $8,000.
 - Check current listings on [Levels.fyi internships](https://www.levels.fyi/internships/) before you compare.
-- Intern rates are mostly fixed. Ask about housing, relocation and dates instead.
+- Convert each intern offer to one number: hourly rate x 40 x weeks, plus housing or stipend, plus sign-on and relocation.
+- Check whether a housing stipend covers real costs. For the Bay Area, fill in the budget planner from my [Bay Area monthly expenses](https://jugaldb.substack.com/p/bay-area-monthly-expenses-as-a-student) post and compare its monthly total with the stipend.
+- Intern rates are mostly fixed. Ask about housing, relocation and dates instead ([S16b](scripts.md#s16b-intern-housing-and-relocation)).
 - A returning intern should not expect a big bonus just for returning (Google ex-recruiter, [2020](https://www.levels.fyi/blog/google-salary-negotiation.html)). Use the return offer as your competing offer in fall recruiting ([Internships](../internships/index.md)).
 
 ## India: CTC and in-hand pay
@@ -229,7 +232,7 @@ ClearTax's example turns ₹21 lakh CTC into about ₹1,40,458 a month in hand. 
 
 - Levels.fyi UK medians: Google L3 £118K total, Amazon L4 £75.5K ([table above](#entry-level-pay-by-company)).
 - Ask for the employer pension % and whether it applies to your full salary. The legal minimum is 3% from the employer on a band of earnings ([GOV.UK](https://www.gov.uk/workplace-pensions/what-you-your-employer-and-the-government-pay)).
-- European data: TechPays, Gergely Orosz's Europe comp site, was acquired by Levels.fyi in May 2026, which plans to show monthly, net and local-currency pay ([Levels.fyi](https://www.levels.fyi/blog/levelsfyi-acquires-techpays.html)).
+- European data: [TechPays](https://techpays.com/), Gergely Orosz's Europe comp site, covers the UK, Netherlands, Germany, Belgium, Luxembourg, Estonia and Hungary. Levels.fyi bought it on May 12, 2026 and plans to add monthly, net and local-currency pay ([Levels.fyi](https://www.levels.fyi/blog/levelsfyi-acquires-techpays.html)). Look up your company and country on both before you compare.
 - Visa salary floors and EU pay transparency: [UK and Europe offers](index.md#uk-and-europe-offers).
 
 ## Offer comparison sheet

@@ -101,7 +101,7 @@ A headline of "Aspiring Tech Enthusiast" and an Experience title of "Developer N
 1. Pick the 2 strings above closest to your target. Swap in your stack.
 2. Paste each into the LinkedIn search bar on your own account and filter to **People**. Add your city under **Locations**.
 3. Open the top 10 profiles. Write down where they put the matching words: headline, title, About, Skills.
-4. Compare with your profile. Move missing keywords into the same places, only if you have really used them.
+4. Compare with your profile. Move missing keywords into the same places, only if you have used them.
 5. Repeat in 2 weeks. Free search is personalized by your network, so treat it as a rough check, not the recruiter's exact ranking.
 
 ## Build your keyword map

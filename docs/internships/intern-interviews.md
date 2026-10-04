@@ -1,6 +1,6 @@
 # Intern interviews by company
 
-For students with an online assessment (OA) or intern interview coming up. When you finish this page you will know the format at your target companies, how intern loops differ from new grad loops, and what to do each week for 6 weeks.
+For students with an online assessment (OA) or intern interview coming up. You leave knowing the format at your target companies, how intern loops differ from new grad loops, and what to do each week for 6 weeks.
 
 ## How intern loops differ from new grad loops
 
@@ -11,39 +11,39 @@ For students with an online assessment (OA) or intern interview coming up. When 
 | System design | Rare. Meta does not ask interns system design (reported) | Sometimes light design or object-oriented design |
 | Behavioral | Light, a few minutes per round. Amazon is the exception: Leadership Principles are scored at every level | Usually a dedicated round |
 | AI-enabled coding | Not confirmed for intern loops at Meta or Google | Meta new grad loops can include an AI-enabled round since Oct 2025 ([Hello Interview](https://www.hellointerview.com/guides/meta/e3)) |
-| Amazon OA | About 90 minutes, no Work Simulation | Adds a Work Simulation of about 60 minutes ([Amazon](https://amazon.jobs/content/en/how-we-hire/university/sde-oa)) |
+| Amazon OA | Official: about 90 minutes, no Work Simulation. 2026 reports: 1 coding problem plus 1 AI-assisted repository debugging task | Official: adds a Work Simulation of about 60 minutes ([Amazon](https://amazon.jobs/content/en/how-we-hire/university/sde-oa)) |
 | What they judge | Fundamentals, clean working code, communication, learning potential | Same, plus more depth and ownership |
 | After you pass | Team or host matching at many companies | Team matching at many companies |
 
 ## Format by company (as of Oct 2026)
 
-"Official" means the company's own page or posting says it. "Reported" means recent candidate reports collected in the [company guides](../companies/index.md). Reported formats vary by year, region and team. Ask your recruiter to confirm.
+"Official" means the company's own page or posting says it. "Reported" means recent candidate reports collected in the [company guides](../companies/index.md). Reported formats vary by year, region and team, so ask your recruiter to confirm.
 
 | Company | Online assessment | Interviews | Also expect | Source |
 |---|---|---|---|---|
 | [Google](../companies/google.md) | Google Hiring Assessment (workstyle questionnaire) for many applicants, plus a coding exercise for some | 2 technical interviews of about 45 minutes, coding in a shared doc with no autocomplete, about 2 medium problems each | Host (team) matching after you pass. No AI tools in interviews | Official: [how we hire](https://www.google.com/about/careers/applications/how-we-hire/). Interview count: [Simplify Google FAQ](https://simplify.jobs/blog/google-internships-faq) |
 | [Meta](../companies/meta.md) | CodeSignal, about 70 minutes, 4 questions of rising difficulty (reported) | Phone screen plus a second interview with identical expectations: about 5 minutes intro, 30 to 35 minutes coding with 1 or 2 questions, 5 minutes Q&A | No system design | Official: [Meta intern interview post (2022)](https://www.metacareers.com/blog/acing-your-software-engineering-internship-interview-at-meta/). OA: reported |
-| [Amazon](../companies/amazon.md) | About 90 minutes: coding about 70, Workstyles about 15, feedback survey about 5 | Typically one 45-minute interview split between technical and behavioral | Leadership Principles in the OA and the interview | Official OA: [Amazon SDE OA prep](https://amazon.jobs/content/en/how-we-hire/university/sde-oa). Interview: [Simplify Amazon FAQ](https://simplify.jobs/blog/amazon-internship-faq/) |
-| [Microsoft](../companies/microsoft.md) | Codility or HackerRank link, 60 to 90 minutes, 2 to 3 medium problems. Referrals may skip it (reported) | Two 45 to 60 minute technical rounds, often the same day. Round 2 adds object-oriented design and project discussion (reported) | First assessed for a functional role, then in the final round for a specific role. All virtual | Official: [Microsoft university internship FAQ](https://careers.microsoft.com/v2/global/en/universityinternship). Details: reported |
+| [Amazon](../companies/amazon.md) | Official: about 90 minutes (coding about 70, Workstyles about 15, feedback survey about 5). 2026 reports: the coding part is 1 DSA problem plus 1 AI-assisted repository debugging task | Simplify: typically one 45-minute interview split between technical and behavioral. 2026 reports: 1 to 2 rounds of about an hour, often with questions on how you use AI tools | Leadership Principles in the OA and the interview | Official OA: [Amazon SDE OA prep](https://amazon.jobs/content/en/how-we-hire/university/sde-oa). Interview: [Simplify Amazon FAQ](https://simplify.jobs/blog/amazon-internship-faq/) plus reported |
+| [Microsoft](../companies/microsoft.md) | HackerRank in most 2025 to 2026 reports (Codility earlier), usually 2 problems in 60 to 90 minutes. Referrals may skip it (reported) | Two 45 to 60 minute technical rounds, often the same day. Round 2 adds object-oriented design and project discussion (reported) | First assessed for a functional role, then in the final round for a specific role. All virtual | Official: [Microsoft university internship FAQ](https://careers.microsoft.com/v2/global/en/universityinternship). Details: reported |
 | [NVIDIA](../companies/nvidia.md) | Varies by team | Technical screen with one LeetCode medium, then 2 to 4 interviews mixing coding with systems or domain questions (CUDA, GPU, systems) | Domain depth counts more than at most companies | [Simplify NVIDIA FAQ](https://simplify.jobs/blog/nvidia-internship-faq/) |
 | [Jane Street](../companies/jane-street.md) | Usually none for US SWE interns. HackerRank for some programs and regions | 1 to 2 technical interviews of 45 to 60 minutes, then a final in person with 2 to 4 coding rounds | Code in a real language, not pseudocode. Any language, no bonus for OCaml | Official: [preparing for a SWE interview](https://www.janestreet.com/preparing-for-a-software-engineering-interview/). Round counts: reported |
 | [Citadel](../companies/citadel.md) | HackerRank, 2 to 3 medium to hard problems (reported) | A 45-minute first round, then three 45-minute technical interviews | Probability and statistics familiarity listed on the posting | Official process plus reported OA |
-| [Two Sigma](../companies/two-sigma.md) | HackerRank, usually 2 problems in about 90 minutes | 1 to 3 live coding rounds of 60 minutes | AI tools prohibited in assessments | Reported |
+| [Two Sigma](../companies/two-sigma.md) | HackerRank, usually 2 problems, LeetCode medium to hard | 1 to 3 live coding rounds of 60 minutes | AI tools prohibited in assessments (official) | Reported |
 | [Hudson River Trading](../companies/hudson-river-trading.md) | About 4 easy to medium problems with many hidden tests | 1 to 2 phone screens (C++ or Python, how computers work), then 3 to 4 rounds of about 75 minutes | Operating systems, networking and data structure internals | Reported |
 | [Capital One](../companies/capital-one.md) | CodeSignal, 4 questions in 70 minutes (reported) | Final "Power Day" with a technical interview and a case interview | Job fit and behavioral interviews | Official: [Capital One internship programs](https://www.capitalonecareers.com/internship-programs). OA: reported |
 | [JPMorgan](../companies/jpmorgan.md) | HackerRank, 2 questions in about 60 minutes, plus a HireVue video interview | Code for Good hackathon or a Superday with coding, code review and behavioral | Teamwork is scored at Code for Good | Reported |
 | [Stripe](../companies/stripe.md) | HackerRank, one long multi-part practical problem in about 60 minutes | Pair-programming screen, then a virtual onsite: a programming exercise and an integration task in an existing codebase | Hiring manager chat | Reported |
 | [Databricks](../companies/databricks.md) | CodeSignal for some candidates. Many skip the OA | Two 1-hour technical rounds: one algorithm, one implementation or object-oriented design | Hiring manager behavioral, about 45 minutes | Reported |
 | [Palantir](../companies/palantir.md) | HackerRank. The FDE intern OA (Aug 2026) was one 3-part build in about 90 minutes | Technical screen, then an onsite with decomposition, learning, behavioral and live coding | Careful spec reading. Keep earlier parts working as you extend | Reported |
-| [Pinterest](../companies/pinterest.md) | CodeSignal General Coding Assessment, 4 questions in 70 minutes | 30-minute recruiter screen, then one 60-minute live coding interview | Hiring committee decides | Reported |
+| [Pinterest](../companies/pinterest.md) | CodeSignal assessment. Reports confirm the General Coding Assessment (standard form: 4 questions in 70 minutes) | 30-minute recruiter screen, then one live coding interview of about an hour | Hiring committee decides | Official: [Pinterest intern and new grad process](https://www.pinterestcareers.com/life-at-pinterest-blog/interviewing/interview-process-general-software-engineering-interns-and-new-grads/). OA format: reported |
 | [Coinbase](../companies/coinbase.md) | CodeSignal coding plus an aptitude test | Recruiter screen (with a team member or Coinbase's AI Recruiter), then a skills interview with object-oriented design | Pick a preferred team on the posting | Official FAQ plus reported |
 | [Atlassian](../companies/atlassian.md) | HackerRank, 2 to 3 medium problems in about 90 minutes | 45 to 60 minute live coding. Some 2026 intern loops used a 1-hour AI-assisted coding interview | Values interview mapped to Atlassian's values | Reported |
 | [Snowflake](../companies/snowflake.md) | HackerRank, 2 to 3 problems, often hard, up to about 2 hours | Two 45 to 60 minute technical interviews | Team-match calls with managers | Reported |
 | [Robinhood](../companies/robinhood.md) | CodeSignal | Recruiter screen, then a "super day" with one technical round and one behavioral round | Detailed questions on your past projects | Reported |
 | [Roblox](../companies/roblox.md) | Game-based assessment plus a coding section | Virtual technical and behavioral interviews | Rank team preferences, matched before day one | Reported |
-| [TikTok](../companies/tiktok.md) | Online coding assessment | Usually 2 rounds of about 1 hour: CS fundamentals (memory, TCP, TLS), detailed questions on one project, one coding problem | Fundamentals questions are common | Reported |
+| [TikTok](../companies/tiktok.md) | Online coding assessment | Usually 1 to 2 rounds of about 1 hour: CS fundamentals (memory, TCP, TLS), detailed questions on one project, one coding problem | Fundamentals questions are common | Reported |
 | [Cloudflare](../companies/cloudflare.md) | US: none. Canada: HackerRank screen | US: hiring manager call, then a 1-hour backend pair-programming round | Whole process about 3 to 4 weeks | Reported |
-| [Anthropic Fellows](../companies/anthropic.md) | Technical assessments | Interviews and a research discussion | Application and reference check first | Official: [Fellows job post](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
+| [Anthropic Fellows](../companies/anthropic.md) | Technical assessments | Interviews and a research discussion | Application and reference check first. Anthropic does not offer internships, so the Fellows Program is its student route | Official: [Fellows job post](https://job-boards.greenhouse.io/anthropic/jobs/5183044008) |
 
 OA platforms and scoring in more detail: [OA formats by company](../online-assessments/company-oa-formats.md), [platforms](../online-assessments/platforms.md).
 
@@ -51,40 +51,42 @@ OA platforms and scoring in more detail: [OA formats by company](../online-asses
 
 ### Amazon
 
-1. Read the official [Amazon SDE OA prep page](https://amazon.jobs/content/en/how-we-hire/university/sde-oa). Take its free, unscored practice test with two questions.
-2. Block 2 quiet hours. The OA tests coding, problem solving and the Leadership Principles. A webcam is listed under technical requirements.
-3. During the OA: publicly accessible online resources are allowed, copying and pasting is not advised, and pressing print screen locks you out. Finish the feedback survey, or your results can be delayed.
-4. Answer Workstyles honestly and consistently with the [Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles).
-5. Prepare 4 to 6 short STAR stories for the interview. Map each to 2 or 3 principles. See [Amazon Leadership Principles](../behavioral/amazon-leadership-principles.md) and Jugal's [6-week Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
+1. Read the official [Amazon SDE OA prep page](https://amazon.jobs/content/en/how-we-hire/university/sde-oa) and take its free, unscored two-question practice test.
+2. Work through Amazon's free [SDE Intern OA and Interview Prep Course](https://d1fkqbr9gy4tb4.cloudfront.net/index.html). It covers the OA, the Leadership Principles and technical topics.
+3. Block 2 quiet hours with a webcam ready. The OA tests coding, problem solving and the Leadership Principles.
+4. Practice the 2026 format too: fix bugs in a small web app (Node, Spring Boot or Django) with an AI assistant, then make the tests pass. Candidates report this task alongside one DSA problem.
+5. Know the rules: public online resources are allowed, copying and pasting is not advised, and pressing print screen locks you out. Finish the feedback survey, or your results can be delayed.
+6. Answer Workstyles honestly and consistently with the [Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles).
+7. Prepare 4 to 6 short STAR stories, each mapped to 2 or 3 principles. Use [Amazon Leadership Principles](../behavioral/amazon-leadership-principles.md) and Jugal's [6-week Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
 
 ### Google
 
-1. Read [Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/). The process takes roughly 6 to 8 weeks. Google's posting for the US BS intern said hearing back can take 90+ days.
-2. Expect the Google Hiring Assessment, a workstyle questionnaire, and possibly a coding exercise.
+1. Read [Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/) and [Google interview tips](https://www.google.com/about/careers/applications/interview-tips/). The process takes roughly 6 to 8 weeks, and the US BS intern posting said hearing back can take 90+ days.
+2. Expect the Google Hiring Assessment (a workstyle questionnaire) and possibly a coding exercise.
 3. Practice coding in a plain Google Doc: no autocomplete, no running code. Write your own test cases out loud.
-4. Prepare for 2 interviews of about 45 minutes. Clarify first. Interviewers expect questions about inputs and edge cases.
+4. Prepare for 2 interviews of about 45 minutes. Ask about inputs and edge cases before you code.
 5. Do not use AI tools in the interview. Google's hiring page says they are not permitted.
-6. After you pass, you fill a preference questionnaire and take host matching calls with teams. Ask each host what your project would be and how they measure success.
+6. After you pass, fill the preference questionnaire and take host matching calls with teams. Ask each host what your project would be and how they measure success.
 
 ### Meta
 
 1. Read Meta's own [intern interview post](https://www.metacareers.com/blog/acing-your-software-engineering-internship-interview-at-meta/). The two interviews have identical expectations.
-2. You get 30 to 35 minutes of coding for 1 or 2 questions. Speed matters. Practice solving a medium in 15 to 20 minutes, talking the whole time.
+2. You get 30 to 35 minutes of coding for 1 or 2 questions. Practice solving a medium in 15 to 20 minutes while talking the whole time.
 3. Use your strongest language. Practice in CoderPad or any plain editor.
 4. Drill Meta-tagged problems from the [Meta guide](../companies/meta.md) in the last 2 weeks.
-5. Behavioral prep for Meta signals: [Meta behavioral](../behavioral/meta.md). Jugal's [Meta and Amazon guide](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and) covers both loops.
+5. Prepare for Meta's behavioral signals with [Meta behavioral](../behavioral/meta.md). Jugal's [Meta and Amazon guide](https://jugaldb.substack.com/p/the-definitive-guide-for-meta-and) covers both loops.
 
 ### Microsoft
 
-1. Read the [Microsoft university internship FAQ](https://careers.microsoft.com/v2/global/en/universityinternship). Interviews are virtual. Allow up to 90 days for a decision.
-2. Expect two technical rounds, often the same day. Prepare one project you can explain in depth, including design choices, because round 2 often covers it.
+1. Read the [Microsoft university internship FAQ](https://careers.microsoft.com/v2/global/en/universityinternship) and [student interviewing tips](https://careers.microsoft.com/v2/global/en/hiring-tips/student-interviewing). Interviews are virtual. Allow up to 90 days for a decision.
+2. Expect two technical rounds, often the same day. Round 2 often covers one of your projects, so prepare one you can explain in depth, including design choices.
 3. Prepare 3 growth-mindset stories: a time you learned fast, a time you changed your mind, a time you got hard feedback. See [Microsoft behavioral](../behavioral/microsoft.md).
-4. If you hold another offer, tell your recruiter early. Microsoft states it cannot expedite review for competing offer deadlines.
+4. Holding another offer? Tell your recruiter early. Microsoft states it cannot expedite review for competing offer deadlines.
 
 ## Quant and trading internships
 
 - Jane Street's official guides: [interviewing](https://www.janestreet.com/join-jane-street/interviewing/), [preparing for a SWE interview](https://www.janestreet.com/preparing-for-a-software-engineering-interview/), and a [mock interview video](https://www.janestreet.com/mock-interview/). How to use them: watch the mock once before your first round and copy how the candidate thinks out loud. You are considered for every open role, so apply once.
-- Jugal's [How to break into $300K+ HFT roles](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles): role types (SWE, quant researcher, quant trader, infrastructure), low-latency topics (threads and locks, TCP vs UDP, kernel bypass), and 10 hard LeetCode problems. How to use it: pick the role bucket first, then follow its prep list.
+- Jugal's [How to break into $300K+ HFT roles](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles): the four role types (SWE, quant researcher, quant trader, infrastructure), 10 LeetCode problems (9 of them hard, such as LFU Cache and Sliding Window Maximum), and a low-latency system design section. How to use it: pick your role bucket first, then solve all 10 problems under a 45-minute timer.
 - Quant applications open as early as June to August and many close by September to October, per the same post. This cycle, Optiver and IMC posted on Jul 1, 2026 and HRT on Jul 13.
 
 ## AI rules in 2026
@@ -93,13 +95,14 @@ OA platforms and scoring in more detail: [OA formats by company](../online-asses
 |---|---|---|
 | Google | Official hiring page: AI tools are not permitted during interviews | Practice without any assistant |
 | Meta | New grad loops can include an AI-enabled coding round since Oct 2025, and the recruiter tells you which round is which. Not confirmed for interns | Ask your recruiter which format you will get |
-| Amazon | The Summer 2027 SDE intern posting lists experience with AI-assisted development tools as a basic qualification | Put the AI tools you really used on your resume, and what you verified in their output |
+| Amazon | The Summer 2027 SDE intern posting lists experience with AI-assisted development tools as a basic qualification. 2026 OAs include an AI-assisted repository task (reported) | Put the AI tools you really used on your resume, and what you verified in their output |
 | Microsoft | The CoreAI intern posting lists experience with GitHub Copilot, Claude Code and Roo Code as preferred | Be ready to discuss their strengths and limits |
 | Salesforce | The US Summer 2027 posting lists AI-assisted development and reviewing LLM-generated code as pluses | Prepare one example of catching a bug in generated code |
 | Atlassian | Some 2026 intern loops used a 1-hour AI-assisted coding interview, such as fixing a bug in a small web app with an AI agent (reported) | Practice debugging unfamiliar code with an assistant |
 | HRT, Two Sigma, Snowflake, Waymo | AI tools prohibited in assessments | Do the OA yourself |
+| Pinterest, Anthropic | No AI in interviews or assessments unless the instructions or interviewer say so | Ask before you open any assistant |
 
-Rule for every company: assume no AI unless the recruiter tells you in writing that it is allowed. Never use a live "interview copilot". It is cheating and can get you rejected.
+Rule for every company: assume no AI unless the recruiter tells you in writing that it is allowed. Never use a live "interview copilot". It is cheating, and firms like HRT say they disqualify candidates or rescind offers for it.
 
 How to practice for AI-assisted rounds, from Jugal's [FAANG AI internship prep post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer):
 
@@ -110,7 +113,7 @@ How to practice for AI-assisted rounds, from Jugal's [FAANG AI internship prep p
 
 ## Six-week intern prep plan
 
-Budget 1.5 to 2 hours a day, 6 days a week. Jugal cleared Amazon, Google and Meta with 120 LeetCode problems by focusing on patterns over volume ([120 problems post](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta)). For an intern loop, 60 to 80 well-understood problems is a realistic target.
+Budget 1.5 to 2 hours a day, 6 days a week. Jugal cleared Amazon, Google and Meta with 120 LeetCode problems by learning patterns instead of chasing volume ([120 problems post](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta)). For an intern loop, aim for 60 to 80 problems you understand well.
 
 | Week | Topics | Do this |
 |---|---|---|
@@ -118,7 +121,7 @@ Budget 1.5 to 2 hours a day, 6 days a week. Jugal cleared Amazon, Google and Met
 | 2 | Stacks, binary search, linked lists | 15 problems. Re-solve any problem that took over 30 minutes after 3 days |
 | 3 | Trees, BFS, DFS, basic graphs | 15 problems. Write BFS and DFS from memory twice |
 | 4 | Heaps, intervals, recursion and backtracking, basic dynamic programming | 15 problems. Say time and space complexity for every solution |
-| 5 | Timed online assessments | 2 full timed OAs in the format of your target (CodeSignal 4 questions in 70 minutes, or HackerRank 2 to 3 in 90). Amazon applicants: take the official practice test. Use [OA strategy](../online-assessments/strategy.md) |
+| 5 | Timed online assessments | 2 full timed OAs in your target's format (CodeSignal 4 questions in 70 minutes, or HackerRank 2 to 3 in 90). Amazon applicants: take the official practice test. Use [OA strategy](../online-assessments/strategy.md) |
 | 6 | Mocks, behavioral, company problems | 3 to 4 mock interviews ([mock interviews](../coding/mock-interviews.md)). 4 to 6 STAR stories. The top 20 problems from each target's [company guide](../companies/index.md) |
 
 How to work each problem: [how to practice](../coding/how-to-practice.md). Which list to use: [problem lists](../coding/problem-lists.md).
@@ -137,7 +140,7 @@ The full 45-minute structure: [interview framework](../coding/interview-framewor
 
 ## Behavioral answers for interns
 
-You do not need work experience. Projects, classes, clubs, hackathons and part-time jobs all count.
+Projects, classes, clubs, hackathons and part-time jobs all count as material. You do not need work experience.
 
 1. Write one 60-second "tell me about yourself": year and major, one project with a number, why this company.
 2. Write 4 to 6 STAR stories: a project you built, a hard bug, a team disagreement, learning something fast, a mistake you fixed, feedback you acted on.
@@ -165,15 +168,16 @@ Next: [what you would change with more time]
 | Jane Street | Weeks before the internship, an engineer runs a call on your preferences and pairs you with a project | Feedback within about a week of the final (official) |
 | Two Sigma | Matched to a team 2 to 3 months before start (posting) | About 7 weeks end to end in one 2025 report |
 | Citadel | Team matching happens inside the process | About 8 weeks from first round to decision (official) |
+| Pinterest | Hiring committee review | You hear back by the end of the season (official) |
 | Roblox | You rank team preferences and are matched a few weeks before day one | Reported |
 | All industries | NACE: average 27 days from interview to offer, and students take 9 days to respond | [NACE 2026](https://www.naceweb.org/talent-acquisition/internships/intern-conversion-rate-hits-highest-mark-in-five-years) |
 
 ## Deadlines and competing offers
 
 1. Get every offer and its deadline in writing.
-2. Tell other companies you are interviewing with that you have a deadline, and ask if they can move faster. Some cannot (Microsoft says so).
+2. Tell the other companies you are interviewing with that you have a deadline, and ask if they can move faster. Some cannot (Microsoft says so).
 3. Ask the offering company for an extension, politely, with a specific date (template below).
-4. Do not accept and then back out later. Recruiters remember, and it can follow you to the new grad cycle.
+4. Do not accept one offer while planning to back out for another. Ask for an extension instead.
 5. Compare offers with [comp basics](../negotiation/comp-basics.md). Scripts for extensions and exploding offers: [negotiation scripts](../negotiation/scripts.md).
 
 ```text
@@ -210,6 +214,12 @@ Thank you again for the interviews on [date]. I wanted to check on the timeline 
 Best,
 [Name]
 ```
+
+## Prep pages worth bookmarking
+
+- Simplify company FAQs, with intern process notes for [Google](https://simplify.jobs/blog/google-internships-faq), [Amazon](https://simplify.jobs/blog/amazon-internship-faq/), [Microsoft](https://simplify.jobs/blog/microsoft-internship-faq/), [NVIDIA](https://simplify.jobs/blog/nvidia-internship-faq/) and [Meta](https://simplify.jobs/blog/meta-internships-faq). How to use them: read the interview section before your first screen. Ignore their mentions of Google STEP, which is discontinued.
+- [Amazon SDE Intern OA and Interview Prep Course](https://d1fkqbr9gy4tb4.cloudfront.net/index.html): Amazon's own free course. How to use it: finish it before you open the OA link.
+- [Jane Street mock interview](https://www.janestreet.com/mock-interview/): a 36-minute recorded SWE interview on a retired question, with the interviewers' debrief. How to use it: pause after the problem statement, solve it yourself, then compare.
 
 ## The day before
 

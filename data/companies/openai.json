@@ -8,8 +8,8 @@
   "interview_prep_url": "https://openai.com/interview-guide/",
   "levels": {
     "intern": "Software Engineer Intern via the Emerging Talent program (Levels.fyi lists $60/hr in San Francisco for Summer 2025 and Summer 2026).",
-    "new_grad": "L2 on Levels.fyi (median 0 YOE). Posting title for 2027 new grads: 'Software Engineer, Applied Emerging Talent (2027)'. Many engineers carry the title Member of Technical Staff.",
-    "early_career": "L2 to L3 for 0 to 3 years (Levels.fyi median YOE: L2 = 0, L3 = 2, L4 = 3). OpenAI's Emerging Talent page says early-career roles are designed for 0 to 3 years of experience. interviewing.io and Hello Interview both report that OpenAI tends to downlevel incoming candidates."
+    "new_grad": "L2 on Levels.fyi (typical 0 to 1 YOE; the Dec 2025 to Feb 2026 new grad entries are all 0 YOE). Posting title for 2027 new grads: 'Software Engineer, Applied Emerging Talent (2027)'.",
+    "early_career": "L2 to L3 for 0 to 3 years (Levels.fyi typical YOE: L2 0 to 1, L3 2 to 3, L4 3 to 6). OpenAI's Emerging Talent page says early-career roles are designed for 0 to 3 years of experience. interviewing.io and Hello Interview both report that OpenAI tends to downlevel incoming candidates."
   },
   "process_new_grad": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "stage": "Online assessment (HackerRank)",
-      "details": "Two algorithmic questions. A Jan 2025 report: 110 minutes on HackerRank with camera on and full-screen share of all tabs. Oct 2025 Emerging Talent reports: both questions were DP. A Nov 2024 OA email listed DP, graphs and arrays. Scored on test cases (one Oct 2025 candidate reported a full score on one question and 12/15 test cases on the other)."
+      "details": "Two algorithmic questions. A Jan 2025 report: 110 minutes on HackerRank with camera on and full-screen share of all tabs. Oct 2025 Emerging Talent comments: one candidate said both questions were DP (one also a graph problem), another said 'brush up on DP'. A Nov 2024 OA email listed DP, graphs and arrays. Scored on test cases (one Oct 2025 candidate reported a full score on one question and 12/15 test cases on the other)."
     },
     {
       "stage": "Intro call",
@@ -30,11 +30,11 @@
     },
     {
       "stage": "Virtual final round",
-      "details": "For the 2025 new grad cycle a recruiter's candidate portal listed: coding interview plus behavioral interview. The official guide describes final interviews generally as 4 to 6 hours with 4 to 6 people over 1 to 2 days, virtual by default with an optional onsite in San Francisco."
+      "details": "An Oct 18, 2025 Reddit comment (2026 new grad cycle) quoted a recruiter-made candidate portal: Application, Online Assessment, Virtual Coding Interview (60 min), Virtual Final Round (coding interview plus behavioral interview), Team Matching Interviews, Professional References, Offer, Onboard. The official guide describes final interviews generally as 4 to 6 hours with 4 to 6 people over 1 to 2 days, virtual by default with an optional onsite in San Francisco."
     },
     {
       "stage": "Team matching, references, offer",
-      "details": "Same candidate portal (Oct 2025): Team Matching Interviews, then Professional References, then Offer. Official guide: expect a decision within one week of final interviews; the recruiter may ask for references at this stage."
+      "details": "Same candidate portal (Oct 2025, 2026 new grad cycle): Team Matching Interviews, then Professional References, then Offer. Official guide: expect a decision within one week of final interviews; the recruiter may ask for references at this stage."
     }
   ],
   "process_intern": [
@@ -59,8 +59,8 @@
       "details": "Verbal offer about 2 months after the event (Nov 15, 2024). Reported Summer 2025 package: $60/hr plus about $7,000 sign-on, 12 weeks in San Francisco, no housing stipend."
     }
   ],
-  "process_experienced_notes": "For 1 to 3+ years the loop is team-specific and decentralized. Typical: 30-min recruiter call; then a technical screen that can be a 1-hour CoderPad coding round, a 1-hour system design screen (Excalidraw), both back to back, or a take-home (Hello Interview: 48-hour window, about 6 hours, e.g. a webhook delivery service with retries, dead-letter queue and status API, built in your own setup, then extended live with an engineer). Onsite 4 to 6 hours: coding (own IDE with screen share or CoderPad), system design, a technical project walkthrough or presentation (about 30 min presenting a past project then Q&A; slides expected), behavioral with a senior manager, and a working-with-teams behavioral. interviewing.io reports a beta 'agentic coding' round where you work in an existing codebase with an AI coding agent. A Jan 2025 report for a 'junior level' role (2.7 YOE) said the final was 2 technical plus 1 behavioral. Most current SWE postings ask for 4 to 9+ years; early-career exceptions exist (e.g. a Performance Modeling Engineer role for 1 to 2 years).",
-  "timeline": "Official: resume review takes about 1 week; you hear within about a week after each stage; decision within one week of finals. Reported totals: 2 to 8 weeks (IGotAnOffer, 2026), 6 to 8 weeks for experienced hires (interviewing.io). 2024 intern cycle: event Sep 18, OA Sep 26, technical Oct 16, onsite Oct 30, offer Nov 15. New grad 2027 posting went live Sep 14, 2026; OA invites in prior cycles arrived early October. No company-wide hiring committee is reported; hiring is per team, and new grads do team-matching interviews after the final round.",
+  "process_experienced_notes": "For 1 to 3+ years the loop is team-specific and decentralized. Typical: 30-min recruiter call; then a technical screen that can be a 1-hour CoderPad coding round, a 1-hour system design screen (Excalidraw), both back to back, or a take-home (Hello Interview: 48-hour window, about 6 hours, e.g. a webhook delivery service with retries, dead-letter queue and status API, built in your own setup, then extended live with an engineer). Onsite 4 to 6 hours: coding (own IDE with screen share or CoderPad), system design, a technical project walkthrough or presentation (interviewing.io lists a 45-min presentation with slides expected; a Feb 2026 LeetCode report had about 30 min of presenting inside a 60-min deep dive), behavioral with a senior manager, and a working-with-teams behavioral. interviewing.io reports a beta 'agentic coding' round where you work in an existing codebase with an AI coding agent. A Jan 2025 report for a 'junior level' role (2.7 YOE) said the final was 2 technical plus 1 behavioral. On the Oct 4, 2026 Ashby board, SWE postings that state a requirement mostly ask for 4+ years (most common 5 or 7); early-career exceptions exist (one Performance Modeling Engineer posting asks 1 to 2 years; the Applied Emerging Talent 2027 posting asks 0 to 1).",
+  "timeline": "Official: resume review takes about 1 week; you hear within about a week after each stage; decision within one week of finals. Reported totals: 2 to 8 weeks (IGotAnOffer, updated May 2026), 6 to 8 weeks for experienced hires (interviewing.io). 2024 intern cycle: event Sep 18, OA Sep 26, technical Oct 16, onsite Oct 30, offer Nov 15. New grad 2027 posting went live Sep 14, 2026; OA invites in prior cycles arrived early October. No company-wide hiring committee is reported; hiring is per team, and new grads do team-matching interviews after the final round.",
   "oa": {
     "platform": "HackerRank (asynchronous OA); live rounds on CoderPad",
     "format": "2 coding questions. One Jan 2025 OA: 110 minutes, camera on, full-screen share required. Emerging Talent reports (Oct 2025): both DP. Topics named in an invite: DP, graphs, arrays.",
@@ -94,7 +94,7 @@
       "Walk me through a past project: your decisions versus the team's, tradeoffs, and what you would change."
     ]
   },
-  "non_leetcode_formats": "Project walkthrough or technical presentation (2024 interns had a project walkthrough round; experienced loops expect about 30 minutes of slides plus Q&A). Take-home with live extension (48-hour window, about 6 hours, webhook delivery service). Agentic coding round (beta): existing codebase plus an AI coding agent. Practical component builds instead of puzzles. For Applied Emerging Talent roles the job is product engineering (React, Python, Postgres), so shipped full-stack work is directly relevant.",
+  "non_leetcode_formats": "Project walkthrough or technical presentation (2024 interns had a project walkthrough round; experienced loops expect 30 to 45 minutes of slides plus Q&A). Take-home with live extension (48-hour window, about 6 hours, webhook delivery service). Agentic coding round (beta): existing codebase plus an AI coding agent. Practical component builds instead of puzzles. For Applied Emerging Talent roles the job is product engineering (React, Python, Postgres), so shipped full-stack work is directly relevant.",
   "reported_questions": [
     {
       "title": "Balance tracker: transaction(ts, id, amount, expiration_ts), subtract(ts, amount), get_balance(ts) with unordered events and expiring credits (variant of Time Based Key-Value Store; the same base question appeared in a Nov 2024 new grad screen)",
@@ -149,49 +149,49 @@
       "title": "KV store serialize/deserialize where keys and values may contain any character (length-prefix encoding, close to Encode and Decode Strings)",
       "url": "https://leetcode.com/problems/encode-and-decode-strings/",
       "role": "SWE coding",
-      "date": "2025-08",
+      "date": "2025",
       "source_url": "https://www.hellointerview.com/blog/openai-coding-questions"
     },
     {
       "title": "Resumable iterator that can pause, resume, skip and reset",
       "url": "",
       "role": "SWE coding",
-      "date": "2025-08",
+      "date": "2025",
       "source_url": "https://www.hellointerview.com/blog/openai-coding-questions"
     },
     {
       "title": "In-memory database with SQL operations (tables, insert, select with WHERE); compare Design SQL",
       "url": "https://leetcode.com/problems/design-sql/",
       "role": "SWE coding",
-      "date": "2025-08",
+      "date": "2025",
       "source_url": "https://www.hellointerview.com/blog/openai-coding-questions"
     },
     {
       "title": "Unix cd command with symbolic link resolution and cycle detection (extends Simplify Path)",
       "url": "https://leetcode.com/problems/simplify-path/",
       "role": "SWE coding",
-      "date": "2025-08",
+      "date": "2025",
       "source_url": "https://www.hellointerview.com/blog/openai-coding-questions"
     },
     {
       "title": "Spreadsheet formula evaluation with cell dependencies and cycle detection (compare Design Excel Sum Formula)",
       "url": "https://leetcode.com/problems/design-excel-sum-formula/",
       "role": "SWE coding",
-      "date": "2025-08",
+      "date": "2025",
       "source_url": "https://www.hellointerview.com/blog/openai-coding-questions"
     },
     {
       "title": "Multithreaded web crawler (dedupe URLs, coordinate threads, handle failures)",
       "url": "https://leetcode.com/problems/web-crawler-multithreaded/",
       "role": "SWE coding",
-      "date": "2025-08",
+      "date": "2025",
       "source_url": "https://www.hellointerview.com/blog/openai-coding-questions"
     },
     {
       "title": "Design a credit tracking service for user token balances",
       "url": "",
-      "role": "SWE coding (L4 guide)",
-      "date": "",
+      "role": "SWE coding (Hello Interview L4 guide, updated Sep 2026)",
+      "date": "2026-09",
       "source_url": "https://www.hellointerview.com/guides/openai/l4"
     },
     {
@@ -202,18 +202,18 @@
       "source_url": "https://interviewing.io/openai-interview-questions"
     },
     {
-      "title": "Design Memory Allocator (most frequent OpenAI-tagged LeetCode problem in the last 30 days and 3 months, data as of Jun 2025)",
+      "title": "Design Memory Allocator (most frequent OpenAI-tagged LeetCode problem in the last 30 days and 3 months; liquidslr data updated Aug 16, 2026)",
       "url": "https://leetcode.com/problems/design-memory-allocator/",
       "role": "LeetCode company tag",
-      "date": "2025-06",
-      "source_url": "https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/5.%20All.csv"
+      "date": "2026-08",
+      "source_url": "https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/2.%20Three%20Months.csv"
     },
     {
-      "title": "Rotting Oranges (OpenAI-tagged, last 30 days and 3 months, data as of Jun 2025)",
+      "title": "Rotting Oranges (second most frequent OpenAI-tagged problem in the last 30 days and 3 months; liquidslr data updated Aug 16, 2026)",
       "url": "https://leetcode.com/problems/rotting-oranges/",
       "role": "LeetCode company tag",
-      "date": "2025-06",
-      "source_url": "https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/5.%20All.csv"
+      "date": "2026-08",
+      "source_url": "https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/2.%20Three%20Months.csv"
     }
   ],
   "focus_topics": [
@@ -239,7 +239,7 @@
     "Read the OpenAI Charter and recent blog posts for your target team; have a specific 'why OpenAI' and a view on AI safety.",
     "The 2027 Applied Emerging Talent posting asks for React, Python and Postgres. A shipped full-stack project with real users matches that job better than extra LeetCode volume."
   ],
-  "compensation_note": "Levels.fyi (checked Oct 4, 2026, US): L2 averages about $249.5K total comp (13 data points, median 0 YOE); typical new grad entries from Dec 2025 to Feb 2026 are $170K base plus $75K to $90K stock per year, i.e. $245K to $271K. L3 averages about $336.6K (median 2 YOE). OpenAI's own Sep 2026 posting for Software Engineer, Applied Emerging Talent (2027) lists $180K base plus equity. Interns: $60/hr in San Francisco (Levels.fyi, Summer 2025 and Summer 2026). Equity is in a private company, so its value is uncertain.",
+  "compensation_note": "Levels.fyi (checked Oct 4, 2026, US): L2 averages about $249.5K total comp (13 data points, typical 0 to 1 YOE); typical new grad entries from Dec 2025 to Feb 2026 are $170K base plus $75K to $90K stock per year, i.e. $245K to $271K. L3 averages about $336.6K (14 data points, typical 2 to 3 YOE). OpenAI's own Sep 2026 posting for Software Engineer, Applied Emerging Talent (2027) lists $180K base plus equity. Interns: $60/hr in San Francisco (Levels.fyi, Summer 2025 and Summer 2026). Equity is in a private company, so its value is uncertain.",
   "sources": [
     "https://openai.com/interview-guide/",
     "https://openai.com/careers/",
@@ -259,6 +259,7 @@
     "https://igotanoffer.com/en/advice/openai-software-engineer-interview",
     "https://github.com/liquidslr/leetcode-company-wise-problems",
     "https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/5.%20All.csv",
+    "https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/2.%20Three%20Months.csv",
     "https://leetcode.com/discuss/post/7572435/openai-interview-do-they-just-not-hire-n-lwpb/",
     "https://leetcode.com/discuss/post/6345468/openai-online-assessment-by-anonymous_us-giv7/",
     "https://leetcode.com/discuss/post/7281078/bombed-my-coding-round-and-dont-really-k-cm96/",
@@ -271,5 +272,5 @@
     "https://www.reddit.com/r/csMajors/comments/1pgrwm0/openai_vs_google_new_grad/",
     "https://www.reddit.com/r/leetcode/comments/1j8x3og/selfsabotage_at_openai_interview/"
   ],
-  "confidence_notes": "All URLs above were fetched and checked on Oct 4, 2026 [VERIFIED]: openai.com pages via a browser (curl gets 403 from Cloudflare); LeetCode Discuss posts via LeetCode's GraphQL API (the web pages block curl); Reddit posts via the Arctic Shift archive API plus a crawler load. Uncertain: (1) OpenAI's process is decentralized and changes by team; the new grad loop shape comes from one recruiter portal description in Oct 2025 plus intern reports from 2024. (2) OA details rest on a handful of posts. (3) Levels.fyi samples are small (13 at L2, 14 at L3). (4) The agentic coding round is a pilot per interviewing.io. (5) Hello Interview and interviewing.io guides target experienced hires. (6) The OpenAI Residency's 2026 applications are closed (official page); it is a 6-month paid program, not a new grad role. (7) The OpenAI Student Collective (Jugal's Aug 2026 post) is a paid campus-lead community role for undergraduates, not an engineering internship. Reddit subs r/InterviewCoderHQ, r/Hack2Hire and r/OfferEngineering promote paid tools and were not used as sources of fact. A Nov 2024 new grad phone screen (balance at timestamp) is older than 2025 and is referenced only as context."
+  "confidence_notes": "Re-verified Oct 4, 2026 by an adversarial fact-check pass [VERIFIED]: openai.com interview guide, careers (values and operating principles), Emerging Talent (0 to 3 years text), Residency (2026 applications closed), Student Collective and Charter loaded in a real browser (curl and WebFetch get 403); the Applied Emerging Talent 2027 posting ($180K, 0 to 1 years, JavaScript/React/Python/Postgres, published Sep 14, 2026) confirmed via Ashby's public posting API; Levels.fyi L2/L3/intern figures and the individual L2 samples parsed from the pages; all LeetCode Discuss posts fetched via LeetCode GraphQL and all LeetCode problem slugs confirmed real; Reddit posts and comments via the Arctic Shift archive; IGotAnOffer (updated May 4, 2026) via browser; liquidslr repo (31K stars, last data update Aug 16, 2026) via GitHub API. Corrections made in this pass: the candidate-portal process is from the 2026 new grad cycle (Oct 2025), not 2025; the LeetCode-tag entries are from liquidslr data updated Aug 16, 2026, not Jun 2025; Hello Interview's blog is titled 'OpenAI Coding Interviews 2025' with no visible month, so its questions are dated 2025; the '2/4 or low 3/4' coding-score quote is in the Hello Interview blog, not the L4 guide. Uncertain: (1) OpenAI's process is decentralized and changes by team; the new grad loop shape rests on one candidate portal description (Oct 2025) plus 2024 intern reports. (2) OA details rest on a handful of posts and comments. (3) Levels.fyi samples are small (13 at L2, 14 at L3). (4) The agentic coding round is a beta per interviewing.io. (5) Hello Interview and interviewing.io guides target experienced hires. (6) The OpenAI Residency is a 6-month salaried program, 2026 applications closed, not a new grad role. (7) The OpenAI Student Collective (Jugal's Aug 2026 post) is a paid campus-lead community role for undergraduates (US/Canada/India Fall 2026 cohort closed), not an engineering internship. (8) Several LeetCode problems linked here are Premium-only: Design Excel Sum Formula, Encode and Decode Strings, Web Crawler Multithreaded. The Feb 2026 LeetCode post (7572435) links a paid question site; r/InterviewCoderHQ, r/Hack2Hire and r/OfferEngineering promote paid tools and were not used. The Nov 2024 new grad phone screen (balance at timestamp) predates 2025 and is used only as context."
 }

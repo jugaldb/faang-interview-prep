@@ -1,0 +1,285 @@
+{
+ "slug": "nvidia",
+ "name": "Nvidia",
+ "category": "Big Tech",
+ "one_liner": "GPUs, CUDA and AI infrastructure. Interviews mix LeetCode-medium coding with C/C++, OS, concurrency and team-specific domain depth; full-time offers need an in-person onsite.",
+ "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+ "students_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+ "interview_prep_url": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/",
+ "levels": {
+  "intern": "Intern (unleveled, minimum 12 weeks, BS/MS/PhD, year-round). Ignite: 12-week summer pre-internship for current freshmen and sophomores.",
+  "new_grad": "IC1 (title Software Engineer) for most bachelor's new college grads, including Sep 2026 return offers; IC2 is also reported for new grads (an Apr 2026 Deep Learning Algorithms new grad offer), and an MS/PhD NCG posting quotes base ranges for 'Level 2' and 'Level 3'.",
+  "early_career": "IC1 to IC2 for 0 to about 2 yrs (Levels.fyi lists typical experience of 1 to 2 years for both); IC3 'Senior' from about 3 to 4 yrs."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Apply",
+   "details": "Apply on Workday (jobs.nvidia.com) to role-specific requisitions titled '... - New College Grad 2026' or '2027'. Official advice: limit applications to your top three to five roles. The official university page calls the intern program the primary pipeline for new college grad hiring. Postings note that NVIDIA uses AI tools in its recruiting processes."
+  },
+  {
+   "stage": "Recruiter or hiring manager screen",
+   "details": "Phone or video. Often the first round is the hiring manager: resume and detailed project discussion, sometimes ending with a short coding task (spiral matrix in the last 15 minutes, Jun 2025 report)."
+  },
+  {
+   "stage": "Technical screen",
+   "details": "About 1 hour with a team engineer: 1 to 2 LeetCode medium problems plus team-specific questions (CUDA, inference engines, Kubernetes, C++). Official: technical roles may include coding exercises via HackerRank. Some roles add a 45 minute discussion round (for example AI efficiency and large-scale systems for a 2026 new grad performance role)."
+  },
+  {
+   "stage": "Onsite (in person for full-time)",
+   "details": "Official: an onsite, in-person interview at an NVIDIA office before you can be considered for an offer. Interviews are 30 to 60 minutes each, one-on-one, small group or panel; 3 to 5 rounds mixing coding, C/C++ and OS fundamentals, domain depth, design and a hiring manager conversation. Optional 15 minute 'Insider Chat' with a Community Resource Group member."
+  },
+  {
+   "stage": "Decision",
+   "details": "Official: most decisions arrive within weeks of the first interview. Candidate reports range from about 1 week to 5+ weeks, with some silence after loops."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Apply to the umbrella posting",
+   "details": "'NVIDIA 2027 Internships: Software Engineering' opened Aug 19, 2026; resumes are reviewed on an ongoing basis and a recruiter reaches out if you fit one of many internships. Your anticipated graduation month and year must be on the resume."
+  },
+  {
+   "stage": "Recruiter outreach",
+   "details": "Many US candidates get no OA: a recruiter reaches out directly (Sep 2026 System Software intern report). Others report OAs for some 2027 roles (Aug 2026 Reddit thread)."
+  },
+  {
+   "stage": "Technical interviews",
+   "details": "Official: interns typically have phone interviews only. Simplify: one coding technical screen at LeetCode medium level, then 2 to 4 final rounds mixing coding and system design or domain questions. Sep 2026 System Software intern (cloud and infrastructure): three one-hour interviews on the same day."
+  },
+  {
+   "stage": "India campus intern (SSE)",
+   "details": "OA of about 60 minutes with aptitude, C/C++ and OS MCQs and 2 coding questions (one DP, one greedy), then usually 1 technical interview (sometimes two panelists, 55 to 60 minutes): pointers, memory management, C++ output questions, OS synchronization, 1 to 2 DSA questions, 'Why NVIDIA?'"
+  },
+  {
+   "stage": "Ignite (first and second years)",
+   "details": "Simplify: application screening, an initial call (behavioral plus basic technical), then a small technical interview with LeetCode easy to medium problems. Jugal (citing Extern) reports Ignite had a 13-day application window in the 2026 cycle."
+  }
+ ],
+ "process_experienced_notes": "For 1 to 3 years (IC2 or IC3), the loop is longer and more team-specific: a hiring manager round, a coding screen, then 3 to 5 interviews often on one day, including C or C++ without the STL (implement a hashmap, malloc, printf, string functions), code review rounds where you find bugs in Python code (2026 reports), LLD (parking lot, syncing user data across third-party apps), system or architecture discussion tied to the team's product, and detailed discussions on Kubernetes, Linux drivers, networking or CUDA depending on the role. Compensation and motivation can come up repeatedly in experienced India loops.",
+ "timeline": "Interns: postings open mid to late August (2027 umbrella requisition opened Aug 19, 2026); Simplify says applying in November or December significantly lowers your chances and decisions take 4 to 8 weeks. Ignite opens later in the fall with a short window. Full-time: 'a matter of weeks from their first interview' (official). Reports: 1 to 5 weeks end to end; senior India loop about 1.5 months then silence (Sep 2026). India campus: placements run from Dec 1 at IITs with a single 90 minute technical round plus HR on the day.",
+ "oa": {
+  "platform": "HackerRank (official 'How we hire' page; India campus and US automation roles report HackerRank)",
+  "format": "Team-dependent. Many US SWE candidates skip a standalone OA and go straight to recruiter and technical screens. When used: Aced reports a 75-minute HackerRank test with at least two DSA questions plus multiple-choice questions; India campus OAs are about 60 minutes with aptitude, C/C++ output and OS or computer architecture MCQs plus 2 coding questions.",
+  "notes": "India campus OAs are easy to pass but shortlists are small (one 2025 report: 5 students cleared). Pointers and C questions dominate MCQs. Official policy: using unapproved outside tools such as ChatGPT during interviews leads to disqualification."
+ },
+ "coding": {
+  "rounds": "New grad: 1 technical screen plus 1 to 3 coding rounds in the final loop. Intern: 1 to 3 interviews, often on one day.",
+  "style": "Mostly LeetCode easy to medium with occasional hards, plus low-level implementation: data structures written from scratch (linked list, hashmap without STL, malloc), pointer arithmetic, bit manipulation and endianness, C++ output prediction. Interviewers care about complexity and clean code more than syntax. interviewing.io: no internal question bank, so interviewers choose freely and questions are 'more practical'.",
+  "environment": "HackerRank live editor (official mention) or shared editor over video for screens; in-person onsite for full-time offers. C++ matters for systems, CUDA and driver roles; Python is common for cloud, tools and ML teams; confirm the language with the recruiter.",
+  "graded_on": "Correct and efficient solutions with complexity analysis, depth of low-level understanding (memory, concurrency, OS), clean code, and how well you know every line of your own projects."
+ },
+ "system_design": "Not a fixed round for interns or new grads; it depends on the team. Systems roles probe OS, memory and concurrency design (thread-safe shared pointers, locking granularity). Cloud and infrastructure roles probe distributed systems, Kubernetes internals and debugging (unreachable pod, operator reconciliation). Deep learning roles probe CUDA kernels, inference serving and large-scale GPU efficiency. Experienced loops can include LLD (parking lot, data sync to Slack and email) and HLD (file scanner). Aced lists senior prompts such as designing distributed training for a trillion-parameter model.",
+ "behavioral": {
+  "framework": "NVIDIA core values (Code of Conduct): Innovation; Intellectual Honesty; Speed and Agility; Excellence and Determination (the 'Speed-of-Light' test); One Team. Behavioral content is usually folded into the hiring manager round rather than a separate structured round.",
+  "values_url": "https://images.nvidia.com/aem-dam/en-zz/Solutions/about-us/NVIDIA-Code-of-Conduct-External.pdf",
+  "what_they_look_for": [
+   "Intellectual honesty: admit what you do not know and how you learn from mistakes",
+   "Fast learning and willingness to ramp up on new stacks (CUDA, drivers, Kubernetes)",
+   "Exact personal contribution and decisions on past projects",
+   "Genuine interest in GPUs, accelerated computing or AI infrastructure",
+   "One Team behavior: disagree openly, focus on substance",
+   "Ownership and determination on long, hard problems"
+  ],
+  "sample_questions": [
+   "Why NVIDIA? Why this role? Why should we take you? (SSE intern, 2025)",
+   "What were your exact contributions to the projects on your resume? (DL Inference screen, 2025)",
+   "What technical skills do you want to pick up next? (DL Inference screen, 2025)",
+   "Walk us through your internship project in detail (30 minutes of detailed questions, campus NG 2025)",
+   "Tell me about a conflict and how you resolved it",
+   "How do you prioritize when everything is urgent?",
+   "Tell me about negative feedback you received and what you changed"
+  ]
+ },
+ "non_leetcode_formats": "C and C++ fundamentals viva (pointers, static, volatile, const, storage classes, virtual functions, constructors, operator overloading); OS and concurrency (paging, thrashing, context switching, mutexes, semaphores, spinlocks, race conditions, ISR handling); networking (how ping works, OSI layers); code review round (find the bugs in Python code); domain detailed discussions (CUDA kernels and optimizations, vLLM or TensorRT inference, GPU and CPU architecture, Kubernetes operators, PCIe and Linux drivers); 45 minute discussion rounds on AI efficiency for some 2026 new grad roles; optional Insider Chat.",
+ "reported_questions": [
+  {
+   "title": "Start with A = 1; apply an ordered subset of operations (+x, -x, *x, /x only if divisible, negate) to maximize A (track max and min DP)",
+   "url": "",
+   "role": "SWE1 (IC1), India",
+   "date": "2026-03",
+   "source_url": "https://leetcode.com/discuss/post/7645559/nvidia-swe1-dsa-interview-question-685-l-8vhi/"
+  },
+  {
+   "title": "Best sorting algorithm for 100 numbers in range 0 to 9 (counting sort), then code it",
+   "url": "",
+   "role": "New grad, IIT on-campus (90 minute technical round)",
+   "date": "2025-12",
+   "source_url": "https://leetcode.com/discuss/post/7392214/on-campus-placements-iit-interview-exper-199m/"
+  },
+  {
+   "title": "Write a custom free() that fills memory with zeros instead of releasing it",
+   "url": "",
+   "role": "New grad, IIT on-campus",
+   "date": "2025-12",
+   "source_url": "https://leetcode.com/discuss/post/7392214/on-campus-placements-iit-interview-exper-199m/"
+  },
+  {
+   "title": "Why can global or heap memory hold larger allocations than the stack? Thrashing; static vs dynamic linking",
+   "url": "",
+   "role": "New grad, IIT on-campus",
+   "date": "2025-12",
+   "source_url": "https://leetcode.com/discuss/post/7392214/on-campus-placements-iit-interview-exper-199m/"
+  },
+  {
+   "title": "10 threads share multiple pointers: how do you manage access (key-level vs whole-map locking)?",
+   "url": "",
+   "role": "New grad, IIT on-campus",
+   "date": "2025-12",
+   "source_url": "https://leetcode.com/discuss/post/7392214/on-campus-placements-iit-interview-exper-199m/"
+  },
+  {
+   "title": "Serialize and Deserialize Binary Tree, after detailed questions on CUDA and vLLM experience",
+   "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+   "role": "Deep Learning Software Engineer, Inference (phone screen with hiring manager)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6809037/nvidia-interview-experiencerejection-by-v0hgv/"
+  },
+  {
+   "title": "Print a matrix in spiral order (end of hiring manager round)",
+   "url": "https://leetcode.com/problems/spiral-matrix/",
+   "role": "System Software Engineer, India (experienced)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6814900/nvidia-strange-sse-interview-experience-78oju/"
+  },
+  {
+   "title": "Top N most frequent elements, then all permutations of a string, in 45 minutes",
+   "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+   "role": "System Software Engineer, India (experienced)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6814900/nvidia-strange-sse-interview-experience-78oju/"
+  },
+  {
+   "title": "Binary tree DSA question plus C++ output-based and pointer questions; OS questions",
+   "url": "",
+   "role": "SSE intern, India on-campus (single interview)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6860289/nvidia-sse-intern-on-campus-by-anonymous-q1iq/"
+  },
+  {
+   "title": "Print both the left view and right view of a binary tree in one API",
+   "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+   "role": "System Software Engineer, India (about 3 YOE)",
+   "date": "2025-01",
+   "source_url": "https://leetcode.com/discuss/post/6349997/nvidia-siemens-eda-avalara-rejected-by-a-fxk0/"
+  },
+  {
+   "title": "Reverse a linked list in groups of k, writing the list from scratch",
+   "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+   "role": "System Software Engineer, India (about 3 YOE)",
+   "date": "2025-01",
+   "source_url": "https://leetcode.com/discuss/post/6349997/nvidia-siemens-eda-avalara-rejected-by-a-fxk0/"
+  },
+  {
+   "title": "Minimum turns to move between two tree nodes; write LCA, then print the path from the LCA to a node",
+   "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+   "role": "System Software Engineer, India (about 3 YOE)",
+   "date": "2025-01",
+   "source_url": "https://leetcode.com/discuss/post/6349997/nvidia-siemens-eda-avalara-rejected-by-a-fxk0/"
+  },
+  {
+   "title": "Design a simple hashmap without any STL; easy to medium string manipulation in C/C++ with no STL",
+   "url": "https://leetcode.com/problems/design-hashmap/",
+   "role": "Senior Software Engineer",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7542688/nvidia-interview-experience-for-senior-s-v2mi/"
+  },
+  {
+   "title": "Code review: read Python code and identify the problems (tech screen and onsite)",
+   "url": "",
+   "role": "Senior Software Engineer",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7820756/senior-software-engineer-interview-onsit-y95s/"
+  },
+  {
+   "title": "Implement malloc and printf; check endianness with an array; middle node of a linked list; explain and implement ping",
+   "url": "https://leetcode.com/problems/middle-of-the-linked-list/",
+   "role": "Senior System Software Engineer, PCIe team, India",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8510550/nvidia-interview-experience-senior-syste-vr87/"
+  },
+  {
+   "title": "How would you debug a Kubernetes pod that is not reachable? Operators, reconciliation, CRD rollout and rollback, race conditions",
+   "url": "",
+   "role": "System Software Engineer (cloud), India",
+   "date": "2025-10",
+   "source_url": "https://leetcode.com/discuss/post/7313633/nvidia-sse-by-anonymous_user-5ime/"
+  },
+  {
+   "title": "Second round: 45 minute discussion on AI efficiency and large-scale GPU systems",
+   "url": "",
+   "role": "AI Performance and Efficiency Engineer, New Grad 2026, Santa Clara",
+   "date": "2026-05",
+   "source_url": "https://www.reddit.com/r/csMajors/comments/1t13xze/nvidia_new_grad_2026_ai_performance_efficiency/"
+  }
+ ],
+ "focus_topics": [
+  "C and C++: pointers, memory layout, stack vs heap, virtual functions, writing malloc, free and printf",
+  "Operating systems: paging, thrashing, context switching, scheduling, user vs kernel mode",
+  "Concurrency: threads, mutexes, semaphores, spinlocks, race conditions, lock granularity",
+  "Linked lists, trees (views, LCA, serialization), arrays and strings",
+  "Graphs and shortest paths; binary search on the answer",
+  "Bit manipulation and endianness",
+  "Domain depth for the team: CUDA and GPU architecture, inference (TensorRT, vLLM), Kubernetes, Linux drivers, networking",
+  "Nvidia-tagged LeetCode, last 6 months (snehasishroy repo, July 2026 snapshot): LRU Cache, Merge k Sorted Lists, Longest Substring Without Repeating Characters, Restore IP Addresses, Sliding Window Maximum, House Robber, Longest Consecutive Sequence, Min Stack, Koko Eating Bananas, Network Delay Time, Design Circular Queue, Copy List with Random Pointer, Group Anagrams"
+ ],
+ "tips": [
+  "Apply in the first days a requisition opens and keep it to your best 3 to 5 roles (official advice); the 2027 SWE intern requisition opened Aug 19, 2026 and reviews resumes on an ongoing basis.",
+  "Put your anticipated graduation month and year on your resume; the 2027 intern posting says it must be clearly indicated to be considered.",
+  "If you are a master's student, filter for roles with 'Master's' or advanced-degree tracks first; Jugal notes NVIDIA runs separate advanced-degree tracks with smaller applicant pools.",
+  "Revise C/C++ and OS fundamentals as hard as DSA: pointers, memory management, synchronization and C++ output questions appear in intern, new grad and experienced reports.",
+  "Know every line of your projects; panels spend 30 minutes or more grilling internship and resume projects.",
+  "Read the team's posting and prepare its domain (CUDA, Kubernetes, drivers, inference); interviewers describe the process as very team dependent.",
+  "Never use ChatGPT or other unapproved tools during an interview; NVIDIA's hiring page says it results in disqualification.",
+  "For AI and deep learning roles, Jugal recommends the NVIDIA Certified Associate: Generative AI and LLMs as the one certification to prioritize, because it forces you to learn transformer internals, inference and evaluation."
+ ],
+ "compensation_note": "Levels.fyi US software engineer data (page read Oct 4, 2026): IC1 about $169K total comp (base $142K, stock $18.7K/yr, bonus $8.5K); IC2 about $240K (base $176K, stock $60.6K/yr); IC3 about $323K. India (Levels.fyi USD figures at the site rate of about 94.5 INR/USD): IC1 about 28.5 lakh INR, IC2 about 36.5 lakh. Official NCG posting (Systems Software Engineer, New College Grad 2026, MS or PhD): base $124,000 to $195,500 for Level 2 and $152,000 to $241,500 for Level 3, plus equity. Interns (official 2027 posting): $20 to $71 per hour; Simplify reports undergrad roles at about $50 to $70 per hour and PhD research up to $94 per hour. India NCG IC1 (2025 report): base 18.25 lakh INR with 24 lakh INR of equity vesting 40/30/20/10 over 4 years.",
+ "sources": [
+  "https://www.nvidia.com/en-us/about-nvidia/careers/",
+  "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+  "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/",
+  "https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/",
+  "https://www.nvidia.com/en-eu/about-nvidia/culture-at-nvidia/",
+  "https://images.nvidia.com/aem-dam/en-zz/Solutions/about-us/NVIDIA-Code-of-Conduct-External.pdf",
+  "https://jobs.nvidia.com/careers",
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
+  "https://www.levels.fyi/companies/nvidia/salaries/software-engineer",
+  "https://www.levels.fyi/companies/nvidia/salaries/software-engineer/locations/india",
+  "https://interviewing.io/nvidia-interview-questions",
+  "https://www.aced.io/blog/nvidia-interview-process",
+  "https://simplify.jobs/blog/nvidia-internship-faq/",
+  "https://www.hellointerview.com/community/questions/company/NVIDIA",
+  "https://github.com/snehasishroy/leetcode-companywise-interview-questions",
+  "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already",
+  "https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer",
+  "https://jugaldb.substack.com/p/top-30-ai-certifications-you-need",
+  "https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/",
+  "https://leetcode.com/discuss/post/7645559/nvidia-swe1-dsa-interview-question-685-l-8vhi/",
+  "https://leetcode.com/discuss/post/7392214/on-campus-placements-iit-interview-exper-199m/",
+  "https://leetcode.com/discuss/post/7054739/nvidia-sse-internship-role-2026-accepted-agc9/",
+  "https://leetcode.com/discuss/post/6860289/nvidia-sse-intern-on-campus-by-anonymous-q1iq/",
+  "https://leetcode.com/discuss/post/6809037/nvidia-interview-experiencerejection-by-v0hgv/",
+  "https://leetcode.com/discuss/post/6814900/nvidia-strange-sse-interview-experience-78oju/",
+  "https://leetcode.com/discuss/post/6349997/nvidia-siemens-eda-avalara-rejected-by-a-fxk0/",
+  "https://leetcode.com/discuss/post/7313633/nvidia-sse-by-anonymous_user-5ime/",
+  "https://leetcode.com/discuss/post/7542688/nvidia-interview-experience-for-senior-s-v2mi/",
+  "https://leetcode.com/discuss/post/7820756/senior-software-engineer-interview-onsit-y95s/",
+  "https://leetcode.com/discuss/post/8510550/nvidia-interview-experience-senior-syste-vr87/",
+  "https://leetcode.com/discuss/post/7222577/nvidia-final-round-what-to-expect-by-ash-depz/",
+  "https://leetcode.com/discuss/post/7403573/nvidia-new-grad-swe-interview-expectatio-g0fg/",
+  "https://leetcode.com/discuss/post/7080121/nvidia-ic1-ncg-india-by-fbtcvdhv18-7jos/",
+  "https://leetcode.com/discuss/post/6817272/nvidia-ppo-system-software-engineer-by-g-s73q/",
+  "https://leetcode.com/discuss/post/6601847/swe-internship-2025-offers-usa-meta-goog-jx9g/",
+  "https://www.reddit.com/r/csMajors/comments/1wkb6b5/nvidia_system_software_engineering_intern/",
+  "https://www.reddit.com/r/csMajors/comments/1wmczot/nvidia_negotiating_ng_offer/",
+  "https://www.reddit.com/r/csMajors/comments/1rxboe0/nvidia_new_grad_2026_ai_performance_efficiency/",
+  "https://www.reddit.com/r/csMajors/comments/1t13xze/nvidia_new_grad_2026_ai_performance_efficiency/",
+  "https://www.reddit.com/r/csMajors/comments/1wjx4nc/nvidia_interview_coming_up_completely_lost_on/",
+  "https://www.reddit.com/r/csMajors/comments/1vz04p1/nvidia_2027_swe_intern_timeline/",
+  "https://www.reddit.com/r/csMajors/comments/1wlsmtd/nvidia_2027_internships_oainterviews/",
+  "https://www.reddit.com/r/csMajors/comments/1u589bz/nvidia_cloud_distributed_systems_backend_intern/",
+  "https://www.reddit.com/r/csMajors/comments/1wumbiw/nvidia_ignite_cohort_size/",
+  "https://www.reddit.com/r/csMajors/comments/1svu0i3/nvidia_vs_google_new_grad_idc_about_the_comp_help/"
+ ],
+ "confidence_notes": "NVIDIA's process is decentralized and very team dependent; there is no standard question bank (interviewing.io). Most detailed public reports are India campus and experienced India loops; US new grad SWE reports are sparse, so the US new grad flow combines the official How We Hire page, Simplify, Aced and a few 2026 Reddit threads. Level placement for new grads (IC1 vs IC2) varies by degree and role; a BS return offer at IC1 (Sep 2026) and MS/PhD postings quoting Level 2 and 3 are the only direct evidence. Whether an OA is used varies: some 2026 interns got none, others report OAs. Ignite's 13-day window comes from Jugal citing Extern; the Extern source itself was not verified. The 'Level 1/2/3' base ranges come from one MS/PhD posting and differ by role. [UNVERIFIED] Glassdoor snippets seen only in search results: HackerRank live editor with hidden test cases; arrays, strings and graph problems of medium to high difficulty; a 'sort two colors of balls' question; processes taking 1 to 5 weeks. LeetCode Discuss URLs were confirmed through LeetCode's GraphQL API; Reddit threads were read through Reddit's RSS feeds."
+}

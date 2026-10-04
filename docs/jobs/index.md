@@ -154,6 +154,8 @@ Rules that hold across companies:
 | Visa sponsorship | Routine at large employers | Check the [H-1B data hub](international-students.md#check-if-a-company-sponsors) per company |
 | Risk | Layoffs happen at both. Check [layoffs.fyi](https://layoffs.fyi/) | Higher risk the company fails |
 
+Apply to both. Put 10 to 20 startups in the "Likely" tier of your [target list](application-strategy.md#volume-vs-targeting), and find them on [YC Work at a Startup](https://www.workatastartup.com/) and [Wellfound](https://wellfound.com/).
+
 ## How to read a job description
 
 Do this for every role you plan to tailor a resume for. It takes 5 minutes.

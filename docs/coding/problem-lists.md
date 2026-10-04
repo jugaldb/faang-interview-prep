@@ -1,33 +1,36 @@
 # Problem lists: which one to do
 
-For anyone deciding what to solve on LeetCode. When you finish this page you will have one list, a week-by-week order, and a date to switch to company-tagged problems.
+For anyone choosing what to solve on LeetCode. You leave with one list, an end date, and the week you switch to company-tagged problems.
 
-> **Tip:** You need one core list, not five. "I solved 120 LeetCode problems and still got into Amazon, Google, and Meta" ([post](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta)). The skill being tested is spotting the pattern fast, not volume.
+> **Tip:** Do one core list, not five. Jugal: "I solved 120 LeetCode problems and still got into Amazon, Google, and Meta" ([post](https://jugaldb.substack.com/p/i-cleared-amazon-google-and-meta)). Interviews test how fast you spot the pattern, not how many problems you have done.
 
 ## The short answer
 
 | If you... | Start with | Then |
 |---|---|---|
 | Have never studied DSA | [Sean Prashad's Beginner Roadmap](https://seanprashad.com/leetcode-patterns/) (68), or [NeetCode 250](https://neetcode.io/practice/practice/neetcode250) if you have 4+ months | After the Beginner Roadmap: NeetCode 150 |
-| Know arrays, hash maps, trees, recursion | [Grind 75](https://www.techinterviewhandbook.org/grind75?order=all_rounded) or [NeetCode 150](https://neetcode.io/practice/practice/neetcode150). Pick one. | The other list's extra problems, then company tags |
+| Know arrays, hash maps, trees, recursion | [Grind 75](https://www.techinterviewhandbook.org/grind75?order=all_rounded) or [NeetCode 150](https://neetcode.io/practice/practice/neetcode150). Pick one | The other list's extra problems, then company tags |
 | Are a first or second-year intern candidate | [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/) | Grind 75 |
-| Have under 4 weeks | Grind 75 set to your real weeks and hours | Company top 20 |
-| Are interviewing for data roles | [SQL 50](https://leetcode.com/studyplan/top-sql-50/) | [DataLemur](https://datalemur.com/questions), pandas plans |
+| Have 0 to 3 years of experience | [Grind 169](https://www.techinterviewhandbook.org/grind75?mode=all) | Company tags |
+| Have under 4 weeks | [Grind 75](https://www.techinterviewhandbook.org/grind75?weeks=4&hours=15&order=all_rounded) set to your real weeks and hours | Company top 20 |
+| Are interviewing for data roles | [SQL 50](https://leetcode.com/studyplan/top-sql-50/) | [DataLemur](https://datalemur.com/questions), then the pandas plans |
 | Target quant or HFT software roles | NeetCode 250 or Grind 169 | [CSES](https://cses.fi/problemset/) sections |
-| Prepare for Indian campus placements | [Striver's A2Z sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) | Striver's SDE Pattern Sheet |
+| Prepare for Indian campus placements | [Striver's A2Z sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) | [Striver's SDE Pattern Sheet](https://takeuforward.org/prep-hub/strivers-180-master-dsa-patterns) |
+
+Not sure which row you are in? Take the 1-hour test in [Which list should you do?](#which-list-should-you-do)
 
 ## Every major list compared
 
-Counts checked on Oct 4, 2026. "Time" assumes 2 or 3 new problems a day, 7 days a week. Re-solves add time (see [how to practice](how-to-practice.md)).
+Counts as of Oct 2026 (checked Oct 4, 2026). "Days" assumes 2 or 3 new problems a day, 7 days a week. Re-solves add time (see [how to practice](how-to-practice.md)).
 
 ### Core interview lists
 
 | List | Problems (Easy / Medium / Hard) | Days at 2 / 3 a day | Who it is for | Cost |
 |---|---|---|---|---|
 | [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/) | 75 (22 / 53 / 0) | 38 / 25 | Interns, absolute first list, OA warm-up. Zero Hards. | Free |
-| [Blind 75](https://neetcode.io/practice/practice/blind75) | 75 (19 / 49 / 7) | 38 / 25 | A 4 to 5 week refresh if you already know DSA | Free. 6 are LeetCode Premium, all free on NeetCode |
-| [Grind 75](https://www.techinterviewhandbook.org/grind75?order=all_rounded) | 75 (24 / 42 / 9). Site estimate: 64 hours | 38 / 25 | Default first list for new grads who know the basics | Free, 0 Premium |
-| [Grind 169](https://www.techinterviewhandbook.org/grind75?mode=all) | 169 (41 / 102 / 26). Site estimate: 150 hours | 85 / 57 | 12-week plans. Engineers with 0 to 3 years doing a refresh | Free, 12 Premium |
+| [Blind 75](https://neetcode.io/practice/practice/blind75) | 75 (19 / 49 / 7). Unchanged since Dec 2018 | 38 / 25 | A 4 to 5 week refresh if you already know DSA | Free. 6 are LeetCode Premium, all free on NeetCode |
+| [Grind 75](https://www.techinterviewhandbook.org/grind75?order=all_rounded) | 75 (24 / 42 / 9, as labelled on the Grind site). Site estimate: 64 hours | 38 / 25 | Default first list for new grads who know the basics | Free, 0 Premium |
+| [Grind 169](https://www.techinterviewhandbook.org/grind75?mode=all) | 169 (41 / 102 / 26, as labelled on the Grind site). Site estimate: 150 hours | 85 / 57 | 12-week plans. Engineers with 0 to 3 years doing a refresh | Free, 12 Premium |
 | [NeetCode 150](https://neetcode.io/practice/practice/neetcode150) | 150 (28 / 101 / 21) | 75 / 50 | Main list if you know the basics. Video for every problem | Free |
 | [NeetCode 250](https://neetcode.io/practice/practice/neetcode250) | 250 (60 / 155 / 35) | 125 / 84 | Beginners with 4+ months. Google targets | Free |
 | [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) | 150 (39 / 93 / 18) | 75 / 50 | Swap for NeetCode 150 if you prefer LeetCode editorials | Free |
@@ -39,7 +42,7 @@ Counts checked on Oct 4, 2026. "Time" assumes 2 or 3 new problems a day, 7 days 
 
 | List | Size | Time | Who it is for | Cost |
 |---|---|---|---|---|
-| [Striver's A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) | 495 items: 400+ problems and 50 theory lessons in 19 modules | About 6 months (site) | Starting from zero, no DSA needed. Indian placements | Free sheet, TUF+ paid |
+| [Striver's A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) | 495 items: 400+ problems and 50 theory lessons. Site: 131.4 hours | About 6 months (site) | Starting from zero, no DSA needed. Indian placements | Free sheet, TUF+ paid |
 | [Striver's SDE Pattern Sheet](https://takeuforward.org/prep-hub/strivers-180-master-dsa-patterns) | 179 problems, 17 modules. Site: 64.1 hours | 90 / 60 days | Indian placements after the basics | Free sheet, TUF+ paid |
 | [Striver's 150](https://takeuforward.org/prep-hub/strivers-150-master-patterns-in-dsa) | 150 problems. Site: 51.6 hours | 75 / 50 days | Alternative to NeetCode 150 if you like Striver's videos | Free sheet, TUF+ paid |
 | [Striver's 75](https://takeuforward.org/prep-hub/strivers-75-sheet) | 75 problems. Site: 30.3 hours | 38 / 25 days | Last-month revision after a core list | Free sheet, TUF+ paid |
@@ -63,7 +66,7 @@ Counts checked on Oct 4, 2026. "Time" assumes 2 or 3 new problems a day, 7 days 
 | [NeetCode All](https://neetcode.io/practice/practice/allNC) | 973 problems, unstructured by design | Extra reps in one weak pattern | 824 free, 149 Pro |
 | [Premium Algo 100](https://leetcode.com/studyplan/premium-algo-100/) | 100 | Only if you already pay for Premium and finished a core list | Premium |
 | [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview) (Design Gurus) | 300+ problems, 41 patterns | A paid pattern course. The free lists cover the same patterns | $197 lifetime (paid) |
-| [AlgoMonster](https://algo.monster/) | Pattern course | Read the free [pattern stats page](https://algo.monster/problems/stats) once | Paid, price behind login |
+| [AlgoMonster](https://algo.monster/) | Pattern course | Skip the course. Use the free [flowchart](https://algo.monster/flowchart) when stuck and read the free [pattern stats page](https://algo.monster/problems/stats) once | Paid, price behind login |
 
 ## How to use each list
 
@@ -71,7 +74,7 @@ Counts checked on Oct 4, 2026. "Time" assumes 2 or 3 new problems a day, 7 days 
 
 1. Open [Grind 75 in the author's order](https://www.techinterviewhandbook.org/grind75?order=all_rounded&grouping=weeks). The default view sorts by difficulty, which puts all 9 Hards in the last week. `order=all_rounded` rotates topics every week.
 2. Set "weeks" to the weeks until your first interview. Set "hours" to the hours per week you will really study.
-3. Check that the page says the plan fits your schedule.
+3. Check that "Time needed" says "Fits into your schedule".
 4. Bookmark the URL. Your settings live in the URL.
 5. Tick problems as you finish. Progress is saved only in that browser. Do not clear site data or switch browsers.
 6. Use each problem's minutes (15 to 45) as your timer. If you still need longer after 20 to 30 problems, spend a week on [topics](topics.md) before continuing (the [Grind FAQ](https://www.techinterviewhandbook.org/grind75/faq) gives the same advice).
@@ -102,7 +105,7 @@ All 169, no schedule:               https://www.techinterviewhandbook.org/grind7
 1. Log in before you open a plan. Logged-out views hide Premium items, so counts look short.
 2. LeetCode 75 is not the LeetCode version of Blind 75. Only 10 problems overlap, and 45 of its 75 are not in NeetCode 250 at all.
 3. Use Top Interview 150 instead of NeetCode 150, not on top of it. They share 77 problems.
-4. Use a topic plan (DP, Binary Search, Graph Theory) for 2 to 3 weeks when one topic keeps failing.
+4. When one topic keeps failing, spend 2 to 3 weeks on its plan: [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/), [Binary Search](https://leetcode.com/studyplan/binary-search/) or [Graph Theory](https://leetcode.com/studyplan/graph-theory/).
 5. Skip the "Amazon Spring '23" and "Google Spring '23" high-frequency plans. They are from 2023.
 
 ### Sean Prashad LeetCode Patterns
@@ -110,12 +113,12 @@ All 169, no schedule:               https://www.techinterviewhandbook.org/grind7
 1. Beginners: open the Beginner Roadmap tab (68 problems in 11 phases, each with a one-line hint). Read the hint only after 30 minutes on your own.
 2. Experienced: use the Experienced roadmap (Sean's version of Blind 75). If stuck for 15 minutes, open the Helpful Tips tab. It maps cues to approaches: a sorted input array, for example, points to binary search or two pointers.
 3. Use the company column for free company signal. Each problem lists the companies that asked it and how often.
-4. Filter by pattern to drill a weak area. Read the source data in the [repo](https://github.com/seanprashad/leetcode-patterns) if you want the hints offline.
+4. Filter by pattern to drill a weak area. For the hints offline, open `src/data/roadmaps.ts` in the [repo](https://github.com/seanprashad/leetcode-patterns).
 
 ### Striver sheets (takeUforward Prep Hub)
 
 1. Open the [Prep Hub](https://takeuforward.org/prep-hub). Pick A2Z if you are starting from zero, the SDE Pattern Sheet if you know the basics, Striver's 75 for the last month.
-2. Striver uses his own problem names. Search for the LeetCode version: "Kadane's Algorithm" is [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/). "Sort an array of 0's 1's and 2's" is Sort Colors.
+2. Striver uses his own problem names. Search for the LeetCode version: "Kadane's Algorithm" is [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/). "Sort an array of 0's 1's and 2's" is [Sort Colors](https://leetcode.com/problems/sort-colors/).
 3. The free tier covers the free questions. TUF+ is paid and adds full practice and premium questions.
 4. Old links to the classic "SDE Sheet" now redirect to the 179-problem SDE Pattern Sheet.
 
@@ -128,7 +131,7 @@ All 169, no schedule:               https://www.techinterviewhandbook.org/grind7
 
 ## The 36 problems every list agrees on
 
-Each of these appears in at least six of seven major lists (Blind 75, Grind 75, NeetCode 150, LeetCode 75, Top Interview 150, Top 100 Liked, Sean Prashad). All 36 are free. Do them first if a phone screen is days away.
+Each of these appears in at least six of seven major lists (Blind 75, Grind 75, NeetCode 150, LeetCode 75, Top Interview 150, Top 100 Liked, Sean Prashad). All 36 are free. If a phone screen is days away, do these first, 5 or 6 a day, timed with the limits on [how to practice](how-to-practice.md#time-limits).
 
 - [ ] [Two Sum](https://leetcode.com/problems/two-sum/) (Easy, hashing)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (Easy, arrays)
@@ -185,29 +188,36 @@ Each of these appears in at least six of seven major lists (Blind 75, Grind 75, 
 
 Track rules:
 
-- **Intern (first or second year):** LeetCode 75, then Grind 75. LeetCode 75 has zero Hards, which matches where most first-years start. See [intern interviews](../internships/intern-interviews.md).
+- **Intern (first or second year):** LeetCode 75, then Grind 75. LeetCode 75 has zero Hards. See [intern interviews](../internships/intern-interviews.md) for what each company asks interns.
 - **New grad:** use the "knows the basics" row. Jugal's view on NeetCode 150: "For new grad and most mid-level roles, getting through this list is enough on its own" ([post](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use)). The data mostly agrees: it covers 30 to 36 of the top 50 recent tagged problems at Google, Meta, Amazon and Microsoft.
 - **0 to 3 years experience:** use the experience row and start [system design](../system-design/index.md) in parallel.
-- **Google target:** add the LeetCode DP plan and the Hard list on the [Google page](../companies/google.md). NeetCode 250 covers 44 of Google's top 50 recent tags, the most of any list.
+- **Google target:** add the [LeetCode DP plan](https://leetcode.com/studyplan/dynamic-programming/) and the [Google Hard set](#google-hard-set) below. NeetCode 250 covers 44 of Google's top 50 recent tags, the most of any list. Recent Google questions are on the [Google page](../companies/google.md).
 - **Meta target:** after NeetCode 150, add these recent Meta tags it misses: [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/), [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/), [Next Permutation](https://leetcode.com/problems/next-permutation/), [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/), [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/), [Find Peak Element](https://leetcode.com/problems/find-peak-element/), [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/), [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/), plus Valid Word Abbreviation and Binary Tree Vertical Order Traversal (both Premium). Details on the [Meta page](../companies/meta.md).
 - **Data analyst, data engineer, data scientist:** SQL 50 at 4 to 5 a day (2 weeks). Then [DataLemur](https://datalemur.com/questions) (freemium: $15 a month or $60 a year for premium) or [takeUforward SQL 75](https://takeuforward.org/prep-hub/sql---75-frequently-asked-interview-questions). Then the two pandas plans if there is a Python round. Add LeetCode 75 if the job also has a DSA round.
 - **Quant or HFT software:** finish NeetCode 250 or Grind 169. Then CSES Sorting and Searching (35), Dynamic Programming (23), Graph Algorithms (36) and Tree Algorithms (16), reading the matching chapter of the free [CSES book](https://cses.fi/book/book.pdf) first. Then Jugal's 10 HFT problems ([post](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles)).
 - **Indian campus placements:** Striver A2Z or the SDE Pattern Sheet. Use Love Babbar 450 only if your college's rounds are GfG-style.
 
+### Google Hard set
+
+Google-tagged Hards from the last 6 months ([liquidslr dataset](https://github.com/liquidslr/leetcode-company-wise-problems), Aug 2026), highest frequency first, all free. In week 10 of the default plan, do 2 a day from the top of the core set (about 14), then finish it in weeks 11 and 12. Target 40 minutes each, hard stop at 60.
+
+- Core (also in NeetCode 250 or Grind 169): [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/), [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/), [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/), [N-Queens](https://leetcode.com/problems/n-queens/), [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/), [First Missing Positive](https://leetcode.com/problems/first-missing-positive/), [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/), [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/), [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/), [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/), [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/), [Word Ladder](https://leetcode.com/problems/word-ladder/), [Basic Calculator](https://leetcode.com/problems/basic-calculator/), [Burst Balloons](https://leetcode.com/problems/burst-balloons/), [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/), [Bus Routes](https://leetcode.com/problems/bus-routes/), [Stone Game III](https://leetcode.com/problems/stone-game-iii/), [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/), [Candy](https://leetcode.com/problems/candy/), [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/), [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/), [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/), [LFU Cache](https://leetcode.com/problems/lfu-cache/), [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/).
+- Stretch (Google-tagged, in no major list): [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/), [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/), [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/), [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/), [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/), [Text Justification](https://leetcode.com/problems/text-justification/), [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/).
+
 ## Recommended progression
 
 ### Default: knows the basics, 12 weeks, 2 to 2.5 hours a day
 
-1. Weeks 1 to 4: Grind 75 in All Rounded order (about 3 a day).
-2. Weeks 5 to 9: the 92 NeetCode 150 problems not in Grind 75. On the NeetCode page, skip anything you already ticked in Grind.
-3. Week 10: Hards. Google targets: the Hard list on the [Google page](../companies/google.md). Everyone else: the NeetCode 150 Hards you skipped (21 total).
+1. Weeks 1 to 4: [Grind 75 in All Rounded order](https://www.techinterviewhandbook.org/grind75?order=all_rounded&grouping=weeks) (about 3 a day).
+2. Weeks 5 to 9: the 92 [NeetCode 150](https://neetcode.io/practice/practice/neetcode150) problems not in Grind 75. On the NeetCode page, skip anything you already ticked in Grind.
+3. Week 10: Hards. Google targets: the [Google Hard set](#google-hard-set). Everyone else: the NeetCode 150 Hards you skipped (21 total).
 4. Weeks 11 to 12: top 30 to 40 company-tagged problems you have not done, plus 4 [mock interviews](mock-interviews.md).
 5. Total: about 200 to 220 problems, plus re-solves.
 
 ### Beginner: 16 weeks, about 2 hours a day
 
-1. Weeks 1 to 4: Sean Prashad Beginner Roadmap (68 problems in 11 phases).
-2. Weeks 5 to 10: NeetCode 150 in roadmap order. About 111 are new after the Beginner Roadmap, so about 2 to 3 a day.
+1. Weeks 1 to 4: [Sean Prashad Beginner Roadmap](https://seanprashad.com/leetcode-patterns/) (68 problems in 11 phases). Read the matching [topics](topics.md) section before each phase.
+2. Weeks 5 to 10: NeetCode 150 in [roadmap](https://neetcode.io/roadmap) order. About 111 are new after the Beginner Roadmap, so about 2 to 3 a day.
 3. Weeks 11 to 13: the extra 100 of NeetCode 250 for your two weakest topics, or the 63 Grind 169 problems not in NeetCode 150.
 4. Weeks 14 to 15: company tags for your top target, 30 to 40 Medium and Hard.
 5. Week 16: 4 to 6 timed mocks. Re-solve every problem you failed.
@@ -225,9 +235,9 @@ Track rules:
 
 ### 2-week emergency (phone screen already booked)
 
-1. Days 1 to 11: Grind at 2 weeks x 15 hours (39 problems). Under a week left? Do the 36 problems above instead.
+1. Days 1 to 11: Grind at [2 weeks x 15 hours](https://www.techinterviewhandbook.org/grind75?weeks=2&hours=15&order=all_rounded) (39 problems, about 3 to 4 a day). Under a week left? Do the 36 problems above instead.
 2. Days 12 to 14: company "last 30 days" list, top 10 to 15. One mock.
-3. If you can, ask the recruiter for more time. Recruiters rarely mind which week you interview ([interviewing.io on postponing](https://interviewing.io/blog/its-ok-to-postpone-your-interviews-if-youre-not-ready)).
+3. If you can, ask the recruiter for more time. Recruiters rarely mind which week you interview ([interviewing.io on postponing](https://interviewing.io/blog/its-ok-to-postpone-your-interviews-if-youre-not-ready)). Use the script on [how to practice](how-to-practice.md#how-to-know-you-are-ready).
 
 ### Experienced refresh (0 to 3 years), 6 to 8 weeks
 
@@ -276,16 +286,18 @@ Each plan has 42 to 45 problems over 4 weeks with a time cap per problem, then a
 | Company | Post | Weeks 1 to 4 | Fix before you start |
 |---|---|---|---|
 | Meta | [Part 1](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part) | Fundamentals (15 Easy, 15 min each); trees and basic graphs; advanced graphs and tries; two pointers, sliding window, DP basics | Graph Valid Tree, Number of Connected Components and Alien Dictionary are Premium: solve them free on NeetCode |
-| Amazon | [Part 2](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8) | Arrays and hash tables; trees and BST; heaps, sorting, basic DP; graphs and advanced DP | Meeting Rooms II and Longest Substring with At Most K Distinct Characters are Premium |
-| Google | [Part 3](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e) | Arrays, strings, bit manipulation; trees and BST; graphs; DP and bitmask DP | The Find Mode link is broken. Use [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) |
-| Apple | [Part 4](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8) | Arrays and strings; trees and BST; DP; graphs and backtracking | Graph Valid Tree is Premium. "Implement strStr()" was renamed: use [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) |
+| Amazon | [Part 2](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8) | Arrays and hash tables; trees and BST; heaps, sorting, basic DP; graphs and advanced DP | Meeting Rooms II is Premium (free on NeetCode). Longest Substring with At Most K Distinct Characters is Premium: practice the free [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/), the same window with k = 2 |
+| Google | [Part 3](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e) | Arrays, strings, bit manipulation; trees and BST; graphs; DP and bitmask DP | The Find Mode link is broken. Use [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/). Alien Dictionary and Graph Valid Tree are Premium (free on NeetCode) |
+| Apple | [Part 4](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-8c8) | Arrays and strings; trees and BST; DP; graphs and backtracking | Graph Valid Tree is Premium (free on NeetCode). "Implement strStr()" was renamed: use [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) |
 | Netflix | [Part 5](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-020) | Arrays and strings; graphs and trees; DP and sliding window; backtracking and advanced graphs | Graph Valid Tree, Alien Dictionary and Number of Connected Components are Premium (free on NeetCode). Same strStr rename as Apple |
 
 All five posts link LeetCode company filters that now need Premium. Use the free route below instead.
 
 ## Company-tagged lists: last, not first
 
-Start company tags 2 to 5 weeks before a scheduled interview, after a core list. The core lists already cover most of what big companies' recent tags contain. The table shows how many of each company's top 50 most frequent problems from the last 6 months each list includes ([liquidslr dataset](https://github.com/liquidslr/leetcode-company-wise-problems), Aug 2026).
+Start company tags 2 to 5 weeks before a scheduled interview, after a core list. Before you start, read your target's [company page](../companies/index.md) for its rounds and recent questions.
+
+The core lists already cover most of what big companies' recent tags contain. The table shows how many of each company's top 50 most frequent problems from the last 6 months each list includes ([liquidslr dataset](https://github.com/liquidslr/leetcode-company-wise-problems), Aug 2026).
 
 | List | Google | Meta | Amazon | Microsoft | Bloomberg | Apple | Uber |
 |---|---|---|---|---|---|---|---|
@@ -297,7 +309,7 @@ Start company tags 2 to 5 weeks before a scheduled interview, after a core list.
 | NeetCode 250 | 44 | 37 | 43 | 43 | 42 | 33 | 18 |
 | Any list combined | 46 | 45 | 49 | 47 | 46 | 41 | 24 |
 
-Read it this way: Blind 75 alone is a refresher, not a full plan. Company tags matter most where the bank is unusual (Uber: only 24 of 50 appear in any list) and for Meta.
+Read it this way: Blind 75 alone is a refresher, not a full plan. NeetCode 250 or Grind 169 already covers 72 to 88% of these recent tags at Google, Meta, Amazon, Microsoft and Bloomberg. Company tags matter most where the bank is unusual (Uber: only 24 of 50 appear in any list) and for Meta.
 
 ### With LeetCode Premium
 
@@ -387,7 +399,7 @@ for row in rows:
 
 ## Is LeetCode Premium worth it?
 
-Prices on Oct 4, 2026 (US page, shown as discounts that can change): **$35 a month** or **$159 a year**. See the [subscribe page](https://leetcode.com/subscribe/).
+Prices as of Oct 2026 (US page, shown as discounts that can change): **$35 a month** or **$159 a year**. Check the [subscribe page](https://leetcode.com/subscribe/) before you buy. Prices in other countries were not checked.
 
 | Situation | Verdict |
 |---|---|

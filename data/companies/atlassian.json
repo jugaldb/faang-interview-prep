@@ -22,7 +22,7 @@
     },
     {
       "stage": "Recruiter / eligibility screen",
-      "details": "About 15 min: eligibility, motivation, logistics (Graduate SWE, Australia, Aug 2025)."
+      "details": "About 15 min: standard eligibility checks and motivation questions, followed by 2 technical rounds (Graduate Software Engineer review, Aug 2025; location not stated in the review)."
     },
     {
       "stage": "Interview loop (3 to 4 virtual interviews)",
@@ -30,7 +30,7 @@
     },
     {
       "stage": "Hiring committee and team match",
-      "details": "A hiring committee reviews all feedback independently and decides (official). Team matching follows; reports of P30/P40 candidates waiting weeks in team match (2025 to 2026)."
+      "details": "A hiring committee reviews all feedback independently and decides (official). Team matching follows; 2025 to 2026 reports describe P40/backend candidates waiting weeks for team match or being put on hold until headcount opened (Sep 2025 backend hire; Jan 2026 P40)."
     }
   ],
   "process_intern": [
@@ -40,11 +40,11 @@
     },
     {
       "stage": "Online assessment",
-      "details": "HackerRank-style OA. Reports: US 90 min with 2 to 3 LC-medium questions (Fall 2025); Sydney '2 mediums and 1 easy' (2025); India campus OLT 2 to 3 questions around Codeforces 1600 (DP, graphs, bitmasking), with 2+ solved needed to shortlist."
+      "details": "HackerRank-style OA. Reports: US intern OA of 90 min with 2 or 3 questions (applied Sep 2025, SF); 2 LC mediums (US intern, interviewed Nov 2024); 3 LeetCode questions (SF intern, 2025 review); Sydney 2026 OA described as 'reasonably balanced in difficulty'; India campus OLT 2 to 3 questions around Codeforces 1600 (DP, graphs, bitmasking), with 2+ solved needed to shortlist."
     },
     {
       "stage": "Technical interview (45 to 60 min)",
-      "details": "Live coding with one engineer over Zoom: LeetCode easy-medium with emphasis on approach, clarity and communication (rank-teams-by-votes style hash map voting, LCA, LRU cache, intervals). NEW in 2026: several intern loops (Sydney Apr to May 2026; IIT Guwahati and IIT Kharagpur Aug 2026) used a 1-hour AI-assisted coding interview in a HackerRank IDE, e.g. fixing a bug in a small backend web app with an AI agent. Frontend interns build a UI component (e.g. nested bullet list)."
+      "details": "Live coding with one engineer over Zoom: LeetCode easy-medium with emphasis on approach, clarity and communication (rank-teams-by-votes style hash map voting, LCA, LRU cache, intervals). NEW in 2026: several intern loops (Sydney Apr to May 2026; Guwahati and Kharagpur campus drives Aug 2026) used a 1-hour AI-assisted coding interview in a HackerRank IDE, e.g. fixing a bug in a small backend web app with an AI agent. Frontend interns build a UI component (e.g. nested bullet list)."
     },
     {
       "stage": "Values / behavioral interview",
@@ -55,8 +55,8 @@
       "details": "US intern timeline example: applied Sep 9, OA Sep 20, round 1 Oct 18, round 2 Nov 3, offer call Nov 9 (2025 cycle). Sydney candidates report 3 to 4 months end to end."
     }
   ],
-  "process_experienced_notes": "For 1 to 3 yrs (P30/P40) the loop is staged. Screen: Karat third-party interview (60 min: about 20 min of 5 rapid-fire system design scenarios plus 2 easy-medium DSA problems), reported for P30 and P40 in 2025; an Oct 2026 report describes a technical screen of 20 min coding plus 15 min HLD. Stage 1: 2 coding interviews of 60 min each, Data Structures (own IDE, tests, debugger allowed) and Code Design. Official prep PDFs dated Jul and Aug 2026 say Code Design is now AI-enabled: a HackerRank IDE with AI coding assistants and an existing code repository you extend, fix or refactor, in a language you may not know. Stage 2: 60-min system design (ladder of follow-ups). Stage 3: 60-min management interview (own outcomes, expertise-driven improvements, initiative, team contribution) and 45-min values interview. Each stage is gated by recruiter feedback. Hiring committee then levels you; candidates report being downleveled P50 to P40 for skipping clarifying questions in design.",
-  "timeline": "Official: interviews are scheduled in stages and the recruiter confirms progression after each; a hiring committee decides after the loop; team matching happens after the hiring committee (centralized hiring, not team-first). Reported: US intern about 2 months (Sep to Nov 2025); Sydney intern 3 to 4 months; P40 India about 2 months from recruiter reply to HC approval (Jan 2026); P50 loop Dec 6 2025 to Jan 9 2026 with HC verdict Jan 20. Recruiting seasons per region on the early careers page. CHANGE: Atlassian announced layoffs of about 10% of its workforce in March 2026 (Wikipedia); 2026 LeetCode posts describe paused team matches and a re-test via the AI-assisted round for a pre-layoff hire.",
+  "process_experienced_notes": "For 1 to 3 yrs (P30/P40) the loop is staged. Screen: Karat third-party interview (60 min: about 20 min of 5 rapid-fire system design scenarios plus 2 easy-medium DSA problems), reported for P30 and P40 in 2025; an Oct 2026 candidate was told the technical screen is 20 min coding plus 15 min HLD. Stage 1: 2 coding interviews of 60 min each, Data Structures (own IDE, tests, debugger allowed) and Code Design. Official prep PDFs dated Jul and Aug 2026 say Code Design is now AI-enabled: a HackerRank IDE with AI coding assistants and an existing code repository you extend, fix or refactor, in a language you may not know. Stage 2: 60-min system design (ladder of follow-ups). Stage 3: 60-min management interview (own outcomes, expertise-driven improvements, initiative, team contribution) and 45-min values interview. Each stage is gated by recruiter feedback. Hiring committee then levels you; candidates report being downleveled P50 to P40 for skipping clarifying questions in design.",
+  "timeline": "Official: interviews are scheduled in stages and the recruiter confirms progression after each; a hiring committee decides after the loop; team matching happens after the hiring committee (centralized hiring, not team-first). Reported: US intern about 2 months (Sep to Nov 2025); Sydney intern 3 to 4 months; P40 backend about 2 months from recruiter reply to HC approval, including almost a month of year-end HC wait (Jan 2026; location not stated); P50 loop Dec 6 2025 to Jan 9 2026 with HC verdict Jan 20. Recruiting seasons per region on the early careers page. CHANGE: Atlassian announced layoffs of about 10% of its workforce in March 2026 (Wikipedia); 2026 LeetCode posts describe paused team matches and a re-test via the AI-assisted round for a pre-layoff hire.",
   "oa": {
     "platform": "HackerRank (India 2026-grad internship drive screenshot); an Atlassian-branded timed IDE with sections was used for the 2027-grad OA (Aug 2026). UK graduate track started with psychometric tests (Sep 2026).",
     "format": "2 to 4 coding questions, about 90 min (US intern 2025); India campus OLT 2 to 3 questions of roughly Codeforces 1600 difficulty (DP, graphs, bitmasking, greedy, XOR). Sydney: 2 medium plus 1 easy. Data engineering intern OAs mix SQL and LeetCode.",
@@ -64,7 +64,7 @@
   },
   "coding": {
     "rounds": "Intern and new grad: 1 to 2 coding interviews (45 to 60 min). P30/P40 experienced loop: 2 coding interviews of 60 min (Data Structures + Code Design), after a Karat or technical screen.",
-    "style": "LeetCode easy to medium for interns; medium (sometimes hard, e.g. All O`one) for P40, usually wrapped in an Atlassian product story (Jira activity, Confluence audit logs, support agent ratings, voting). Code design problems are multi-part and extensible (Snake game, tennis court booking with maintenance breaks, middleware router with wildcards, rate limiter, customer/product rating system). Some loops ask follow-ups on concurrency.",
+    "style": "LeetCode easy to medium for interns; medium (sometimes hard, e.g. All O`one) for P40, usually wrapped in an Atlassian product story (Jira activity, Confluence audit logs, support agent ratings, voting). Code design problems are multi-part and extensible (Snake game, tennis court booking with maintenance breaks, middleware router with wildcards, rate limiter, customer/product rating system). Some loops add concurrency follow-ups (P60 customer rating code design, Feb 2026).",
     "environment": "Your own IDE in your chosen language, screen-shared over Zoom, with your favorite test framework ready; CodePair offered if you cannot set up an IDE; using a debugger is encouraged (official backend prep PDF). AI-enabled Code Design rounds (2026) run in a HackerRank IDE with AI coding assistants and an existing repo. Frontend: browser coding in your framework (set up a page that prints the current time before the call).",
     "graded_on": "Official: coding skills, code quality, conceptual thinking, adaptability, navigating blockers, communication; testing matters (TDD recommended); show alternative solutions and why you chose one. 'Clean code matters, but what's most important is how you think.' AI round: how you plan with AI, articulate prompts, and validate the result (candidate report Sep 2026)."
   },
@@ -89,8 +89,9 @@
       "What's your approach when having difficult conversations? How have you resolved conflict?",
       "What are examples when you or the team missed the mark? How did you react and fix it?",
       "Tell me about a time you advocated for the customer (Data Engineering Intern, 2025)",
-      "How do you use agents to resolve issues in a repository? (SWE Intern, IIT Kharagpur, Aug 2026)",
-      "What was a trade-off you dealt with at your last internship? (SWE Intern, Vancouver, 2026)"
+      "How do you use agents to resolve issues in a repository? (SWE Intern, Kharagpur campus, Aug 2026)",
+      "What was a trade-off you dealt with at your last internship? (SWE Intern, Vancouver, 2026)",
+      "Give me an example of a tough or critical piece of feedback you received. (Values interview, Hello Interview, mid-level to senior manager, Jul 2026)"
     ]
   },
   "non_leetcode_formats": "AI-enabled Code Design (HackerRank IDE + AI assistant, extend an existing repo; one Sep 2026 report: plan and implement a Spring Boot web feature with AI and explain how you validated it). Code Design / LLD in your own IDE with JUnit-style tests (Snake game, middleware router, tennis court booking, rating systems). Karat screen with rapid-fire design scenarios. Browser coding for frontend roles (tic tac toe, nested bullet list). Management and values interviews. UK graduate psychometric tests.",
@@ -147,7 +148,7 @@
     {
       "title": "Lowest common ancestor of a given set of n nodes in a parent-pointer tree",
       "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
-      "role": "SWE Intern, US",
+      "role": "Intern (location not stated)",
       "date": "2025-10",
       "source_url": "https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW100554300.htm"
     },
@@ -159,7 +160,7 @@
       "source_url": "https://leetcode.com/discuss/post/8293408/atlassian-interview-experience-p50p40-by-21ky/"
     },
     {
-      "title": "Snake game LLD: snake grows every n-th food (or every 5 moves), game over on self-collision",
+      "title": "Snake game LLD: snake grows every n-th food (or every 5 moves), game over on self-collision (LC 353 is Premium)",
       "url": "https://leetcode.com/problems/design-snake-game/",
       "role": "SDE-2 (P40) LLD round, Bangalore",
       "date": "2025-09",
@@ -231,9 +232,44 @@
     {
       "title": "Design a tagging system across Jira, Confluence and Bitbucket (system design)",
       "url": "",
-      "role": "Mid-level to principal (Hello Interview reports)",
-      "date": "2026-01",
-      "source_url": "https://www.hellointerview.com/community/questions/jira-confluence-bitbucket-tags/cmacerxv900gtad08ibj10s1o"
+      "role": "Senior SDE onsite system design (Hello Interview also shows Senior, Staff and Principal reports, Nov to Dec 2025)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7612664/got-offer-and-sharing-atlassian-onsite-i-4vp1/"
+    },
+    {
+      "title": "AI-assisted coding round follow-up: why do you need both backend and frontend validation?",
+      "url": "",
+      "role": "Software Engineering Intern, Sydney (AI-assisted round)",
+      "date": "2026-05",
+      "source_url": "https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW104097713.htm"
+    },
+    {
+      "title": "SQL: Nth highest salary without ROW_NUMBER() or RANK(); plus a 'needle in a haystack' string-search LeetCode easy",
+      "url": "https://leetcode.com/problems/nth-highest-salary/",
+      "role": "Data Engineer Intern, Sydney",
+      "date": "2026-06",
+      "source_url": "https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW104842326.htm"
+    },
+    {
+      "title": "Wordle feedback string, like Bulls and Cows: generateFeedback('crane', 'train') returns 'XGGXY'",
+      "url": "https://leetcode.com/problems/bulls-and-cows/",
+      "role": "P60 DSA round",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7575766/atlassian-interview-experience-p60-by-an-ibey/"
+    },
+    {
+      "title": "Closest common department finder: model a department hierarchy and find the lowest shared ancestor for a group of employees (LLD)",
+      "url": "",
+      "role": "Mid-level (Hello Interview LLD report)",
+      "date": "2026-04",
+      "source_url": "https://www.hellointerview.com/community/questions/closest-common-department/cmo4cnpn60jy80cad9ah01z3y"
+    },
+    {
+      "title": "Design a Project Status Agent: AI agent that ingests DevOps, Slack and meeting transcripts and answers natural-language status questions (ML system design)",
+      "url": "",
+      "role": "Senior (Hello Interview)",
+      "date": "2026-08",
+      "source_url": "https://www.hellointerview.com/community/questions/project-status-agent/cmunmslyx0off08adyxg79zgn"
     }
   ],
   "focus_topics": [
@@ -245,7 +281,8 @@
     "DP, graphs and bitmasking for India campus OAs",
     "Strings and prefix sums",
     "AI-assisted coding in an unfamiliar codebase (2026)",
-    "System design (P40+): tagging, top-K feeds, crawlers"
+    "System design (P40+): tagging, top-K feeds, crawlers",
+    "AI-era system design: agents over Jira/Confluence-style data (Project Status Agent, 2026)"
   ],
   "tips": [
     "Before any coding round, open a blank project in your strongest language with a test framework (JUnit, pytest) ready; you will write, run and test code on screen share, and a debugger is allowed.",
@@ -272,14 +309,14 @@
     "[VERIFIED] https://www.levels.fyi/companies/atlassian/salaries/software-engineer : India default view, P30 to P90 ladder",
     "[VERIFIED] https://www.levels.fyi/companies/atlassian/salaries/software-engineer/locations/australia : Australia averages",
     "[VERIFIED] https://interviewing.io/atlassian-interview-questions : third-party process summary (Karat screen, team match after onsite)",
-    "[VERIFIED] https://www.hellointerview.com/community/questions/company/Atlassian : community question list (client-rendered)",
-    "[VERIFIED] https://www.hellointerview.com/community/questions/jira-confluence-bitbucket-tags/cmacerxv900gtad08ibj10s1o : tagging system SD reports 2025-10 to 2026-01",
-    "[VERIFIED] https://www.hellointerview.com/community/questions/lowest-common-parent/cmb7t78sd019wad08emkjhdco : Lowest Common Parent in Org Chart (Atlassian, Spotify, Amazon; junior to staff; 2026-01 to 2026-09)",
-    "[VERIFIED] https://www.hellointerview.com/community/questions/snake-game-implementation/cmh718v7t00rr08adogqt6fdu : Snake game (Atlassian, Watershed; 2025-10 to 2026-09)",
-    "[VERIFIED] https://www.hellointerview.com/community/questions/support-agent-ratings/cmo4cnnlq0jz908adli8skqdc : support agent rating system (mid-level, 2026-04)",
-    "[VERIFIED] https://www.hellointerview.com/community/questions/web-crawler-design/cm80gligm049vtvyjklc6gxdw : web crawler SD (Atlassian and others, 2026)",
-    "[VERIFIED] https://www.hellointerview.com/community/questions/popular-content-feed/cmjs8xldt053l08ad4sjjsase : real-time popular content feed (2025-12 to 2026-09)",
-    "[VERIFIED] https://www.hellointerview.com/community/questions/food-rating-system/cm5eguhah03tr838oh4bn4uw2 : LC 2353 Design a Food Rating System reported for Atlassian (2025)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/company/Atlassian : community question list (client-rendered; 34 Atlassian questions, top 5 free: web crawler, All O`one, Project Status Agent, tough feedback, closest common department)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/jira-confluence-bitbucket-tags/cmacerxv900gtad08ibj10s1o : tagging system SD (visible reports: Principal, Senior, Staff; Nov to Dec 2025; 10+ reports behind paywall)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/lowest-common-parent/cmb7t78sd019wad08emkjhdco : Lowest Common Parent in Org Chart (asked at Spotify, Microsoft, Atlassian, Amazon; visible reports Spotify senior Jan and Sep 2026, Microsoft junior Apr 2026)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/snake-game-implementation/cmh718v7t00rr08adogqt6fdu : Snake game (Atlassian senior Oct 2025; Watershed 2026; spec: grow every 5 moves, wrap around edges)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/support-agent-ratings/cmo4cnnlq0jz908adli8skqdc : support agent rating system (Atlassian mid-level, Apr 2026)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/web-crawler-design/cm80gligm049vtvyjklc6gxdw : web crawler SD (Atlassian senior Aug 2026: fetch image URLs from up to 10 input URLs and followed links)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/popular-content-feed/cmjs8xldt053l08ad4sjjsase : real-time popular content feed (Atlassian senior Dec 2025, mid-level Apr 2026; Confluence-like top-K pages)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/food-rating-system/cm5eguhah03tr838oh4bn4uw2 : LC 2353 reported for Atlassian (senior and staff, Apr to Jun 2025; staff ratings report by month)",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-Questions-E115699.htm : Glassdoor interview reviews (read in browser; blocks scripts)",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW105635982.htm : Internship, IIT Guwahati, Sep 2026: 1-hour AI-assisted interview + 30-min HR/values",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW105126337.htm : SWE Intern, IIT Kharagpur, Aug 2026: HackerRank IDE interview + values round",
@@ -288,15 +325,15 @@
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW104097713.htm : SWE Intern Sydney, May 2026, AI-assisted coding, unclear expectations",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW103570002.htm : SWE Intern SF, OA 90 min, 45-min technical, 45-min EM behavioral, Sep to Nov timeline",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW100248599.htm : SWE Intern SF, OA 3 LC, recruiter, 90-min LC + behavioral",
-    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW99568984.htm : Graduate SWE Australia, Aug 2025, 15-min phone screen then 2 technical rounds",
+    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW99568984.htm : Graduate SWE (Aug 2025 review, location not stated): 15-min eligibility and motivation phone screen, then 2 technical rounds",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW104142788.htm : SRE Intern Sydney, LC 1366",
-    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW100554300.htm : Intern US, LCA of n nodes",
+    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW100554300.htm : Intern (Oct 2025 review, location not stated): easy OA, LCA of n nodes, values round",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW99076961.htm : SWE Intern New Delhi, LRU + OOP, values round",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW97748582.htm : SWE Intern Sydney, LCA in BST",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW103990304.htm : SDE Intern Mumbai, OA 2 to 3 DSA, intervals in technical",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW99142163.htm : SDE Intern Bengaluru 2024 campus: OA 90 min, 15 shortlisted, 5 offers",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW100379715.htm : SWE Intern US (interviewed 2024-11): OA 2 LC mediums, design a snake",
-    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW97214320.htm : SWE Internship US: dictionary manipulation, ranking question",
+    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW97214320.htm : SWE Internship (May 2025 review, location not stated): dictionary manipulation, ranking question",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW104447202.htm : Data Engineering Intern: OA 3 LC, SQL + 2 LC, values interview",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW100070514.htm : Internship New Delhi: banking system/hashmaps + values",
     "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW103507721.htm : SWE Intern Sydney: OA then Zoom live coding",
@@ -321,15 +358,21 @@
     "[VERIFIED] https://leetcode.com/discuss/post/7545973/atlassian-senior-backend-engineer-interv-ldii/ : All O`one",
     "[VERIFIED] https://leetcode.com/discuss/post/7565749/atlassian-sde-2-by-anonymous_user-1nr8/ : Snake + All-in-one DS (Feb 2026)",
     "[VERIFIED] https://leetcode.com/discuss/post/7567930/atlassian-sde-2-by-anonymous_user-13m3/ : 'business requirement changes' re-evaluation (Feb 2026)",
-    "[VERIFIED] https://leetcode.com/discuss/post/7575766/atlassian-interview-experience-p60-by-an-ibey/ : wordle feedback (Bulls and Cows), customer rating code design",
+    "[VERIFIED] https://leetcode.com/discuss/post/7575766/atlassian-interview-experience-p60-by-an-ibey/ : P60: wordle feedback (Bulls and Cows), customer rating code design with concurrency and monthly-stats follow-ups",
     "[VERIFIED] https://leetcode.com/discuss/post/6720044/data-structure-interview-round-atlassian-hkoh/ : stock price fluctuation",
     "[VERIFIED] https://leetcode.com/discuss/post/6807250/atlassian-software-engineer-2-may-2025-3-ayr9/ : Snake game spec (SE2, May 2025)",
     "[VERIFIED] https://leetcode.com/discuss/post/7246118/atlassian-p60-sept-2025-rejected-by-anon-m7ye/ : P60 loop incl. cinema scheduling code design",
     "[VERIFIED] https://leetcode.com/discuss/post/7124057/atlassian-two-coding-rounds-by-anonymous-culb/ : employee-group + path routing",
-    "[VERIFIED] https://leetcode.com/discuss/post/7375276/atlassian-lld-round-is-concurrency-also-zj71o/ : concurrency question in LLD",
+    "[VERIFIED] https://leetcode.com/discuss/post/7375276/atlassian-lld-round-is-concurrency-also-zj71o/ : candidate ASKS whether LLD solutions must be thread-safe (question only, no answer); see P60 post for an actual concurrency follow-up",
     "[VERIFIED] https://leetcode.com/discuss/post/6768524/sde-intern-journey-from-newbie-internshi-cm25/ : India campus intern flow (OLT, 60-min tech with LCS + MST, HR)",
     "[VERIFIED] https://leetcode.com/discuss/post/7582165/atlassian-p50-offer-by-anonymous_user-d91a/ : P50 India offer breakdown",
-    "[VERIFIED] https://www.jointaro.com/interviews/companies/atlassian/work-experiences/software-engineer-intern-gdansk-april-14-2025-5-f5453aa1/ : intern experience page (Gdansk), live-coded LC easy-medium, values anecdotes"
+    "[VERIFIED] https://www.jointaro.com/interviews/companies/atlassian/work-experiences/software-engineer-intern-gdansk-april-14-2025-5-f5453aa1/ : Taro page (Gdansk intern work review) that also lists US intern interview experiences dated Dec 2024: live-coded LC easy-medium, hash maps and classes, values interview with anecdotes per value",
+    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW103238080.htm : SWE Intern, Vancouver (Mar 2026 review): 'What was a trade off you dealt with at your last internship'",
+    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW104842326.htm : Data Engineer Intern, Sydney (Jun 2026): OA, SQL + LC easy live coding, behavioral; 4 months end to end",
+    "[VERIFIED] https://www.glassdoor.com/Interview/Atlassian-Interview-E115699-RVW103420443.htm : Backend Engineer (Sep 2025): 2 coding, 1 SD, 2 behavioral; placed on hold until new headcount, then team match calls",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/closest-common-department/cmo4cnpn60jy80cad9ah01z3y : Closest Common Department Finder LLD (Atlassian mid-level, Apr 2026)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/project-status-agent/cmunmslyx0off08adyxg79zgn : Project Status Agent ML system design (Atlassian senior, Aug 2026)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/tough-feedback-example/cm5ya8957002irfqrdd7b2gt8 : values-interview question on tough feedback (Atlassian, Jul 2026)"
   ],
-  "confidence_notes": "Strong: official stages (2 coding, system design, manager, values, hiring committee), own-IDE + tests expectation, AI-enabled Code Design (official PDFs Jul/Aug 2026), values list, Levels.fyi ladder. Medium: intern/new grad loop shape varies by region (US: OA + 1 technical + EM behavioral; India campus: OLT + 1 to 2 technical + HR/values; Sydney/India 2026: AI-assisted coding); whether the AI round has replaced classic DSA for all early-career loops is unclear. OA platform for the 2027-grad India OA is not named. P30 vs 'SWE-1'/'Graduate' naming varies by region. Hiring volume after the March 2026 layoffs is uncertain; several 2026 posts describe freezes or re-evaluations. Third-party claims (300 to 500 interns/yr, 4 to 6 week timelines) are not confirmed by Atlassian. LeetCode discuss pages return 403 to scripts; their content was confirmed via LeetCode's GraphQL API. Glassdoor review permalinks were confirmed in a browser session (they block non-browser clients). Web search budget ran out mid-task, so Reddit and Blind were not covered."
+  "confidence_notes": "Strong: official stages (2 coding, system design, manager, values, hiring committee), own-IDE + tests expectation, AI-enabled Code Design (official PDFs Jul/Aug 2026), values list, Levels.fyi ladder. Medium: intern/new grad loop shape varies by region (US: OA + 1 technical + EM behavioral; India campus: OLT + 1 to 2 technical + HR/values; Sydney/India 2026: AI-assisted coding); whether the AI round has replaced classic DSA for all early-career loops is unclear. OA platform for the 2027-grad India OA is not named. P30 vs 'SWE-1'/'Graduate' naming varies by region. Hiring volume after the March 2026 layoffs is uncertain; several 2026 posts describe freezes or re-evaluations. Third-party claims (300 to 500 interns/yr, 4 to 6 week timelines) are not confirmed by Atlassian. LeetCode discuss pages return 403 to scripts; their content was confirmed via LeetCode's GraphQL API. Glassdoor review permalinks were confirmed in a browser session (they block non-browser clients). Web search budget ran out mid-task, so Reddit and Blind were not covered. FACT-CHECK (2026-10-04, second agent): all 90+ URLs re-fetched (atlassian.com pages and PDFs via curl; LeetCode problems and discuss posts via LeetCode GraphQL incl. OA screenshots viewed; Glassdoor permalinks and Hello Interview timelines rendered in a browser). Fixed: several Glassdoor reviews do not state a location (removed 'US', 'Australia', 'IIT' labels); tagging-system SD had no 2026-01 or mid-level report on Hello Interview, so it now cites the Feb 2026 onsite post; P40 timeline post does not say India; concurrency claim now cites the P60 report; the 'Sydney OA 2 mediums and 1 easy' claim could not be found and was removed. Premium LeetCode links: LC 353 Design Snake Game."
 }

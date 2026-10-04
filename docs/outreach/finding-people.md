@@ -255,9 +255,9 @@ Example person: Priya Shah at example.com.
 
 | Plan | Math | Result |
 |---|---|---|
-| Hunter free, Email Finder only | 50 credits, 1 per person found | 25 companies at 2 people each, per month |
+| Hunter free, Email Finder only | 50 credits, 1 per person found; failed searches are free | 25 companies at 2 people each, per month |
 | Hunter free, verify guesses | 0.5 credits per verification | Up to 100 verifications a month |
-| Jugal's Referral Engine defaults | Pulls up to 10 contacts per company via Domain Search | About 5 companies a month on free credits. Set the department filter to `hr` and lower the limit to 1 to 2 people per company. Setup: [n8n automation](n8n-automation.md). |
+| Jugal's Referral Engine defaults | "Limit: 10 contacts per company" via Hunter Domain Search ([The Referral Engine](https://jugaldb.substack.com/p/the-referral-engine-n8n-hunter-gemini)) | About 5 companies a month on free credits. Turn on the post's optional People/HR/Recruiting/Talent department filter and lower the limit to 1 to 2 per company: about 25 to 50 companies a month. Setup: [n8n automation](n8n-automation.md). |
 
 ## Rules: privacy, law, and safety
 

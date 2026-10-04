@@ -6,7 +6,7 @@ Copy-paste messages for every step of a big-tech search, from the first LinkedIn
 
 1. Fill every `[Bracket]`. Delete any bracket you cannot fill truthfully.
 2. Change at least one line so it is about them. Jugal's rule: "change at least one line so it's about them, not you" ([7 videos on networking](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to)).
-3. Put one job ID in every message that is about a role. A job ID lets a recruiter find your application in seconds.
+3. Put one job ID in every message that is about a role. A job ID lets a recruiter find your application.
 4. Keep LinkedIn connection notes under 200 characters. That is LinkedIn's limit for a personalized note ([LinkedIn Help: personalize invitations](https://www.linkedin.com/help/linkedin/answer/a563153)).
 5. Keep emails between 50 and 125 words. Boomerang's study of 40 million emails found that range got the most replies ([Boomerang](https://blog.boomerangapp.com/2016/02/7-tips-for-getting-more-responses-to-your-emails-with-data/)).
 6. Send at most 3 touches per person: 1 first message and 2 follow-ups. Hunter's data on 31 million emails found three emails was the useful maximum ([Hunter State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email)).
@@ -34,7 +34,7 @@ Copy-paste messages for every step of a big-tech search, from the first LinkedIn
 | [A1 to A7](#first-message-after-they-accept) | First message after someone accepts | LinkedIn |
 | [M1 to M5](#cold-messages-asking-for-a-15-minute-chat) | Cold message asking for a 15-minute chat | Email or LinkedIn |
 | [R1 to R10](#referral-asks) | Referral asks to a friend, alumnus, engineer, or stranger; the 3-line blurb; asking a mutual for an intro | Any |
-| [E1 to E5](#recruiter-and-professor-emails) | Recruiter emails after you apply; hiring team button; professors | Email or LinkedIn |
+| [E1 to E6](#recruiter-and-professor-emails) | Recruiter emails after you apply and before a role is posted; hiring team button; professors | Email or LinkedIn |
 | [H1 to H4](#hiring-manager-cold-emails) | Cold email to a hiring manager | Email |
 | [F1 to F6](#follow-ups) | Follow-ups at day 3, day 5 to 7, and about day 14 | Email or LinkedIn |
 | [P1 to P10](#during-the-interview-process) | After the OA, scheduling, thank-you, timeline, deadlines, withdrawing, rejection, rescheduling, interview format, reapplying | Email |
@@ -577,6 +577,8 @@ Every referral ask includes the packet: job ID and link, tailored resume PDF, th
 
 When to use: someone who knows you or your work. This is the strongest referral you can get.
 
+It runs past 125 words because it carries the whole packet, which is fine for someone who knows you. Over text or WhatsApp, send the first two lines and the rest as a second message.
+
 ```text
 Hey [Name], hope [personal line].
 
@@ -867,7 +869,7 @@ Apply first, then write, so the recruiter can find your application by its job I
 
 ### E1. University recruiter after you apply
 
-When to use: interns and new grads, 1 to 3 days after applying. About 80 words when filled.
+When to use: interns and new grads, 1 to 3 days after applying.
 
 ```text
 Subject: [Summer 2027 SWE Intern] applicant, Job ID [ID]
@@ -1021,6 +1023,46 @@ Rahul Kumar
 Purdue University, rahul.k@example.com
 ```
 
+### E6. University recruiter before the role is posted
+
+When to use: the role you want has not been posted yet this cycle. Ask one question and give the recruiter a reason to remember you, not a referral or interview request.
+
+When the role opens, apply within the first week and send [E1](#e1-university-recruiter-after-you-apply).
+
+```text
+Subject: [School] [year], [Company] [role type] for [season]
+
+Hi [Name],
+
+I'm [Full Name], a [year] in [major] at [School], graduating [Month Year]. I plan to apply to [Company]'s [role type] for [season] as soon as it opens.
+
+[One proof with a number.]
+
+Is there a campus event, info session, or talent community I should join so I don't miss the posting?
+
+Thanks,
+[Name]
+[LinkedIn URL]
+```
+
+Filled example (71 words):
+
+```text
+Subject: Purdue junior, Meta SWE internship for Summer 2027
+
+Hi Lena,
+
+I'm Priya Shah, a junior in Computer Science at Purdue, graduating May 2028. I plan to apply to Meta's Software Engineer Intern role for Summer 2027 as soon as it opens.
+
+I built a campus-store payments app that handles 400 orders a week with zero double charges.
+
+Is there a campus event, info session, or talent community I should join so I don't miss the posting?
+
+Thanks,
+Priya
+linkedin.com/in/[your-handle]
+```
+
 ## Hiring manager cold emails
 
 Hiring managers were the one cold channel that came out net positive for FAANG in interviewing.io's survey. Their advice: email (managers "live in their emails"), no attachment on the first email, 1 to 2 links, and ask for a chat "this week or next" ([interviewing.io part 2](https://interviewing.io/blog/how-to-get-in-the-door-at-top-companies-cold-out-reach-to-hiring-managers-part-2)).
@@ -1113,7 +1155,7 @@ github.com/[your-handle] | linkedin.com/in/[your-handle]
 
 ### H3. Applied, short and specific
 
-When to use: you already applied and want the manager to look. About 75 words.
+When to use: you already applied and want the manager to look.
 
 ```text
 Subject: Question on [team]'s [system or feature]
@@ -1371,7 +1413,7 @@ Priya
 
 ### P3. Thank-you after an interview
 
-When to use: within 24 hours, to the recruiter (and to interviewers if you have their emails). Treat it as a courtesy, not a lever: no study we found shows thank-you notes change big-tech outcomes. Keep it to 3 lines and do not re-argue your answers.
+When to use: within 24 hours, to the recruiter (and to interviewers if you have their emails). Treat it as a courtesy, not a lever: we found no data showing thank-you notes change big-tech outcomes. Keep it to 3 lines and do not re-argue your answers.
 
 ```text
 Subject: Thank you, [role] interview on [date]
@@ -1433,7 +1475,9 @@ Rahul
 
 ### P5. Expedite request when you have a deadline
 
-When to use: you hold a written offer with a deadline and want another company to move faster. Never invent a deadline. Some teams cannot expedite: Microsoft's internship FAQ says "We unfortunately cannot expedite your application review for competing offer deadlines" ([Microsoft university internships](https://careers.microsoft.com/v2/global/en/universityinternship)).
+When to use: you hold a written offer with a deadline and want another company to move faster. Never invent a deadline. Another version is [S8 on the negotiation scripts page](../negotiation/scripts.md#s8-ask-a-company-to-speed-up).
+
+Some teams cannot expedite: Microsoft's internship FAQ says "We unfortunately cannot expedite your application review for competing offer deadlines" ([Microsoft university internships](https://careers.microsoft.com/v2/global/en/universityinternship)).
 
 ```text
 Subject: Timeline question, [role] (Job ID [ID])
@@ -1627,9 +1671,9 @@ Priya
 
 Answer inbound recruiter messages within 24 hours. If you have Open to Work on and stop answering recruiter InMails, LinkedIn emails you to confirm you are still looking and removes Open to Work if you don't confirm ([LinkedIn Help: Open to Work](https://www.linkedin.com/help/linkedin/answer/a507508)).
 
-If a recruiter asks for your expected salary before an offer, do not give a number in your first reply. Use the deflection scripts on [negotiation scripts](../negotiation/scripts.md).
+If a recruiter asks for your expected salary before an offer, do not give a number in your first reply. Use [S1 and S2 on the negotiation scripts page](../negotiation/scripts.md#s1-expectations-question).
 
-> **Watch out:** Check that the recruiter is real before sharing anything. Find the same role on the company's official careers site and check that the email domain matches the company. "Honest employers, including the federal government, will never ask you to pay to get a job" ([FTC: job scams](https://consumer.ftc.gov/articles/job-scams)). Never pay, never deposit a check for them, and never send ID or bank details before a written offer through the company's own system.
+> **Watch out:** Before you share anything, find the same role on the company's official careers site and check that the recruiter's email domain matches the company. Never pay, never deposit a check for them, and never send ID or bank details before a written offer through the company's own system. The FTC: "Honest employers, including the federal government, will never ask you to pay to get a job" ([FTC: job scams](https://consumer.ftc.gov/articles/job-scams)).
 
 ### I1. Interested
 
@@ -1798,7 +1842,7 @@ Hi Arjun, thank you for the time today. Your point about testing out loud before
 
 ### K2. Update to your referrer
 
-When to use: after each stage (OA, interviews, outcome). It costs you one minute and keeps the relationship alive whatever the result.
+When to use: after each stage (OA, interviews, outcome), whatever the result. It takes one minute.
 
 ```text
 Hi [Name], quick update: thanks to your referral I [got the OA / have interviews on [date] / received an offer / didn't get it this time]. Really appreciate you putting my name in. [If rejected: I'm going to reapply in [cycle] and keep improving [area].]

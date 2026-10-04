@@ -23,10 +23,10 @@ What a referral does not do: "a referral mostly buys you one thing, a human actu
 
 1. Check sponsorship if you need it. Jugal once got a referral and tailored everything, then heard "Unfortunately, we do not sponsor visas at this time" ([How to Check if a Company Sponsors H-1B Visas](https://jugaldb.substack.com/p/how-to-check-if-a-company-sponsors)). Use the [USCIS H-1B Employer Data Hub](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub) and the steps on [international students](../jobs/international-students.md).
 2. Finish your resume. Outreach multiplies whatever you send. Run the [resume checklist](../resume/checklist.md) and tailor one version per job ([tailoring](../resume/tailoring.md)).
-3. Fix your LinkedIn profile. People click your profile before they reply ([LinkedIn profile](../linkedin/index.md)).
+3. Fix your LinkedIn profile. Every note and email you send points to it ([LinkedIn profile](../linkedin/index.md)).
 4. Build a target list of 20 to 30 companies, each with 1 to 3 live job IDs ([application strategy](../jobs/application-strategy.md); interns: [finding and applying](../internships/finding-and-applying.md)).
 5. Set up a tracker with a row per person and a follow-up date ([follow-up and tracking](follow-up-and-tracking.md)).
-6. Watch Jugal's video 1 today, then send one message. Spread the other six over 3 days ([video order](#jugals-7-video-order)).
+6. Watch Jugal's video 1 today, then send one message. Watch the other six in his order over the week ([video order](#jugals-7-video-order)).
 
 ## Who to contact for what
 
@@ -36,10 +36,11 @@ What a referral does not do: "a referral mostly buys you one thing, a human actu
 | Alumni at the company | Referral, inside view of the team | A 15-minute chat, then a referral | LinkedIn (Alumni tool) or email | 1 to 2 weeks before or right after a posting | [C4](templates.md#c4-alumni), [R2](templates.md#r2-alumnus-you-have-not-met) |
 | Engineer on the team | Referral, what the team values | Advice first; referral only after a real conversation | LinkedIn after they accept, or email | Same | [C1](templates.md#c1-engineer-whose-work-you-read), [M1](templates.md#m1-jugals-15-minute-chat-email), [R3](templates.md#r3-jugals-referral-ask-after-a-call) |
 | Hiring manager (EM, SDM) | Team headcount and who interviews | A 15 to 30 minute chat about the team | Email (they "live in their emails", per interviewing.io) | After you apply, or when the role is about to open | [H1 to H4](templates.md#hiring-manager-cold-emails) |
-| University or campus recruiter | Intern and new grad pipelines, campus events, fair booths | Status, timeline, events for your role | Email after applying, LinkedIn note, fair booth | 1 to 3 days after applying | [C2](templates.md#c2-university-recruiter-after-you-apply), [E1](templates.md#e1-university-recruiter-after-you-apply) |
+| University or campus recruiter | Intern and new grad pipelines, campus events, fair booths | Status, timeline, events for your role | Email after applying, LinkedIn note, fair booth | Before a role opens, then 1 to 3 days after applying | [E6](templates.md#e6-university-recruiter-before-the-role-is-posted), [C2](templates.md#c2-university-recruiter-after-you-apply), [E1](templates.md#e1-university-recruiter-after-you-apply) |
 | Technical recruiter | Experienced (0 to 3 years) pipelines, scheduling, process | Status and process after you apply or are referred | Email or LinkedIn | After applying | [C3](templates.md#c3-technical-recruiter-after-you-apply), [E2](templates.md#e2-technical-recruiter-after-you-apply) |
 | Sourcer or recruiter who contacts you | Inbound pipeline | Level, location, sponsorship, next step | Reply where they wrote | Within 24 hours | [I1 to I5](templates.md#replies-to-recruiters-who-contact-you) |
 | Professors, TAs, lab managers | Research roles, TA roles, intros to former students | A research or TA role, or an intro | Email | Before the semester's hiring | [E5](templates.md#e5-professor-or-lab-research-ta-or-intro-to-industry) |
+| Mutual contact (professor, friend, ex-manager) who knows someone there | A warm intro | A double opt-in intro with a forwardable note | Email or text | As soon as you spot the link in your 2nd-degree network | [R10](templates.md#r10-ask-a-mutual-contact-for-an-intro) |
 | Strangers at the company | Cold referral, the weakest channel | Only with real common ground; a chat first | Email | Last resort | [R4](templates.md#r4-stranger-with-real-common-ground) |
 
 ## The order of operations for each company
@@ -51,11 +52,11 @@ Run this for every company on your list. It follows interviewing.io's channel da
 3. Contact warm people first: friends, ex-colleagues, classmates, TAs, club alumni. Ask for the referral directly with [R1](templates.md#r1-friend-or-ex-colleague).
 4. If you have no warm contact, find 1 to 2 alumni or engineers on the team ([finding people](finding-people.md)). Ask for a 15-minute chat. Ask for the referral only after the chat.
 5. In parallel, email the hiring manager of the exact team ([cold email](cold-email.md)).
-6. Apply on the careers site the same day you get the referral link, or the same day you apply anyway if no referral is coming.
+6. Apply on the careers site the same day the referral link arrives. If no referral is coming, apply within the posting's first week anyway.
 7. Within 1 to 3 days of applying, send the university or technical recruiter a short note with the job ID ([E1](templates.md#e1-university-recruiter-after-you-apply) or [E2](templates.md#e2-technical-recruiter-after-you-apply)).
 8. Leave cold referral asks to strangers for last, and only with real common ground. interviewing.io found cold referrals net negative at FAANG: "Given that cold referrals aren't zero effort, our advice is to expend that energy elsewhere."
 9. Follow up at most twice per person, then stop ([follow-ups](templates.md#follow-ups)).
-10. Log every touch in your tracker.
+10. Log every touch in your tracker ([follow-up and tracking](follow-up-and-tracking.md)).
 
 ## Pick the channel by goal
 
@@ -77,7 +78,7 @@ Run this for every company on your list. It follows interviewing.io's channel da
 | First and second years | University recruiters | Same calendar | Ask recruiters about early-career programs by name ([programs](../internships/programs.md)). |
 | New grads | University recruiters, hiring managers, alumni | Simplify's 2027 roadmap: Microsoft's main new grad season runs August to October 2026, with a smaller round January to March 2027, and "By November, returning interns have already filled a lot of slots" ([Simplify new grad roadmap](https://simplify.jobs/blog/swe-interview-prep-roadmap-2027)) | Apply in the first week a role appears; reviews are rolling. |
 | 0 to 3 years experience | Hiring managers, ex-colleagues, technical recruiters | Year-round | Cold email to hiring managers is your best cold channel. Make your profile searchable so recruiters come to you ([recruiter search](../linkedin/recruiter-search.md)). |
-| Startups | Founders and hiring managers directly | Year-round | Jugal went from "no offers" to "3 offers" in under 3 weeks with no referrals, using YC's Work at a Startup and Wellfound filtered to recently active Seed and Series A companies ([How I Got My First Startup Offer](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer)). |
+| Startups | Founders and hiring managers directly | Year-round | Jugal went from "no offers" to "3 offers" in under 3 weeks with no referrals, using YC's [Work at a Startup](https://www.workatastartup.com/companies) and [Wellfound](https://wellfound.com/) with the "Recently Active" and "Seed/Series A" filters ([How I Got My First Startup Offer](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer)). Message the founder or hiring manager the day you apply with [M1](templates.md#m1-jugals-15-minute-chat-email) or [R6](templates.md#r6-jugals-internship-cold-message). |
 
 ## How much to send each week
 
@@ -90,11 +91,11 @@ Run this for every company on your list. It follows interviewing.io's channel da
 Hard limits that apply in every mode:
 
 1. Contact 1 to 2 people per company per wave ([Hunter 2026](https://hunter.io/the-state-of-cold-email)).
-2. Send at most 3 touches per person: 1 message and 2 follow-ups (same Hunter report; Jugal: "follow up once. Maybe twice max.").
+2. Send at most 3 touches per person: 1 message and 2 follow-ups (same Hunter report; Jugal: "follow up once. Maybe twice max." in [The One Skill post](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every)).
 3. Write one personal line by hand in every message. Hunter's data: manual edits raised replies 18%, two custom details raised them 56%, and 69% of decision makers said it bothers them if AI was used.
 4. Spend your 3 to 5 free LinkedIn personalized notes a month on your top targets ([finding people](finding-people.md#stay-inside-linkedins-limits)).
 
-A suggested week for an active search:
+A suggested week (10 to 15 first messages, plus follow-ups):
 
 | Day | Task | Time |
 |---|---|---|
@@ -134,7 +135,7 @@ A suggested week for an active search:
 
 | Resource | What it is | How to use it |
 |---|---|---|
-| [7 videos on networking your way to offers](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to) | Jugal's newest networking edition (Sept 2026), with 4 templates | Copy the 4 templates into [templates](templates.md); follow the video order below |
+| [7 videos on networking your way to offers](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to) | Jugal's newest networking edition (Sept 2026), with 4 templates | Its 4 templates are [C11](templates.md#c11-jugals-connection-note), [M1](templates.md#m1-jugals-15-minute-chat-email), [F1](templates.md#f1-jugals-bump-at-day-5-to-7), and [R3](templates.md#r3-jugals-referral-ask-after-a-call). Follow the video order below. |
 | [The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every) | Jugal's relationship rituals, introvert plan, 3 templates | Adopt the 30-minutes-a-week ritual |
 | [Holy Grail of Networking (Notion)](https://jugaldb.notion.site/The-Holy-Grail-of-Networking-A-Z-with-templates-1a0af2117b838027aa5cd47911f2a20f) | Jugal's Boolean strings, connection and follow-up templates | Use the Boolean strings on [finding people](finding-people.md) |
 | [How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting) | Jugal's system: talk to engineers, managers, and senior team members before you need a referral | Read the referrals section before your first chat |

@@ -1,6 +1,6 @@
 # Negotiation scripts and email templates
 
-Copy-paste scripts for every moment from the recruiter screen to the signed offer. Replace everything in [brackets] and delete any line that is not true for you.
+Scripts for every moment from the recruiter screen to the signed offer. Replace everything in [brackets] and delete any line that is not true for you.
 
 The wording is original. The ideas come from [Patrick McKenzie](https://www.kalzumeus.com/2012/01/23/salary-negotiation/), [Haseeb Qureshi](https://www.freecodecamp.org/news/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6/), [Josh Doody](https://fearlesssalarynegotiation.com/salary-negotiation-email-sample/), [Aline Lerner](https://interviewing.io/blog/negotiate-salary-recruiter), [Tech Interview Handbook](https://www.techinterviewhandbook.org/negotiation-rules/) and [NACE](https://www.naceweb.org/career-development/organizational-structure/advisory-opinion-setting-reasonable-deadlines-for-job-offers).
 
@@ -17,10 +17,11 @@ The wording is original. The ideas come from [Patrick McKenzie](https://www.kalz
 | Recruiter asks your expectations | [S1](#s1-expectations-question), [S2](#s2-pushed-for-a-number), [S3](#s3-the-post-shows-a-range), [S4](#s4-a-form-forces-a-number) |
 | Recruiter asks your current pay | [S5](#s5-salary-history) |
 | Recruiter asks where else you interview | [S6](#s6-where-else-are-you-interviewing) |
-| The whole recruiter screen | [S7](#s7-recruiter-screen-call-script) |
+| The whole recruiter screen | [S7](#s7-recruiter-screen-call-script), [S7b](#s7b-thank-you-after-the-screen) |
 | You need another company to move faster or slower | [S8](#s8-ask-a-company-to-speed-up), [S9](#s9-ask-to-schedule-later) |
 | You hear the offer | [S10](#s10-on-the-offer-call), [S11](#s11-email-after-the-offer-call), [S12](#s12-offer-questions-checklist) |
 | You want more | [S13](#s13-counter-with-a-competing-offer) to [S20](#s20-the-close) |
+| Intern offer, or a lower level than expected | [S16b](#s16b-intern-housing-and-relocation), [S16c](#s16c-question-the-level) |
 | The deadline is too short | [S21](#s21-extension-request) to [S24](#s24-return-offer-extension) |
 | You decide | [S25](#s25-accept) to [S29](#s29-withdraw-from-other-processes) |
 | Visa or India specifics | [S30](#s30-sponsorship-and-wage-level) to [S33](#s33-india-ctc-and-joining-date) |
@@ -79,11 +80,11 @@ Flexible, depending on the full package (base, equity, sign-on) and the level.
 I'd rather not share past compensation. My [internship / current] pay was set for a different role, and I'd like this offer to reflect this role and the market for it. I'm happy to talk about the range you have for this position.
 ```
 
-> **Tip:** California, Washington, Colorado and Illinois restrict salary-history questions. You do not need to quote the law. The line above is enough.
+> **Tip:** California, New York, Washington, Colorado, Illinois, Minnesota and Massachusetts restrict salary-history questions ([table](index.md#us-pay-transparency-laws)). You do not need to quote the law. The line above is enough.
 
 ### S6: Where else are you interviewing
 
-Adapted from [Aline Lerner](https://interviewing.io/blog/sabotage-salary-negotiation-before-even-start), who says revealing where you are and how far along is a classic early mistake.
+Adapted from [Aline Lerner](https://interviewing.io/blog/sabotage-salary-negotiation-before-even-start). She counts revealing where else you interview, and how far along you are, as part of one of the two big early mistakes.
 
 ```text
 I'm in process with a few other companies at different stages. I'll keep you posted if my timeline changes, and I won't accept another offer without talking to you first.
@@ -129,8 +130,25 @@ Before the call (private notes, never read these out)
 "Thanks. I'll [finish the assessment / send my availability] by [date]. If my timeline changes, what's the best way to reach you?"
 
 After the call
-- Send a two-line thank-you email the same day.
+- Send the S7b thank-you email the same day.
 - Log level, steps, timeline and range in my tracker.
+```
+
+### S7b: Thank-you after the screen
+
+Send within a few hours of the call. It also puts the next steps in writing.
+
+```text
+Subject: Thank you: [Your Name], [Role]
+
+Hi [Recruiter],
+
+Thanks for the call today. I enjoyed hearing about [team or product], especially [one detail they mentioned].
+
+To confirm next steps: [online assessment / technical screen] by [date], and a decision timeline of about [N weeks] after the final round. I'll [send my availability / finish the assessment] by [date].
+
+Best,
+[Your Name]
 ```
 
 ## Timelines
@@ -335,6 +353,44 @@ Use when the recruiter says base is set for new grads.
 ```text
 I understand base is set for this level. Is there flexibility on the sign-on or the equity grant instead? Relocation is also a real cost for me, since I'm moving from [city]. If we can get the sign-on to [$X], I'd be comfortable accepting.
 ```
+
+### S16b: Intern housing and relocation
+
+Intern hourly rates rarely move. Housing, relocation and dates often do. Check the stipend against real costs first ([Intern offers](comp-basics.md#intern-offers)).
+
+```text
+Subject: [Your Name]: internship offer question
+
+Hi [Recruiter],
+
+Thank you for the internship offer. I'm excited to spend the summer on [team or product].
+
+I'm relocating from [city] for [N] weeks. Rent near the [office city] office is about [$X] a month, and the housing stipend is [$Y]. Is there flexibility on the stipend, or a relocation payment that could cover the gap?
+
+I'd also like to confirm the start and end dates: [dates]. With that settled I'm ready to accept by [date].
+
+Thanks,
+[Your Name]
+```
+
+### S16c: Question the level
+
+Use when the offer comes in a level below what you interviewed for, before you discuss money. Some companies cannot change the level after the loop ([Amazon](https://www.levels.fyi/blog/amazon-salary-negotiation.html)), so ask early and expect a "no" at some.
+
+```text
+Hi [Recruiter],
+
+Thank you for the offer. Before I look at the numbers, I want to understand the level. I interviewed for [L4 / E4 / SDE II], and the offer is at [L3 / E3 / SDE I].
+
+Could you share what feedback led to that level? In my current role I [one example of scope that matches the higher level, with a number]. I also have an offer from [Competitor] at [their level], which maps to [higher level] here.
+
+Is there a way to review the level before the offer is final?
+
+Thanks,
+[Your Name]
+```
+
+Delete the competing-offer sentence if you do not have one.
 
 ### S17: Cover what you forfeit
 

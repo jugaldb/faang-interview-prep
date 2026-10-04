@@ -1,10 +1,8 @@
 # Career fairs and the 30-second pitch
 
-For students going to a campus fair, a virtual fair, or a conference expo. When you finish you will have a target list, a pitch you can say in 30 seconds, three questions per booth, and follow-ups ready to send within 24 hours.
+For students going to a campus fair, a virtual fair, or a conference expo. You leave with a target list, a 30-second pitch, three questions per booth, and follow-ups ready to send within 24 hours.
 
-My first internship came from a virtual career fair in my second year. I sent the speaker a short thank-you on LinkedIn, they replied, that led to a call, the call led to an introduction, and three months later I had the internship ([The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every)).
-
-The fair was the door. The follow-up got me through it.
+My first internship came from a virtual career fair in my second year. I sent the speaker a short thank-you on LinkedIn, they replied, that led to a call, the call led to an introduction, and three months later I had the internship ([The One Skill That Can Unlock Every Opportunity](https://jugaldb.substack.com/p/the-one-skill-that-can-unlock-every)). Plan the [follow-up](#after-the-fair) before you plan the booths.
 
 ## Which events to go to
 
@@ -12,19 +10,19 @@ Dates and prices as of Oct 4, 2026. Check each site before you book.
 
 | Event | Who it is for | Next dates | Cost | How to use it |
 |---|---|---|---|---|
-| Your university's career fair | Students at your school | Set by your school; most US fall fairs land in September and October, which is also peak intern season ([Simplify timeline](https://simplify.jobs/blog/summer-2027-internship-timeline)) | Free | Register on [Handshake](https://joinhandshake.com/), open the fair page, and export the employer list |
+| Your university's career fair | Students at your school | Set by your school; most US fall fairs land in September and October, which is also peak intern season ([Simplify timeline](https://simplify.jobs/blog/summer-2027-internship-timeline)) | Free | Register for the fair on [Handshake](https://joinhandshake.com/) and copy the list of attending employers into your target list |
 | Virtual fairs (Handshake and company-hosted) | Anyone eligible | Year-round | Free | Book 1:1 or group slots the day the schedule opens |
-| [Grace Hopper Celebration](https://ghc.anitab.org/) (GHC 26) | Women and nonbinary technologists | Oct 27 to 30, 2026, Anaheim, CA. More than 700 organizations | General $1,099; Academic $749 ($449 with Premium membership) ([pricing](https://ghc.anitab.org/pricing)). Academic needs verification | Join the AnitaB.org Talent Network early so recruiters can find your resume before the expo |
-| [SHPE National Convention](https://shpe.org/engage/events/national-convention/) | Hispanic STEM students and professionals | Oct 28 to 31, 2026, Indianapolis. Nearly 10,000 attendees | Student $470 until Oct 7, then $625 | The page promises interviews and job offers on site. Keep afternoons free |
-| [SWE WE26](https://we26.swe.org/) | Women engineers | Nov 5 to 7, 2026, Boston. 15,000+ attendees from 40+ countries ([SWE calendar](https://swe.org/calendar/we26/)) | See site | Map the career fair floor plan to your target list |
+| [Grace Hopper Celebration](https://ghc.anitab.org/) (GHC 26) | Women and nonbinary technologists | Oct 27 to 30, 2026, Anaheim, CA. More than 700 organizations | General $1,099; Academic $749 ($449 with Premium membership) ([pricing](https://ghc.anitab.org/pricing)). Academic needs verification | Join the AnitaB.org Talent Network early so companies can find you before the expo ([GHC 26 guide](https://anitab.org/blogs/events/your-guide-to-grace-hopper-celebration-2026)) |
+| [SHPE National Convention](https://shpe.org/engage/events/national-convention/) | Hispanic STEM students and professionals | Oct 28 to 31, 2026, Indianapolis. Nearly 10,000 expected. 2027: Oct 6 to 9, Houston | Student $470 until Oct 7, 2026, then $625 ([registration](https://web.cvent.com/event/432b07e5-d865-4514-aa53-5377ab9c37c5/summary)) | The page promises interviews and job offers on site. Keep afternoons free |
+| [SWE WE26](https://we26.swe.org/) | Women engineers | Nov 5 to 7, 2026, Boston. 15,000+ attendees from 40+ countries ([SWE calendar](https://swe.org/calendar/we26/)); career fair with 300+ organizations | See site | Map the career fair floor plan to your target list |
 | [NSBE Convention](https://convention.nsbe.org/) | Black engineers | Mar 31 to Apr 4, 2027, Boston. The 2026 career fair ran as the "NextGen Innovation Expo" with 13,000+ participants ([recap](https://nsbe.org/article/nsbe2026-an-uplifting-experience/)) | See site | Good timing for summer roles that are still open in spring |
 | [Tapia Celebration](https://tapiaconference.cmd-it.org/home-new/) | Diversity in computing | 2026 ran Sept 16 to 18 in Atlanta. 2027 dates not posted yet | See site | Plan for September 2027; check the program for recruiting events |
-| [AISES National Conference](https://aises.org/events/2026-national-conference/) | Indigenous peoples in STEM | Oct 15 to 17, 2026, Portland, OR | See site | Check the conference page for the career fair schedule |
+| [AISES National Conference](https://aises.org/events/2026-national-conference/) | Indigenous peoples in STEM | Oct 15 to 17, 2026, Portland, OR | See site | The event page does not list a career fair. Check the program for employer sessions before you book |
 | [SACNAS NDiSTEM](https://www.sacnas.org/conference) | Chicano, Hispanic, and Native American STEM students | Oct 29 to 31, 2026, Long Beach Convention Center | See site | Use the Academic and Career Expo |
-| [oSTEM Annual Conference](https://ostem.org/) | LGBTQ+ people in STEM | Oct 22 to 24, 2026, Albuquerque (the site blocks automated checks; confirm there) | See site | Use the Career and Graduate School Expo |
-| [ColorStack](https://www.colorstack.org/) | Black and Latinx CS students | Annual career fairs | Free | Join the Slack and submit to the resume book |
-| [Rewriting the Code](https://rewritingthecode.org/) | Women in tech | Career summits | Free membership | Join for summit invites and job posts |
-| Hackathons ([MLH 2027 season](https://mlh.io/seasons/2027/events)) | Anyone | Listed by date on the MLH season page | Usually free | Build a project and meet engineers. Recruiter presence varies, so treat it as a bonus |
+| [oSTEM Annual Conference](https://conference.ostem.org/) | LGBTQ+ people in STEM | Oct 22 to 24, 2026, Albuquerque Convention Center | See site | Use the Career and Graduate School Expo |
+| [ColorStack](https://www.colorstack.org/) | Black and Latinx CS students | Annual career fairs | Membership by application | Apply to join, then use the Slack and the resume drop |
+| [Rewriting the Code](https://rewritingthecode.org/) | Women in tech, university through early career | Virtual Career Summit and other summits | Free membership | Join, then register for the next Virtual Career Summit on the events calendar |
+| Hackathons ([MLH 2027 season](https://www.mlh.com/seasons/2027/events)) | Anyone | Listed by date on the MLH season page | Usually free | Build a project and meet engineers. Recruiter presence varies, so treat it as a bonus |
 
 > **Watch out:** GHC's expo is for women and nonbinary technologists. In 2023 it was overwhelmed by attendees who misrepresented their gender on registration ([NPR via WOSU](https://www.wosu.org/npr-news/2023-10-05/you-could-feel-the-cutthroatness-droves-of-men-took-over-this-womens-tech-fair)). Go only to events you belong at.
 
@@ -38,7 +36,7 @@ Conference passes, flights, and hotels add up. Two kinds of money exist: confere
 4. Tailor each application with the prompt below.
 5. Submit early and stack awards where allowed (a university travel grant for flights plus a conference scholarship for registration).
 
-Example: the [Citadel Conference Travel Grant](https://www.citadel.com/careers/programs-and-events/conference-travel-grant/) covers airfare, lodging, and meals for listed conferences. As of Oct 4, 2026 it listed NeurIPS 2026 with an Oct 5 deadline; its GHC 2026 deadline (Sept 25) has passed.
+Example: the [Citadel Conference Travel Grant](https://www.citadel.com/careers/programs-and-events/conference-travel-grant/) covers round-trip airfare, lodging, airport transport, a meal stipend, and a full-access pass (except at GHC), plus Citadel recruiting dinners. As of Oct 4, 2026 the GHC 2026 round had closed (Sept 25) and the NeurIPS 2026 round closed Oct 5 ([Harvard summary](https://careerservices.fas.harvard.edu/blog/2026/07/23/citadel-conference-travel-grant/)). Put next year's rounds in your deadline list now.
 
 Jugal's mentor prompt, verbatim from the post:
 
@@ -70,8 +68,8 @@ Be brutally honest if any part of my application is weak.
 ### 3 to 4 weeks before
 
 - [ ] Register on Handshake for the campus fair, or buy the conference ticket and apply for grants.
-- [ ] Download the employer list. Pick 10 targets: 5 must-visit and 5 warm-ups.
-- [ ] For each target, find 1 to 3 open roles on the company's careers site and note the job IDs. Recruiters often send you to the website anyway, so knowing the exact role shows initiative ([MIT CAPD](https://capd.mit.edu/resources/how-to-career-fair-phd-postdoc-guide/)).
+- [ ] Copy the attending employer list. Pick 10 targets: 5 must-visit and 5 warm-ups.
+- [ ] For each target, find 1 to 3 open roles on the company's careers site and note the job IDs. Recruiters may not know every job on their own site, so naming the exact role keeps the talk specific ([MIT CAPD](https://capd.mit.edu/resources/how-to-career-fair-phd-postdoc-guide/)).
 - [ ] International students: note each company's sponsorship status ([how to check](../jobs/international-students.md)).
 - [ ] Apply online to roles that are already live, so the recruiter has a record to find.
 - [ ] Conferences: upload your resume to the attendee or talent database.
@@ -112,10 +110,16 @@ Jugal's six steps, from [Craft the Elevator Pitch That Gets You Hired at Career 
 | 5. Call to action | Ask for the next step | "I'd appreciate the chance to discuss how I can contribute to your next big project. Could we schedule a time to chat?" | "What does a strong intern on [team] work on in the first month? Who's the best person to follow up with?" |
 | 6. Practice | Rehearse until it sounds natural | | Record 3 takes on your phone and time each |
 
-Rules that make it work:
+The formula in one line:
+
+```text
+[Hook: one result with a number] + [Name, year, school] + [What you built and with what] + [Why their team or role] + [One question]
+```
+
+Rules:
 
 1. Keep it to 30 seconds. MIT's guide allows 30 to 60 seconds and says to end with a question that engages the listener ([MIT CAPD pitch toolkit](https://capd.mit.edu/resources/career-toolkit-prep-your-elevator-pitch-in-a-flash/)). At a busy booth, use 30.
-2. Write about 70 to 80 words. That is roughly 30 seconds at a calm speaking pace.
+2. Write about 70 to 80 words. At a calm pace of about 150 words a minute, that is 30 seconds. Time it to be sure.
 3. Use a plain hook with a number. It is easier to say naturally than a dramatic question.
 4. One number, one project. Recruiters remember one thing.
 5. End with a question, so it becomes a conversation.
@@ -181,7 +185,7 @@ The same pitch answers "Tell me about yourself" in interviews. See [behavioral i
 3. Record 3 takes on your phone. Note filler words ("basically", "like") and remove them.
 4. Have a friend interrupt you at 15 seconds with a question. Real reps interrupt.
 5. Use it at 2 warm-up booths before your top targets.
-6. Want regular practice? [Toastmasters](https://www.toastmasters.org/) clubs (paid membership) or the [TED talks on public speaking](https://www.ted.com/playlists/226/ted_talks_on_public_speaking) playlist.
+6. For weekly practice, visit a [Toastmasters](https://www.toastmasters.org/) club as a free guest (membership is paid), or watch 2 talks from the [TED talks on public speaking](https://www.ted.com/playlists/226/ted_talks_on_public_speaking) playlist.
 
 ## At the booth: three questions, then leave
 
@@ -238,14 +242,14 @@ Next: [apply to Job ID / email them by date / attend info session]
 3. Keep an afternoon block free each day for interviews that get scheduled at the booth.
 4. Go to company talks and info sessions, not just the expo floor. Thank any speaker whose talk you can name a detail from.
 5. Visit 1 or 2 low-priority booths first to warm up, then your top 5.
-6. Check out the [company guides](../companies/index.md) for the interview format of each target before you talk to them.
+6. Read the [company guide](../companies/index.md) for each top-5 target so you know its interview format before you talk to them.
 
 ## International students
 
 1. Check sponsorship before the fair, so you do not spend your best minutes on a company that cannot hire you ([international students](../jobs/international-students.md)).
 2. Ask about sponsorship as your third question, after you have made your case.
-3. For defense and aerospace employers, search the posting for "export control", "US person", and "sponsorship". Those roles usually need US citizenship or permanent residency ([494 Summer 2027 Internships](https://jugaldb.substack.com/p/494-summer-2027-internships-are-already)).
-4. Your clock is shorter. A warm intro from a fair is one of the fastest ways to buy back time ([7 videos on networking](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to)).
+3. For defense and aerospace employers, search the posting for "export control", "US person", and "sponsorship". Export control roles usually require US person status: citizen, green card holder, refugee, or asylee ([494 Summer 2027 Internships](https://jugaldb.substack.com/p/494-summer-2027-internships-are-already)).
+4. Send your fair follow-ups the same night. On F-1 or OPT your search clock is shorter, and a warm intro is the fastest way to buy back time ([7 videos on networking](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to)).
 
 ## After the fair
 
@@ -270,7 +274,7 @@ Thanks again,
 [LinkedIn]
 ```
 
-LinkedIn note (under 200 characters, the limit for a personalized invitation; free accounts get only a few personalized notes a month, per [LinkedIn help](https://www.linkedin.com/help/linkedin/answer/a563153)):
+LinkedIn note (under 200 characters, the limit for a personalized invitation). Free accounts get 3 personalized notes a month, per [LinkedIn help](https://www.linkedin.com/help/linkedin/answer/a563153), so spend them on the reps you most want to hear from:
 
 ```text
 Hi [Name], thanks for the chat at the [Company] booth at [Fair] about [topic]. I applied to [role] ([Job ID]) tonight. Would love to stay connected.

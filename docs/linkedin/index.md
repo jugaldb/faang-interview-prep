@@ -9,19 +9,19 @@ I applied to over 700 roles and got 3 interviews before I figured out how Linked
 | Order | What they see | Where it comes from | Fixed in |
 |---|---|---|---|
 | 1 | Photo, name, headline | Search result card | [Step 1](#step-1-photo), [Step 3](#step-3-headline) |
-| 2 | Location, current company or school | Intro section | [Step 5](#step-5-intro-fields-location-industry-contact) |
+| 2 | Location, current company or school | Intro section | [Step 4](#step-4-intro-fields-location-industry-contact) |
 | 3 | "Open to work" label (recruiters only) | Open to Work settings | [Step 15](#step-15-open-to-work-recruiters-only) |
-| 4 | First 2 to 3 lines of About | About | [Step 6](#step-6-about) |
-| 5 | Featured items | Featured | [Step 10](#step-10-featured) |
-| 6 | Titles, dates, bullets | Experience | [Step 7](#step-7-experience) |
-| 7 | Skills, education, certifications | Lower sections | [Step 9](#step-9-skills), [Step 11](#step-11-education), [Step 12](#step-12-licenses-and-certifications) |
+| 4 | First 300 or so characters of About | About | [Step 5](#step-5-about) |
+| 5 | Featured items | Featured | [Step 9](#step-9-featured) |
+| 6 | Titles, dates, bullets | Experience | [Step 6](#step-6-experience) |
+| 7 | Skills, education, certifications | Lower sections | [Step 8](#step-8-skills), [Step 10](#step-10-education), [Step 11](#step-11-licenses-and-certifications) |
 
-## Official limits (check before you write)
+## Limits to know before you write
 
 | Field | Limit | Source |
 |---|---|---|
-| Headline | 220 characters (about 60 show in search snippets) | Third-party: [AuthoredUp limits table](https://authoredup.com/blog/linkedin-character-limit). LinkedIn Help does not publish it. |
-| About | 2,600 characters | [LinkedIn Talent Blog](https://www.linkedin.com/business/talent/blog/product-tips/linkedin-profile-summaries-that-we-love-and-how-to-boost-your-own) |
+| Headline | 220 characters (about 60 to 70 show in search results) | Third-party: [AuthoredUp limits table](https://authoredup.com/blog/linkedin-character-limit). LinkedIn Help does not publish it. |
+| About | 2,600 characters (about 300 show before "see more") | [LinkedIn Talent Blog](https://www.linkedin.com/business/talent/blog/product-tips/linkedin-profile-summaries-that-we-love-and-how-to-boost-your-own); the 300 is third-party ([AuthoredUp](https://authoredup.com/blog/linkedin-character-limit)) |
 | Top skills in About | 5 | [LinkedIn Talent Blog: skills](https://www.linkedin.com/business/talent/blog/talent-acquisition/skills-on-linkedin-profile) |
 | Experience description | 2,000 characters per role | Third-party: [AuthoredUp](https://authoredup.com/blog/linkedin-character-limit) |
 | Skills | 100 | [LinkedIn Help: add and remove skills](https://www.linkedin.com/help/linkedin/answer/a549047) |
@@ -96,7 +96,7 @@ github.com/[username]
 Recruiters see your headline in every search result, comment, and invitation. It can differ from your job title ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a542926)), and LinkedIn's skill matching reads it ([Recruiter skills help](https://www.linkedin.com/help/recruiter/answer/a593591)). Write it as a keyword field, not a job title.
 
 1. From your 5 saved job descriptions, write down the exact role title they use and the 5 skills that appear most.
-2. Fill the formula below. Put the role word in the first 60 characters, because only about that much shows in search snippets.
+2. Fill the formula below. Put the role word in the first 60 characters. Search results show only about 60 to 70.
 3. Stay under 220 characters. Separate parts with " | ".
 4. Delete "aspiring", "passionate", "enthusiast", and "looking for opportunities". Recruiters do not type those words.
 5. Leave visa status out of the headline. If it helps, put one plain line in About (see [International students](../jobs/international-students.md)).
@@ -142,14 +142,7 @@ My strongest proof point:
 Write me 3 LinkedIn headline options. Each must be under 220 characters, put the target role in the first 60 characters, include multiple searchable keywords a recruiter would type, and sound like a real person wrote it. After the 3 options, explain which keywords each one targets and recommend one.
 ```
 
-## Step 4: Custom URL
-
-1. Go to **Me > View profile > Edit (next to Public profile & URL) > Edit your custom URL** ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a542685)).
-2. Type `firstname-lastname`. If taken, add a middle initial or your field: `firstname-m-lastname`, `firstname-lastname-swe`.
-3. Save, then paste the new URL into your resume header, GitHub profile, and email signature.
-4. Do not change it again. You get 5 changes per 6 months, and old links break for anyone who saved them.
-
-## Step 5: Intro fields (location, industry, contact)
+## Step 4: Intro fields (location, industry, contact)
 
 Click the pencil on your top card. These edits do not notify your network ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a547248)).
 
@@ -160,9 +153,9 @@ Click the pencil on your top card. These edits do not notify your network ([Link
 | Current position / education shown | Your most relevant one | It is the second line a recruiter reads. |
 | Contact info | Email you check daily, GitHub, portfolio | A recruiter who finds you should not need InMail to reach you. |
 
-## Step 6: About
+## Step 5: About
 
-LinkedIn Help: About should "express your mission, motivation, and skills" ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a554351)). The limit is 2,600 characters; aim for 1,000 to 1,600 characters or under 300 words. Only the first 2 to 3 lines show before "see more", so the hook goes first.
+LinkedIn Help: About should "express your mission, motivation, and skills" ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a554351)). The limit is 2,600 characters; aim for 1,000 to 1,600, or under 300 words. Only about the first 300 characters show before "see more" ([AuthoredUp](https://authoredup.com/blog/linkedin-character-limit)), so the hook goes there.
 
 1. Write the opening line: what you build and for whom, with one number. Not your job title.
 2. Fill the template below: one short paragraph per line, with white space between.
@@ -218,7 +211,7 @@ What I want people to do after reading: [e.g. message me about new grad backend 
 Then write my About section. Under 300 words. First person. Open with something human, not my job title. Short paragraphs with white space. At least one real metric. End with one clear call to action. No buzzwords, no em dashes, no corporate language. Do not invent any fact or number I did not give you.
 ```
 
-## Step 7: Experience
+## Step 6: Experience
 
 Recruiter search reads your Experience titles, dates, and text. Two filters work directly off this section:
 
@@ -249,7 +242,7 @@ Skills: [skill], [skill], [skill]
 
 Use only numbers you can explain in an interview. To keep resume and profile in sync, run Jugal's reverse flow: copy your finished profile into Claude, ChatGPT, or Gemini with his prompt, and paste the LaTeX output into Overleaf ([From LinkedIn to ATS Resume in 1 minute](https://jugaldb.substack.com/p/from-linkedin-to-ats-resume-in-1)).
 
-## Step 8: Projects
+## Step 7: Projects
 
 Projects matter most when you have little work experience. LinkedIn lets you tag up to 5 skills per project, and recruiters see projects tagged with a skill ([Talent Blog](https://www.linkedin.com/business/talent/blog/talent-acquisition/skills-on-linkedin-profile), [Social Media Today, Aug 2023](https://www.socialmediatoday.com/news/linkedin-adds-new-ways-for-job-seekers-highlight-key-skills-and-competencies/690461/)).
 
@@ -266,9 +259,9 @@ Result: [users, latency, accuracy, stars, or "deployed at URL"].
 Link: [GitHub or live URL]
 ```
 
-## Step 9: Skills
+## Step 8: Skills
 
-LinkedIn allows up to 100 skills ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a549047)). After 3, LinkedIn groups them into Industry Knowledge, Tools & Technologies, and Interpersonal Skills, and you can reorder the Skills section ([display order](https://www.linkedin.com/help/linkedin/answer/a568137)). LinkedIn says members with at least one skill get up to 2x more profile views ([Talent Blog](https://www.linkedin.com/business/talent/blog/talent-acquisition/skills-on-linkedin-profile)).
+LinkedIn allows up to 100 skills ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a549047)). After 3, LinkedIn groups them into Industry Knowledge, Tools & Technologies, and Interpersonal Skills, and you can drag skills to reorder them ([display order](https://www.linkedin.com/help/linkedin/answer/a568137)). LinkedIn says members with at least one skill get up to 2x more profile views ([Talent Blog](https://www.linkedin.com/business/talent/blog/talent-acquisition/skills-on-linkedin-profile)).
 
 1. Add 20 to 50 skills you could answer an interview question about (Jugal's playbook sets 20 as the minimum). Do not pad to 100 with things you touched once.
 2. Cover four groups: languages (Python, Java, C++, Go, TypeScript), frameworks (React, Spring, FastAPI, PyTorch), infrastructure (AWS, Docker, Kubernetes, PostgreSQL, Kafka), and concepts (Data Structures, Algorithms, Distributed Systems, System Design, REST APIs).
@@ -280,7 +273,7 @@ Recruiter skill search pulls from four places: your Skills section, skill keywor
 
 > **Watch out:** LinkedIn Skill Assessments are retired: "Linkedin Skill Assessments are no longer available" ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a507663)). Ignore guides that tell you to take them.
 
-## Step 10: Featured
+## Step 9: Featured
 
 Featured sits right under your About. On a free account you can feature your own posts, articles, external links (GitHub, portfolio, blog), and uploaded media such as images, PDFs, and videos ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a550399)). Featuring Experience or Projects items themselves is Premium-only ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a1513395)).
 
@@ -289,19 +282,19 @@ Featured sits right under your About. On a free account you can feature your own
 3. Optional resume pin (Jugal's playbook): **Add featured > Add media**, upload your resume PDF, title it "Download My Resume", drag it to the top.
 4. Before you pin a resume, delete your phone number and home address from that copy. LinkedIn says a resume on your profile "will be visible to anyone viewing your profile or that post and may be visible off LinkedIn" ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a506429)).
 
-## Step 11: Education
+## Step 10: Education
 
 Recruiter has filters for **Year of graduation** (from the end date of each school you list), **Degrees**, **Fields of study**, and **Schools** ([Recruiter filter definitions](https://www.linkedin.com/help/recruiter/answer/a414428)). Empty fields mean you drop out of those searches.
 
 1. Add degree type (Bachelor of Technology, Bachelor of Science, Master of Science) and field of study (Computer Science) as separate fields.
-2. Enter start date and expected end date. "Class of 2027" recruiters filter on this.
+2. Enter start date and expected end date. Recruiters hiring the class of 2027 filter on that end date.
 3. List 4 to 6 relevant courses (Data Structures, Operating Systems, Distributed Systems, Machine Learning).
 4. Add GPA only if it is 3.5 or higher, Jugal's threshold in his [LinkedIn Step By Step guide](https://jugaldb.notion.site/LinkedIn-Step-By-Step-by-Jugal-Bhatt-265af2117b838071a066e4db145acf57).
 5. Add activities: ACM chapter, hackathons, TA role, research lab.
 
 > **Watch out:** LinkedIn has paused new school verifications ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a1633497)). Verify with your ID instead ([Step 14](#step-14-verification)).
 
-## Step 12: Licenses and certifications
+## Step 11: Licenses and certifications
 
 Jugal's rule: "Certificates Get the Interview and Projects Get the Offer" ([Top 30 AI Certifications](https://jugaldb.substack.com/p/top-30-ai-certifications-you-need)). Each certification is also a keyword a recruiter can search.
 
@@ -316,11 +309,11 @@ Jugal's rule: "Certificates Get the Interview and Projects Get the Offer" ([Top 
 | Languages | You speak more than one language | Recruiter has a Spoken languages filter ([definitions](https://www.linkedin.com/help/recruiter/answer/a414428)). Set proficiency honestly |
 | Honors & awards | Hackathon wins, scholarships, ICPC, Dean's list | Each one is searchable text |
 | Volunteer experience | Unpaid club roles, mentoring, teaching, nonprofit tech work | Shows leadership. Hiring agents read it. Never relabel a paid job as volunteer |
-| Courses | Your degree has no coursework field you filled | Course names are keywords |
+| Courses | You did not list coursework under Education | Course names are keywords |
 | Publications | Papers, workshop papers, technical blog posts | Hiring agents read publications ([AI agents](https://www.linkedin.com/help/linkedin/answer/a7437598)) |
 | Test scores | Only if strong and relevant (for example GRE for MS applicants) | Optional |
 
-## Step 13: Recommendations
+## Step 12: Recommendations
 
 Your public profile shows your recommendation count and at most two recommendations. Signed-in 1st to 3rd-degree connections see the full text ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a544830)). Two specific ones beat ten vague ones.
 
@@ -332,6 +325,13 @@ Your public profile shows your recommendation count and at most two recommendati
 ```text
 Hi [Name], I'm updating my LinkedIn for [Summer 2027 internships / new grad roles]. Would you be open to writing a short recommendation about my work on [project] during [term]? If it helps, the 3 things I'd love it to mention: [1. specific contribution with result], [2. skill], [3. how I worked with the team]. Happy to send a draft you can edit. Thank you either way.
 ```
+
+## Step 13: Custom URL
+
+1. Go to **Me > View profile > Edit (next to Public profile & URL) > Edit your custom URL** ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a542685)).
+2. Type `firstname-lastname`. If taken, add a middle initial or your field: `firstname-m-lastname`, `firstname-lastname-swe`.
+3. Save, then paste the new URL into your resume header, GitHub profile, and email signature.
+4. Do not change it again. You get 5 changes per 6 months, and an old URL stays linked to you for only 6 months.
 
 ## Step 14: Verification
 
@@ -401,7 +401,7 @@ Open **Me > Settings & Privacy** and set these.
 | Data for Generative AI Improvement | Data privacy | Your call | Controls whether your profile and posts train LinkedIn's AI models; applies to all members ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a5538339)) |
 | Job seeking preferences | Jobs > Preferences | Resume sharing on, Open to Work set | See Steps 15 and 16 |
 
-Creator Mode no longer exists: LinkedIn removed the toggle in early 2024 and gave everyone its tools ([Lindsey Gamble](https://www.lindseygamble.com/blog/linkedin-upcoming-creator-mode-changes)). Older guides, including Jugal's 2025 one, still say to turn it on, so skip that step.
+Creator Mode no longer exists. In early 2024 LinkedIn removed the toggle, gave every member its tools, and let you choose Follow or Connect as your main profile button ([Lindsey Gamble](https://www.lindseygamble.com/blog/linkedin-upcoming-creator-mode-changes)). Pick Connect, since you want a network more than followers. Skip the "turn on Creator Mode" step in older guides, including Jugal's 2025 one.
 
 ## Step 18: Decide on Premium
 
@@ -412,7 +412,7 @@ You do not need Premium to be found. Every signal on this page is free. Premium 
 | 5 InMail credits a month, refunded if answered within 90 days ([InMail credits](https://www.linkedin.com/help/linkedin/answer/a543695/inmail-message-credits-and-renewal-process)) | Only during an active outreach month |
 | Unlimited personalized connection notes ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a563153)) | Useful if you send many cold connection requests |
 | Top choice on Easy Apply; LinkedIn says top choice applicants are 43% more likely to get a recruiter message ([Get hired faster](https://premium.linkedin.com/careers/get-hired-faster)) | Use it on your best-fit roles only |
-| 365 days of profile viewers; AI writing help for a select group of subscribers ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a1444194)) | Nice to have |
+| 365 days of profile viewers ([Free vs Premium](https://www.linkedin.com/help/linkedin/answer/a545596)); AI writing help for a select group of subscribers ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a1444194)) | Nice to have |
 
 1. Check for the free one-month trial first ([Free vs Premium](https://www.linkedin.com/help/linkedin/answer/a545596)). Start it in your heaviest outreach month.
 2. If you pay, buy one month on the web and cancel before renewal. A charged month may be refundable within 7 days if you have not used Premium. iOS purchases refund only through Apple ([refund policy](https://www.linkedin.com/help/linkedin/answer/a1337140)).
@@ -422,10 +422,10 @@ You do not need Premium to be found. Every signal on this page is free. Premium 
 ## Step 19: Test the profile
 
 1. Run your profile through [Resume Worded LinkedIn Review](https://resumeworded.com/linkedin-review) (freemium): it scores headline, About, and experience. How to use it: run once before edits and once after, fix every red item that is true for you.
-2. Run [Jobscan LinkedIn Optimization](https://www.jobscan.co/linkedin-optimization) (freemium): it compares your profile to at least 3 job descriptions. How to use it: paste your 3 best target job descriptions and add only the missing keywords you have really used.
+2. Run [Jobscan LinkedIn Optimization](https://www.jobscan.co/linkedin-optimization) (freemium): it compares your profile to at least 3 job descriptions. How to use it: paste your 3 best target job descriptions and add only the missing keywords you have used.
 3. Search yourself the way a recruiter would. Type `("software engineer intern" OR "SDE intern") AND Python AND "2027"` in the main search bar and filter to People ([Boolean search help](https://www.linkedin.com/help/linkedin/answer/a524335)). Note whose profiles rank above yours and copy their keyword placement, not their claims.
 4. Get a second opinion from an AI audit. Save your profile as PDF and run the LinkedIn Deep Audit module of Jugal's free Job Search Coach skill for Claude ([I talked to 7 FAANG recruiters](https://jugaldb.substack.com/p/i-talked-to-7-faang-recruiters-none)). Fix the "biggest thing holding you back" first.
-5. After 7 days, open **Me > View profile > Analytics > Search appearances** and read "Job titles you were found for" ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a553050)). If your target title is missing, rewrite the headline.
+5. After 7 days, open **Me > View profile**, scroll to **Analytics**, click **Search appearances**, and read "Job titles you were found for" ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a553050)). If your target title is missing, rewrite the headline.
 6. Turn **Share profile updates** back on if you want, then post one update about what you are looking for. Templates are in [Posting for inbound](content.md).
 
 Deeper explanation of filters and spotlights: [How recruiters search](recruiter-search.md).
@@ -437,7 +437,6 @@ Deeper explanation of filters and spotlights: [How recruiters search](recruiter-
 - [ ] Banner: 1584x396 px with target role, 3 to 5 skills, one link
 - [ ] Headline: role word in first 60 characters, 3 to 4 skills, one proof, under 220 characters
 - [ ] No "aspiring" or "passionate" in the headline
-- [ ] Custom URL set to firstname-lastname and added to resume and GitHub
 - [ ] Location set to the city where you want to work
 - [ ] Industry set to Software Development (or similar)
 - [ ] Contact info: email, GitHub, portfolio
@@ -457,6 +456,7 @@ Deeper explanation of filters and spotlights: [How recruiters search](recruiter-
 - [ ] Relevant certifications with credential ID and URL
 - [ ] Languages, honors, volunteer work, and publications added where true
 - [ ] 2 recommendations requested with a draft
+- [ ] Custom URL set to firstname-lastname and added to resume and GitHub
 - [ ] Identity verified (Persona, CLEAR, or DigiLocker)
 - [ ] Open to Work on, Recruiters only, every field filled
 - [ ] Resume data sharing with recruiters on
@@ -489,7 +489,7 @@ Deeper explanation of filters and spotlights: [How recruiters search](recruiter-
 - [The LinkedIn Profile Playbook](https://jugaldb.substack.com/p/the-linkedin-profile-playbook-how): 8 sections, each with a Claude prompt. How to use it: run one prompt per section while you work through this page.
 - [Create Professional LinkedIn Photo in Seconds](https://jugaldb.substack.com/p/ai-tool-gave-me-professional-linkedin): the full headshot prompt. How to use it: Step 1.
 - [LinkedIn Step By Step (Notion)](https://jugaldb.notion.site/LinkedIn-Step-By-Step-by-Jugal-Bhatt-265af2117b838071a066e4db145acf57): the long guide behind the 47-messages post, with a 30-day plan. How to use it: follow the 30-day plan after this page.
-- [From LinkedIn to ATS Resume in 1 minute](https://jugaldb.substack.com/p/from-linkedin-to-ats-resume-in-1): profile to LaTeX resume. How to use it: after Step 7, to keep both in sync.
+- [From LinkedIn to ATS Resume in 1 minute](https://jugaldb.substack.com/p/from-linkedin-to-ats-resume-in-1): profile to LaTeX resume. How to use it: after Step 6, to keep both in sync.
 - [The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually): LinkedIn's place in the full stack. How to use it: read the LinkedIn and Sales Navigator section.
 - [I talked to 7 FAANG recruiters](https://jugaldb.substack.com/p/i-talked-to-7-faang-recruiters-none): a free Claude skill with LinkedIn Quick Feedback and Deep Audit modules. How to use it: install the skill, upload your profile PDF, and work through its "fix immediately" list.
 - [How I Got LinkedIn Premium for Free](https://jugaldb.substack.com/p/how-i-got-linkedin-premium-for-free): free and cheap routes to Premium. How to use it: read before you pay for anything (Step 18).

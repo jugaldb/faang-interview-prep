@@ -1,10 +1,10 @@
 # International students: visas and job search
 
-For F-1 students in the US, and students abroad aiming at US, UK, Canada or Germany roles. When you finish you will know which work authorization you will use, the dates to put in your calendar, how to check if a company sponsors, and exactly what to say when asked.
+For F-1 students in the US, and students abroad aiming at US, UK, Canada or Germany roles. Use it to pick your work authorization, fill in your visa calendar, check sponsors, and answer the sponsorship questions truthfully.
 
-> **Disclaimer:** This page is general information, not legal advice. Immigration rules changed many times in 2025 and 2026, and several rules are in active litigation. Confirm your own situation with your school's international student office (your DSO) and, for anything involving H-1B, O-1 or a green card, a licensed immigration attorney. Facts are as of October 4, 2026.
+> **Disclaimer:** This page is general information, not legal advice. Immigration rules changed many times in 2025 and 2026, and several are in active litigation. Confirm your situation with your school's international student office (your DSO), and with a licensed immigration attorney for anything involving H-1B, O-1 or a green card. Facts are as of October 4, 2026.
 
-I was not selected in the H-1B lottery this year, so this is not theory for me ([post](https://jugaldb.substack.com/p/i-didnt-get-selected-in-h1-b-lottery)). Plan for the lottery, and build a plan B from day one.
+I was not selected in the H-1B lottery this year, so this is not theory for me ([post](https://jugaldb.substack.com/p/i-didnt-get-selected-in-h1-b-lottery)). Plan for the lottery, and start a [plan B](#if-you-are-not-selected-or-opt-is-running-out) from day one.
 
 ## Status snapshot (as of Oct 4, 2026)
 
@@ -30,11 +30,18 @@ I was not selected in the H-1B lottery this year, so this is not theory for me (
 | Long term | H-1B (lottery), O-1, L-1, cap-exempt H-1B, green card | Varies | H-1B is a lottery. Up to 3 tries on STEM OPT |
 | Between H-1B selection and Oct 1 | Cap-gap | Until April 1 or your H-1B start date, whichever is earlier | Only if your employer filed a change of status on time |
 
-Video walkthrough from Jugal for international candidates: [How to land your dream job in USA, with Yudi J](https://www.youtube.com/watch?v=jcnsNJ3VcN4).
+Video walkthrough from Jugal for international candidates: [How to land your dream job in USA 2025 (Jugal Bhatt with Yudi J)](https://www.youtube.com/watch?v=jcnsNJ3VcN4).
 
 ## D/S rule: what changed and what did not
 
-DHS published a final rule on July 17, 2026 to replace "duration of status" with fixed admission periods. It was due to take effect Sept 15, 2026. On Sept 14, 2026 a federal court in Massachusetts blocked it nationwide (Presidents' Alliance v. DHS). USCIS says it "will proceed under the previous regulatory provisions" while the order stands. The government appealed to the First Circuit on Sept 30, 2026.
+| Date | Event |
+|---|---|
+| July 17, 2026 | DHS publishes a final rule replacing "duration of status" with fixed admission periods, effective Sept 15 |
+| Sept 14, 2026 | A federal court in Massachusetts blocks it nationwide (Presidents' Alliance v. DHS) |
+| Sept 30, 2026 | The government appeals to the First Circuit. The appeal does not put the rule into effect |
+| Oct 9, 2026 (due) | Both sides file positions on next steps, as ordered at an Oct 2 status conference |
+
+While the order stands, USCIS says it "will proceed under the previous regulatory provisions" ([I-539 page](https://www.uscis.gov/i-539)).
 
 Jugal's breakdown of the rule and who it hits hardest: [Super Big Immigration News: The F-1 Duration of Status Era Is Over](https://jugaldb.substack.com/p/super-big-immigration-news-the-f). Two updates to that post: the rule is now blocked, and its "$1,780" figure is the OPT premium processing fee, not the base I-765 fee ($470 online).
 
@@ -46,7 +53,7 @@ If the rule is ever revived, it would:
 - Require Form I-539 extensions through USCIS, with a fee and possible biometrics.
 - Limit transfers and program changes, especially in the first year.
 
-> **Watch out:** since Sept 15, 2026 the "current" view of the federal regulations (eCFR) shows the blocked rule's text, such as a 30-day OPT deadline. That text is not in force. Use the [Sept 14, 2026 version of 8 CFR 214.2](https://www.ecfr.gov/on/2026-09-14/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2) or USCIS pages. The rules in force use 60 days.
+> **Watch out:** since Sept 15, 2026 the "current" view of the federal regulations (eCFR) shows the blocked rule's text, such as a 30-day OPT deadline. That text is not in force: the rules in force use 60 days. Read the [Sept 14, 2026 version of 8 CFR 214.2](https://www.ecfr.gov/on/2026-09-14/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2) or the USCIS pages instead.
 
 Do this week:
 
@@ -73,16 +80,16 @@ What changed (August 2026):
 
 - SEVP told DSOs to authorize CPT only "if the work associated with CPT is required for all students pursuing that degree" ([BCM 2608-01](https://www.ice.gov/doclib/sevis/pdf/bcm260801.pdf)).
 - CPT tied to an optional elective course no longer qualifies ([BCM 2608-02](https://www.ice.gov/doclib/sevis/pdf/bcm_260802.pdf)).
-- Schools responded fast. [USC](https://ois.usc.edu/important-update-regarding-curricular-practical-training/) stopped elective-based CPT. [UW](https://iss.washington.edu/update-on-cpt-policy/) paused new CPT that is not required for all students. [Brown](https://isss.brown.edu/news/2026-09-02/cpt-update) approves only CPT required for everyone in the program. Existing authorizations stand on their I-20 terms.
+- Schools responded within days: [USC](https://ois.usc.edu/important-update-regarding-curricular-practical-training/) stopped elective-based CPT, [UW](https://iss.washington.edu/update-on-cpt-policy/) paused new CPT that is not required for all students, and [Brown](https://isss.brown.edu/news/2026-09-02/cpt-update) approves only CPT required for everyone in the program. Existing authorizations stand on their I-20 terms.
 - The guidance also limits "Day 1 CPT" programs, per [Jackson Lewis](https://www.globalimmigrationblog.com/2026/09/federal-court-blocks-dhs-f-1-j-1-fixed-period-admission-rule-curricular-practical-training-restrictions-remain/).
 
 Your plan for a Summer 2027 internship:
 
 1. Email your DSO now (template below).
 2. If your program requires an internship for everyone: CPT still works. Get the offer, request CPT, wait for the I-20 update.
-3. If not: plan on pre-completion OPT. File up to 90 days before you complete your first full academic year, with a start date after that year. Fee $470 online.
+3. If not, plan on pre-completion OPT. File up to 90 days before you complete your first full academic year, with a start date after that year ($470 online).
 4. Budget processing time. Premium processing for OPT is $1,780 extra for a 30-business-day decision ([USCIS premium processing](https://www.uscis.gov/forms/all-forms/how-do-i-request-premium-processing)).
-5. Check the one-academic-year rule against your start date. Fall starters usually meet it by the next summer. January starters usually do not, so target on-campus work or research that first summer and apply for the next one.
+5. Check the one-academic-year rule against your start date. Fall starters usually meet it by the next summer. January starters usually do not: target on-campus work or research that first summer, and apply for the next one.
 6. Tell the recruiter early which authorization you will use (scripts below).
 
 ```text
@@ -132,7 +139,7 @@ December 18, 2026 graduates: your window runs Sept 19, 2026 to Feb 16, 2027.
 ## STEM OPT extension
 
 1. **Check your degree.** Find the CIP code on your I-20 and confirm it is on the [STEM Designated Degree Program List](https://www.ice.gov/doclib/sevis/pdf/stemList2024.pdf). Computer Science (11.0101) is on it.
-2. **Check your employer.** It must be enrolled in E-Verify. Search the [E-Verify employer list](https://www.e-verify.gov/e-verify-employer-search) before you accept an offer. No E-Verify means no STEM OPT at that job.
+2. **Check your employer.** Search the [E-Verify employer list](https://www.e-verify.gov/e-verify-employer-search) before you accept an offer. No E-Verify enrollment means no STEM OPT at that job.
 3. **About 120 days before your OPT card expires,** fill out [Form I-983](https://www.ice.gov/doclib/sevis/pdf/i983.pdf) (training plan) with your manager.
 4. **From 90 days before expiry,** get your DSO's STEM recommendation and file the I-765 within 60 days of it, before your OPT card expires ([USCIS STEM OPT](https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt)).
 5. **If it is still pending when OPT ends,** a timely filed application gives you 180 days of automatic work authorization.
@@ -147,7 +154,7 @@ Official hub: [STEM OPT Hub](https://studyinthestates.dhs.gov/stem-opt-hub).
 
 - **Cap:** 65,000 regular H-1Bs plus 20,000 for people with a US master's or higher ([USCIS cap season](https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/h-1b-cap-season)).
 - **Registration:** your employer registers you online in March for $215 (FY2027 fee). Only selected registrations can file a petition.
-- **FY2027 season:** registration ran March 4 to 19, 2026. Selections went out by March 31. Petitions were filed from April 1 for an Oct 1, 2026 start. FY2028 dates are not announced yet.
+- **FY2027 season:** registration ran March 4 to 19, 2026, selections went out by March 31, and petitions were filed from April 1 for an Oct 1, 2026 start. FY2028 dates (March 2027) are not announced yet.
 - **Your employer files,** not you. Universities and some research nonprofits are cap-exempt and skip the lottery.
 
 | Fiscal year | Eligible registrations | Selected |
@@ -179,7 +186,7 @@ Find your own wage level:
 2. Search the occupation code your employer will use. Software developers are usually SOC 15-1252.
 3. Enter the work location (county or metro area).
 4. Compare your base salary to levels I to IV.
-5. Ask HR which level and location your registration will use. If a role lists several work locations, the lowest level applies. A "remote, any US location" role can register lower than a San Francisco role.
+5. Ask HR which level and location your registration will use. If a role lists several work locations, the lowest level applies, so a "remote, any US location" role can register lower than a San Francisco role.
 
 > **Tip:** do not guess from national numbers. DHS's FY2024 medians for computer and math H-1B workers were $89,253 (level I) to $163,257 (level IV), but levels are set per occupation and county.
 
@@ -211,7 +218,7 @@ What this means for you as of Oct 4, 2026:
 
 ### Cap-gap
 
-If you are selected and your employer files a change of status on time, your F-1 status and OPT work authorization extend until April 1 of the next fiscal year or your H-1B start date, whichever is earlier. Ask your DSO for an updated I-20 showing cap-gap ([USCIS cap-gap](https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/extension-of-post-completion-optional-practical-training-opt-and-f-1-status-for-eligible-students)).
+If you are selected and your employer files a change of status on time, your F-1 status and OPT work authorization extend until April 1 of the fiscal year the H-1B is for, or your H-1B start date, whichever is earlier. Ask your DSO for an updated I-20 showing cap-gap ([USCIS cap-gap](https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/extension-of-post-completion-optional-practical-training-opt-and-f-1-status-for-eligible-students)).
 
 ### What an H-1B costs your employer (as of Oct 2026)
 
@@ -237,13 +244,15 @@ Do this before you tailor anything (5 minutes):
 1. Open the [USCIS H-1B Employer Data Hub](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub).
 2. Pick the latest full fiscal year (FY2025), then FY2026 to date.
 3. Type the employer name. Try variants, because one company can have several legal entities and rows (for example "Amazon.com Services" and "Amazon Web Services").
-4. Read "New Employment Approval". That column counts new H-1B workers, including F-1 and OPT students starting their first H-1B. "Change of Employer Approval" counts transfers ([column guide](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub/understanding-our-h-1b-employer-data-hub)).
-5. Dozens of new-employment approvals a year: they sponsor routinely. Zero across 3 years: assume no, then ask the recruiter. New or small companies may have no history at all.
-6. Check that they sponsor your kind of role. Search the company on [MyVisaJobs](https://www.myvisajobs.com/) or [h1bdata.info](https://h1bdata.info/) for "Software Engineer" filings. Senior-only filings are a weaker signal for new grads.
+4. Read "New Employment Approval". It counts new H-1B workers, including F-1 and OPT students starting their first H-1B, while "Change of Employer Approval" counts transfers ([column guide](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub/understanding-our-h-1b-employer-data-hub)).
+5. Read the count. Dozens of new-employment approvals a year means they sponsor routinely. Zero across 3 years means assume no and ask the recruiter (new or small companies may have no history at all).
+6. Check that they sponsor your kind of role. Search the company on [MyVisaJobs](https://www.myvisajobs.com/) or [h1bdata.info](https://h1bdata.info/) for "Software Engineer" filings, since senior-only filings are a weaker signal for new grads.
 7. STEM students: confirm the company is in [E-Verify](https://www.e-verify.gov/e-verify-employer-search).
 8. Ctrl+F the job post for "sponsor", "export control", "US person", "citizen", "ITAR", "clearance". Jugal's line: "Thirty seconds of Ctrl+F saves you three weeks" ([post](https://jugaldb.substack.com/p/494-summer-2027-internships-are-already)).
 9. Note recent layoffs as a risk factor (EO 14431), not a deal breaker.
 10. Log the result in your tracker.
+
+Checking 40 companies at once? Download a year from the [Data Hub bulk files](https://www.uscis.gov/archive/h-1b-employer-data-hub-files) (archive covers FY2009 to FY2023), open it in a spreadsheet, and filter for your target list in one pass. Use the live hub above for FY2025 and FY2026.
 
 The largest sponsors of new H-1B workers in FY2025 (initial employment approvals, selected tech and finance rows from the [NFAP analysis](https://nfap.com/wp-content/uploads/2025/11/H-1B-Petitions-and-Denial-Rates-For-FY-2025.NFAP-Policy-Brief.2025.pdf) of USCIS data):
 
@@ -257,7 +266,7 @@ The largest sponsors of new H-1B workers in FY2025 (initial employment approvals
 | [Goldman Sachs](../companies/goldman-sachs.md) | 746 | ByteDance / [TikTok](../companies/tiktok.md) | 449 / 412 |
 | Intel | 635 | [Tesla](../companies/tesla.md) | 319 |
 
-FY2025 totals: 114,806 initial employment approvals across 28,277 employers, 61% of which had a single approval. The initial-employment denial rate was 2.8%.
+FY2025 totals: 114,806 initial employment approvals across 28,277 employers, 61% of which had a single approval. The initial-employment denial rate was 2.8%. Once you hold an H-1B, a new job is a transfer, not a new lottery entry: 68,167 change-of-employer petitions were approved in FY2025.
 
 Roles that usually do not work on F-1:
 
@@ -276,7 +285,7 @@ Sponsors H-1B (New Employment approvals, last FY) | E-Verify (Y/N) | Citizenship
 
 Most forms ask two questions. Answer both truthfully. A false "No" to get past a filter is a misrepresentation that can cost you the offer later.
 
-1. **"Are you legally authorized to work in the United States?"** If the form offers an option like "Yes, with OPT/CPT", pick it. If it is a plain Yes/No and you will hold valid CPT or OPT for the job dates, follow your school's guidance and explain in the comment box. Never claim citizenship or permanent residency.
+1. **"Are you legally authorized to work in the United States?"** Pick an option like "Yes, with OPT/CPT" if the form offers one. If it is a plain Yes/No and you will hold valid CPT or OPT for the job dates, follow your school's guidance and explain in the comment box. Never claim citizenship or permanent residency.
 2. **"Will you now or in the future require sponsorship (e.g., H-1B)?"** On F-1, OPT or STEM OPT the truthful answer is almost always "Yes", because you will need H-1B or similar after OPT ends.
 3. **Use the comment box or the recruiter call for detail:** dates, OPT length, STEM eligibility, and that there is no filing needed to start.
 4. **Expect auto-rejections** from employers that do not sponsor. That is why the sponsorship check comes first.
@@ -328,9 +337,9 @@ Best,
 ## Resume and LinkedIn for international students
 
 1. Use the US format for US roles: one page, no photo, no age, no personal details ([Jugal's country guide](https://jugaldb.substack.com/p/4-resume-templates-based-on-your), [Resume templates](../resume/templates.md)).
-2. Leave visa status off the resume by default. The application form asks. Add one line only when applying from abroad or to a company you know screens hard (template below).
+2. Leave visa status off the resume by default, because the application form asks. Add one line only when applying from abroad or to a company you know screens hard (template below).
 3. Put your current US city in the header if you are in the US.
-4. Write the exact degree and graduation month. Recruiters use it to work out your OPT timing. If your degree is STEM-designated, "M.S. Computer Science (STEM)" makes the 3-year runway visible.
+4. Write the exact degree and graduation month, which recruiters use to work out your OPT timing. If your degree is STEM-designated, "M.S. Computer Science (STEM)" makes the 3-year runway visible.
 5. Never write "US Citizen", "Green Card" or "No sponsorship required" unless it is true.
 6. On LinkedIn, an optional About line works: "F-1 STEM OPT eligible, authorized to work through [Month Year]".
 
@@ -352,7 +361,7 @@ Warm introductions matter more for you than for anyone else. Jugal: "Your job se
 - [ ] Set every social media profile to public. Required for F, M and J applicants since June 18, 2025, and for H-1B and H-4 since Dec 15, 2025. List every handle from the last 5 years on the DS-160.
 - [ ] Book your interview in your country of nationality or residence. Third-country stamping is no longer encouraged (since Sept 6, 2025, [UW ISS](https://iss.washington.edu/adjudicating-visa-country-of-residence/)).
 - [ ] Plan for an in-person interview even for a renewal. Most interview waivers ended Sept 2, 2025 ([UW ISS](https://iss.washington.edu/upcoming-changes-to-visa-interview-waiver-policy/)).
-- [ ] Check the travel ban list. Proclamation 10998 (from Jan 1, 2026) fully or partly suspends visas, including F, M and J, for some countries, among them Nigeria. India is not on the list. If you are affected, talk to your DSO before any travel ([Federal Register](https://www.federalregister.gov/documents/2025/12/19/2025-23570/restricting-and-limiting-the-entry-of-foreign-nationals-to-protect-the-security-of-the-united-states)).
+- [ ] Check the travel ban list. Proclamation 10998 (from Jan 1, 2026) fully or partly suspends visas, including F, M and J, for some countries, among them Nigeria (India is not on the list). If you are affected, talk to your DSO before any travel ([Federal Register](https://www.federalregister.gov/documents/2025/12/19/2025-23570/restricting-and-limiting-the-entry-of-foreign-nationals-to-protect-the-security-of-the-united-states)).
 - [ ] Carry: passport, I-20 with a recent DSO travel signature (within 6 months on OPT), EAD if on OPT, an employment letter, transcripts.
 - [ ] Do not leave the US while an H-1B change of status is pending.
 - [ ] New F-1 students: pay the SEVIS I-901 fee ($350) before the visa interview ([ICE](https://www.ice.gov/sevis/i901)).
@@ -377,7 +386,7 @@ Jugal's full walkthrough for Indian students: [Step-by-Step Guide: Applying for 
 | Higher degree | A new program at a higher level brings a new 12 months of OPT. A US master's also makes you eligible for the separate 20,000 advanced-degree cap | Only if you actually want the degree |
 | Another country | UK, Canada or Germany (below) | You are open to moving |
 
-Start collecting O-1 evidence as a student. Jugal judged and organized hackathons before he learned that judging others' work is one of the criteria ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)). Note that only EB-1A is a self-petition. O-1A needs an employer or agent.
+Start collecting O-1 evidence as a student. Jugal judged and organized hackathons before he learned that judging others' work is one of the criteria ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)). Only EB-1A is a self-petition: an O-1A needs a US employer or agent to file.
 
 ## UK, Canada and Germany options
 
@@ -422,6 +431,7 @@ UK Graduate visa 2-year cutoff (if relevant): Dec 31, 2026
 - [USCIS Students and Employment](https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment): on-campus work, CPT, OPT and STEM OPT in one place. How to use it: read it in your first week on campus.
 - [Study in the States: Applying for Practical Training](https://studyinthestates.dhs.gov/students/work/applying-for-practical-training): the student-facing CPT and OPT guide. How to use it: read it before you ask your DSO about a summer internship.
 - [USCIS fee schedule G-1055](https://www.uscis.gov/g-1055): every current fee. How to use it: check it the week you file.
+- [USCIS H-1B Cap Season](https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/h-1b-cap-season): cap numbers, weighted selection and filing rules. How to use it: read it in January, before your employer registers you in March.
 - [Presidents' Alliance D/S tracker](https://www.presidentsalliance.org/duration-of-status-litigation/): the court case status. How to use it: check monthly and before travel.
 - [AILA FY2027 cap season](https://www.aila.org/library/featured-issue-fy2027-h-1b-cap-season): dated timeline of the last lottery. How to use it: expect a similar March schedule.
 - [USCIS FY2025 H-1B characteristics report](https://www.uscis.gov/sites/default/files/document/data/fy25_h1b_characteristics_congress_signed_04242026.pdf): who gets H-1Bs. Initial-employment petitions had a median salary of $103,000. How to use it: sanity-check offers and wage levels.

@@ -1,12 +1,12 @@
 # Tailor your resume to each job
 
-For every application that matters. A full pass takes 30 to 45 minutes, a quick pass 10, and both leave you with a version that uses the job's own words for work you really did.
+For every application that matters. A full pass takes 30 to 45 minutes and a quick pass 10. Either way you end with a version that uses the job's words for work you did.
 
 ## Why tailor
 
 - Google asks for a job-specific resume and says to make it obvious you meet the minimum qualifications ([Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/)).
 - Amazon recruiters say to align your accomplishments with the posting's Basic and Preferred Qualifications ([About Amazon](https://www.aboutamazon.com/news/workplace/amazon-job-application-resume-writing-tips)).
-- Workday's HiredScore grades applicants A to D against the job's basic and preferred qualifications, and recruiters sort by that grade ([Workday docs](https://doc.workday.com/hiredscore/en-us/workday-hiredscore/recruiter-productivity-/reference--candidate-grades.html)).
+- Workday's HiredScore grades applicants A to D against the job's basic and preferred qualifications, and recruiters can sort and filter by that grade ([grades](https://doc.workday.com/hiredscore/en-us/workday-hiredscore/recruiter-productivity-/reference--candidate-grades.html), [Spotlight](https://doc.workday.com/hiredscore/en-us/workday-hiredscore/recruiter-productivity-/concept--spotlight.html)). It skips campus and graduate requisitions, so on many intern and new grad roles a recruiter's keyword search and your form answers do the sorting instead.
 - Jugal: "The job description is the rubric" ([I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume)).
 - Jugal: "If a posting says 'distributed systems' and you wrote 'large scale backend,' the software may not connect the two" ([4 Resume Templates Based on Your Country](https://jugaldb.substack.com/p/4-resume-templates-based-on-your)).
 
@@ -20,7 +20,7 @@ For every application that matters. A full pass takes 30 to 45 minutes, a quick 
 
 Jugal's two rules:
 
-- "One tailored resume per type of role" ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
+- "One tailored resume per type of role" ([Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
 - Maximize how many applications turn into interviews, not how many you submit ([I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume)).
 
 How many applications to send and in what order: [application strategy](../jobs/application-strategy.md).
@@ -28,11 +28,13 @@ How many applications to send and in what order: [application strategy](../jobs/
 ## Build role-type versions once
 
 1. Pick 2 to 4 role types from the table below.
-2. Collect 5 real postings for each type. Jugal's routine: "Grab 5 Amazon job postings you want. Chuck them into ChatGPT with your resume. Ask: 'What skills am I missing? What should I emphasize?'"
-3. Paste the 5 postings into [Text Analyzer](https://www.online-utility.org/text/analyzer.jsp) to see which terms repeat. The [Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/) suggests this word-frequency shortcut.
+2. Collect 5 real postings for each type. Paste them into ChatGPT or Claude with your resume and ask Jugal's two questions: "What skills am I missing? What should I emphasize?" ([Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
+3. Paste the same 5 postings into [Text Analyzer](https://www.online-utility.org/text/analyzer.jsp) and note the terms that repeat. This word-frequency shortcut comes from the [Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/).
 4. Duplicate your base resume (an Overleaf project copy or a Google Docs copy). Name it by type: `resume_backend`, `resume_ml`.
 5. Reorder and reword each copy using the table.
-6. Upload 1 to 2 versions to LinkedIn. LinkedIn keeps your 4 most recent resumes ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a510363)). More in the [LinkedIn guide](../linkedin/index.md).
+6. Upload 1 to 2 versions to LinkedIn, which stores your 4 most recent resumes ([LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a510363)). More in the [LinkedIn guide](../linkedin/index.md).
+
+> **Tip:** Tailor in batches of 5 to 10 jobs from one role family. Jugal: mixing a PM role and a backend role in one batch "gets you a resume that is vaguely fine for both and strong for neither" ([I talked to 7 FAANG recruiters](https://jugaldb.substack.com/p/i-talked-to-7-faang-recruiters-none)).
 
 | Role type | Skills line starts with (only if true) | Lead project | Bullets to surface |
 |---|---|---|---|
@@ -45,8 +47,8 @@ How many applications to send and in what order: [application strategy](../jobs/
 
 ## The 12-step tailoring process
 
-1. **Save the job description.** Copy the full text into a doc with the link and today's date. Postings close fast. The Simplify list notes many SWE internships "only stay open for a few days" ([Summer 2027 Internships](https://github.com/SimplifyJobs/Summer2027-Internships)).
-2. **Check the hard filters first.** Sponsorship, citizenship or export control, graduation window, location, degree. Jugal's check: search the posting for "export control", "US person", and "sponsorship" ([494 Summer 2027 Internships Are Already Live](https://jugaldb.substack.com/p/494-summer-2027-internships-are-already)). If you fail one, stop ([international students](../jobs/international-students.md)).
+1. **Save the job description.** Copy the full text, the link, and today's date into a doc; postings get taken down. The Simplify list notes many SWE internships "only stay open for a few days" ([Summer 2027 Internships](https://github.com/SimplifyJobs/Summer2027-Internships)).
+2. **Check the hard filters first:** sponsorship, citizenship or export control, graduation window, location, degree. Jugal's check is Ctrl+F for "export control", "US person", and "sponsorship" ([494 Summer 2027 Internships Are Already Live](https://jugaldb.substack.com/p/494-summer-2027-internships-are-already)). If you fail one, stop ([international students](../jobs/international-students.md)).
 3. **Split the requirements.** Mark Minimum or Basic qualifications as Must. Mark Preferred qualifications as Nice.
 4. **Pull 10 to 15 terms.** Languages, frameworks, cloud, domains (distributed systems, payments, ML), and practices (testing, CI/CD, code review, on-call).
 5. **Fill the keyword map.** One row per term. Blank template and a filled example are below.
@@ -56,7 +58,7 @@ How many applications to send and in what order: [application strategy](../jobs/
 9. **Surface buried evidence.** Jugal: "if the job description talks about AWS five times and you have AWS experience buried in one bullet, that is something you should probably fix." Rewrite 3 to 5 bullets with the [X, Y, Z method](writing-bullets.md).
 10. **Reorder the Skills lines** to match the posting's priority.
 11. **Run the prompt chain** below for Tier 1 roles.
-12. **Check, export, log.** Read every changed line against your base resume, then run the [parse test](ats.md#test-your-pdf-in-10-minutes). Export the PDF and record which version you sent in your [tracker](../outreach/follow-up-and-tracking.md).
+12. **Check, export, log.** Read every changed line against your base resume, then run the [parse test](ats.md#test-your-pdf-in-10-minutes). Keep a copy named `Firstname_Lastname_Resume_[Company].pdf` in your own folder, upload it as `Firstname_Lastname_Resume.pdf`, and log the version in your [tracker](../outreach/follow-up-and-tracking.md).
 
 ## Worked example
 
@@ -286,6 +288,15 @@ List the gaps between my resume and this role, then rewrite my 5 weakest bullets
 
 Turns your LinkedIn profile into a one-page LaTeX resume. Steps and the full prompt: [templates](templates.md#build-it-from-your-linkedin-profile).
 
+### Job Search Coach (Claude skill)
+
+Jugal's free Claude skill. Its resume modules rewrite your resume for one job description while keeping your format, and produce one tailored version per job from your master file. Download link and install steps: [I talked to 7 FAANG recruiters](https://jugaldb.substack.com/p/i-talked-to-7-faang-recruiters-none).
+
+1. Install the skill, then say "help me tailor my resume for this role" and paste your resume and the full job description.
+2. For a batch, give it 5 to 10 postings from one role family.
+3. Move the fixes that show up in every version into your base resume.
+4. Run [Check the AI's work](#check-the-ais-work) on every output.
+
 ## Check the AI's work
 
 1. Diff it. Put your base resume and the AI version side by side. Check every changed number, tool, title, and date.
@@ -299,7 +310,7 @@ Turns your LinkedIn profile into a one-page LaTeX resume. Steps and the full pro
 | Tool | Cost | Use it for | Ignore |
 |---|---|---|---|
 | [Resume Worded scanner](https://resumeworded.com/resume-scanner) | Freemium | A second opinion on missing keywords, weak verbs, and formatting | Comparing its score with other tools. Resume Worded says to compare scores only within the same tool |
-| [Teal](https://www.tealhq.com/) | Freemium. Free tier shows the top 5 job description keywords; Match Score needs Teal+ ($13 per week, $29 per 30 days, or $79 per 90 days as of Oct 2026) | Spot-checking the top missing terms | Paying only for a match percentage |
+| [Teal](https://www.tealhq.com/) | Freemium. Free tier shows the top 5 job description keywords; Match Score needs Teal+ ($13 per week, $29 per month, or $79 per 90 days as of Oct 2026) | Spot-checking the top missing terms | Paying only for a match percentage |
 | [Simplify resume builder](https://simplify.jobs/resume-builder) | Freemium. Build, score, and export are free; AI tailoring needs Simplify+ | Pairing with the Simplify autofill extension for internship applications | The score as a pass mark |
 | [Resume Matcher](https://github.com/srbhr/Resume-Matcher) | Free, open source | Local AI tailoring when you do not want to paste your resume into a hosted tool | |
 | [Text Analyzer](https://www.online-utility.org/text/analyzer.jsp) | Free | Word frequency across 3 to 5 postings | |
@@ -312,7 +323,7 @@ Treat that number as a lint inside one tool. Employers never see it; their syste
 
 | Company | Tailor toward | Links |
 |---|---|---|
-| Google | Minimum qualifications and X, Y, Z bullets. You can apply to up to three jobs in a rolling 30-day window, so tailor each one | [Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/), [Google page](../companies/google.md) |
+| Google | Minimum qualifications and X, Y, Z bullets. You can apply to up to three jobs every 30 days, so tailor each one | [Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/), [Google page](../companies/google.md) |
 | Amazon | Basic and Preferred Qualifications. The Summer 2027 SDE intern posting lists AI-assisted development tools as a basic qualification | [About Amazon](https://www.aboutamazon.com/news/workplace/amazon-job-application-resume-writing-tips), [posting](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa), [Amazon page](../companies/amazon.md), [Leadership Principles](../behavioral/amazon-leadership-principles.md) |
 | Meta | No public resume guidance found (as of Oct 2026). Use the general rules | [Meta page](../companies/meta.md) |
 | Anthropic | Draft yourself, refine with Claude | [Anthropic candidate AI guidance](https://www.anthropic.com/candidate-ai-guidance), [Anthropic page](../companies/anthropic.md) |

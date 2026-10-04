@@ -1,6 +1,6 @@
 # Mock interviews: where, how, how many
 
-For anyone who can solve problems alone but has not practiced solving them in front of someone. When you finish, you will have a list of free and paid options with prices, a run sheet and scoring rubric for peer mocks, and a schedule for how many to do and when.
+For anyone who can solve problems alone but has not practiced solving them in front of someone. You get free and paid options with prices, a run sheet and scoring rubric for peer mocks, and a schedule for how many to do and when.
 
 Jugal's reason, from [The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually): solving silently and explaining under pressure are two different skills. From [Want a Job in the Next 30 Days?](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use): "Knowing the answer and being able to say it calmly under pressure are two different things, and you only close that gap with reps."
 
@@ -9,35 +9,47 @@ Jugal's reason, from [The job-search tool stack I'd actually use in 2026](https:
 | Finding | Source |
 |---|---|
 | Candidates were "almost 2X as likely to pass" Facebook after at least five practice interviews | [interviewing.io, practice gap](https://interviewing.io/blog/technical-interview-practice-gap) |
-| Pass rates with 5+ real interviews vs 1 to 4: Amazon 81% vs 65%, Facebook 71% vs 40%. Google: 76% with 3 mocks vs 69% with 2 | [interviewing.io, readiness survey](https://interviewing.io/blog/how-know-ready-interview-faang) |
-| Among people who practice, "no difference in performance between elite schools and non-elite schools" | [interviewing.io, practice gap](https://interviewing.io/blog/technical-interview-practice-gap) |
+| Predicted phone-screen pass rates with 5+ prior real technical interviews vs 1 to 4: Amazon 81% vs 65%, Facebook 71% vs 40%. Google: 76% with 3 interviewing.io mocks vs 69% with 2 | [interviewing.io, readiness survey](https://interviewing.io/blog/how-know-ready-interview-faang) |
+| Among students who practiced regularly, "there was no difference in performance between elite schools and non-elite schools" | [interviewing.io, practice gap](https://interviewing.io/blog/technical-interview-practice-gap) |
 | Only about 20% of candidates perform consistently from interview to interview | Same post |
 | Candidates averaging about 3.0 out of 4 still fail single interviews about 22% of the time | [interviewing.io, performance is noisy](https://interviewing.io/blog/technical-interview-performance-is-kind-of-arbitrary-heres-the-data) |
 | Self-ratings vs interviewer ratings: R-squared only 0.24. You cannot tell how you did | [interviewing.io, self-assessment](https://interviewing.io/blog/people-cant-gauge-their-own-interview-performance-and-that-makes-them-harder-to-hire) |
-| Women quit practice 7 times more often than men after one bad interview | [interviewing.io, practice gap](https://interviewing.io/blog/technical-interview-practice-gap) |
+| Women quit interview practice 7 times more often than men after one bad interview | [interviewing.io, practice gap](https://interviewing.io/blog/technical-interview-practice-gap) |
 
-What to take from it: do at least 5 mocks before a loop, get written feedback every time, and never judge yourself by one bad session.
+What to do with it:
+
+1. Do at least 5 mocks before a loop that matters.
+2. Get written feedback every time. Your own memory of the session is unreliable.
+3. Never judge yourself by one bad session. Book the next one the same day.
+4. Real interviews count as reps too. Schedule lower-priority companies first, so your top choice is not your first real interview.
 
 ## Options, free first (as of Oct 2026)
 
 | Option | Type | Price | Best for | How to use it |
 |---|---|---|---|---|
-| [Aced Practice](https://www.aced.io/practice) (formerly Pramp) | Peer, matched for you | Free monthly credits; paid membership for unlimited ([plans](https://www.aced.io/upgrade)) | Weekly peer reps with strangers | Book a DSA session; you and your partner interview each other for about 30 minutes each |
-| A friend, classmate, or Discord partner | Peer, self-run | Free | Regular reps on your schedule | Run the 60-minute format below. Find partners on [cscareers.dev Discord](https://discord.com/invite/cscareers) (164K members), [CS Majors](https://discord.gg/csmajors) (31.8K), [NeetCode](https://discord.gg/ddjKRXPqtk) (46K) |
-| Alumni or engineers at your target company | Peer, expert | Free (ask politely) | Company-specific calibration | Send the partner request below. Offer to return the favor or keep it to 45 minutes |
-| [interviewing.io AI Interviewer](https://start.interviewing.io/interview-ai) | AI | Free | Learning the format before your first human mock | It "simulates a FAANG-style interview, and it can do both coding and system design." Do your first 2 to 3 mocks here |
-| [CodePath Technical Interview Prep](https://www.codepath.org/courses/tech-interview-prep) | Course with mocks | Free for CS students (check eligibility on the page) | Structured 10-week program, 5 to 10 hours a week | Apply before your recruiting season; it teaches UMPIRE and includes mock interviews |
-| [CoderPad sandbox](https://app.coderpad.io/sandbox) | Environment only | Free | Using the same editor as many real interviews | Share it with your mock partner; turn execution off to mimic Google, Meta, and Amazon |
-| [Free Mock Interview](https://freemockinterview.com/) | AI, voice | Free, no login | Saying answers out loud, mostly behavioral | Pick your target role and answer out loud; read the report for rambling |
+| [Aced Practice](https://www.aced.io/practice) (formerly Pramp) | Peer, matched for you | Free monthly credits; paid membership for unlimited ([plans](https://www.aced.io/upgrade)) | Weekly peer reps with strangers | Book a DSA session. You and your partner interview each other for about 30 minutes each |
+| A friend, classmate, or Discord partner | Peer, self-run | Free | Regular reps on your schedule | Run the 60-minute format below. Find partners on [cscareers.dev Discord](https://discord.com/invite/cscareers) (164K members), [CS Majors](https://discord.gg/csmajors) (31.8K), [NeetCode](https://discord.gg/ddjKRXPqtk) (46K), or the smaller [Tech Interview Handbook Discord](https://discord.com/invite/usMqNaPczq) (2.8K) |
+| Alumni or engineers at your target company | Peer, expert | Free (ask politely) | Company-specific calibration | Send the partner request below. Offer to return the favor, and keep it to 45 minutes |
+| [interviewing.io AI Interviewer](https://start.interviewing.io/interview-ai) | AI | Free | Learning the format before your first human mock | "It's free, it simulates a FAANG-style interview, and it can do both coding and system design" ([FAQ](https://interviewing.io/faq)). Do your first 2 to 3 mocks here |
+| [CodePath Technical Interview Prep](https://www.codepath.org/courses/tech-interview-prep) | Course with mocks | "No-cost to CS students" (check eligibility on the page) | Structured 10-week program, 5 to 10 hours a week | Apply a term before your recruiting season. It teaches UMPIRE, and the intermediate course includes mock interviews |
+| [CoderPad sandbox](https://app.coderpad.io/sandbox) | Environment only | Free | Using the same editor as many real interviews | Share it with your mock partner. Practice without running code to mimic Google, Meta, and Amazon |
+| [Free Mock Interview](https://freemockinterview.com/) | AI, voice | Free, no login | Saying answers out loud, mostly behavioral | Pick your target role and answer out loud. Read the report for where you ramble |
 | Your university career center | Human | Free for students | Behavioral rounds, nerves | Book one early in the season |
-| [interviewing.io mocks](https://interviewing.io/mocks) | Human, FAANG engineers | Paid, "Interviews start at $179"; full refund if unhappy ([FAQ](https://interviewing.io/faq)) | Calibration right before a big loop | Anonymous, voice only. Book 1 or 2 in the final 2 weeks; pick an interviewer from your target company |
-| [Meetapro](https://www.meetapro.com/) | Human marketplace | Paid; each interviewer sets a price on their profile | A specific company or round type | Filter by company and round, read reviews, book 1 before an onsite |
-| [Hello Interview Premium](https://www.hellointerview.com/pricing) | Guided practice, no humans | $47 per month, $79 per year, $279 lifetime | AI-enabled coding and system design practice | Its human mocks ended May 31, 2026 ([notice](https://www.hellointerview.com/mock-sunset)). Buy only if you also need system design |
-| [LeetCode Premium](https://leetcode.com/subscribe/) | Timed assessments | $35 per month or $159 per year (promo prices) | OA rehearsal with company-style timed sets | Buy one month right before your loop; use the [mock assessments](https://leetcode.com/assessment/) |
+| [interviewing.io mocks](https://interviewing.io/mocks) | Human, FAANG engineers | Paid: "Interviews start at $179"; full refund if unhappy ([FAQ](https://interviewing.io/faq)) | Calibration right before a big loop | Anonymous, voice only. Book 1 or 2 in the final 2 weeks; pick an interviewer from your target company |
+| [Meetapro](https://www.meetapro.com/) | Human marketplace | Paid; prices vary by interviewer (filter by price) | A specific company or round type | Filter by company and round, read reviews, book 1 before an onsite |
+| [Aced coaching](https://www.aced.io/coaching) (formerly Exponent) | Human coaches | Paid session packs | A final pre-onsite mock with a senior coach | Book one session only, in the last 2 weeks |
+| [Preplaced](https://preplaced.in/) | Mentorship marketplace (India) | Paid, free trial | Long-term 1:1 mentorship from 600+ mentors at companies like Google, Amazon and Meta | Use the free trial to test a mentor before you pay. Ask for mock interviews in the plan |
+| [Hello Interview Premium](https://www.hellointerview.com/pricing) | Guided practice, no humans | $47 per month, $79 per year, $279 lifetime (sale prices as of Oct 2026; list $59, $99, $349) | AI-enabled coding and system design practice | Its human mocks ended May 31, 2026 ([notice](https://www.hellointerview.com/mock-sunset)). Buy only if you also need system design |
+| [LeetCode Premium](https://leetcode.com/subscribe/) | Timed assessments | $35 per month or $159 per year (sale prices as of Oct 2026) | OA rehearsal with company-style timed sets | Buy one month right before your loop. Use the [mock assessments](https://leetcode.com/assessment/) |
 
-> **Watch out:** [Final Round AI](https://www.finalroundai.com/) appears in some older mock-interview lists, including two of Jugal's posts. Its main product is "Interview CoPilot", described as an assistant "that listens to your live interview and delivers real-time answers in a private window only you can see", with a "Stealth Mode". Using anything like that in a real interview breaks Google, Meta, Amazon, Microsoft and Anthropic rules, so use AI for practice only.
+> **Watch out:** [Final Round AI](https://www.finalroundai.com/) appears in some older mock-interview lists, including two of Jugal's posts. Its main product, "Interview CoPilot", "listens to your live interview and delivers real-time answers in a private window only you can see", with a "Stealth Mode". Using that in a real interview breaks Google, Meta, Amazon, Microsoft and Anthropic rules, so use AI for practice only.
 
-Changed or gone: Pramp now runs on Aced Practice; Exponent became Aced in August 2026 ([announcement](https://www.aced.io/blog/exponent-is-becoming-aced)); Google Interview Warmup is retired; interviewing.io no longer offers free human peer mocks.
+Changed or gone (do not follow older links to these):
+
+- Pramp now runs on Aced Practice.
+- Exponent became Aced in August 2026 ([announcement](https://www.aced.io/blog/exponent-is-becoming-aced)).
+- Google Interview Warmup is retired.
+- interviewing.io no longer offers free human peer mocks.
 
 ## Which option to use at each stage
 
@@ -53,10 +65,10 @@ Changed or gone: Pramp now runs on Aced Practice; Exponent became Aced in August
 
 ### Before the session
 
-1. Agree on the format: language, length, and which option from the run sheets below.
-2. Each person picks 2 to 3 problems the other has not seen, from different topics. Know at least two approaches to each ([TIH interviewer cheatsheet](https://www.techinterviewhandbook.org/interviewer-cheatsheet/)).
-3. Avoid famous problems word for word. Change a constraint or wrap it in a story. In an interviewing.io experiment, custom questions were much harder to fake than verbatim LeetCode ones ([experiment](https://interviewing.io/blog/how-hard-is-it-to-cheat-with-chatgpt-in-technical-interviews)). Pull problems from [Problem lists](problem-lists.md) or a [company page](../companies/index.md).
-4. Set up a video call, a shared [CoderPad sandbox](https://app.coderpad.io/sandbox) with execution off, a visible timer, and the scoring sheet below.
+1. Agree on the format: language, length, and which run sheet below.
+2. Each person picks 2 to 3 problems the other has not seen, from different topics, and knows the different approaches to each ([TIH interviewer cheatsheet](https://www.techinterviewhandbook.org/interviewer-cheatsheet/)).
+3. Avoid famous problems word for word: change a constraint or wrap it in a story. Pull problems from [Problem lists](problem-lists.md) or a [company page](../companies/index.md). Custom questions test real understanding: in an interviewing.io experiment, candidates secretly using ChatGPT passed 73% of verbatim LeetCode questions but only 25% of custom ones ([experiment](https://interviewing.io/blog/how-hard-is-it-to-cheat-with-chatgpt-in-technical-interviews)).
+4. Set up a video call, a shared [CoderPad sandbox](https://app.coderpad.io/sandbox) (agree not to run the code), a visible timer, and the scoring sheet below.
 5. The interviewer reads the [TIH interviewer cheatsheet](https://www.techinterviewhandbook.org/interviewer-cheatsheet/) once.
 
 ### Run sheet A: one candidate, 60 minutes (most realistic)
@@ -106,7 +118,7 @@ CLOSE
 
 ### Hint ladder
 
-Give the smallest hint that unblocks them, and log the level and minute. TIH suggests waiting about 3 to 5 minutes of no progress before the first hint, and giving the approach outright if hints do not work.
+Give the smallest hint that unblocks them, and log the level and minute. Wait for 3 to 5 minutes with no progress before the first hint (a rule of thumb for this site). The TIH cheatsheet says that if the candidate "is still stuck after providing hints, provide the solution and move to coding so that you can get coding signals."
 
 | Level | Hint type | Example (Subarray Sum Equals K) |
 |---|---|---|
@@ -119,7 +131,7 @@ Level 1 costs little on the rubric. Level 4 means the problem-solving score is a
 
 ## Scoring rubric
 
-Four dimensions, 1 to 4 each, matching the [Tech Interview Handbook rubric](https://www.techinterviewhandbook.org/coding-interview-rubrics/) and Meta's four areas. The anchors below were written for this site from the TIH signals. Use the same anchors every time so scores are comparable across weeks.
+Four dimensions, 1 to 4 each, matching the [Tech Interview Handbook rubric](https://www.techinterviewhandbook.org/coding-interview-rubrics/) and Meta's four areas. The anchors below were written for this site from the TIH signals. Use the same anchors every time so scores compare across weeks.
 
 | Score | Problem solving | Coding | Verification | Communication |
 |---|---|---|---|---|
@@ -185,7 +197,7 @@ I'm free [days and times, time zone]. I'm working through [NeetCode 150 / Grind 
 
 ### Practice with a chat model as the interviewer
 
-Useful when no partner is free. Never use any outside AI during a real interview unless the company allows it.
+Use this when no partner is free. Never use any outside AI during a real interview unless the company allows it.
 
 ```text
 Act as a [Company] software engineer running a 45-minute coding interview for a [intern / new grad] role.
@@ -202,10 +214,10 @@ Rules:
 
 | Target | Mock format | Source |
 |---|---|---|
-| Google | 45 minutes, one problem plus follow-ups, plain doc, no code execution. Add one in-person whiteboard mock if your loop is onsite | [interviewing.io Google guide](https://interviewing.io/guides/hiring-process/google), [companies/google](../companies/google.md) |
-| Meta screen | Two problems in about 35 to 40 minutes, CoderPad, execution off | [interviewing.io Meta guide](https://interviewing.io/guides/hiring-process/meta-facebook), [companies/meta](../companies/meta.md) |
+| Google | 45 minutes, one problem plus follow-ups, plain doc, no code execution. Add one whiteboard mock if your loop is onsite | [interviewing.io Google guide](https://interviewing.io/guides/hiring-process/google), [Google page](../companies/google.md) |
+| Meta screen and classic rounds | Two problems in about 35 to 40 minutes, CoderPad, no code execution | [interviewing.io Meta guide](https://interviewing.io/guides/hiring-process/meta-facebook), [Meta page](../companies/meta.md) |
 | Meta AI-enabled round | 60 minutes, multi-file starter code, AI chat allowed, tests run | [Hello Interview](https://www.hellointerview.com/blog/meta-ai-enabled-coding) |
-| Amazon | About 15 minutes of Leadership Principle questions, then one coding problem. Mix in a design-a-class prompt for the logical-and-maintainable round | [companies/amazon](../companies/amazon.md), [LPs](../behavioral/amazon-leadership-principles.md) |
+| Amazon | 10 to 15 minutes of Leadership Principle questions, then one coding problem. Mix in a design-a-class prompt for the logical-and-maintainable round | [Amazon page](../companies/amazon.md), [LPs](../behavioral/amazon-leadership-principles.md) |
 | Microsoft | 45 minutes; code may run; interviewer asks about testing and error conditions | [Microsoft technical interviewing](https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing) |
 | Online assessment | Solo, timed, on the OA platform's practice test | [OA strategy](../online-assessments/strategy.md) |
 | Behavioral | 45 minutes of STAR stories with follow-ups | [Behavioral](../behavioral/index.md), [story bank](../behavioral/story-bank.md) |
@@ -217,15 +229,15 @@ Rules:
 |---|---|---|---|
 | Weeks 1 to 2 of active prep | 1 per week | AI Interviewer | Learn the format |
 | Week 3 until 3 weeks before the loop | 1 to 2 per week | Peer, alternating interviewer and candidate | Build the habits on the framework page |
-| Final 2 to 3 weeks | At least 5 total with people who are not close friends, including 1 to 2 experienced interviewers | Peer plus paid or alumni | Calibration on unseen problems |
+| Final 2 to 3 weeks | At least 5 in total with people who are not close friends, including 1 to 2 experienced interviewers | Peer plus paid or alumni | Calibration on unseen problems |
 | Final week | 2 to 3 | Exact format of your loop | Timing and setup |
 | Day before | 0 | Light review of your phrase bank and story bank | Rest |
 
-The minimum of 5 comes from the interviewing.io data above, which recommends "at least five professional mock interviews per candidate". Jugal's own plans fit inside this: 3 timed 45-minute mocks in the last week of each 5-week company plan ([Meta](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part), [Amazon](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8), [Google](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e)), and two sessions a day for days 3 to 7 of week 5 in his [6-week Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
+The minimum of 5 comes from the interviewing.io data above: "You need at least five interviews to move the needle, and they need to happen systematically and on a schedule." Jugal's own plans fit inside this: 3 timed 45-minute mocks in week 5 of each 5-week company plan ([Meta](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part), [Amazon](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8), [Google](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e)), and two sessions a day on days 3 to 7 of week 5 in [Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
 
 ### Ready signal
 
-You are ready when 3 mocks in a row, on problems you have not seen, score 3 or higher on all four dimensions. This is a rule of thumb for this site, not a published standard. Because strong candidates still fail about 22% of single interviews, judge over several mocks, never one.
+You are ready when 3 mocks in a row, on problems you have not seen, score 3 or higher on all four dimensions. This is a rule of thumb for this site, not a published standard. Strong candidates still fail about 22% of single interviews, so judge over several mocks, never one.
 
 ### Not ready? Postpone
 
@@ -238,7 +250,7 @@ I'm really excited about interviewing at [company name]. Unfortunately, if I'm h
 ## After every mock
 
 1. Save the code, the timeline, and the scores in your mock log.
-2. Answer Jugal's self-review questions in writing, adapted from his [Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
+2. Answer the self-review questions below in writing, adapted from Jugal's [Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
 3. Listen to the recording. Jugal: "Notice how you say 'um' forty times? Fix it. Notice how you went silent for 3 minutes? Never do that again."
 4. Re-solve any problem that took over 30 minutes, in 25 minutes or less ([Amazon prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8)). Do it 3 days later, the gap Jugal uses in his [Amazon roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the).
 5. Pick one fix for the next mock and write it at the top of your next scoring sheet.
@@ -259,7 +271,7 @@ Date | Partner / tool | Problem | Seen before? | PS | Code | Verify | Comm | Hin
 [YYYY-MM-DD] | [name] | [title] | [Y/N] | [1-4] | [1-4] | [1-4] | [1-4] | [0-4] | [one line] | [date]
 ```
 
-Track it next to your problem log from [How to practice](how-to-practice.md).
+Keep it next to your problem log from [How to practice](how-to-practice.md).
 
 ## Resources
 

@@ -1,8 +1,17 @@
 # Cold email to recruiters and managers
 
-For students and engineers with 0 to 3 years of experience. When you finish this page you will have a target list, seven copy-paste templates, a sending schedule, and a pre-send checklist.
+For students and engineers with 0 to 3 years of experience. You leave with a target list, seven templates, a send schedule, and a pre-send checklist.
 
-> **Tip:** Cold email multiplies whatever you attach to it. Finish your [resume checklist](../resume/checklist.md) and [LinkedIn profile](../linkedin/index.md) first, and check [visa sponsorship](../jobs/international-students.md) before you spend an email on a company.
+> **Tip:** A cold email sends people to your resume and LinkedIn. Finish your [resume checklist](../resume/checklist.md) and [LinkedIn profile](../linkedin/index.md) first, and check [visa sponsorship](../jobs/international-students.md) before you spend an email on a company.
+
+## Your first week
+
+1. Pick 20 to 30 companies, each with 1 to 3 live job IDs. Apply to the roles first ([application strategy](../jobs/application-strategy.md)).
+2. For each company, find one hiring manager or engineer on the exact team ([finding people](finding-people.md)).
+3. Find and verify each address (see [Find and verify the address](#find-and-verify-the-address)).
+4. Write one personal line per person: something they built, wrote, or posted.
+5. Fill [template 1](#1-hiring-manager-on-the-exact-team) or [template 3](#3-a-15-minute-chat-with-an-engineer-or-alum-jugals-2026-template). Run the [pre-send checklist](#pre-send-checklist).
+6. Send 5 this week, scheduled for 9 AM their time. Log each one in your [tracker](follow-up-and-tracking.md#the-tracker-template) with a follow-up date 5 business days out.
 
 ## Where cold email fits
 
@@ -17,7 +26,7 @@ The data agrees on who to email and who to skip:
 | Cold email to a recruiter, before you apply | Net negative at FAANG unless you already fit what they source for | Same survey |
 | Cold referral ask to a stranger | Net negative at FAANG and small startups | Same survey |
 
-The interviewing.io sample skews experienced (average about 8 years). For students, recruiter email still works in one case: after you apply, with the job ID, to a university recruiter.
+The interviewing.io sample skews experienced (average about 8 years), and the post says recruiters are not incentivized to help candidates with under 4 years of experience. For students, recruiter email works in one case: after you apply, with the job ID, to a university recruiter.
 
 ### Who to email, in order
 
@@ -29,7 +38,7 @@ The interviewing.io sample skews experienced (average about 8 years). For studen
 | Professor, lab manager, grad student | Research internships, TA roles, intros | A short meeting or a TA slot | Grad students and lab managers often do the shortlisting ([The $0 Masters in the US](https://jugaldb.substack.com/p/the-0-master-in-the-us-just-one-email)) |
 | Founder or CTO at a seed or Series A startup | The whole hiring decision | A call about the role | Startups read applications if you are early ([How I Got My First Startup Offer in 17 Days](https://jugaldb.substack.com/p/how-i-got-my-first-startup-offer)) |
 
-Find these people with [finding people](finding-people.md). Pick 20 to 30 companies, each with 1 to 3 live job IDs.
+Find names, titles, and profiles for each row with [finding people](finding-people.md).
 
 ## The rules, with numbers
 
@@ -51,7 +60,7 @@ Find these people with [finding people](finding-people.md). Pick 20 to 30 compan
 
 ## Subject lines that work
 
-Short, specific, and honest about what is inside. The reader should know why you wrote before they open it.
+The subject tells the reader why you wrote. Use 3 to 7 words, and make sure the email delivers what the subject says.
 
 | Weak | Strong | Why the strong one works |
 |---|---|---|
@@ -59,7 +68,7 @@ Short, specific, and honest about what is inside. The reader should know why you
 | Job opportunity | Summer 2027 SWE Intern applicant, Job ID 12345 | Recruiter can search the ATS by ID |
 | Looking for a referral!! | Your post on Kafka retries | Common ground first |
 | Hello from a student | Question from a UIUC student | Pattern from [MIT's cold email guide](https://iso.mit.edu/americanisms/cold-emailing/) |
-| Following up on my previous email regarding the position | Referred by Priya Shah: Backend role | A real name is the strongest subject you can have |
+| Following up on my previous email regarding the position | Referred by Priya Shah: Backend role | MIT's guide lists "Referred to you by [name]". Use it only when that person agreed |
 
 Copy-paste subject patterns:
 
@@ -74,7 +83,7 @@ Question on [team]'s [system or feature]
 OA completed, [role] (Job ID [ID])
 ```
 
-Never use: ALL CAPS, "URGENT", a fake "Re:" or "Fwd:", emojis, or a subject that promises something the email does not contain. A misleading subject is the first thing CAN-SPAM prohibits (see [the rules section](#the-rules-of-the-road-can-spam-uk-and-eu)).
+Never use: ALL CAPS, "URGENT", a fake "Re:" or "Fwd:", emojis, or a subject that promises something the email does not contain. CAN-SPAM bans deceptive subject lines (see [email law](#email-law-can-spam-uk-and-eu)).
 
 ## Anatomy of a reply-worthy email
 
@@ -213,7 +222,7 @@ Thanks,
 [Your Name]
 ```
 
-Use this one for people you share real common ground with. Cold referral asks to strangers are low-yield; read [referrals](referrals.md) first.
+Use this one for people you share real common ground with. Cold referral asks to strangers are low-yield; read [referrals](referrals.md) first. Sending it to a hiring manager? Replace "Resume attached." with a resume link, per interviewing.io's no-attachment rule.
 
 ### 5. Professor or lab (research internship or TA role)
 
@@ -271,7 +280,7 @@ Full method on [finding people](finding-people.md). The short version:
 1. Get the person's full name and the company's email domain (careers page footer or press page).
 2. Search [Hunter Email Finder](https://hunter.io/email-finder) with "First Last" plus the domain. Free plan: 50 credits a month, and failed searches are free ([pricing](https://hunter.io/pricing)).
 3. If nothing comes back, guess three patterns: `first@`, `first.last@`, `flast@` (from interviewing.io part 2). Large companies often use usernames, so guesses fail more there.
-4. Verify every address in [Hunter Email Verifier](https://hunter.io/email-verifier) (free up to 100 a month). Valid: send. Invalid: drop. Accept-all: run it through [Truelist](https://truelist.io/) before sending.
+4. Verify every address in [Hunter Email Verifier](https://hunter.io/email-verifier) (free up to 100 a month). Send to Valid, drop Invalid, and run Accept-all results through [Truelist](https://truelist.io/) (free) first.
 5. Never send to unverified guesses in bulk. Bounces damage your sender reputation, and Hunter's 2026 average bounce rate was already 3.6%.
 
 ## When to send
@@ -303,9 +312,10 @@ Budget your free email-finder credits: Hunter's 50 credits a month covers about 
 
 ## Deliverability checklist
 
-- [ ] Send from your personal Gmail or your university address. Do not buy a new domain for outreach: new domains need warm-up and full authentication ([Gmail sender guidelines](https://support.google.com/mail/answer/81126)).
+- [ ] Send from your personal Gmail or your university address. Do not buy a new domain for outreach: it has no sending history and you must set up its SPF or DKIM yourself, which Gmail requires of every sender ([Gmail sender guidelines](https://support.google.com/mail/answer/81126)).
 - [ ] Verify every address before sending (see above).
-- [ ] Plain text, no images, no tracking pixels if you see delivery problems.
+- [ ] Plain text, no images.
+- [ ] Open tracking off. In Hunter's 2026 data, emails without open tracking got 7.4% replies vs 4.4% with it ([Hunter 2026](https://hunter.io/the-state-of-cold-email)).
 - [ ] At most 2 links. No link shorteners.
 - [ ] No attachment on a first email to a manager. Link the resume instead (Google Drive, "Anyone with the link: Viewer", tested in a private window).
 - [ ] One personal line per email, written by you.
@@ -321,7 +331,7 @@ Use this only when you send more than 10 a day and every row has a line you wrot
 |---|---|---|
 | [Mailmeteor](https://mailmeteor.com/docs/get-started/email-quota) | 50 emails a day | Gmail merge from Google Sheets; Jugal's suggested tool at 10 to 15 a day |
 | [YAMM](https://yamm.com/pricing/) | 20 recipients a day | Fine for 20 a day |
-| [Streak](https://www.streak.com/pricing) | 50 merges a day plus email tracking | Use the tracking to time follow-ups |
+| [Streak](https://www.streak.com/pricing) | 50 merges a day | Works inside Gmail. Leave its open tracking off (see the deliverability checklist) |
 | [GMass](https://www.gmass.co/blog/pricing-faq/) (paid) | 7-day trial at 50 a day, then paid | Skip unless you already pay |
 
 Sheet columns for the merge:
@@ -337,19 +347,19 @@ FirstName | Email | Company | Role | JobID | Hook | Proof | Status | SentDate
 
 Want the drafting and sending automated end to end? See [n8n automation](n8n-automation.md), with review-before-send turned on.
 
-## The rules of the road: CAN-SPAM, UK and EU
+## Email law: CAN-SPAM, UK and EU
 
-This is not legal advice. The US law, CAN-SPAM, covers email whose primary purpose is advertising a commercial product or service. A one-to-one job inquiry is not advertising a product, but follow the rules anyway: they cost nothing and protect your reputation.
+This is not legal advice. The US law, CAN-SPAM, covers email whose primary purpose is advertising a commercial product or service. A one-to-one job inquiry does not advertise a product, so it is likely outside the law. Follow its rules anyway; they cost nothing.
 
 | CAN-SPAM rule ([FTC guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)) | What it means for you |
 |---|---|
 | No false or misleading header information | Send from your real name and real address |
 | No deceptive subject lines | The subject describes what is in the email |
 | Identify the message as an ad | Not relevant to a job inquiry; never disguise a sales pitch as one |
-| Tell recipients where you are located | Optional for you; a city in your signature is enough |
-| Tell recipients how to opt out, and honor it within 10 business days | Add "If this isn't the right person, no worries, I won't follow up" and mean it |
+| Include a valid postal address | Required for commercial email. For a job inquiry, a city in your signature is a fine habit |
+| Tell recipients how to opt out, and honor it within 10 business days | Add "If this isn't the right person, no worries, I won't follow up" and stop the same day they ask |
 
-Penalties under the law run up to $53,088 per violating email. That is why mass tools treat opt-outs seriously.
+Penalties run up to $53,088 per violating email.
 
 UK readers: the ICO says the PECR rule on direct marketing email does not apply to corporate subscribers, but UK GDPR still applies to a named person's work email. Do not hide your identity, give a way to opt out, and respect an objection ([ICO business-to-business guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/)). EU country rules vary; the same habits keep you safe.
 

@@ -81,8 +81,8 @@ Save each page with your filters applied, then turn on the site's job alerts.
 |---|---|---|
 | Google | [Early career jobs](https://www.google.com/about/careers/applications/jobs/results/?target_level=EARLY), [Intern and apprentice jobs](https://www.google.com/about/careers/applications/jobs/results/?target_level=INTERN_AND_APPRENTICE), [India early career](https://www.google.com/about/careers/applications/jobs/results/?target_level=EARLY&location=India) | Add `&q=software%20engineer` to the URL. The Early filter also shows sales and data center roles, so filter by title. You can apply to at most 3 Google jobs in a rolling 30 days ([How we hire](https://www.google.com/about/careers/applications/how-we-hire/)) |
 | Amazon | [Amazon University](https://www.amazon.jobs/content/en/career-programs/university), [SDE search](https://www.amazon.jobs/en/search?base_query=software+development+engineer&loc_query=), [AWS careers](https://aws.amazon.com/careers/) | Join the university talent community for alerts. Amazon reviews on a rolling basis |
-| Microsoft | [Students and early career](https://careers.microsoft.com/v2/global/en/students), [Job search portal](https://apply.careers.microsoft.com/careers) | Get your referral in before you apply. Simplify reports Microsoft cannot attach one after a general application ([roadmap](https://simplify.jobs/blog/swe-interview-prep-roadmap-2027)) |
-| Meta | [Students and recent grads](https://www.metacareers.com/careerprograms/students) | Filter for "University Grad" |
+| Microsoft | [Students and early career](https://careers.microsoft.com/v2/global/en/students), [Job search portal](https://apply.careers.microsoft.com/careers) | Get your referral in before you apply. Simplify reports Microsoft cannot attach one after a general application ([roadmap](https://simplify.jobs/blog/swe-interview-prep-roadmap-2027)). Summer 2027 intern postings accept applications in the first week of each month, August to February ([example posting](https://apply.careers.microsoft.com/careers/job/1970393556922922)) |
+| Meta | [Students and recent grads](https://www.metacareers.com/careerprograms/students) | Filter for "University Grad". No Meta Summer 2027 SWE intern row was in the Simplify list on Oct 4, 2026, so set a job alert |
 | Apple | [Students](https://www.apple.com/careers/us/work-at-apple/students.html), [Internship search](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) | Bookmark the filtered search |
 | Netflix | [New grad search](https://explore.jobs.netflix.net/careers?query=new%20grad) | Check late September to October. After applying, finish the separate Airtable form Netflix emails you ([Simplify guide](https://simplify.jobs/blog/netflix-new-grad-software-engineer-guide)) |
 | Palantir | [Students and early talent](https://www.palantir.com/careers/students-and-early-talent) | FDE path. Check citizenship lines on defense roles |
@@ -212,6 +212,8 @@ Most big employers review on a rolling basis. A posted deadline is rarely the re
 
 Jugal's arithmetic: if a company reviews 200 applications a week and fills interview slots in three weeks, your week-one application competes with 200 people. In week five it competes with everyone before you for what is left ([post](https://jugaldb.substack.com/p/494-summer-2027-internships-are-already)). His example numbers are illustrative, not data.
 
+Do this: apply within 3 days of posting, and write the posting age in your [tracker](application-strategy.md#tracker-template) so you can see your own median.
+
 ## Ghost jobs
 
 A ghost job is a posting with no real intent to hire soon.
@@ -240,7 +242,7 @@ Fails two or more: skip it. Fails one: apply only if it is a top target, and pai
 
 ## Job scams
 
-72% of job seekers ran into a job scam during their search ([Huntr Q1 2026](https://huntr.co/research/job-search-trends-q1-2026)). The FTC rules of thumb: honest employers "will never ask you to pay to get a job", and "no honest potential employer will ever send you a check to deposit and then tell you to send on part of the money" ([FTC](https://consumer.ftc.gov/articles/job-scams)).
+72% of surveyed job seekers ran into a job scam ([Huntr Q1 2026](https://huntr.co/research/job-search-trends-q1-2026)). The FTC's rules of thumb: honest employers "will never ask you to pay to get a job", and "no honest potential employer will ever send you a check to deposit and then tell you to send on part of the money" ([FTC](https://consumer.ftc.gov/articles/job-scams)). Run this check before you share any personal details:
 
 - [ ] The posting exists on the company's own careers site or ATS.
 - [ ] You had a real interview before any offer.

@@ -9,7 +9,7 @@
   "levels": {
     "intern": "Software Engineering Intern (summer; official page says 6 to 10 weeks or up to 6 months depending on region). Entry-level and intern SWE roles are not tied to a team at application time (official).",
     "new_grad": "Software Engineer (single entry title; Bloomberg says it uses fewer titles than hierarchical firms: individual contributors vs people managers).",
-    "early_career": "Software Engineer for roughly 0 to 4 years (Levels.fyi entries with 3 to 4 YOE are still 'Software Engineer'); next is Senior Software Engineer (Levels.fyi median 8 YOE), then Team Lead titles."
+    "early_career": "Software Engineer for roughly 0 to 4 years (Levels.fyi entries with 3 to 4 YOE are still 'Software Engineer'); next is Senior Software Engineer (Levels.fyi typical 8 to 10 YOE), then Team Lead titles."
   },
   "process_new_grad": [
     {
@@ -74,7 +74,7 @@
   },
   "system_design": "Not standard for US new grads (a Feb 2025 NYC new grad reported no system design; a Jan 2026 NYC candidate got about 10 minutes of design questions in a technical round and a legacy-modernization question from the EM). London and European grad loops often include a full system design round (HLD of a Bloomberg Terminal feature, top-N news articles, real-time stock price feed with history). Standard for experienced hires.",
   "behavioral": {
-    "framework": "Bloomberg values plus motivation ('why Bloomberg'). Official experienced-hire guide asks for STAR-style stories on collaboration, leadership, innovation and overcoming challenges.",
+    "framework": "Bloomberg values plus motivation ('why Bloomberg'). Official How We Hire page: 'doing the right thing' by people, clients and communities is one of Bloomberg's guiding values, and candidates must represent themselves honestly, including any AI use. Official experienced-hire interview guide (APAC version): be ready to describe experiences showing collaboration, leadership, innovation and overcoming challenges as situation, actions and outcome (STAR-style).",
     "values_url": "https://www.bloomberg.com/company/values/",
     "what_they_look_for": [
       "Official: what draws you to Bloomberg, how the role fits your long-term goals, and your understanding of Bloomberg's business",
@@ -197,28 +197,28 @@
     {
       "title": "Minimum Number of Steps to Make Two Strings Anagram",
       "url": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
-      "role": "SWE New Grad 2026, round 1",
+      "role": "SWE New Grad 2026 (Reddit comment, Nov 8, 2025; round not stated)",
       "date": "2025-11",
       "source_url": "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/"
     },
     {
       "title": "Sort Characters By Frequency (alphanumeric)",
       "url": "https://leetcode.com/problems/sort-characters-by-frequency/",
-      "role": "SWE New Grad 2026, round 1",
+      "role": "SWE New Grad 2026 (Reddit comment, Nov 8, 2025; round not stated)",
       "date": "2025-11",
       "source_url": "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/"
     },
     {
       "title": "Invalid Transactions (verbatim)",
       "url": "https://leetcode.com/problems/invalid-transactions/",
-      "role": "SWE New Grad 2026, round 2",
+      "role": "SWE New Grad 2026, second technical (Reddit comment, Nov 3, 2025)",
       "date": "2025-11",
       "source_url": "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/"
     },
     {
       "title": "Grid path from one cell to another, follow-ups adding gas stops",
       "url": "",
-      "role": "SWE New Grad 2026, round 1",
+      "role": "SWE New Grad 2026, first technical (Reddit comment, Nov 3, 2025)",
       "date": "2025-11",
       "source_url": "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/"
     },
@@ -228,6 +228,13 @@
       "role": "SWE New Grad NYC 2026, EM round",
       "date": "2026-01",
       "source_url": "https://www.reddit.com/r/csMajors/comments/1qk8bo2/bloomberg_sde_new_grad_nyc_2026_entire_process/"
+    },
+    {
+      "title": "'Addictive TV Show' (company-specific problem, no public LeetCode equivalent named by the poster) asked alongside Valid Triangle Number",
+      "url": "",
+      "role": "SWE New Grad NYC, phone screen",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6680865/bloomberg-new-grad-nyc-onsite-reject-by-24t64/"
     }
   ],
   "focus_topics": [
@@ -251,7 +258,7 @@
     "Have a specific 'why Bloomberg' answer that covers the Terminal, financial data, and Bloomberg Philanthropies; HR rounds have asked about values and philanthropy.",
     "Block 3 to 4 hours for the onsite day; the second technical and the HR round often follow the first with short gaps."
   ],
-  "compensation_note": "Levels.fyi (checked Oct 4, 2026): 'Software Engineer' level averages about $206K total comp in the US (16 data points, median 3 YOE, no stock component). New grad NYC entries from Sep 2026: $158K base plus $30K to $32.5K bonus, i.e. $188K to $190.5K. A Feb 2025 NYC new grad offer on Reddit: $158K base, about $23.5K bonus, $10K relocation. London Software Engineer median about £98.7K. Interns (Levels.fyi): NYC $52/hr (Summer 2026), San Francisco $50/hr (Summer 2025), London about $27.5/hr (Summer 2026).",
+  "compensation_note": "Levels.fyi (checked Oct 4, 2026): 'Software Engineer' level averages about $206K total comp in the US (16 data points, typical 2 to 3 YOE, no stock component). New grad NYC entries from Sep 2026: $158K base plus $30K to $32.5K bonus, i.e. $188K to $190.5K. A Feb 2025 NYC new grad offer on Reddit: $158K base, about $23.5K bonus, $10K relocation. London Software Engineer median about £98.7K. Interns (Levels.fyi): NYC $52/hr (Summer 2026), San Francisco $50/hr (Summer 2025), London about $27.5/hr (Summer 2026).",
   "sources": [
     "https://www.bloomberg.com/company/careers/how-we-hire/",
     "https://www.bloomberg.com/company/careers/application-process/engineering-experienced-hire/",
@@ -283,5 +290,5 @@
     "https://leetcode.com/discuss/post/6607794/bloomberg-intern-swe-london-offered-by-k-jnlw/",
     "https://leetcode.com/discuss/post/6680865/bloomberg-new-grad-nyc-onsite-reject-by-24t64/"
   ],
-  "confidence_notes": "Verification (Oct 4, 2026): bloomberg.com How We Hire, experienced-hire process, interview guide and Engineering & CTO pages were loaded by a crawler [VERIFIED]; early-careers, internship, full-time, student-programs and values pages were confirmed through Wayback Machine snapshots from Dec 2025 to May 2026 because bloomberg.com shows a bot check to scripts [VERIFIED via archive]. The values page loads but its values text is rendered by script and was not extracted, so no specific value names are given here. The engineering recruitment steps (apply, video interview with an employee, video or in-person interviews with employees, HR and managers, offer) come from step images on the archived internship page. Reddit posts confirmed via the Arctic Shift archive API; LeetCode posts via LeetCode's GraphQL API. Uncertain: number of technical rounds varies (2 to 4) by office and interviewer; system design for new grads is common in London but rare in NYC; whether any OA is used varies (official mentions Plum and other assessments for certain entry-level roles). The 'reapply after about 6 months' claim seen in one Reddit comment was not confirmed and is excluded. Levels.fyi new grad entries are self-reported."
+  "confidence_notes": "Re-verified Oct 4, 2026 by an adversarial fact-check pass: How We Hire (Plum assessment for certain entry-level roles, four pillars, 'We'll focus more on your problem-solving skills and coding fluency than on finding the most optimal solution and running code', candidate conduct incl. AI) and the experienced-hire interview guide (collaboration, leadership, innovation, overcoming challenges; situation, actions, outcome) loaded in a real browser [VERIFIED]; bloomberg.com often serves a bot check to scripts, so the experienced-hire application process (Dec 2025), early-careers (Jan 2026, 'early access to applications' for select programs), internship (Dec 2025, 6 to 10 weeks or up to 6 months), student programs (Dec 2025, Launch, First Year Insights, Tech Labs, Engineering Accelerator, Insight Week), full-time (Dec 2025) and Engineering & CTO (Jun 2026, entry-level and intern roles 'not specific to a team or department') pages were checked via Wayback Machine snapshots [VERIFIED via archive]. The values page loads (Wayback May 2026) but its value names are script-rendered and were not extracted, so no list of value names is given. Bloomberg's public Avature job search (348 roles on Oct 4, 2026) showed no 2027 SWE new grad or intern postings (only a Sydney Enterprise Technology Services internship and sales/support early-career roles). Levels.fyi figures and individual samples parsed from the pages; Reddit posts and comments via the Arctic Shift archive (several questions are in comments, dated accordingly); LeetCode posts via GraphQL; all LeetCode problem slugs confirmed real (Design Hit Counter is Premium-only). Corrections made in this pass: Senior SWE YOE and SWE YOE wording aligned to Levels.fyi 'typical YOE'; roles for the 1nr9400 comment questions fixed (round not stated for the anagram and frequency-sort questions); behavioral framework now quotes the verified official wording. Uncertain: number of technical rounds varies (2 to 4) by office and interviewer; system design for new grads is common in London but rare in NYC; whether any OA is used varies (official mentions Plum and other assessments for certain entry-level roles; a Sep 2025 Reddit comment says no OA for new grad SWE). The 'reapply after about 6 months' claim seen in one Reddit comment was not confirmed and is excluded. Levels.fyi new grad entries are self-reported."
 }

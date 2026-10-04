@@ -25,7 +25,7 @@ Interviewers walk in with a fixed list of competencies and a rubric. They write 
 
 Sources: [Hello Interview](https://www.hellointerview.com/blog/how-behavioral-interviews-really-work) (the three implicit checks), [Tech Interview Handbook rubrics](https://www.techinterviewhandbook.org/behavioral-interview-rubrics/) (hire needs positive signal on nearly all areas for juniors).
 
-One interviewer does not decide alone. A debrief or committee reviews all the notes ([Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview-rubrics/)). At Google that is the [hiring committee](google-googleyness.md#hiring-committee). At Amazon a [Bar Raiser](amazon-leadership-principles.md#the-bar-raiser) runs the debrief with the hiring manager.
+One interviewer does not decide alone: a debrief or committee reviews all the notes ([Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview-rubrics/)). At Google that is the [hiring committee](google-googleyness.md#hiring-committee), and at Amazon a [Bar Raiser](amazon-leadership-principles.md#the-bar-raiser) runs the debrief with the hiring manager.
 
 ### The 8 competencies most rubrics test
 
@@ -112,8 +112,9 @@ Learning (10 to 15 s): I learned [one lesson]. Since then I [habit],
 
 ### Five rules for every answer
 
-1. **Say "I" for what you did.** Amazon's loop page asks you to focus on your individual contribution and say "I" instead of "we" ([Amazon](https://www.amazon.jobs/content/en/how-we-hire/interview-loop)). Keep "we" for the team's outcome. Jugal's version: "'We built this feature' means nothing. 'I designed the caching layer, reducing latency by 40%', that's what they want to hear." ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the))
-2. **Put a number in the result.** Use Google's formula: accomplished [X], as measured by [Y], by doing [Z] ([Google interview tips](https://www.google.com/about/careers/applications/interview-tips/)). No exact number? Give an honest estimate and say "roughly" ([interviewing.io](https://interviewing.io/guides/amazon-leadership-principles)). Ideas: [metrics when you have none](../resume/writing-bullets.md#metrics-when-you-have-none).
+1. **Say "I" for what you did.** Amazon's loop page asks you to focus on your individual contribution and say "I" instead of "we" ([Amazon](https://www.amazon.jobs/content/en/how-we-hire/interview-loop)). Keep "we" for the team's outcome.
+    - Jugal's version: "'We built this feature' means nothing. 'I designed the caching layer, reducing latency by 40%', that's what they want to hear." ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the))
+2. **Put a number in the result.** Use Google's formula: accomplished [X], as measured by [Y], by doing [Z] ([Google interview tips](https://www.google.com/about/careers/applications/interview-tips/)). If you have no exact number, give an honest estimate and say "roughly" ([interviewing.io](https://interviewing.io/guides/amazon-leadership-principles)), or use the ideas in [metrics when you have none](../resume/writing-bullets.md#metrics-when-you-have-none).
 3. **Keep the setup under 30 seconds.** Time it ([IGotAnOffer](https://igotanoffer.com/en/advice/amazon-leadership-principles)).
 4. **Answer the question asked.** A failure question needs a failure. A conflict question needs two people who disagreed.
 5. **Stop and check in.** Amazon suggests pausing after your answer and asking whether the interviewer wants more context ([Amazon](https://www.amazon.jobs/content/en/how-we-hire/interview-loop)).
@@ -125,8 +126,10 @@ Budget 10 to 12 hours over 2 weeks. That matches Huynh's suggestion of about 10 
 1. **Decode what your company scores (1 hour).** Open your company's page in the table below and the job description. Write down the 6 to 8 values or competencies you will be graded on. For Amazon, a Bar Raiser says the job description usually shows which principles matter most ([About Amazon](https://www.aboutamazon.com/news/workplace/what-do-each-of-amazons-leadership-principles-really-mean)).
 2. **Collect 20 to 30 moments and keep 8 to 10 (3 hours).** Follow [Build your story bank](story-bank.md). It uses interviewing.io's selection method: brainstorm, scope, add evidence, filter, title ([interviewing.io](https://interviewing.io/blog/stop-memorizing-star-for-behavioral-interviews-start-selecting-better-stories)).
 3. **Write each story as a STAR card with a number (3 hours).** Use the [story card](story-bank.md#step-5-write-each-story-on-a-card). Map each story to 2 or 3 company values. Then do an "I" audit: replace every "we" that hides your own action.
-4. **Rehearse out loud and record (2 hours).** Time each story. Jugal's rule: "Record yourself. Watch it back. Cringe. Do it again. The first time you tell these stories, they'll sound scripted. By the tenth time, they'll sound natural." ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)). Then have a friend ask "why?" and "what exactly did you do?" five times per story.
-5. **Run 2 or 3 mocks and fix the weakest story (2 to 3 hours).** Use a peer, an AI tool, or a paid interviewer from the resources below. After each mock, ask two of Jugal's review questions: "Did I talk enough?" and "Would you hire me based on this interview?" Ask your mock partner to grade each answer as poor, borderline, solid, or outstanding.
+4. **Rehearse out loud and record (2 hours).** Time each story, then have a friend ask "why?" and "what exactly did you do?" five times per story.
+    - Jugal's rule: "Record yourself. Watch it back. Cringe. Do it again. The first time you tell these stories, they'll sound scripted. By the tenth time, they'll sound natural." ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the))
+5. **Run 2 or 3 mocks and fix the weakest story (2 to 3 hours).** Use a peer, an AI tool, or a paid interviewer from the resources below, and ask your partner to grade each answer as poor, borderline, solid, or outstanding.
+    - After each mock, ask two of Jugal's review questions: "Did I talk enough?" and "Would you hire me based on this interview?"
 
 ### Two-week schedule
 
@@ -199,7 +202,7 @@ After a long answer (once or twice per interview; idea from Amazon's loop page):
 
 ## Tell me about yourself
 
-This is the most common opener at every company ([Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview/)). Keep it to 60 to 90 seconds. Jugal's 6-step pitch (hook, introduce yourself, highlight value, align with the audience, call to action, practice) works here with small changes ([Craft the Elevator Pitch](https://jugaldb.substack.com/p/craft-the-elevator-pitch-that-gets)).
+The Tech Interview Handbook lists it among the three questions to prepare first ([Tech Interview Handbook](https://www.techinterviewhandbook.org/behavioral-interview/)). Keep it to 60 to 90 seconds. Jugal's 6-step pitch (hook, introduce yourself, highlight value, align with the audience, call to action, practice) works here with small changes ([Craft the Elevator Pitch](https://jugaldb.substack.com/p/craft-the-elevator-pitch-that-gets)).
 
 ```text
 Present (20 s): I'm [name], a [year and degree] at [school] / [role] at [company].

@@ -1,6 +1,6 @@
 # Resume rules and structure
 
-For interns, new grads, and engineers with 0 to 3 years of experience. When you finish this page you will have a one-page base resume with the right sections in the right order.
+For interns, new grads, and engineers with 0 to 3 years of experience. You will finish with a one-page base resume, sections in the right order for your track.
 
 ## How a resume gets read
 
@@ -12,20 +12,20 @@ For interns, new grads, and engineers with 0 to 3 years of experience. When you 
 | 4. First human look | A recruiter: 5 to 10 seconds on the first pass ([Georgia Tech CS Resume Guide](https://www.cc.gatech.edu/sites/default/files/documents/2026/GT%20CS%20Resume%20Guide%20compressed_1.pdf)), median 31 seconds in a 2024 study ([interviewing.io](https://interviewing.io/blog/are-recruiters-better-than-a-coin-flip-at-judging-resumes)) | Company names, school, outcomes in the top third | Your strongest evidence placed first |
 | 5. Interviews | Engineers | Every line you wrote | Only claims you can defend for 5 minutes |
 
-In the interviewing.io study, 76 recruiters judged about 1,000 resumes and were right only 55% of the time. Experience at a top-tier company was the strongest driver of a yes. You cannot fake a company name, so make your best evidence impossible to miss.
+In that study, 76 recruiters judged about 1,000 resumes and picked correctly only 55% of the time. Candidates with FAANG or FAANG-adjacent experience were 35% more likely to be picked. You cannot add a company name you do not have, so put your best evidence in the top third.
 
 > **Watch out:** A resume is necessary, not sufficient. Jugal: "When I was searching for my first US role, I sent around 700 applications and got 3 interviews." He fixed it with people, not a better resume ([7 videos on networking your way to offers](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to)). Pair this section with [referrals](../outreach/referrals.md).
 
 ## Ten rules
 
-1. **Keep it to one page.** Laszlo Bock, then head of People Operations at Google, used "one page per 10 years of work experience" ([HC Magazine](https://www.hcamag.com/nz/news/general/the-worst-cv-mistakes-according-to-googles-hr-chief/141075)); Gayle Laakmann McDowell: "When you go onto two pages, you add weaker content to your resume, by definition" ([Fortune](https://fortune.com/2014/10/02/how-can-i-get-my-resume-shortlisted-by-google-for-a-software-engineer-job/)). Google has no hard length rule but says "Keep it short" ([Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/)), and a UK CV is the exception ([country formats](templates.md#country-formats)).
+1. **Keep it to one page.** Laszlo Bock, then Google's head of People Operations: "one page per 10 years of work experience" ([HC Magazine](https://www.hcamag.com/nz/news/general/the-worst-cv-mistakes-according-to-googles-hr-chief/141075)). Gayle Laakmann McDowell: a second page adds "weaker content to your resume, by definition" ([Fortune](https://fortune.com/2014/10/02/how-can-i-get-my-resume-shortlisted-by-google-for-a-software-engineer-job/)). Google sets no hard limit but says "Keep it short" ([how we hire](https://www.google.com/about/careers/applications/how-we-hire/)); UK CVs are the exception ([country formats](templates.md#country-formats)).
 2. **Use one column and standard headings.** Education, Experience, Projects, Skills. Parsers and recruiters both look for them ([how ATS works](ats.md)).
 3. **Put your strongest evidence in the top third.** Most relevant role first, most relevant bullet first inside each role.
 4. **Write every bullet as result, measure, method.** Google's wording: "accomplished [X] as measured by [Y], by doing [Z]" ([Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/)). Full method: [writing bullets](writing-bullets.md).
 5. **Tailor.** Keep one base resume, one version per role type, and a full pass for your top roles ([tailoring](tailoring.md)).
 6. **Write only what you can defend.** Jugal: "Do not exaggerate. You'll be asked about everything in the interview" ([The New Grad and Internship prep for 2026](https://jugaldb.substack.com/p/the-new-grad-and-internship-prep)).
 7. **Send a text PDF named after you.** Use `Firstname_Lastname_Resume.pdf`. The Georgia Tech guide asks for your name in the file name.
-8. **Ship zero typos.** Bock calls typos "deadly" because they read as carelessness. In one company's 2012 data, typos were the strongest signal of who got an offer ([interviewing.io](https://interviewing.io/blog/resumes-suck-heres-the-data)). Small dataset, cheap fix.
+8. **Ship zero typos.** Bock calls typos "deadly" because employers read them as carelessness. In one company's 2012 hiring data, typo count was the strongest signal of who got an offer ([interviewing.io](https://interviewing.io/blog/resumes-suck-heres-the-data)); it is one small dataset, and the fix costs 10 minutes.
 9. **Make every link clickable and current.** Stale GitHub and LinkedIn profiles hurt you ([The Tech Resume Inside Out: common mistakes](https://thetechresume.com/samples/common-mistakes)).
 10. **Match your LinkedIn.** Same titles, companies, and dates ([LinkedIn profile guide](../linkedin/index.md)).
 
@@ -50,7 +50,7 @@ Georgia Tech's rule: "If your Work Experience is unrelated to CS you should list
 |---|---|---|---|
 | 1 | Header | As above | |
 | 2 | Education | As above | Coursework only if there is room |
-| 3 | Experience | Internship, research assistant, TA, co-op | 3 to 5 bullets for the most relevant role |
+| 3 | Experience | Internship, research assistant, TA, co-op | 4 to 6 bullets for the most relevant role (Georgia Tech), 3 to 4 if the page is full |
 | 4 | Projects | 2 to 3 projects | Pick ones that show skills your experience does not |
 | 5 | Skills | As above | |
 | 6 | Leadership and awards (optional) | As above | |
@@ -92,7 +92,7 @@ The [Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/) kee
 |---|---|---|---|
 | Education | 2nd | 2nd | Last |
 | Experience | 3rd or 4th | 3rd | 2nd or 3rd |
-| Projects | 3rd | 4th | Optional |
+| Projects | 3rd or 4th | 4th | Optional |
 | Skills | 5th | 5th | 4th |
 | Summary | No | No | Optional |
 | GPA | If 3.5+ | If 3.5+ | Drop |
@@ -111,7 +111,7 @@ The [Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/) kee
 4. Show readable link text such as `linkedin.com/in/handle` and make it clickable.
 5. Add a portfolio site only if it shows work that GitHub does not.
 6. Leave out photo, date of birth, age, marital status, nationality, and street address for US and UK roles.
-7. Leave visa status off by default. The application form asks. See [international students](../jobs/international-students.md) for the exceptions.
+7. Leave visa status off by default; the application form asks. Exceptions: [international students](../jobs/international-students.md).
 
 ## Education
 
@@ -177,9 +177,9 @@ Certificates rarely beat projects. Jugal's heading from [Top 30 AI Certification
 | Source | Cost | How to use it |
 |---|---|---|
 | [CS50x](https://cs50.harvard.edu/x/) | Free | Finish the problem sets and final project, then list the certificate if you have no CS degree |
-| [AWS Skill Builder](https://skillbuilder.aws/) | Free digital training, paid exams | Do the cloud fundamentals path before applying to cloud-heavy roles |
-| [Microsoft Learn credentials](https://learn.microsoft.com/en-us/credentials/certifications/) | Free learning, paid exams | Fundamentals exams are a cheap first credential |
-| [Google Skills](https://www.skills.google/) | Free and paid labs | Use the cloud and AI skill badges for cloud or AI roles |
+| [AWS Skill Builder](https://skillbuilder.aws/) | Free courses; paid subscription and exams | Do the free cloud fundamentals path before applying to cloud-heavy roles |
+| [Microsoft Learn credentials](https://learn.microsoft.com/en-us/credentials/) | Free learning, paid exams | Fundamentals exams (for example AZ-900) are a cheap first credential |
+| [Google Skills](https://www.skills.google/) | Freemium (some free monthly lab credits, paid subscriptions) | Earn a cloud or AI skill badge for cloud or AI roles |
 | [freeCodeCamp](https://www.freecodecamp.org/learn/) | Free | Project-based certifications for web roles |
 | [HackerRank skills certification](https://www.hackerrank.com/skills-verification) | Free | Timed tests in problem solving, Python, SQL. Doubles as [online assessment](../online-assessments/index.md) practice |
 
@@ -210,14 +210,14 @@ Strong: Backend engineer, 2 years on payments APIs in Java and AWS; cut p99 late
 | "Responsible for..." | Duties, not results | [Amazon recruiters](https://www.aboutamazon.com/news/workplace/amazon-job-application-resume-writing-tips), [Jugal](https://jugaldb.substack.com/p/how-i-turned-my-resume-into-a-job) |
 | Internal project code names | The reader cannot decode them | The Tech Resume Inside Out |
 | High school after your first semester | Weaker than college content | Georgia Tech |
-| Every tool you touched once | You will be asked about it | Jugal |
+| Every tool you touched once | You will be asked about it | [Jugal](https://jugaldb.substack.com/p/the-new-grad-and-internship-prep) |
 | Hidden white text or AI prompts | Detected and penalized | [Built In](https://builtin.com/articles/hidden-ai-prompts-in-resume) |
 | Columns, icons, images, tables | Break parsing | [Workday docs](https://doc.workday.com/admin-guide/en-us/human-capital-management/recruiting/candidates/set-up-prospects-and-candidates/hdc1552497830785.html), [OpenResume](https://www.open-resume.com/resume-parser) |
 
 ## Build your base resume this weekend
 
 1. Watch Jugal's walkthrough of the resume he used for Amazon: [This Resume Got Me Into Amazon](https://www.youtube.com/watch?v=Z9Gcv9PByAI) (about 10 minutes).
-2. Dump everything into a plain doc: every project, internship, TA role, hackathon, club role, award, and pull request. Jugal: "Write down every single thing you've ever done professionally. Everything. We'll cut it down later" ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
+2. Dump everything into a plain doc: every project, internship, TA role, hackathon, club role, award, and pull request. Jugal: "Write down every single thing you've ever done professionally. Everything. We'll cut it down later" ([Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)).
 3. Open a template. Default: [Jake's Resume on Overleaf](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs). Other options and setup steps: [templates](templates.md).
 4. Fill the header with the rules above.
 5. Pick your section order from the track tables above.
@@ -236,8 +236,9 @@ Strong: Backend engineer, 2 years on payments APIs in Java and AWS; cut p99 late
 
 | Company | What they say | Link |
 |---|---|---|
-| Google | Build a resume for each job, show you meet the minimum qualifications, use the X, Y, Z formula, no length requirement but keep it short. Cover letters are not required. You can apply to up to three jobs in a rolling 30-day window | [How we hire](https://www.google.com/about/careers/applications/how-we-hire/), [recruiter video (2019)](https://www.youtube.com/watch?v=BYUy1yvjHxE), [Google page](../companies/google.md) |
+| Google | Build a resume for each job, show you meet the minimum qualifications, use the X, Y, Z formula, no length requirement but keep it short. Cover letters are not required. You can apply to up to three jobs every 30 days | [How we hire](https://www.google.com/about/careers/applications/how-we-hire/), [recruiter video (2019)](https://www.youtube.com/watch?v=BYUy1yvjHxE), [Google page](../companies/google.md) |
 | Amazon | Keep it "text-forward, black and white, and simple". Focus on actions and results. Align with the posting's Basic and Preferred Qualifications | [Amazon recruiters' tips](https://www.aboutamazon.com/news/workplace/amazon-job-application-resume-writing-tips), [recruiter video Q&A](https://www.aboutamazon.com/news/workplace/resume-writing-tips-from-an-amazon-recruiter), [Amazon page](../companies/amazon.md) |
+| NVIDIA | The 2027 software engineering intern posting says your anticipated graduation month and year "must be clearly indicated on a resume or CV to be considered". It also states that NVIDIA uses AI tools in recruiting (as of Oct 2026) | [2027 SWE intern posting](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495), [NVIDIA page](../companies/nvidia.md) |
 | Anthropic | Write the first draft yourself, then you may use Claude to refine it | [Candidate AI guidance](https://www.anthropic.com/candidate-ai-guidance), [Anthropic page](../companies/anthropic.md) |
 | Meta, Microsoft | No public resume-writing guide found (as of Oct 2026). The general rules on this page apply | [Meta page](../companies/meta.md), [Microsoft page](../companies/microsoft.md) |
 
@@ -259,6 +260,10 @@ Strong: Backend engineer, 2 years on payments APIs in Java and AWS; cut p99 late
 - [How I turned my resume into a job magnet](https://jugaldb.substack.com/p/how-i-turned-my-resume-into-a-job): weekly tailoring routine and verb swaps.
 - [The New Grad and Internship prep for 2026](https://jugaldb.substack.com/p/the-new-grad-and-internship-prep): templates, ATS prompt, recruiter tips.
 - [The "Borrowed Logo" Strategy](https://jugaldb.substack.com/p/the-borrowed-logo-strategy-how-to): listing certificates honestly.
+- [Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the): his first-week resume plan (Days 1 to 2 template, Days 3 to 4 impact bullets, Days 5 to 7 tailoring with 5 postings).
+- [The job-search tool stack I'd actually use in 2026](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually): why Overleaf plus Jake's Resume is his base.
+- [The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing): draft with ChatGPT, tailor in Teal, apply with Simplify. Use the workflow, but still edit every line by hand.
+- [I talked to 7 FAANG recruiters](https://jugaldb.substack.com/p/i-talked-to-7-faang-recruiters-none): his free Claude skill (Job Search Coach) with a resume optimizer and per-job tailoring modules.
 
 All posts by section: [Substack index](../resources/substack.md).
 

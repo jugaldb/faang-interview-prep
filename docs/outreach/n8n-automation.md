@@ -1,6 +1,6 @@
 # Automate outreach with n8n
 
-For anyone comfortable with a spreadsheet. No coding needed. When you finish you will have two working workflows: one drafts referral emails from a list of companies, one scores fresh jobs against your resume every morning.
+For anyone comfortable with a spreadsheet. No coding needed. You leave with two working workflows: one drafts referral emails from a list of companies, one scores fresh jobs against your resume every morning.
 
 I got tired of "networking" that meant copy-pasting the same DM to random people. What worked was short, credible emails to the right people about a specific role, with two proof points and a clear ask, so I automated the boring parts ([The Referral Engine](https://jugaldb.substack.com/p/the-referral-engine-n8n-hunter-gemini)). I also learned that a one-size-fits-all resume never wins; the callbacks started once every application was tailored ([Ultimate Job Search Workflow with n8n](https://jugaldb.substack.com/p/ultimate-job-search-workflow-with)).
 
@@ -35,8 +35,8 @@ Both posts are free. All facts about the files below come from reading the publi
 
 | Option | Cost (as of Oct 2026) | Google login | Runs with laptop closed | Best for |
 |---|---|---|---|---|
-| n8n Cloud trial | Free for 14 days, 1,000 executions, no card. Then Starter at EUR 20 a month billed yearly (2,500 executions) | One click ("Sign in with Google") | Yes | Fastest start |
-| Self-host with Docker | Free ([Community edition](https://docs.n8n.io/deploy/host-n8n/community-edition-features/); Docker Personal is $0) | You create your own Google OAuth app (20 minutes) | No, the machine must be awake at run time | Free forever |
+| n8n Cloud trial | Free for 14 days, 1,000 executions, no card. Then Starter at EUR 20 a month billed yearly (2,500 executions; n8n says yearly billing saves 17%) | One click ("Sign in with Google") | Yes | Fastest start |
+| Self-host with Docker | Free ([Community edition](https://docs.n8n.io/deploy/host-n8n/community-edition-features/); Docker Personal is $0) | You create your own Google OAuth app (20 minutes) | No, the machine must be awake at run time | No monthly cost |
 | `npx n8n` | Free | Same as Docker | No | Not recommended in Oct 2026 |
 
 One execution is one full run of a workflow, however many steps it has, so a daily schedule uses about 30 a month ([n8n pricing](https://n8n.io/pricing/)). Personal and learning use of the self-hosted version is allowed under n8n's license ([license FAQ](https://docs.n8n.io/n8n-community-license/community-license/license-faq/)).
@@ -46,7 +46,7 @@ One execution is one full run of a workflow, however many steps it has, so a dai
 1. Start the trial from [n8n pricing](https://n8n.io/pricing/) ([trial details](https://docs.n8n.io/deploy/use-n8n-cloud/start-your-free-trial/)).
 2. Note your instance URL (`https://[name].app.n8n.cloud`).
 3. Put a calendar reminder on day 12. If you do not upgrade, the trial expires and n8n deletes the workspace.
-4. Before day 14, export your workflows ([download workflows](https://docs.n8n.io/deploy/use-n8n-cloud/download-workflows/)).
+4. Before day 14, export your workflows. After the trial ends you still have 90 days to download them from the Admin Dashboard ([download workflows](https://docs.n8n.io/deploy/use-n8n-cloud/download-workflows/)).
 
 ### Option B: Self-host with Docker
 
@@ -82,13 +82,15 @@ docker run -it --rm \
 npx n8n
 ```
 
-> **Watch out:** n8n 3.0 is scheduled for October 2026 and will not support installs run with npm or npx ([3.0 breaking changes](https://docs.n8n.io/changelog/v30-breaking-changes/)). Use Docker unless you already have npx running.
+> **Watch out:** As of Oct 4, 2026, n8n 3.0 is scheduled for October 2026 and will not support installs run with npm or npx ([3.0 breaking changes](https://docs.n8n.io/changelog/v30-breaking-changes/)). Use Docker unless you already have npx running.
 
 ## Step 2: Copy the two Google Sheets
 
 1. Open each template and choose File, then Make a copy. Keep the tab names.
-2. Keep your copies private. You do not need "anyone with the link can edit" (the post suggests it), because n8n signs in with your own Google account. A public editable sheet leaks your contact list and lets anyone add rows that trigger emails.
+2. Keep your copies private. The post suggests "anyone with the link can edit", but n8n signs in with your own Google account, so you do not need it. A public editable sheet leaks your contact list and lets anyone add rows that trigger emails.
 3. Do not rename any column. The workflows write to these exact names, typos included.
+4. Upload your resume PDF to Google Drive. Private is fine; the Drive node downloads it with your own credential.
+5. Fill one input row using the tables below.
 
 Referral Engine sheet:
 
@@ -103,8 +105,6 @@ Job Search sheet:
 |---|---|---|---|
 | `Filter` (input) | `Keyword`, `Location`, `Experience Level`, `Remote`, `Easy Apply` | `Software Engineer Intern`, `United States`, `Internship`, `Hybrid`, (blank) | Only the first row is used |
 | `Result` (output) | `Title`, `Company `, `Locaton`, `Link`, `Score`, `Cover Letter`, `Skills`, `Improvements` | Filled by the workflow | `Company ` has a trailing space and `Locaton` is misspelled in the template. Leave both as they are |
-
-4. Upload your resume PDF to Google Drive. Private is fine; the Drive node downloads it with your own credential.
 
 ## Step 3: Import the workflows
 
@@ -146,8 +146,8 @@ Job Search sheet:
 
 1. Open [Google AI Studio API keys](https://aistudio.google.com/apikey) and click Create API key (new project). Copy it.
 2. In n8n, create a "Google Gemini(PaLM) Api" credential and paste the key. Leave the host as `https://generativelanguage.googleapis.com` ([Gemini credential docs](https://docs.n8n.io/integrations/builtin/credentials/googleai/)).
-3. Open every "Google Gemini Chat Model" node and pick a model from the dropdown. Imported nodes fall back to `gemini-2.5-flash`, which Google now limits to people who used it before; new nodes default to `gemini-3-flash-preview`, which has no free tier ([deprecations](https://ai.google.dev/gemini-api/docs/deprecations), [pricing](https://ai.google.dev/gemini-api/docs/pricing)).
-4. Choose `gemini-3.5-flash-lite` (cheapest) or `gemini-3.8-flash` (stronger). Both have a free tier as of Oct 2026.
+3. Open every "Google Gemini Chat Model" node and pick a model from the dropdown. Imported nodes fall back to `gemini-2.5-flash`, which Google now limits to people who used it before ([deprecations](https://ai.google.dev/gemini-api/docs/deprecations)). A Gemini node you add yourself defaults to a preview model, so change that too.
+4. Choose `gemini-3.5-flash-lite` (cheapest) or `gemini-3.8-flash` (stronger). Google names these two for new projects, and both show "Free of charge" in the free tier column as of Oct 2026 ([pricing](https://ai.google.dev/gemini-api/docs/pricing)).
 5. Check your live limits at [AI Studio rate limits](https://aistudio.google.com/rate-limit). The Job Search Workflow makes 2 Gemini calls per job.
 6. On n8n Cloud you can skip the key and use n8n's Gateway credits during the trial ([gateway credits](https://docs.n8n.io/deploy/use-n8n-cloud/gateway-credits/)).
 
@@ -205,7 +205,7 @@ Found by reading the published JSON against n8n's documentation. They are not vi
 1. **Point every Sheets node at your copy.** All three Sheets nodes point at Jugal's private copy.
 2. **Lower the Hunter limit.** Set Limit to 3. Ten near-identical emails to one company look like spam, and Hunter's data favors contacting 1 to 2 people per company ([Hunter 2026](https://hunter.io/the-state-of-cold-email)). On the free plan the limit cannot go above 10.
 3. **Add your resume.** Paste the Drive URL into Download file1.
-4. **Pass the contact's name to the AI.** Extract from File outputs only the PDF text, so the prompt's `{{ $json.Name }}` and `{{ $json.Position }}` arrive blank and the model may invent a name. Fix: Extract from File, Add option, Keep Source, JSON. Or change the two expressions to `{{ $('Fetch Data').item.json.Name }}` and `{{ $('Fetch Data').item.json.Position }}`.
+4. **Pass the contact's name to the AI.** Extract from File outputs only the PDF text, so `{{ $json.Name }}` and `{{ $json.Position }}` reach the prompt blank and the model may invent a name. Fix: in Extract from File, Add option, Keep Source, JSON. Or change the two expressions to `{{ $('Fetch Data').item.json.Name }}` and `{{ $('Fetch Data').item.json.Position }}`.
 5. **Stop invented personalization.** The prompt asks for "public signals" (a post, talk, repo) but the workflow never supplies any. Append the patch lines below.
 6. **Match on Email, not Name.** In "Append or update row in sheet", set the column to match on to `Email`, so two people with the same name do not overwrite each other.
 7. **Give the send branch a file.** The resume is downloaded only in the drafting branch, so the Gmail step has no attachment. Add a Google Drive node (Download, File By URL, your resume) between Loop Over Items1 and the Gmail node. It outputs the file as binary `data`.
@@ -279,9 +279,10 @@ If it seems like a fit, would you be open to referring me for {{Position}}? Here
 ### Schedule it (optional)
 
 1. Only after three clean manual runs.
-2. Replace the manual trigger with a [Schedule Trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/). Jugal runs it daily at 17:00 America/Phoenix; use your own time zone.
+2. Replace the manual trigger with a [Schedule Trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/). Jugal's post suggests daily at 17:00 America/Phoenix; use your own time zone.
 3. Set the time zone in the workflow settings ([workflow settings](https://docs.n8n.io/build/manage-workflows/configure-workflow-settings/)).
-4. Click Publish. In n8n 2.x, Publish replaced the old Activate toggle that the 2025 posts mention ([save and publish](https://docs.n8n.io/build/understand-workflows/save-and-publish-workflows/)).
+4. Click Publish. In n8n 2.x, Publish replaced the old Activate toggle that the 2025 posts mention ([2.0 breaking changes](https://docs.n8n.io/changelog/v20-breaking-changes/), [save and publish](https://docs.n8n.io/build/understand-workflows/save-and-publish-workflows/)).
+5. Each morning, open Gmail Drafts and work through the review steps above. The schedule only drafts; you still send by hand.
 
 ## Workflow 2: The Job Search Workflow
 
@@ -328,7 +329,7 @@ The Code node maps these exact strings to LinkedIn's filters. Anything else is s
 |---|---|---|---|
 | `Keyword` | Plain words | `Software Engineer Intern` | Not URL-encoded, so avoid `&`, `#`, `+` |
 | `Location` | A place LinkedIn understands | `United States`, `India`, `London` | |
-| `Experience Level` | `Internship`, `Entry level`, `New Grad` (comma-separated for several) | `Internship` | Case-sensitive. The template's sample `Entry Level` (capital L) does not match, so the level filter drops |
+| `Experience Level` | `Internship`, `Entry level`, `New Grad` (comma-separated for several) | `Internship` | Case-sensitive. The template's sample `Entry Level` (capital L) does not match, so the level filter is silently skipped |
 | `Remote` | `Remote`, `Hybrid`, `On-Site` (comma-separated) | `Hybrid,Remote` | |
 | `Easy Apply` | Any text turns it on; blank turns it off | (blank) | |
 
@@ -339,7 +340,7 @@ Only the first row is read. Jugal's rule: for more searches, make a copy of both
 1. **Add your resume.** Paste the Drive URL into Download file.
 2. **Point both Sheets nodes at your copy.** Tabs `Filter` and `Result`.
 3. **Pick models.** Both Gemini nodes need your credential and a current model (Step 4). Optional: temperature 0.2 to 0.4 keeps the JSON stable.
-4. **Give the resume editor its inputs.** AI Agent1's prompt is saved as fixed text, so its `{{ }}` placeholders are sent literally and the Improvements column is written without seeing the job or your resume. Open AI Agent1, switch the Prompt field from Fixed to Expression, and replace `{{ $json.Description }}` with `{{ $('Edit Fields').item.json.Description }}`. The same issue exists in the gallery copy of the template.
+4. **Give the resume editor its inputs.** AI Agent1's prompt is saved as fixed text, so Gemini receives the literal `{{ }}` placeholders and writes Improvements without seeing the job or your resume. Fix: open AI Agent1, switch the Prompt field from Fixed to Expression, and replace `{{ $json.Description }}` with `{{ $('Edit Fields').item.json.Description }}`. The gallery copy (template 9602) has the same setting.
 5. **Set your email.** In Send a message, replace `<your e-mail address>`.
 6. **Set the time zone.** Workflow settings, Timezone. Self-hosted n8n defaults to America/New_York.
 
@@ -479,7 +480,15 @@ Output: points only, exactly as specified above.
 2. Click Execute workflow.
 3. Open `Result`. Each row should have a Score, a Cover Letter, Skills, and an Improvements list that names things from that job.
 4. If Gemini returns a 429 ("too many requests"): open the AI Agent node Settings, turn on Retry On Fail, Max Tries 5, Wait Between Tries 5000 ms (the highest the editor allows). For longer back-off, raise the Wait node from 2 to 10 seconds ([rate limits](https://docs.n8n.io/integrations/builtin/handle-rate-limits/)).
-5. Remove the Limit node, set the schedule hour, and click Publish.
+5. Run it two more mornings by hand. When all three runs fill `Result` cleanly, remove the Limit node.
+
+### Schedule it
+
+1. Open Schedule Trigger and set the hour. The file ships with 5 AM.
+2. Open the workflow Settings and set Timezone to yours. Self-hosted n8n otherwise uses America/New_York ([workflow settings](https://docs.n8n.io/build/manage-workflows/configure-workflow-settings/)).
+3. Click Publish. A schedule runs only on a published workflow ([Schedule Trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/)).
+4. Self-hosted: keep the machine awake at that hour, or move to n8n Cloud.
+5. Attach the error alert from [Make failures loud](#make-failures-loud).
 
 ### Use the output every morning
 
@@ -529,7 +538,7 @@ For specific companies, use their official public job APIs in an HTTP Request no
 
 | ATS | Endpoint | Docs |
 |---|---|---|
-| Greenhouse | `https://boards-api.greenhouse.io/v1/boards/[token]/jobs?content=true` (`content=true` adds descriptions) | [Greenhouse Job Board API](https://developers.greenhouse.io/job-board.html) |
+| Greenhouse | `https://boards-api.greenhouse.io/v1/boards/[token]/jobs?content=true` (`content=true` adds descriptions) | [Greenhouse Job Board API](https://docs.greenhouse.io/job-board.html) |
 | Lever | `https://api.lever.co/v0/postings/[company]?mode=json` | [Lever Postings API](https://github.com/lever/postings-api) |
 | Ashby | `https://api.ashbyhq.com/posting-api/job-board/[company]` | [Ashby public job posting API](https://developers.ashbyhq.com/docs/public-job-posting-api) |
 
@@ -545,7 +554,7 @@ More job sources: [where to find jobs](../jobs/where-to-find-jobs.md) and [findi
 | Repeat emails | The send branch rereads every row | `Sent` column plus Filter, or cross-run dedupe (fix 9) |
 | Invented personalization | The prompt asks for signals it never receives | Prompt patch plus read every draft |
 | Following up forever | 3 touches per person | See [follow-up and tracking](follow-up-and-tracking.md) |
-| Breaking email law | CAN-SPAM requires honest headers and subjects and honoring opt-outs ([FTC](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)) | Real name, true subject, an opt-out line. Details in [cold email](cold-email.md#the-rules-of-the-road-can-spam-uk-and-eu) |
+| Breaking email law | CAN-SPAM requires honest headers and subjects and honoring opt-outs ([FTC](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)) | Real name, true subject, an opt-out line. Details in [cold email](cold-email.md#email-law-can-spam-uk-and-eu) |
 | LinkedIn account restriction | Scraping is against the User Agreement | Internship mode or official ATS APIs |
 | Your data in AI training | Free Gemini tier may be read by reviewers (outside EEA, CH, UK) | Redacted resume PDF, or a paid key |
 | Leaked secrets | Exported workflow JSON contains credential names and IDs ([export docs](https://docs.n8n.io/build/manage-workflows/export-and-import/)) | Never commit keys; check JSON before sharing |
@@ -555,7 +564,7 @@ More job sources: [where to find jobs](../jobs/where-to-find-jobs.md) and [findi
 
 ## Make failures loud
 
-A scheduled workflow that fails silently is worse than none. Expired Google tokens, a LinkedIn HTML change, and Gemini 429s all fail quietly.
+Expired Google tokens, a LinkedIn HTML change, and Gemini 429s all stop a scheduled run without telling you. Set up one alert workflow for both automations.
 
 1. Create a new workflow that starts with an [Error Trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.errortrigger/) node.
 2. Add a Gmail node that sends you "Workflow failed" with the workflow name.
@@ -595,7 +604,7 @@ A scheduled workflow that fails silently is worse than none. Expired Google toke
 ## Resources
 
 - [n8n docs](https://docs.n8n.io/): official documentation. How to use it: search the node name when a setting here does not match your screen.
-- [n8n learning paths](https://learn.n8n.io/): official free courses. How to use it: do the beginner path (1 to 2 hours) before you edit nodes.
+- [n8n Academy](https://learn.n8n.io/): official courses (free registration). How to use it: take N8N101 Essentials before you edit nodes.
 - [Jugal's n8n creator page](https://n8n.io/creators/jugaldb/): his gallery templates. How to use it: check for updated versions.
 - [Hunter node docs](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.hunter/): Domain Search, Email Finder, Email Verifier. How to use it: add an Email Verifier step before drafting.
 - [Gemini Chat Model node docs](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatgooglegemini/): model and temperature options. How to use it: set temperature low for JSON.

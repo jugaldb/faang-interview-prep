@@ -26,7 +26,7 @@
   },
   {
    "stage": "Final loop (virtual)",
-   "details": "3 to 4 interviews of 45 to 60 minutes on Microsoft Teams, often on one day or across two days. Each round usually opens with behavioral questions, then coding in a HackerRank or Codility live editor where code must compile and pass your own test cases. One round may be LLD or design. India loops: DSA, LLD, then an 'AA' (as appropriate) round with a senior manager that is mostly behavioral and project deep dive."
+   "details": "3 to 4 interviews of 45 to 60 minutes on Microsoft Teams, often on one day or across two days. Each round usually opens with behavioral questions, then coding in a HackerRank or Codility live editor where code must compile and pass your own test cases. One round may be LLD or design. India loops: DSA, LLD, then an 'AA' (as appropriate) round with a senior manager that is mostly behavioral and detailed project discussion."
   },
   {
    "stage": "Decision and team placement",
@@ -48,7 +48,7 @@
   },
   {
    "stage": "Final round (2 technical interviews)",
-   "details": "Usually 2 interviews of 45 to 60 minutes on the same day, each with one coding problem plus fundamentals. India campus reports add OOP pillars, OS (paging, page faults), DBMS modelling and a resume deep dive. Some candidates get a third behavioral round."
+   "details": "Usually 2 interviews of 45 to 60 minutes on the same day, each with one coding problem plus fundamentals. India campus reports add OOP pillars, OS (paging, page faults), DBMS modelling and a detailed resume discussion. Some candidates get a third behavioral round."
   },
   {
    "stage": "Team match and offer",
@@ -56,7 +56,7 @@
   }
  ],
  "process_experienced_notes": "With 1 to 3 years you interview for 60 (India 'SDE 1 L60' loops often require 1 to 2 YOE) or 61/62 (Software Engineer II). Typical 61/62 flow: recruiter call, HackerRank OA with 2 questions (one medium, one hard), 60 minute phone screen, then a loop of 3 to 4: two coding rounds (trees, graphs, DP), an LLD round (message queue with producer-consumer and locking, cache with pluggable eviction, notification module, cart system) and an AA round. US 'hiring events' run one-day loops of 3 coding plus 1 system design (Jan 2026 reports); HLD prompts include Instagram feed. Some loops are batched to the next month ('I will reach back out when April loops open up', Mar 2026).",
- "timeline": "Interns: postings open from early August with monthly first-week windows through February; Explore windows October to December; Microsoft allows up to 90 days for a decision. Aced (formerly Exponent) says student processes can take up to two months and up to nine interviews. Reported examples: India on-campus OA to interview invite in 3 days; off-campus intern applied Nov 27, OA Dec 27, interview Jan 29, rejection Feb 8 (2024 to 2025 cycle); US SDE II recruiter call Mar 2, OA Mar 5, loop pushed to April; US SDE II offer the day after the final interview (Jul 2025). Team matching for full-time can stall for weeks (Dec 2025 report).",
+ "timeline": "Interns: postings open from early August with monthly first-week windows through February; Explore windows October to December; Microsoft allows up to 90 days for a decision. Aced (formerly Exponent) says student processes can take up to two months and up to nine interviews. Reported examples: India on-campus OA to interview invite in 3 days; off-campus intern applied Nov 27, OA Dec 27, interview Jan 29, rejection Feb 8 (2024 to 2025 cycle); US SDE II recruiter call Mar 2, OA Mar 5, loop pushed to April; US SDE II offer the day after the final interview (Jul 2025). Team matching for full-time can stall: one candidate sat in the matching pool for 32 days after passing all interviews (Dec 2025).",
  "oa": {
   "platform": "HackerRank (most 2025 to 2026 reports, including 'Microsoft Global Talent Acquisition' invites); Codility in early 2025 and earlier cycles",
   "format": "Usually 2 coding questions in 60 to 110 minutes (India campus intern OA: 75 minutes; L60 India OA: 110 minutes). Feb 2025 Redmond SDE II OA on Codility: 3 questions in 60 minutes. No separate behavioral or work-style section reported.",
@@ -90,7 +90,7 @@
    "Why Microsoft, and why this team?"
   ]
  },
- "non_leetcode_formats": "LLD in runnable code (LRU cache with pluggable eviction, notification service, message queue with locks, cart service, min-heap from scratch). India intern loops include a CS fundamentals viva (OOP pillars, C vs C++ vs Java, paging and page faults, DBMS modelling). The AA (as appropriate) round is a senior leader interview that is mostly behavioral plus project deep dive. US 'hiring events' compress the loop into one day. Some US rounds are practical API tasks the interviewer does not expect you to finish (Jan 2026).",
+ "non_leetcode_formats": "LLD in runnable code (LRU cache with pluggable eviction, notification service, message queue with locks, cart service, min-heap from scratch). India intern loops include a CS fundamentals viva (OOP pillars, C vs C++ vs Java, paging and page faults, DBMS modelling). The AA (as appropriate) round is a senior leader interview that is mostly behavioral plus detailed project discussion. US 'hiring events' compress the loop into one day. Some US rounds are practical API tasks the interviewer does not expect you to finish (Jan 2026).",
  "reported_questions": [
   {
    "title": "Asteroid Collision (OA intermediate question)",
@@ -219,7 +219,7 @@
    "source_url": "https://leetcode.com/discuss/post/8461584/microsoft-l61-se-hackerrank-live-coding-e3e2m/"
   },
   {
-   "title": "LLD: producer-consumer message queue with deep dive on mutex vs semaphore and deadlock prevention",
+   "title": "LLD: producer-consumer message queue with detailed questions on mutex vs semaphore and deadlock prevention",
    "url": "",
    "role": "SE II (L61), Hyderabad",
    "date": "2026-02",
@@ -278,7 +278,7 @@
   "Write code that compiles and runs in the live editor, and test it with your own cases before the interviewer asks.",
   "Prepare STAR(R) stories with a Reflection line; Microsoft's own interview tips add the extra R.",
   "For 60 to 62 loops, practice one LLD in working code within 35 to 45 minutes: cache with eviction strategies, notification service, producer-consumer queue.",
-  "Treat the final AA round as a senior-leader behavioral and project deep dive: know your exact contribution, numbers and trade-offs.",
+  "Treat the final AA round as a senior-leader behavioral and detailed project discussion: know your exact contribution, numbers and trade-offs.",
   "In the OA, never switch tabs or paste external code; HackerRank flags both and some 2026 OAs ran camera-on.",
   "Ask the interviewer real questions at the end; the official student guide warns against answering 'nothing'."
  ],
@@ -336,7 +336,8 @@
   "https://leetcode.com/discuss/post/8360419/microsoft-sde-1-l-59-hyderabad-2026-by-a-aky7/",
   "https://leetcode.com/discuss/post/7546120/compensation-details-microsoft-ic2l60-by-76bs/",
   "https://leetcode.com/discuss/post/7556039/msft-swe-2-seattle-165k-base-225k-tc-goo-x9yc/",
-  "https://leetcode.com/discuss/post/7384731/microsoft-swe1-role-no-update-after-fina-to0o/"
+  "https://leetcode.com/discuss/post/7384731/microsoft-swe1-role-no-update-after-fina-to0o/",
+  "https://leetcode.com/discuss/post/7386219/stuck-in-microsoft-team-matching-by-afri-yffm/"
  ],
  "confidence_notes": "Public 2025 to 2026 reports for US new grad (59/60) loops are sparse; most detailed reports are India campus, India L60, and SWE II (US and India). The US new grad description combines official pages with US SWE II reports and is an inference for new grads. The Codility to HackerRank shift is inferred from candidate reports (Feb 2025 Codility, Aug 2025 onward HackerRank), not announced by Microsoft. Loop shape varies by org (Azure, Xbox, Office, CoreAI) and by country. Extern figures (about 300 Explore seats, about 85% return offers, 37 days average process) are secondary and unconfirmed. [UNVERIFIED] Glassdoor snippets seen only in search results: a 2025 new grad loop of 'code screen from Codility, resume/HR round, and 3 interview onsite' and '1 behavioral round and 2 technical rounds'; Glassdoor pages could not be fetched. Reported question URLs on LeetCode Discuss were confirmed through LeetCode's GraphQL API because the pages block automated browsers. Simplify's claim (cited elsewhere in this research) that a referral cannot be attached after applying was not found on the Simplify Microsoft FAQ page; the official page says referrals are not required."
 }

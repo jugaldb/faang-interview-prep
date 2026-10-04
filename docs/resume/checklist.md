@@ -117,9 +117,9 @@ Run this before every important application. Tick the boxes; the site saves your
 | Source | What you get | How to use it |
 |---|---|---|
 | Your university career center | A trained reviewer who sees hundreds of student resumes | Book a 30-minute slot. Bring the resume and one target posting. Georgia Tech then asks students to upload the reviewed resume to [Handshake](https://joinhandshake.com/) |
-| An engineer at a target company (alumnus, senior, former TA) | The 10-second test from someone who interviews | Send the script below |
-| [r/EngineeringResumes](https://www.reddit.com/r/EngineeringResumes/) | Public critique from engineers | Read the wiki and submission instructions first; posts that skip them get removed. Anonymize: remove your name, contact details, links, and employer and school names |
-| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/) | Resume discussion threads | Search for the current resume thread before posting |
+| An engineer at a target company (alumnus, senior, former TA) | The 10-second test from someone who interviews | Find one with [finding people](../outreach/finding-people.md), then send the script below |
+| [r/EngineeringResumes](https://www.reddit.com/r/EngineeringResumes/) | Public critique from engineers | Read the subreddit wiki and posting rules first. Anonymize: remove your name, contact details, links, and employer and school names |
+| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/) | Resume discussion | Search past resume threads for your situation before you post |
 | [r/csMajors](https://www.reddit.com/r/csMajors/) | Student community | Ask intern-specific questions. Anonymize first |
 | [ColorStack](https://www.colorstack.org/) | Community for Black and Latinx CS students, with a resume book shared with partner companies | Join if eligible and submit to the resume book |
 | Jugal's video | His own resume, explained section by section | [This Resume Got Me Into Amazon](https://www.youtube.com/watch?v=Z9Gcv9PByAI) |

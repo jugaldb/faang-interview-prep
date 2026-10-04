@@ -31,7 +31,9 @@ Write one line per moment. Do not judge yet. Use your resume as the trigger, new
 
 Find receipts while you brainstorm: old emails, chat messages, pull requests, design docs, review comments, grade sheets, app analytics. Gilad Naor at interviewing.io calls these your evidence.
 
-> **Tip:** Start a work log today. Jugal's version for AI work: "Keep a simple doc called 'prompt log.' Write the change you made and whether it helped. After 30 days, you have 30 experiments you can talk about in an interview." ([AI Engineering 101](https://jugaldb.substack.com/p/ai-engineering-101-the-once-a-day)) The same habit works for bugs, reviews, and decisions.
+> **Tip:** Start a work log today: one dated line per bug, review, or decision, with the result.
+>
+> Jugal's version for AI work: "Keep a simple doc called 'prompt log.' Write the change you made and whether it helped. After 30 days, you have 30 experiments you can talk about in an interview." ([AI Engineering 101](https://jugaldb.substack.com/p/ai-engineering-101-the-once-a-day))
 
 ## Step 2: Score each moment and filter
 
@@ -428,10 +430,10 @@ Deduplicated from the [Tech Interview Handbook](https://www.techinterviewhandboo
 
 ## Rehearse until it sounds natural
 
-1. Read a card once. Put it away. Tell the story out loud and time it. Target 2 to 3 minutes.
-2. Record it on your phone. Listen once. Mark every "we", every filler word, and every missing number.
-3. Run the follow-up drill. A friend or an AI asks five follow-ups per story: why, what exactly did you do, what was the alternative, how did you measure it, what would you change. At Amazon, one point can be probed for 10 to 15 minutes ([interviewing.io](https://interviewing.io/guides/amazon-leadership-principles)).
-4. Tell it to a person. Ask them to repeat your result back. If they can't, your result is not clear.
+1. Read a card once, then put it away. Tell the story out loud and time it against a 2 to 3 minute target.
+2. Record it on your phone and listen once. Mark every "we", every filler word, and every missing number.
+3. Run the follow-up drill: a friend or an AI asks five follow-ups per story (why, what exactly did you do, what was the alternative, how did you measure it, what would you change). At Amazon, one point can be probed for 10 to 15 minutes ([interviewing.io](https://interviewing.io/guides/amazon-leadership-principles)).
+4. Tell it to a person and ask them to repeat your result back. If they can't, your result is not clear.
 5. Repeat until each story has been told about 10 times. Jugal: "By the tenth time, they'll sound natural." ([Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the))
 6. The day before, read only the titles. Recall each story from its title.
 

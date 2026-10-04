@@ -112,9 +112,9 @@ The interviewing.io survey covers experienced engineers (average 8 years), so tr
 | Company or program | Rule | What to do |
 |---|---|---|
 | Google | Up to 3 applications in a rolling 30 days. Google reviews transcripts for interns and new grads. After a rejection, "wait at least a year" before reapplying for the same type of role ([How we hire](https://www.google.com/about/careers/applications/how-we-hire/)) | Pick your 3 best-fit Google roles. Keep a transcript PDF ready |
-| Microsoft | Referral must be in before you apply (per [Simplify](https://simplify.jobs/blog/swe-interview-prep-roadmap-2027)) | Get the referral first, then apply |
+| Microsoft | Referral must be in before you apply (per [Simplify](https://simplify.jobs/blog/swe-interview-prep-roadmap-2027)). Summer 2027 intern postings take applications "during the first week of each month from August through February" ([posting](https://apply.careers.microsoft.com/careers/job/1970393556922922)) | Get the referral first. Apply in the first week of a month |
 | Netflix | A separate Airtable form arrives by email after you apply ([Simplify](https://simplify.jobs/blog/netflix-new-grad-software-engineer-guide)) | Finish it the same day |
-| Amazon | Rolling review ([SDE 2026 posting](https://amazon.jobs/en/jobs/3177934/software-development-engineer-2026-us)). Jugal suggests 20 to 30 applications over two days across SDE, intern and AWS roles, and reapplying after 6 months ([post](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)). Amazon does not publish a cooldown | Apply in week one. See [Amazon](../companies/amazon.md) |
+| Amazon | Rolling review ([SDE 2026 posting](https://amazon.jobs/en/jobs/3177934/software-development-engineer-2026-us)). The Summer 2027 US intern posting says applicants "will be considered at all locations we host interns in the United States" ([posting](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa)). Jugal suggests 20 to 30 applications over two days across SDE, intern and AWS roles, and reapplying after 6 months ([post](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)). Amazon does not publish a cooldown | Apply in week one. Interns: one application to the main posting covers every US location, so spend the rest on different teams (AWS, Robotics) only if you fit them. See [Amazon](../companies/amazon.md) |
 | Anthropic Fellows, Claude Corps | No visa sponsorship ([job post](https://job-boards.greenhouse.io/anthropic/jobs/5183044008)) | F-1 students: confirm your work authorization first |
 | Anthropic (all roles) | Write application answers yourself first, then you may refine with Claude ([policy](https://www.anthropic.com/candidate-ai-guidance)) | Follow each company's AI policy |
 
@@ -132,14 +132,14 @@ US cycle for Summer 2027 interns and 2027 new grads, from the [Simplify 2027 new
 | When | Internships | New grad | Other dates |
 |---|---|---|---|
 | June to August | Quant firms open first. Jugal names Jane Street, HRT, Citadel and IMC ([HFT post](https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles)) | Have your resume and 2 projects ready by end of July | |
-| July to September | Big tech posts. Google's US SWE intern postings went up 1 to 2 months before Oct 4, 2026 and were all closed by then. Microsoft's were closed too | Main window opens in August | |
-| September to October | Peak season. Amazon's US SDE intern posting opened around Sept 18, 2026 | Main window, August to October. Netflix new grad posts late September to October | Anthropic Fellows: Oct 18 deadline for the January cohort |
-| November to December | First-round screens | Returning interns have filled many slots by November | Apple AIML Residency: the last cycle was announced Nov 7, 2025 |
+| July to September | Big tech posts. Google's US SWE intern roles opened around July 20, 2026 for an early window that ran to July 24 ([posting copy](https://jobs.anitab.org/companies/google-24698/jobs/87002495-software-engineering-intern-bs-summer-2027)), then again Aug 31. Both were closed by Oct 4. Microsoft takes intern applications in the first week of each month from August | Main window opens in August | |
+| September to October | Peak season. Amazon's main US SDE intern posting went up Sept 17, 2026 | Main window, August to October. Netflix new grad posts late September to October | Anthropic Fellows: Oct 18 deadline for the January cohort |
+| November to December | First-round screens and OAs | Returning interns have filled many slots by November | Apple AIML Residency: the last cycle was announced Nov 7, 2025 |
 | January to February | Final rounds | Second wave, January to March, including Microsoft's leftover headcount (per Simplify) | F-1: OPT filing opens 90 days before your program end date (mid-February for a mid-May end date) |
 | March to April | Most offers | Keep applying until you sign | H-1B registration in March (FY2027 ran March 4 to 19, 2026). Petitions filed from April 1 |
 | Any month | [Off-season internships](https://github.com/SimplifyJobs/Summer2027-Internships/blob/dev/README-Off-Season.md) (Fall, Winter, Spring) | Keep checking the [New Grad list](https://github.com/SimplifyJobs/New-Grad-Positions) weekly | UK Graduate visa: apply by Dec 31, 2026 for 2 years |
 
-> **Tip:** guides that say "Google opens in mid-October" describe older cycles. For Summer 2027, Google's US SWE intern postings went up around August and September 2026 and were gone by early October. Check career pages weekly from July.
+> **Tip:** guides that say "Google opens in mid-October" describe older cycles. For Summer 2027, Google's first US SWE intern window lasted about 4 days in July 2026, and the second was closed by early October. Check career pages weekly from July.
 
 Detail for interns: [Internships](../internships/index.md). Visa dates: [International students](international-students.md#opt-optional-practical-training).
 
@@ -203,7 +203,7 @@ What changed this week: [resume version / role family / level / channel]
 Next week's one experiment: [single change]
 ```
 
-Want a tool instead? [Simplify](https://simplify.jobs/) and [Teal](https://www.tealhq.com/) both include trackers on their free tiers. Full follow-up system: [Follow-up and tracking](../outreach/follow-up-and-tracking.md).
+Want a tool instead? [Simplify](https://simplify.jobs/) (freemium) and [Teal](https://www.tealhq.com/) (freemium) both include a job tracker on their free tiers. Full follow-up system: [Follow-up and tracking](../outreach/follow-up-and-tracking.md).
 
 ## Diagnose a stalled search
 
@@ -236,9 +236,9 @@ You are my job search assistant for the next 60 days. My background: [paste your
 
 More from Ascend on running a search:
 
-- [The Only 6-Week Job Search Roadmap](https://jugaldb.substack.com/p/the-only-6-week-job-search-roadmap): Jugal's week-by-week search plan. How to use it: print it and check off each week.
+- [The Only 6-Week Job Search Roadmap](https://jugaldb.substack.com/p/the-only-6-week-job-search-roadmap): week 1 resume, LinkedIn and tracker; week 2 one clickable project; week 3 networking; week 4 applying; week 5 interview prep and a second project; week 6 push for offers. How to use it: copy the six weekly goals into your calendar.
 - [Want a Job in the Next 30 Days?](https://jugaldb.substack.com/p/want-a-job-in-the-next-30-days-use): keep applications running in the background while you prep coding, design and mocks. How to use it: copy the 4-week rhythm into your calendar.
-- [How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting): Jugal's repeatable callback system. How to use it: compare it with your tracker numbers.
+- [How I Increase My Chances of Getting Interview Callbacks](https://jugaldb.substack.com/p/how-i-increase-my-chances-of-getting): Jugal's system for resumes, referrals, cover letters, timing and AI use. How to use it: talk to an engineer at the company before you apply, as the referral section describes.
 - [The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing): low-effort daily system with a cold email template. How to use it: block 10 minutes a day for outreach.
 
 ## When to slow down or stop

@@ -24,7 +24,7 @@ Together: "Cut p99 latency of the refund-status API from [1.2 s] to [300 ms] by 
 | Jugal | X = the task, Y = the tools and tech, Z = the impact | [The Resume Template I Recommend](https://jugaldb.substack.com/p/the-resume-template-i-recommend-and), [From LinkedIn to ATS Resume](https://jugaldb.substack.com/p/from-linkedin-to-ats-resume-in-1) |
 | Tech Interview Handbook | [Accomplishment summary]: [Action] that resulted in [quantifiable outcome] | [Tech Interview Handbook: Resume](https://www.techinterviewhandbook.org/resume/) |
 
-Use any order, but keep all three parts. Jugal's two notes from that post:
+Use any order, but keep all three parts. Jugal's two notes from [The Resume Template I Recommend](https://jugaldb.substack.com/p/the-resume-template-i-recommend-and):
 
 - On the tools part: "it's frequently the most important to recruiters and ATS systems, especially for technical roles."
 - On outcomes: "If a bullet doesn't have a Z, it usually doesn't belong on your resume, or it needs to be rewritten until it does."
@@ -49,21 +49,21 @@ Built [thing] with [tech] that [does what]; used by [N] [users or teams] / proce
 
 | Source | Before | After |
 |---|---|---|
-| Bock, Google (2014) | "Studied financial performance of companies and made investment recommendations" | "Improved portfolio performance by 12% ($1.2M) over one year by refining cost of capital calculations..." (the full version also names the method) |
-| Jugal, [Your 6-Week Amazon Interview Roadmap](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the) | "Designed a service for the checkout system." | "Redesigned the checkout adapter using Java and SIP protocol, reducing dropped calls by 20% across 60% of the client base." |
+| Bock, Google (2014), [post copy](https://www.calstatela.edu/sites/default/files/formula_for_a_winning_resume.docx) | "Studied financial performance of companies and made investment recommendations" | "Improved portfolio performance by 12% ($1.2M) over one year by refining cost of capital calculations for information-poor markets and re-weighting portfolio based on resulting valuations" |
+| Jugal, [Amazon is still hiring after the biggest layoffs](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the) | "Designed a service for the checkout system." | "Redesigned the checkout adapter using Java and SIP protocol, reducing dropped calls by 20% across 60% of the client base." |
 | Jugal, [I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume) | "Developed backend APIs using Golang." | "Built Golang APIs processing 1M+ requests per day, reducing request latency by 25%." He adds: "But only if those numbers are actually true." |
 | Amazon recruiter Bhavishya Lingam ([About Amazon](https://www.aboutamazon.com/news/workplace/amazon-job-application-resume-writing-tips)) | "Responsible for introducing new tech stack into our organization" | Led the rollout of new efficiency software that cut errors by 25% and customer complaints by 37% year over year (paraphrased; the original opens with "Successfully") |
 
-Bock's "($1.2M)" answers whether 12% is a big deal; that is the baseline doing its job. In the Amazon example, cut "Successfully", because the numbers already say it.
+Bock's "($1.2M)" tells the reader whether 12% is a big deal. That is the baseline doing its job. In the Amazon example, cut "Successfully"; the numbers already say it.
 
 ## Write one bullet in 5 minutes
 
-1. Start with a strong verb. Past tense for past roles, present tense for your current role. Never "Responsible for", "Worked on", or "Helped".
+1. Start with a strong verb: past tense for past roles, present tense for your current role. Never "Responsible for", "Worked on", or "Helped".
 2. Name what you built or changed in words a recruiter understands. Drop internal code names ([The Tech Resume Inside Out](https://thetechresume.com/samples/common-mistakes)).
 3. Add the number, with a baseline or a scale. No number yet? Use [metrics when you have none](#metrics-when-you-have-none).
 4. Add the 1 to 3 technologies or methods that matter for your target job. This is where keywords live.
-5. Cut to 1 to 2 lines. Gayle Laakmann McDowell: bullets "1 to 2 lines each" ([Fortune](https://fortune.com/2014/10/02/how-can-i-get-my-resume-shortlisted-by-google-for-a-software-engineer-job/)). Delete "successfully", "various", "etc.", and "in order to".
-6. Run the interview test. Could an engineer probe this number for 5 minutes, and would your answer hold? If not, change it to a number you can defend. Jugal: "If somebody asks you about that number in an interview, you need to be able to explain it."
+5. Cut to 1 to 2 lines, the length Gayle Laakmann McDowell recommends ([Fortune](https://fortune.com/2014/10/02/how-can-i-get-my-resume-shortlisted-by-google-for-a-software-engineer-job/)). Delete "successfully", "various", "etc.", and "in order to".
+6. Run the interview test: could an engineer probe this number for 5 minutes without your answer falling apart? If not, use a number you can defend. Jugal: "If somebody asks you about that number in an interview, you need to be able to explain it" ([I Asked Claude to Make My Resume Unrejectable](https://jugaldb.substack.com/p/i-asked-claude-to-make-my-resume)).
 
 ## Action verbs
 
@@ -133,7 +133,7 @@ AWARDS
 | Teaching | Students taught, sections led, submissions graded | "graded [400+] submissions per assignment" |
 | Scope | Components owned, people coordinated, integrations | "across [12] services" |
 
-Bock: "there is almost always something you can point to." Gayle: "Did you optimize something? Okay, then tell me by how much."
+Bock: "there is almost always something you can point to" ([post copy](https://www.calstatela.edu/sites/default/files/formula_for_a_winning_resume.docx)). Gayle: "Did you optimize something? Okay, then tell me by how much" ([Fortune](https://fortune.com/2014/10/02/how-can-i-get-my-resume-shortlisted-by-google-for-a-software-engineer-job/)).
 
 ### Get a real number this week
 
@@ -142,9 +142,9 @@ Bock: "there is almost always something you can point to." Gayle: "Did you optim
     - Scripts and CLIs: time them with [hyperfine](https://github.com/sharkdp/hyperfine).
     - Python functions: use [pytest-benchmark](https://github.com/ionelmc/pytest-benchmark).
 2. Measure web performance. Run [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) or [PageSpeed Insights](https://pagespeed.web.dev/) on the old and the new version.
-3. Read adoption data. Your repository's traffic page shows views and clones for the past 14 days ([GitHub docs](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository)). For a Python package, check [pypistats.org](https://pypistats.org/).
+3. Read adoption data. On GitHub, open Insights, then Traffic: it shows views and clones for the past 14 days only, so screenshot it monthly ([GitHub docs](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository)). For a Python package, check [pypistats.org](https://pypistats.org/).
 4. Read history. Count merged PRs, issues closed, and releases.
-5. Count users honestly. Hosting dashboard, analytics, a sign-up sheet, or a quick poll.
+5. Count users honestly. Check your hosting dashboard or analytics, or run a sign-up sheet or a quick poll.
 6. Build an eval set for AI or ML work. Write 30 to 50 cases with expected answers, run them before and after one change, and report both numbers.
 7. State scope when nothing is measurable: "for 3 teams", "across 12 services", "in 36 hours".
 
@@ -162,7 +162,7 @@ Rules for numbers:
 2. Cover different skills: one backend or full-stack, one systems or data, one AI or ML if you target AI roles.
 3. Put the project closest to your target job first.
 4. Prefer deployed over notebook. Jugal: "A notebook that fine-tunes a model on a public dataset demonstrates coursework completion. A deployed system with an evaluation harness, monitoring, and a documented failure analysis demonstrates engineering" ([How to Prepare for FAANG AI Engineer Internship Season](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)).
-5. Prefer real users, however few. Usage and feedback are evidence a side project rarely has.
+5. Prefer real users, however few. Jugal: usage data and feedback "are evidence pure side projects never generate" ([How to Prepare for FAANG AI Engineer Internship Season](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)).
 6. Prefer one finished project over three started ones. Jugal: "A polished project with clear documentation will stand out much more than ten unfinished experiments" ([How to become an AI engineer in 2026](https://jugaldb.substack.com/p/how-to-become-an-ai-engineer-in-2026)).
 7. Include course projects if they are substantial. Gayle: "Don't worry about whether or not something is 'resume appropriate.'"
 8. On team projects, name your part: "owned the backend and API integration".
@@ -208,10 +208,10 @@ Jake's Resume puts the stack after the project name, like this. Link the project
 
 ## AI and ML bullets
 
-1. Name the evaluation: dataset size, metric, and baseline. Jugal: build something where you "can articulate how you measured retrieval quality rather than asserting it worked."
+1. Name the evaluation: dataset size, metric, and baseline. Jugal's bar: you "can articulate how you measured retrieval quality rather than asserting it worked" ([How to Prepare for FAANG AI Engineer Internship Season](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)).
 2. Name the pattern once: RAG, tool calling, structured output, fine-tuning.
 3. Add production facts: latency, cost per request, users.
-4. Show AI-assisted development honestly. Amazon's Summer 2027 SDE intern posting asks for "Experience using AI-assisted development tools" ([posting](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa)). Say what you verified.
+4. Show AI-assisted development honestly, and say what you verified. Amazon's Summer 2027 SDE intern posting lists "Experience using AI-assisted development tools" as a basic qualification ([posting](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa)).
 
 | Weak | Strong |
 |---|---|

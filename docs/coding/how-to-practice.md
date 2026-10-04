@@ -1,13 +1,22 @@
 # How to practice coding problems
 
-For anyone who has picked a list on [problem lists](problem-lists.md). When you finish this page you will have a timed routine for every problem, a re-solve schedule, a tracking sheet, and a weekly plan that fits your week.
+For anyone who has picked a list on [problem lists](problem-lists.md). You leave with a timed routine for every problem, a re-solve schedule, a tracking sheet, and a weekly plan.
+
+## Set up once (30 minutes)
+
+- [ ] Pick one list and write its end date down ([problem lists](problem-lists.md#which-list-should-you-do)).
+- [ ] Pick one language for the whole prep ([coding overview](index.md#pick-your-language)).
+- [ ] Build the [tracking sheet](#tracking-sheet-template) below (10 minutes).
+- [ ] Create a "my mistakes" note and one blank [pattern cheat sheet](#pattern-cheat-sheet-template) page.
+- [ ] Put a recurring practice block on your calendar ([weekly schedules](#weekly-schedules)).
+- [ ] Note the next LeetCode contest time ([contests](#contests)).
 
 ## The daily shape
 
 1. Do 2 to 3 new problems a day, plus every re-solve that is due. Jugal's routine during his job hunt was "3 LeetCode problems a day (focus on patterns, not volume)" ([post](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing)).
 2. Do due re-solves first. Cap them at about 30% of the session. If more are due, cut new problems, not re-solves.
 3. Cluster, then mix. Jugal: "Spend two days doing ONLY sliding window problems. Then two days on binary search." ([post](https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the)). Once you have covered the core patterns, switch to random problems so you practice recognizing the pattern, not just applying it.
-4. Use one language for every problem. Pick it once on [the coding overview](index.md) and do not switch mid-prep.
+4. Use one language for every problem. Pick it once on [the coding overview](index.md#pick-your-language) and do not switch mid-prep.
 5. Solve out loud. "Solving silently and explaining under pressure are two different skills" ([post](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually)).
 
 ## Time limits
@@ -54,7 +63,7 @@ Adapted from Jugal's Amazon roadmap ([post](https://jugaldb.substack.com/p/amazo
 
 ## When to read the solution
 
-Credible rules, side by side. They agree on the shape: struggle for 15 to 30 minutes, take a hint before the full answer, re-solve later.
+Rules from NeetCode, Sean Prashad and Jugal. They agree: try alone for 15 to 30 minutes, take a hint before the full answer, re-solve later.
 
 | Source | Rule |
 |---|---|
@@ -66,12 +75,12 @@ Credible rules, side by side. They agree on the shape: struggle for 15 to 30 min
 
 Use this hint ladder:
 
-1. **No progress for 15 to 20 minutes** (first 50 problems: 30 minutes). Run the stuck checklist: reread the constraints, solve a tiny example by hand the way a non-programmer would, then try each tool in turn (hash map, sort first, two pointers, stack, heap, BFS/DFS, binary search). The [Tech Interview Handbook techniques page](https://www.techinterviewhandbook.org/coding-interview-techniques/) has the full list.
+1. **No progress for 15 to 20 minutes** (first 50 problems: 30 minutes). Reread the constraints and solve a tiny example by hand, the way a non-programmer would. Then try each tool in turn: hash map, sort first, two pointers, stack, heap, BFS/DFS, binary search (full list on the [Tech Interview Handbook techniques page](https://www.techinterviewhandbook.org/coding-interview-techniques/), or walk the free [AlgoMonster flowchart](https://algo.monster/flowchart)).
 2. **Still stuck 5 minutes later.** Read only the approach: the intuition paragraph of the editorial, the first minutes of the NeetCode video, or ask an AI to explain the idea without code. Try again for 10 minutes.
 3. **Still stuck at about minute 30 (Medium).** Read the full solution using the steps below. Mark the row "Solution".
 4. **The solution makes no sense after 45 to 60 minutes total.** Stop. Solve an easier problem from the same pattern, then return tomorrow.
 
-> **Tip:** Reading a solution is not cheating. Reading it and never re-solving it is the real failure.
+> **Tip:** NeetCode's [guide](https://neetcode.io/courses/lessons/how-to-use-neetcode-effectively) says reading the solution is not cheating. Skipping the re-solve is the mistake.
 
 ## How to read a solution so it sticks
 
@@ -84,7 +93,7 @@ Use this hint ladder:
 
 ## Re-solve with spaced repetition (1, 3, 7, 21 days)
 
-Day 0 is your first attempt. Re-solve from a blank file on day 1, day 3, day 7 and day 21. Each gap is about 2 to 3 times the last one. That is the same idea as Anki's default, where each successful review grows the interval about 2.5 times ([Anki manual](https://docs.ankiweb.net/deck-options.html)).
+Day 0 is your first attempt. Re-solve from a blank file on day 1, day 3, day 7 and day 21, so the gaps grow from 1 day to 2, 4, then 14. Anki works the same way: by default each successful review grows the interval about 2.5 times ([Anki manual](https://docs.ankiweb.net/deck-options.html)).
 
 Example: first attempt Monday Oct 5, 2026. Re-solves on Tuesday Oct 6, Thursday Oct 8, Monday Oct 12, Monday Oct 26.
 
@@ -105,7 +114,7 @@ Set it up once in 10 minutes. Google Sheets or Excel both work.
 2. Format column A (Date) and column N (Next review) as dates.
 3. Paste the Next review formula into N2 and copy it down 500 rows.
 4. Paste the Due today formula into an empty cell to the right, for example U1. That cell becomes your daily to-do list.
-5. In R1 to R4, type `pass`, `fail` or `skip`. On a fail, change the Date to today and clear R1 to R4.
+5. After each re-solve, type `pass`, `fail` or `skip` in the R1 to R4 columns (columns O to R). On a fail, change the Date to today and clear columns O to R.
 6. For a clean first solve, type `skip` in R1 and R2 so the next review lands on day 7. After that day 7 pass, type `skip` in R4 to retire it.
 
 Header row (19 columns, A to S):
@@ -117,8 +126,10 @@ Date,Problem,Link,List,Pattern,Difficulty,Result,Minutes,Target minutes,Key insi
 Example row:
 
 ```text
-2026-10-05,Longest Substring Without Repeating Characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,NeetCode 150,Sliding window (variable),Medium,Hint,34,30,Shrink from the left while any char count is above 1,Wrong pattern first,O(n),O(k),,,,,,3
+2026-10-05,Longest Substring Without Repeating Characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,NeetCode 150,Sliding window (variable),Medium,Hint,34,30,Shrink from the left while any char count is above 1,Wrong pattern,O(n),O(k),,,,,,3
 ```
+
+If you paste the example into row 2, paste the Next review formula into N2 again afterward.
 
 Formulas:
 
@@ -208,7 +219,13 @@ Book the weekday block on your calendar as a recurring meeting. If you add [syst
 
 ### Jugal's job-hunt routine
 
-From [The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing): 3 problems a day focused on patterns, 1 AI mock interview a day, 1 peer mock on weekends. Tool updates as of Oct 2026: Pramp sessions now run on [Aced Practice](https://www.aced.io/practice) (free monthly credits). Google's Interview Warmup page now redirects elsewhere, so treat it as retired. For a free AI mock, use the [interviewing.io AI Interviewer](https://start.interviewing.io/interview-ai). More options on [mock interviews](mock-interviews.md).
+From [The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing), with the tools updated as of Oct 2026:
+
+- 3 problems a day, focused on patterns.
+- 1 AI mock interview a day. The post names Google's Interview Warmup, which now redirects elsewhere, so treat it as retired. Use the free [interviewing.io AI Interviewer](https://start.interviewing.io/interview-ai) instead.
+- 1 peer mock on weekends. The post names Pramp, whose sessions now run on [Aced Practice](https://www.aced.io/practice) (free monthly credits).
+
+More options on [mock interviews](mock-interviews.md).
 
 ### Final 4 weeks before an onsite
 
@@ -230,7 +247,7 @@ From [The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-j
 
 Contests train the thing interviews test: problems you have not seen, under a clock. They also train recovery after a wrong submission.
 
-1. **Start after about 50 to 75 problems.** Earlier, contests mostly produce frustration.
+1. **Start after about 50 to 75 problems.** Before that, most contest problems are out of reach.
 2. **Join one a week.** LeetCode contests are 90 minutes, usually 4 problems. Aim to solve Q1 and Q2 every time and attempt Q3.
 3. **Upsolve one problem afterward** with the solution method above, and log it.
 4. **Clash with class or work?** Open a past contest from the [contest page](https://leetcode.com/contest/) and do it with a 90-minute timer.
@@ -249,7 +266,7 @@ Optional, mainly for quant and HFT tracks: [Codeforces](https://codeforces.com/)
 
 ## Practice for AI-assisted rounds too
 
-1. **Keep a no-AI track.** Meta's loop keeps one classic coding round without AI next to its AI-enabled round ([Hello Interview](https://www.hellointerview.com/blog/meta-ai-enabled-coding)). Jugal: "at least one round remains assistance-free at most companies" ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)).
+1. **Keep a no-AI track.** Since Oct 2025, Meta's onsite pairs one AI-enabled round with one classic no-AI coding round ([Hello Interview](https://www.hellointerview.com/blog/meta-ai-enabled-coding)). The post covers loops up to E7; it does not confirm the format for interns or new grads. Jugal: "at least one round remains assistance-free at most companies" ([post](https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer)).
 2. **Once a week, solve with an assistant on purpose.** Write down what you asked for and why. Find the bug in the generated code before you run it (same post).
 3. **Practice reading code you did not write.** Pick a small open-source repo, find a function, explain it, and fix one bug or edge case.
 4. **Never log AI-written code as "Alone".** Use AI to explain solutions, not to produce yours.
@@ -267,10 +284,14 @@ Measure, do not guess. In [interviewing.io data](https://interviewing.io/blog/pe
 - [ ] **Complexity:** you stated correct time and space on every problem in the last week without looking it up.
 - [ ] **Coverage:** your core list is done, plus your target company's top 30 recent tags ([company pages](../companies/index.md)).
 - [ ] **Out loud:** you recorded yourself solving 3 problems and replayed at least one.
-- [ ] **Mocks:** 5 or more mocks with people who are not your friends, and your last 3 on unseen questions were passes. In [interviewing.io data](https://interviewing.io/blog/how-know-ready-interview-faang), Facebook pass rates were 71% with 5+ prior interviews vs 40% with 1 to 4.
+- [ ] **Mocks:** 5 or more mocks with people who are not your friends, and your last 3 on unseen questions were passes. interviewing.io found candidates were almost 2x as likely to pass Facebook after at least five practice interviews ([practice gap data](https://interviewing.io/blog/technical-interview-practice-gap)). Its [readiness survey](https://interviewing.io/blog/how-know-ready-interview-faang) points the same way for real interviews: a modeled 71% chance of passing Facebook's phone screen with 5+ prior technical interviews vs 40% with 1 to 4.
 - [ ] **Optional:** you solved Q1 and Q2 in 3 of your last 4 contests.
 
-Missing two or more? Ask your recruiter for more time. [Postponing is usually fine](https://interviewing.io/blog/its-ok-to-postpone-your-interviews-if-youre-not-ready): recruiters rarely mind which week you interview.
+Missing two or more? Ask your recruiter for more time; [postponing is usually fine](https://interviewing.io/blog/its-ok-to-postpone-your-interviews-if-youre-not-ready) because recruiters rarely mind which week you interview. Send this as early as you can, ideally before the interview is booked:
+
+```text
+Hi [Recruiter name], thank you for moving me forward for the [Role] role. I want to give this interview my best, and I need [3 to 6] more weeks of practice to do that. Could we schedule it for the week of [date] or later? I am happy to work around the team's calendar.
+```
 
 ## Habits that waste weeks
 
@@ -282,6 +303,7 @@ Missing two or more? Ask your recruiter for more time. [Postponing is usually fi
 | Random problem order from day one | Two days per pattern first, then mixed problems |
 | Hours stuck on one problem | Hint ladder at 15 to 20 minutes, easier problem after 45 to 60 |
 | Counting problems solved | Track time vs target and re-solve pass rate |
+| Only Easy and Medium after your core list | Add Hards. In [interviewing.io data](https://interviewing.io/blog/how-well-do-leetcode-ratings-predict-interview-performance), each 50 Hards solved went with about 7 percentage points higher interview scores, each 50 Mediums with about 3 |
 | Trusting the difficulty label | Time yourself. Some Mediums are harder than some Hards |
 | Switching languages mid-prep | One language from start to finish |
 | Python list used as a queue | `collections.deque` (`list.pop(0)` is O(n)) |

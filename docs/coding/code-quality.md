@@ -1,8 +1,8 @@
 # How interviewers grade your code
 
-For candidates who solve the problem and still get a "no hire". When you finish, you will know the rubric lines interviewers fill in, have a pre-submit checklist, and a routine for testing code by hand.
+For candidates who solve the problem and still get a "no hire". You get the rubric lines interviewers fill in, a pre-submit checklist, and a routine for testing code by hand.
 
-Jugal's summary from his [Anthropic Fellowship guide](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai): "Interviewers care about clean code and structured thinking, not just arriving at the correct answer." His [Meta prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part) puts it as "Production-Grade Code: Interviewers expect clear thought process, edge-case handling (e.g., null checks), and in-place optimizations."
+Jugal's summary from his [Anthropic Fellowship guide](https://jugaldb.substack.com/p/how-to-land-anthropics-3850week-ai): "Interviewers care about clean code and structured thinking, not just arriving at the correct answer." His [Meta prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part) lists "Production-Grade Code: Interviewers expect clear thought process, edge-case handling (e.g., null checks), and in-place optimizations."
 
 ## Passing tests is not the bar
 
@@ -12,23 +12,27 @@ Jugal's summary from his [Anthropic Fellowship guide](https://jugaldb.substack.c
 | Amazon onsite | A whole competency called "Logical and maintainable": "code that is easy to maintain, read, and understand" | [Amazon SDE II prep](https://amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep) |
 | Amazon students | "The goal is to write code that's almost ready for production." | [Amazon student SDE](https://amazon.jobs/content/en/career-programs/university/sde) |
 | Microsoft | "ensure your code is clean, concise, and bug free" | [Microsoft technical interviewing](https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing) |
+| OpenAI | "we generally look for well-designed solutions to the challenge, high-quality code, optimal performance, and good test coverage" | [OpenAI interview guide](https://openai.com/interview-guide/) |
 | Tech Interview Handbook rubric | Technical competency includes "Neat coding style (proper indentation, spacing, variable naming, etc)" | [TIH rubrics](https://www.techinterviewhandbook.org/coding-interview-rubrics/) |
-| interviewing.io data | Successful Python candidates defined more functions (3.29 vs 2.71) and their code ran without errors more often (64% vs 60%) | [interviewing.io, ~3,000 interviews](https://interviewing.io/blog/we-analyzed-thousands-of-technical-interviews-on-everything-from-language-to-code-style-here-s-what-we-found) |
+| interviewing.io data | Candidates who passed defined more functions in Python (3.29 vs 2.71), and their code ran without errors more often (64% vs 60%) | [interviewing.io, about 3,000 interviews](https://interviewing.io/blog/we-analyzed-thousands-of-technical-interviews-on-everything-from-language-to-code-style-here-s-what-we-found) |
 
-> **Watch out:** Clean code does not rescue a wrong answer. In 100K+ interviewing.io interviews, a candidate with strong code and solving but weak communication (scores 4-4-2) passed 96% of the time, while 3-3-4 was 3 times more likely to be rejected ([interviewing.io](https://interviewing.io/blog/does-communication-matter-in-technical-interviewing-we-looked-at-100k-interviews-to-find-out)). Get to a working solution first: style and communication are a floor, and correctness decides junior rounds.
+> **Watch out:** Clean code does not rescue a wrong answer. Get to working code first, then make it clean.
+
+- In 100K+ interviewing.io interviews, candidates scored 4-4-2 (strong code, strong solving, weak communication) advanced 96% of the time. A 3-3-4 candidate was 3 times more likely to be rejected ([interviewing.io](https://interviewing.io/blog/does-communication-matter-in-technical-interviewing-we-looked-at-100k-interviews-to-find-out)).
+- Karat, which runs first rounds for many companies: "The most important thing we are evaluating is how successfully your code solves the problem" ([Karat](https://karat.com/candidate-experience/)).
 
 ## The rubrics, source by source
 
 ### Tech Interview Handbook (cross-company)
 
-Yangshun Tay (ex-Meta) summarizes FAANG rubrics as four dimensions. Interviewers score each (often 1 to 4) or give one overall score, and the outcome is Strong hire, Hire, No hire, or Strong no hire ([TIH rubrics](https://www.techinterviewhandbook.org/coding-interview-rubrics/)). Signals, verbatim:
+Yangshun Tay (ex-Meta) sums up FAANG rubrics as four dimensions. Interviewers give each a score (often 1 to 4) or give one overall score. The outcome is Strong hire, Hire, No hire, or Strong no hire ([TIH rubrics](https://www.techinterviewhandbook.org/coding-interview-rubrics/)). Signals, verbatim:
 
 | Dimension | Hire signals | Extra signals for a strong hire |
 |---|---|---|
 | Communication | "Asks appropriate clarifying questions"; "Communicates approach, rationale and tradeoffs"; "Constantly communicating, even while coding"; "Well organized, succinct, clear communication" | |
 | Problem solving | "Understands the problem quickly by asking good clarifying questions"; "Approached the problem systematically and logically"; "Was able to come up with an optimized solution"; "Determined time and space complexity accurately"; "Did not require any major hints" | "Came up with multiple solutions"; "Explained trade-offs of each solution clearly and correctly"; "Had time to discuss follow up problems/extensions" |
 | Technical competency | "Translates discussed solution into working code with minimal to no bugs"; "Clean and straightforward implementation with no syntax errors"; "Neat coding style (proper indentation, spacing, variable naming, etc)" | "Compares several coding approaches"; "Demonstrates strong knowledge of language constructs and paradigms" |
-| Testing | "Came up with more typical cases and tested their code against it"; "Found and handled corner cases"; "Identified and self-corrected bugs in code"; "Able to verify correctness systematically (e.g. stepping through each line)" | |
+| Testing | "Came up with more typical cases and tested their code against it"; "Found and handled corner cases"; "Identified and self-corrected bugs in code"; "Able to verify correctness of the code in a systematic manner (e.g. acting like a debugger and stepping through each line, updating the program's state at each step)" | |
 
 ### Google
 
@@ -39,11 +43,11 @@ Yangshun Tay (ex-Meta) summarizes FAANG rubrics as four dimensions. Interviewers
 | Hiring attributes: role-related knowledge (RRK), problem solving ("Can they break down a problem into its component parts and propose a logical, data-driven solution?"), leadership | Same re:Work guide |
 | "It's not just about giving the 'right' answer, the interviewer will be looking to see the thought process versus the answer itself." | [Interview tips](https://www.google.com/about/careers/applications/interview-tips/) |
 
-Google does not publish its coding-specific rubric lines. interviewing.io reports a seven-point scale from Strong No-Hire to Strong Hire and that communication during coding counts more at Google than at most companies ([interviewing.io Google guide](https://interviewing.io/guides/hiring-process/google)). Jugal's note from his [Google prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e): "Google expects deep edge-case reasoning, proofs of correctness, and discussing trade-offs."
+Google does not publish its coding-specific rubric lines. interviewing.io reports a seven-point scale from Strong No-Hire to Strong Hire, and says "communication during coding and system design rounds is more important at Google than the end result" ([interviewing.io Google guide](https://interviewing.io/guides/hiring-process/google)). Jugal's note from his [Google prep post](https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e): "Google expects deep edge-case reasoning, proofs of correctness, and discussing trade-offs."
 
 ### Meta
 
-Meta's prep guides (downloadable from your Career Profile after an invite) list four areas. Wording below is quoted from the guide by Hello Interview ([Meta SWE interview](https://www.hellointerview.com/blog/the-meta-swe-interview)):
+Meta's prep guides (downloadable from your Career Profile after an invite) list four areas. The wording below is Meta's guide as quoted by Hello Interview ([Meta SWE interview](https://www.hellointerview.com/blog/the-meta-swe-interview)):
 
 | Area | Question the interviewer answers |
 |---|---|
@@ -56,7 +60,7 @@ The AI-enabled round is graded on problem solving, code quality, verification an
 
 ### Amazon
 
-Amazon's SDE II page names three coding competencies ([Amazon SDE II prep](https://amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)). The student SDE page asks for the same things, with code "almost ready for production".
+Amazon's SDE II page names three coding competencies ([Amazon SDE II prep](https://amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)). The student SDE page asks for the same, with code "almost ready for production".
 
 | Competency | What Amazon says |
 |---|---|
@@ -64,7 +68,7 @@ Amazon's SDE II page names three coding competencies ([Amazon SDE II prep](https
 | Logical and maintainable | "name variables, methods, and classes so future developers with no knowledge of the code can understand how they work." "Your test names should describe business and technical requirements" |
 | Data structures and algorithms | Know runtimes and memory use of common structures. "Your interview will not be focused on rote memorization of algorithms." |
 
-Amazon's best-practice lines, verbatim from the same page. Turn them into a checklist:
+Amazon's best-practice lines, verbatim from the same page, as a checklist:
 
 - [ ] "Ask clarifying questions to understand the requirements before you start to code."
 - [ ] "Write syntactically correct code, no pseudo code. Start with a working solution and enhance as you go."
@@ -75,26 +79,28 @@ Amazon's best-practice lines, verbatim from the same page. Turn them into a chec
 
 ### Microsoft
 
-[Microsoft technical interviewing](https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing) evaluates problem solving, design, coding, testing, and technical excellence. The testing line is the most specific of any company: "What are the security implications of the feature? How can you stress this code? What are the boundaries and error conditions? Be sure to point out your corner cases."
+[Microsoft technical interviewing](https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing) evaluates problem solving, design, coding, testing, and technical excellence. Its testing line is the most specific of any company: "What are the security implications of the feature? How can you stress this code? What are the boundaries and error conditions? Be sure to point out your corner cases."
 
 ### interviewing.io
 
-Interviewers score Code, Solve, and Communicate, each 1 to 4 ([interviewing.io](https://interviewing.io/blog/does-communication-matter-in-technical-interviewing-we-looked-at-100k-interviews-to-find-out)). For L3 and L4, their data says to keep communication at 2 or above and trade it for solving and coding when forced to choose.
+Interviewers score Code, Solve, and Communicate, each 1 to 4 ([interviewing.io](https://interviewing.io/blog/does-communication-matter-in-technical-interviewing-we-looked-at-100k-interviews-to-find-out)). For L3 and L4, their data says to keep communication at 2 or above, and to trade it for solving and coding when forced to choose.
 
 ### One map of all of them
+
+The column headers are each company's own words. The mapping of your actions onto them is ours.
 
 | What you do | TIH | Google | Meta | Amazon | Microsoft |
 |---|---|---|---|---|---|
 | Clarify before coding | Communication, Problem solving | Problem solving | Communication | Problem solving | Problem solving |
 | Brute force, optimize, complexity | Problem solving | Problem solving, RRK | Problem solving | DSA | Technical excellence |
 | Working code that matches the plan | Technical competency | RRK | Coding | Problem solving | Coding |
-| Names, helpers, structure | Technical competency | Reported in feedback | Coding (Code quality in AI round) | Logical and maintainable | Coding |
+| Names, helpers, structure | Technical competency | Not published | Coding (Code quality in AI round) | Logical and maintainable | Coding |
 | Trace, edge cases, own bugs | Testing | Thought process | Verification | Edge cases, usage examples | Testing |
 | Narrate the whole way | Communication | Thought process | Communication | Think out loud | Problem solving |
 
 ## Bad vs good interview code
 
-All examples below were run on Python 3.14. The "strong" versions are what to aim for in 20 minutes, not production polish.
+Every example below was run on Python 3.14 and behaves as described. The strong versions are what to aim for in 20 minutes, not production polish.
 
 ### 1. Names and the no-answer case
 
@@ -174,7 +180,7 @@ def count_islands(grid: list[list[str]]) -> int:
     return islands
 ```
 
-What the interviewer notes: call the weak version twice and the second call returns the wrong count, because `count` and `visited` persist. On a 1 x 5000 strip of land it raises `RecursionError` (CPython's default limit is 1000). Problem: [200. Number of Islands](https://leetcode.com/problems/number-of-islands/).
+What the interviewer notes: call the weak version a second time on `[["1"]]` and it returns 3 instead of 1, because `count` and `visited` persist. On a 1 x 5000 strip of land it raises `RecursionError` (CPython's default limit is 1000). Problem: [200. Number of Islands](https://leetcode.com/problems/number-of-islands/).
 
 ### 3. Guard clauses instead of nesting
 
@@ -219,7 +225,9 @@ def is_balanced(text: str) -> bool:
     return not stack
 ```
 
-What the interviewer notes: both are correct on `"()[]{}"`, `"(]"`, `"([)]"`, `"{[]}"`, `""`, `"("`, `")"`. The strong one is half the length with one failure exit. Say the assumption out loud: input contains only bracket characters. Problem: [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/).
+What the interviewer notes: both are correct on `"()[]{}"`, `"(]"`, `"([)]"`, `"{[]}"`, `""`, `"("`, `")"`. The strong one is half the length with one failure exit.
+
+Say the assumption out loud: the input contains only bracket characters. Problem: [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/).
 
 ### 4. Language idioms
 
@@ -253,7 +261,13 @@ def top_k_frequent_heap(nums: list[int], k: int) -> list[int]:
     return heapq.nlargest(k, counts.keys(), key=counts.get)
 ```
 
-What the interviewer notes: idiomatic code reads faster and leaves time for testing. Ask first whether built-ins are allowed, then state their cost: `most_common(k)` sorts, O(m log m) over m distinct values; `heapq.nlargest` is O(m log k). Problem: [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/).
+What the interviewer notes: idiomatic code reads faster and leaves time for testing. Ask first whether built-ins are allowed, then state their cost:
+
+- Counting with `Counter` is O(n).
+- `most_common(k)` calls `heapq.nlargest` internally, so both strong versions are O(m log k) over m distinct values.
+- Only `most_common()` with no argument sorts everything, O(m log m).
+
+Problem: [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/).
 
 ### 5. Separation of concerns (the Amazon "logical and maintainable" style)
 
@@ -322,13 +336,25 @@ def test_malformed_line_raises_clear_error():
         raise AssertionError("expected ValueError")
 ```
 
-What the interviewer notes: the weak version hard-codes `"purchase"` and dies with `IndexError` on `"u1,100"`. The strong version can take a new action type, a new input format, or a tie-break rule by changing one function. Ask how ties should break before you finish.
+What the interviewer notes: the weak version hard-codes `"purchase"` and dies with `IndexError` on `"u1,100"`. The strong version takes a new action type, a new input format, or a tie-break rule by changing one function. Ask how ties should break before you finish.
 
 ### 6. Over-engineering
 
-Wrapping a 10-line two-pointer function in an abstract `Solver` base class, a factory, and a config dict reads as not knowing what matters. Google's code review guide flags code that solves "the problem that the developer speculates might need to be solved in the future" ([Google eng-practices](https://google.github.io/eng-practices/review/reviewer/looking-for.html)).
+Wrapping a 10-line two-pointer function in an abstract `Solver` base class, a factory, and a config dict tells the interviewer you do not know what matters. Google's code review guide says to "solve the problem they know needs to be solved now, not the problem that the developer speculates might need to be solved in the future" ([Google eng-practices](https://google.github.io/eng-practices/review/reviewer/looking-for.html)).
 
 The exception is Amazon's logical-and-maintainable round and [low-level design](../system-design/low-level-design.md) prompts, where classes and separation are the point. If unsure, ask: "Do you want this structured as a class, or is a function fine?"
+
+## When AI writes part of the code
+
+In AI-enabled rounds (Meta, LinkedIn, Shopify, Google's pilot), the code you accept counts as your code. Meta grades "Code Quality" in that round ([Hello Interview](https://www.hellointerview.com/blog/meta-ai-enabled-coding)). Karat's published rubric for AI-allowed interviews lists what reviewers look for ([Karat rubrics](https://karat.com/resource/human-ai-technical-interview-rubrics/)):
+
+- [ ] "Crafting prompts with appropriate scope and context": one function or one test at a time, never the whole problem
+- [ ] "Recognizing when AI output is incomplete, incorrect, or misleading": say what is wrong before you fix it
+- [ ] "Reading and explaining AI-generated logic": explain every accepted block in one sentence
+- [ ] "Running or testing generated code": run tests after every accepted change
+- [ ] "Modifying AI output to align with system constraints": rename, delete unused parts, match the codebase's style
+
+The full playbook for these rounds is on [the interview framework page](interview-framework.md#ai-enabled-rounds-how-to-run-them).
 
 ## Pre-submit checklist
 
@@ -369,7 +395,7 @@ Run this after every practice problem for two weeks, until it is automatic.
 ### Communication while coding
 
 - [ ] Said the approach and complexity before typing
-- [ ] Narrated intent ("this handles the empty case up front") at least every couple of minutes
+- [ ] Narrated intent ("this handles the empty case up front") at least every 2 minutes
 - [ ] Asked before using a library function that does the core of the problem
 - [ ] Said out loud any assumption the code relies on
 
@@ -411,11 +437,13 @@ step | ch | stack before | action                         | stack after | result
 | Hot spot | What to check |
 |---|---|
 | Loop bounds | `range(n)` vs `range(n - 1)`; `<` vs `<=` in binary search and two pointers |
-| Index math | `mid = (lo + hi) // 2`; `i + 1` past the end; negative indexes in Python wrap silently |
+| Index math | `i + 1` past the end; negative indexes in Python wrap silently |
+| Midpoint overflow (Java, C++) | `(lo + hi) / 2` overflows `int`; write `lo + (hi - lo) / 2` ([Google Research, Joshua Bloch](https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/)) |
 | Empty containers | `stack[-1]`, `heap[0]`, `max([])` on an empty structure |
 | Initial values | `0` vs `float("inf")` for min; seeding a map (`{0: 1}` for prefix sums) |
 | Update order | Look up before insert, or insert before look up (they give different answers) |
 | Mutation | Appending a list you later change (copy with `path[:]` in backtracking) |
+| Grid aliasing (Python) | `[[0] * cols] * rows` makes every row the same list; use `[[0] * cols for _ in range(rows)]` ([Python FAQ](https://docs.python.org/3/faq/programming.html)) |
 | Null nodes | `node.left.val` when `node.left` is `None` |
 | Return paths | A branch that falls off the end and returns `None` |
 
@@ -441,12 +469,12 @@ step | ch | stack before | action                         | stack after | result
 
 ## Language notes
 
-Pick the language you know best. interviewing.io found no significant pass-rate difference by language ([interviewing.io](https://interviewing.io/blog/we-analyzed-thousands-of-technical-interviews-on-everything-from-language-to-code-style-here-s-what-we-found)). More on the choice: [Learn DSA](index.md) and [TIH language guide](https://www.techinterviewhandbook.org/programming-languages-for-coding-interviews/).
+Pick the language you know best. interviewing.io found no significant pass-rate difference by language ([interviewing.io](https://interviewing.io/blog/we-analyzed-thousands-of-technical-interviews-on-everything-from-language-to-code-style-here-s-what-we-found)). More on the choice: [Learn DSA](index.md) and the [TIH language guide](https://www.techinterviewhandbook.org/programming-languages-for-coding-interviews/).
 
 | Language | Use these | Watch for |
 |---|---|---|
-| Python | `enumerate`, `zip`, `collections.Counter`, `defaultdict`, `deque`, `heapq`, `bisect`, `functools.lru_cache` | `list.pop(0)` is O(n), use `deque`; `x in list` is O(n), use a set; recursion limit about 1000; string `+=` in a loop |
-| Java | `HashMap.getOrDefault`, `ArrayDeque` for stacks and queues, `PriorityQueue`, `StringBuilder` | `int` overflow on sums (use `long`); comparing `Integer` objects with `==` |
+| Python | `enumerate`, `zip`, `collections.Counter`, `defaultdict`, `deque`, `heapq`, `bisect`, `functools.lru_cache` | `list.pop(0)` is O(n), use `deque`; `x in list` is O(n), use a set ([costs](https://wiki.python.org/moin/TimeComplexity)); recursion limit 1000; mutable default arguments (`def f(seen=set())`) are shared between calls; string `+=` in a loop |
+| Java | `HashMap.getOrDefault`, `ArrayDeque` for stacks and queues, `PriorityQueue`, `StringBuilder` | `int` overflow on sums and midpoints (use `long`, or `lo + (hi - lo) / 2`); comparing `Integer` objects with `==` |
 | C++ | `unordered_map`, `priority_queue`, `vector`, `auto`, range-for | `map[key]` inserts a default value on lookup; `v.size() - 1` underflows when `v` is empty; `int` overflow |
 | JavaScript or TypeScript | `Map`, `Set`, array methods | `sort()` without a comparator sorts numbers as strings; no built-in heap |
 
@@ -466,15 +494,17 @@ For online assessments, where a human or a model may read your code after the te
 ## Resources
 
 - [Tech Interview Handbook: coding interview rubrics](https://www.techinterviewhandbook.org/coding-interview-rubrics/): the four-dimension rubric with hire and no-hire signals. How to use it: print it and score yourself after every practice problem.
-- [Amazon SDE II interview prep](https://amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep): the most specific public text on code quality from any big tech company. How to use it: read the four coding tabs and copy the best-practice list into your notes.
+- [Amazon SDE II interview prep](https://amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep): the most specific public text on code quality from any big tech company. How to use it: read the coding tabs and copy the best-practice list into your notes.
 - [Amazon SDE online assessment](https://amazon.jobs/content/en/how-we-hire/university/sde-oa): OA format and rules. How to use it: read the rules before any Amazon OA.
 - [Microsoft technical interviewing](https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing): five evaluation areas. How to use it: ask yourself its four testing questions before you say done.
 - [Google re:Work structured interviewing](https://rework.withgoogle.com/intl/en/guides/a-guide-to-structured-interviewing-for-better-hiring-practices): how Google builds rubrics. How to use it: aim for "solid" on every attribute, not "outstanding" on one.
 - [Google eng-practices: what reviewers look for](https://google.github.io/eng-practices/review/reviewer/looking-for.html): Google's code review checklist. How to use it: review your last 5 solutions against it.
 - [Google Python style guide](https://google.github.io/styleguide/pyguide.html): naming and style rules. How to use it: skim the Naming section once.
 - [PEP 8](https://peps.python.org/pep-0008/): the Python style guide. How to use it: snake_case, 4-space indents, spaces around operators.
+- [Python TimeComplexity wiki](https://wiki.python.org/moin/TimeComplexity): the cost of every list, set, dict and deque operation. How to use it: check it whenever you call a built-in inside a loop.
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/): operation costs for common data structures and sorts. How to use it: review it the night before an interview.
 - [Hello Interview: the Meta SWE interview](https://www.hellointerview.com/blog/the-meta-swe-interview): Meta's four evaluation areas, quoted from Meta's guide. How to use it: read before a Meta screen.
-- [Karat: human and AI interview rubrics](https://karat.com/resource/human-ai-technical-interview-rubrics/): how rounds that allow AI are scored. How to use it: read the competencies on reviewing AI-generated code before an AI-enabled round.
+- [Karat: human and AI interview rubrics](https://karat.com/resource/human-ai-technical-interview-rubrics/): how rounds that allow AI are scored. How to use it: turn the "Evaluating AI-Generated Code" signals into your checklist before an AI-enabled round.
 - [interviewing.io: communication data](https://interviewing.io/blog/does-communication-matter-in-technical-interviewing-we-looked-at-100k-interviews-to-find-out): 100K interviews on what matters at L3 and L4. How to use it: read it if you over-practice talking and under-practice solving.
 
 Next: [Mock interviews](mock-interviews.md)

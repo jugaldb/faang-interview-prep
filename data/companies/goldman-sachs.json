@@ -55,8 +55,8 @@
       "details": "A Nov 2025 Quant Strat intern Superday was also two 45-minute interviews in one day."
     }
   ],
-  "process_experienced_notes": "Lateral Analyst and Associate hires (common for 1 to 3 years, especially in India) follow: HackerRank OA (2 coding questions, e.g. an easy priority-queue problem and a Count Number of Teams variant) then a CoderPad elimination round (45 to 60 min, 2 DSA questions, write your own tests) then a Superday of 3 to 4 one-hour rounds, often with 2 interviewers each and often eliminatory: Data Structures; Software Engineering Practices (Java/OOP, collections, multithreading, SQL, design patterns, CI/CD, build process, unit testing, in-depth resume walkthrough); Software Design and Architecture (HLD such as a Twitter feed or a Datadog-style log service, LLD such as a parking lot); Hiring Manager (projects, SDLC, situational questions). Some get an extra DSA round, a director chat, or several hiring-manager calls for team matching. Division hiring freezes can force re-interviews for another division (Aug 2026 report). US 2026 Superday reports also mention 3 back-to-back rounds covering DSA, system design and behavioral.",
-  "timeline": "Official: you should hear within about two weeks after an interview. Campus (US intern 2026 cycle): OA in December, HireVue in early February, preference survey, Superday invite within days, Superday mid to late February. Lateral 2025 example: CoderPad in June, Superday in July, cleared to team matching late July, immigration consult late August, offer 'being prepared' early September, then weeks of silence before paperwork. A 2026 candidate was told results in 24 to 48 hours but waited longer. India New Analyst 2027 applications for some campuses had already closed by July 2026.",
+  "process_experienced_notes": "Lateral Analyst and Associate hires (common for 1 to 3 years, especially in India) follow: HackerRank OA (2 coding questions, e.g. an easy priority-queue problem and a Count Number of Teams variant) then a CoderPad elimination round (45 to 60 min, 2 DSA questions, write your own tests) then a Superday of 3 to 4 one-hour rounds, often with 2 interviewers each and often eliminatory: Data Structures; Software Engineering Practices (Java/OOP, collections, multithreading, SQL, design patterns, CI/CD, build process, unit testing, in-depth resume walkthrough); Software Design and Architecture (HLD such as a Twitter feed or a Datadog-style log service, LLD such as a parking lot); Hiring Manager (projects, SDLC, situational questions). Some get an extra DSA round, a director chat, or several hiring-manager calls for team matching. Division hiring freezes can force re-interviews for another division (Aug 2026 report). 2026 Superday reports also describe 3 rounds covering DSA, system design and behavioral (a Jun 2026 post, location not stated, said back to back and was told results in 24 to 48 hours; a Feb 2026 US post had SDLC plus resume, HLD design, and DSA, then an additional DSA round).",
+  "timeline": "Official: you should hear within about two weeks after an interview. Campus (US intern 2026 cycle): OA in December, HireVue in early February, preference survey, Superday invite within days, Superday mid to late February. Lateral 2025 example: CoderPad in June, Superday in July, cleared to team matching late July, immigration consult late August, offer 'being prepared' early September, then weeks of silence before paperwork. A 2026 candidate was told results in 24 to 48 hours but waited longer. A Jul 4, 2026 r/PlacementsPrep (India) post title said New Analyst Program applications for 2027 grads had already closed (no further detail).",
   "oa": {
     "platform": "HackerRank",
     "format": "Campus 'Engineering Combined': 2 coding questions (easy plus medium/hard) and about 9 math questions (probability, linear algebra, matrices), stated 180 minutes. Aug 2026 report adds a 45-minute 'Software Diagnostics' bug-fix section in Django, Node.js or Spring Boot with a built-in AI assistant. Lateral OA: 2 coding questions.",
@@ -232,6 +232,55 @@
       "role": "Associate, CoderPad",
       "date": "2026-03",
       "source_url": "https://leetcode.com/discuss/post/7623156/goldman-sachs-coderpad-associate-by-kaus-k23o/"
+    },
+    {
+      "title": "Find Minimum in Rotated Sorted Array",
+      "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+      "role": "Associate, CoderPad (after Java features questions: lambdas, records)",
+      "date": "2025-03",
+      "source_url": "https://leetcode.com/discuss/post/6502912/goldman-sachs-coderpad-associate-by-anon-ddmx/"
+    },
+    {
+      "title": "Greatest Sum Divisible by Three",
+      "url": "https://leetcode.com/problems/greatest-sum-divisible-by-three/",
+      "role": "Analyst, Superday data structures round",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6840803/goldman-sachs-interview-experience-analy-1j5g/"
+    },
+    {
+      "title": "Find the Winner of the Circular Game",
+      "url": "https://leetcode.com/problems/find-the-winner-of-the-circular-game/",
+      "role": "Analyst (Bengaluru), Superday round 1",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6834408/goldman-sachs-analyst-bengaluru-selected-dgq8/"
+    },
+    {
+      "title": "Rotting Oranges",
+      "url": "https://leetcode.com/problems/rotting-oranges/",
+      "role": "Analyst (Bengaluru), Superday round 2",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6834408/goldman-sachs-analyst-bengaluru-selected-dgq8/"
+    },
+    {
+      "title": "Prime factorization: return the primes whose product is x (e.g. 12 gives [2,2,3])",
+      "url": "",
+      "role": "Analyst (Bengaluru), CoderPad",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6834408/goldman-sachs-analyst-bengaluru-selected-dgq8/"
+    },
+    {
+      "title": "Squares of a Sorted Array, with multiple follow-ups",
+      "url": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+      "role": "Analyst (India), CoderPad",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517221/goldman-superday-by-anonymous_user-dl78/"
+    },
+    {
+      "title": "Longest Palindromic Substring (plus HLD of a Datadog-style log service in the same hiring manager round)",
+      "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+      "role": "Analyst (India), Superday hiring manager round",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517221/goldman-superday-by-anonymous_user-dl78/"
     }
   ],
   "focus_topics": [
@@ -257,7 +306,7 @@
     "With 1+ years of experience, prepare one LLD (parking lot) and one HLD (news feed) plus database indexing basics for the design and SDLC rounds.",
     "Watch for the 2026 Software Diagnostics section: practice reading and fixing a bug in an unfamiliar Django, Node.js or Spring Boot app."
   ],
-  "compensation_note": "Levels.fyi (checked Oct 4, 2026): Analyst averages about $114K total comp in the US (13 recent data points, many in Dallas and Salt Lake City); New York City Analyst median about $139.9K; a Sep 2026 NYC new grad entry shows $145K base; Dallas new grad entries $105K to $133K. Associate averages about $169K. India Analyst offers on LeetCode (2025 to 2026): INR 23L to 29L base plus about INR 5L bonus plus relocation, about INR 30L to 36.5L total. Interns (Levels.fyi): NYC $55.29/hr (Summer 2025), Salt Lake City $41/hr (Summer 2026), London about $39/hr (Summer 2025).",
+  "compensation_note": "Levels.fyi (checked Oct 4, 2026): Analyst averages about $114K total comp in the US (13 data points, 6 of them in Dallas); New York City Analyst median about $139.9K; a Sep 2026 NYC new grad entry shows $145K base; Dallas new grad entries $105K to $133K. Associate averages about $169K. India Analyst offers on LeetCode (2025 to 2026): INR 23L to 29L base plus about INR 5L bonus plus relocation, about INR 29.9L to 36.5L total (a 2025 fresher PPO: INR 23L base, 6.5L supplementary, 7L relocation/sign-on). Interns (Levels.fyi): NYC $55.29/hr (Summer 2025), Salt Lake City $41/hr (Summer 2026), London about $39/hr (Summer 2025).",
   "sources": [
     "https://www.goldmansachs.com/careers/",
     "https://www.goldmansachs.com/careers/students",
@@ -298,5 +347,5 @@
     "https://www.reddit.com/r/developersIndia/comments/1w0o2z0/goldman_sachs_associate_analyst_dilemma_asked_to/",
     "https://www.reddit.com/r/PlacementsPrep/comments/1uni9kz/did_anyone_apply_for_goldman_sachs_new_analyst/"
   ],
-  "confidence_notes": "Verification (Oct 4, 2026): goldmansachs.com pages fetched directly [VERIFIED]; the interview prep PDF loads through a redirect page and was downloaded and read [VERIFIED]; Levels.fyi pages fetched [VERIFIED]; LeetCode posts via LeetCode's GraphQL API and Reddit posts via the Arctic Shift archive API [VERIFIED]. Caveats: most detailed Superday reports on LeetCode come from lateral Analyst/Associate candidates in India, which differ from US campus Superdays (US interns report two 45-minute interviews). The Software Diagnostics section with an AI assistant is a single Aug 2026 report quoting the OA invite; confirm with your own invite. Math question counts vary (9 to 10) and time stated vs shown differed in one report. Division matters a lot (Engineering vs Global Banking & Markets strats vs Asset & Wealth Management). The GS values page lists values; no official engineering-specific rubric beyond the CoderPad criteria in the PDF. The Summer Analyst program page URL could not be resolved (program listing is script-rendered); use the programs-and-internships listing or higher.gs.com. The new Analyst comp average of $114K is pulled down by non-NYC entries."
+  "confidence_notes": "Re-verified Oct 4, 2026 by an adversarial fact-check pass [VERIFIED]: goldmansachs.com students prepare page (HackerRank for engineering applicants, ~30-min video interview, Superday of two to five interviews for campus hires, 'programs range from one-week spring internships to full-time positions', 'we evaluate applications throughout the recruiting season'), New Analyst Program page (Dec 2026 to Jul 2027 graduates, select businesses open, program start Summer 2027), students page (2027 summer internships accepting applications) and purpose-and-values page (four values; 14 Business Principles written in 1979 by John Whitehead) fetched directly; the interview prep PDF downloaded (it sits behind a JavaScript redirect page, fetchable with same-origin fetch headers) and read: two-week reply goal, 30 to 60 minute interviews one-on-one or in pairs, no lineup in advance, CoderPad criteria, 45 to 60 minute CoderPad, ask not to review or share CoderPad questions, quant math topics. Levels.fyi figures and samples parsed; LeetCode posts via GraphQL; Reddit posts and comments via the Arctic Shift archive; all LeetCode problem slugs confirmed real (High Five is Premium-only); liquidslr GS CSV last updated Aug 16, 2026. Corrections made in this pass: Analyst Levels.fyi sample mix (6 of 13 in Dallas, only 1 in Salt Lake City); India total comp range starts at about INR 29.9L; the India NAP 2027 closure is a single post title, not a per-campus fact; the 3-round 2026 Superday report is not confirmed as US. Added 7 more 2025 to 2026 reported questions from posts already cited. Caveats: most detailed Superday reports on LeetCode come from lateral Analyst/Associate candidates in India, which differ from US campus Superdays (US interns report two 45-minute interviews). The Software Diagnostics section with an AI assistant rests on one Aug 2026 Reddit post quoting the OA invite plus Aug to Sep 2026 comments (SpringBoot REST API with 5 to 8 models, .sh request scripts, 'learn how to use the AI assistant'); confirm with your own invite. Math question counts vary (9 to 10) and one candidate's email said 180 minutes while HackerRank showed 225. Division matters a lot (Engineering vs Global Banking & Markets strats vs Asset & Wealth Management). The Summer Analyst program page URL could not be resolved (program listing is script-rendered); use the programs-and-internships listing or higher.gs.com. The US Analyst Levels.fyi average of $114K is pulled down by non-NYC entries."
 }

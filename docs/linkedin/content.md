@@ -65,6 +65,7 @@ The two timing sources disagree. Buffer's is the newer dataset; Jugal's is his o
 2. Weeks 3 and 4: post at 4 PM Wednesday and Friday.
 3. Compare impressions and profile views per post. Keep the winner.
 4. Post when the audience you want is awake. If you are in India targeting US teams, schedule for US daytime, not yours.
+5. Use LinkedIn's built-in scheduler: write the post, click the **clock icon** in the post editor, and pick a time 10 minutes to 3 months ahead ([Schedule posts](https://www.linkedin.com/help/linkedin/answer/a1347212)). Write all of a week's posts on Sunday.
 
 ## Step 3: Use a content mix
 

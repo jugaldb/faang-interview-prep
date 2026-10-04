@@ -1,6 +1,6 @@
 # Follow-up cadence and tracking
 
-For anyone with outreach in flight. When you finish you will have a follow-up schedule for every situation, the messages to send, a tracker with working formulas, and a 30-minute weekly review.
+For anyone with outreach in flight. You leave with a follow-up schedule for each situation, the messages to send, a tracker with working formulas, and a 30-minute weekly review.
 
 ## The rule: 3 touches, then stop
 
@@ -12,6 +12,7 @@ My follow-up rule during the month I landed interviews with Amazon, Meta, Ramp, 
 | Jugal, [7 videos on networking your way to offers](https://jugaldb.substack.com/p/7-videos-on-networking-your-way-to) | Bump if there is no reply after 5 days |
 | Jugal, [How I Landed My Internship](https://jugaldb.substack.com/p/how-i-landed-my-internship-before) | For a cold message about an internship, follow up in 7 to 10 days |
 | [Hunter, 31M emails](https://hunter.io/the-state-of-cold-email) | Three total messages more than doubled total replies (6.8% vs 3.3%); three is the optimal max |
+| [The Muse meeting-request template](https://www.themuse.com/advice/introducing-the-email-template-thatll-get-you-a-meeting-with-anyone-you-ask) | No reply in about a week: send one follow-up. Still nothing: move on |
 | Steve Dalton's 3B7 rule, via [Duke Career Hub](https://careerhub.students.duke.edu/blog/2023/09/07/following-up-is-the-most-critical-part-of-your-outreach/) | No reply in 3 business days: contact someone else at the company. At 7 business days: email the first person again |
 
 The site's rule: **first message plus 2 follow-ups, spaced 5 to 7 business days apart. Then stop.**
@@ -37,7 +38,7 @@ This keeps 2 people per company in play at most, which matches Hunter's finding 
 | A referral was submitted | Thank the referrer the same day | Update after the OA, interviews, and outcome | Thank-you at the end, whatever the result | [Referrer update](#10-referrer-update) |
 | You finished an online assessment | Note to the recruiter the same day | 7 business days | Then wait | [After an OA](#6-after-an-online-assessment) |
 | After an interview | Thank-you within 24 hours (a courtesy, not a deciding factor) | When the date they gave passes | One more check-in a week later | [Thank-you](#8-thank-you-after-an-interview), [Timeline check](#7-timeline-check-after-an-interview) |
-| People who helped you | | Every 2 to 3 months: a short update or a useful link | Keep going for years | [Check-in](#11-check-in-every-few-months) |
+| People who helped you | | Every 2 to 3 months: a short update or a useful link | Ongoing, with nothing to ask | [Check-in](#11-check-in-every-few-months) |
 
 > **Tip:** Do not pre-schedule follow-ups with Gmail Schedule send. If they reply first, an automatic bump looks careless. Set a date in your tracker instead.
 
@@ -114,7 +115,7 @@ Subject: Checking in, [role] (Job ID [ID])
 
 Hi [Name],
 
-I hope your week is going well. I interviewed for [role] on [date] and wanted to check on the timeline for next steps. I'm still very interested.
+I interviewed for [role] on [date]. Could you share the timeline for next steps? I'm still very interested.
 
 [Only if true: I have another process moving and expect a decision by [date], so any visibility helps me plan.]
 
@@ -163,7 +164,7 @@ Hi [Name], saw [their launch / promotion / post about X] and wanted to say congr
 Hi [Name], thank you for letting me know, and for the time the team spent with me. If you can share any feedback, I'd value it. When would it make sense for me to apply again?
 ```
 
-Cooldowns differ by company. Google's own FAQ says it typically asks people to wait at least a year before reapplying for the same type of role ([Google: how we hire](https://www.google.com/about/careers/applications/how-we-hire/)). Ask your recruiter.
+Cooldowns differ by company. Google's help page says you must wait 90 days before reapplying to the same job, and that technical candidates do best when they come back with 12 to 18 more months of experience ([Google Careers help](https://support.google.com/googlecareers/answer/6095391)). Ask your recruiter for the rule that applies to you.
 
 ### 13. Withdrawing an application
 
@@ -229,13 +230,13 @@ Company,Role,Job ID,Job link,Applied (date),Sponsorship (Y/N/?),Contact name,Con
 | U | Next action | One verb plus an object | "Send final note", "Apply to new req" |
 | V | Notes | What they said, in their words | |
 
-Already using Jugal's [Referral Engine sheet](https://docs.google.com/spreadsheets/d/1ep27p3BiqVLtBEH7WPp-1hjLeEyGN7IE0O6fWyNZ9aU/edit)? Make a copy and add columns L to U to its `Results` tab. See [n8n automation](n8n-automation.md).
+Already using Jugal's [Referral Engine sheet](https://docs.google.com/spreadsheets/d/1ep27p3BiqVLtBEH7WPp-1hjLeEyGN7IE0O6fWyNZ9aU/edit)? Add the Touch 1 to 3, Next follow-up, Replied, and Stage columns to the right of its `Results` tab, then change the column letters in the formulas below to match. See [n8n automation](n8n-automation.md).
 
 ### Set it up in 10 minutes
 
 1. Paste the header line and split it into columns, as above.
 2. Freeze row 1 (View, Freeze, 1 row).
-3. Add dropdowns to columns F, H, I, P, S, and T with the allowed values from the table ([dropdown help](https://support.google.com/docs/answer/186103)).
+3. Add dropdowns to columns F, H, I, P, S, and T with the allowed values from the table: select the column, then Insert, Dropdown ([dropdown help](https://support.google.com/docs/answer/186103)).
 4. Format columns E, L, M, N, O, Q, and R as dates (Format, Number, Date).
 5. Paste this formula into O2 and fill it down. It returns the next follow-up date: 5 business days after touch 1, 7 business days after touch 2, "Stop" after touch 3, and blank once they reply ([WORKDAY help](https://support.google.com/docs/answer/3093059)).
 
@@ -271,7 +272,7 @@ Format the reply-rate cell as a percent. Track applications in the same sheet or
 | Notion | Free plan available | Jugal's suggestion: track your emails, bounce-backs, and replies in a Notion sheet ([The Job Hunt I Didn't Burn Out Doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing)) |
 | [Huntr](https://huntr.co/pricing) | Up to 100 jobs, unlimited contacts | Kanban board for one recruiting season |
 | [Simplify](https://simplify.jobs/) | Free tracker plus autofill | Track applications in the same tool you apply with |
-| [Streak](https://www.streak.com/pricing) | Email tracking and 50 mail merges a day; CRM pipelines are paid | See whether an email was opened before you follow up. Treat opens as a hint, not proof |
+| [Streak](https://www.streak.com/pricing) | 50 mail merges a day; CRM pipelines are paid | Send follow-ups from Gmail in small merges. Leave open tracking off: Hunter's 2026 data shows 7.4% replies without it vs 4.4% with it ([Hunter 2026](https://hunter.io/the-state-of-cold-email)) |
 
 ## Daily and weekly routine
 
@@ -282,7 +283,7 @@ Jugal sets aside 30 minutes a week to reach out, reply, and check in, and keeps 
 1. Filter column O to dates on or before today. Send those follow-ups first.
 2. Send your new messages for the day (1 to 2 in light mode, 10 to 15 in heavy mode; see [cold email](cold-email.md#how-many-to-send)).
 3. Log every touch the minute you send it.
-4. Reply to anyone who replied to you within 24 hours.
+4. Answer every reply within 24 hours.
 
 ### Every week (30 minutes)
 

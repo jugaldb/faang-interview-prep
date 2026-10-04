@@ -45,7 +45,7 @@ Reflection (1 sentence): [What I learned, or what I would do differently next ti
 
 ## Round format
 
-Microsoft usually has no single behavioral round. Behavioral questions open most interviews, then the round moves to coding or design ([Aced](https://www.aced.io/blog/microsoft-interview-process)). Your stories have to be short.
+Microsoft usually has no single behavioral round. Behavioral questions are mixed into most interviews, often in the first 5 to 15 minutes before coding or design ([Aced](https://www.aced.io/blog/microsoft-interview-process), candidate reports). Your stories have to be short.
 
 | Stage | Behavioral content | Source |
 |---|---|---|
@@ -58,7 +58,7 @@ Microsoft usually has no single behavioral round. Behavioral questions open most
 Three more facts shape how you prepare:
 
 - The process is mostly team-dependent, and interviewers are not given a shared rubric ([interviewing.io](https://interviewing.io/guides/hiring-process/microsoft)). Expect different styles in each round.
-- interviewing.io calls behavioral the least important round at Microsoft. The screen is for friendly people who can do the work and do not blame others. Weak behavioral rarely sinks you alone, but blame or negativity can.
+- interviewing.io calls behavioral the least important round at Microsoft. The screen is for friendly people who can do the work and do not blame others. A plain behavioral answer is unlikely to sink you alone. Blame or negativity can.
 - AI rule: show your own skills without outside help unless the interviewer explicitly allows it. Using AI to prepare is fine ([Microsoft hiring tips](https://careers.microsoft.com/v2/global/en/hiring-tips)).
 
 > **Tip:** The AA round is not on any official Microsoft page. Do not ask "is this the AA round?". Treat every interviewer the same, and keep one fresh story in reserve for a senior interviewer in the last round.
@@ -96,7 +96,7 @@ About 6 hours in total.
 |---|---|---|---|
 | Learned fast | You pick up new skills quickly | "I'm a quick learner." | "I had never used [tool]. I read the docs for 2 evenings, built a toy version, then shipped [feature] in [N] days. It handled [number]." |
 | Changed after feedback | You treat criticism as information | "I take feedback well." | "My mentor said my PRs were too large to review. For the next month I kept them under 200 lines. Review time dropped from [X] days to [Y]." |
-| Failure with a lesson | You own misses and change | "I work too hard." | "I promised a demo without testing on real data. It crashed. I told my lead the same day, fixed it in [N] hours, and now I test on production-like data first." |
+| Failure with a lesson | You own misses and change | "I haven't really failed at anything." | "I promised a demo without testing on real data. It crashed. I told my lead the same day, fixed it in [N] hours, and now I test on production-like data first." |
 
 ## Strengths and weaknesses
 
@@ -156,7 +156,9 @@ Microsoft's interview tips ask for a vision beyond the role. Line 4 covers it in
 | 13 | What was the most challenging part of your project, and how did you solve it? | Problem solving | Candidate report, level 60 loop, 2026 |
 | 14 | What exactly did you build on this project, and what was the measurable impact? | Accountability | Candidate report, 2025 to 2026 |
 
-AI practice: Jugal's prompt "Give me 5 PM interview questions for Microsoft." works for any role. Swap PM for SWE, then use "Critique this answer: Tell me about a time you failed." on your own written answer ([The job hunt I didn't burn out doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing)). Edit what it gives you. Jugal's rule: AI gets you a 70% draft, and the last 30% that makes it true is your job ([tool stack post](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually)).
+AI practice: Jugal's prompt "Give me 5 PM interview questions for Microsoft." works for any role. Swap PM for SWE, then use "Critique this answer: Tell me about a time you failed." on your own written answer ([The job hunt I didn't burn out doing](https://jugaldb.substack.com/p/the-job-hunt-i-didnt-burn-out-doing)).
+
+Edit what it gives you. Jugal's rule: AI gets you a 70% draft, and the last 30% that makes it true is your job ([tool stack post](https://jugaldb.substack.com/p/the-job-search-tool-stack-id-actually)).
 
 ## Red flags
 
