@@ -1,0 +1,294 @@
+{
+  "slug": "anduril",
+  "name": "Anduril",
+  "category": "High-growth tech",
+  "one_liner": "Defense tech company building autonomous systems on Lattice OS; practical, deliberately vague coding problems and repeated 'why defense' probing. US Persons only.",
+  "careers_url": "https://www.anduril.com/careers",
+  "students_url": "https://www.anduril.com/early-careers",
+  "interview_prep_url": "https://www.anduril.com/early-careers",
+  "levels": {
+    "intern": "2027 Software Engineer Intern (12 weeks, paid, in person at one of 9 US offices; the early-careers page lists May to August or June to September; must return to school after). Other 2027 tracks include Flight Software Engineer Intern (Costa Mesa) and electrical, mechanical, manufacturing and industrial engineering interns.",
+    "new_grad": "2027 Early Career Software Engineer (full time, typically 0 to 2 yrs post-graduation per Anduril's FAQ); a 2027 Early Career Flight Software Engineer role also exists. Aced tags its new grad report as Entry Level / L3.",
+    "early_career": "Software Engineer. Levels.fyi lowest listed SWE level is IC2 (typically 2 to 3 yrs), then IC3; Anduril does not publish its ladder."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "Rolling review; Anduril says it receives tens of thousands of applications per cycle and only contacts candidates it moves forward with. 2027 Early Career Software Engineer posting first published Jun 11, 2026 (Atlanta, Boston, Broomfield, Colorado Springs, Costa Mesa, Fort Collins, Irvine, Reston, Seattle). Must be a U.S. Person."
+    },
+    {
+      "stage": "Recruiter call",
+      "details": "About 30 min. Maps your interests to domains (perception, backend infrastructure, ML infrastructure, ML) and probes why Anduril and why defense over other companies on your resume."
+    },
+    {
+      "stage": "Technical phone screen",
+      "details": "60 min on HackerRank with an engineer. Multi-part problem with an intentionally vague prompt (new grad, Apr 2026: arrange two teams in rows for a photo so shorter players are in front; which team goes in front; unequal sizes; impossible cases). Ask clarifying questions before coding; a working solution matters more than early optimization."
+    },
+    {
+      "stage": "Final round",
+      "details": "New grad (interview Apr 2026): 3 x 60 min. Behavioral with a senior leader (full resume walkthrough, favorite past role, return offer, self-rating, what your manager would say, why Anduril is the right next step, which of his teams fits you); coding: shortest distance between two points, then points in space (3D), then obstacles; coding: design a doubly linked list (insert, delete, search at head, tail, middle) and refactor for cleaner code. General SWE onsites are 4 rounds (behavioral, 2 coding, system design) in one day, sometimes with same-day feedback (Boston, Aug 2025)."
+    },
+    {
+      "stage": "Team placement and onboarding",
+      "details": "Anduril FAQ: early-career hires are matched to teams based on past projects, technical ability and interests. Early-career SWE hires go through an Engineering Bootcamp (separate software and hardware tracks) plus mentor and buddy programs."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Application",
+      "details": "2027 Software Engineer Intern posting first published Jun 10, 2026; USD 40 to 55/hr; 12 weeks in person at one of 9 US offices. Must be a U.S. Person and returning to school after the internship. Anduril says it has no hard GPA cutoff but strong candidates typically have 3.0+."
+    },
+    {
+      "stage": "Recruiter call",
+      "details": "Background, interests, motivation (official FAQ)."
+    },
+    {
+      "stage": "Technical and behavioral interviews",
+      "details": "Official FAQ: technical and behavioral interviews plus role-specific assessments that can include live coding, presentations or in-depth technical discussion. Expect the same HackerRank-style screen and practical coding as new grad; no detailed 2025 to 2026 SWE intern question reports were found in free sources."
+    },
+    {
+      "stage": "Conversion",
+      "details": "Anduril describes internships as often a direct pipeline to full-time roles."
+    }
+  ],
+  "process_experienced_notes": "For experienced hires, Aced reports team-specific matching happens before interviews and technical rounds test domain skills (C++, perception, ML infrastructure). 2026 reports: C++ screen reading code and explaining pointers, references, lambdas, move semantics, then DFS to find node clusters (Irvine); full-stack loop with calculator parsing, hash map internals, suffix search, typeahead with request racing and debounce, JS memory leak debugging, and a TinyURL design with sharding in the HM's system design round (rejected on that round); some roles use a HackerRank take-home first (Broomfield); a Sweden loop used a drone-simulation coding screen. interviewing.io: 1 hr phone screen and/or HM call, then 4 hr onsite (2 coding in CoderPad, system design, behavioral); L5/L6 robotics roles need deep domain knowledge.",
+  "timeline": "interviewing.io and Aced: about 3 to 4 weeks, can be expedited to 2; candidates often hear back the day after each round. Individual reports range from 2 weeks (Aug 2026) to 3.5 months for a 2026 new grad loop. 2027 Early Career SWE and SWE Intern postings opened Jun 10 to 11, 2026 with rolling review. No reply means not moving forward for that cohort (official FAQ).",
+  "oa": {
+    "platform": "HackerRank",
+    "format": "Usually a live 60 min HackerRank phone screen with an engineer rather than a solo OA; some roles send a HackerRank take-home assignment first (Broomfield, 2026 report).",
+    "notes": "Prompts are intentionally ambiguous and multi-phase; clarify requirements and get a functional solution before optimizing. Aced's 2026 guide says no take-home showed up in its reports, but a Broomfield 2026 candidate received a HackerRank assignment after the recruiter call."
+  },
+  "coding": {
+    "rounds": "1 phone screen + 2 onsite coding rounds (new grad and SWE).",
+    "style": "LeetCode medium in practical or defense context (drones, sensors, robots, maps), with evolving constraints and follow-ups on optimization. Graphs and topological sort, BFS shortest path with obstacles, geometry, implement data structures from scratch (doubly linked list, queue, deque), parsing (calculator).",
+    "environment": "HackerRank for the phone screen; CoderPad or a shared editor onsite. interviewing.io reports AI use is strictly prohibited. Language choice is generally open; C++ for robotics/systems roles.",
+    "graded_on": "Clarifying questions, working solution, code decomposition and readability, edge cases, refactoring, and explaining trade-offs."
+  },
+  "system_design": "The Apr 2026 new grad final round had no system design. General SWE onsites include one system design or object-oriented design round: radar tower model tracking a moving ship, TinyURL with collision handling and DB sharding, distributed logging, computer vision pipeline, Tetris (interviewing.io). Senior robotics roles are more hardware-aware.",
+  "behavioral": {
+    "framework": "Anduril 'How We Work' (Autonomy, Speed, Scale, Impact, Grit) and early-career qualities (Proven Impact, Insatiable Curiosity, Unshakeable Initiative, Collaborative Drive, Unwavering Mission Alignment)",
+    "values_url": "https://www.anduril.com/careers",
+    "what_they_look_for": [
+      "Genuine, specific conviction about defense work and Anduril's mission",
+      "Self-starters who own outcomes without oversight (Autonomy)",
+      "Moving fast while keeping quality (Speed)",
+      "Grit: passion and perseverance on hard, urgent work",
+      "Proven impact through projects, internships or research",
+      "Honest self-assessment and a verifiable resume",
+      "Low ego, high ownership, bias for action (job postings)"
+    ],
+    "sample_questions": [
+      "Why Anduril, given it is not universally popular? Why over the other companies on your resume?",
+      "Which area interests you most: perception, backend infrastructure, ML infrastructure or ML?",
+      "Walk me through your whole resume. Which role did you enjoy most? Did you get a return offer?",
+      "How would you rate your own performance? What would your manager say about you?",
+      "What about your previous experience makes Anduril the right next step?",
+      "Tell me about your biggest failure",
+      "Tell me about a time you faced a moral or ethical dilemma at work",
+      "How would you reduce security vulnerability resolution times across software products?"
+    ]
+  },
+  "non_leetcode_formats": "Drone-simulation coding screen (calculations closer to a simulation than a textbook prompt); C++ language-semantics reading round; mock application work plus a project presentation; OO design round (radar tower model); puzzle discussion with best/worst/average case ('rabbit hunter'); resume authenticity deep dive in behavioral; HackerRank take-home for some roles. One 2026 report describes AI-sounding automated recruiter messages, a role in a city where Anduril has no office, and a request for three essays before the resume would be submitted; Anduril's job postings carry a 'Protecting Yourself from Recruitment Scams' notice, so confirm any recruiter through an official anduril.com or Greenhouse posting before sending anything.",
+  "reported_questions": [
+    {
+      "title": "Photo of two teams in rows: order players so shorter are in front and taller behind; which team goes in front; different team sizes and empty spaces; impossible arrangements",
+      "url": "",
+      "role": "Software Engineer New Grad (L3), HackerRank phone screen",
+      "date": "2026-04",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "Shortest distance between two points (2D Euclidean), then points in space (3D), then obstacles blocking the direct path",
+      "url": "",
+      "role": "Software Engineer New Grad (L3), final round coding",
+      "date": "2026-04",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "Design a doubly linked list with insert, delete and search at beginning, end and middle; then refactor for cleaner code",
+      "url": "https://leetcode.com/problems/design-linked-list/",
+      "role": "Software Engineer New Grad (L3), final round coding",
+      "date": "2026-04",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "Behavioral: walk through your resume, favorite role, return offer, self-rating, what your manager would say, why Anduril is the right next step",
+      "url": "",
+      "role": "Software Engineer New Grad (L3), final round behavioral with senior leader",
+      "date": "2026-04",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "Topological sort problem, essentially Course Schedule",
+      "url": "https://leetcode.com/problems/course-schedule/",
+      "role": "Software Engineer, Boston, coding interview",
+      "date": "2025-08",
+      "source_url": "https://www.jointaro.com/interviews/companies/anduril/experiences/software-engineer-boston-ma-august-19-2025-no-offer-neutral-3ee554cc/"
+    },
+    {
+      "title": "C++ code reading (pointers, references, lambdas, move semantics), then DFS to identify node clusters in a graph",
+      "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+      "role": "Software Engineer, Irvine, technical screen",
+      "date": "2026-07",
+      "source_url": "https://prachub.com/interview-experiences/anduril-software-engineer-interview-cplusplus-screen-and-graph-clusters-b7eeefe25d"
+    },
+    {
+      "title": "Calculator supporting addition and subtraction, follow-up adds multiplication and division",
+      "url": "https://leetcode.com/problems/basic-calculator-ii/",
+      "role": "Software Engineer (full stack), onsite coding",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-onsite-coding-went-great-then-the-hms-system-design-round-sank-it"
+    },
+    {
+      "title": "Hash map internals: collision handling and operation complexity",
+      "url": "",
+      "role": "Software Engineer (full stack), onsite",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-onsite-coding-went-great-then-the-hms-system-design-round-sank-it"
+    },
+    {
+      "title": "Word plus suffix search (trie built on reversed words)",
+      "url": "",
+      "role": "Software Engineer (full stack), onsite coding",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-onsite-coding-went-great-then-the-hms-system-design-round-sank-it"
+    },
+    {
+      "title": "Typeahead component handling HTTP request racing and debounce; debug a JavaScript memory leak",
+      "url": "",
+      "role": "Software Engineer (full stack), onsite",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-onsite-coding-went-great-then-the-hms-system-design-round-sank-it"
+    },
+    {
+      "title": "System design with HM: TinyURL with collision resolution, plus database sharding and data migration",
+      "url": "",
+      "role": "Software Engineer (full stack), system design",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-onsite-coding-went-great-then-the-hms-system-design-round-sank-it"
+    },
+    {
+      "title": "Find unreachable objects in a heap graph from stack roots (handle cycles, self-references, missing addresses)",
+      "url": "",
+      "role": "Software Engineer, technical screen",
+      "date": "2026-07",
+      "source_url": "https://prachub.com/coding-questions/find-unreachable-objects-in-a-heap-graph"
+    },
+    {
+      "title": "Group Anagrams",
+      "url": "https://leetcode.com/problems/group-anagrams/",
+      "role": "Software Engineer, technical interview",
+      "date": "2026-08",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "Tell me about your biggest failure; how would you reduce security vulnerability resolution times across software products?",
+      "url": "",
+      "role": "Software Engineer, phone interview",
+      "date": "2026-08",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "Drone-related simulation coding screen (pattern matching not enough), then onsite with system design and two coding challenges",
+      "url": "",
+      "role": "Software Engineer, Sweden",
+      "date": "2026-07",
+      "source_url": "https://prachub.com/interview-experiences/anduril-software-engineer-interview-drone-equations-and-a-demanding-onsite-c3321ca4d8"
+    },
+    {
+      "title": "Why Anduril? The candidate's feedback said their 'why' was not deep enough",
+      "url": "",
+      "role": "Software Engineer (forum question about feedback)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7267903/why-anduril-by-leghost-y9cl/"
+    },
+    {
+      "title": "Course Schedule (topological sort); candidate called the first coding round very easy",
+      "url": "https://leetcode.com/problems/course-schedule/",
+      "role": "Software Engineer, technical round",
+      "date": "2026-06",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "For each prefix of searchWord, return the first three lexicographically matching words from a list",
+      "url": "https://leetcode.com/problems/search-suggestions-system/",
+      "role": "Senior Software Engineer, phone screen",
+      "date": "2025-08",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "Daily Temperatures; design a system that keeps whatever is written to one system consistent with a second system; tell me about a time your project failed",
+      "url": "https://leetcode.com/problems/daily-temperatures/",
+      "role": "Senior Software Engineer, final round",
+      "date": "2025-08",
+      "source_url": "https://www.aced.io/guides/anduril-software-engineer-interview/experiences"
+    },
+    {
+      "title": "Find the minimum range of tower sensors needed to cover a set of border crossings (same idea as Heaters)",
+      "url": "https://leetcode.com/problems/heaters/",
+      "role": "Software Engineer (undated report listed in Aced's Anduril guide, updated Oct 2026)",
+      "date": "",
+      "source_url": "https://www.aced.io/blog/anduril-interview-process"
+    },
+    {
+      "title": "Binary tree traversal with output as JSON or console.log; then the Rabbit Hunter puzzle explained with best, worst and average case",
+      "url": "",
+      "role": "Software Engineer (full stack), onsite coding",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-onsite-coding-went-great-then-the-hms-system-design-round-sank-it"
+    }
+  ],
+  "focus_topics": [
+    "Graphs: topological sort (Course Schedule I and II), connected components, BFS shortest path with obstacles",
+    "Grids: Number of Islands, Rotting Oranges, Shortest Path in Binary Matrix",
+    "Geometry: Maximum Number of Visible Points, Queries on Number of Points Inside a Circle",
+    "Monotonic stack (Daily Temperatures) and binary search / two pointers (Heaters)",
+    "Implementing data structures from scratch (linked lists, queues, deques, hash maps)",
+    "Parsing and tries (calculator, suffix search)",
+    "OO design of physical systems (radar tower, sensors, drones)",
+    "C++ fundamentals for robotics and systems roles",
+    "Mission alignment and ethics answers"
+  ],
+  "tips": [
+    "Check eligibility first: Anduril requires U.S. Person status (citizen, lawful permanent resident, protected individual under 8 U.S.C. 1324b(a)(3), or able to get State Department authorization) and cannot sponsor F-1 students. Jugal's Summer 2027 internships post flags Anduril as an export-control trap for F-1 students.",
+    "Write a specific 'why defense, why Anduril' answer tied to a product (Lattice, a specific system) and your background; it is asked in the recruiter, screen and behavioral rounds, and one candidate's feedback said their 'why' was not deep enough.",
+    "Treat vague prompts as the test: ask about inputs, edge cases and impossible cases before coding, then ship a working version first.",
+    "Practice implementing a doubly linked list, queue and hash map from scratch in 20 minutes with clean method decomposition, then refactor out loud.",
+    "Drill the Anduril-tagged set: Number of Islands, Course Schedule I and II, Daily Temperatures, Heaters, Rotting Oranges, Maximum Number of Visible Points.",
+    "Be ready to rate your own performance honestly and to explain return-offer outcomes; interviewers verify resume details.",
+    "Do not use AI in interviews; interviewing.io reports it is strictly prohibited.",
+    "Apply early in the cycle: 2027 Early Career SWE and SWE Intern postings have been open since June 2026 and review is rolling."
+  ],
+  "compensation_note": "2027 Early Career Software Engineer: base USD 112K to 149K plus equity (Greenhouse posting, Oct 2026). 2027 Software Engineer Intern: USD 40 to 55/hr (posting). Levels.fyi (US, page updated Oct 4, 2026): IC2 median total comp USD 225K (base 164K, stock 59.4K/yr, bonus 1.4K), IC3 USD 271K, IC4 Senior USD 323K; options and RSUs vest 25% in year 1 then monthly.",
+  "sources": [
+    "https://www.anduril.com/careers",
+    "https://www.anduril.com/early-careers",
+    "https://www.anduril.com/mission",
+    "https://www.anduril.com/open-roles",
+    "https://job-boards.greenhouse.io/andurilindustries/jobs/5162263007",
+    "https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007",
+    "https://www.levels.fyi/companies/anduril-industries/salaries/software-engineer",
+    "https://interviewing.io/anduril-interview-questions",
+    "https://www.aced.io/guides/anduril-software-engineer-interview",
+    "https://www.aced.io/blog/anduril-interview-process",
+    "https://www.aced.io/guides/anduril-software-engineer-interview/experiences",
+    "https://www.aced.io/experiences/anduril-software-engineer-interview-a63a76",
+    "https://www.aced.io/experiences/anduril-software-engineer-interview-1678b7",
+    "https://prachub.com/companies/anduril",
+    "https://prachub.com/interview-experiences/anduril-software-engineer-interview-cplusplus-screen-and-graph-clusters-b7eeefe25d",
+    "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-onsite-coding-went-great-then-the-hms-system-design-round-sank-it",
+    "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-hackerrank-and-ghosting-d5437fb2d3",
+    "https://prachub.com/interview-experiences/anduril-software-engineer-interview-drone-equations-and-a-demanding-onsite-c3321ca4d8",
+    "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-mock-application-work-and-a-project-presentation-00c59f9ef3",
+    "https://prachub.com/interview-experiences/anduril-software-engineer-interview-experience-automated-recruiter-messages-and-essays-0c51392e8b",
+    "https://prachub.com/coding-questions/find-unreachable-objects-in-a-heap-graph",
+    "https://www.jointaro.com/interviews/companies/anduril/experiences/software-engineer-boston-ma-august-19-2025-no-offer-neutral-3ee554cc/",
+    "https://www.jointaro.com/interviews/companies/anduril/experiences/software-engineer-costa-mesa-ca-september-1-2025-accepted-offer-positive-191cb116/",
+    "https://www.jointaro.com/interviews/companies/anduril/experiences/software-engineer-october-16-2025-no-offer-positive-b0151de7/",
+    "https://leetcode.com/discuss/post/7267903/why-anduril-by-leghost-y9cl/",
+    "https://github.com/liquidslr/leetcode-company-wise-problems/tree/main/Anduril",
+    "https://github.com/snehasishroy/leetcode-companywise-interview-questions/tree/master/anduril",
+    "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already"
+  ],
+  "confidence_notes": "Eligibility is the biggest constraint: official FAQ and both 2027 postings require U.S. Person status, so most international students on F-1 cannot apply. Intern-specific question reports for 2025 to 2026 were not found in free sources; the intern process is described from the official FAQ. Many 2026 reports omit level; the clearest new grad data point is the Aced report (interview Apr 2026). Aced's individual experience pages gate the question details behind sign-up; the free listing page (aced.io/guides/anduril-software-engineer-interview/experiences) shows them with 'asked on' dates (new grad: Apr 1, 2026; SWE: Aug 13, 2026; SWE: Jun 30, 2026; Senior SWE: Aug 31, 2025), so reported_questions now cite the listing page. Levels.fyi starts the Anduril ladder at IC2 (typical 2 to 3 yrs), while Aced's guide cites L3 to L7 figures; Anduril publishes neither, so quote the posting's base range for new grads. Aced (formerly Exponent) now serves the old tryexponent.com Anduril URLs. The 'moral or ethical dilemma' question comes from the Aced guide without a date. Company-tagged LeetCode lists are frequency data, not dated reports. LeetCode Discuss has very few Anduril posts; the Apr 2025 'Anduril Phone Screen' post only asks for questions, so it was dropped from sources. Verification (Oct 4, 2026): every URL in sources was fetched and confirmed [VERIFIED]; LeetCode Discuss posts were read through LeetCode GraphQL API because their HTML returns 403 to scripts. Source notes: https://www.anduril.com/careers (How We Work values Autonomy, Speed, Scale, Impact, Grit); https://www.anduril.com/early-careers (FAQ on F-1 sponsorship, GPA, interview process, team placement, Engineering Bootcamp); https://www.anduril.com/open-roles (loads); https://job-boards.greenhouse.io/andurilindustries/jobs/5162263007 (2027 Early Career Software Engineer, USD 112K to 149K base, U.S. Person required); https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007 (2027 Software Engineer Intern, USD 40 to 55/hr, 12 weeks in person); https://www.aced.io/guides/anduril-software-engineer-interview (Aced, formerly Exponent; old tryexponent.com URL redirects here); https://www.aced.io/experiences/anduril-software-engineer-interview-a63a76 (new grad, Entry Level / L3, asked on Apr 1, 2026, posted May 12, 2026; details gated); https://www.aced.io/experiences/anduril-software-engineer-interview-1678b7 (asked on and posted Aug 13, 2026; details gated); https://github.com/liquidslr/leetcode-company-wise-problems/tree/main/Anduril (repo 31,048 stars, last push 2026-08-16); https://github.com/snehasishroy/leetcode-companywise-interview-questions/tree/master/anduril (repo 8,233 stars, last push 2026-08-21); https://jugaldb.substack.com/p/494-summer-2027-internships-are-already (local copy; F-1 export-control warning naming Anduril). Fact-check pass (Oct 4, 2026): all URLs re-fetched (HTTP 200; anduril.com pages are client-rendered, so FAQ and How We Work text was read from the embedded page data; LeetCode posts and problem slugs re-checked through the GraphQL API). Corrected: the essays report never says 'scam'; the 'why Anduril' post reports feedback, not a stated rejection reason; Aced question sources moved to the free listing page with exact dates; added 5 questions (Course Schedule Jun 2026, Search Suggestions System and Daily Temperatures from an Aug 2025 senior loop, tower-sensor coverage, binary tree traversal plus Rabbit Hunter puzzle). Process cross-checked against the official early-careers FAQ, interviewing.io, Aced (guide, blog, experiences), Taro (Aug to Oct 2025) and PracHub (2026). Anduril also posts roles outside the US (for example a 2026 GNC intern in Sydney); the U.S. Person rule above applies to the US postings checked."
+}

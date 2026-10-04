@@ -1,0 +1,295 @@
+{
+ "slug": "apple",
+ "name": "Apple",
+ "category": "FAANG",
+ "one_liner": "Builds iPhone, Mac, iOS, iCloud, Siri and Apple silicon; interviews are run by the hiring team, vary widely, and weigh domain depth and 'Why Apple?'.",
+ "careers_url": "https://www.apple.com/careers/us/",
+ "students_url": "https://www.apple.com/careers/us/work-at-apple/students.html",
+ "interview_prep_url": "",
+ "levels": {
+  "intern": "Software Engineering Intern or co-op (summer internships or academic-year co-ops; official students page: 'open to those enrolled full-time and pursuing a bachelor's degree, master's degree, or doctorate'). India: IS&T intern roles are reported (e.g. Reliability Engineering IS&T Intern, Oct 2025, offer the next day); duration and PPO terms are not confirmed in sources. Apple's internship search listed 89 results on Oct 4, 2026; the newest were mostly in Europe and China.",
+  "new_grad": "ICT2 ('Junior Software Engineer' on Levels.fyi). Posting titles seen in 2025 to 2026 reports: 'Software Engineer, IS&T Early Career' (US, Aug 2026) and 'Junior Software Engineer' (India, for freshers, Aug 2025).",
+  "early_career": "ICT2 to ICT3 ('Software Engineer'); Levels.fyi ICT3 data points start at about 2 YOE. Level is set by the hiring team after the loop."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Apply to a specific team posting",
+   "details": "There is no central Apple loop: you apply to a team's requisition on jobs.apple.com and the recruiter and interviewers belong to that team (Aced, interviewing.io). Shortlisting is team-specific, so tailor your resume to each posting (Mar 2025 ICT3 report). You can interview with several teams at once (interviewing.io)."
+  },
+  {
+   "stage": "Recruiter and/or hiring manager screen",
+   "details": "15 to 30 min recruiter call (background, why Apple, compensation expectations), sometimes followed by a hiring manager conversation that can include technical questions (Aced)."
+  },
+  {
+   "stage": "Online assessment (some teams)",
+   "details": "Used by some teams, not all. Reported formats: 2 coding problems in 60 to 70 min on CoderPad or a similar platform (IS&T SWE Hyderabad, May 2025: Java-only, 70 min; India Junior SWE for freshers, Aug 2025: Java-only; Junior SWE ICT2, Aug 2025: Java or Python), sometimes plus 15 to 20 MCQs on the role's stack (Jan 2025 OA: 2 coding + 15 MCQ; IC3 Frontend, Jun 2025: 1 hour, 2 coding + 20 JavaScript/React MCQs)."
+  },
+  {
+   "stage": "Technical screen(s)",
+   "details": "1 to 2 interviews of 45 to 60 min, usually on CoderPad: DSA plus CS fundamentals or language depth. A US IS&T Early Career candidate (Aug 2026) was told by the recruiter to expect 'a quick intro, CS fundamentals, and around 15 minutes of coding'. A Java backend role for 0 to 3 years (Feb 2026) scheduled a 60-min CoderPad round on Core Java, data structures and problem solving. India IS&T rounds mix DSA with Java, Spring Boot, OOP and microservices theory."
+  },
+  {
+   "stage": "Onsite loop",
+   "details": "Virtual or in person, about 3 to 8 rounds depending on team (Aced blog: 3 to 8 rounds of 45 to 60 min; interviewing.io: 6 to 8; Aced guide: 4 to 7 rounds counting screens): coding, domain (iOS, frontend, backend, systems), sometimes LLD or design, and a hiring manager or behavioral round centered on 'Why Apple?'. India Junior SWE for freshers (Aug 2025): DSA round, Java/Python/microservices/LLD round, techno-managerial round."
+  },
+  {
+   "stage": "Debrief and offer",
+   "details": "Teams decide in live debriefs; the hiring manager has the most influence (interviewing.io). Offers then need approvals, which can take weeks: an ICT3 candidate (Mar 2025) wrote that Apple 'requires 4 levels of signatures up to the VP level to roll out the offer'; a Jun 2025 candidate had a verbal offer with the written offer 'pending business approvals' for over 3 weeks. Some candidates are told after the loop that the position was filled by someone else (IC3 Frontend, Jun 2025)."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Apply",
+   "details": "Search 'Students: Internships' on jobs.apple.com; postings are team-specific and appear through the year (Summer 2027 GPU intern postings appeared Aug and Sep 2026 per prior verification)."
+  },
+  {
+   "stage": "Interviews (US)",
+   "details": "Usually 1 to 2 team interviews of about 45 min (an Apple Vision Pro intern candidate in Mar 2025 was scheduled for one 45-min interview); expect coding plus project discussion, but US intern reports are sparse."
+  },
+  {
+   "stage": "India IS&T intern (Oct 2025 report)",
+   "details": "Round 1 technical elimination (about 50 min): project deep dive, CoderPad DSA (rotate matrix, merge k sorted lists, longest mountain, LRU cache design), complexity theory and networking (DNS, TCP vs UDP, caching, L1/L2/L3 cache). Shortlist email within 30 min. Round 2 managerial and HR (about 50 min): 5 to 6 behavioral questions each on Collaboration, Invention and Results. Offer reported the next day."
+  }
+ ],
+ "process_experienced_notes": "With 1 to 3 years (ICT3 range), expect a recruiter or HM screen, 1 to 2 technical screens, then 3 to 6 onsite rounds: coding, language internals (Java concurrency, Spring Boot, React hooks), LLD, and a team-specific system design (BookMyShow, TinyURL, distributed rate limiter; a Senior Systems Engineer reported fraud detection with rate limiters). Questions about how you use GenAI tools appear in 2025 to 2026 screens (Hyderabad Ads Delivery, Nov 2025; Hyderabad SWE offer, May 2026). One Sep 2026 report (9 YOE Java role) lists an 'AI assisted coding round' in the loop; Aced (Oct 2026) says Apple 'hasn't announced or adopted the AI-assisted coding rounds that Meta and Google have started piloting', and interviewing.io says AI use is prohibited, so treat AI rounds as team experiments and ask your recruiter.",
+ "timeline": "Aced: 4 to 8 weeks in most cases, up to 3 to 4 months; long gaps between stages are common. Aced blog: anywhere from 3 weeks to 4 months. After a verbal offer, written offers can wait on approvals and headcount checks. Apple hires year-round by team rather than in a single new grad season.",
+ "oa": {
+  "platform": "Varies by team: CoderPad link or HackerRank-style assessment; many US teams skip the OA and start with a recruiter or hiring manager screen",
+  "format": "Commonly 2 coding problems in 60 to 70 min (examples: two-bag knapsack, follow a path through a 15 x 10 grid), sometimes plus 15 to 20 MCQs on the team's stack (JavaScript/React, Java)",
+  "notes": "Language may be fixed by the team (Java-only OAs reported for IS&T India). Difficulty easy to medium; time is the main constraint."
+ },
+ "coding": {
+  "rounds": "1 to 3 technical screens plus 1 to 3 onsite coding rounds (Aced); team-dependent",
+  "style": "Medium LeetCode-style problems plus practical, team-mapped tasks: implement a data structure (thread-safe LRU, HashMap), Java concurrency, React components (nested tabs, rendering 1M rows), vague prompts that you must scope. Interviewers write their own questions; there is no central question bank (Aced, interviewing.io).",
+  "environment": "Mostly CoderPad (copy-paste often blocked); some teams use your own laptop and IDE or a take-home assignment; FaceTime/Zoom or in person. Plan to work without AI unless told otherwise.",
+  "graded_on": "Working, dry-run code; data structure choice; core language depth; trade-off reasoning; communication; fit with the team's domain. Hiring manager weight is high and behavioral signal matters as much as coding for many teams (interviewing.io)."
+ },
+ "system_design": "Rare for ICT2 new grads and interns, though IS&T intern candidates ask about HLD/LLD basics and India junior loops include an LLD-flavored round. ICT3 and above get team-specific design focused on reliability, privacy and on-device vs cloud trade-offs (Aced; interviewing.io notes Apple interviewers 'love to hear about reliability').",
+ "behavioral": {
+  "framework": "No published interview framework; team-run behavioral and hiring manager rounds built around 'Why Apple?', collaboration, invention and results; Apple's shared values (accessibility, privacy, environment, inclusion)",
+  "values_url": "https://www.apple.com/careers/us/life-at-apple/shared-values.html",
+  "what_they_look_for": [
+   "A genuine, specific 'Why Apple?' and why this team (asked repeatedly)",
+   "Passion for Apple products tied to your own story",
+   "Collaboration across teams with limited guidance",
+   "Invention: original solutions in your projects",
+   "Results despite setbacks, with outcomes",
+   "Depth on your own projects and technical decisions",
+   "Discretion and comfort with a secretive, siloed culture",
+   "How you use GenAI tools day to day (2025 to 2026 screens)"
+  ],
+  "sample_questions": [
+   "Why Apple? Why this team?",
+   "Walk me through your resume and the work you are most proud of.",
+   "Tell me about a time you worked in a team without sufficient guidance.",
+   "Tell me about a time you came up with an innovative solution in a project.",
+   "Tell me about a time you had a setback and still delivered.",
+   "Tell me about a time you had a disagreement with a peer.",
+   "Tell me about a time you delivered in a short time and reprioritized work.",
+   "What GenAI tools do you use day to day, and how do they improve your efficiency?",
+   "Given Apple values like deep expertise and drive for excellence, how have you shown them in your career?"
+  ]
+ },
+ "non_leetcode_formats": "Domain deep dives in the team's stack (iOS, React output prediction and hooks, Java/Spring Boot theory, OS and networking fundamentals); take-home assignments chosen by the hiring manager (interviewing.io); presenting a past project (Aced blog); code review or design-pattern refactoring in an LLD round (Sep 2026 report); vague, scoped-by-you prompts such as a vote counter that must batch millions of ballots.",
+ "reported_questions": [
+  {
+   "title": "OA: maximum combined weight in two bags with capacity limits (double knapsack)",
+   "url": "https://leetcode.com/problems/maximum-weight-in-two-bags/",
+   "role": "Junior Software Engineer (ICT2), off campus OA; same problem in an IS&T SWE Hyderabad OA (May 2025)",
+   "date": "2025-08",
+   "source_url": "https://leetcode.com/discuss/post/7079344/apple-junior-software-engineer-ict-2-off-kvdf/"
+  },
+  {
+   "title": "OA: follow a unique path of '*' and letters through a 15 x 10 grid from (0,0) and output the letters",
+   "url": "",
+   "role": "IS&T SWE, Hyderabad OA (Java, 70 min, 5.5 YOE candidate); also in the Aug 2025 Junior SWE (ICT2) OA",
+   "date": "2025-05",
+   "source_url": "https://leetcode.com/discuss/post/6766815/apple-oa-ist-swe-hyd-by-debmalyapan53-mnfz/"
+  },
+  {
+   "title": "Coin Change and Coin Change II",
+   "url": "https://leetcode.com/problems/coin-change/",
+   "role": "Junior Software Engineer (ICT2), off campus (Java backend team)",
+   "date": "2025-08",
+   "source_url": "https://leetcode.com/discuss/post/7079344/apple-junior-software-engineer-ict-2-off-kvdf/"
+  },
+  {
+   "title": "Rotate a matrix 90 degrees clockwise",
+   "url": "https://leetcode.com/problems/rotate-image/",
+   "role": "Reliability Engineering IS&T intern, India",
+   "date": "2025-10",
+   "source_url": "https://leetcode.com/discuss/post/7276464/apple-interview-experience-by-nullp0inte-n7du/"
+  },
+  {
+   "title": "Merge k Sorted Lists (brute force and min-heap)",
+   "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+   "role": "IS&T intern, India",
+   "date": "2025-10",
+   "source_url": "https://leetcode.com/discuss/post/7276464/apple-interview-experience-by-nullp0inte-n7du/"
+  },
+  {
+   "title": "Longest Mountain in Array",
+   "url": "https://leetcode.com/problems/longest-mountain-in-array/",
+   "role": "IS&T intern, India",
+   "date": "2025-10",
+   "source_url": "https://leetcode.com/discuss/post/7276464/apple-interview-experience-by-nullp0inte-n7du/"
+  },
+  {
+   "title": "LRU Cache design with HashMap and doubly linked list",
+   "url": "https://leetcode.com/problems/lru-cache/",
+   "role": "IS&T intern, India (Oct 2025); IS&T backend loop (Jun 2025)",
+   "date": "2025-10",
+   "source_url": "https://leetcode.com/discuss/post/7276464/apple-interview-experience-by-nullp0inte-n7du/"
+  },
+  {
+   "title": "Convert a sorted linked list to a balanced BST",
+   "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
+   "role": "Phone screen (Oct 2025)",
+   "date": "2025-10",
+   "source_url": "https://leetcode.com/discuss/post/7291518/apple-phone-screen-by-anonymous_user-pe59/"
+  },
+  {
+   "title": "Trapping Rain Water",
+   "url": "https://leetcode.com/problems/trapping-rain-water/",
+   "role": "IS&T SWE backend, Hyderabad (elimination round; 5.9 YOE)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6840839/apple-ist-swe-hyd-backend-by-debmalyapan-4xy9/"
+  },
+  {
+   "title": "Top K Frequent Elements; create an immutable class; TinyURL design discussion",
+   "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+   "role": "IS&T SWE backend, Hyderabad (loop; 5.9 YOE)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6840839/apple-ist-swe-hyd-backend-by-debmalyapan-4xy9/"
+  },
+  {
+   "title": "Time Based Key-Value Store variation, then make it thread safe",
+   "url": "https://leetcode.com/problems/time-based-key-value-store/",
+   "role": "Java Spring Boot SWE (DSA round)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8504935/help-needed-for-apple-ai-assisted-coding-iygj/"
+  },
+  {
+   "title": "Pick a random country weighted by population (prefix sums + binary search)",
+   "url": "https://leetcode.com/problems/random-pick-with-weight/",
+   "role": "SWE round 1 (Jul 2026)",
+   "date": "2026-07",
+   "source_url": "https://leetcode.com/discuss/post/8385857/random-country-generator-with-population-2cyy/"
+  },
+  {
+   "title": "Paths in Matrix Whose Sum Is Divisible by K",
+   "url": "https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/",
+   "role": "SWE (ICT3), Ads Delivery, Hyderabad (loop coding round; 6.5 YOE)",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7380999/apple-swe-hyd-screening-by-debmalyapan53-4ql5/"
+  },
+  {
+   "title": "OA: robot walking simulation similar to Walking Robot Simulation, plus a hash map problem",
+   "url": "https://leetcode.com/problems/walking-robot-simulation/",
+   "role": "Online assessment (2 coding + 15 MCQ)",
+   "date": "2025-01",
+   "source_url": "https://leetcode.com/discuss/post/6292515/apple-online-assessment-by-anonymous_use-2xfj/"
+  },
+  {
+   "title": "Minimum Runes to Add to Cast Spell (45-min DSA round)",
+   "url": "https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell/",
+   "role": "IS&T SWE (Jun 2026)",
+   "date": "2026-06",
+   "source_url": "https://leetcode.com/discuss/post/8340782/horrible-and-shocking-interview-experien-r2ps/"
+  },
+  {
+   "title": "React: render nested tabs or an accordion from a flat array of {id, name, parentId}",
+   "url": "",
+   "role": "Frontend Engineer (IC3), Jun 2025",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6979238/my-apple-ic3-frontend-interview-experien-k4jt/"
+  },
+  {
+   "title": "Vague prompt: build a class that reads millions of ballots and does rank-based vote counting with batching",
+   "url": "",
+   "role": "Full-Stack Engineer (ICT3), Cupertino",
+   "date": "2025-03",
+   "source_url": "https://leetcode.com/discuss/post/6579616/apple-ict3-full-stack-engineer-interview-si3q/"
+  },
+  {
+   "title": "Given a set of characters, find all English words that can be formed (trie, then anagram hashing)",
+   "url": "",
+   "role": "Full-Stack Engineer (ICT3), Cupertino (onsite)",
+   "date": "2025-03",
+   "source_url": "https://leetcode.com/discuss/post/6579616/apple-ict3-full-stack-engineer-interview-si3q/"
+  },
+  {
+   "title": "React: build a component that displays 1M records (render only the rows visible in the scroll area); same loop asked to sample n items while keeping the original distribution",
+   "url": "",
+   "role": "Full-Stack Engineer (ICT3), Cupertino (onsite coding 2)",
+   "date": "2025-03",
+   "source_url": "https://leetcode.com/discuss/post/6579616/apple-ict3-full-stack-engineer-interview-si3q/"
+  },
+  {
+   "title": "Binary tree of 0s and 1s where the left child equals the parent and the right child is the opposite: find the value of the nth node at level l",
+   "url": "",
+   "role": "Full-Stack Engineer (ICT3), Cupertino (technical phone screen)",
+   "date": "2025-03",
+   "source_url": "https://leetcode.com/discuss/post/6579616/apple-ict3-full-stack-engineer-interview-si3q/"
+  }
+ ],
+ "focus_topics": [
+  "Hash maps and arrays",
+  "LRU cache and other design-a-class problems (time-based key-value store, hit counter)",
+  "Linked lists and heaps (merge k sorted)",
+  "Graphs and topological sort (course schedule)",
+  "Trees and BSTs",
+  "Intervals",
+  "Dynamic programming basics (knapsack, coin change)",
+  "Concurrency and thread safety",
+  "Core language internals for the team's stack (Java, Swift, JavaScript/React)",
+  "OS, networking and database fundamentals"
+ ],
+ "tips": [
+  "Ask your recruiter forced-choice questions about each round (LeetCode-style vs domain deep dive, which language) because every team runs its own loop (interviewing.io).",
+  "Prepare a specific 'Why Apple, why this team' story tied to products you use; some interviewers reject on this alone (interviewing.io).",
+  "Study the team's stack in depth: Java concurrency and Spring for IS&T backend roles, React hooks and DOM for frontend, Swift and iOS for app teams.",
+  "Apply to several Apple teams at once; you can run parallel processes.",
+  "Practice medium problems on CoderPad with copy-paste off and dry-run your own tests.",
+  "For India IS&T internships, revise CS fundamentals (networking, DNS, caching, OS, DBMS) along with DSA and your projects.",
+  "Expect delays between rounds and after a verbal offer; follow up politely and keep other processes alive.",
+  "Do not plan on AI help in interviews; confirm the rules with your recruiter."
+ ],
+ "compensation_note": "Levels.fyi (fetched Oct 4, 2026), US Software Engineer ICT2: average total comp $166,692 from only 14 recent data points; p25 $152,820, median $161,000, p75 $175,000 (page range $145K to $191K+); median base $140,234, median stock $22,500/yr. ICT3: average $255,770 (41 data points). Small ICT2 sample: treat as a rough range. An ICT3 full-stack offer (Mar 2025, Cupertino) was reported as $175K base, $33K/yr stock, $20K sign-on, 7.5% bonus.",
+ "sources": [
+  "https://www.apple.com/careers/us/",
+  "https://www.apple.com/careers/us/work-at-apple/students.html",
+  "https://www.apple.com/careers/us/work-at-apple.html",
+  "https://www.apple.com/careers/us/life-at-apple.html",
+  "https://www.apple.com/careers/us/life-at-apple/shared-values.html",
+  "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN",
+  "https://www.aced.io/guides/apple-software-engineer-interview",
+  "https://www.aced.io/blog/apple-interview-process",
+  "https://interviewing.io/guides/hiring-process/apple",
+  "https://www.levels.fyi/companies/apple/salaries/software-engineer/levels/ict2",
+  "https://github.com/liquidslr/leetcode-company-wise-problems",
+  "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already",
+  "https://leetcode.com/discuss/post/8493822/apple-ist-early-career-tech-screen-usa-w-03h2/",
+  "https://leetcode.com/discuss/post/8137711/apple-swe-interview-experience-selected-pmdxu/",
+  "https://leetcode.com/discuss/post/7050326/upcoming-apple-india-junior-swe-intervie-9kep/",
+  "https://leetcode.com/discuss/post/8232427/apple-interview-rounds-are-weird-by-anon-vshz/",
+  "https://leetcode.com/discuss/post/6882042/apple-sde-interview-experience-verbal-of-pwz0/",
+  "https://leetcode.com/discuss/post/7351031/60-min-codepen-interview-coming-up-for-a-9qy5/",
+  "https://leetcode.com/discuss/post/6529559/upcoming-apple-swe-intern-interview-for-racic/",
+  "https://leetcode.com/discuss/post/6493548/apple-tech-screen-experience-by-anonymou-ttd2/",
+  "https://leetcode.com/discuss/post/7607936/apple-interview-for-java-developer-0-3-y-gt32/",
+  "https://leetcode.com/discuss/post/7079344/apple-junior-software-engineer-ict-2-off-kvdf/",
+  "https://leetcode.com/discuss/post/6766815/apple-oa-ist-swe-hyd-by-debmalyapan53-mnfz/",
+  "https://leetcode.com/discuss/post/7276464/apple-interview-experience-by-nullp0inte-n7du/",
+  "https://leetcode.com/discuss/post/7291518/apple-phone-screen-by-anonymous_user-pe59/",
+  "https://leetcode.com/discuss/post/6840839/apple-ist-swe-hyd-backend-by-debmalyapan-4xy9/",
+  "https://leetcode.com/discuss/post/8504935/help-needed-for-apple-ai-assisted-coding-iygj/",
+  "https://leetcode.com/discuss/post/8385857/random-country-generator-with-population-2cyy/",
+  "https://leetcode.com/discuss/post/7380999/apple-swe-hyd-screening-by-debmalyapan53-4ql5/",
+  "https://leetcode.com/discuss/post/6292515/apple-online-assessment-by-anonymous_use-2xfj/",
+  "https://leetcode.com/discuss/post/8340782/horrible-and-shocking-interview-experien-r2ps/",
+  "https://leetcode.com/discuss/post/6979238/my-apple-ic3-frontend-interview-experien-k4jt/",
+  "https://leetcode.com/discuss/post/6579616/apple-ict3-full-stack-engineer-interview-si3q/"
+ ],
+ "confidence_notes": "Re-verified Oct 4, 2026 by a second agent: every URL in sources returned HTTP 200 and showed the claimed content, except jobs.apple.com/en-us/details/200678510, which now says 'this role does not exist or is no longer available' and was removed. LeetCode Discuss posts and problem slugs re-checked via LeetCode's GraphQL API (Maximum Weight in Two Bags, Minimum Runes to Add to Cast Spell are LeetCode Premium problems). Apple publishes no official interview prep page, so interview_prep_url is empty; process facts come from Aced, interviewing.io and candidate posts and vary heavily by team. CORRECTED in this pass: 'India' and 'IS&T' removed from the ICT2 off-campus OA roles (the post states neither); the 15 x 10 grid OA was from a 5.5 YOE IS&T Hyderabad candidate, not an ICT2 candidate; 'Hyderabad, 6 months + PPO' removed from the India IS&T intern entry (not in the source); unsourced 'some new grads are leveled ICT3' removed; onsite round counts now cite each source's number; the Vision Pro intern post only states one 45-min interview; OA locations and MCQ counts now match each post. Public data skews toward India IS&T and experienced roles; US new grad (ICT2) reports are sparse. The Sep 2026 'AI assisted coding round' is a single report for a 9-YOE role and conflicts with Aced and interviewing.io [UNVERIFIED as a general practice]. Levels.fyi ICT2 has only 14 recent data points. Apple's 'Shared Values' page is about accessibility, environment, privacy and inclusion, not an interview rubric; the Collaboration/Invention/Results grouping comes from one intern's report. Jugal's Substack has no Apple-specific post."
+}

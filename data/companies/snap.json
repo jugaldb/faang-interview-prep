@@ -1,0 +1,258 @@
+{
+  "slug": "snap",
+  "name": "Snap",
+  "category": "Big Tech",
+  "one_liner": "Snapchat, Specs and AR; live HackerRank coding at LeetCode medium/hard where speed and running code matter, plus values-based (Kind, Smart, Creative) behavioral scoring.",
+  "careers_url": "https://careers.snap.com/",
+  "students_url": "https://careers.snap.com/internships",
+  "interview_prep_url": "https://careers.snap.com/how-we-interview",
+  "levels": {
+    "intern": "Software Engineering Intern (Summer @ Snap, 13 weeks), not leveled",
+    "new_grad": "L3 (Software Engineer, entry level)",
+    "early_career": "L3 to L4"
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "The old Emerging Talent URL now redirects to careers.snap.com/internships, which covers Summer @ Snap only (no new grad section as of Oct 4, 2026); its 'Explore Open Roles' button goes to Snap's RippleMatch page. Snap's own job feed (careers.snap.com/api/jobs, 193 roles on Oct 4, 2026) had no SWE new grad posting and one intern role (Verification Engineer Intern, Eindhoven). Watch RippleMatch and careers.snap.com/jobs."
+    },
+    {
+      "stage": "Recruiter call",
+      "details": "Recruiter call (interviewing.io lists it as 1 hour): background, motivation, and product familiarity; recruiters may ask about your use of the app. Snap's own page says you do not need to be a Snapchat user."
+    },
+    {
+      "stage": "Technical phone screen",
+      "details": "About 60 minutes of live DSA, usually on HackerRank, often after 10 to 15 minutes of background talk. Expect one medium/hard problem worded in product terms (graphs, grids, binary search on answer) and to run your code."
+    },
+    {
+      "stage": "Virtual onsite",
+      "details": "Several back-to-back coding rounds with emphasis on speed and correctness (interviewing.io: four algorithm interviews in experienced loops), plus behavioral questions scored against Kind, Smart, Creative using the S.A.I.L. format. A Mar 2026 SWE onsite report had three coding rounds (count timestamp events in a window; double-sided cards to form a string plus merge N sorted lists; an ambiguous third problem) and a news aggregator system design round. System design is reported for experienced loops; new grad inclusion is unconfirmed."
+    },
+    {
+      "stage": "Decision",
+      "details": "Interviewers include trained 'Deciders' (interviewing.io compares them to Amazon Bar Raisers) who score against Snap's values. interviewing.io says team matching starts after you accept the offer."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Application",
+      "details": "Apply via RippleMatch from careers.snap.com/emerging-talent as soon as roles open (Extern expects late Aug to early Sep postings, priority by mid-October). Summer @ Snap is 13 weeks across engineering, advanced technology and Specs teams."
+    },
+    {
+      "stage": "Recruiter screen",
+      "details": "20 to 30 minutes (Extern, unverified)."
+    },
+    {
+      "stage": "Technical screens",
+      "details": "1 to 2 live coding rounds of 45 to 60 minutes (Extern says CoderPad; candidate reports for other Snap roles say HackerRank). Values questions may be mixed in."
+    },
+    {
+      "stage": "Final round and decision",
+      "details": "Extern describes a final multi-round session with coding and behavioral and a decision within 1 to 2 weeks; this is secondary and unconfirmed by Snap."
+    }
+  ],
+  "process_experienced_notes": "Mid and senior SWE: recruiter call, 1-hour HackerRank phone screen, then an onsite of about 6 hours: four coding rounds, one system design round tied to product features (chat, stories, metrics, news aggregator, ad server), and a non-evaluative hiring manager Q&A (interviewing.io). Staff phone screens can be math or implementation heavy (implement sin(x) with a Taylor series). Down-leveling after the screen is reported (Oct 2025 staff screen: passed to onsite but down-leveled). An Aug 2026 senior phone screen opened with behavioral questions before an LRU cache problem with a thread-safety follow-up. ML Engineer loops mix ML fundamentals (activations, loss, metrics) with a 20 to 25 minute coding problem.",
+  "timeline": "Extern (secondary): Summer 2027 intern postings expected late Aug to early Sep 2026, priority applications by mid-October, interviews Oct 2026 to Jan 2027, decision 1 to 2 weeks after the final round. LeetCode reports: rejection emails can arrive within 2 hours to 2 days after a screen. No official Snap timeline page found.",
+  "oa": {
+    "platform": "Not consistently reported for SWE interns and new grads in 2025 to 2026",
+    "format": "Most 2025 to 2026 reports start with a live technical screen rather than an async OA.",
+    "notes": "Do not assume a CodeSignal or HackerRank OA; ask your recruiter. Live screens are reported on HackerRank."
+  },
+  "coding": {
+    "rounds": "Phone screen 1; onsite 2 to 4 coding rounds (experienced loops report 4).",
+    "style": "LeetCode medium to hard, product-flavored wording, speed matters. Reported: graph components, binary search on answer, BFS on grids, union-find, prefix sums, heaps, tries.",
+    "environment": "HackerRank live coding over video; camera must stay on; no external resources or AI unless explicitly allowed (official).",
+    "graded_on": "Correct, running code within the time, asking clarifying questions about inputs, complexity analysis, and values signals (Kind, Smart, Creative) observed across rounds."
+  },
+  "system_design": "Reported in experienced SWE onsites (1 hour): design a metrics system, an Instagram Stories-style feature, a news aggregator, chat or photo sharing. ML new grad loops have reported ML system design (product tagging pipeline). For SWE new grads it is unconfirmed; prepare basic product design anyway.",
+  "behavioral": {
+    "framework": "Snap values Kind, Smart, Creative, assessed through competency-based interviewing and answered in the S.A.I.L. format (Situation, Action, Impact, Learning)",
+    "values_url": "https://careers.snap.com/how-we-interview",
+    "what_they_look_for": [
+      "Kind: courage, empathy, instills trust",
+      "Smart: action oriented, decision quality, strategic mind",
+      "Creative: manages ambiguity, cultivates innovation, insatiable learning",
+      "Craft competencies for the role, shown through past behavior or live skill demos",
+      "A Learning step at the end of every story (the L in S.A.I.L.)",
+      "Genuine interest in Snap products (checked at recruiter stage per interviewing.io)"
+    ],
+    "sample_questions": [
+      "Why Snap? (recruiter stage, product familiarity)",
+      "Walk me through your background and recent backend or ML work (asked before a 2026 coding screen)",
+      "Tell me about your favorite project and the hardest technical problem in it",
+      "Short past-behavior stories at the start of a technical screen (an Aug 2026 senior phone screen opened with behavioral questions; the candidate heard answer quality carries weight)"
+    ]
+  },
+  "non_leetcode_formats": "Mostly LeetCode-style. Staff and some senior screens include numeric implementation (Taylor series sin(x)); ML roles add ML fundamentals Q&A and ML system design; C++ roles have reported language internals (smart pointers, map vs unordered_map) in older reports.",
+  "reported_questions": [
+    {
+      "title": "Nearest k restaurants from a start cell in a grid with walls (BFS), live on HackerRank",
+      "url": "",
+      "role": "Software Engineer (live coding screen)",
+      "date": "2026-04",
+      "source_url": "https://leetcode.com/discuss/post/7782615/snap-inc-coding-interview-by-sri_vaeshna-7z44/"
+    },
+    {
+      "title": "Seat k people in rooms of given sizes to maximize the minimum distance (binary search on answer; rooms separate in one report, back-to-back in another)",
+      "url": "https://leetcode.com/problems/magnetic-force-between-two-balls/",
+      "role": "Phone screen",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7291488/snap-inc-phone-screen-by-anonymous_user-gx23/"
+    },
+    {
+      "title": "Same rooms problem with rooms back-to-back as one continuous row of seats",
+      "url": "https://leetcode.com/problems/magnetic-force-between-two-balls/",
+      "role": "Interview (round not stated)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7321324/snapchat-by-anonymous_user-td07/"
+    },
+    {
+      "title": "Count pairs of people who do not like each other (Count Unreachable Pairs of Nodes)",
+      "url": "https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
+      "role": "SWE phone screen",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6693501/snapchat-phone-screen-by-anonymous_user-jhj1/"
+    },
+    {
+      "title": "Most Stones Removed with Same Row or Column",
+      "url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+      "role": "Software Engineer (phone screen)",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/snapchat-software-engineer-interview-experience-two-bugs-no-time-and-a-rejection"
+    },
+    {
+      "title": "Count events inside a time window (HH:MM:SS, sort plus binary search)",
+      "url": "",
+      "role": "Software Engineer (onsite coding)",
+      "date": "2026-03",
+      "source_url": "https://prachub.com/interview-experiences/snapchat-software-engineer-interview-experience-failed-on-the-onsites-third-round"
+    },
+    {
+      "title": "Form a target string from double-sided cards (bipartite matching)",
+      "url": "",
+      "role": "Software Engineer (onsite coding)",
+      "date": "2026-03",
+      "source_url": "https://prachub.com/interview-experiences/snapchat-software-engineer-interview-experience-failed-on-the-onsites-third-round"
+    },
+    {
+      "title": "Merge N sorted lists with a min-heap",
+      "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+      "role": "Software Engineer (onsite coding)",
+      "date": "2026-03",
+      "source_url": "https://prachub.com/interview-experiences/snapchat-software-engineer-interview-experience-failed-on-the-onsites-third-round"
+    },
+    {
+      "title": "Image region with target sum in a 2D array",
+      "url": "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/",
+      "role": "L5 phone screen",
+      "date": "2025-01",
+      "source_url": "https://leetcode.com/discuss/post/6312888/snap-phone-screen-l5-reject-by-anonymous-ts8v/"
+    },
+    {
+      "title": "Implement sin(x) via Taylor series (termination and precision)",
+      "url": "",
+      "role": "Staff SWE phone screen",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7272258/snapusstaff-swe-phone-screen-interview-b-3obs/"
+    },
+    {
+      "title": "Do two sentences mean the same given synonym groups",
+      "url": "https://leetcode.com/problems/sentence-similarity-ii/",
+      "role": "ML Engineer coding",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6411204/snap-coding-questions-mle-role-by-anonym-7zrl/"
+    },
+    {
+      "title": "Probability of being at vertex k after s random steps on a tree",
+      "url": "https://leetcode.com/problems/frog-position-after-t-seconds/",
+      "role": "ML Engineer coding",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6411204/snap-coding-questions-mle-role-by-anonym-7zrl/"
+    },
+    {
+      "title": "Sum of the max element over all contiguous subarrays (mirror of Sum of Subarray Minimums, monotonic stack)",
+      "url": "https://leetcode.com/problems/sum-of-subarray-minimums/",
+      "role": "L5 MLE phone screen",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6764645/snap-l5-mle-phone-screen-by-anonymous_us-3mfi/"
+    },
+    {
+      "title": "Design a metrics system",
+      "url": "",
+      "role": "Software Engineer (onsite system design)",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-questions/design-a-metrics-system"
+    },
+    {
+      "title": "Design an Instagram Stories feature",
+      "url": "",
+      "role": "Software Engineer (technical screen, system design)",
+      "date": "2026-02",
+      "source_url": "https://prachub.com/interview-questions/design-an-instagram-stories-feature"
+    },
+    {
+      "title": "Design a news aggregator where sources have no RSS, so you poll source APIs",
+      "url": "",
+      "role": "Software Engineer (onsite system design)",
+      "date": "2026-03",
+      "source_url": "https://prachub.com/interview-experiences/snapchat-software-engineer-interview-experience-failed-on-the-onsites-third-round"
+    },
+    {
+      "title": "Design and implement a thread-safe LRU cache",
+      "url": "https://leetcode.com/problems/lru-cache/",
+      "role": "Senior Software Engineer (technical screen)",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/snapchat-senior-software-engineer-interview-experience-lru-cache-and-thread-safety"
+    }
+  ],
+  "focus_topics": [
+    "Graphs: connected components, union-find, BFS on grids",
+    "Binary search on the answer",
+    "Heaps and k-way merge",
+    "Prefix sums and 2D subarray sums",
+    "Monotonic stack (subarray min/max sums)",
+    "Hash maps and string matching",
+    "Product system design for experienced roles (stories, metrics, feeds, chat)"
+  ],
+  "tips": [
+    "Practice finishing a medium in 25 to 30 minutes with running code; reports stress speed and candidates who fixed bugs late were rejected.",
+    "Ask clarifying questions about input shape and whether every node appears in an edge before you code (a 2025 reject came from skipped clarifications plus an arithmetic slip).",
+    "Learn binary search on the answer: the rooms and seats problem appeared twice in late 2025.",
+    "Rehearse on HackerRank's editor so running and debugging there feels normal.",
+    "Prepare 6 to 8 stories in S.A.I.L. form and always end with what you learned.",
+    "Expect behavioral questions inside technical screens too; Snap scores values in every interview rather than in one dedicated behavioral round (interviewing.io).",
+    "Map stories to Kind (trust, empathy), Smart (decisions under ambiguity) and Creative (new ideas, learning).",
+    "Keep your camera on and do not use AI or notes unless the interviewer allows it (official policy).",
+    "Use Snapchat and Spectacles before the recruiter call so you can talk about the product."
+  ],
+  "compensation_note": "Levels.fyi (Oct 4, 2026, US): L3 Software Engineer (entry) median total comp $194K/yr (base $138K, stock $54.5K/yr, bonus $1.9K), range $180K to $218K+; L4 median $374K. Intern pay: Extern reports $50 to $68/hr plus housing stipend (secondary, not from a Snap posting).",
+  "sources": [
+    "https://careers.snap.com/",
+    "https://careers.snap.com/internships",
+    "https://careers.snap.com/how-we-interview",
+    "https://app.ripplematch.com/v2/public/company/snap-inc",
+    "https://www.levels.fyi/companies/snap/salaries/software-engineer",
+    "https://www.levels.fyi/companies/snap/salaries/software-engineer/levels/l3",
+    "https://interviewing.io/snap-interview-questions",
+    "https://www.extern.com/post/snap-internship-guide",
+    "https://prachub.com/companies/snapchat",
+    "https://prachub.com/interview-experiences/snapchat-software-engineer-interview-experience-two-bugs-no-time-and-a-rejection",
+    "https://prachub.com/coding-questions/solve-three-algorithmic-tasks",
+    "https://prachub.com/interview-questions/design-a-metrics-system",
+    "https://prachub.com/interview-questions/design-an-instagram-stories-feature",
+    "https://prachub.com/interview-questions/design-a-news-aggregator",
+    "https://prachub.com/interview-questions/design-and-implement-a-thread-safe-lru-cache",
+    "https://leetcode.com/discuss/post/7782615/snap-inc-coding-interview-by-sri_vaeshna-7z44/",
+    "https://leetcode.com/discuss/post/7291488/snap-inc-phone-screen-by-anonymous_user-gx23/",
+    "https://leetcode.com/discuss/post/7321324/snapchat-by-anonymous_user-td07/",
+    "https://leetcode.com/discuss/post/7272258/snapusstaff-swe-phone-screen-interview-b-3obs/",
+    "https://leetcode.com/discuss/post/6693501/snapchat-phone-screen-by-anonymous_user-jhj1/",
+    "https://leetcode.com/discuss/post/6312888/snap-phone-screen-l5-reject-by-anonymous-ts8v/",
+    "https://leetcode.com/discuss/post/6411204/snap-coding-questions-mle-role-by-anonym-7zrl/",
+    "https://leetcode.com/discuss/post/6764645/snap-l5-mle-phone-screen-by-anonymous_us-3mfi/",
+    "https://careers.snap.com/api/jobs",
+    "https://prachub.com/interview-experiences/snapchat-software-engineer-interview-experience-failed-on-the-onsites-third-round",
+    "https://prachub.com/interview-experiences/snapchat-senior-software-engineer-interview-experience-lru-cache-and-thread-safety"
+  ],
+  "confidence_notes": "Sparsest of the four companies for intern and new grad data. Re-verified Oct 4, 2026 (fact-check pass): Snap How We Interview page, careers.snap.com/internships (the emerging-talent URL redirects there), Snap's job feed, Levels.fyi, interviewing.io, Extern and every PracHub page. Corrections made: Snap's value competencies were mis-mapped (Snap lists Smart = Action Oriented, Decision Quality, Strategic Mind; Creative = Manages Ambiguity, Cultivates Innovation, Insatiable Learning); the 'three algorithmic tasks' onsite was a Mar 2026 interview spread across rounds, not an Apr 2026 single session; two PracHub items were Aug 2026, not Sep 2026. LeetCode Discuss URLs confirmed via LeetCode's public GraphQL API (HTML blocks bots). No 2025 to 2026 SWE intern or new grad experience post was found on LeetCode Discuss or PracHub, so new grad and intern stages are inferred from Snap's policy page, experienced-candidate reports and Extern (secondary; its 'SnapFest' final round, CoderPad claim, intern pay and acceptance rate are not confirmed by Snap). interviewing.io says there is no dedicated behavioral round and behavioral evaluation is spread across interviews; Snap's own page describes competency-based questions in S.A.I.L. form. Whether new grads get system design is unconfirmed. Snap's main job feed had no SWE intern or new grad posting on Oct 4, 2026; RippleMatch renders client-side so its role list could not be read."
+}

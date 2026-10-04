@@ -1,0 +1,271 @@
+{
+  "slug": "cloudflare",
+  "name": "Cloudflare",
+  "category": "Big Tech",
+  "one_liner": "Global network for security, performance and the Workers developer platform; interviews favor practical pair programming, real-world system design and a values-based Orange Cloud round.",
+  "careers_url": "https://www.cloudflare.com/careers/",
+  "students_url": "https://www.cloudflare.com/careers/early-talent/",
+  "interview_prep_url": "https://www.cloudflare.com/careers/",
+  "levels": {
+    "intern": "Software Engineer Intern (2027), Austin: Winter/Spring (Jan to May 2027) or Summer (May to Sep 2027), 12 to 14 weeks, full time 40 hrs/week, in office 3 to 5 days, no remote or part-time. The 2026 cycle also hired in NYC, SF, Bengaluru, Lisbon and London; other intern titles seen include Data Engineer intern and System Software Engineer intern.",
+    "new_grad": "Entry level is L1 on Levels.fyi (median TC USD 144K). Cloudflare does not publish level names; titles seen include Software Engineer and Systems Engineer.",
+    "early_career": "L1 to L2 on Levels.fyi (Levels.fyi says L1 holders typically have 1 to 2 yrs; L2 median 166K). L3 median TC USD 209K (L3 submitters average about 6 to 7 yrs)."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Recruiter or hiring manager screen",
+      "details": "30 min with a recruiter or the hiring manager (official step 1 is 'Initial Conversations' with a recruiter; in Dec 2025 and Bengaluru 2025 reports the first round was a 30 min HM call). Resume walkthrough and fit. Reported questions: why Cloudflare, which Cloudflare products you have used, a recent project in technical depth, production code you shipped, code review experience and conflicts in code review, how you debug production issues."
+    },
+    {
+      "stage": "Technical phone screen (TPS)",
+      "details": "45 to 60 min live pair programming. Varies by team: a JavaScript task to solve without loops plus an extension (8 yrs exp, Bengaluru, Dec 2025), a minimum-partitions greedy problem (mid-level, May 2025), 3Sum extended to 4Sum (4 yrs exp, Jul 2024 loop posted Feb 2025). A Dec 2025 HM described the technical round as one hour of pair coding on debugging and problem solving, not necessarily a classic algorithm question. Often a base problem plus an extension."
+    },
+    {
+      "stage": "Panel interviews (team panel)",
+      "details": "Official step 2 'Team Panel Interviews' with your prospective manager and peers. Reports: 3 to 4 virtual rounds; one candidate was asked for 10 days of availability right after passing the TPS. Mix of: practical coding (hit counter, rate limiter, task scheduler, key-value store, Battleship-style game), app coding in a prepared repo (React + TypeScript, 4 tasks in 60 min for frontend roles), system design (often a deep dive on a project from your resume, or an edge-to-core log pipeline), project retrospective, debugging / code review, and sometimes a PM conversation."
+    },
+    {
+      "stage": "Orange Cloud interview",
+      "details": "30 min behavioral on the behaviors Cloudflare values (the official careers page places the Orange Cloud Interview inside step 3, Executive Calls). Questions on mistakes, learning outside work, fun or challenging situations."
+    },
+    {
+      "stage": "Executive calls and in-person step",
+      "details": "Senior leadership conversation on vision and values; some loops add a C-suite or co-founder call. 2027 intern posting: applicants who reach the offer stage may be asked to attend an in-person interview at a Cloudflare office or hub."
+    },
+    {
+      "stage": "Offer",
+      "details": "Official careers page: Cloudflare says it moves quickly once it finds the right person."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Application",
+      "details": "Apply on the Early Talent job board (cloudflare.com/careers/jobs/?department=Early+Talent). For the 2026 cycle Cloudflare announced a goal of 1,111 interns across Austin, NYC, SF, Bengaluru, Lisbon and London, said it would post more 2026 roles from Oct 15, 2025 and review applications in batches. It also said it would fast-track review of Software Engineering intern applicants who build an AI-powered application on Cloudflare and submit it with the application (the blog links to agents.cloudflare.com). The 2027 Austin SWE intern posting went live Sep 16, 2026 and hires on a rolling basis."
+    },
+    {
+      "stage": "Screen",
+      "details": "US (Nov 2025 report): 30 min hiring manager call, resume plus behavioral; no OA. Canada (Nov 2025 report): HackerRank technical screen first."
+    },
+    {
+      "stage": "Technical round",
+      "details": "US: 1 hr backend pair programming, build a simple task scheduler, then discuss how to scale it, handle disconnections and keep metadata fresh (rounds 2 weeks apart). Canada: live LeetCode-style coding with an engineer, explaining your thinking. A Data Engineer intern candidate (Feb 2026 post) was scheduled for a 1 hr technical round and did not know whether it would be SQL, DSA or design."
+    },
+    {
+      "stage": "Timeline and final step",
+      "details": "Cloudflare's Sep 2025 blog says its intern interview process takes 3 to 4 weeks and internships generally last 12 weeks. Offer-stage candidates may be asked for an in-person interview at an office or hub (2027 posting)."
+    }
+  ],
+  "process_experienced_notes": "1 to 3 yrs and mid-level loops look like the full-time loop above and lean harder on system design: a 2025 mid-level candidate passed coding (Design Hit Counter) but got a no-hire on system design (move logs from edge data centers in NYC, LA, SEA to a core DC with 1 min avg / 15 min max latency, encryption at rest and in transit, on-prem with no AWS/GCP) and was rejected. The project retrospective round marks you down if you cannot show scale. Senior India loops (Mar 2026) added a 90 min code review / debugging round, a senior leadership round entirely about how you use GenAI and coding agents, and a C-suite round. Expect more conversations than a FAANG loop (one Austin 2026 loop had HM, coding, Orange Cloud, debugging, system design, PM, second HM with AI-assisted coding, exec call, office tour).",
+  "timeline": "Intern: interview process takes 3 to 4 weeks (Cloudflare blog, Sep 2025), batch review, 2026-cycle postings from Oct 15, 2025, 2027 Austin posting live from Sep 16, 2026. Full time: PracHub guide reports about 5 rounds over 4 to 6 weeks; individual reports range from a 2 month wait before the first screen (applied mid-Sep, first round early Dec 2025) to applying in July and starting rounds in October (Bengaluru 2025). Some loops paused mid-process for role re-evaluation (Austin 2026). Scheduling the final C-suite call can take about 2 weeks (Mar 2026 report).",
+  "oa": {
+    "platform": "HackerRank (only some tracks)",
+    "format": "Not standardized. Canada SWE intern (Nov 2025): HackerRank technical screen before live coding. US SWE intern (Nov 2025): no OA, HM call then pair programming. Full-time: usually a live TPS instead of an OA.",
+    "notes": "PracHub guide notes some environments make you parse stdin and format output yourself (HackerRank style); ask the recruiter about format and language."
+  },
+  "coding": {
+    "rounds": "1 TPS + 1 to 2 coding rounds in the panel (plus app coding for frontend roles).",
+    "style": "Practical and infrastructure-flavored more than puzzle-style: rate limiter (global, per path, per user, per tenant), Design Hit Counter, Design Circular Queue, LRU cache, task scheduler, encrypted key-value store, log parsing; some LeetCode medium (3Sum, 4Sum). Execution speed matters.",
+    "environment": "Live pair programming; app rounds run in your local setup (install npm, nvm, React beforehand) with a provided repo. Google and docs allowed. AI policy varies by team: not allowed in a Dec 2025 React round; allowed with interviewer OK for crypto helpers in an Oct 2025 KV-store round; an Austin 2026 loop included an AI-assisted bug-fix round in an unfamiliar project.",
+    "graded_on": "Working, complete code within time, handling extensions, scaling discussion (disconnections, state, freshness), communication, and judgment on trade-offs."
+  },
+  "system_design": "Interns: a scaling discussion attached to the pair-programming task (how to scale the scheduler, handle disconnections). New grad / early career: may get a design round that is a deep dive on your own resume project. Mid-level and up: full system design round. Reported topics: edge-to-core encrypted log collection with SLAs, on-prem; rule-based rate limiting gateway; distributed system that pings HTTP endpoints on a schedule; batch pipeline that summarizes support tickets with a third-party LLM plus rate limiting; Design Twitter; global caching. PracHub guide also lists networking fundamentals (DNS, TCP vs UDP, TLS, 429 vs 500).",
+  "behavioral": {
+    "framework": "Orange Cloud Interview, scored against Cloudflare's capabilities (values)",
+    "values_url": "https://www.cloudflare.com/careers/",
+    "what_they_look_for": [
+      "Be curious to learn and grow",
+      "Communicate clearly and transparently",
+      "Do the right thing",
+      "Embrace diversity",
+      "Get your work across the finish line",
+      "Lead with empathy",
+      "Company values on the careers page: Principled, Curious, Transparent",
+      "AI-native curiosity: spotting a 'normalized' problem and building a fix with current tools (2027 intern posting)",
+      "Genuine use of Cloudflare products"
+    ],
+    "sample_questions": [
+      "Tell me about a mistake you made and what you learned",
+      "Tell me about something you learned outside of work",
+      "Describe a fun or challenging situation in your career",
+      "Why Cloudflare?",
+      "Which Cloudflare products have you used?",
+      "How do you resolve conflicts during code reviews?",
+      "Walk me through how you debug a production issue",
+      "How do you use GenAI or coding agents day to day, and where do they fall short? (senior leadership round, 2026)"
+    ]
+  },
+  "non_leetcode_formats": "Practical app coding in a prepared repo (React + TypeScript, mock UI and API, 4 tasks in 60 min); project retrospective (architecture deep dive judged on scale); debugging and code review round (review a snippet, then debug distributed performance); PM conversation; executive and co-founder calls; AI-assisted bug fixing in an unfamiliar codebase; language-specific TPS (JavaScript without loops). Intern fast track announced for the 2026 cycle: build an AI-powered application on Cloudflare and submit it with the application.",
+  "reported_questions": [
+    {
+      "title": "Build a simple task scheduler, then discuss scaling, handling disconnections and keeping metadata fresh",
+      "url": "",
+      "role": "Software Engineer Intern (US), 1 hr backend pair programming",
+      "date": "2025-11",
+      "source_url": "https://www.jointaro.com/interviews/companies/cloudflare/experiences/software-engineer-intern-united-states-november-1-2025-no-offer-positive-7f5a5a91/"
+    },
+    {
+      "title": "LeetCode-style live coding after a HackerRank screen; past experience questions",
+      "url": "",
+      "role": "Software Engineer Intern (Canada)",
+      "date": "2025-11",
+      "source_url": "https://www.jointaro.com/interviews/companies/cloudflare/experiences/software-engineer-intern-canada-november-4-2025-no-offer-neutral-c08de38c/"
+    },
+    {
+      "title": "Minimum number of partitions to hold all used data when data can be moved in chunks (sort capacities descending, greedy)",
+      "url": "",
+      "role": "Software Engineer (mid-level), phone screen",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6796944/cloudflare-software-engineer-interview-o-yju9/"
+    },
+    {
+      "title": "Design Hit Counter with follow-ups",
+      "url": "https://leetcode.com/problems/design-hit-counter/",
+      "role": "Software Engineer (mid-level), onsite coding",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6796944/cloudflare-software-engineer-interview-o-yju9/"
+    },
+    {
+      "title": "System design: transport logs from edge data centers (NYC, LA, SEA) to a core DC, queryable centrally, 1 min avg SLA, encryption, highly available, on-prem only",
+      "url": "",
+      "role": "Software Engineer (mid-level), onsite system design",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6796944/cloudflare-software-engineer-interview-o-yju9/"
+    },
+    {
+      "title": "Project retrospective: deep dive on the architecture of a project you worked on",
+      "url": "",
+      "role": "Software Engineer (mid-level), onsite",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6796944/cloudflare-software-engineer-interview-o-yju9/"
+    },
+    {
+      "title": "JavaScript TPS: solve a basic coding task without using loops, plus an extension",
+      "url": "",
+      "role": "Software Engineer (Fullstack, frontend heavy, 8 yrs exp), Bengaluru",
+      "date": "2025-12",
+      "source_url": "https://leetcode.com/discuss/post/7396827/cloudflare-interview-experience-software-2775/"
+    },
+    {
+      "title": "React + TypeScript app round: implement 4 frontend tasks in a provided repo with mock UI and API in 60 min (Google allowed, AI not allowed)",
+      "url": "",
+      "role": "Software Engineer (Fullstack, frontend heavy, 8 yrs exp), Bengaluru",
+      "date": "2025-12",
+      "source_url": "https://leetcode.com/discuss/post/7396827/cloudflare-interview-experience-software-2775/"
+    },
+    {
+      "title": "Orange Cloud: a mistake you made and what you learned; something learned outside work",
+      "url": "",
+      "role": "Software Engineer (8 yrs exp), Bengaluru",
+      "date": "2025-12",
+      "source_url": "https://leetcode.com/discuss/post/7396827/cloudflare-interview-experience-software-2775/"
+    },
+    {
+      "title": "First-round hiring manager call: why Cloudflare, experience with Cloudflare products, a recent project and its technical details, production code contributions, code reviews and resolving review conflicts, debugging methodology",
+      "url": "",
+      "role": "Software Engineer, first-round HM call (applied Sep 2025)",
+      "date": "2025-12",
+      "source_url": "https://prachub.com/interview-experiences/cloudflare-software-engineer-interview-experience-two-month-wait-then-advanced-to-technical-the-same-night"
+    },
+    {
+      "title": "Design an encrypted key-value store with user login, password-based encryption and pluggable hash / encrypt interfaces",
+      "url": "",
+      "role": "Software Engineer, technical screen",
+      "date": "2025-10",
+      "source_url": "https://prachub.com/interview-experiences/cloudflare-software-engineer-interview-experience-hm-chat-hr-screen-then-a-key-value-store-round-where-ai-wrote-my-crypto"
+    },
+    {
+      "title": "Implement a rule-based rate limiter (rule matching, time-windowed quotas, high-cardinality keys)",
+      "url": "",
+      "role": "Software Engineer, onsite",
+      "date": "2026-01",
+      "source_url": "https://prachub.com/coding-questions/implement-a-rule-based-rate-limiter"
+    },
+    {
+      "title": "Design an encrypted log collection system across edge data centers",
+      "url": "",
+      "role": "Software Engineer, onsite system design",
+      "date": "2026-01",
+      "source_url": "https://prachub.com/interview-questions/design-an-encrypted-log-collection-system"
+    },
+    {
+      "title": "isRateLimited(ip, method, path, userId, tenantId): global limit, then per path, user + path, user + path + tenant (2024 loop, posted 2025)",
+      "url": "",
+      "role": "Software Engineer (4 yrs, remote US), coding round",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6396271/cloudflare-interview-experience-by-datin-4mlo/"
+    },
+    {
+      "title": "3Sum extended to 4Sum (TPS, 2024 loop, posted 2025)",
+      "url": "https://leetcode.com/problems/4sum/",
+      "role": "Software Engineer (4 yrs, remote US), TPS",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6396271/cloudflare-interview-experience-by-datin-4mlo/"
+    },
+    {
+      "title": "Battleship-style game live coding; later an AI-assisted bug-fix task in an unfamiliar project",
+      "url": "",
+      "role": "Software Engineer, Austin",
+      "date": "2026-04",
+      "source_url": "https://prachub.com/interview-experiences/cloudflare-software-engineer-interview-with-battleship-coding-and-austin-office-tour-3f1fddb771"
+    },
+    {
+      "title": "90 min round: design a batch system that ingests support tickets and summarizes them with a third-party LLM, plus rate-limiting pseudocode; 60 min: distributed system to ping HTTP endpoints on a schedule",
+      "url": "",
+      "role": "Senior Software Engineer (4 yrs exp), Bangalore, onsite",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7901539/cloudflare-sse-bangalore-march-2026-by-a-inmh/"
+    }
+  ],
+  "focus_topics": [
+    "Rate limiting (fixed window, sliding window, token bucket) and per-key state",
+    "Design Hit Counter, Logger Rate Limiter, Design Circular Queue, LRU Cache",
+    "Queues, schedulers and concurrency basics",
+    "Distributed systems: log pipelines, edge vs core, replication, encryption at rest and in transit",
+    "Networking fundamentals: DNS, HTTP status codes, TCP vs UDP, TLS",
+    "Practical coding speed in your strongest language (Go, Rust, TypeScript, Python, C++ are Cloudflare stack languages)",
+    "React + TypeScript for frontend or full-stack roles",
+    "Cloudflare Workers and the developer platform"
+  ],
+  "tips": [
+    "Build and ship something on Cloudflare Workers or the Agents SDK before you apply; for the 2026 intern cycle Cloudflare said it would fast-track SWE applicants who submit an AI-powered app built on Cloudflare, and intern postings list developer-platform experience as a bonus.",
+    "If you are a US student (18+) with a .edu email, use Cloudflare for Students: the USD 5/month Workers Paid fee is waived for 12 months (a card on file is required).",
+    "Prepare to name Cloudflare products you have used and why; recruiters ask this in the first screen.",
+    "Write 5 to 6 Orange Cloud stories mapped to the six capabilities (curiosity, clear communication, doing the right thing, diversity, finishing work, empathy).",
+    "Train for speed on practical tasks: one 2025 candidate finished 2 of 4 app tasks and was rejected despite a strong design round.",
+    "Practice system design without managed cloud services; one interviewer required an on-prem design with no AWS or GCP.",
+    "Apply in the first batch: 2026-cycle intern postings opened Oct 15, 2025 and the 2027 Austin SWE intern posting has been live since Sep 16, 2026.",
+    "Plan for an in-person interview at an office or hub if you reach the offer stage."
+  ],
+  "compensation_note": "Levels.fyi (US, page updated Oct 4, 2026): L1 entry median total comp USD 144K (base 130K, stock 13.8K/yr), L2 USD 166K, L3 USD 209K; Levels.fyi shows RSUs vesting 25% after year 1, then quarterly over the remaining 3 years. Interns: Cloudflare says intern pay is generally akin to the prorated salary of an entry-level position, plus a travel and housing stipend if you relocate (blog, Sep 2025). The 2027 Austin intern posting lists no pay range. India: a Mar 2026 SSE (4 yrs exp) Bangalore candidate was quoted INR 60 lakh base plus USD 80K RSUs over 4 years, about INR 79 lakh first-year comp.",
+  "sources": [
+    "https://www.cloudflare.com/careers/",
+    "https://www.cloudflare.com/careers/early-talent/",
+    "https://www.cloudflare.com/careers/jobs/?department=Early+Talent",
+    "https://www.cloudflare.com/careers/life-at-cloudflare/",
+    "https://blog.cloudflare.com/cloudflare-1111-intern-program/",
+    "https://blog.cloudflare.com/tag/internship-experience/",
+    "https://agents.cloudflare.com/",
+    "https://www.cloudflare.com/students/",
+    "https://job-boards.greenhouse.io/cloudflare/jobs/8199958",
+    "https://www.levels.fyi/companies/cloudflare/salaries/software-engineer",
+    "https://prachub.com/companies/cloudflare",
+    "https://prachub.com/interview-guide/cloudflare-software-engineer-interview-questions-guide-2026",
+    "https://prachub.com/interview-experiences/cloudflare-software-engineer-interview-experience-two-month-wait-then-advanced-to-technical-the-same-night",
+    "https://prachub.com/interview-experiences/cloudflare-software-engineer-interview-experience-hm-chat-hr-screen-then-a-key-value-store-round-where-ai-wrote-my-crypto",
+    "https://prachub.com/interview-experiences/cloudflare-software-engineer-interview-with-battleship-coding-and-austin-office-tour-3f1fddb771",
+    "https://prachub.com/coding-questions/implement-a-rule-based-rate-limiter",
+    "https://prachub.com/interview-questions/design-an-encrypted-log-collection-system",
+    "https://www.jointaro.com/interviews/companies/cloudflare/experiences/software-engineer-intern-united-states-november-1-2025-no-offer-positive-7f5a5a91/",
+    "https://www.jointaro.com/interviews/companies/cloudflare/experiences/software-engineer-intern-canada-november-4-2025-no-offer-neutral-c08de38c/",
+    "https://www.1point3acres.com/interview/company/cloudflare",
+    "https://leetcode.com/discuss/post/6796944/cloudflare-software-engineer-interview-o-yju9/",
+    "https://leetcode.com/discuss/post/7396827/cloudflare-interview-experience-software-2775/",
+    "https://leetcode.com/discuss/post/7901539/cloudflare-sse-bangalore-march-2026-by-a-inmh/",
+    "https://leetcode.com/discuss/post/6396271/cloudflare-interview-experience-by-datin-4mlo/",
+    "https://leetcode.com/discuss/post/7566947/cloudflare-data-engineer-intern-summer-2-dj39/",
+    "https://leetcode.com/discuss/post/7311662/cloudflare-system-engineer-expecting-an-sce98/",
+    "https://github.com/liquidslr/leetcode-company-wise-problems/tree/main/Cloudflare",
+    "https://github.com/snehasishroy/leetcode-companywise-interview-questions/tree/master/cloudflare"
+  ],
+  "confidence_notes": "Cloudflare publishes a generic 5-step hiring process but no separate new grad loop, so new grad details are inferred from intern and early-career full-time reports. Intern loops differ by country (US: HM call + pair programming, no OA; Canada: HackerRank first). Free sources have few 2025 to 2026 intern question details; 1point3acres lists 2025 to 2026 intern thread titles (SDE Intern tech phone screen Jun 2025, SWE Intern HR screen Dec 2025, SWE Intern Austin Jan 2026, System Software Engineer Intern follow-up Feb 2026); thread content is gated and curl gets HTTP 403, so titles were read with WebFetch on Oct 4, 2026. AI policy differs by team and round. The 1,111-intern goal and the AI-app fast track were announced for the 2026 cycle (the blog says 'an AI-powered application on Cloudflare' and links to agents.cloudflare.com; it does not name the Agents SDK); the 2027 Austin posting does not repeat the fast track, so confirm before relying on it. The 2027 posting also says offers may depend on authorization to receive US export-controlled technology without an export license, which can matter for some nationalities. Levels.fyi level names (L1 to L4) are crowdsourced, not official. interview_prep_url points to the careers page because its hiring-process section is the only official process description. Company-tagged LeetCode lists (Design Circular Queue, Reaching Points, Design a Stack With Increment Operation, 3Sum, 4Sum, LRU Cache, Design Hit Counter, Logger Rate Limiter) are frequency data, not dated reports. Verification (Oct 4, 2026): every URL in sources was fetched and confirmed [VERIFIED]; LeetCode Discuss posts were read through LeetCode GraphQL API because their HTML returns 403 to scripts. Source notes: https://www.cloudflare.com/careers/ (six capabilities and 5-step hiring process incl. Orange Cloud Interview); https://www.cloudflare.com/careers/life-at-cloudflare/ (loads); https://blog.cloudflare.com/cloudflare-1111-intern-program/ (Sep 22, 2025, Dane Knecht); https://blog.cloudflare.com/tag/internship-experience/ (loads); https://agents.cloudflare.com/ (loads); https://www.cloudflare.com/students/ (Cloudflare for Students); https://job-boards.greenhouse.io/cloudflare/jobs/8199958 (Software Engineer Intern (2027) Austin, first published Sep 16, 2026); https://www.1point3acres.com/interview/company/cloudflare (thread titles only, details paywalled); https://github.com/liquidslr/leetcode-company-wise-problems/tree/main/Cloudflare (repo 31,048 stars, last push 2026-08-16); https://github.com/snehasishroy/leetcode-companywise-interview-questions/tree/master/cloudflare (repo 8,233 stars, last push 2026-08-21). Fact-check pass (Oct 4, 2026): all URLs re-fetched (HTTP 200 except 1point3acres, read via WebFetch; LeetCode posts and problem slugs re-checked through the GraphQL API). Corrected: the Dec 2025 PracHub first round was a hiring manager call (not HR); the rate limiter question page was published Jan 22, 2026 (Jun 2026 was its last update); RSU vesting is 1-year cliff then quarterly; the Orange Cloud Interview sits inside the official Executive Calls step; the '10 days' figure is availability requested, not a scheduling guarantee; experience levels added to roles (several 'new grad' process details come from 4 to 8 yrs candidates). Process cross-checked against the official careers page, the PracHub 2026 guide, Taro intern reports and 2025 to 2026 LeetCode Discuss posts."
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "roblox",
+  "name": "Roblox",
+  "category": "High-growth tech",
+  "one_liner": "3D social gaming and creation platform. Early career starts with game-based assessments plus CodeSignal coding; loops use gaming-flavored coding and design, with LLM use banned.",
+  "careers_url": "https://careers.roblox.com/",
+  "students_url": "https://careers.roblox.com/early-career",
+  "interview_prep_url": "https://careers.roblox.com/interviewing-at-roblox",
+  "levels": {
+    "intern": "Software Engineer Intern ([Summer 2027] posting, 12 weeks, San Mateo, CA); open to all class standings from underclassmen to Master's; separate PhD internships",
+    "new_grad": "IC1 ([2027] Software Engineer, Early Career), entry level on Levels.fyi, typical 0 to 1 yrs",
+    "early_career": "IC1 for 0 to 1 yrs; IC2 for roughly 2 to 3 yrs (Levels.fyi typical YOE); IC3 is Senior"
+  },
+  "process_new_grad": [
+    {
+      "stage": "Apply",
+      "details": "[2027] Software Engineer, Early Career posting (San Mateo; onsite Tue to Thu). Roblox lets you redact age, date of birth and graduation dates from your resume."
+    },
+    {
+      "stage": "Roblox assessment (first interview)",
+      "details": "Sent to early-career applicants. Three parts you can take at once or over a week: problem-solving games built on Roblox (Robots, Factory, Outpost: Mars), a decision-making situational test (Aug 2026 report: 23 workplace scenarios, pick most and least effective), and a coding evaluation plus algorithmic reasoning (Aug 2026 report: CodeSignal, 2 problems in 50 min, unproctored). Practice games Kaiju Cats and Coding Cookies are untimed. Results in a few weeks after calibration."
+    },
+    {
+      "stage": "Virtual onsite / superday",
+      "details": "Sep 2026 early-career onsite: two coding interviews (counting valid hat assignments and maximizing points; a Candy Crush simulation). Jul 2026 report: superday with several LeetCode medium-to-hard questions and behavioral questions that require specific, not generic, answers. Roblox offers Speak_ courses covering the virtual onsite stages; more than half of last year's early-career hires used it."
+    },
+    {
+      "stage": "Team matching and offer",
+      "details": "You learn about teams (Infra, Engine, Search and Discovery, Foundational AI, Economy), chat with engineering managers, rank preferences, and are matched a few weeks before your start date (official FAQ)."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Apply",
+      "details": "[Summer 2027] Software Engineer Intern, San Mateo, $62/hr. Internships are open to all class levels."
+    },
+    {
+      "stage": "Roblox assessment",
+      "details": "Same assessment as new grad. Oct 2025 intern report: four tasks (two problem-solving games, one decision-making test, two LeetCode-style questions). A first-year candidate solved both coding questions in under 10 min and was still rejected, so the games and situational test matter."
+    },
+    {
+      "stage": "Early Careers virtual interview",
+      "details": "Virtual technical interviews follow the assessment (Aug 2025 post); format mirrors the new grad onsite: coding on CodeSignal with an interviewer, plus behavioral."
+    },
+    {
+      "stage": "Team matching",
+      "details": "Interns rank team preferences and are matched a few weeks before day one."
+    }
+  ],
+  "process_experienced_notes": "Official experienced process has five parts: recruiter fit and interest call, hiring manager interview (experience, technical breadth and depth, project management, leadership, agility, motivation), technical assessment (either coding or system design, on CodeSignal), onsite (deeper hiring manager conversation, the other technical assessment, a Project Deep Dive only for Machine Learning or Senior Engineering Manager candidates), and a final leadership interview on Vision and Values. Reports from 2025 to 2026 add a 'creativity' round for IC3 (classic elevator design), engine-team system design (resource loader, pub/sub), and gaming-twist system design (likes, favorites, matchmaking, notification center, scheduled payments, image feed) probed hard on scale. interviewing.io calls the extra round a bar raiser testing creativity and values.",
+  "timeline": "interviewing.io estimates 6 to 8 weeks for experienced hires, with onsites split over 1 to 2 weeks. Early career: assessment can be paced over a week, and Roblox replies within a few weeks after calibrating results; Summer 2027 intern and 2027 early-career postings went live in August 2026 (Jugal's Summer 2027 list). Team matching happens close to the start date.",
+  "oa": {
+    "platform": "Roblox custom game-based assessment plus CodeSignal coding",
+    "format": "Problem-solving games built on Roblox (Robots, Factory, Outpost: Mars), situational decision-making questions (about 23 reported), and a coding section (2 problems in about 50 min reported Aug 2026) with an algorithmic reasoning section. Can be completed in one sitting or over a week; extensions available by ticket.",
+    "notes": "Practice games: Kaiju Cats (mirrors Robots and Factories) and Coding Cookies (block-coding interface used in Outpost: Mars). In Outpost: Mars, only functions packaged during the testing phase can be called later. Do not treat the games as a formality."
+  },
+  "coding": {
+    "rounds": "Early career: 2 coding interviews in the virtual onsite; experienced: 1 technical screen plus 1 to 2 onsite coding rounds",
+    "style": "LeetCode medium to hard with real-world or game framing and long specs: topological load order for avatar parts, sliding-window rate limiter, most frequent call stack from logs, grid simulation (Candy Crush style), hat assignments with bitmask DP, prefix-ranked query suggestions. Lots of engineering detail; candidates say interviewers like a clean first-pass solution over long debugging.",
+    "environment": "CodeSignal (interviewer shares the link over Zoom or in person). LLMs are prohibited and using them disqualifies you; looking up syntax or standard library calls is allowed if you ask first. Use one language throughout.",
+    "graded_on": "Official: communication, problem-solving (comparing solutions, right data structures, complexity, optimization), curiosity (clarifying questions), keeping it real (real-world risks and edge cases), product knowledge; plus testing your code, defensive programming and readable, idiomatic code. Near-optimal and implemented beats optimal and unfinished."
+  },
+  "system_design": "Official guidance: system design usually comes in later stages with the broader team but can appear in the technical assessment; example question 'Design a system to let people pay other people using phone numbers as unique identifiers'. Graded on clarification, understanding operational requirements, endpoint and request/response design, contention handling, clusters and load balancers, scale, debugging and monitoring. New grads mainly face coding; design is core from IC2 up. Reported prompts: matchmaking service grouping players of similar skill into groups of 16 (500k concurrent players), like or favorites counters at Roblox scale, real-time shared to-do list, in-app notification center, scheduled payments, resource loader with disk and CDN, image feed. Some loops get low-level design: a bump allocator and a multithreaded ResourceLoader (Apr 2025 full loop), and a multi-type resource loader plus a ROS-like pub/sub for an engine-team role (Sep 2025).",
+  "behavioral": {
+    "framework": "Roblox values: Take the Long View, Get Stuff Done, Respect the Community, We Are Responsible. Official answer structure: Situation, Approach, Action, Outcome, Learnings.",
+    "values_url": "https://about.roblox.com/values",
+    "what_they_look_for": [
+      "Specific actions and outcomes rather than generic stories (behavioral rounds described as genuinely difficult)",
+      "Ownership of intended and unintended consequences (We Are Responsible)",
+      "Bias to execute and iterate (Get Stuff Done)",
+      "Long-term thinking even in short-term decisions",
+      "Safety, civility and community impact",
+      "Familiarity with the Roblox product: make an account and play before interviewing",
+      "Experience with high-traffic, high-scale systems (emphasized for experienced hires)"
+    ],
+    "sample_questions": [
+      "Give critical feedback, resolve a team conflict, and course-correct after missing a metric (Sep 2025 report)",
+      "A non-fatal bug is found right before launch: what do you do? (situational test, Aug 2026)",
+      "An upstream team you depend on is late: how do you respond? (situational test, Aug 2026)",
+      "Tell me about difficult feedback or a disagreement with your manager",
+      "What excites you about Roblox and how do you want to grow?",
+      "Final round: how your career goals align with Roblox's long-term vision, and how you handle setbacks"
+    ]
+  },
+  "non_leetcode_formats": "Game-based cognitive assessments built on Roblox (Robots, Factory, Outpost: Mars), situational judgment test, creativity or bar-raiser round (design an elevator, improve an everyday system, often with a gaming twist), Vision and Values leadership round, Project Deep Dive for Machine Learning and Senior Engineering Manager candidates (official), vanilla HTML/CSS/JS exercises with no framework (six hold-to-play piano keys in an Aug 2026 senior frontend phone screen; an auto-rotating traffic light tagged as a SWE onsite question on PracHub, Oct 2026).",
+  "reported_questions": [
+    {
+      "title": "OA: lasers wipe out rows and columns; from the start cell, find the max safe straight-line steps in any direction",
+      "url": "",
+      "role": "2027 Intern / New Grad (OA)",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-2027-intern-new-grad-oa-games-and-coding"
+    },
+    {
+      "title": "OA: file uploaded as chunks [start, end]; after each chunk return merged consecutive byte ranges (merge intervals variant)",
+      "url": "https://leetcode.com/problems/merge-intervals/",
+      "role": "2027 Intern / New Grad (OA)",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-2027-intern-new-grad-oa-games-and-coding"
+    },
+    {
+      "title": "Count valid one-hat-per-person assignments, then maximize total hat points (bitmask DP or backtracking)",
+      "url": "https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/",
+      "role": "Early Career SWE (virtual onsite)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-hat-assignments-in-an-early-career-onsite"
+    },
+    {
+      "title": "Candy Crush style grid crush and gravity simulation",
+      "url": "https://leetcode.com/problems/candy-crush/",
+      "role": "Early Career SWE (virtual onsite)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-hat-assignments-in-an-early-career-onsite"
+    },
+    {
+      "title": "Avatar component load order: topological sort that preserves input order; return 'Error!' on cycles or missing dependencies",
+      "url": "https://leetcode.com/problems/course-schedule-ii/",
+      "role": "SWE (phone screen)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7291497/roblox-phone-screen-by-anonymous_user-ygme/"
+    },
+    {
+      "title": "Design a matchmaking service that groups queued players by skill into groups of 16 and allocates a game server (500k concurrent players)",
+      "url": "",
+      "role": "SWE (system design)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7291528/roblox-system-design-by-anonymous_user-guid/"
+    },
+    {
+      "title": "Sliding-window rate limiter: for sorted request timestamps, window length and max requests, return allow or deny per request",
+      "url": "",
+      "role": "SWE",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7342270/roblox-by-anonymous_user-0ay3/"
+    },
+    {
+      "title": "Remove every string that has a shorter prefix present in the list",
+      "url": "https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/",
+      "role": "SWE (phone screen)",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6679228/roblox-interview-feedback-by-bhutani92-fajq/"
+    },
+    {
+      "title": "Design a bump allocator; randomly split an array into numSegments with left-justified sizes; design a ResourceLoader from disk or CDN with in-memory caching",
+      "url": "",
+      "role": "SWE (full loop)",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6679228/roblox-interview-feedback-by-bhutani92-fajq/"
+    },
+    {
+      "title": "Given a call-stack log, find the most frequently called function or stack (many edge cases)",
+      "url": "",
+      "role": "IC3 SWE (coding)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7606878/roblox-ic3-interview-passed-recruiter-sa-kxqs/"
+    },
+    {
+      "title": "Design a like/unlike system at Roblox scale; creativity round: the classic elevator design",
+      "url": "",
+      "role": "IC3 SWE (onsite)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7606878/roblox-ic3-interview-passed-recruiter-sa-kxqs/"
+    },
+    {
+      "title": "Digit grid: report horizontal or vertical runs of 3 or more, then remove them and let digits fall (fill with 0)",
+      "url": "https://leetcode.com/problems/candy-crush/",
+      "role": "SWE, engine team (phone screen)",
+      "date": "2025-09",
+      "source_url": "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-digit-grid-phone-screen-then-resource-loader-and-pub-sub-system-design-onsite"
+    },
+    {
+      "title": "Rank query suggestions for each prefix by frequency, ties by earliest timestamp (trie plus heap)",
+      "url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+      "role": "SWE (technical screen)",
+      "date": "2025-10",
+      "source_url": "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-one-technical-screen-a-rare-trie-heap-question-no-offer"
+    },
+    {
+      "title": "Design a real-time shared to-do list (durable edits, real-time sync, conflict handling)",
+      "url": "",
+      "role": "SWE (technical screen)",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-a-shared-to-do-list-design-and-a-kafka-mistake"
+    },
+    {
+      "title": "Simulate a robot path and detect whether it stays bounded",
+      "url": "https://leetcode.com/problems/robot-bounded-in-circle/",
+      "role": "SWE (onsite)",
+      "date": "2025-09",
+      "source_url": "https://prachub.com/coding-questions/simulate-robot-path-and-detect-boundedness"
+    },
+    {
+      "title": "Like counter service with read-your-own-writes and approximate counts",
+      "url": "",
+      "role": "ICT5 Principal (system design)",
+      "date": "2025-07",
+      "source_url": "https://leetcode.com/discuss/post/7022164/roblox-ict5-principal-oa-by-anonymous_us-izj1/"
+    },
+    {
+      "title": "Frontend: six piano keys that stay active while held via mouse or keyboard, vanilla HTML/CSS/JS",
+      "url": "",
+      "role": "Senior Frontend (phone)",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8453435/roblox-senior-frontend-phone-by-rxtang32-r3dw/"
+    }
+  ],
+  "focus_topics": [
+    "Grid simulation (crush, gravity, robots, lasers)",
+    "Topological sort with stable ordering and cycle detection",
+    "Intervals and merging",
+    "Sliding windows and rate limiting",
+    "Hash map counting over logs and call stacks",
+    "Bitmask DP and backtracking",
+    "Tries and heaps for ranking",
+    "Gaming-flavored system design: matchmaking, likes and favorites counters, notifications"
+  ],
+  "tips": [
+    "Play the official practice games (Kaiju Cats, Coding Cookies) before the assessment and take it rested; candidates who aced the coding part still failed overall.",
+    "Answer the situational test like a responsible owner: assess risk, communicate early, look for a minimum viable alternative, never hide a bug.",
+    "Do not use any AI tool in Roblox interviews; Roblox says LLM use disqualifies you. Ask before googling syntax.",
+    "Write workable code on the first pass and test it yourself; interviewers reportedly dislike long debugging cycles.",
+    "Practice LeetCode 723 Candy Crush, 1434 hat assignments, 210 Course Schedule II and 56 Merge Intervals; they mirror 2025 to 2026 early-career and screen questions.",
+    "Make a Roblox account and play several experiences; 'knowledge of our product' is an official evaluation point.",
+    "For design, prepare matchmaking and like-counter systems and add a gaming twist (spiky concurrency, per-game limits, real-time updates).",
+    "International students: 2027 postings say Roblox may not employ candidates on certain US visa categories or support future H-1B sponsorship at this time. Confirm with the recruiter before investing weeks."
+  ],
+  "compensation_note": "Levels.fyi (US, as of 2026-10-04): IC1 average total comp about $235K (base $150K, stock $63K/yr, bonus/sign-on $23K; 18 data points); recent San Mateo new grad entries $209K to $261K. IC2 about $340K. Official 2027 Early Career posting lists a $153,000 base for San Mateo. Intern: $62/hr in the Summer 2027 posting; Levels.fyi intern entries $62 to $64/hr (2023 to 2026) with notes of a $10,000 housing stipend.",
+  "sources": [
+    "https://careers.roblox.com/",
+    "https://careers.roblox.com/early-career",
+    "https://careers.roblox.com/interviewing-at-roblox",
+    "https://careers.roblox.com/work-at-roblox",
+    "https://careers.roblox.com/phd-programs-at-roblox",
+    "https://careers.roblox.com/jobs/8072713",
+    "https://careers.roblox.com/jobs/8072244",
+    "https://about.roblox.com/values",
+    "https://www.levels.fyi/companies/roblox/salaries/software-engineer",
+    "https://www.levels.fyi/internships/",
+    "https://leetcode.com/discuss/post/7291497/roblox-phone-screen-by-anonymous_user-ygme/",
+    "https://leetcode.com/discuss/post/7291528/roblox-system-design-by-anonymous_user-guid/",
+    "https://leetcode.com/discuss/post/7342270/roblox-by-anonymous_user-0ay3/",
+    "https://leetcode.com/discuss/post/6679228/roblox-interview-feedback-by-bhutani92-fajq/",
+    "https://leetcode.com/discuss/post/7606878/roblox-ic3-interview-passed-recruiter-sa-kxqs/",
+    "https://leetcode.com/discuss/post/7293370/anybody-know-what-roblox-is-looking-for-oqwkj/",
+    "https://leetcode.com/discuss/post/7100209/roblox-early-careers-virtual-interview-b-c0km/",
+    "https://leetcode.com/discuss/post/7022164/roblox-ict5-principal-oa-by-anonymous_us-izj1/",
+    "https://leetcode.com/discuss/post/8453435/roblox-senior-frontend-phone-by-rxtang32-r3dw/",
+    "https://prachub.com/companies/roblox",
+    "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-2027-intern-new-grad-oa-games-and-coding",
+    "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-hat-assignments-in-an-early-career-onsite",
+    "https://prachub.com/interview-experiences/roblox-software-engineer-interview-challenging-but-relaxed-superday-5fd84e76d6",
+    "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-digit-grid-phone-screen-then-resource-loader-and-pub-sub-system-design-onsite",
+    "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-one-technical-screen-a-rare-trie-heap-question-no-offer",
+    "https://prachub.com/interview-experiences/roblox-software-engineer-interview-experience-a-shared-to-do-list-design-and-a-kafka-mistake",
+    "https://prachub.com/coding-questions/simulate-robot-path-and-detect-boundedness",
+    "https://prachub.com/interview-questions/describe-feedback-conflict-and-missed-metrics",
+    "https://prachub.com/interview-questions/handle-release-risks-and-cross-team-blockers",
+    "https://interviewing.io/roblox-interview-questions",
+    "https://www.hellointerview.com/community/questions/roblox-matchmaking-queue/cmbne3hns00s008ad9y959f3j",
+    "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already",
+    "https://leetcode.com/problems/merge-intervals/",
+    "https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/",
+    "https://leetcode.com/problems/candy-crush/",
+    "https://leetcode.com/problems/course-schedule-ii/",
+    "https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/",
+    "https://leetcode.com/problems/design-search-autocomplete-system/",
+    "https://leetcode.com/problems/robot-bounded-in-circle/",
+    "https://prachub.com/interview-experiences/roblox-senior-frontend-engineer-interview-experience-phone-screen-piano-keys-coding-challenge",
+    "https://prachub.com/interview-questions/build-an-auto-rotating-traffic-light-in-vanilla-javascript-without-a-framework",
+    "https://prachub.com/interview-questions/design-a-scalable-likes-system",
+    "https://prachub.com/interview-questions/design-a-real-time-favorites-service-at-scale",
+    "https://prachub.com/interview-questions/design-a-scheduled-payment-system",
+    "https://prachub.com/interview-questions/design-an-in-app-notification-center-with-real-time-updates-and-unread-counts",
+    "https://prachub.com/interview-questions/design-an-image-feed-uploads-image-delivery-and-feed-generation",
+    "https://www.levels.fyi/js/internshipData.json"
+  ],
+  "confidence_notes": "Official pages fetched 2026-10-04 (the Interviewing at Roblox hub content was read from its embedded page data because it is tabbed). The official hub is written mostly for experienced hires; early-career specifics come from the early-career page and 2025 to 2026 candidate reports. The creativity or bar-raiser round is reported for IC3 and above; it is unconfirmed for new grads. A Sep 2026 early-career candidate said recruiters had suggested DP would not be asked that year, yet got a DP problem, so treat recruiter topic hints loosely. Visa sponsorship language in the 2027 postings is a 2026 change worth flagging; it reads 'may not be able to', so policy may vary by case. LeetCode 723 Candy Crush and 642 are premium. LeetCode mappings for the hat, prefix and topological-sort questions are close equivalents, not verbatim. PracHub items are candidate reports curated and sometimes translated by PracHub. Fact-check pass 2026-10-04: the official hub limits the Project Deep Dive to Machine Learning and Senior Engineering Manager candidates (the profile had said 'ML or senior roles'); the traffic-light exercise is tagged Software Engineer, not frontend, on PracHub; design prompts (likes, favorites, notification center, scheduled payments, image feed) now cite their PracHub question pages; Levels.fyi intern rates and the $10,000 housing notes confirmed from levels.fyi/js/internshipData.json."
+}

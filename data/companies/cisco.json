@@ -1,0 +1,374 @@
+{
+  "slug": "cisco",
+  "name": "Cisco",
+  "category": "Big Tech",
+  "one_liner": "Networking, security (incl. Splunk) and Webex. Interviews: auto-sent HackerRank OA, then resume-driven rounds heavy on networking, OS and C, plus a manager round.",
+  "careers_url": "https://careers.cisco.com/global/en",
+  "students_url": "https://careers.cisco.com/global/en/entry-level-careers",
+  "interview_prep_url": "https://careers.cisco.com/global/en/entry-level-careers",
+  "levels": {
+    "intern": "Software Engineer Intern / Technical Undergraduate Intern (India offer letters show grade 'Intern/099'). Internships and co-ops run 3 to 12 months by region.",
+    "new_grad": "Grade 4 (Levels.fyi: Software Engineer 1, the entry level; US Grade 4 reports typically have 1 to 2 years). India: Code with Cisco and campus hires land at G4 (about ₹14.5L base); top PPO and IIT offers come in at G6.",
+    "early_career": "Grade 6 (Levels.fyi: Software Engineer 2; US reports typically 3 to 4 years, though India makes some fresher and ~2 YOE offers at G6); Grade 8 (Software Engineer III) next."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "Official: recruiter and hiring manager review qualifications and decide who moves to interviews. Jobs are per team requisition."
+    },
+    {
+      "stage": "HackerRank online assessment",
+      "details": "US: emailed right after you apply (candidates say every applicant gets it); about 90 min, 2 to 4 LeetCode easy/medium problems (e.g., rotate a matrix, linked list, array counting, print a pattern); about a 2-week window. Passing all tests does not guarantee a call: resumes are reviewed after the OA."
+    },
+    {
+      "stage": "Recruiter or hiring manager screen",
+      "details": "Short call on background, why this role, languages you want to use. Some teams skip it."
+    },
+    {
+      "stage": "Technical interviews",
+      "details": "1 to 2 rounds of 45 to 75 min, often with 2 or 3 engineers. Resume and project deep dive, LeetCode-style coding, CS fundamentals (networking, OS, C, databases), sometimes a small design (multithreading)."
+    },
+    {
+      "stage": "Manager round",
+      "details": "Behavioral and resume questions with the hiring or engineering manager (30 to 70 min); may include an easy verbal DSA question. STAR answers expected."
+    },
+    {
+      "stage": "Offer",
+      "details": "Recruiter extends the offer. Responses can be slow: one SE I candidate waited about 2 months after the OA."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "HackerRank OA",
+      "details": "Same auto-sent OA as new grads (US). India campus and off-campus intern OA (2025 to 2026): 42 questions in 90 min: about 20 MCQs and about 20 subjective CS questions (OS, networks, OOP, computer architecture, DBMS, aptitude) plus 2 long coding problems (graphs, trees, DP; struct/OOP-style solutions)."
+    },
+    {
+      "stage": "Superday or screen (US)",
+      "details": "Reported variants in 2025: (a) superday with a manager semi-behavioral round plus a technical trivia round on C code, networking and basic security; (b) a 45 min screen with two senior engineers, theory only ('what happens when you type cisco.com'); (c) a mostly networking interview ('how does ping work') followed by basic bit manipulation and building an inverted linked list (SWE II Intern, San Jose, Mar 2025); (d) three interviews with no LeetCode, focused on your stack, data processing optimization and STAR behavioral; (e) one in-person interview on networking plus LLD (design a router in Python); (f) OA then a single technical round with the hiring manager on experience, automation testing and behavioral questions."
+    },
+    {
+      "stage": "India Code with Cisco / campus",
+      "details": "OA, then (for Code with Cisco) a 2-day hackathon and a blind resume (no name, CGPA or college). Interview day: Technical (1 h: projects, OS/OOP scenarios, networks, a puzzle, easy DSA), Managerial (1 h: project depth), sometimes an Executive round (1 h), then ETR/HR (10 to 15 min). Spring Intern+FTE 2025 round 1 was AI-assisted coding: build 1 of 6 small services in 24 h with AI tools, document AI use, then make live changes with AI during the interview."
+    },
+    {
+      "stage": "Offer / PPO",
+      "details": "India interns get PPOs in tiers by project performance (one 2025 report: G4, G6, or G6 plus RSUs)."
+    }
+  ],
+  "process_experienced_notes": "For 1 to 3 years (and above), a recruiter often sends a HackerRank link first (India, Mar 2026). Then: R1 technical (about 1 to 1.25 h: resume deep dive, DSA, theory such as SSH vs TLS, inner vs outer join, ACID), R2 coding plus system design or language depth (e.g., Go goroutines, channels, mutexes, WaitGroups), and an engineering manager round (project scaling, behavioral, sometimes an easy verbal DSA). One 3+ YOE candidate cleared all rounds but lost to someone with direct stack experience (Jan 2025). Cisco Meraki uses CoderPad coding rounds; Splunk (Cisco) full-stack screening used Karat (15-min MCQ then a 60-min live interview with system design discussion plus coding, with a redo option).",
+  "timeline": "OA arrives immediately after applying with about 2 weeks to complete. US reports: about 2 months from OA to a response; HM decisions within weeks. India Code with Cisco FY26: OA June 24, hackathon July 17 to 18, interview day Aug 6, LOIs about 1.5 months later; FY27 OA was June 25, 2026 (90 min on HackerRank), with top-75 selection emails around June 29, 2026. India campus intern OAs ran July to September 2026 for 2027 internships. No hiring committee or team matching: you interview for a specific team. Portal status can stay 'under review' for weeks after the manager round.",
+  "oa": {
+    "platform": "HackerRank",
+    "format": "US: about 90 min, 2 to 4 LeetCode easy/medium coding problems, about a 2-week window, auto-sent after applying. India intern/new grad (campus, Code with Cisco): 42 questions in 90 min (MCQs plus subjective CS fundamentals plus 2 lengthy coding problems, often 1 hard DP and 1 medium graph).",
+    "notes": "Many candidates pass every test and still get rejected, because resume screening happens after the OA. One candidate who opened the link too early got a fresh link on request (Oct 2025). Cisco's GenAI policy: using AI to prepare is fine; copying AI-generated answers into assessments or interviews is not."
+  },
+  "coding": {
+    "rounds": "OA plus 1 to 2 live technical rounds (some intern loops have no live LeetCode at all).",
+    "style": "LeetCode easy to medium; occasional hard in India OAs (Collect Coins in a Tree). Heavy on C fundamentals (pointers, linked lists, bit manipulation), trees/graphs/grids, and practical data parsing.",
+    "environment": "HackerRank for the OA; CoderPad or a shared editor for live rounds (screen share); in-person whiteboard for some campus loops. Some 2025 India rounds used your own IDE with AI assistants.",
+    "graded_on": "Correctness and test cases in the OA; in interviews, depth of CS fundamentals, ability to explain and defend your own projects, communication. One CoderPad round gave zero hints (Jan 2025)."
+  },
+  "system_design": "New grad and intern: light LLD or design discussion tied to your projects (design a router in Python, design multithreading, file I/O design questions, a chat/helping system; India intern loops have asked for an Instagram-like app architecture). For 3+ years: a DSA plus system design round. Prepfully's guide (last modified Jul 2024, so dated) lists HLD prompts (URL shortener, WhatsApp-style chat, ride-sharing front end) for onsite loops.",
+  "behavioral": {
+    "framework": "Cisco Guiding Principles: Think really big; Play to win; Drive durable growth. STAR answers in behavioral rounds.",
+    "values_url": "https://careers.cisco.com/global/en/why-work-here",
+    "what_they_look_for": [
+      "Curiosity and eagerness to learn (official tip: 'Come curious, come hungry!')",
+      "Authentic, specific stories about your background and accomplishments",
+      "Deep ownership of every project on the resume (managers cross-question how you used networking or OS concepts)",
+      "Fit and stability for the team: long-term goals aligned with the role",
+      "Accountability and coachability ('Be real, be coachable')",
+      "Knowledge of Cisco products and competitors (asked in India ETR)"
+    ],
+    "sample_questions": [
+      "Where do you see yourself in the next 3 to 4 years? (Winter Intern + FTE managerial round, India, Jan 2026)",
+      "Tell me about a team conflict, someone taking credit for your work, and a time you led. (Code with Cisco, Aug 2025)",
+      "Cisco may never fully go into AI/ML. How are you suitable then? (Code with Cisco executive round, Aug 2025)",
+      "Why are you interested in this role? (Software Engineer I, US, Mar 2025)",
+      "If you could be any data structure, which would you be? (Software Engineer I, US, Oct 2025)",
+      "What programming languages do you know and want to work with? (SWE Intern, US, Feb 2025)",
+      "Tell me about a time when things did not go as planned in a project. (Analyst campus managerial round, India, Oct 2025)"
+    ]
+  },
+  "non_leetcode_formats": "Networking trivia ('what happens when you type cisco.com', IP addressing, ping, PCIe); 'Given this C code, what problems do you see?'; C snippet and pointer questions; LLD of a router in Python; AI-assisted build-and-modify task (India 2025: Expense Splitter, IoT Sensor Monitor, Rate Limiter Monitor, Travel Itinerary Planner, Lab Resource Scheduler, Smart Home Controller); 2-day hackathon (Code with Cisco); subjective CS questions in the OA; Monte Carlo and recursion puzzles; group discussion for some India analyst roles; Karat screens for Splunk roles.",
+  "reported_questions": [
+    {
+      "title": "Collect Coins in a Tree (collect all coins within distance 2, return to start, minimum edges)",
+      "url": "https://leetcode.com/problems/collect-coins-in-a-tree/",
+      "role": "OA (Jun 2025; posted the day of the Code with Cisco FY26 OA)",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6881289/cisco-oa-question-by-nypabhishek-mtc2/"
+    },
+    {
+      "title": "Maximum Strength Path: maximize the minimum Manhattan distance to a blocked cell, then fewest cells (variant of Find the Safest Path in a Grid)",
+      "url": "https://leetcode.com/problems/find-the-safest-path-in-a-grid/",
+      "role": "Code with Cisco OA FY26 (India)",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6893912/maximum-strength-path-by-sovansekharsena-y6g6/"
+    },
+    {
+      "title": "Drone delivery on a grid with battery capacity B and charging/swap stations: minimum moves (BFS with battery state)",
+      "url": "",
+      "role": "Technical Intern 2027 on-campus OA (India)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8395487/cisco-technical-intern-2027-on-campus-oa-7rkp/"
+    },
+    {
+      "title": "Bid sniping detection: per bid, does the user have K or more bids in the last W seconds, and the smallest sniping user ID",
+      "url": "",
+      "role": "Technical Intern 2027 on-campus OA (India)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8395487/cisco-technical-intern-2027-on-campus-oa-7rkp/"
+    },
+    {
+      "title": "Graph shortest paths (Floyd-Warshall) combined with 0/1 knapsack; second problem trie plus DFS",
+      "url": "",
+      "role": "Intern OA (HackerRank, 42 questions)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7152427/cisco-oa-experience-by-martty1885-3ulv/"
+    },
+    {
+      "title": "Rotate a matrix (very similar to Rotate Image) plus a linked list problem",
+      "url": "https://leetcode.com/problems/rotate-image/",
+      "role": "SWE Intern OA (Milpitas, US)",
+      "date": "2025-11",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/swe-intern-milpitas-california-november-10-2025-no-offer-neutral-72ed214c"
+    },
+    {
+      "title": "Find the number of occurrences of the largest number in an array",
+      "url": "",
+      "role": "Software Engineer New Grad OA (US)",
+      "date": "2025-08",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-new-grad-united-states-august-1-2025-no-offer-neutral-37eff543"
+    },
+    {
+      "title": "Print a chessboard pattern of # and $",
+      "url": "",
+      "role": "Software Engineer New Grad OA (US)",
+      "date": "2025-08",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-new-grad-united-states-august-1-2025-no-offer-neutral-37eff543"
+    },
+    {
+      "title": "What happens when you type cisco.com into your browser?",
+      "url": "",
+      "role": "Software Engineer I Intern screen (US, 45 min, 2 seniors)",
+      "date": "2025-05",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-intern-united-states-may-20-2025-no-offer-negative-6d7b49e2"
+    },
+    {
+      "title": "Given C code, what problems do you see? (plus networking and basic security trivia)",
+      "url": "",
+      "role": "Software Engineer Intern superday (US)",
+      "date": "2025-04",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineerinternship-united-states-april-16-2025-accepted-offer-positive-356d008d"
+    },
+    {
+      "title": "LLD: design a router in Python",
+      "url": "",
+      "role": "Software Engineer Intern (Bellevue, in person)",
+      "date": "2025-08",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineerinternship-bellevue-wa-august-24-2025-no-offer-positive-ff8e87c8"
+    },
+    {
+      "title": "Several LeetCode-style questions plus one question to design multithreading",
+      "url": "",
+      "role": "Software Engineer I (San Jose area)",
+      "date": "2025-02",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-south-san-jose-hills-ca-february-1-2025-no-offer-positive-02771658"
+    },
+    {
+      "title": "Add a node to the tail of a linked list; write a function to set a bit (plus: how do you get an IP address, what is PCIe, what is ping)",
+      "url": "",
+      "role": "Software Engineer (San Jose)",
+      "date": "2025-02",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-san-jose-ca-february-1-2025-no-offer-neutral-8e33f854"
+    },
+    {
+      "title": "Data processing questions and how to optimize them (no LeetCode)",
+      "url": "",
+      "role": "SWE Intern (Milpitas, offer)",
+      "date": "2025-10",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/swe-intern-milpitas-ca-october-7-2025-accepted-offer-positive-475c9550"
+    },
+    {
+      "title": "System design questions on file I/O",
+      "url": "",
+      "role": "Software Engineer Intern (US)",
+      "date": "2025-11",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-internship-united-states-november-17-2025-no-offer-negative-4d34db07"
+    },
+    {
+      "title": "Maximum Subarray (plus SSH vs TLS, inner vs outer join, ACID)",
+      "url": "https://leetcode.com/problems/maximum-subarray/",
+      "role": "SDE, 3+ YOE",
+      "date": "2025-01",
+      "source_url": "https://leetcode.com/discuss/post/6323099/cisco-sde-interview-questions-by-asteris-88lk/"
+    },
+    {
+      "title": "Fibonacci using goroutines and channels (Go concurrency round)",
+      "url": "",
+      "role": "SDE, 3+ YOE (Go role)",
+      "date": "2025-01",
+      "source_url": "https://leetcode.com/discuss/post/6323099/cisco-sde-interview-questions-by-asteris-88lk/"
+    },
+    {
+      "title": "Remove K Digits (CoderPad, no hints)",
+      "url": "https://leetcode.com/problems/remove-k-digits/",
+      "role": "Coding round",
+      "date": "2025-01",
+      "source_url": "https://leetcode.com/discuss/post/6319688/cisco-coding-round-rejected-by-anonymous-l76n/"
+    },
+    {
+      "title": "AI-assisted build: Expense Splitter Service in 24 h with AI tools, then live changes with AI in the IDE; plus process vs thread, heap memory, new, const char*",
+      "url": "",
+      "role": "Spring Intern + FTE (India)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7280733/my-cisco-spring-intern-fte-interview-exp-ak4c/"
+    },
+    {
+      "title": "OS scenario: a printer with two arriving processes; Monte Carlo puzzle; easy string DSA",
+      "url": "",
+      "role": "Code with Cisco Intern + FTE (India)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7419117/code-with-cisco25-codeathon-interview-in-vzuy/"
+    },
+    {
+      "title": "How to find a duplicate in a list of numbers (verbal, in EM round)",
+      "url": "",
+      "role": "Software Engineer (India), engineering manager round",
+      "date": "2026-09",
+      "source_url": "https://leetcode.com/discuss/post/8525457/cisco-engineer-manager-round-2-by-runtym-cef6/"
+    },
+    {
+      "title": "Lucky Numbers in a Matrix; find a Fibonacci substring; maximum-sum contiguous subarray (3-question OA)",
+      "url": "https://leetcode.com/problems/lucky-numbers-in-a-matrix/",
+      "role": "Software Engineer OA (US)",
+      "date": "2025-06",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-united-states-june-13-2025-no-offer-positive-bef492d4"
+    },
+    {
+      "title": "Three OA questions: two arrays and hashing, one DP (House Robber)",
+      "url": "https://leetcode.com/problems/house-robber/",
+      "role": "Software Engineer Intern OA (San Jose)",
+      "date": "2025-06",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineerinternship-san-jose-ca-june-24-2025-no-offer-positive-bd800f95"
+    },
+    {
+      "title": "Reverse Linked List; how do you tell which way a stack frame grows (plus C, memory, signal handlers)",
+      "url": "https://leetcode.com/problems/reverse-linked-list/",
+      "role": "Software Engineer I (Ottawa)",
+      "date": "2025-11",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-ottawa-ontario-november-8-2025-no-offer-positive-1bb33b53"
+    },
+    {
+      "title": "How does ping work? Then basic bit manipulation and building an inverted copy of a linked list",
+      "url": "",
+      "role": "Software Engineer II Intern (San Jose)",
+      "date": "2025-03",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-ii-intern-san-jose-ca-march-8-2025-no-offer-positive-fd2d8600"
+    },
+    {
+      "title": "Create a Python class that parses a CSV into JSON (plus basic OOP and 2 LeetCode easy/medium)",
+      "url": "",
+      "role": "Software Engineer (US)",
+      "date": "2025-10",
+      "source_url": "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-united-states-october-13-2025-no-offer-positive-a76c3641"
+    }
+  ],
+  "focus_topics": [
+    "Computer networks (TCP/IP, DNS, HTTP request flow, IP addressing, ping)",
+    "Operating systems (process vs thread, deadlock, scheduling, memory)",
+    "C and C++ (pointers, linked lists, bit manipulation, reading buggy code)",
+    "Trees and graphs, BFS on grids with state",
+    "Dynamic programming (OA)",
+    "OOP and low-level design",
+    "Multithreading and concurrency",
+    "DBMS (joins, ACID) and basic security (SSH, TLS)",
+    "Project deep dives and behavioral (STAR)"
+  ],
+  "tips": [
+    "Take the HackerRank OA quickly but carefully; it goes to every applicant, and resume review happens after, so also tailor the resume to the team.",
+    "Revise networking end to end: be able to walk through 'what happens when you type cisco.com'.",
+    "Revise C: pointer bugs, linked list insert/delete, set/clear/toggle bits; one US intern technical round was 'what problems do you see in this C code'.",
+    "Know every project line by line; Cisco managers cross-question how you used networking and OS concepts in your own work.",
+    "Frame long-term goals around growing in the role; one India candidate felt a 'build my own startup' answer signaled misalignment.",
+    "Follow Cisco's GenAI policy: prepare with AI, never paste AI answers. If a round is AI-assisted, use an in-IDE assistant (Copilot style); one interviewer expected that over copy-pasting from a chat window.",
+    "India OA: 42 questions in 90 min; budget time for the long subjective CS questions and the 2 wordy coding problems.",
+    "Learn the three Guiding Principles (Think really big, Play to win, Drive durable growth) and map a story to each."
+  ],
+  "compensation_note": "Levels.fyi US Software Engineer (updated 2026-10-04): Grade 4 / Software Engineer 1 median total comp $115K (base $107K, stock $6.5K/yr, bonus $1.9K); Grade 6 / Software Engineer 2 $149K; Grade 8 $174K. Levels.fyi Cisco intern page: US SWE intern median about $39/hr across 2025 to 2026 (10 US reports, $38.21 to $51; San Jose $47.40 to $51); 2025 reports often list an $8,000 sign-on bonus or $2,666/month housing. India (LeetCode posts): Code with Cisco G4 new grad about ₹14.5L base, ₹24.7L total package (Apr 2025 and Jan 2026); G6 fresher about ₹21L base plus $20K RSUs over 3 years, about ₹52L CTC (Jul to Aug 2026); intern stipend ₹88K/month plus ₹10K accommodation.",
+  "sources": [
+    "https://careers.cisco.com/global/en",
+    "https://careers.cisco.com/global/en/entry-level-careers",
+    "https://careers.cisco.com/global/en/internships-and-co-ops",
+    "https://careers.cisco.com/global/en/why-work-here",
+    "https://careers.cisco.com/global/en/genai-practices",
+    "https://www.levels.fyi/companies/cisco/salaries/software-engineer",
+    "https://www.levels.fyi/internships/Cisco/Software-Engineer-Intern/",
+    "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2024/m03/cisco-completes-acquisition-of-splunk.html",
+    "https://prepfully.com/interview-guides/cisco-software-engineer",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-san-jose-ca-february-1-2025-no-offer-neutral-8e33f854",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-united-states-june-13-2025-no-offer-positive-bef492d4",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineerinternship-san-jose-ca-june-24-2025-no-offer-positive-bd800f95",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-ottawa-ontario-november-8-2025-no-offer-positive-1bb33b53",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-ii-intern-san-jose-ca-march-8-2025-no-offer-positive-fd2d8600",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-united-states-october-13-2025-no-offer-positive-a76c3641",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-developer-bengaluru-karnataka-october-1-2025-no-offer-positive-3ba5f4aa",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-intern-india-october-25-2025-no-offer-positive-f70e11be",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-internship-united-states-november-17-2025-no-offer-negative-4d34db07",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-ii-intern-united-states-may-16-2025-no-offer-neutral-4edd8237",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/swe-intern-milpitas-california-november-10-2025-no-offer-neutral-72ed214c",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineerinternship-united-states-april-16-2025-accepted-offer-positive-356d008d",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-united-states-march-1-2025-no-offer-positive-101aefd5",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/summer-software-engineering-internship-united-states-july-21-2025-accepted-offer-neutral-63e340f2",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-intern-united-states-may-20-2025-no-offer-negative-6d7b49e2",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/entry-level-software-developer-united-states-february-17-2025-no-offer-neutral-62f0f46e",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-united-states-july-1-2025-no-offer-neutral-154aa8df",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-intern-united-states-february-7-2025-accepted-offer-positive-5ad60bfc",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-united-states-october-2-2025-no-offer-positive-4ee2cda4",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-new-grad-united-states-august-1-2025-no-offer-neutral-37eff543",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineer-i-south-san-jose-hills-ca-february-1-2025-no-offer-positive-02771658",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-engineerinternship-bellevue-wa-august-24-2025-no-offer-positive-ff8e87c8",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/swe-intern-milpitas-ca-october-7-2025-accepted-offer-positive-475c9550",
+    "https://www.jointaro.com/interviews/companies/cisco/experiences/software-intern-san-jose-ca-march-16-2025-no-offer-positive-64c5412f",
+    "https://leetcode.com/discuss/post/7419117/code-with-cisco25-codeathon-interview-in-vzuy/",
+    "https://leetcode.com/discuss/post/7526449/cisco-fy26-winter-intern-fte-breakdown-o-qqug/",
+    "https://leetcode.com/discuss/post/7526450/cisco-fy26-winter-intern-fte-detailed-in-n0hu/",
+    "https://leetcode.com/discuss/post/7280733/my-cisco-spring-intern-fte-interview-exp-ak4c/",
+    "https://leetcode.com/discuss/post/7289660/cisco-interview-experience-by-nullp0inte-wqgm/",
+    "https://leetcode.com/discuss/post/8494012/cisco-summer-internship-oa-experience-29-seoo/",
+    "https://leetcode.com/discuss/post/8419484/cisco-software-engineering-intern-2027-o-wega/",
+    "https://leetcode.com/discuss/post/8395487/cisco-technical-intern-2027-on-campus-oa-7rkp/",
+    "https://leetcode.com/discuss/post/8391877/drone-delivery-with-battery-swapping-by-jz4er/",
+    "https://leetcode.com/discuss/post/8390563/cisco-oa-coding-questions-2026-by-raunak-xx9a/",
+    "https://leetcode.com/discuss/post/8400925/cisco-intern-oa-by-coderizz23-792t/",
+    "https://leetcode.com/discuss/post/7196106/cisco-summer-intern-oa-round-by-gautam-a-qkvq/",
+    "https://leetcode.com/discuss/post/7152427/cisco-oa-experience-by-martty1885-3ulv/",
+    "https://leetcode.com/discuss/post/6893912/maximum-strength-path-by-sovansekharsena-y6g6/",
+    "https://leetcode.com/discuss/post/6881289/cisco-oa-question-by-nypabhishek-mtc2/",
+    "https://leetcode.com/discuss/post/6323099/cisco-sde-interview-questions-by-asteris-88lk/",
+    "https://leetcode.com/discuss/post/6319688/cisco-coding-round-rejected-by-anonymous-l76n/",
+    "https://leetcode.com/discuss/post/7651332/cisco-software-engineering-1-to-3-years-gstlh/",
+    "https://leetcode.com/discuss/post/8525457/cisco-engineer-manager-round-2-by-runtym-cef6/",
+    "https://leetcode.com/discuss/post/8552448/cisco-round-2-managerial-round-by-abcd_1-hpeh/",
+    "https://leetcode.com/discuss/post/7121739/cisco-meraki-coderpad-round-by-anonymous-xtx2/",
+    "https://leetcode.com/discuss/post/7075294/splunk-cisco-karat-3rd-party-software-en-3qfx/",
+    "https://leetcode.com/discuss/post/6606013/cisco-new-grad-software-engineer-1-2025-vgxp5/",
+    "https://leetcode.com/discuss/post/6159934/cisco-spring-intern-sde-g4-code-with-cis-kan1/",
+    "https://leetcode.com/discuss/post/7168668/cisco-g6-compensation-ppo-by-anonymous_u-ldbm/",
+    "https://leetcode.com/discuss/post/8385007/cisco-g06-fresher-by-anonymous_user-ikfu/",
+    "https://leetcode.com/discuss/post/8436493/cisco-fresher-offer-2026-by-anonymous_us-ext8/",
+    "https://leetcode.com/discuss/post/8471841/is-cisco-g6-a-good-offer-for-2-yoe-by-an-spqs/",
+    "https://leetcode.com/discuss/post/8356454/code-with-cisco-fy27-oa-25-june-2026-loo-qr7y/",
+    "https://leetcode.com/discuss/post/8365561/selection-in-code-with-cisco-fy-27-by-an-k9rn/",
+    "https://leetcode.com/problems/collect-coins-in-a-tree/",
+    "https://leetcode.com/problems/find-the-safest-path-in-a-grid/",
+    "https://leetcode.com/problems/rotate-image/",
+    "https://leetcode.com/problems/maximum-subarray/",
+    "https://leetcode.com/problems/remove-k-digits/",
+    "https://leetcode.com/problems/lucky-numbers-in-a-matrix/",
+    "https://leetcode.com/problems/house-robber/",
+    "https://leetcode.com/problems/reverse-linked-list/"
+  ],
+  "confidence_notes": "Re-verified 2026-10-04 by a second fact-check pass: every URL fetched (careers.cisco.com via curl; LeetCode posts and problem slugs via LeetCode's public GraphQL API; Taro pages read server-rendered). Fixes in this pass: one reported question (linked-list tail insert, set a bit, IP/PCIe/ping) cited a Taro 'work experience' review about layoffs; it now cites the actual Feb 2025 San Jose interview report. An unsourced intern variant ('15 min resume rundown, parse-and-filter API task') was replaced with a sourced one. Level experience ranges now match Levels.fyi (Grade 4 typically 1 to 2 years, Grade 6 typically 3 to 4 years in the US). Five sourced 2025 US/Canada questions were added because US detail was thin. Unstated 'India' tags were removed from posts that do not say where the candidate was. The old cisco.com 'students-and-new-graduates/engineering' page now 301-redirects to careers.cisco.com/global/en/entry-level-careers, and jobs.cisco.com redirects to careers.cisco.com/global/en. Glassdoor returned 403 and is not used. Most detailed question reports are from India (campus, Code with Cisco); US data comes from short Taro reports (Taro's interview data ends in late 2025). Intern loops vary a lot by team (some have no LeetCode, some are theory only). Cisco's culture page uses three Guiding Principles (Think really big, Play to win, Drive durable growth) rather than older 'Conscious Culture' / 'Our People Deal' wording seen in older guides. The AI-assisted build-and-modify round is reported twice for India Spring Intern + FTE (LeetCode Oct 2025 and a Taro Bengaluru report Oct 2025), not confirmed as company-wide. Prepfully's guide was last modified Jul 2024; use it only for general shape. No Jugal Substack post covers Cisco."
+}

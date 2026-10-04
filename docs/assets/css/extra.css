@@ -1,0 +1,17 @@
+:root {
+  --md-primary-fg-color: #1f3a5f;
+  --md-primary-fg-color--light: #2d5283;
+  --md-primary-fg-color--dark: #142740;
+  --md-accent-fg-color: #c2410c;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1b2a3d;
+  --md-accent-fg-color: #fb923c;
+  --md-hue: 215;
+}
+.md-typeset table:not([class]) { font-size: 0.74rem; }
+.md-typeset table:not([class]) td { vertical-align: top; }
+.md-typeset h1 { font-weight: 700; letter-spacing: -0.01em; }
+.md-typeset .task-list-control .task-list-indicator::before { border-radius: 3px; }
+.md-typeset .task-list-item input[type=checkbox] { cursor: pointer; }
+.md-typeset blockquote { border-left-color: var(--md-accent-fg-color); }

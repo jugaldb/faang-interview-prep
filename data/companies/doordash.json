@@ -1,0 +1,318 @@
+{
+  "slug": "doordash",
+  "name": "DoorDash",
+  "category": "High-growth tech",
+  "one_liner": "Local-commerce delivery marketplace (DoorDash, Wolt, Deliveroo); interviews are practical: runnable LeetCode-style coding, an interactive API-style coding round, debugging, and values chats.",
+  "careers_url": "https://careersatdoordash.com/",
+  "students_url": "https://careersatdoordash.com/university-careers/",
+  "interview_prep_url": "",
+  "levels": {
+    "intern": "Software Engineer Intern, 12 weeks, summer only (May or June cohort), in-person in NYC, SF, Sunnyvale, LA or Seattle; Toronto has a separate posting.",
+    "new_grad": "E3 (Software Engineer I, Entry-Level).",
+    "early_career": "E3 for 0 to about 2 yrs; E4 (Software Engineer II) for roughly 2 to 5 yrs. E5 is Senior."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "Applications open in the fall. 2026 to 2027 posting: 'Software Engineer I, Entry-Level (Graduation Date: Fall 2026 to Summer 2027) - US', 5 locations, requires a BS/MS graduating in that window, at least two prior SWE internships or equivalent, and no more than two years of full-time experience. Toronto has its own entry-level posting."
+    },
+    {
+      "stage": "Resume review, sometimes an OA",
+      "details": "Official FAQ goes straight from resume review to interviews. Some candidates report a HackerRank OA first (SWE New Grad Toronto, 2026: LC medium-hard)."
+    },
+    {
+      "stage": "Virtual interview day (official: 2 coding rounds + Engineering Values chat)",
+      "details": "Reported for SWE I, NYC, Aug 2026: Interactive Coding Round (60 min, coding in a realistic context such as an API or class-based task), LeetCode-style DSA round (60 min), Engineering Values interview with an engineering manager (30 min), all on one day. Recruiters send prep guides with sample questions."
+    },
+    {
+      "stage": "Offer and placement",
+      "details": "Entry-level hires sit in an office hub (SF HQ, Seattle, NYC, LA) and join a one-year New Grad program with trainings and an early careers community."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Application",
+      "details": "Summer 2027 posting live as of Oct 2026: BS/MS students graduating Fall 2027 to Summer 2028 with no more than 2 years full-time work, available for a May or June 2027 start. Must be authorized to work in the US; F-1 students eligible via CPT; J-1 not supported. Location preference chosen in the application."
+    },
+    {
+      "stage": "Online assessment (often)",
+      "details": "HackerRank OA reported for the 2025 intern cycle (LC medium-hard). Not every 2026 report mentions an OA."
+    },
+    {
+      "stage": "Super day: 2 coding rounds + values",
+      "details": "Fall 2026 reports: 1-hour LeetCode-style round (medium/easy, e.g. sliding window), 1-hour Interactive Coding Round or codebase round (read and extend a long existing codebase), 30-min behavioral with an engineering manager using STAR on DoorDash values. 2025 cycle reports: two DSA rounds (graphs/DFS, 2-sum style; sometimes 2 x 30 min) plus behavioral. Code is run and tested."
+    },
+    {
+      "stage": "Offer and conversion",
+      "details": "Program is conversion-focused but full-time offers depend on intern performance (official FAQ). Relocation support for interns and new grads; interns get housing assistance."
+    }
+  ],
+  "process_experienced_notes": "E4 (about 2 to 5 yrs): recruiter call (30 min), sometimes a hiring manager screen, then a 60-min technical phone screen on HackerRank CodePair where you must run code (DoorDash-tagged LC medium/hard, e.g. Closest DashMart BFS, binary tree max path sum between 'live' nodes, search suggestions, LRU variant) or a Code Craft screen. Virtual onsite of 4 rounds, often split over 2 days: Code Craft (practical service or API work, e.g. Dasher payout endpoint calling a mocked upstream; since late 2025 an AI-enabled version where you bring a local IDE with AI such as Cursor, Copilot or Claude Code and DoorDash evaluates prompting), Debugging / Bug Bash (fix logic bugs and tests in a round-robin load balancer or dasher assignment service; no AI), System Design + Domain Knowledge (project deep dive plus a design such as a food item review app or donations site), and a hiring manager / leadership round. An E3 experienced-hire report (Aug 2025) also had Code Craft, Debugging, HM and System Design. India (Pune) SDE-2: 5 rounds incl. an LLD + DSA elimination round.",
+  "timeline": "Official: applications for summer internships and new grad roles open several months ahead, usually in the fall; internships run May or June to August (12 weeks). Reported: phone screen results in 1 to 2 days; onsite can be split over two days a week apart; new grad and intern loops happen in one 'super day'; interviewing.io estimates 3 to 4 weeks overall. A 1-year cool-down after rejection was reported for an E4 phone screen (2025). Interviews pause over late-December holidays.",
+  "oa": {
+    "platform": "HackerRank",
+    "format": "Reported for interns (2025 cycle) and Toronto new grads (2026): a few LeetCode medium-hard problems. Experienced candidates get a live HackerRank CodePair phone screen instead of an OA.",
+    "notes": "Many US SWE I candidates report no OA, consistent with the official FAQ (resume review then virtual interviews). Treat the OA as possible, not guaranteed."
+  },
+  "coding": {
+    "rounds": "Intern and new grad: 2 coding rounds (1 LeetCode-style DSA, 1 Interactive Coding Round or codebase round) plus a values chat. Experienced: 1 phone screen + Code Craft + Debugging in the onsite.",
+    "style": "Practical. LeetCode medium (sometimes hard) reworded into DoorDash domain stories (dashers, DashMarts, menus, merchants, orders). The Interactive Coding Round and Code Craft are not puzzle problems: model data with classes, call or mock an upstream service, aggregate responses, handle edge cases; follow-ups on latency, retries and tests.",
+    "environment": "HackerRank CodePair or CoderPad with code execution; you are expected to run your code and pass provided tests. AI-enabled Code Craft (experienced onsite, since late 2025): your own local editor with an AI assistant, submit one file. Debugging round: no AI.",
+    "graded_on": "Working code that passes tests, speed (finish with time for follow-ups), clean class design, edge cases, test coverage, communication, and for AI Code Craft the quality of prompting and validation."
+  },
+  "system_design": "Not in intern or E3 new grad loops (official: 2 coding + values). From E4: a 60-min system design paired with a domain knowledge project deep dive. Reported prompts 2025 to 2026: review app for food items, review and reward system, donations website for a 3-day charity event (100M in donations), real-time order tracking, job scheduler, devbox system, Instagram-like stories in a food app. Code Craft acts as the LLD round.",
+  "behavioral": {
+    "framework": "DoorDash Global Operating Principles: 14 principles shared across DoorDash, Deliveroo and Wolt (image labels on the page include Customer Obsessed Not Competitor-Focused, Operate at the Lowest Level of Detail, Bias for Action, Truth Seek, And not Either/Or, 1% Better Every Day, Choose Optimism and Have a Plan, One Team One Fight, Earn Trust, Debate then Commit, Beginner's Mindset, Be Differentiated, Build Global Act Local, Play the Long Game). Answer in STAR.",
+    "values_url": "https://careersatdoordash.com/mission-and-values/",
+    "what_they_look_for": [
+      "Customer obsession across consumers, merchants and Dashers",
+      "Bias for action and speed of execution, with a hypothesis and an input metric",
+      "Breaking problems into the lowest-level input drivers",
+      "Seeking disconfirming evidence and learning from mistakes",
+      "Team over self, earning trust, disagree then commit",
+      "Ownership with measurable impact; project deep dives probe your exact role, stakeholders and challenges"
+    ],
+    "sample_questions": [
+      "What are your strengths and weaknesses when you are working with the team? (SWE I, Aug 2026)",
+      "Why did you choose your major? (SWE I, Aug 2026)",
+      "Tell me about a time you learned from others. (SWE I, Aug 2026)",
+      "In the project, did anything not go as planned? (SWE I, Aug 2026)",
+      "Why are you interested in DoorDash? (SWE Intern, 2026)",
+      "Tell me about a time you received feedback. (E3, 2025)",
+      "Tell me about a bug in production and how you handled it. (E3, 2025)",
+      "Tell me about a time you had a disagreement with a superior and how you navigated it. (SWE, 2025)",
+      "Describe a time when you were given a project and couldn't meet the deadline. (SDE Intern, 2025)"
+    ]
+  },
+  "non_leetcode_formats": "Interactive Coding Round (new grad/intern): realistic coding such as building an API-like class. Codebase round (intern 2026): digest and extend a long existing codebase. Code Craft (experienced): build a service endpoint that aggregates or computes from mocked upstream data, now AI-enabled at the onsite. Debugging / Bug Bash: fix logic bugs, bad practices and tests in given code (round-robin load balancer, dasher assignment). System Design + Domain Knowledge project deep dive. Frontend roles: UI design round (search and filter restaurant listing). Staff: incident case study.",
+  "reported_questions": [
+    {
+      "title": "Interactive Coding Round + LeetCode round + Engineering Values (SWE I super day format)",
+      "url": "",
+      "role": "Software Engineer I (new grad), NYC",
+      "date": "2026-08",
+      "source_url": "https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW105419562.htm"
+    },
+    {
+      "title": "Sliding window problem in the LC round; simple Interactive Coding Round task",
+      "url": "",
+      "role": "Software Engineer Intern, NYC (offer)",
+      "date": "2026-08",
+      "source_url": "https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW105222508.htm"
+    },
+    {
+      "title": "Greedy problem and LRU cache in the technical screen (after an OA)",
+      "url": "https://leetcode.com/problems/lru-cache/",
+      "role": "SWE New Grad, Toronto",
+      "date": "2026-06",
+      "source_url": "https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW104292214.htm"
+    },
+    {
+      "title": "Batch merchants with different time slots and IDs (interactive design round)",
+      "url": "",
+      "role": "Software Engineer, US",
+      "date": "2026-08",
+      "source_url": "https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW105344567.htm"
+    },
+    {
+      "title": "DFS graph question and a 2-sum style question (2 x 30-min technical)",
+      "url": "",
+      "role": "SWE Intern, US",
+      "date": "2025-11",
+      "source_url": "https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW101171471.htm"
+    },
+    {
+      "title": "Closest DashMart: distance from query cells to the nearest DashMart on a grid with blocked roads (multi-source BFS); follow-up: DashMart serving most customers",
+      "url": "https://leetcode.com/problems/walls-and-gates/",
+      "role": "SWE E4 phone screen, US",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6855674/doordash-phone-interview-by-anonymous_us-yh8b/"
+    },
+    {
+      "title": "Two dashers: longest common ordered pickup sequence",
+      "url": "https://leetcode.com/problems/longest-common-subsequence/",
+      "role": "USA tech screen",
+      "date": "2025-12",
+      "source_url": "https://leetcode.com/discuss/post/7418588/doordash-usa-tech-screen-by-anonymous_us-zy3f/"
+    },
+    {
+      "title": "Chef orders: repeatedly remove the smallest order ID greater than both neighbors, return removal order in O(n log n)",
+      "url": "",
+      "role": "Phone screen, US",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6855480/doordash-phone-interview-by-brian39-nm4k/"
+    },
+    {
+      "title": "Code Craft: Dasher payout endpoint (POST payout by dasherId, $0.3/min base, multi-order rate, mocked upstream deliveries); follow-up: high upstream latency",
+      "url": "",
+      "role": "Mid-level SWE onsite",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7353783/usa-doordash-code-craft-round-by-mathrul-ch15/"
+    },
+    {
+      "title": "AI Code Craft: build a workflow engine (DAG of nodes like IS_LATE, FULL_REFUND) for self-help support tickets against a mock DoorDash API",
+      "url": "",
+      "role": "SWE onsite, US",
+      "date": "2025-12",
+      "source_url": "https://leetcode.com/discuss/post/7401147/usa-doordash-onsite-ai-codecraft-by-anon-bods/"
+    },
+    {
+      "title": "Debugging: fix logic bugs in a Dasher Assignment Service (random pick, pool map adjustment, logging stubs)",
+      "url": "",
+      "role": "SWE onsite, US",
+      "date": "2025-12",
+      "source_url": "https://leetcode.com/discuss/post/7392565/usa-doordash-debugging-onsite-by-anonymo-ikw9/"
+    },
+    {
+      "title": "Debugging: fix a round-robin load balancer and its tests, then implement consistent hashing",
+      "url": "",
+      "role": "Software Engineer, Sunnyvale (offer)",
+      "date": "2026-02",
+      "source_url": "https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW104956519.htm"
+    },
+    {
+      "title": "Code Craft: bootstrap API aggregating user, address and payment (nested gift cards) from mocked services",
+      "url": "",
+      "role": "E4 phone interview",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7260823/doordash-e4-software-engineer-interview-8cyeb/"
+    },
+    {
+      "title": "Binary tree maximum path sum between 'live' (leaf) nodes; follow-up: live nodes anywhere, cannot pass through one",
+      "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+      "role": "E4 phone screen, US",
+      "date": "2025-03",
+      "source_url": "https://leetcode.com/discuss/post/6561083/doordash-e4-swe-phone-screen-by-matchaic-lhuv/"
+    },
+    {
+      "title": "Restaurant search suggestions for each search word prefix (with spaces)",
+      "url": "https://leetcode.com/problems/search-suggestions-system/",
+      "role": "Backend E4 phone screen, US",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6794074/doordash-phone-screen-us-backend-e4-reje-2ff6/"
+    },
+    {
+      "title": "Dasher-to-delivery LRU cache (put/get with capacity)",
+      "url": "https://leetcode.com/problems/lru-cache/",
+      "role": "E4 phone screen, US",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6605298/doordash-phone-screen-usa-e4-by-anonymou-s7yt/"
+    },
+    {
+      "title": "Longest increasing path in a matrix (dasher framing), then return the path",
+      "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+      "role": "E4 phone screen, US (pass)",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6765958/doordash-phone-screen-usa-e4-pass-by-ano-fgqg/"
+    },
+    {
+      "title": "Next greater permutation of a number given as a string",
+      "url": "https://leetcode.com/problems/next-greater-element-iii/",
+      "role": "Phone screen, US",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6837694/doordash-phonescreen-us-2025-by-anonymou-9lff/"
+    },
+    {
+      "title": "Time to flood a tree from a start node (build adjacency map)",
+      "url": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
+      "role": "Phone screen, US",
+      "date": "2025-12",
+      "source_url": "https://leetcode.com/discuss/post/7401058/doordash-phone-screen-and-virtual-onsite-0jow/"
+    },
+    {
+      "title": "K nearest restaurants to a user's coordinates",
+      "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+      "role": "Software Engineer, US",
+      "date": "2026-05",
+      "source_url": "https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW104189499.htm"
+    }
+  ],
+  "focus_topics": [
+    "BFS on grids, multi-source BFS (DashMart / walls and gates variants)",
+    "Trees: path sums, infection/flood time",
+    "Hash maps and LRU-style caches",
+    "Heaps and scheduling (k nearest, single-threaded CPU)",
+    "Prefix search / tries",
+    "DP: LCS, knapsack-style budget problems",
+    "Practical OOP: API aggregation, mocking upstream services, payout calculations",
+    "Debugging unfamiliar code and fixing tests",
+    "System design for marketplaces (E4+)"
+  ],
+  "tips": [
+    "Practice in HackerRank CodePair until running code is automatic; candidates lost time building TreeNode inputs and fixing syntax.",
+    "Solve the main problem with 10 to 15 minutes left; E4 candidates who solved it with 5 minutes left were still rejected for missing follow-ups.",
+    "For the Interactive Coding Round and Code Craft, use small classes, mock the upstream call in a function, and test from main(); be ready to discuss upstream latency and retries.",
+    "Grind DoorDash-tagged LeetCode: the Closest DashMart / walls-and-gates BFS and LRU variants appear across many 2025 reports.",
+    "Experienced candidates: configure an AI coding assistant in your own IDE before the onsite Code Craft; the Debugging round bans AI, so practice reading code cold.",
+    "Prepare a 2-minute 'why DoorDash' and STAR stories tied to the Operating Principles; the values chat is only 30 minutes.",
+    "Apply in early fall: internships are summer-only (May or June cohorts) and new grad roles open at the same time; Jugal's Aug 2026 Summer 2027 list already included DoorDash Software Engineer I.",
+    "International students: interns must be US work-authorized; F-1 CPT works, J-1 does not."
+  ],
+  "compensation_note": "Levels.fyi (US, read 2026-10-04): E3 average total comp $188,143/yr (base $147,364, stock $32,189/yr, bonus $8,591; 27 data points in the last 12 months); Aug to Sep 2026 E3 offers cluster at $145k base + about $35k stock/yr = about $180k to $205k. E4 average $283,737. Official SWE I posting: national base range $107,400 to $158,000 plus equity. Intern posting lists the same annualized base range.",
+  "sources": [
+    "[VERIFIED] https://careersatdoordash.com/ : careers home (read in browser; blocks scripts with 403)",
+    "[VERIFIED] https://careersatdoordash.com/university-careers/ : official FAQ: 2 coding rounds + Engineering Values chat; 12-week internships, May/June cohorts; fall applications; relocation and housing",
+    "[VERIFIED] https://careersatdoordash.com/jobs/software-engineer-i-entry-level-graduation-date-fall-2026-summer-2027---us/8163709 : SWE I posting, requirements and $107,400 to $158,000 base",
+    "[VERIFIED] https://careersatdoordash.com/jobs/software-engineer-intern-summer-2027---us/8171041 : Summer 2027 intern posting, CPT/J-1 rules",
+    "[VERIFIED] https://careersatdoordash.com/mission-and-values/ : Global Operating Principles (DoorDash, Deliveroo, Wolt)",
+    "[VERIFIED] https://en.wikipedia.org/wiki/DoorDash : Deliveroo deal (offer Apr 2025, acquisition announced 2025), SevenRooms acquisition (May 2025)",
+    "[VERIFIED] https://www.levels.fyi/companies/doordash/salaries/software-engineer/locations/united-states : E3 to E8 averages",
+    "[VERIFIED] https://interviewing.io/doordash-interview-questions : third-party summary (CodePair screen, 4 onsite rounds; says AI prohibited, outdated for Code Craft)",
+    "[VERIFIED] https://www.aced.io/guides/doordash-software-engineer-interview : Aced (formerly Exponent; tryexponent.com redirects here) guide, updated Oct 2026: CodeCraft, debugging, and a 60-min AI-assisted working session on your own machine",
+    "[VERIFIED] https://jugaldb.substack.com/p/494-summer-2027-internships-are-already : Jugal's Aug 2026 list including DoorDash Software Engineer I",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/company/DoorDash : community question list (client-rendered)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/bootstrap-api-endpoint/cmkt5tafu0mm308adjm0tc52s : REST endpoint aggregating multiple services (2026-01 to 2026-09)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/dasher-picker-hashmap/cmfhopea702if08adb7xvt7tc : Dasher picker (code review/debug), 2026",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/round-robin-scheduling/cmrkcdp2210mx09adh4k612jw : round robin code review, 2026-07",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/single-threaded-cpu/cm5eguhaf03fc838ocd85qy2e : LC 1834 reported for DoorDash (2025)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/koko-eating-bananas/cm5eguhac02op838oh1ru6xrs : LC 875 reported (DoorDash and others, 2026)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/food-item-reviews/cm8yfscj300uwad08cpbxpvjc : food item review app SD (2026)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/donations-website-charities/cmbdisew101kuad08fuuiky5v : donations website SD (DoorDash, Lyft, Whatnot; 2026)",
+    "[VERIFIED] https://www.hellointerview.com/community/questions/job-scheduler-cron-history/cm7w828yv00sejmejlmofwtvp : job scheduler SD (incl. DoorDash; junior to staff)",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-Questions-E813073.htm : Glassdoor reviews (read in browser)",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW105419562.htm : SWE I NYC Aug 2026 format + behavioral questions",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW105222508.htm : SWE Intern NYC offer, 1h LC + 1h ICR + 30m behavioral",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW105806665.htm : SWE Intern, 1h LC + 1h codebase + 30m behavioral (Oct 2026)",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW105835918.htm : SWE Intern Atlanta, Python algorithms + class-based problem + behavioral",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW104292214.htm : SWE New Grad Toronto: OA, greedy + LRU",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW103859116.htm : SWE New Grad SF (interviewed Jan 2025): super day of 3 interviews, API question",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW101171471.htm : SWE Intern 2025: OA, 2 x 30-min technical + behavioral",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW100683410.htm : SDE Intern SF 2025: HackerRank OA, two graph mediums, STAR behavioral",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW102763967.htm : SDE Intern 2026: OA + 2 DSA + behavioral",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW104956519.htm : SWE Sunnyvale offer: debugging round robin + consistent hashing; bootstrap API",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW105344567.htm : SWE 2026: interactive design + LC + behavioral",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW104436796.htm : validate shopping cart; nearest source in grid",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW104189499.htm : K nearest restaurants",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW103953534.htm : Seattle onsite incl. 1 AI interview round",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW102654652.htm : Toronto: API design day + SD, debugging, AI coding, HM",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW101518010.htm : phone screen same as LC 1790",
+    "[VERIFIED] https://www.glassdoor.com/Interview/DoorDash-Interview-E813073-RVW104202927.htm : Junior SWE London (HackerRank): track driver hours per client",
+    "[VERIFIED] https://leetcode.com/discuss/post/6855674/doordash-phone-interview-by-anonymous_us-yh8b/ : Closest DashMart",
+    "[VERIFIED] https://leetcode.com/discuss/post/7291490/doordash-interview-question-by-anonymous-51mh/ : Closest DashMart with customers follow-up",
+    "[VERIFIED] https://leetcode.com/discuss/post/6855480/doordash-phone-interview-by-brian39-nm4k/ : chef order problem",
+    "[VERIFIED] https://leetcode.com/discuss/post/6837988/doordash-screening-round-sharing-here-if-a86b/ : same order-priority problem",
+    "[VERIFIED] https://leetcode.com/discuss/post/7418588/doordash-usa-tech-screen-by-anonymous_us-zy3f/ : two dashers LCS",
+    "[VERIFIED] https://leetcode.com/discuss/post/7353783/usa-doordash-code-craft-round-by-mathrul-ch15/ : Dasher payout Code Craft",
+    "[VERIFIED] https://leetcode.com/discuss/post/7401147/usa-doordash-onsite-ai-codecraft-by-anon-bods/ : AI Code Craft workflow engine",
+    "[VERIFIED] https://leetcode.com/discuss/post/7392565/usa-doordash-debugging-onsite-by-anonymo-ikw9/ : debugging round (no AI)",
+    "[VERIFIED] https://leetcode.com/discuss/post/7401058/doordash-phone-screen-and-virtual-onsite-0jow/ : phone screen tree flood + onsite outline",
+    "[VERIFIED] https://leetcode.com/discuss/post/7260823/doordash-e4-software-engineer-interview-8cyeb/ : E4 Code Craft bootstrap API, SD food reviews, HM",
+    "[VERIFIED] https://leetcode.com/discuss/post/7124843/doordash-interview-software-enginner-e3-iizmv/ : E3 loop (Code Craft, debugging, HM, SD)",
+    "[VERIFIED] https://leetcode.com/discuss/post/6561083/doordash-e4-swe-phone-screen-by-matchaic-lhuv/ : live-node max path sum",
+    "[VERIFIED] https://leetcode.com/discuss/post/6612937/doordash-swe-phone-screen-rejected-by-ja-s78e/ : same question; must run code",
+    "[VERIFIED] https://leetcode.com/discuss/post/6794074/doordash-phone-screen-us-backend-e4-reje-2ff6/ : search suggestions",
+    "[VERIFIED] https://leetcode.com/discuss/post/6452675/doordash-e4-phone-screen-by-anonymous_us-48kz/ : search suggestions",
+    "[VERIFIED] https://leetcode.com/discuss/post/6605298/doordash-phone-screen-usa-e4-by-anonymou-s7yt/ : LRU variant",
+    "[VERIFIED] https://leetcode.com/discuss/post/6765958/doordash-phone-screen-usa-e4-pass-by-ano-fgqg/ : longest increasing path",
+    "[VERIFIED] https://leetcode.com/discuss/post/6837694/doordash-phonescreen-us-2025-by-anonymou-9lff/ : next greater element III",
+    "[VERIFIED] https://leetcode.com/discuss/post/7029095/doordash-phone-screen-by-anonymous_user-nx67/ : basic calculator II",
+    "[VERIFIED] https://leetcode.com/discuss/post/6637658/doordash-phone-screen-usa-e4-rejected-by-n8km/ : max calories within budget",
+    "[VERIFIED] https://leetcode.com/discuss/post/6684308/doordash-phone-screen-usa-e4-rejected-by-gqzb/ : walls-and-gates variant; finish early for follow-ups",
+    "[VERIFIED] https://leetcode.com/discuss/post/6478735/doordash-e4-phone-screen-passed-by-anony-i9s4/ : walls and gates, most common gates follow-up",
+    "[VERIFIED] https://leetcode.com/discuss/post/6444065/doordash-e4-phone-screen-reject-by-anony-uakg/ : Toronto: Koko + minimum size subarray sum",
+    "[VERIFIED] https://leetcode.com/discuss/post/6937836/doordash-swe-e4-onsite-experience-reject-vkus/ : E4 onsite: donations SD, Code Craft 3 APIs, debugging round robin",
+    "[VERIFIED] https://leetcode.com/discuss/post/6745083/doordash-onsite-full-interview-experienc-npb1/ : E4 onsite rounds",
+    "[VERIFIED] https://leetcode.com/discuss/post/8288207/doordash-interview-experience-rejected-b-dbct/ : India SDE-2: bug bash, SD, coding, leadership over 2 days"
+  ],
+  "confidence_notes": "Strong: official early-career format (2 coding rounds + Engineering Values chat), internship rules and dates, SWE I pay range, and many consistent 2025 to 2026 candidate reports. Medium: whether an OA is sent depends on region and cycle (reported for interns in 2025 and Toronto new grads in 2026, absent in several US SWE I reports). The AI-enabled Code Craft is reported for experienced onsites from late 2025; no report shows AI in intern/new grad rounds. Operating Principle names were read from image labels and the text on the values page (carousel), so exact wording may differ slightly. interviewing.io still says AI use is prohibited, which conflicts with Dec 2025 Code Craft reports. India (Pune) and London (Deliveroo/DoorDash) loops differ from US. LeetCode discuss content confirmed via LeetCode's GraphQL API (pages block scripts); Glassdoor permalinks confirmed in a browser session. Reddit and Blind not covered because the web search budget ran out."
+}

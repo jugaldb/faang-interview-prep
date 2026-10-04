@@ -1,0 +1,308 @@
+{
+ "slug": "palo-alto-networks",
+ "name": "Palo Alto Networks",
+ "category": "Big Tech",
+ "one_liner": "Cybersecurity platform (firewalls, Cortex, Unit 42). Interviews are LeetCode easy-medium plus networking, OS and security fundamentals and practical design.",
+ "careers_url": "https://jobs.paloaltonetworks.com/en/",
+ "students_url": "https://jobs.paloaltonetworks.com/en/early-in-career",
+ "interview_prep_url": "https://jobs.paloaltonetworks.com/en/faq",
+ "levels": {
+  "intern": "Software Engineer Intern (US: 12-week summer program per the official early-career page; India: 5-month internships that convert to full time per an official Oct 2025 story; an official Mar 2025 story describes a Jan 2023 intern converting to full time by August)",
+  "new_grad": "Software Engineer (entry level per Levels.fyi, median 0 YOE; 2025 US new grad reports are filed as 'Software Engineer (New Grad)'). India campus grads join through the year-long LEAP early-career program (Bangalore). US roles aimed at Master's graduates have appeared titled 'Staff Software Engineer (Master's)' (LeetCode posts Mar and Aug 2026); Levels.fyi maps Staff to the mid level.",
+  "early_career": "Software Engineer for 0 to 1 yrs; Staff Software Engineer is the next level (Levels.fyi median about 2 YOE, average 2.9). 'Staff' is a mid-level title here, not a senior one; Sr Staff (median about 7 YOE) is the senior step."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Application",
+   "details": "Apply on jobs.paloaltonetworks.com. In India, new campus graduates start in the year-long LEAP program in Bangalore (official India page; Sep 2025 official post welcoming the campus cohort)."
+  },
+  {
+   "stage": "Online assessments",
+   "details": "US NG (Aug 2025): two OAs, a Codility coding test and a HireVue video interview. US Master's-level role titled Staff Software Engineer (Aug 2026): 3 questions in 75 minutes, one 15-minute 'basic problem solving' question plus two 'intermediate problem solving' questions in 60 minutes. A May 2025 LeetCode report (location not stated): timed OA with DSA multiple-choice questions plus 2 basic coding problems. Israel junior roles: Codility test with 3 easy-medium questions taken on site with other candidates on a fixed day."
+  },
+  {
+   "stage": "Recruiter screen",
+   "details": "Behavioral questions plus logistics; candidates were not told it would be behavioral, so prepare stories."
+  },
+  {
+   "stage": "Onsite / final technical rounds",
+   "details": "US NG (Aug and Sep 2025, Santa Clara): 3 technical interviews, each with about 2 behavioral questions; discussion of resume projects, system design, and design-oriented coding rather than pure LeetCode; 'security-style' coding questions. A May 2025 LeetCode report (location not stated): Tech 1 DSA with complexity and alternative approaches; Tech 2 system design plus core CS (implement data structures, hashing and rehashing, polymorphism, browser internals, computer networks, OS)."
+  },
+  {
+   "stage": "HR and offer",
+   "details": "Background check for finalists (official FAQ). US NG process took about 2 weeks in one Aug 2025 report."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Online assessment",
+   "details": "One OA round (US SDE intern, Apr 2025). A Sep 2025 LeetCode post says Technical Support Engineer internships also start with an online test."
+  },
+  {
+   "stage": "Recruiter call",
+   "details": "Background and logistics."
+  },
+  {
+   "stage": "Two technical interviews (about 1 hour each, Zoom)",
+   "details": "Brief introduction then LeetCode-style questions, usually easy to medium for university interns (e.g. merge two sorted arrays of different lengths). Some behavioral questions ('a challenge working with a group')."
+  },
+  {
+   "stage": "Decision",
+   "details": "US interns join a 12-week summer program; India interns often convert to full-time roles at the end of the internship (official India internship stories, 2025)."
+  }
+ ],
+ "process_experienced_notes": "Experienced US loops (an Aug 2025 'Senior Software Engineer' report and a May 2025 'Software Engineer' report): recruiter screen, a hiring manager tech screen (projects, problem-solving approach, light coding and system design scenarios), then about three final rounds: coding with improvement follow-ups (a word ladder variant, then make it multithreaded; running code not required), a code improvement round with two engineers focused on multithreading (pseudocode allowed), and a real-world, work-related system design round. A Mar 2026 LeetCode post about the US 'Staff Software Engineer (Master's)' role says system design mostly focuses on networking and the loop has a code review round. Staff Software Engineer maps to about 2 to 3 yrs on Levels.fyi. Israel loops: HR call, a team lead interview on your stack (Aug 2025), then on-site coding (graph problems, an LC hard with the manager) and system design (Oct 2025). AI/ML and ML engineer loops (Sep 2025) add Python coding, ML concepts and networking or traffic-analysis scenarios. A US senior loop took about 4 months end to end (Apr 2025).",
+ "timeline": "Official FAQ: timeline varies by role and hiring team; you are told if an assessment is required; finalists get a background check. Reports: US NG about 2 weeks (Aug 2025); a US senior loop about 4 months (Apr 2025). US internships are a 12-week summer program; a Sep 2025 official post welcomed the India campus-grad LEAP cohort that joined in August. No hiring committee or team-match stage is described in public sources.",
+ "oa": {
+  "platform": "Codility (US NG 2025 and Israel) plus HireVue video (US NG 2025); the Aug 2026 US Master's-level OA used 'basic' and 'intermediate problem solving' sections (platform not named); India and apprentice OAs mix aptitude, MCQs and coding",
+  "format": "US NG (2025): Codility coding test and a separate HireVue. US Master's 'Staff SWE' (Aug 2026): 3 questions in 75 minutes (15-minute basic section, 60-minute intermediate section with 2 problems). Israel: 3 easy to medium coding questions on site (sometimes a networking task such as building a socket in Python, or text-file processing in Python). Apprentice Engineer, Bengaluru (Jul 2025): aptitude (quant and logical reasoning), basic programming, output prediction or debugging, MCQs on OS, DBMS and DSA. Another 2025 report: DSA MCQs plus 2 basic coding problems.",
+  "notes": "An Oct 2024 OA asked for the longest substring where every letter occurs an even number of times (prefix parity bitmask). Formats differ by country, degree level and role; you are told in advance if an assessment is required (official FAQ)."
+ },
+ "coding": {
+  "rounds": "Intern: 2 technical. NG: 3 technical in the final loop (each mixes coding, design and behavioral). A 2025 LeetCode report (location not stated): 2 technical.",
+  "style": "LeetCode easy to medium for interns and new grads (arrays, merging, tree traversal, DFS, backtracking, random shuffle), with some 'security-style' or design-oriented problems; hard questions appear in Israel manager rounds and for experienced hires.",
+  "environment": "Zoom or Teams with a shared editor for remote rounds; Codility for OAs; Israel tests on your own laptop in their office. Running code was not required in at least one experienced round.",
+  "graded_on": "Correct and optimal code, complexity analysis, explaining alternatives and trade-offs, plus fundamentals (OOP, APIs, networking, OS)."
+ },
+ "system_design": "Can appear even for new grads: US NG loops in 2025 included system design discussion inside technical rounds, and a May 2025 report's Tech 2 combined system design with core CS. Flavor is practical and networking or security oriented (real work problems, networking-focused design for the US Staff (Master's) role) rather than consumer-scale product design. Experienced loops add a dedicated design round and a code review or code improvement round.",
+ "behavioral": {
+  "framework": "Palo Alto Networks values (official culture page): Collaboration, Disruption, Execution, Inclusion, Integrity. A UK senior recruiter's official tips (Oct 2025) advise competency-based answers using STAR.",
+  "values_url": "https://jobs.paloaltonetworks.com/en/culture",
+  "what_they_look_for": [
+   "Knowledge of the company's products, customers and growth",
+   "Adaptability and a growth mindset in a fast-changing security market",
+   "Consultative, outcome-focused problem solving",
+   "Collaboration across teams",
+   "Clear STAR stories showing depth and breadth"
+  ],
+  "sample_questions": [
+   "Tell me about a time when you went above and beyond.",
+   "Tell me about a challenge you had when working with a group.",
+   "What do you do after making a mistake?",
+   "Describe a feature you have developed.",
+   "Walk me through the projects on your resume."
+  ]
+ },
+ "non_leetcode_formats": "HireVue video interview for US new grads (2025); on-site group Codility test days in Israel; networking tasks (sockets) inside OAs; core CS questions on computer networks, OS, DBMS and hashing (2025 reports); puzzle and troubleshooting questions in an India Python developer loop (12-coin weighing puzzle, 'connection refused' debugging, moving a 15 GB stream to 100 machines); code review or code improvement round focused on multithreading for experienced hires; networking-focused system design.",
+ "reported_questions": [
+  {
+   "title": "Merge two sorted arrays of different lengths in ascending order",
+   "url": "https://leetcode.com/problems/merge-sorted-array/",
+   "role": "Software Engineer Intern (US)",
+   "date": "2025-02",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineerinternship-united-states-february-20-2025-no-offer-neutral-22c6fba1/"
+  },
+  {
+   "title": "Merge sort, plus OOP and API fundamentals",
+   "url": "https://leetcode.com/problems/sort-an-array/",
+   "role": "Software Engineer (US, hiring manager tech screen)",
+   "date": "2025-05",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-united-states-may-8-2025-no-offer-positive-932809d8/"
+  },
+  {
+   "title": "Implement a shuffle of a list using rand",
+   "url": "https://leetcode.com/problems/shuffle-an-array/",
+   "role": "Junior Software Engineer (Tel Aviv)",
+   "date": "2025-02",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/junior-software-engineer-tel-aviv-yafo-february-1-2025-no-offer-neutral-a053571f/"
+  },
+  {
+   "title": "N-Rooks: return all valid boards with N non-attacking rooks (backtracking, N-Queens style)",
+   "url": "",
+   "role": "Junior Software Engineer (Tel Aviv)",
+   "date": "2025-02",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/junior-software-engineer-tel-aviv-yafo-february-1-2025-no-offer-neutral-a053571f/"
+  },
+  {
+   "title": "Clockwise traversal of a binary tree",
+   "url": "",
+   "role": "Coding round (role not stated)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6893838/palo-alto-coding-round-by-pkvanga1508-esp4/"
+  },
+  {
+   "title": "DFS problem in an in-person technical interview",
+   "url": "",
+   "role": "Junior Software Engineer (Tel Aviv)",
+   "date": "2025-07",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/junior-software-engineer-tel-aviv-yafo-july-2-2025-no-offer-positive-f8f173fd/"
+  },
+  {
+   "title": "On-site assessment: stack questions and a networking task (build a socket in Python); interview: fetch DB data with pagination and keep it in memory",
+   "url": "",
+   "role": "Software Engineer (Tel Aviv)",
+   "date": "2025-02",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-tel-aviv-yafo-february-20-2025-no-offer-neutral-3ca3826a/"
+  },
+  {
+   "title": "Codility test in Python processing text files",
+   "url": "",
+   "role": "Junior QA Automation Engineer (Israel)",
+   "date": "2025-02",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/junior-qa-automation-engineer-israel-february-28-2025-no-offer-negative-da96112e/"
+  },
+  {
+   "title": "Implement data structures from scratch; hashing and rehashing; polymorphism; browser internals; computer networks and OS questions",
+   "url": "",
+   "role": "Software Engineer (Technical Round 2; location not stated)",
+   "date": "2025-05",
+   "source_url": "https://leetcode.com/discuss/post/6775812/palo-alto-networks-interview-experience-rrahz/"
+  },
+  {
+   "title": "Projects, system design and design-oriented coding with security-style questions, about 2 behavioral questions per round",
+   "url": "",
+   "role": "Software Engineer New Grad (Santa Clara)",
+   "date": "2025-08",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-new-grad-santa-clara-ca-august-1-2025-no-offer-negative-b1ac029b/"
+  },
+  {
+   "title": "Graph-related coding question plus a project deep dive; a hard LeetCode question with the manager; system design",
+   "url": "",
+   "role": "Software Engineer (Israel)",
+   "date": "2025-10",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-israel-october-1-2025-no-offer-neutral-092eff8a/"
+  },
+  {
+   "title": "Word ladder variant, then improve it with multithreading; then improve a given piece of code for multithreading",
+   "url": "https://leetcode.com/problems/word-ladder/",
+   "role": "Senior Software Engineer (US)",
+   "date": "2025-08",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/senior-software-engineer-united-states-august-26-2025-no-offer-negative-7fa8dfb4/"
+  },
+  {
+   "title": "Tell me about a time when you went above and beyond",
+   "url": "",
+   "role": "Software Engineer (US, behavioral)",
+   "date": "2025-05",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-united-states-may-20-2025-no-offer-positive-3d85331c/"
+  },
+  {
+   "title": "Tell me about a challenge you had when working with a group",
+   "url": "",
+   "role": "SDE Intern (Santa Clara)",
+   "date": "2025-04",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/sde-intern-santa-clara-ca-april-1-2025-no-offer-positive-816e034d/"
+  },
+  {
+   "title": "OA basic problem: build a video recommendation list (watched categories first by decreasing relevance, unwatched categories alphabetically, titles alphabetical within each category)",
+   "url": "",
+   "role": "US Master's SWE (Staff Software Engineer title) OA",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8439539/us-oa-ms-swe-by-mathrules-18lt/"
+  },
+  {
+   "title": "OA intermediate problem: servers sorted by capacity; per query, minimum cost to connect two servers when a hop to the unique closest server costs 1 and any other hop costs the capacity difference",
+   "url": "",
+   "role": "US Master's SWE (Staff Software Engineer title) OA",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8439539/us-oa-ms-swe-by-mathrules-18lt/"
+  },
+  {
+   "title": "OA intermediate problem: binary signals pinged from 0 to 1; after each ping, count left-to-right bubble sweeps needed to sort the array",
+   "url": "",
+   "role": "US Master's SWE (Staff Software Engineer title) OA",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8439539/us-oa-ms-swe-by-mathrules-18lt/"
+  },
+  {
+   "title": "Design and code a logger class that outputs logs based on verbosity level",
+   "url": "",
+   "role": "Machine Learning Engineer (Santa Clara, offer)",
+   "date": "2025-09",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/machine-learning-engineer-santa-clara-ca-september-22-2025-accepted-offer-neutral-52d619bc/"
+  },
+  {
+   "title": "Search Insert Position (Python round)",
+   "url": "https://leetcode.com/problems/search-insert-position/",
+   "role": "AI/ML Engineer (San Francisco)",
+   "date": "2025-09",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/aiml-engineer-san-francisco-ca-september-30-2025-no-offer-positive-85c55e85/"
+  },
+  {
+   "title": "You open linkedin.com in a browser and get 'connection refused' with good connectivity: how do you debug it? Also: move a 15 GB stream refreshed every 15 minutes to 100 computers; 12-coin weighing puzzle",
+   "url": "",
+   "role": "Python Developer (New Delhi)",
+   "date": "2025-06",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/python-developer-new-delhi-june-1-2025-no-offer-negative-18c2ac77/"
+  },
+  {
+   "title": "Project deep dive plus rate limiting in microservices, failure handling between microservices and monoliths, load balancing",
+   "url": "",
+   "role": "Backend Developer (Tel Aviv, offer)",
+   "date": "2025-04",
+   "source_url": "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/backend-developer-tel-aviv-yafo-april-1-2025-declined-offer-positive-806b054d/"
+  }
+ ],
+ "focus_topics": [
+  "arrays and strings (LC easy to medium)",
+  "sorting and merging",
+  "binary tree traversals",
+  "DFS and backtracking",
+  "randomization (shuffle)",
+  "OOP and API fundamentals",
+  "hash table internals (hashing, rehashing)",
+  "computer networks: TCP/IP, sockets, OSI model, firewalls",
+  "operating systems and multithreading",
+  "practical, security-flavored system design",
+  "troubleshooting scenarios (networking, Linux) and logic puzzles for India roles"
+ ],
+ "tips": [
+  "For US new grad roles, prepare for two separate OAs: a Codility coding test and a HireVue video interview.",
+  "Treat the recruiter call as a behavioral interview; a 2025 new grad was not told it would be one.",
+  "Revise computer networks (TCP/IP, sockets, OSI, firewalls) and OS basics; a May 2025 candidate who was strong in DSA was rejected for weak CN and OS.",
+  "Practice LC easy-medium fundamentals (merge sorted arrays, tree traversals, DFS, shuffle) until you can also explain alternatives and complexity.",
+  "Use STAR for competency questions and research the company's products, customers and growth (UK senior recruiter's official tips, Oct 2025); know the main platforms such as Cortex and Prisma and the Unit 42 threat-intel team.",
+  "In India, target campus drives and internships: many interns convert to full time and new grads start in the LEAP program in Bangalore.",
+  "With 2 to 3 years of experience, apply to 'Staff Software Engineer' roles; Levels.fyi shows Staff as the mid level. US Master's grads should not skip 'Staff Software Engineer (Master's)' postings: the title is not senior.",
+  "For experienced loops, practice adding multithreading to an existing solution and reviewing someone else's code.",
+  "For the Aug 2026 style OA, budget time: one short 'basic' problem in 15 minutes, then two harder problems in 60 minutes; read the requirements carefully because the basic problem is mostly multi-key sorting."
+ ],
+ "compensation_note": "Levels.fyi (US, page updated Oct 4 2026): entry 'Software Engineer' median total comp about $165K (base about $135K, stock about $17.8K/yr, bonus about $12.3K; median 0 YOE); Staff Software Engineer (about 2 to 3 yrs) about $208K. RSUs vest over 4 years, 25% per year (Levels.fyi lists an annual schedule and a 1-year cliff then quarterly schedule). India entry median about INR 35.2 lakh (base about INR 21.9 lakh, stock about INR 11.1 lakh/yr; note the India entry sample has a median of about 3 YOE); India Staff about INR 46.3 lakh. Intern pay not found on a verifiable source.",
+ "sources": [
+  "https://jobs.paloaltonetworks.com/en/",
+  "https://jobs.paloaltonetworks.com/en/early-in-career",
+  "https://jobs.paloaltonetworks.com/en/faq",
+  "https://jobs.paloaltonetworks.com/en/culture",
+  "https://jobs.paloaltonetworks.com/en/india",
+  "https://jobs.paloaltonetworks.com/en/new-grad-program-early-talent-India-LEAP-2025",
+  "https://jobs.paloaltonetworks.com/en/Palo-Alto-Networks-India-Internship-Experiences-2025",
+  "https://jobs.paloaltonetworks.com/en/Priyanka-Early-Talent-Software-Engineer-India",
+  "https://jobs.paloaltonetworks.com/en/Rachel-early-talent-career-advice",
+  "https://jobs.paloaltonetworks.com/en/senior-recruiter-palo-alto-networks-UK-tips",
+  "https://www.youtube.com/watch?v=o1GR9-uJG6A",
+  "https://www.geeksforgeeks.org/gfg-academy/palo-alto-networks-recruitment-process/",
+  "https://www.levels.fyi/companies/palo-alto-networks/salaries/software-engineer",
+  "https://www.levels.fyi/companies/palo-alto-networks/salaries/software-engineer/locations/india",
+  "https://leetcode.com/discuss/post/6775812/palo-alto-networks-interview-experience-rrahz/",
+  "https://leetcode.com/discuss/post/6893838/palo-alto-coding-round-by-pkvanga1508-esp4/",
+  "https://leetcode.com/discuss/post/7655241/palo-alto-staff-software-engineermasters-sijf/",
+  "https://leetcode.com/discuss/post/8408728/palo-alto-networks-senior-staff-it-softw-n8lg/",
+  "https://leetcode.com/discuss/post/6250269/palo-alto-bengaluru-on-campus-recruitmen-1630/",
+  "https://leetcode.com/discuss/post/6161377/upcoming-ml-engineer-software-engineerne-pw5p/",
+  "https://leetcode.com/discuss/post/5860759/palo-alto-networks-oa-by-anonymous_user-jybu/",
+  "https://leetcode.com/discuss/post/7206302/paloalto-networks-technical-support-engi-1lx4/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-new-grad-santa-clara-ca-september-11-2025-accepted-offer-positive-a9979bbb/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-new-grad-santa-clara-ca-august-1-2025-no-offer-negative-b1ac029b/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/sde-intern-santa-clara-ca-april-1-2025-no-offer-positive-816e034d/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineerinternship-united-states-february-20-2025-no-offer-neutral-22c6fba1/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-united-states-may-20-2025-no-offer-positive-3d85331c/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-united-states-may-8-2025-no-offer-positive-932809d8/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/junior-software-engineer-tel-aviv-yafo-february-1-2025-no-offer-neutral-a053571f/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/junior-software-engineer-tel-aviv-yafo-july-2-2025-no-offer-positive-f8f173fd/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-tel-aviv-yafo-march-10-2025-no-offer-neutral-60aa163a/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-tel-aviv-yafo-february-20-2025-no-offer-neutral-3ca3826a/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-israel-october-1-2025-no-offer-neutral-092eff8a/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/junior-qa-automation-engineer-israel-february-28-2025-no-offer-negative-da96112e/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/apprentice-engineer-bengaluru-july-1-2025-no-offer-positive-56184d34/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/senior-software-engineer-united-states-august-26-2025-no-offer-negative-7fa8dfb4/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/senior-software-engineer-united-states-april-22-2025-no-offer-positive-14805123/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/software-engineer-israel-may-12-2025-no-offer-neutral-c9a1d9f6/",
+  "https://leetcode.com/discuss/post/8439539/us-oa-ms-swe-by-mathrules-18lt/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/machine-learning-engineer-santa-clara-ca-september-22-2025-accepted-offer-neutral-52d619bc/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/aiml-engineer-san-francisco-ca-september-30-2025-no-offer-positive-85c55e85/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/python-developer-new-delhi-june-1-2025-no-offer-negative-18c2ac77/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/backend-developer-tel-aviv-yafo-april-1-2025-declined-offer-positive-806b054d/",
+  "https://www.jointaro.com/interviews/companies/palo-alto-networks/experiences/senior-software-engineer-israel-august-9-2025-no-offer-positive-9ab69bb2/"
+ ],
+ "confidence_notes": "All URLs above were loaded and checked on 2026-10-04 (LeetCode Discuss via LeetCode's public GraphQL API, which also confirmed post titles, dates and the Palo Alto Networks tag on post 8439539; jointaro pages fetched directly; YouTube 'Path to Talent' video, Oct 2024, title confirmed, content not reviewed). Fact-check corrections (2026-10-04): the May 2025 LeetCode report (post 6775812) does not say India or campus, so it is no longer labeled as an India campus loop; the 'Staff Software Engineer (Master's)' post (7655241) is a prep question, not an experience, so it was removed from reported_questions and kept only as a format signal; the word ladder loop comes from a 'Senior Software Engineer' report, not a Staff-titled one; values order follows the official culture page. Public data on early-career loops is sparse: few 2025 to 2026 US new grad reports exist, and the two Santa Clara NG reports on jointaro (Aug and Sep 2025) have near-identical text with different outcomes, so treat them as one data point. The newest US data point is an Aug 2026 Master's-level OA (LeetCode). Process differs strongly by country (US Codility plus HireVue in 2025; Israel on-site Codility days; India campus LEAP hiring). PANW has no dedicated interview prep page; the FAQ, a UK recruiter tips post (Oct 2025) and the 'Path to Talent' video are the official material. GeeksforGeeks recruitment page (updated Apr 2025) is generic and low confidence. Glassdoor reviews could not be fetched (403) and were not used. Jugal's Substack has no Palo Alto Networks content."
+}

@@ -1,0 +1,302 @@
+{
+  "slug": "goldman-sachs",
+  "name": "Goldman Sachs",
+  "category": "Finance and quant",
+  "one_liner": "Global investment bank with large engineering teams; hiring runs HackerRank (coding plus math), a HireVue video, then CoderPad Superday interviews.",
+  "careers_url": "https://www.goldmansachs.com/careers/",
+  "students_url": "https://www.goldmansachs.com/careers/students",
+  "interview_prep_url": "https://www.goldmansachs.com/careers/students/prepare",
+  "levels": {
+    "intern": "Summer Analyst (Engineering). Programs range from one-week spring internships to full-time positions (official).",
+    "new_grad": "Analyst, via the New Analyst Program (full time; for students graduating Dec 2026 to Jul 2027; program starts Summer 2027).",
+    "early_career": "Analyst for roughly 0 to 3 years (in Aug 2026 a 3.2-YOE candidate posting on r/developersIndia was kept at Analyst despite asking for Associate); Associate for about 3+ years (often compared to SDE 2); then Vice President."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "Apply on the GS careers portal (higher.gs.com). New Analyst Program eligibility: graduating between Dec 2026 and Jul 2027; as of Oct 2026 'applications for select businesses are now open'. GS evaluates applications throughout the recruiting season, so you may hear about different roles at different times. Register for events at My GS Events."
+    },
+    {
+      "stage": "HackerRank assessment (engineering)",
+      "details": "Official: engineering applicants take a HackerRank assessment. Reported 2025 to 2026 'Engineering Combined' OA: 2 coding questions (1 easy, 1 medium to hard) plus about 9 math questions (probability, linear algebra, matrices); the email said 180 minutes (one candidate saw 225 in HackerRank). An Aug 2026 report describes a new 45-minute 'Software Diagnostics' section: fix a bug in a real-world environment (Django, Node.js or Spring Boot) with a built-in AI assistant for UI navigation, syntax and problem clarity."
+    },
+    {
+      "stage": "HireVue video interview",
+      "details": "Official: a video interview of about 30 minutes, recorded answers to preset questions. A Feb 2026 summer analyst candidate had only 1 question, followed by a location/division preference survey."
+    },
+    {
+      "stage": "Superday",
+      "details": "Official: typically 2 to 5 interviews for campus hires depending on division, meeting a cross-section of people you could work with; interviews are 30 to 60 minutes, one-on-one or in pairs, and the lineup is not shared in advance. Engineering Superdays use CoderPad for live coding."
+    },
+    {
+      "stage": "Decision",
+      "details": "Official PDF: GS aims to be in touch within two weeks after your interview; check in with your recruiter if not."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Application",
+      "details": "As of Oct 2026 the GS students page says summer internship applications are open; applications are reviewed throughout the season, so replies come at different times (a 2024 applicant who applied in late September got a still-reviewing email a month later)."
+    },
+    {
+      "stage": "HackerRank (coding plus math)",
+      "details": "2 coding questions plus math questions in one sitting (see OA). A Jan 2026 candidate completed both coding questions and all math questions for the 2026 Engineering role."
+    },
+    {
+      "stage": "HireVue",
+      "details": "About 30 minutes officially; a Feb 2026 candidate had a single question. A preference survey followed."
+    },
+    {
+      "stage": "Superday (two 45-minute interviews)",
+      "details": "Feb 2026, Dallas summer analyst: two 45-minute interviews assessing 'technical skills, consisting of coding and/or math, and behavioral skills'. Interview 1: one interviewer, about 5 minutes of behavioral/situational questions, then one CoderPad question; interview 2: same format with two interviewers. Questions were a LeetCode medium and a LeetCode easy. Another candidate interviewed in October and heard back a week later."
+    },
+    {
+      "stage": "Quant/strat intern variant",
+      "details": "A Nov 2025 Quant Strat intern Superday was also two 45-minute interviews in one day."
+    }
+  ],
+  "process_experienced_notes": "Lateral Analyst and Associate hires (common for 1 to 3 years, especially in India) follow: HackerRank OA (2 coding questions, e.g. an easy priority-queue problem and a Count Number of Teams variant) then a CoderPad elimination round (45 to 60 min, 2 DSA questions, write your own tests) then a Superday of 3 to 4 one-hour rounds, often with 2 interviewers each and often eliminatory: Data Structures; Software Engineering Practices (Java/OOP, collections, multithreading, SQL, design patterns, CI/CD, build process, unit testing, in-depth resume walkthrough); Software Design and Architecture (HLD such as a Twitter feed or a Datadog-style log service, LLD such as a parking lot); Hiring Manager (projects, SDLC, situational questions). Some get an extra DSA round, a director chat, or several hiring-manager calls for team matching. Division hiring freezes can force re-interviews for another division (Aug 2026 report). US 2026 Superday reports also mention 3 back-to-back rounds covering DSA, system design and behavioral.",
+  "timeline": "Official: you should hear within about two weeks after an interview. Campus (US intern 2026 cycle): OA in December, HireVue in early February, preference survey, Superday invite within days, Superday mid to late February. Lateral 2025 example: CoderPad in June, Superday in July, cleared to team matching late July, immigration consult late August, offer 'being prepared' early September, then weeks of silence before paperwork. A 2026 candidate was told results in 24 to 48 hours but waited longer. India New Analyst 2027 applications for some campuses had already closed by July 2026.",
+  "oa": {
+    "platform": "HackerRank",
+    "format": "Campus 'Engineering Combined': 2 coding questions (easy plus medium/hard) and about 9 math questions (probability, linear algebra, matrices), stated 180 minutes. Aug 2026 report adds a 45-minute 'Software Diagnostics' bug-fix section in Django, Node.js or Spring Boot with a built-in AI assistant. Lateral OA: 2 coding questions.",
+    "notes": "Official PDF points HackerRank candidates to a 'Guide to HackerRank Success'. The math section is unusual among tech OAs: revise probability, expected value, combinatorics and basic linear algebra. The HireVue comes after the OA for campus candidates."
+  },
+  "coding": {
+    "rounds": "CoderPad screen for laterals; 2 Superday interviews for interns; 1 to 3 coding-heavy Superday rounds for analysts",
+    "style": "LeetCode easy and medium with some hards; GS reuses a known pool of practical array/string/DP problems (student average scores, trapping rain water style 'snowpack', fraction to recurring decimal, grid DP 'stone collector', find minimum in rotated array). Java and OOP questions often mixed into coding rounds for Java teams.",
+    "environment": "CoderPad: you share your screen with an engineer, write and execute code while talking, choose your language (C++, C, Java, JavaScript, Perl, Python, Scala among others); templates may include a test harness to extend (e.g. doTestsPass()). Zoom with camera on for virtual rounds. HackerRank for the OA.",
+    "graded_on": "Official CoderPad criteria: problem solving, quality of your code, ability to read and write code, communication. Official PDF also says produce an optimal solution rather than one that simply works, explain your thought process and justify choices, and handle ambiguous specifications."
+  },
+  "system_design": "Not reported for summer analyst Superdays (Feb 2026 interns described coding plus behavioral only, with no conceptual OOP/OS questions). For Analyst roles, especially lateral hires and some US Superdays, a 'Software Design and Architecture' round is common: HLD (Twitter home timeline, Datadog-style logging) plus LLD (parking lot with nearest-spot search from multiple entrances, distributed cache class), with questions on database choice, indexing, load balancing and scaling.",
+  "behavioral": {
+    "framework": "Goldman Sachs values: Partnership, Client Service, Integrity, Excellence, plus the 14 Business Principles written in 1979.",
+    "values_url": "https://www.goldmansachs.com/our-firm/purpose-and-values",
+    "what_they_look_for": [
+      "Official: how you have navigated or would navigate real work situations; interviews focus on real-world problems",
+      "Official: creativity in problem solving and thinking about interoperability, scalability and performance",
+      "Official: dealing with ambiguous specifications and finding efficient solutions",
+      "Official: finance knowledge is a bonus, not a requirement",
+      "Integrity and client judgment in situational questions",
+      "Clear explanation of your choices and willingness to take hints"
+    ],
+    "sample_questions": [
+      "Why Goldman Sachs?",
+      "Why do you want to leave your current company?",
+      "An important client asks you for information about a competitor. What do you do?",
+      "A remote colleague sends you completed work that is not relevant to the project. What do you do?",
+      "Tell me about a time when you... (situational behavioral questions in a 2026 intern Superday)",
+      "Walk me through your SDLC: build, CI/CD, unit testing.",
+      "How much do you use AI in your work, and how do you decide whether its output is correct?",
+      "Walk me through a project on your resume: database choice, load, and how you would scale it."
+    ]
+  },
+  "non_leetcode_formats": "Math section on the OA (probability, linear algebra). HireVue recorded video answers. Software Diagnostics bug fix in a real framework with an AI assistant (reported Aug 2026). Software Engineering Practices round (Java internals, OOP, SQL, multithreading, design patterns, CI/CD, testing). LLD and HLD rounds for analysts. Quant and strat roles add stochastic calculus, differential equations, probability and statistics (official PDF).",
+  "reported_questions": [
+    {
+      "title": "High Five variation (average of top scores per student)",
+      "url": "https://leetcode.com/problems/high-five/",
+      "role": "Analyst, CoderPad",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6703606/goldman-sachs-analyst-role-coderpad-roun-lj13/"
+    },
+    {
+      "title": "Fraction to Recurring Decimal (variation)",
+      "url": "https://leetcode.com/problems/fraction-to-recurring-decimal/",
+      "role": "Analyst, CoderPad",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6703606/goldman-sachs-analyst-role-coderpad-roun-lj13/"
+    },
+    {
+      "title": "Count Number of Teams (similar)",
+      "url": "https://leetcode.com/problems/count-number-of-teams/",
+      "role": "Analyst, online assessment",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6840803/goldman-sachs-interview-experience-analy-1j5g/"
+    },
+    {
+      "title": "Minimum moves for a bishop to capture a seahorse on a chessboard (-1 if impossible)",
+      "url": "",
+      "role": "Analyst, CoderPad",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6840803/goldman-sachs-interview-experience-analy-1j5g/"
+    },
+    {
+      "title": "Find Median from Data Stream",
+      "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+      "role": "Analyst, Superday data structures round",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6840803/goldman-sachs-interview-experience-analy-1j5g/"
+    },
+    {
+      "title": "Decode Ways II",
+      "url": "https://leetcode.com/problems/decode-ways-ii/",
+      "role": "Analyst, Superday software engineering practices round",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6840803/goldman-sachs-interview-experience-analy-1j5g/"
+    },
+    {
+      "title": "Snowpack: units of snow captured between hills (Trapping Rain Water) with doTestsPass()",
+      "url": "https://leetcode.com/problems/trapping-rain-water/",
+      "role": "Analyst (1.8 YOE, Bengaluru), CoderPad",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6834408/goldman-sachs-analyst-bengaluru-selected-dgq8/"
+    },
+    {
+      "title": "Car Pooling",
+      "url": "https://leetcode.com/problems/car-pooling/",
+      "role": "Analyst, Superday round 1",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6834408/goldman-sachs-analyst-bengaluru-selected-dgq8/"
+    },
+    {
+      "title": "Single-Threaded CPU",
+      "url": "https://leetcode.com/problems/single-threaded-cpu/",
+      "role": "Analyst, Superday round 2",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6834408/goldman-sachs-analyst-bengaluru-selected-dgq8/"
+    },
+    {
+      "title": "Loyal customers: from two daily log files (timestamp, pageId, customerId), find customers who came both days and visited at least two unique pages",
+      "url": "",
+      "role": "Analyst, Superday round 3",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6834408/goldman-sachs-analyst-bengaluru-selected-dgq8/"
+    },
+    {
+      "title": "Longest substring of the same character (e.g. 'aabbbcccdddd' gives 4)",
+      "url": "https://leetcode.com/problems/consecutive-characters/",
+      "role": "Analyst, CoderPad",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7277766/goldman-sachs-coderpad-by-anonymous_user-2i3k/"
+    },
+    {
+      "title": "From a 2D array of [name, mark] pairs, return the highest student average",
+      "url": "",
+      "role": "Analyst, CoderPad",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7277766/goldman-sachs-coderpad-by-anonymous_user-2i3k/"
+    },
+    {
+      "title": "LFU Cache implementation and discussion",
+      "url": "https://leetcode.com/problems/lfu-cache/",
+      "role": "Analyst, CoderPad",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517221/goldman-superday-by-anonymous_user-dl78/"
+    },
+    {
+      "title": "Stack-based string problem similar to Remove All Adjacent Duplicates in String II",
+      "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+      "role": "Analyst, Superday round 1",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517221/goldman-superday-by-anonymous_user-dl78/"
+    },
+    {
+      "title": "Parking lot LLD, then find the nearest free spot from multiple entrances using (x, y) locations",
+      "url": "",
+      "role": "Analyst, Superday design round",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517221/goldman-superday-by-anonymous_user-dl78/"
+    },
+    {
+      "title": "HLD: Twitter home feed (global plus followed users' tweets), entities and database choice",
+      "url": "",
+      "role": "Superday design round (US)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7558995/goldman-sachs-superday-additional-dsa-ro-r1v6/"
+    },
+    {
+      "title": "Blackjack: decide whether a hand is blackjack when an Ace counts as 1 or 11",
+      "url": "",
+      "role": "Superday DSA round (US)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7558995/goldman-sachs-superday-additional-dsa-ro-r1v6/"
+    },
+    {
+      "title": "Max Area of Island, with 10 to 20 follow-up questions on DFS vs BFS",
+      "url": "https://leetcode.com/problems/max-area-of-island/",
+      "role": "Superday additional DSA round (US)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7558995/goldman-sachs-superday-additional-dsa-ro-r1v6/"
+    },
+    {
+      "title": "Maximum stones collected moving only up or right from bottom-left to top-right of a grid",
+      "url": "",
+      "role": "Associate, CoderPad",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7623156/goldman-sachs-coderpad-associate-by-kaus-k23o/"
+    },
+    {
+      "title": "Largest tree in a forest from (child, parent) pairs; tie-break on root ID",
+      "url": "",
+      "role": "Associate, CoderPad",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7623156/goldman-sachs-coderpad-associate-by-kaus-k23o/"
+    }
+  ],
+  "focus_topics": [
+    "Arrays, strings and hash maps (score averages, frequency counting)",
+    "Dynamic programming on grids and strings",
+    "Heaps and scheduling (median stream, single-threaded CPU, car pooling)",
+    "Graphs and grids: BFS/DFS (islands, rotting oranges, forests from parent pointers)",
+    "Stacks (adjacent duplicates, monotonic stack)",
+    "Binary search (rotated arrays)",
+    "Cache design (LRU, LFU)",
+    "Java and OOP fundamentals, multithreading, SQL",
+    "Probability, statistics and linear algebra (OA math section)",
+    "SDLC, CI/CD and unit testing",
+    "LLD (parking lot) and HLD (news feed, logging) for analyst roles"
+  ],
+  "tips": [
+    "Revise probability, expected value, combinatorics and basic linear algebra; the campus OA puts math questions next to 2 coding questions.",
+    "GS asks candidates not to review CoderPad questions in advance or share them afterward. Prepare by topic (grid DP, heaps, strings, caches) rather than memorizing reported prompts.",
+    "In CoderPad, run your code, add your own test cases, and state time and space complexity; GS grades problem solving, code quality, reading and writing code, and communication.",
+    "Pick your strongest language. If you choose Java, expect questions on collections, streams, polymorphism, records and lambdas.",
+    "Rehearse 30 to 60 second spoken answers on camera for HireVue; 'why GS' and situational questions come up.",
+    "Learn the four values (partnership, client service, integrity, excellence) and skim the Business Principles; situational questions test client and integrity judgment.",
+    "With 1+ years of experience, prepare one LLD (parking lot) and one HLD (news feed) plus database indexing basics for the design and SDLC rounds.",
+    "Watch for the 2026 Software Diagnostics section: practice reading and fixing a bug in an unfamiliar Django, Node.js or Spring Boot app."
+  ],
+  "compensation_note": "Levels.fyi (checked Oct 4, 2026): Analyst averages about $114K total comp in the US (13 recent data points, many in Dallas and Salt Lake City); New York City Analyst median about $139.9K; a Sep 2026 NYC new grad entry shows $145K base; Dallas new grad entries $105K to $133K. Associate averages about $169K. India Analyst offers on LeetCode (2025 to 2026): INR 23L to 29L base plus about INR 5L bonus plus relocation, about INR 30L to 36.5L total. Interns (Levels.fyi): NYC $55.29/hr (Summer 2025), Salt Lake City $41/hr (Summer 2026), London about $39/hr (Summer 2025).",
+  "sources": [
+    "https://www.goldmansachs.com/careers/",
+    "https://www.goldmansachs.com/careers/students",
+    "https://www.goldmansachs.com/careers/students/prepare",
+    "https://www.goldmansachs.com/careers/students/programs-and-internships",
+    "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/new-analyst-program",
+    "https://www.goldmansachs.com/careers/discover/virtual-interview-prep.pdf",
+    "https://www.goldmansachs.com/our-firm/purpose-and-values",
+    "https://higher.gs.com/",
+    "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already",
+    "https://www.levels.fyi/companies/goldman-sachs/salaries/software-engineer",
+    "https://www.levels.fyi/companies/goldman-sachs/salaries/software-engineer/levels/analyst",
+    "https://www.levels.fyi/companies/goldman-sachs/salaries/software-engineer/levels/analyst/locations/new-york-city-area",
+    "https://www.levels.fyi/companies/goldman-sachs/salaries/software-engineer/levels/associate",
+    "https://www.levels.fyi/internships/Goldman-Sachs/Software-Engineer-Intern/",
+    "https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/Goldman%20Sachs/2.%20Three%20Months.csv",
+    "https://leetcode.com/discuss/post/6703606/goldman-sachs-analyst-role-coderpad-roun-lj13/",
+    "https://leetcode.com/discuss/post/6840803/goldman-sachs-interview-experience-analy-1j5g/",
+    "https://leetcode.com/discuss/post/6834408/goldman-sachs-analyst-bengaluru-selected-dgq8/",
+    "https://leetcode.com/discuss/post/7277766/goldman-sachs-coderpad-by-anonymous_user-2i3k/",
+    "https://leetcode.com/discuss/post/7517221/goldman-superday-by-anonymous_user-dl78/",
+    "https://leetcode.com/discuss/post/7558995/goldman-sachs-superday-additional-dsa-ro-r1v6/",
+    "https://leetcode.com/discuss/post/7623156/goldman-sachs-coderpad-associate-by-kaus-k23o/",
+    "https://leetcode.com/discuss/post/6834428/goldman-sachs-analyst-bengaluru-selected-6pew/",
+    "https://leetcode.com/discuss/post/6369775/goldman-sachs-analyst-fresher-hyderabad-modmu/",
+    "https://leetcode.com/discuss/post/7620403/goldman-sachs-analyst-by-anonymous_user-qd1v/",
+    "https://leetcode.com/discuss/post/8170184/goldman-sachs-offer-compensation-details-b9qa/",
+    "https://leetcode.com/discuss/post/7240818/my-goldman-sachs-superday-team-matching-27cvr/",
+    "https://leetcode.com/discuss/post/8336507/goldman-sachs-superday-by-anonymous_user-za1g/",
+    "https://leetcode.com/discuss/post/7329472/goldman-sachs-intern-superday-by-ddp_17-eceq/",
+    "https://leetcode.com/discuss/post/6502912/goldman-sachs-coderpad-associate-by-anon-ddmx/",
+    "https://leetcode.com/discuss/post/6653312/goldman-sachs-superday-experience-by-ano-0ucw/",
+    "https://www.reddit.com/r/goldmansachs/comments/1gf6lz5/received_a_still_reviewing_email_for_2025_goldman/",
+    "https://www.reddit.com/r/goldmansachs/comments/1qdv1q6/2026_goldman_sachs_engineering_combined/",
+    "https://www.reddit.com/r/csMajors/comments/1r32xx2/goldman_sachs_software_engineer_summer_analyst/",
+    "https://www.reddit.com/r/leetcode/comments/1t7h5k7/will_i_advance_to_goldman_sachs_interview/",
+    "https://www.reddit.com/r/csMajors/comments/1vu329x/goldman_sachs_oa_for_engineering/",
+    "https://www.reddit.com/r/developersIndia/comments/1w0o2z0/goldman_sachs_associate_analyst_dilemma_asked_to/",
+    "https://www.reddit.com/r/PlacementsPrep/comments/1uni9kz/did_anyone_apply_for_goldman_sachs_new_analyst/"
+  ],
+  "confidence_notes": "Verification (Oct 4, 2026): goldmansachs.com pages fetched directly [VERIFIED]; the interview prep PDF loads through a redirect page and was downloaded and read [VERIFIED]; Levels.fyi pages fetched [VERIFIED]; LeetCode posts via LeetCode's GraphQL API and Reddit posts via the Arctic Shift archive API [VERIFIED]. Caveats: most detailed Superday reports on LeetCode come from lateral Analyst/Associate candidates in India, which differ from US campus Superdays (US interns report two 45-minute interviews). The Software Diagnostics section with an AI assistant is a single Aug 2026 report quoting the OA invite; confirm with your own invite. Math question counts vary (9 to 10) and time stated vs shown differed in one report. Division matters a lot (Engineering vs Global Banking & Markets strats vs Asset & Wealth Management). The GS values page lists values; no official engineering-specific rubric beyond the CoderPad criteria in the PDF. The Summer Analyst program page URL could not be resolved (program listing is script-rendered); use the programs-and-internships listing or higher.gs.com. The new Analyst comp average of $114K is pulled down by non-NYC entries."
+}

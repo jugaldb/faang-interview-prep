@@ -1,0 +1,336 @@
+{
+  "slug": "ebay",
+  "name": "eBay",
+  "category": "Big Tech",
+  "one_liner": "Global online marketplace (search, payments, ads, eBay Live). Known for CodeSignal assessments (project-style ICA or GCA) and optimal-only DSA plus HLD/LLD loops.",
+  "careers_url": "https://careers.ebayinc.com/",
+  "students_url": "https://careers.ebayinc.com/student-opportunities/",
+  "interview_prep_url": "https://careers.ebayinc.com/how-we-hire/",
+  "levels": {
+    "intern": "Software Engineer Intern (NA, EMEA, APAC programs; NA applications via RippleMatch).",
+    "new_grad": "SE 1 / Software Engineer 1 (Levels.fyi entry level). India entry roles also posted as 'Java Engineer' for 0 to 2 yrs (Jul 2025).",
+    "early_career": "SE 1 (0 to 2 yrs), SE 2 (India posts: T23, about 2 to 3 yrs), SE 3 (India posts: about 3 to 5 yrs; 3 to 4.8 YOE reported); MTS 1 and MTS 2 above. Downleveling from SE 3 to SE 2 after the loop is reported for a 3 YOE candidate (Nov 2025)."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Apply",
+      "details": "North America students apply through eBay's RippleMatch page; others via jobs.ebayinc.com. Official 'How we hire': apply via careers site, job board, recruiter or referral."
+    },
+    {
+      "stage": "Coding assessment",
+      "details": "Official: 'For engineering roles, you may complete a coding assessment.' Reported platform is CodeSignal: either the General Coding Assessment (GCA: 4 questions, easy/easy/medium/medium, 70 min, Jul 2026) or the Industry Coding Assessment (ICA: one project-style task in 4 sequential levels, scored out of 600). A 2022 new grad applicant reported a CodeSignal OA score of 847 (older 850 scale)."
+    },
+    {
+      "stage": "Virtual interviews",
+      "details": "Official: Zoom meetings with a recruiter, the hiring manager and teammates; BrightHire may record/transcribe with consent and you can opt out; keep your camera on in virtual interviews (official). Reported technical rounds: live coding on CodeSignal with 2 problems in 60 min where the optimal solution is expected; interviewers dry-run code by hand."
+    },
+    {
+      "stage": "Design + hiring manager",
+      "details": "For early-career hires (2 YOE), loops still included an HLD round (LunchDrop corporate food ordering) and a hiring manager round that turned into another design round (a dashboard). HM questions: why eBay, why leaving, on-call, testing frameworks."
+    },
+    {
+      "stage": "Decision and offer",
+      "details": "Official: teams review structured feedback (a hiring panel or debrief for some roles), then a verbal offer and an offer letter. Reported: director approval stage and document checks (last 3 payslips, current offer letter) before the written offer."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Apply",
+      "details": "Official: internships posted September through March in North America (US, Canada), EMEA and APAC; NA applicants use RippleMatch, EMEA applicants use the Emerging Talent page. eBay was named in Yello/WayUp's Top 100 Internship Programs for 2026."
+    },
+    {
+      "stage": "Online assessment",
+      "details": "CodeSignal. The most recent intern-specific report is old (Dec 2022): 70 min, 3 questions (easy sort, long matrix-manipulation implementation, Merge Intervals variant). Expect GCA or ICA today [no 2025 to 2026 intern OA report found]."
+    },
+    {
+      "stage": "Interviews",
+      "details": "Virtual Zoom interviews with recruiter, hiring manager and team (official). No 2025 to 2026 intern interview write-up found on LeetCode; use the early-career loop as the model: DSA medium with optimal solution, projects, behavioral against eBay values."
+    }
+  ],
+  "process_experienced_notes": "India SE 2, SE 3 and MTS 1 hiring (most 2025 to 2026 data) runs as: recruiter outreach or referral, CodeSignal ICA or GCA, sometimes a virtual first round, then an in-person hiring drive in Bengaluru (reported drives: Sep 12 to 14, 2025; Nov 7 to 10, 2025; Apr 10, 2026; Jul 10 to 12, 2026; Jul 26, 2026) with 3 to 5 rounds: 1 to 2 DSA rounds (2 problems each, optimal expected, some hard problems such as Reverse Pairs, N-Queens, Binary Tree Cameras), HLD (Dropbox, TinyURL, distributed event booking, notification systems, an eBay chat app, a storage service for millions of ad-click events built without an off-the-shelf DB), LLD (in-memory filesystem, discount system, in-memory DB), HM (STAR questions: why leave, why eBay, a time you helped a peer, simplified something for a customer, took critical feedback) and sometimes a Director round. Coding prompts are often long stories hiding a classic problem (remove nth node from end, unique permutations), and an Apr 2026 DSA round also discussed how you use AI at work (MCP, trusting AI-written code). In June 2026 a candidate was told the last round would be a new-policy 'face to face AI driven/coding round' with no format shared. US senior loops (Oct 2025) included a 1-hour debugging/refactoring code-review round and a 1-hour API design round.",
+  "timeline": "Internships post September through March (official). Experienced India loops: OA, then drive within about 2 to 4 weeks (Mar 31, 2026 virtual R1, then Apr 10 drive); offer needs director approval and document verification (one loop on Aug 25, 2026 had documents requested Sep 11). Positions can close mid-process (Jun 2026: closed after 3 virtual rounds, candidate sent a new OA for another req). No hiring committee or team-match stage reported: hiring is per team.",
+  "oa": {
+    "platform": "CodeSignal (GCA or ICA). One 2026 SE-III report said HackerRank for an LLD-style API task, so some teams differ.",
+    "format": "ICA: one codebase, implement classes/methods so each of 4 levels' tests pass; levels open in order (examples: in-memory database with TTL and look-back; banking system with top spenders, scheduled payments, account merges; cloud storage with quotas and compression). Scored out of 600 (reported scores 480, 500, 510 and 520; 500 and 520 led to drive invites in 2026). Another 2026 ICA task: design an ATM with add-on features in later levels. GCA: 4 independent questions (easy, easy, medium, medium), 70 min.",
+    "notes": "Recruiters may let you reuse an existing CodeSignal score instead of retaking. Passing the OA did not guarantee a drive invite (Oct 2025, Jan 2026 posts). Level 4 of ICA often needs efficient state design; one May 2026 write-up (which the poster says was reconstructed with Gemini) warns that naive deep copies for backups can fail hidden performance tests."
+  },
+  "coding": {
+    "rounds": "1 to 2 live DSA rounds (60 min, usually 2 problems); some loops add a third problem if time remains.",
+    "style": "LeetCode medium to hard; optimal solution expected (a Jul 2026 candidate passed the visible tests but was rejected because neither answer was optimal: a heap before switching to per-array pointers, and a two-step pivot search instead of single-pass binary search). Mix of arrays/two pointers, binary search, heaps, graphs, and occasional hard problems.",
+    "environment": "CodeSignal live coding pad with visible test cases; some India drives are in-person.",
+    "graded_on": "Optimality, correctness under manual dry run, edge cases (overflow-safe mid, early return), clean code, and explaining brute force to optimal."
+  },
+  "system_design": "Appears early. SDE-2 candidates with 2 YOE had a full HLD round (LunchDrop food ordering: menus, customization, caching, real-time updates) and an HM-led design round (dashboard). 4 YOE loops had HLD (wishlist price-drop alerts at more than 5% drop) and LLD (in-memory filesystem with addDirectory/addFile/goToDirectory/ls). Other reported designs: Dropbox, TinyURL (why Base64), distributed event booking, aggregator over services with different latencies, discount system with one-to-many and many-to-many relations. The ICA OA itself is an LLD/OOP exercise.",
+  "behavioral": {
+    "framework": "eBay culture values ('DNA'): Empower Our Community, Innovate Boldly, Be For Everyone, Deliver With Impact, Act With Integrity.",
+    "values_url": "https://careers.ebayinc.com/our-culture/",
+    "what_they_look_for": [
+      "Connection to eBay's mission (official How we hire)",
+      "Real examples of problem-solving and collaboration with measurable impact (official)",
+      "Authenticity: genuine personality alongside technical competency (official)",
+      "Past project stories in STAR with numbers (2026 compilation post)",
+      "Production ownership: on-call, testing frameworks, production scope (HM round, 2026)",
+      "STAR answers in HM rounds about peers, customers, impact and feedback (Apr 2026 SE3 and MTS1 posts)"
+    ],
+    "sample_questions": [
+      "Why eBay?",
+      "Why are you leaving your current company?",
+      "Walk through the architecture of a past project and your design decisions.",
+      "Tell me about your on-call rotations and how you handle production issues.",
+      "Which testing frameworks do you use and how do you test your services?",
+      "Tell me about a time you helped a peer. Why and how did you help?",
+      "Tell me about a time you simplified something for a customer.",
+      "Tell me about a time you received critical feedback from your manager.",
+      "What feedback on improvement would your current manager give you?",
+      "Why should I hire you, and why should I not hire you?"
+    ]
+  },
+  "non_leetcode_formats": "CodeSignal Industry Coding Assessment (4-level project implementation). US loops: 1-hour debugging/refactoring in code-review style and 1-hour API design (senior, Oct 2025). A repo task: read a JSON file, deserialize to objects, call an HTTP endpoint and process the response (2024 to 2026 compilation). New 'AI driven/coding' face-to-face round reported in June 2026 for SWE3 with no public format. Official policy: no AI to generate answers in interviews or assessments.",
+  "reported_questions": [
+    {
+      "title": "CodeSignal ICA: in-memory database with set/get/compareAndSet/compareAndDelete, scan and scanByPrefix, TTL, and look-back reads at a past timestamp",
+      "url": "",
+      "role": "MTS 1 (India)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7316549/ebay-codesignal-oa-industry-coding-asses-8qbn/"
+    },
+    {
+      "title": "CodeSignal ICA variant: SET_OR_INC/GET/DELETE records, FETCH with sorted formatted output, TTL, BACKUP/RESTORE snapshots (scored 510/600; poster says the description was reconstructed with Gemini)",
+      "url": "",
+      "role": "SWE (OA)",
+      "date": "2026-05",
+      "source_url": "https://leetcode.com/discuss/post/8122064/ebay-swe-assessment-industry-coding-asse-acmd/"
+    },
+    {
+      "title": "CodeSignal ICA: banking system with createAccount, deposit, transfer, topSpenders, schedulePayment with cashback, mergeAccounts",
+      "url": "",
+      "role": "MTS 1 (India)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7302772/ebay-codesignal-oa-industry-coding-asses-wxiv/"
+    },
+    {
+      "title": "CodeSignal ICA: in-memory cloud storage with addFile/copyFile/getFileSize, prefix/suffix search, per-user quotas, file compression",
+      "url": "",
+      "role": "MTS 1 (India)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7156557/ebay-assessment-industry-coding-assessme-yw79/"
+    },
+    {
+      "title": "Container With Most Water",
+      "url": "https://leetcode.com/problems/container-with-most-water/",
+      "role": "SDE-2, 2 YOE (Bengaluru, virtual)",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8467010/ebay-sde-2-interview-experience-virtual-h2rgv/"
+    },
+    {
+      "title": "Daily Temperatures (walk through an example after coding)",
+      "url": "https://leetcode.com/problems/daily-temperatures/",
+      "role": "SDE-2, 2 YOE (Bengaluru, virtual)",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8467010/ebay-sde-2-interview-experience-virtual-h2rgv/"
+    },
+    {
+      "title": "HLD: LunchDrop, corporate lunch ordering with daily rotating restaurants, item customization, menu changes during ordering, caching",
+      "url": "",
+      "role": "SDE-2, 2 YOE (Bengaluru, virtual)",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8467010/ebay-sde-2-interview-experience-virtual-h2rgv/"
+    },
+    {
+      "title": "K smallest elements across multiple sorted arrays (min-heap accepted but pointer-per-array optimum expected; related to Merge k Sorted Lists)",
+      "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+      "role": "Software Engineer (round 1, CodeSignal)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8427643/ebay-interview-experience-rejected-round-b9ft/"
+    },
+    {
+      "title": "Search in Rotated Sorted Array, single-pass binary search required",
+      "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      "role": "Software Engineer (round 1, CodeSignal)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8427643/ebay-interview-experience-rejected-round-b9ft/"
+    },
+    {
+      "title": "Shortest Unsorted Continuous Subarray (after resume questions)",
+      "url": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/",
+      "role": "Software Engineer, MTS 1 (virtual round 1)",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6677822/ebay-virtual-1st-round-interview-softwar-65pw/"
+    },
+    {
+      "title": "Reverse Pairs (30-minute offline round, one problem)",
+      "url": "https://leetcode.com/problems/reverse-pairs/",
+      "role": "Software Engineer",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7649313/ebay-interview-question-by-anonymous_use-cf82/"
+    },
+    {
+      "title": "Find All Possible Recipes from Given Supplies",
+      "url": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/",
+      "role": "Software Engineer, 4 YOE (offer)",
+      "date": "2026-04",
+      "source_url": "https://leetcode.com/discuss/post/8353908/ebay-interview-experience-apr-may-2026-o-wcre/"
+    },
+    {
+      "title": "Maximum Population Year, then Top K Frequent Elements",
+      "url": "https://leetcode.com/problems/maximum-population-year/",
+      "role": "Software Engineer, 4 YOE (offer)",
+      "date": "2026-04",
+      "source_url": "https://leetcode.com/discuss/post/8353908/ebay-interview-experience-apr-may-2026-o-wcre/"
+    },
+    {
+      "title": "HLD: wishlist price-drop alerts (notify when price drops more than 5% below the wishlist price); LLD: in-memory filesystem with addDirectory/addFile/goToDirectory/ls (similar to LC 588, premium)",
+      "url": "https://leetcode.com/problems/design-in-memory-file-system/",
+      "role": "Software Engineer, 4 YOE (offer)",
+      "date": "2026-05",
+      "source_url": "https://leetcode.com/discuss/post/8353908/ebay-interview-experience-apr-may-2026-o-wcre/"
+    },
+    {
+      "title": "3Sum, after drawing your past project's architecture",
+      "url": "https://leetcode.com/problems/3sum/",
+      "role": "SWE III, 3.6 YOE incl. internship (Bangalore)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7363986/ebay-swe3-interview-experience-bangalore-gj9y/"
+    },
+    {
+      "title": "Implement TinyURL: why Base64, corner cases, scalability",
+      "url": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+      "role": "SWE III, 3.6 YOE incl. internship (Bangalore)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7363986/ebay-swe3-interview-experience-bangalore-gj9y/"
+    },
+    {
+      "title": "N-Queens (with behavioral questions in the same round)",
+      "url": "https://leetcode.com/problems/n-queens/",
+      "role": "SWE III, 3.6 YOE incl. internship (Bangalore)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7363986/ebay-swe3-interview-experience-bangalore-gj9y/"
+    },
+    {
+      "title": "Max Area of Island variation (full code, complexity, edge cases) and a Trie-based word search over a set of strings; HLD: distributed event booking",
+      "url": "https://leetcode.com/problems/max-area-of-island/",
+      "role": "SE-III, 4.8 YOE",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7684383/suggestion-on-ebay-interview-process-by-khf9i/"
+    },
+    {
+      "title": "Print all bottom-to-top diagonals of a jagged 2D matrix; elements common to all sorted arrays without extra space; LLD discount system",
+      "url": "",
+      "role": "Software Engineer (onsite, 3 rounds)",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6914615/ebay-interview-experience-june-2025-by-p-risl/"
+    },
+    {
+      "title": "US loop format: 1-hour debugging/refactoring interview (code review style) and 1-hour API design interview",
+      "url": "",
+      "role": "Senior Software Engineer (US)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7254936/ebay-sse-loop-us-what-to-expect-by-anony-9wof/"
+    },
+    {
+      "title": "CodeSignal ICA: design an ATM, with add-on features unlocked in later levels (scored 520/600, then invited to the Apr 10 drive)",
+      "url": "",
+      "role": "SE 3, about 3 YOE (Bengaluru)",
+      "date": "2026-04",
+      "source_url": "https://leetcode.com/discuss/post/7990573/ebay-se3-interview-experience-by-anonymo-h41y/"
+    },
+    {
+      "title": "Long story that reduces to Remove Nth Node From End of List; second story reduces to unique permutations of digits (Permutations II); then a discussion on AI at work (MCP, trusting AI code)",
+      "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "role": "SE 3, about 3 YOE (Bengaluru drive)",
+      "date": "2026-04",
+      "source_url": "https://leetcode.com/discuss/post/7990573/ebay-se3-interview-experience-by-anonymo-h41y/"
+    },
+    {
+      "title": "Append-only transaction log, remove the fraudulent entry in one pass (Remove Nth Node From End of List); parse nested HTML/XML into an n-ary tree with addNode/deleteNode/updateData (approach only)",
+      "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "role": "MTS 1, 6.8 YOE (virtual R1, Bengaluru)",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7869599/ebay-blr-mts1-by-debmalyapan53-27k2/"
+    },
+    {
+      "title": "HLD: persistent storage for millions of ad-click events queried by adId and userId, as a SaaS product, without using an existing database",
+      "url": "",
+      "role": "MTS 1, 6.8 YOE (Bengaluru drive)",
+      "date": "2026-04",
+      "source_url": "https://leetcode.com/discuss/post/7869599/ebay-blr-mts1-by-debmalyapan53-27k2/"
+    },
+    {
+      "title": "Palindrome Linked List; Kth Smallest Element in a BST; most frequent word in an array; HLD: eBay chat app (1-1 chat, online status, in-app notifications)",
+      "url": "https://leetcode.com/problems/palindrome-linked-list/",
+      "role": "SDE 3, 5+ YOE (F2F)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8393866/ebay-sde-3-interview-experience-f2f-5-yo-0ae2/"
+    }
+  ],
+  "focus_topics": [
+    "Arrays and two pointers: 3Sum, container with most water",
+    "Monotonic stack: daily temperatures",
+    "Binary search: rotated arrays",
+    "Heaps and k-way merge, top K",
+    "Graphs and grids: islands, topological sort (recipes)",
+    "Hard divide and conquer / backtracking: reverse pairs, N-Queens",
+    "LRU cache and design-style DS",
+    "OOP implementation under evolving requirements (ICA levels)",
+    "HLD: notifications, URL shortener, booking, food ordering",
+    "LLD: filesystem, discount system"
+  ],
+  "tips": [
+    "Practice CodeSignal ICA-style builds: one class that grows across 4 levels (CRUD, filtered and sorted output, TTL, history or snapshots). Design level 1 so level 4 does not need a rewrite.",
+    "Learn the two CodeSignal formats: GCA is 4 standalone questions in 70 min; ICA is a project-style task scored out of 600. Ask your recruiter which one you are getting and whether an existing score can be shared.",
+    "In live rounds go for the optimal solution and dry-run it aloud: a Jul 2026 candidate was rejected in round 1 for passing tests with a non-optimal approach.",
+    "Expect design even at 2 YOE: SDE-2 loops had a full HLD and an HM-led design round. Prepare notification systems, food ordering, TinyURL and an in-memory filesystem.",
+    "Build stories for the five eBay values (Empower Our Community, Innovate Boldly, Be For Everyone, Deliver With Impact, Act With Integrity); a 2026 compilation lists 'eBay values, examples around same' as the behavioral focus.",
+    "Do not use AI during interviews or assessments: the official How we hire page says you can't use AI to generate answers or complete assessments; AI is fine for preparation.",
+    "North America students: apply on eBay's RippleMatch page between September and March, when intern roles post.",
+    "Confirm the level before the loop: a 3 YOE SDE3 candidate was downleveled to SDE2 after the interviews."
+  ],
+  "compensation_note": "US (Levels.fyi, as of Oct 4, 2026): SE 1 (entry) median total comp about $135K (base $113K, stock $10K/yr, bonus $11.5K); SE 2 about $180K; RSUs vest over 4 years. India (Levels.fyi Greater Bengaluru): SE 1 median about Rs 21.4 lakh, SE 2 about Rs 34.9 lakh. Reported India SE-2 offers 2026: Rs 25 lakh base + 10% bonus + about $24K to $25K RSUs over 4 years + Rs 2 lakh joining bonus (first-year about Rs 33 to 35 lakh), described as the band maximum in one post. No 2025 to 2026 US new grad or intern pay data point found on LeetCode.",
+  "sources": [
+    "https://careers.ebayinc.com/ [VERIFIED]",
+    "https://careers.ebayinc.com/student-opportunities/ [VERIFIED: internships posted Sep through Mar; RippleMatch for NA; Yello/WayUp Top 100 Internship Programs 2026]",
+    "https://careers.ebayinc.com/how-we-hire/ [VERIFIED: coding assessment, BrightHire, no-AI rule, camera on, verbal offer before letter]",
+    "https://careers.ebayinc.com/our-culture/ [VERIFIED: five DNA headings Empower Our Community, Innovate Boldly, Be for Everyone, Deliver With Impact, Act With Integrity]",
+    "https://app.ripplematch.com/t/b8c45472 [VERIFIED: the link on eBay's Student Opportunities page; redirects to eBay's RippleMatch page, listings render client-side]",
+    "https://jobs.ebayinc.com/us/en/emerging-talent-europe-middleeast-asia [VERIFIED]",
+    "https://www.levels.fyi/companies/ebay/salaries/software-engineer [VERIFIED]",
+    "https://www.levels.fyi/companies/ebay/salaries/software-engineer/locations/greater-bengaluru [VERIFIED]",
+    "https://github.com/liquidslr/leetcode-company-wise-problems/tree/main/eBay [VERIFIED: liquidslr/leetcode-company-wise-problems, 31,050 stars as of Oct 4, 2026, last data update Aug 16, 2026]",
+    "https://codesignal.com/resource/industry-coding-framework/ [VERIFIED: CodeSignal Industry Coding Framework landing page]",
+    "https://codesignal.com/resource/general-coding-assessment-framework/ [VERIFIED: CodeSignal General Coding Framework landing page]",
+    "https://leetcode.com/discuss/post/7316549/ebay-codesignal-oa-industry-coding-asses-8qbn/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8122064/ebay-swe-assessment-industry-coding-asse-acmd/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7302772/ebay-codesignal-oa-industry-coding-asses-wxiv/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7156557/ebay-assessment-industry-coding-assessme-yw79/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8467010/ebay-sde-2-interview-experience-virtual-h2rgv/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8473980/ebay-sde2-bengaluru-by-anonymous_user-c5yc/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8427643/ebay-interview-experience-rejected-round-b9ft/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6677822/ebay-virtual-1st-round-interview-softwar-65pw/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7649313/ebay-interview-question-by-anonymous_use-cf82/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8353908/ebay-interview-experience-apr-may-2026-o-wcre/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7363986/ebay-swe3-interview-experience-bangalore-gj9y/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7684383/suggestion-on-ebay-interview-process-by-khf9i/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6914615/ebay-interview-experience-june-2025-by-p-risl/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7254936/ebay-sse-loop-us-what-to-expect-by-anony-9wof/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8371979/ebay-general-coding-assessment-oa-by-ano-lx9q/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8358408/ebay-india-mts-1-june-2026-position-clos-g84b/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8323490/ebay-ai-coding-interview-by-shubh_rmcf07-91al/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7759905/ebay-interview-questions-asked-for-backe-lhhi/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8403054/ebay-offer-se-2-t23-need-help-by-codersl-ut4j/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7325252/ebay-interview-experience-3yoe-by-anonym-898c/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7531970/ebay-industry-coding-assessment-codesign-gmap/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7645697/ebay-codesignal-oa-by-anonymous_user-oau5/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/2907779/ebay-oa-sde-intern-by-anonymous_user-laky/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/4698912/ebay-phone-screen-mts1-swe-by-anonymous_-zl92/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7593206/ebay-bangalore-17-yoe-eligibility-expect-7a6y/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6963053/ebay-java-engineer-0-2-yr-apply-now-by-t-if5f/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8525063/ebay-hiring-process-by-anonymous_user-yc0n/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/1703499/regarding-the-next-steps-in-ebay-new-gra-l84a/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7990573/ebay-se3-interview-experience-by-anonymo-h41y/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7869599/ebay-blr-mts1-by-debmalyapan53-27k2/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8393866/ebay-sde-3-interview-experience-f2f-5-yo-0ae2/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8401857/ebay-interview-experience-sde-3-bengalur-2oab/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8388196/ebay-hiring-drive-10-jul-12-jul-by-saura-umvw/ [VERIFIED via LeetCode API: Jul 10 to 12, 2026 drive]"
+  ],
+  "confidence_notes": "Nearly all 2025 to 2026 interview reports are India (Bengaluru) SE 2 / SE 3 / MTS hires; no 2025 to 2026 US intern or new grad loop write-up was found, so intern/new grad stages combine the official pages with older CodeSignal reports (2022) and should be presented as 'expect', not 'will'. eBay has no technical prep page beyond 'How we hire'. The level code T23 = SE 2 comes from one candidate post, not an official source; no source for an SE 3 code was found, so none is given. The June 2026 'AI driven/coding' round is a single report with no format details. Reddit, Glassdoor and Blind could not be fetched in this session. LeetCode Discuss pages were read through LeetCode's GraphQL API because the HTML pages block automated fetches. Fact-check Oct 4, 2026: all LeetCode Discuss sources re-read via the GraphQL API; drive dates corrected (the earlier Jul 10 to 12, 2026 claim had no cited source and now does); one ICA write-up flagged as AI-reconstructed by its poster; an unsourced behavioral question removed and replaced with sourced HM questions."
+}

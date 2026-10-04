@@ -1,0 +1,303 @@
+{
+  "slug": "servicenow",
+  "name": "ServiceNow",
+  "category": "Big Tech",
+  "one_liner": "Enterprise workflow and AI platform (ITSM, HR, customer service). Interviews: HackerRank OA, 2 to 4 LeetCode-medium rounds, plus JavaScript/Java concepts and short HLD.",
+  "careers_url": "https://careers.servicenow.com/",
+  "students_url": "https://careers.servicenow.com/early-careers/",
+  "interview_prep_url": "https://careers.servicenow.com/how-we-hire/",
+  "levels": {
+    "intern": "Software Engineer Intern (US, e.g., San Diego); India: Associate Software Engineer Intern / Software Development Intern (2 months, Hyderabad).",
+    "new_grad": "IC1, Associate Software Engineer (Levels.fyi entry level).",
+    "early_career": "IC1 (0 to 2 yrs) and IC2 'Software Engineer' (Sep 2026 US postings tagged Global Emerging Talent ask for 2 to 5 yrs); IC3 Senior Engineer above."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "Official: a real person in Talent Acquisition reviews applications; expect an update within a couple of weeks. Early-career full-time roles are filtered as 'Early Career' on the jobs site; multiple applications and re-applying in later years are allowed."
+    },
+    {
+      "stage": "Online assessment",
+      "details": "HackerRank. India ASE (2024): 90 min, 2 questions (rolling strings similar to Shifting Letters II, plus a hard 'wave array'). Other reports: 3 problems at LeetCode medium, medium, hard (2025 ASE intern) and a hard geometry problem (Jan 2025). A 2024 US post mentions a HackerRank interview for a 0 to 2 YOE Seattle-area SWE role."
+    },
+    {
+      "stage": "Technical rounds (2 to 3)",
+      "details": "Live coding in a shared editor or online compiler, with interviewer edge cases; one 2024 ASE candidate was asked to submit on LeetCode. Associate SWE (Oct 2025, 10 months exp): four problems in one round (Find the Duplicate Number with Floyd, Single Number, Linked List Cycle II, multi-source BFS zombie grid). DBMS questions (concurrent ticket booking) appear for new grads."
+    },
+    {
+      "stage": "Technical + managerial",
+      "details": "Projects, interests, tech stack, scenario questions; official process says interviews may include coding assessments or presentations depending on the role."
+    },
+    {
+      "stage": "Decision",
+      "details": "Hiring team debriefs, then notifies you (official). No hiring committee or team match stage reported; hiring is per team."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "US loop (Summer 2025 cycle, interviewed Oct to Dec 2024)",
+      "details": "Recruiter screen (why ServiceNow, why this role), then three 30-minute virtual interviews on one afternoon: (1) senior engineering manager: high-level design, CAP theorem, behavioral, projects; (2) staff engineer: one LeetCode medium on strings and hash maps, projects; (3) senior staff engineer: one LeetCode medium sliding window, Docker and Kubernetes, projects. Results came late; the candidate accepted another offer first."
+    },
+    {
+      "stage": "US 2026 intern variant",
+      "details": "A 'UTG Summer SWE intern' candidate (Oct 2025) had a behavioral/technical discussion followed by a 45-minute technical coding interview."
+    },
+    {
+      "stage": "India intern (campus / off-campus)",
+      "details": "HackerRank OA (3 problems, medium/medium/hard; or 60 min with arrays, trees and one hard), then 2 to 3 technical rounds (a Dec 2025 intern candidate had 2 technical + 1 HR interview scheduled): resume, AVL trees, reverse segments of a linked list, Kadane variant, min path sum grid variant with follow-ups, a string problem, math puzzles or estimates (golf balls in a bus). Code is run on an online compiler with interviewer edge cases. QA and ML intern tracks get Selenium, SQL, Jenkins, SDLC and prompt-engineering sections."
+    },
+    {
+      "stage": "Return offer",
+      "details": "Official: interns are offered either a post-graduation job or a return internship. India: 2-month interns at Rs 89K/month with full-time conversion reported (Jan 2026 post: Rs 44 lakh CTC conversion)."
+    }
+  ],
+  "process_experienced_notes": "IC2 (2 to 5 yrs), mostly Hyderabad data: recruiter phone screen, HackerRank OA (medium; strings, binary search), R1 DSA (15 min resume + 45 min for 2 problems), R2 DSA plus Java or JavaScript concepts or a basic HLD, R3 hiring manager (behavioral, situation questions, a DSA variation, an HLD), sometimes extra rounds for a new team (DB schema design + DSA). UI/front-end teams test JavaScript deeply (closures, promises, call/apply/bind, hoisting, React hooks, deep flatten); one Oct 2025 front-end IC2 loop added schema design plus a query on it, lazy loading and performance optimization. Reports of paused hiring, positions filled mid-loop and recruiter ghosting are frequent (2025 to 2026).",
+  "timeline": "Official: application updates within a couple of weeks. US intern loop took Oct to Dec (recruiter screen late Oct, three interviews Nov 14, results delayed past competing offers). India IC2 loops can stall when a team pauses hiring; candidates were moved to other teams and re-interviewed (May 2025). Internship postings for 2027 SWE interns were not live on the jobs API as of Oct 4, 2026 (only finance interns and IC2 'Global Emerging Talent' roles).",
+  "oa": {
+    "platform": "HackerRank.",
+    "format": "2 to 3 coding problems in 60 to 90 min (90 min / 2 questions in 2024 ASE; 3 problems M/M/H in 2025 ASE intern; 60 min / 3 problems in a 2026 intern report). QA intern OA (Nov 2025): DSA (HashMap scheduling), Selenium + Java automation, SDLC MCQs, 3-table SQL join with GROUP BY, Jenkins MCQs, and a prompt-engineering task (mask private data in emails, 8 test cases).",
+    "notes": "Hard outliers exist (Jan 2025: minimum time in the dark between circular streetlights). Official policy: complete tests and challenges without AI unless told otherwise."
+  },
+  "coding": {
+    "rounds": "2 to 3 coding rounds for new grads and IC2; US interns had two 30-min problem-solving rounds.",
+    "style": "LeetCode easy to medium with some hard (Split Array Largest Sum, Count Palindromic Subsequences variant, First Missing Positive); linked lists and arrays are frequent; JavaScript-specific coding for UI teams (T9 decoding, deep flatten and group by type).",
+    "environment": "Shared editor or online compiler with run; interviewers supply edge cases; some ask for LeetCode submission.",
+    "graded_on": "Working code, optimal complexity (O(n) time / O(1) space asked explicitly), edge cases, debugging ability (an HM-round candidate had to find and fix a TypeError hit while coding), clear explanation."
+  },
+  "system_design": "Interns (US) get a short HLD discussion with CAP theorem in a 30-min round. IC1/IC2 get one basic HLD or DB schema design (database for entities with multiple stages and repeated attempts; Design Instagram for a 4.5 YOE IC2; how to handle two users booking the same ticket). Docker and Kubernetes questions appeared for a US intern. No machine coding round reported.",
+  "behavioral": {
+    "framework": "ServiceNow values (shown as a graphic on the Life at ServiceNow page; text read from the image): Wow our customers, Win as a team, Create belonging, Stay hungry and humble. People Pact commitments: 'Fulfill our purpose together', 'Do your best work', 'Live your best life'. The official How we hire page lists 'alignment with company values and purpose' as an evaluation point.",
+    "values_url": "https://careers.servicenow.com/life-at-servicenow/",
+    "what_they_look_for": [
+      "Skills and transferable experience (official How we hire)",
+      "Desire and ambition (official)",
+      "Alignment with company values and purpose (official)",
+      "Problem-solving approach and potential to thrive (official)",
+      "Authentic, independent work: no AI during evaluation unless allowed (official)"
+    ],
+    "sample_questions": [
+      "Why ServiceNow, why this role, and what do you bring to it? (US intern recruiter screen)",
+      "Walk me through your projects. (asked in every US intern round)",
+      "Situation-based questions about past work and conflicts (IC2 HM round)",
+      "Why are you looking to switch?"
+    ]
+  },
+  "non_leetcode_formats": "JavaScript practical coding for UI roles (deep flatten a nested array and group by typeof with frequency counts, then debug a live TypeError; T9 keypad decoding; palindrome number without reverse). Java/JS concept Q&A (interface vs abstract class after Java 8, promises, useEffect/useMemo, closures). QA/ML intern tracks: Selenium, Jenkins, SDLC, SQL and prompt-engineering tasks. ServiceNow platform development (workflows, business rules) is listed as a plus in IC2 postings; ServiceNow University offers free courses.",
+  "reported_questions": [
+    {
+      "title": "Two 30-min problem-solving rounds: one LeetCode medium on strings and hash maps; one LeetCode medium sliding window plus Docker and Kubernetes questions",
+      "url": "",
+      "role": "Software Engineer Intern, Summer 2025 (US, San Diego, virtual)",
+      "date": "2024-11",
+      "source_url": "https://leetcode.com/discuss/post/8554414/servicenow-swe-internship-summer-2025-us-nvyi/"
+    },
+    {
+      "title": "30-min systems round with a senior EM: high-level design and CAP theorem, then behavioral and projects",
+      "url": "",
+      "role": "Software Engineer Intern, Summer 2025 (US, San Diego, virtual)",
+      "date": "2024-11",
+      "source_url": "https://leetcode.com/discuss/post/8554414/servicenow-swe-internship-summer-2025-us-nvyi/"
+    },
+    {
+      "title": "Find the Duplicate Number (Floyd, no array modification, O(1) space), then Single Number",
+      "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+      "role": "Associate Software Engineer (IC1), 10 months exp",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7299012/servicenow-associate-software-engineer-b-oilu/"
+    },
+    {
+      "title": "Linked List Cycle II (return the cycle start in O(1) space)",
+      "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+      "role": "Associate Software Engineer (IC1), 10 months exp",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7299012/servicenow-associate-software-engineer-b-oilu/"
+    },
+    {
+      "title": "Zombie grid: can all humans be infected within k years (multi-source BFS, like Rotting Oranges)",
+      "url": "https://leetcode.com/problems/rotting-oranges/",
+      "role": "Associate Software Engineer (IC1), 10 months exp",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7299012/servicenow-associate-software-engineer-b-oilu/"
+    },
+    {
+      "title": "Reverse two segments of a linked list; AVL tree questions; a math puzzle",
+      "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+      "role": "Associate Software Engineer Intern (India)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7043950/servicenow-associate-software-engineer-i-gdth/"
+    },
+    {
+      "title": "Kadane's algorithm variant; minimum path sum grid variant with 2 follow-ups (all code run on an online compiler)",
+      "url": "https://leetcode.com/problems/maximum-subarray/",
+      "role": "Associate Software Engineer Intern (India)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7043950/servicenow-associate-software-engineer-i-gdth/"
+    },
+    {
+      "title": "Reverse multiple segments of a linked list; AVL rotations and balancing; estimate how many golf balls fit in a bus",
+      "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+      "role": "Software Engineer Intern (remote)",
+      "date": "2026-08",
+      "source_url": "https://devbrainiac.com/blogs/144/servicenow-software-engineer-intern-interview-experience-2-rounds/"
+    },
+    {
+      "title": "Split Array Largest Sum, then Degree of an Array (45 min after 15 min of resume)",
+      "url": "https://leetcode.com/problems/split-array-largest-sum/",
+      "role": "Software Engineer IC2",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7376898/servicenow-ic2-interview-by-anonymous_us-0u1v/"
+    },
+    {
+      "title": "Remove Nth Node From End of List; Best Time to Buy and Sell Stock variation",
+      "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "role": "Software Engineer IC2 (selected)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7126602/servicenow-interview-experience-ic2-by-a-sl62/"
+    },
+    {
+      "title": "Design a database for entities with multiple stages, evaluations and results over time, supporting repeated attempts",
+      "url": "",
+      "role": "Software Engineer IC2 (selected)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7126602/servicenow-interview-experience-ic2-by-a-sl62/"
+    },
+    {
+      "title": "Jump Game II; Minimum Number of Swaps to Make the String Balanced",
+      "url": "https://leetcode.com/problems/jump-game-ii/",
+      "role": "Software Engineer IC2, 2.5 YOE (Hyderabad, offer)",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6749919/servicenow-interview-experience-software-5hs3/"
+    },
+    {
+      "title": "Remove K Digits; Merge Two Sorted Lists without extra space; one basic HLD",
+      "url": "https://leetcode.com/problems/remove-k-digits/",
+      "role": "Software Engineer IC2, 2.5 YOE (Hyderabad, offer)",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6749919/servicenow-interview-experience-software-5hs3/"
+    },
+    {
+      "title": "Maximal Square modified to return coordinates, plus DB schema design; later Valid Parentheses",
+      "url": "https://leetcode.com/problems/maximal-square/",
+      "role": "Software Engineer IC2, 2.5 YOE (Hyderabad, offer)",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6749919/servicenow-interview-experience-software-5hs3/"
+    },
+    {
+      "title": "Trie-based autocomplete that recommends whole URLs from search history; shortest path where an edge costs w plus steps already taken",
+      "url": "",
+      "role": "Software Engineer IC2, 2.5 YOE (Hyderabad)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7568387/software-engineer-servicenow-ic-2-hydera-pr18/"
+    },
+    {
+      "title": "Count unique value pairs summing to target; Longest Harmonious Subsequence; Java follow-ups",
+      "url": "https://leetcode.com/problems/longest-harmonious-subsequence/",
+      "role": "Software Engineer IC2, 2.5 YOE (Hyderabad)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7568387/software-engineer-servicenow-ic-2-hydera-pr18/"
+    },
+    {
+      "title": "Next Greater Element to the right (monotonic stack); First Missing Positive in O(n)/O(1); JS promises, useEffect/useMemo, closures, hoisting",
+      "url": "https://leetcode.com/problems/first-missing-positive/",
+      "role": "Software Engineer IC2 (round 1)",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6814375/servicenow-ic2-interview-experience-by-a-1n67/"
+    },
+    {
+      "title": "T9 keypad decoding; palindrome number without reverse; Java 8 interface vs abstract class",
+      "url": "",
+      "role": "Software Engineer IC2 (round 2)",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6834026/ic2-software-engineer-interview-at-servi-smwz/"
+    },
+    {
+      "title": "HM round (JavaScript): deep flatten a nested array, group values by typeof with frequency counts, then find and fix a TypeError hit while coding",
+      "url": "",
+      "role": "Software Engineer IC2 (HM round)",
+      "date": "2025-06",
+      "source_url": "https://leetcode.com/discuss/post/6833995/servicenow-ic2-hm-round-interview-javasc-nszr/"
+    },
+    {
+      "title": "QA intern OA: HashMap scheduling DSA, Selenium + Java form automation, 3-table SQL join with GROUP BY, Jenkins and SDLC MCQs, prompt-engineering PII masking",
+      "url": "",
+      "role": "QA Intern (India campus)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7380632/servicenow-qa-intern-oa-complete-breakdo-kcsf/"
+    },
+    {
+      "title": "Merge Intervals plus class/object code, a JS problem, schema design and a query on it, lazy loading and performance; HM round: Spiral Matrix, Longest Substring Without Repeating Characters and a puzzle",
+      "url": "https://leetcode.com/problems/merge-intervals/",
+      "role": "Software Engineer IC2, front-end leaning (recruiter outreach via Naukri/Instahyre)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7261128/walmart-sde3-servicenow-ic2-interview-ex-7a2n/"
+    }
+  ],
+  "focus_topics": [
+    "Linked lists: cycle detection, reverse segments, remove nth node, merge",
+    "Arrays: Kadane, first missing positive, jump game, majority element",
+    "Stacks: remove k digits, next greater element, valid parentheses",
+    "Sliding window and hash maps on strings",
+    "Binary search on answer: split array largest sum",
+    "DP on grids and subsequences",
+    "Graphs: multi-source BFS, modified Dijkstra",
+    "Tries: autocomplete",
+    "JavaScript fundamentals and React hooks (UI teams)",
+    "Java OOP concepts",
+    "Basic HLD, CAP theorem, DB schema design"
+  ],
+  "tips": [
+    "Have a 2-minute project pitch ready: in the US intern loop every 30-min interviewer asked about projects, which leaves about 15 to 20 minutes for the actual problem.",
+    "Revise systems basics even as an intern: CAP theorem, Docker and Kubernetes came up in the 2024 US intern loop.",
+    "Drill linked lists: cycle start (Floyd), reversing segments and removing the nth node appear across intern, IC1 and IC2 reports.",
+    "If your resume lists JavaScript or React, prepare closures, promises, call/apply/bind, hoisting, useEffect/useMemo and a deep-flatten exercise; Hyderabad UI teams test them hands-on.",
+    "Make your code run: interviewers feed edge cases into an online compiler and some ask for a LeetCode submission.",
+    "Do not use AI during any test or interview unless the recruiter says so; ServiceNow's How we hire page requires independent completion.",
+    "Interns get either a return internship or a full-time offer (official), so treat the internship as the main new grad path.",
+    "Take a free ServiceNow University course if you target platform teams: IC2 postings list ServiceNow platform experience as a plus."
+  ],
+  "compensation_note": "US (Levels.fyi, as of Oct 4, 2026): IC1 Associate Engineer (entry) median total comp about $151K (base $122K, stock $18K/yr, bonus $10.6K); IC2 about $181K; RSUs vest over 4 years; Levels.fyi lists two schedules (6.25% quarterly from the start, or 25% after year 1 then 6.25% quarterly). Sep 2026 Santa Clara IC2 'Software Engineer' postings list base $125,700 to $194,800. India (Levels.fyi India): IC1 median about Rs 26.9 lakh, IC2 about Rs 36.9 lakh. Reported India offers: IC1 Associate SWE (Oct 2025) Rs 16 lakh base + Rs 1.6 lakh bonus + Rs 6 lakh sign-on + Rs 1.5 lakh relocation + $20K RSUs over 4 years; India intern stipend Rs 89K/month for 2 months (2025 and 2026 posts); IC2 (2 to 3.2 YOE, 2025) Rs 26.5 to 27 lakh base + 10% bonus + $30K to $38K RSUs over 4 years (three Hyderabad posts); IC2 UI at 3.9 YOE: Rs 23.7 lakh base + $36K RSUs (Apr 2025).",
+  "sources": [
+    "https://careers.servicenow.com/ [VERIFIED: loads in a browser and WebFetch; plain curl gets 403]",
+    "https://careers.servicenow.com/early-careers/ [VERIFIED: internships, Associate roles, Launchpad Academy, Discover ServiceNow, ServiceNow University, return-offer statement]",
+    "https://careers.servicenow.com/how-we-hire/ [VERIFIED: 3-step process, no-AI rule, updates in a couple of weeks]",
+    "https://careers.servicenow.com/life-at-servicenow/ [VERIFIED: values shown as a graphic, People Pact text]",
+    "https://jobs.smartrecruiters.com/ServiceNow/744000152723759-software-engineer [VERIFIED via SmartRecruiters API: Santa Clara, Sep 30, 2026, Recruiting Team 'Global Emerging Talent', 2 to 5 yrs, base $125,700 to $194,800]",
+    "https://jobs.smartrecruiters.com/ServiceNow/744000150444020-software-engineer [VERIFIED via SmartRecruiters API: Santa Clara, Sep 18, 2026, Global Emerging Talent, 2 to 5 yrs, same base range]",
+    "https://jenishkothari.pages.dev/four-rounds-at-servicenow/ [VERIFIED: full write-up of the US intern loop]",
+    "https://devbrainiac.com/blogs/144/servicenow-software-engineer-intern-interview-experience-2-rounds/ [VERIFIED: intern interview, updated Aug 30, 2026]",
+    "https://www.levels.fyi/companies/servicenow/salaries/software-engineer [VERIFIED]",
+    "https://www.levels.fyi/companies/servicenow/salaries/software-engineer/locations/india [VERIFIED]",
+    "https://github.com/liquidslr/leetcode-company-wise-problems/tree/main/ServiceNow [VERIFIED: liquidslr/leetcode-company-wise-problems, 31,050 stars as of Oct 4, 2026, last data update Aug 16, 2026; ServiceNow six-month list is nearly empty]",
+    "https://leetcode.com/discuss/post/8554414/servicenow-swe-internship-summer-2025-us-nvyi/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/8421811/servicenow-software-engineer-intern-inte-4hd6/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7299012/servicenow-associate-software-engineer-b-oilu/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7043950/servicenow-associate-software-engineer-i-gdth/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7376898/servicenow-ic2-interview-by-anonymous_us-0u1v/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7126602/servicenow-interview-experience-ic2-by-a-sl62/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6749919/servicenow-interview-experience-software-5hs3/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7568387/software-engineer-servicenow-ic-2-hydera-pr18/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6834026/ic2-software-engineer-interview-at-servi-smwz/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6833995/servicenow-ic2-hm-round-interview-javasc-nszr/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6814375/servicenow-ic2-interview-experience-by-a-1n67/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7380632/servicenow-qa-intern-oa-complete-breakdo-kcsf/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6956018/servicenow-interview-experience-ic-2-gho-l93i/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7287980/my-servicenow-eic-technical-intern-inter-skwc/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7291535/servicenow-2026-utg-summer-swe-intern-by-pctk/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7240685/servicenow-offer-sde-1-ic1-associate-sof-avxx/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7501763/servicenow-software-development-intern-2-t0of/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6910274/servicenow-software-engineer-2023-batch-0m54q/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7096770/service-now-software-engineeric2-role-hy-wejm/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6326949/interview-online-assessment-servicenow-b-tk8u/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/5031583/service-now-associate-software-engineer-3hjtc/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7484229/servicenow-internship-experience-qa-ml-b-boao/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7568671/bad-experience-servicenow-interviews-by-6d5p1/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/6691372/servicenow-software-engineerui-ic2-by-an-tu5d/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/4670868/servicenow-hacker-rank-interview-us-base-aa7e/ [VERIFIED via LeetCode API]",
+    "https://careers.servicenow.com/media/dfzdvhs1/final_values_2025_all.svg [VERIFIED: values graphic from the Life at ServiceNow page; the four embedded images read 'wow our customers', 'win as a team', 'create belonging', 'stay hungry & humble']",
+    "https://leetcode.com/discuss/post/6750030/servicenow-offer-software-engineer-ic2-h-5o1x/ [VERIFIED via LeetCode API: IC2 Hyderabad offer, May 2025]",
+    "https://leetcode.com/discuss/post/7261128/walmart-sde3-servicenow-ic2-interview-ex-7a2n/ [VERIFIED via LeetCode API]",
+    "https://leetcode.com/discuss/post/7385421/looking-for-advice-on-servicenow-interns-0i4f/ [VERIFIED via LeetCode API: intern loop of 2 technical + 1 HR, Dec 2025]",
+    "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?q=intern [VERIFIED Oct 4, 2026: only Finance Intern Summer 2027 and a BDR intern listed, no SWE intern]"
+  ],
+  "confidence_notes": "Most 2025 to 2026 reports are India (Hyderabad) IC1/IC2 and India intern drives; US data is one detailed Summer 2025 intern loop (interviews Nov 2024, posted Oct 2026) and one short Oct 2025 intern post. ServiceNow values (Wow our customers, Win as a team, Create belonging, Stay hungry and humble) are now VERIFIED by reading the text in the values graphic (final_values_2025_all.svg) on the official Life at ServiceNow page. The 'UTG' intern program name appears only in a candidate post. ServiceNow's LeetCode-tagged list (liquidslr) has almost no recent entries, so frequency data is weak. Reddit, Glassdoor and Blind could not be fetched in this session. LeetCode Discuss pages were read through LeetCode's GraphQL API because the HTML pages block automated fetches. Fact-check Oct 4, 2026: all LeetCode Discuss sources re-read via the GraphQL API; careers.servicenow.com returns 403 to plain curl but loads in a browser and WebFetch; job postings checked through the SmartRecruiters public API."
+}

@@ -1,0 +1,342 @@
+{
+ "slug": "microsoft",
+ "name": "Microsoft",
+ "category": "Big Tech",
+ "one_liner": "Builds Azure, Windows, Office, GitHub, Xbox and Copilot. Loops are medium LeetCode coding, often an LLD round, plus a senior as-appropriate final interviewer.",
+ "careers_url": "https://careers.microsoft.com/v2/global/en/home.html",
+ "students_url": "https://careers.microsoft.com/v2/global/en/students",
+ "interview_prep_url": "https://careers.microsoft.com/v2/global/en/hiring-tips/student-interviewing",
+ "levels": {
+  "intern": "Software Engineering Intern (unleveled). First and second years: Explore program (12 weeks US, 8 weeks India). Rising first-years: Discovery (4 weeks, Redmond or Atlanta).",
+  "new_grad": "59 or 60 (IC2, title Software Engineer; Levels.fyi shows 59 as 'SDE' and 60 as the next step). India new grad offers in 2026 report 'SDE 1 (L59)'.",
+  "early_career": "59 to 60 (Software Engineer, IC2) for 0 to about 2 yrs; 61 to 62 (Software Engineer II, IC3) for roughly 2 to 5 yrs. Senior starts at 63 (IC4)."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Apply (referral optional)",
+   "details": "Apply on apply.careers.microsoft.com (new portal; the old portal was retired in late 2025 per candidate reports). Official intern page: referrals are not required and all candidates get equal consideration. Postings stay open a minimum of 5 days and accept applications on an ongoing basis until filled."
+  },
+  {
+   "stage": "Online assessment",
+   "details": "HackerRank in most 2025 to 2026 reports (Codility in early 2025 and before). Usually 2 coding questions, one easier and one medium or hard, in 60 to 110 minutes. India campus OAs are proctored with tab-switch and paste detection, some camera-on."
+  },
+  {
+   "stage": "Recruiter screen",
+   "details": "15 to 30 minute call on background, role interest and logistics (US SDE II report, Mar 2026). Some US candidates get a 60 minute technical phone screen instead: half behavioral, half 1 to 2 easy or medium DSA questions, sometimes verbal only with no IDE (US SDE II report, Jul 2025)."
+  },
+  {
+   "stage": "Final loop (virtual)",
+   "details": "3 to 4 interviews of 45 to 60 minutes on Microsoft Teams, often on one day or across two days. Each round usually opens with behavioral questions, then coding in a HackerRank or Codility live editor where code must compile and pass your own test cases. One round may be LLD or design. India loops: DSA, LLD, then an 'AA' (as appropriate) round with a senior manager that is mostly behavioral and project deep dive."
+  },
+  {
+   "stage": "Decision and team placement",
+   "details": "Official: candidates are first assessed for a functional role, then the final round is for a specific role within an organization; Microsoft allows up to 90 days for a decision. Offers sometimes come the same or next day after the loop; other candidates wait 2+ weeks with no update."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Apply to a track posting",
+   "details": "Summer 2027 US SWE intern postings are track-based (Fullstack Product, Cloud and Distributed Backend, AI/ML and LLM, Data Platform/Analytics, Security and Identity, CoreAI). Applications accepted during the first week of each month from August through February, or until filled. Explore (second-year) windows: first week of each month October to December. Need at least one semester remaining after the internship."
+  },
+  {
+   "stage": "Online assessment",
+   "details": "HackerRank, 2 questions (basic plus intermediate), about 75 minutes for India on-campus 2027 interns (Aug to Sep 2026 reports). Extern (secondary) reports 60 to 90 minutes, 2 to 3 LeetCode mediums, and that referrals may skip the OA."
+  },
+  {
+   "stage": "Screen round",
+   "details": "Official: virtual, assessed for a functional role (for example software engineer) across all teams hiring that role."
+  },
+  {
+   "stage": "Final round (2 technical interviews)",
+   "details": "Usually 2 interviews of 45 to 60 minutes on the same day, each with one coding problem plus fundamentals. India campus reports add OOP pillars, OS (paging, page faults), DBMS modelling and a resume deep dive. Some candidates get a third behavioral round."
+  },
+  {
+   "stage": "Team match and offer",
+   "details": "Final round is for a specific role in an organization; interests you share with recruiters influence placement. Up to 90 days for a decision (official). India campus: interview invites 3 days after the OA; Round 2 link sent 20 minutes after Round 1 (Sep 2026 report)."
+  }
+ ],
+ "process_experienced_notes": "With 1 to 3 years you interview for 60 (India 'SDE 1 L60' loops often require 1 to 2 YOE) or 61/62 (Software Engineer II). Typical 61/62 flow: recruiter call, HackerRank OA with 2 questions (one medium, one hard), 60 minute phone screen, then a loop of 3 to 4: two coding rounds (trees, graphs, DP), an LLD round (message queue with producer-consumer and locking, cache with pluggable eviction, notification module, cart system) and an AA round. US 'hiring events' run one-day loops of 3 coding plus 1 system design (Jan 2026 reports); HLD prompts include Instagram feed. Some loops are batched to the next month ('I will reach back out when April loops open up', Mar 2026).",
+ "timeline": "Interns: postings open from early August with monthly first-week windows through February; Explore windows October to December; Microsoft allows up to 90 days for a decision. Aced (formerly Exponent) says student processes can take up to two months and up to nine interviews. Reported examples: India on-campus OA to interview invite in 3 days; off-campus intern applied Nov 27, OA Dec 27, interview Jan 29, rejection Feb 8 (2024 to 2025 cycle); US SDE II recruiter call Mar 2, OA Mar 5, loop pushed to April; US SDE II offer the day after the final interview (Jul 2025). Team matching for full-time can stall for weeks (Dec 2025 report).",
+ "oa": {
+  "platform": "HackerRank (most 2025 to 2026 reports, including 'Microsoft Global Talent Acquisition' invites); Codility in early 2025 and earlier cycles",
+  "format": "Usually 2 coding questions in 60 to 110 minutes (India campus intern OA: 75 minutes; L60 India OA: 110 minutes). Feb 2025 Redmond SDE II OA on Codility: 3 questions in 60 minutes. No separate behavioral or work-style section reported.",
+  "notes": "Passing all visible tests does not guarantee an interview: an SSE candidate solved both questions twice and was still 'Not Selected' (Feb 2026), and new grad applicants report long silences after the OA. Proctoring rules prohibit copying code, pasting external content and switching tabs."
+ },
+ "coding": {
+  "rounds": "Interns: 2. New grad and 59/60: 2 to 3 coding rounds inside a 3 to 4 round loop. 61/62: 2 to 3 coding rounds plus LLD or HLD.",
+  "style": "LeetCode easy to medium with some hards, often wrapped in practical framing (calendar booking, session overlap, API response parsing, safe path in a string). Expect follow-ups (in-place, MxN, one-pass, allow one blocker). Trees, strings, arrays, linked lists, graphs and sliding window dominate; DP appears occasionally. interviewing.io: 'Tree questions are most popular'.",
+  "environment": "Microsoft Teams video plus HackerRank live interview or Codility live editor; several 2025 to 2026 US reports say code had to compile and run against test cases you write. Some screens are verbal with no IDE. Pick a language you know well; interviewing.io notes C#, Java or Python are easiest for interviewers.",
+  "graded_on": "Correct, clean, bug-free code; testing your own code with edge cases; time and space complexity; implementation speed (an L60 candidate was rejected with feedback to improve implementation speed); communication. Official tips: show your reasoning, ask clarifying questions, state assumptions."
+ },
+ "system_design": "Interns and fresh 59 hires: usually no HLD, but expect OOP or data-modelling discussion (users and groups data structure, DBMS case study). 60 with 1 to 2 years: an LLD round is common in India loops, sometimes with runnable code (cache with strategy-pattern eviction, notification module, cart backend with REST APIs). 61/62: LLD (message queue with concurrency) and HLD (Instagram feed, autocomplete for millions of users). interviewing.io says Microsoft design discussions lean on compliance, auditing, data pipelines and EU data rules.",
+ "behavioral": {
+  "framework": "Microsoft culture (growth mindset, customer obsessed, diverse and inclusive, One Microsoft) and the values respect, integrity and accountability. Official interview tips ask for STAR(R): Situation, Task, Action, Result, Reflection. Core competencies listed in prep guides: collaboration, drive for results, customer focus, influencing for impact, judgment, adaptability.",
+  "values_url": "https://careers.microsoft.com/v2/global/en/culture",
+  "what_they_look_for": [
+   "Growth mindset: learning from failure and seeking feedback",
+   "Collaboration and 'One Microsoft' behavior, not blaming teammates",
+   "Customer focus and empathy",
+   "Clear ownership of your individual contribution to projects",
+   "Reflection: what you would do differently (the extra R in STAR(R))",
+   "Prepared, specific questions for the interviewer (official tip: do not say 'nothing')"
+  ],
+  "sample_questions": [
+   "What was the most challenging part of your project and how did you solve it? (L60 loop, Feb 2026)",
+   "What exactly did you build on this project, and what was the measurable impact?",
+   "Tell me about your hackathon experience (AA round, L60, Nov 2025)",
+   "Tell me about a time you resolved a conflict with a teammate",
+   "Tell me about a project that failed and what you learned",
+   "Give an example of when you showed a growth mindset",
+   "Why Microsoft, and why this team?"
+  ]
+ },
+ "non_leetcode_formats": "LLD in runnable code (LRU cache with pluggable eviction, notification service, message queue with locks, cart service, min-heap from scratch). India intern loops include a CS fundamentals viva (OOP pillars, C vs C++ vs Java, paging and page faults, DBMS modelling). The AA (as appropriate) round is a senior leader interview that is mostly behavioral plus project deep dive. US 'hiring events' compress the loop into one day. Some US rounds are practical API tasks the interviewer does not expect you to finish (Jan 2026).",
+ "reported_questions": [
+  {
+   "title": "Asteroid Collision (OA intermediate question)",
+   "url": "https://leetcode.com/problems/asteroid-collision/",
+   "role": "SWE intern 2027, India on-campus",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8526095/my-microsoft-on-campus-internship-interv-epi9/"
+  },
+  {
+   "title": "Word Search (Round 1)",
+   "url": "https://leetcode.com/problems/word-search/",
+   "role": "SWE intern 2027, India on-campus",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8526095/my-microsoft-on-campus-internship-interv-epi9/"
+  },
+  {
+   "title": "Racer results given as (A before B) tuples: is the data valid, is it complete, who finishes first and last (topological sort)",
+   "url": "",
+   "role": "SWE intern 2027, India on-campus (Round 2, Principal Engineer)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8526095/my-microsoft-on-campus-internship-interv-epi9/"
+  },
+  {
+   "title": "Rearrange Array to Maximize Prefix Score (OA)",
+   "url": "https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/",
+   "role": "SWE intern 2027, India on-campus",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8464067/microsoft-on-campus-oa-swe-intern-2027-b-t5ue/"
+  },
+  {
+   "title": "Build a regex of at most 25 characters that matches N given strings and rejects M others (OA)",
+   "url": "",
+   "role": "SWE intern 2027, India on-campus",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8464067/microsoft-on-campus-oa-swe-intern-2027-b-t5ue/"
+  },
+  {
+   "title": "Copy List with Random Pointer, follow-ups on cycles and a recursive version",
+   "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+   "role": "SWE II, US hiring event",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7495317/microsoft-interview-experience-swe-gener-0cqi/"
+  },
+  {
+   "title": "Palindromic Substrings, then optimize",
+   "url": "https://leetcode.com/problems/palindromic-substrings/",
+   "role": "SWE II, US hiring event",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7495317/microsoft-interview-experience-swe-gener-0cqi/"
+  },
+  {
+   "title": "Design Instagram feed (HLD)",
+   "url": "",
+   "role": "SWE II, US hiring event",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7495317/microsoft-interview-experience-swe-gener-0cqi/"
+  },
+  {
+   "title": "Calendar with addMeeting(start, duration) and canSchedule(start, duration) (My Calendar I variant), run with test cases",
+   "url": "https://leetcode.com/problems/my-calendar-i/",
+   "role": "SDE II, US",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7516846/microsoft-sde-2-usa-by-akshithasudini-6sjr/"
+  },
+  {
+   "title": "Maximum number of sessions active at the same time (Meeting Rooms II variant)",
+   "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+   "role": "SDE II, US",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7516846/microsoft-sde-2-usa-by-akshithasudini-6sjr/"
+  },
+  {
+   "title": "Longest substring without repeating characters in a single pass",
+   "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+   "role": "SDE II, US",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7516846/microsoft-sde-2-usa-by-akshithasudini-6sjr/"
+  },
+  {
+   "title": "Explain a BST, then write insert and delete",
+   "url": "https://leetcode.com/problems/delete-node-in-a-bst/",
+   "role": "SDE II, US",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7516846/microsoft-sde-2-usa-by-akshithasudini-6sjr/"
+  },
+  {
+   "title": "Longest safe path: longest substring of letters with '#' as blockers; follow-up allows one '#' (sliding window)",
+   "url": "",
+   "role": "SDE 1 (L60), India, 2 YOE",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7361123/microsoft-interview-experience-sde-1-l60-ev95/"
+  },
+  {
+   "title": "LLD: design a cache with SOLID principles and a strategy pattern for eviction, implement and run LRU",
+   "url": "https://leetcode.com/problems/lru-cache/",
+   "role": "SDE 1 (L60), India, 2 YOE",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7361123/microsoft-interview-experience-sde-1-l60-ev95/"
+  },
+  {
+   "title": "Heaters (binary search on radius)",
+   "url": "https://leetcode.com/problems/heaters/",
+   "role": "L60, India",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7606563/microsoft-l60-interview-experience-by-an-s89w/"
+  },
+  {
+   "title": "Count perfect pairs with sorting and two pointers (likely LeetCode 3649 Number of Perfect Pairs)",
+   "url": "https://leetcode.com/problems/number-of-perfect-pairs/",
+   "role": "L60, India",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7606563/microsoft-l60-interview-experience-by-an-s89w/"
+  },
+  {
+   "title": "LLD: notification module other services call to notify targeted users",
+   "url": "",
+   "role": "L60, India",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7606563/microsoft-l60-interview-experience-by-an-s89w/"
+  },
+  {
+   "title": "Alien Dictionary (HackerRank live coding, 45 minutes)",
+   "url": "https://leetcode.com/problems/alien-dictionary/",
+   "role": "Software Engineer II (L61)",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8461584/microsoft-l61-se-hackerrank-live-coding-e3e2m/"
+  },
+  {
+   "title": "LLD: producer-consumer message queue with deep dive on mutex vs semaphore and deadlock prevention",
+   "url": "",
+   "role": "SE II (L61), Hyderabad",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7563238/microsoft-sde2-interview-experience-offe-cpo7/"
+  },
+  {
+   "title": "Rotate Image, then in place, then extend to MxN",
+   "url": "https://leetcode.com/problems/rotate-image/",
+   "role": "L60, Bengaluru",
+   "date": "2025-03",
+   "source_url": "https://leetcode.com/discuss/post/6563980/microsoft-l60-interview-experience-benga-kw4i/"
+  },
+  {
+   "title": "Implement a min heap from scratch",
+   "url": "",
+   "role": "SDE 1 (L60), Xbox, India, 1.8 YOE",
+   "date": "2025-08",
+   "source_url": "https://leetcode.com/discuss/post/7081576/microsoft-xbox-team-sde1-l60-hyderabad-i-346z/"
+  },
+  {
+   "title": "Median of Two Sorted Arrays; implement heap sort; Longest Ideal Subsequence",
+   "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+   "role": "SWE intern, India",
+   "date": "2025-01",
+   "source_url": "https://leetcode.com/discuss/post/6331043/microsoft-swe-internship-interview-exper-sv0y/"
+  },
+  {
+   "title": "Design a data structure where users belong to many groups: get groups of a user and users of a group, first without a HashMap",
+   "url": "",
+   "role": "SDE intern, India (referral)",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7460178/microsoft-sde-intern-interview-experienc-42vu/"
+  },
+  {
+   "title": "Codility OA: minimum adjacent swaps to group all red balls; count letters whose lowercase all appear before uppercase; maximize a number by turning up to k digits into 5",
+   "url": "",
+   "role": "SDE II, Redmond",
+   "date": "2025-02",
+   "source_url": "https://leetcode.com/discuss/post/6456363/microsoft-oa-sde-2-redmond-by-anonymous_-0h0l/"
+  }
+ ],
+ "focus_topics": [
+  "Arrays and strings (sliding window, two pointers, one-pass constraints)",
+  "Trees and BSTs (traversals, insert and delete, construction)",
+  "Linked lists (copy with random pointer, reversal)",
+  "Graphs (BFS/DFS, topological sort, grids)",
+  "Intervals and scheduling (calendar booking, concurrent sessions)",
+  "Binary search on the answer",
+  "LLD in code: LRU cache, notification service, message queue with concurrency",
+  "CS fundamentals for India intern loops: OOP, OS paging, DBMS",
+  "Microsoft-tagged LeetCode, last 3 months (snehasishroy repo, July 2026 snapshot): Two Sum, Longest Palindromic Substring, Add Two Numbers, Unique Paths, Trapping Rain Water, Subarray Sum Equals K, Sliding Window Maximum, Search in Rotated Sorted Array, Number of Islands, Merge Intervals, LRU Cache"
+ ],
+ "tips": [
+  "Apply in the first week of the month: Summer 2027 SWE intern tracks accept applications during the first week of each month from August through February, Explore from October to December.",
+  "Pick the 1 or 2 intern tracks that match your projects (Fullstack, Cloud backend, AI/ML and LLM, Data, Security, CoreAI); the CoreAI posting lists experience with AI coding tools such as GitHub Copilot and Claude Code as preferred.",
+  "Write code that compiles and runs in the live editor, and test it with your own cases before the interviewer asks.",
+  "Prepare STAR(R) stories with a Reflection line; Microsoft's own interview tips add the extra R.",
+  "For 60 to 62 loops, practice one LLD in working code within 35 to 45 minutes: cache with eviction strategies, notification service, producer-consumer queue.",
+  "Treat the final AA round as a senior-leader behavioral and project deep dive: know your exact contribution, numbers and trade-offs.",
+  "In the OA, never switch tabs or paste external code; HackerRank flags both and some 2026 OAs ran camera-on.",
+  "Ask the interviewer real questions at the end; the official student guide warns against answering 'nothing'."
+ ],
+ "compensation_note": "Levels.fyi US software engineer data (page read Oct 4, 2026): level 59 'SDE' about $161K total comp (base $128K, stock $24K/yr, bonus $9.7K); 60 about $191K (base $141K); 61 'SDE II' about $195K; 62 about $202K. India (Levels.fyi USD figures at the site rate of about 94.5 INR/USD): 59 about 27 lakh INR, 60 about 32 lakh, 61 about 49 lakh. Reported 2026 India new grad offer: SDE 1 (L59) base 18.05 lakh INR, $35K stock over 4 years, 4.51 lakh sign-on, 0 to 20% bonus. US interns (official): $5,690 to $11,210 per month ($7,410 to $12,250 in SF Bay Area and NYC); Explore $25.96 to $47.77 per hour. Ranges vary by location and level.",
+ "sources": [
+  "https://careers.microsoft.com/v2/global/en/home.html",
+  "https://apply.careers.microsoft.com/careers",
+  "https://careers.microsoft.com/v2/global/en/students",
+  "https://careers.microsoft.com/v2/global/en/hiring-tips/student-interviewing",
+  "https://careers.microsoft.com/v2/global/en/hiring-tips/interview-tips",
+  "https://careers.microsoft.com/v2/global/en/hiring-tips/virtual-interviewing",
+  "https://careers.microsoft.com/v2/global/en/culture",
+  "https://careers.microsoft.com/v2/global/en/universityinternship",
+  "https://careers.microsoft.com/v2/global/en/recentgraduate",
+  "https://careers.microsoft.com/v2/global/en/exploremicrosoft",
+  "https://careers.microsoft.com/v2/global/en/us-intern-pay.html",
+  "https://apply.careers.microsoft.com/careers/job/1970393556922922",
+  "https://apply.careers.microsoft.com/careers/job/1970393556925816",
+  "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+  "https://www.levels.fyi/companies/microsoft/salaries/software-engineer",
+  "https://www.levels.fyi/companies/microsoft/salaries/software-engineer/locations/india",
+  "https://interviewing.io/microsoft-interview-questions",
+  "https://www.aced.io/blog/microsoft-interview-process",
+  "https://www.extern.com/post/microsoft-internship-guide",
+  "https://simplify.jobs/blog/microsoft-internship-faq/",
+  "https://www.hellointerview.com/guides/microsoft/senior",
+  "https://www.hellointerview.com/community/questions/company/Microsoft",
+  "https://github.com/snehasishroy/leetcode-companywise-interview-questions",
+  "https://leetcode.com/discuss/post/8526095/my-microsoft-on-campus-internship-interv-epi9/",
+  "https://leetcode.com/discuss/post/8464067/microsoft-on-campus-oa-swe-intern-2027-b-t5ue/",
+  "https://leetcode.com/discuss/post/7495317/microsoft-interview-experience-swe-gener-0cqi/",
+  "https://leetcode.com/discuss/post/7516846/microsoft-sde-2-usa-by-akshithasudini-6sjr/",
+  "https://leetcode.com/discuss/post/7642471/microsoft-sde2-hiring-experience-by-siri-ixfl/",
+  "https://leetcode.com/discuss/post/7505049/microsoft-swe-ii-usa-interview-prep-by-a-p1ew/",
+  "https://leetcode.com/discuss/post/6988038/microsoft-offer-accepted-usa-by-anonymou-uwxf/",
+  "https://leetcode.com/discuss/post/7361123/microsoft-interview-experience-sde-1-l60-ev95/",
+  "https://leetcode.com/discuss/post/8298268/l60-microsoft-round-1-3-dsa-by-anonymous-d2gp/",
+  "https://leetcode.com/discuss/post/7606563/microsoft-l60-interview-experience-by-an-s89w/",
+  "https://leetcode.com/discuss/post/8461584/microsoft-l61-se-hackerrank-live-coding-e3e2m/",
+  "https://leetcode.com/discuss/post/7563238/microsoft-sde2-interview-experience-offe-cpo7/",
+  "https://leetcode.com/discuss/post/6563980/microsoft-l60-interview-experience-benga-kw4i/",
+  "https://leetcode.com/discuss/post/7081576/microsoft-xbox-team-sde1-l60-hyderabad-i-346z/",
+  "https://leetcode.com/discuss/post/6331043/microsoft-swe-internship-interview-exper-sv0y/",
+  "https://leetcode.com/discuss/post/7460178/microsoft-sde-intern-interview-experienc-42vu/",
+  "https://leetcode.com/discuss/post/7400064/microsoft-sde-intern-interview-experienc-y5ap/",
+  "https://leetcode.com/discuss/post/7404377/microsoft-sde-intern-interview-experienc-4rmr/",
+  "https://leetcode.com/discuss/post/7378779/microsoft-sde-intern-interview-experienc-83ot/",
+  "https://leetcode.com/discuss/post/6456363/microsoft-oa-sde-2-redmond-by-anonymous_-0h0l/",
+  "https://leetcode.com/discuss/post/7087502/microsoft-l-59-hackerrank-oa-question-oa-8phk/",
+  "https://leetcode.com/discuss/post/7435893/explore-microsoft-oa-on-hackerrank-tier-qkmgt/",
+  "https://leetcode.com/discuss/post/7560118/microsoft-oa-solved-both-questions-twice-hbd9/",
+  "https://leetcode.com/discuss/post/6998035/microsoft-l60-aa-round-what-to-expect-by-cjq4/",
+  "https://leetcode.com/discuss/post/6392601/microsoft-summer-internship2025not-selec-s9of/",
+  "https://leetcode.com/discuss/post/7412636/microsoft-swe-summer-intern-india-job-id-hisr/",
+  "https://leetcode.com/discuss/post/8360419/microsoft-sde-1-l-59-hyderabad-2026-by-a-aky7/",
+  "https://leetcode.com/discuss/post/7546120/compensation-details-microsoft-ic2l60-by-76bs/",
+  "https://leetcode.com/discuss/post/7556039/msft-swe-2-seattle-165k-base-225k-tc-goo-x9yc/",
+  "https://leetcode.com/discuss/post/7384731/microsoft-swe1-role-no-update-after-fina-to0o/"
+ ],
+ "confidence_notes": "Public 2025 to 2026 reports for US new grad (59/60) loops are sparse; most detailed reports are India campus, India L60, and SWE II (US and India). The US new grad description combines official pages with US SWE II reports and is an inference for new grads. The Codility to HackerRank shift is inferred from candidate reports (Feb 2025 Codility, Aug 2025 onward HackerRank), not announced by Microsoft. Loop shape varies by org (Azure, Xbox, Office, CoreAI) and by country. Extern figures (about 300 Explore seats, about 85% return offers, 37 days average process) are secondary and unconfirmed. [UNVERIFIED] Glassdoor snippets seen only in search results: a 2025 new grad loop of 'code screen from Codility, resume/HR round, and 3 interview onsite' and '1 behavioral round and 2 technical rounds'; Glassdoor pages could not be fetched. Reported question URLs on LeetCode Discuss were confirmed through LeetCode's GraphQL API because the pages block automated browsers. Simplify's claim (cited elsewhere in this research) that a referral cannot be attached after applying was not found on the Simplify Microsoft FAQ page; the official page says referrals are not required."
+}

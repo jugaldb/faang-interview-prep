@@ -1,0 +1,515 @@
+/* Interactive roadmap (docs/roadmap.md). Uses Material theme variables so light and dark both work. */
+
+.roadmap-static[hidden],
+.rm [hidden] {
+  display: none !important;
+}
+
+.rm {
+  margin: 1rem 0 2rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.rm *,
+.rm *::before,
+.rm *::after {
+  box-sizing: border-box;
+}
+
+/* ---------- controls ---------- */
+.rm-top {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.rm-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem 1.25rem;
+  padding: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  background: var(--md-code-bg-color);
+}
+
+.rm-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.rm-field > legend,
+.rm-field > label {
+  padding: 0;
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rm-field.rm-inline {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.rm-field.rm-inline > label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+}
+
+/* Track: real radio inputs, visually styled as a segmented control */
+.rm-seg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.rm-seg input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+}
+
+.rm-seg label {
+  display: inline-block;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  user-select: none;
+}
+
+.rm-seg input:checked + label {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: inset 0 0 0 1px var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+}
+
+.rm-seg input:focus-visible + label,
+.rm-btn:focus-visible,
+.rm-chip-x:focus-visible,
+.rm-phase-toggle:focus-visible,
+.rm-picker > summary:focus-visible,
+.rm select:focus-visible,
+.rm input:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+.rm select,
+.rm input[type="search"] {
+  max-width: 100%;
+  padding: 0.3rem 0.45rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+}
+
+.rm input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  accent-color: var(--md-accent-fg-color);
+  cursor: pointer;
+  flex: none;
+}
+
+/* Buttons */
+.rm-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.rm-actions-small {
+  justify-content: flex-end;
+  margin: 1rem 0 0.25rem;
+}
+
+.rm-btn {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  cursor: pointer;
+}
+
+.rm-btn:hover {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+.rm-btn-quiet {
+  border-color: transparent;
+  color: var(--md-default-fg-color--light);
+}
+
+.rm-file {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.md-typeset .rm-status {
+  min-height: 1.2em;
+  margin: 0;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ---------- company picker ---------- */
+/* Reset Material's admonition-style <details> look for this plain disclosure. */
+.md-typeset details.rm-picker {
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  box-shadow: none;
+  font-size: inherit;
+  background: none;
+}
+
+.md-typeset details.rm-picker > summary {
+  margin: 0;
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  border: 0;
+  border-radius: 0.2rem;
+  background: none;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+}
+
+.md-typeset details.rm-picker > summary::before {
+  display: none;
+}
+
+.md-typeset details.rm-picker > summary::after {
+  top: 0.55rem;
+  right: 0.6rem;
+  background-color: var(--md-default-fg-color--light);
+}
+
+.rm-picker-body {
+  padding: 0 0.75rem 0.75rem;
+}
+
+.md-typeset .rm-hint {
+  margin: 0 0 0.5rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.rm-cfilter {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset ul.rm-company-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.25rem 0.75rem;
+  max-height: 16rem;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset ul.rm-company-list > li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0.15rem 0;
+}
+
+.rm-company-list label {
+  cursor: pointer;
+}
+
+.rm-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.rm-chips:empty {
+  display: none;
+}
+
+.rm-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.1rem 0.15rem 0.1rem 0.55rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 1rem;
+  font-size: 0.7rem;
+}
+
+.rm-chip-x {
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  font: inherit;
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.rm-chip-x:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* ---------- progress ---------- */
+.rm-summary {
+  padding: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+}
+
+.md-typeset .rm-summary-text {
+  margin: 0 0 0.5rem;
+}
+
+.rm-bar {
+  height: 0.5rem;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.rm-bar > span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--md-accent-fg-color);
+  transition: width 0.2s ease;
+}
+
+.rm-bar-thin {
+  height: 0.25rem;
+  margin: 0 0.75rem;
+}
+
+/* ---------- next up ---------- */
+.rm-next {
+  margin-top: 1rem;
+  padding: 0.25rem 0.75rem 0.5rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-radius: 0.2rem;
+}
+
+.md-typeset .rm-next-h {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.md-typeset .rm-next-h:focus {
+  outline: none;
+}
+
+/* ---------- phases ---------- */
+.rm-phase {
+  margin: 0.75rem 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  scroll-margin-top: 4rem;
+}
+
+.md-typeset .rm-phase-h {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.rm-phase-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.2rem 0.75rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem 0.6rem 1.6rem;
+  position: relative;
+  border: 0;
+  background: none;
+  color: var(--md-default-fg-color);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Chevron drawn with borders (no icon font, no glyph) */
+.rm-phase-toggle::before {
+  content: "";
+  position: absolute;
+  left: 0.75rem;
+  top: 1.05rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.rm-phase-toggle[aria-expanded="false"]::before {
+  transform: rotate(-45deg);
+  top: 0.95rem;
+}
+
+.rm-phase-toggle:hover .rm-phase-title {
+  color: var(--md-accent-fg-color);
+}
+
+.rm-phase-meta {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+}
+
+.rm-panel {
+  padding-top: 0.25rem;
+}
+
+.md-typeset .rm-phase-summary {
+  margin: 0.4rem 0.75rem 0;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ---------- tasks ---------- */
+.md-typeset ul.rm-tasks,
+.md-typeset ol.rm-next-list {
+  margin: 0;
+  padding: 0 0.75rem 0.25rem;
+  list-style: none;
+}
+
+.md-typeset ul.rm-tasks > li,
+.md-typeset ol.rm-next-list > li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset ol.rm-next-list > li:first-child {
+  border-top: 0;
+}
+
+.rm-task > input[type="checkbox"] {
+  margin-top: 0.15rem;
+}
+
+.rm-task-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.rm-task-title {
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rm-task.is-done .rm-task-title {
+  color: var(--md-default-fg-color--light);
+  text-decoration: line-through;
+}
+
+.md-typeset .rm-task-detail,
+.md-typeset .rm-links,
+.md-typeset .rm-task-meta {
+  margin: 0.2rem 0 0;
+}
+
+.rm-task.is-done .rm-task-detail,
+.rm-task.is-done .rm-links {
+  opacity: 0.7;
+}
+
+.md-typeset .rm-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.9rem;
+}
+
+.md-typeset .rm-task-meta {
+  font-size: 0.65rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .rm-empty {
+  margin: 0.5rem 0.75rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset ol.rm-next-list > li.rm-empty {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+/* ---------- small screens ---------- */
+@media screen and (max-width: 30em) {
+  .rm-controls {
+    padding: 0.6rem;
+  }
+
+  .rm-field,
+  .rm-field select {
+    width: 100%;
+  }
+
+  .rm-field.rm-inline {
+    width: auto;
+  }
+
+  .md-typeset ul.rm-company-list {
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  }
+
+  .rm-phase-toggle {
+    padding-right: 0.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rm-bar > span,
+  .rm-phase-toggle::before {
+    transition: none;
+  }
+}

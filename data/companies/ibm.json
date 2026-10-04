@@ -1,0 +1,338 @@
+{
+  "slug": "ibm",
+  "name": "IBM",
+  "category": "Big Tech",
+  "one_liner": "Hybrid cloud, watsonx AI, consulting and mainframes. Known for a HackerRank OA (DSA plus REST API tasks), then light technical and manager behavioral rounds.",
+  "careers_url": "https://www.ibm.com/careers",
+  "students_url": "https://www.ibm.com/careers/career-opportunities",
+  "interview_prep_url": "https://www.ibm.com/careers/application-process",
+  "levels": {
+    "intern": "Software Engineer / Software Developer Intern or Co-op (hourly). IBM also runs a Co-op Program and an Apprenticeship Program for people without degrees.",
+    "new_grad": "Band 6 (Levels.fyi label: Associate Engineer, the entry level; job posts say 'Entry Level Software Developer/Engineer'). India: Associate System Engineer (ASE) via pooled campus and offline drives (2026 reports); IBM Software Labs runs Intern + FTE hiring (SRE/Technical Support, Dec 2025).",
+    "early_career": "Band 6 covers 0 to 2 years per Levels.fyi; Band 7 (Levels.fyi label: Staff Engineer) typically 4 to 5 years; Band 8 = Advisory Engineer. HashiCorp (IBM) hired a 3 YOE engineer at Band 06 (Nov 2025)."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application and screening",
+      "details": "Apply per requisition on ibm.com/careers. Official page: 'IBMers with expertise in your field will review your application.' Applications cannot be edited after submission; you may withdraw and reapply while the req is open."
+    },
+    {
+      "stage": "Online coding assessment (HackerRank)",
+      "details": "Usually arrives within about a day of applying, link valid 7 days. 2 problems (one easy, one medium; sometimes the medium extends the easy), timed 45 to 90 min (60 min most reported in 2025 to 2026). Graded on hidden test cases. Some 2026 software and AI developer OAs were 1 DSA problem plus 1 REST API problem (call a paginated API, parse JSON, aggregate). Some candidates report 3 coding questions."
+    },
+    {
+      "stage": "Optional video and English assessments",
+      "details": "Official FAQ lists a recorded webcam video assessment and an English language MCQ test, depending on role and region. Seen for federal/consulting roles (4 prerecorded questions, 1 min to prepare, 1 min to answer, no retakes) and for interns in 2026 (coding test, recorded competency video, English test)."
+    },
+    {
+      "stage": "Technical interview",
+      "details": "30 to 60 min with one or two engineers. Resume line-by-line, job-specific technology trivia (the stack in the JD), past projects. Sometimes a find-the-bug or small whiteboard/live coding task. Rarely hard algorithms."
+    },
+    {
+      "stage": "Manager interview",
+      "details": "30 to 45 min with the hiring manager. Behavioral and resume questions (IBM's FAQ: structured or behavioral interviews; bring specific examples with measured outcomes), why IBM, interests, sometimes no coding at all."
+    },
+    {
+      "stage": "Decision",
+      "details": "Official: 'After your final interview, we'll share our decision with you.' Candidates report offers about 1 week after the last round; total about 6 weeks to 2 months, with some silent for months after the OA."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "HackerRank OA",
+      "details": "2 LeetCode easy/medium problems in about 60 min, sent the day after applying, 7-day window. One SF intern passed all tests and still was not advanced (Oct 2025)."
+    },
+    {
+      "stage": "Interview (1 or 2 rounds)",
+      "details": "Variants reported for US interns in 2025: (a) one 30 to 45 min hiring manager interview with resume review and conceptual questions (OOP, OS, language semantics); (b) one interview with two engineers mixing behavioral resume questions and a find-the-bug or whiteboard problem; (c) live coding with a senior engineer, then a behavioral session; (d) a 45 min manager chat with no coding."
+    },
+    {
+      "stage": "Decision",
+      "details": "Reported 1.5 to 2 weeks after the final interview."
+    },
+    {
+      "stage": "Outside the US",
+      "details": "IBM Sofia ran a one-day in-person group assessment center (team tasks, then present to the IBM team) for interns (Oct 2025). Markham interns report an OA with one SQL and one hash map question, then resume questions and 'what does this Java program print'."
+    }
+  ],
+  "process_experienced_notes": "For 1 to 3 years, the loop is still OA plus 2 interviews, but rounds go deeper into the tech in the JD (Golang, Java, React, Linux kernel internals). India ISDL (Linux kernel, EDA tools): HackerRank OA with 2 DSA (graph, DP) plus 10 MCQs, screening call on C++ (this pointer, virtual destructors), then 2 technical rounds on C, volatile, mutex vs spinlock, MMU, page faults, system calls. IBM subsidiaries run their own loops: HashiCorp (IBM completed the acquisition Feb 27, 2025; Band 06 offer in Nov 2025) used a pre-built Go repo to complete plus a GitHub pull request review round; Confluent (IBM completed the acquisition Mar 17, 2026) used a 60 min HackerRank OA, DSA (Valid Sudoku, Sudoku Solver), a machine coding round and a values round.",
+  "timeline": "OA arrives within about 1 day of applying (7-day window). One US entry-level offer (Mar 2025): OA same day, engineer interview about 1 month later, manager interview about 2 weeks after that, offer the next week. Aced (formerly Exponent) estimates about 6 weeks end to end; IBM's FAQ says there is no overall timeframe. No hiring committee or team matching: you interview for one requisition and team. Silence is common: one India SDE candidate had no response 3 months after clearing the OA (Jul 2026), and IBM says recruiters cannot always contact applicants. Postings are rolling; 2026 India reports include an ASE pooled campus drive (Feb), an ASE offline drive (May) and on-campus OAs (Sep).",
+  "oa": {
+    "platform": "HackerRank (proctored; offline in campus labs for India ASE drives)",
+    "format": "US: 2 coding problems, easy plus medium, 45 to 90 min (60 most common), link valid 7 days. Some roles: 1 DSA plus 1 REST API (paginated JSON) problem. India campus: 2 problems in 60 to 70 min; a second coding assessment for shortlisted students with 1 DSA plus 1 framework bug-fix task (Node.js, Spring Boot or Django repo, 8 tests, no AI tools); some roles add a PostgreSQL query. India ASE: SHL English test first, then 1 string problem in 45 min offline (pass 6 of 10 tests to advance).",
+    "notes": "Official FAQ says assessments can be coding (MCQ or coding challenges), video (webcam), or English (MCQ). IBM explicitly bans using AI to complete assessments, technical tests or coding challenges, or during live interviews; violations can disqualify you. Practice the REST API pattern: fetch page 1, read total_pages, loop, parse data array."
+  },
+  "coding": {
+    "rounds": "OA plus 0 to 1 live coding segment (often inside the technical interview).",
+    "style": "LeetCode easy to medium in the OA (arrays, strings, hashing, sliding window, heaps, greedy). Live rounds lean on fundamentals, debugging and job-specific trivia more than hard DSA. Pen-and-paper coding in India ASE drives (palindrome).",
+    "environment": "HackerRank for OA and many live sessions (HackerRank live coding with audio/video); phone/video/in-person or assessment center per the official page. You run code against tests in HackerRank.",
+    "graded_on": "Hidden test cases in the OA; in interviews, clarity of approach, explaining your own resume and how you recover when an approach fails (LC post Oct 2025)."
+  },
+  "system_design": "Rare for new grads and interns. Expect design-flavored discussion of your own projects and position-specific concepts. Aced lists HLD prompts (Design Netflix, distributed message queues) for experienced loops. Subsidiaries differ: Confluent has a machine coding round; HashiCorp uses a real repo plus PR review.",
+  "behavioral": {
+    "framework": "IBM's FAQ says it uses 'structured or behavioral interviews' that probe the technical skills and behaviors the role needs; prepare specific examples and focus on outcomes (what you achieved, how you measured success, your role). Its AI-use guidance lists 'structure answers using STAR method' as an acceptable prep use, so STAR is a safe format. Values: dedication to every client's success; innovation that matters, for our company and for the world; trust and personal responsibility in all relationships.",
+    "values_url": "https://www.ibm.com/careers/culture",
+    "what_they_look_for": [
+      "Specific examples with measured outcomes (official guidance)",
+      "Client focus and personal responsibility (IBM values)",
+      "Can explain every line of the resume, including tools not listed in skills (Nov 2025 post)",
+      "Composure and adaptability when the first approach fails (Oct 2025 post)",
+      "Motivation for IBM and the specific team",
+      "For India campus roles: willingness to relocate and work shifts"
+    ],
+    "sample_questions": [
+      "Why would you be a good fit at IBM? (SWE Intern, Austin, Nov 2025)",
+      "Tell me about a time you had an interesting solution to a problem. (Federal Associate Developer one-way video, Sep 2025)",
+      "How do you handle a teammate who disagrees with you? (IBM Software Labs SRE intern+FTE, India, Dec 2025)",
+      "What will you do if production is in 3 days and multiple tasks are pending? (same)",
+      "How would you approach a customer complaint about a service that is down when the customer does not know why? (Intern, Sofia, Oct 2025)",
+      "Are you okay with relocation? Are you comfortable working in shifts? Why IBM? (ASE offline drive, India, May 2026)"
+    ]
+  },
+  "non_leetcode_formats": "REST API tasks inside HackerRank (paginated JSON: highest-rated movie by genre, fastest marathon runner); framework bug-fix in a provided Node.js/Spring Boot/Django repo; PostgreSQL report queries; one-way recorded video interview; English language test (SHL for India ASE); group assessment center with team tasks and a presentation (IBM Sofia); job-specific trivia (JavaScript closures, event bubbling, Angular vs React; DBMS joins and ACID; OS deadlock). Subsidiaries: HashiCorp complete-the-logic repo plus pull request review in Go.",
+  "reported_questions": [
+    {
+      "title": "For each string pair (s[i], t[i]), return YES if every letter's count differs by at most 3, else NO (similar to Check Whether Two Strings are Almost Equivalent)",
+      "url": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
+      "role": "Coding assessment (HackerRank); a Data Engineer/ML assessment post from Jul 2026 shows the same problem as screenshots",
+      "date": "2026-09",
+      "source_url": "https://leetcode.com/discuss/post/8499672/ibm-coding-assessment-question-similar-s-x19p/"
+    },
+    {
+      "title": "Maximize rental revenue: each customer rents the VM type with the most remaining stock and pays the current stock count",
+      "url": "https://leetcode.com/problems/sell-diminishing-valued-colored-balls/",
+      "role": "Application Developer, Cloud Full Stack (India OA, 60 min)",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8488656/ibm-india-online-assessment-oa-applicati-sevo/"
+    },
+    {
+      "title": "Count numbers of the form 3^x * 5^y within [low, high] (ugly-number variant)",
+      "url": "",
+      "role": "Application Developer, Cloud Full Stack (OA)",
+      "date": "2026-06",
+      "source_url": "https://leetcode.com/discuss/post/8329609/ibm-application-developer-cloud-fullstac-1bi4/"
+    },
+    {
+      "title": "Count contiguous subarrays whose product equals k",
+      "url": "",
+      "role": "Application Developer, Experience Front End (HackerRank OA)",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7465384/ibm-oa-application-developer-experience-wny3l/"
+    },
+    {
+      "title": "Count substrings that contain only distinct characters (premium on LeetCode)",
+      "url": "https://leetcode.com/problems/count-substrings-without-repeating-character/",
+      "role": "Application Developer, Experience Front End (HackerRank OA)",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7465384/ibm-oa-application-developer-experience-wny3l/"
+    },
+    {
+      "title": "Longest streak of requests where all machines answered Y (strings like 'YYN')",
+      "url": "",
+      "role": "AI Developer, Entry Level (1 hour assessment)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7597918/ibm-ai-developer-entry-level-interview-q-9qza/"
+    },
+    {
+      "title": "Paginated REST API: fetch every page and return the highest-rated movie in a genre (ties broken alphabetically)",
+      "url": "",
+      "role": "AI Developer, Entry Level",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7597918/ibm-ai-developer-entry-level-interview-q-9qza/"
+    },
+    {
+      "title": "Count triplets i<j<k whose max minus min is at most d, modulo 1e9+7",
+      "url": "",
+      "role": "AI Backend Engineer coding assessment",
+      "date": "2026-06",
+      "source_url": "https://leetcode.com/discuss/post/8335130/ibm-coding-assesment-for-ai-backend-engi-uf85/"
+    },
+    {
+      "title": "Paginated REST API: find the runner with the highest top_speed for a given sex and marathon",
+      "url": "",
+      "role": "AI Backend Engineer coding assessment",
+      "date": "2026-06",
+      "source_url": "https://leetcode.com/discuss/post/8335130/ibm-coding-assesment-for-ai-backend-engi-uf85/"
+    },
+    {
+      "title": "Minimum operations (replace x with floor(x/2)) to make an array alternate odd/even parity",
+      "url": "",
+      "role": "On-campus OA (HackerRank, 70 min)",
+      "date": "2026-09",
+      "source_url": "https://leetcode.com/discuss/post/8500776/ibm-online-assessment-on-campus-2-coding-rl5v/"
+    },
+    {
+      "title": "Maximum pairs (arr1[i], arr2[j]) with arr1[i] <= arr2[j] <= arr1[i] + d, each element used once",
+      "url": "",
+      "role": "On-campus OA (HackerRank, 70 min)",
+      "date": "2026-09",
+      "source_url": "https://leetcode.com/discuss/post/8500776/ibm-online-assessment-on-campus-2-coding-rl5v/"
+    },
+    {
+      "title": "Count strictly increasing contiguous runs of size exactly K; then fix bugs in a Node.js/Spring Boot/Django repo to pass 8 tests (no AI)",
+      "url": "",
+      "role": "On-campus second coding assessment, India",
+      "date": "2026-09",
+      "source_url": "https://leetcode.com/discuss/post/8513902/ibm-coding-assessment-2-on-campus-by-ano-vs12/"
+    },
+    {
+      "title": "PostgreSQL: report customers whose average CPU, memory or disk usage across their sites exceeds 50%",
+      "url": "",
+      "role": "Coding assessment (SQL)",
+      "date": "2026-09",
+      "source_url": "https://leetcode.com/discuss/post/8504767/ibm-coding-assesment-question-customer-r-a9yl/"
+    },
+    {
+      "title": "Longest subarray with equal 0s and 1s where no prefix has more 0s than 1s",
+      "url": "",
+      "role": "ASE pooled campus drive, offline HackerRank",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7549765/ibm-ase-coding-interview-by-adityaspilla-rffs/"
+    },
+    {
+      "title": "Count unstable processes (limit both rose and fell over timestamps)",
+      "url": "",
+      "role": "ASE pooled campus drive, offline HackerRank",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7549765/ibm-ase-coding-interview-by-adityaspilla-rffs/"
+    },
+    {
+      "title": "Union-find: minimum edge adjustments to connect all nodes (similar to Number of Operations to Make Network Connected), plus a meeting-rooms style interval problem",
+      "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+      "role": "OA, Sep 2025 (2 LC mediums)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7214630/ibm-sept-2025-oa-by-anonymous_user-40b5/"
+    },
+    {
+      "title": "For each element of arr1, smallest index in arr2 holding a greater value (-1 if none)",
+      "url": "",
+      "role": "HackerRank OA",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7286758/ibm-oa-questions-by-anonymous_user-snhg/"
+    },
+    {
+      "title": "Return the minimum number of moves to reach a given value (strings/arrays/math OA, 60 min, 2 problems)",
+      "url": "",
+      "role": "Entry Level Software Engineer (US) OA",
+      "date": "2025-11",
+      "source_url": "https://www.jointaro.com/interviews/companies/ibm/experiences/entry-level-software-engineer-united-states-november-24-2025-no-offer-positive-e85ff078"
+    },
+    {
+      "title": "Convert a number to binary (OA: 1 easy plus 1 medium extension; strings and heaps)",
+      "url": "",
+      "role": "New Grad Software Engineer (US) OA",
+      "date": "2025-10",
+      "source_url": "https://www.jointaro.com/interviews/companies/ibm/experiences/new-grad-software-engineer-united-states-october-1-2025-no-offer-positive-0003b50f"
+    },
+    {
+      "title": "Explain inheritance and polymorphism with examples (hiring manager interview)",
+      "url": "",
+      "role": "SWE Intern (US)",
+      "date": "2025-11",
+      "source_url": "https://www.jointaro.com/interviews/companies/ibm/experiences/swe-intern-united-states-november-21-2025-declined-offer-positive-9b686e68"
+    },
+    {
+      "title": "Valid parentheses; chessboard square color from row and column (plus C, MMU, virtual memory, mutex vs spinlock)",
+      "url": "https://leetcode.com/problems/valid-parentheses/",
+      "role": "Linux Kernel Developer, ISDL Bengaluru (experienced)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7182698/interview-experience-ibm-isdl-linux-kern-prdr/"
+    },
+    {
+      "title": "Valid Sudoku, then Sudoku Solver (peer DSA round)",
+      "url": "https://leetcode.com/problems/sudoku-solver/",
+      "role": "Confluent (an IBM company) Software Engineer L2, 2.5 YOE",
+      "date": "2026-09",
+      "source_url": "https://leetcode.com/discuss/post/8501506/confluent-ibm-software-engineer-l2-25-yo-d5qa/"
+    }
+  ],
+  "focus_topics": [
+    "Arrays and strings (frequency counting, parity, pairs)",
+    "Hashing and sliding window",
+    "Heaps and greedy",
+    "Prefix sums and two pointers",
+    "REST API calls with pagination and JSON parsing in your OA language",
+    "SQL (joins, GROUP BY, HAVING; PostgreSQL)",
+    "OOP pillars, inheritance, polymorphism",
+    "OS basics (deadlock, race conditions) and DBMS (ACID, joins)",
+    "Job-specific stack trivia (Java, Go, JavaScript/React/Angular, Linux)",
+    "Resume and project deep dives"
+  ],
+  "tips": [
+    "Take the HackerRank OA within 1 to 2 days of the invite; it arrives about a day after you apply and expires in 7 days.",
+    "Practice one paginated REST API exercise in your OA language (fetch page 1, read total_pages, loop, parse JSON, aggregate); IBM OAs in 2026 included these.",
+    "Prepare 5 STAR stories with numbers; IBM's own prep page tells you to focus on outcomes and how you measured success.",
+    "Study the exact stack in the job description; interviews are heavy on position-specific trivia, not hard algorithms.",
+    "Do not use AI tools during the OA or live interviews; IBM's published policy says it can disqualify you.",
+    "Expect little or no stock at Band 6 (Levels.fyi median stock about $338 a year); negotiate base, sign-on and relocation instead.",
+    "India ASE drives: clear the SHL English test, bring original documents, and be ready for pen-and-paper coding plus relocation and shift questions.",
+    "Each req is separate: you cannot edit an application, but you can withdraw and reapply while the posting is open."
+  ],
+  "compensation_note": "Levels.fyi US Software Engineer (updated 2026-10-04): Band 6 Associate Engineer median total comp $131K (base $129K, stock about $338/yr, bonus $2.4K); Band 7 $165K. One reported San Jose entry-level Software Developer offer (Mar 2026): about $146K base, $8K sign-on, $5K relocation, no RSUs. Levels.fyi IBM intern page: US SWE intern median $52/hr for 2026 (17 US reports, $39.40 to $82), $41.92/hr for 2025 (6 US reports). India: IBM Software Labs SRE intern+FTE offer ₹30K/month stipend and ₹11L CTC (Dec 2025); HashiCorp (IBM) Band 06 at 3 YOE ₹23L base, no RSUs (Nov 2025).",
+  "sources": [
+    "https://www.ibm.com/careers",
+    "https://www.ibm.com/careers/career-opportunities",
+    "https://www.ibm.com/careers/internships",
+    "https://www.ibm.com/careers/application-process",
+    "https://www.ibm.com/careers/culture",
+    "https://www.levels.fyi/companies/ibm/salaries/software-engineer",
+    "https://www.levels.fyi/internships/IBM/Software-Engineer-Intern/",
+    "https://newsroom.ibm.com/2025-02-27-ibm-completes-acquisition-of-hashicorp,-creates-comprehensive,-end-to-end-hybrid-cloud-platform",
+    "https://newsroom.ibm.com/2026-03-17-ibm-completes-acquisition-of-confluent,-making-real-time-data-the-engine-of-enterprise-ai-and-agents",
+    "https://www.aced.io/blog/ibm-interview-process",
+    "https://jugaldb.substack.com/p/top-30-ai-certifications-you-need",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/swe-intern-united-states-november-21-2025-declined-offer-positive-9b686e68",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/entry-level-software-engineer-united-states-november-24-2025-no-offer-positive-e85ff078",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/software-engineer-intern-austin-texas-november-13-2025-accepted-offer-positive-70538851",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/entry-level-software-engineer-united-states-november-13-2025-no-offer-neutral-c87c00eb",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/software-engineer-intern-united-states-october-20-2025-accepted-offer-positive-9a878215",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/new-grad-software-engineer-united-states-october-1-2025-no-offer-positive-0003b50f",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/software-engineerinternship-october-21-2025-accepted-offer-positive-7f2b2e34",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/software-developer-intern-october-23-2025-no-offer-neutral-a4659257",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/entry-level-federal-associate-developer-washington-district-of-columbia-september-1-2025-no-offer-positive-cdfa037f",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/software-engineer-internship-san-francisco-california-october-1-2025-no-offer-neutral-f8fc0061",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/entry-level-software-developer-united-states-february-23-2025-no-offer-negative-d62023a2",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/entry-level-software-engineer-united-states-march-13-2025-accepted-offer-positive-aadbeb49",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/software-intern-united-states-march-13-2025-no-offer-neutral-4c69d632",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/graduate-software-engineer-hursley-england-august-1-2025-no-offer-neutral-e7a78fb3",
+    "https://www.jointaro.com/interviews/companies/ibm/experiences/software-developer-intern-markham-ontario-september-1-2025-no-offer-neutral-84c4def3",
+    "https://leetcode.com/discuss/post/8429606/ibm-oa-30-july-2026-dsa-question-by-arya-6i52/",
+    "https://leetcode.com/discuss/post/8499672/ibm-coding-assessment-question-similar-s-x19p/",
+    "https://leetcode.com/discuss/post/8488656/ibm-india-online-assessment-oa-applicati-sevo/",
+    "https://leetcode.com/discuss/post/8329609/ibm-application-developer-cloud-fullstac-1bi4/",
+    "https://leetcode.com/discuss/post/8335130/ibm-coding-assesment-for-ai-backend-engi-uf85/",
+    "https://leetcode.com/discuss/post/7465384/ibm-oa-application-developer-experience-wny3l/",
+    "https://leetcode.com/discuss/post/7597918/ibm-ai-developer-entry-level-interview-q-9qza/",
+    "https://leetcode.com/discuss/post/7533489/ibm-software-developer-oa-expected-respo-7z1u/",
+    "https://leetcode.com/discuss/post/7534443/ibm-next-steps-software-developer-role-b-ymjs/",
+    "https://leetcode.com/discuss/post/8500776/ibm-online-assessment-on-campus-2-coding-rl5v/",
+    "https://leetcode.com/discuss/post/8513902/ibm-coding-assessment-2-on-campus-by-ano-vs12/",
+    "https://leetcode.com/discuss/post/8504767/ibm-coding-assesment-question-customer-r-a9yl/",
+    "https://leetcode.com/discuss/post/7549765/ibm-ase-coding-interview-by-adityaspilla-rffs/",
+    "https://leetcode.com/discuss/post/7638424/ibm-associate-system-engineer-by-nayantr-d2ug/",
+    "https://leetcode.com/discuss/post/8278255/ibm-ase-offline-round-experience-may-202-hrfg/",
+    "https://leetcode.com/discuss/post/8296503/how-to-prepare-for-ibm-ase-role-share-yo-jf65/",
+    "https://leetcode.com/discuss/post/7917098/ibm-intern-want-to-know-how-is-the-proce-0m9j/",
+    "https://leetcode.com/discuss/post/7214630/ibm-sept-2025-oa-by-anonymous_user-40b5/",
+    "https://leetcode.com/discuss/post/7286758/ibm-oa-questions-by-anonymous_user-snhg/",
+    "https://leetcode.com/discuss/post/7327397/ibm-online-assessment-coding-problem-by-3os02/",
+    "https://leetcode.com/discuss/post/7327890/ibm-interview-experience-of-my-friend-wh-jl6f/",
+    "https://leetcode.com/discuss/post/7263838/i-was-at-an-ibm-interview-and-this-is-wh-lg0x/",
+    "https://leetcode.com/discuss/post/7395297/ibm-software-labs-sre-technical-support-4cl28/",
+    "https://leetcode.com/discuss/post/7182698/interview-experience-ibm-isdl-linux-kern-prdr/",
+    "https://leetcode.com/discuss/post/8099933/interview-experience-multiple-companies-6zgyc/",
+    "https://leetcode.com/discuss/post/7215461/ibm-isl-offer-by-aniketsahu999-dn4f/",
+    "https://leetcode.com/discuss/post/7678582/ibm-new-grad-swe-offer-san-jose-californ-hrkf/",
+    "https://leetcode.com/discuss/post/8393693/solved-the-ibm-sde-oa-but-no-response-fo-qend/",
+    "https://leetcode.com/discuss/post/7356033/hashicorp-interview-process-sde-by-notsa-rcxm/",
+    "https://leetcode.com/discuss/post/7356041/hashicorp-offer-details-band-06-bangalor-sfuf/",
+    "https://leetcode.com/discuss/post/8501506/confluent-ibm-software-engineer-l2-25-yo-d5qa/",
+    "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
+    "https://leetcode.com/problems/sell-diminishing-valued-colored-balls/",
+    "https://leetcode.com/problems/count-substrings-without-repeating-character/",
+    "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    "https://leetcode.com/problems/valid-parentheses/",
+    "https://leetcode.com/problems/sudoku-solver/"
+  ],
+  "confidence_notes": "Re-verified 2026-10-04 by a second fact-check pass: every URL fetched (IBM pages via curl; LeetCode Discuss posts and problem slugs via LeetCode's public GraphQL API because the HTML returns 403 to bots; Taro pages read server-rendered). Fixes in this pass: removed ibm.com/careers/us-en/faq (it 301-redirects to /careers/application-process, which holds the FAQ) and a Taro 'work experience' review that was not an interview source; replaced the generic Levels.fyi internships link with the IBM intern page and recomputed the medians from its data points; the STAR claim is now worded as IBM actually words it (outcome-focused behavioral interviews; STAR named only in its AI-use guidance); dropped unsourced India track names (CIC, Expert Labs) and an unsourced 'Aug to Feb' campus window; Confluent and HashiCorp ownership confirmed against IBM newsroom releases. Glassdoor pages returned 403 and are not used. Most detailed 2026 OA question reports come from IBM India (campus, ASE, ISL/ISDL); US data comes from short Taro reports (Taro's interview data ends in late 2025), so US question detail is thinner. OA length varies by req (45, 60, 70 or 90 min) and some reports say 3 questions. The gamified 'cognitive ability' assessment that older guides mention is not on IBM's current official assessment list (coding, video, English); one May 2026 India post still asks about a 'gamified/puzzle round', so it may persist in some regions. Levels.fyi band labels (Associate Engineer for Band 6, Staff Engineer for Band 7) are Levels.fyi labels; IBM job posts use different titles. Location tags on LeetCode posts are given only when the post states them. Jugal's Substack has no IBM interview post; his certifications post lists the IBM Generative AI Engineering certificate and says course-based certificates are weaker hiring signals than proctored exams."
+}

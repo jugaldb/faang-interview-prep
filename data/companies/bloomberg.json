@@ -1,0 +1,287 @@
+{
+  "slug": "bloomberg",
+  "name": "Bloomberg",
+  "category": "Finance and quant",
+  "one_liner": "Builds the Bloomberg Terminal and financial data systems; interviews are LeetCode-tagged mediums with resume talk, then HR and engineering manager rounds.",
+  "careers_url": "https://www.bloomberg.com/company/what-we-do/engineering-cto/",
+  "students_url": "https://www.bloomberg.com/company/early-careers/",
+  "interview_prep_url": "https://www.bloomberg.com/company/careers/how-we-hire/",
+  "levels": {
+    "intern": "Software Engineering Intern (summer; official page says 6 to 10 weeks or up to 6 months depending on region). Entry-level and intern SWE roles are not tied to a team at application time (official).",
+    "new_grad": "Software Engineer (single entry title; Bloomberg says it uses fewer titles than hierarchical firms: individual contributors vs people managers).",
+    "early_career": "Software Engineer for roughly 0 to 4 years (Levels.fyi entries with 3 to 4 YOE are still 'Software Engineer'); next is Senior Software Engineer (Levels.fyi median 8 YOE), then Team Lead titles."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "Official flow: Application, Screening, (Assessment for certain entry-level roles), Interviews, Offer. Certain entry-level roles require a Plum assessment (official). US new grad links are often shared by campus recruiters or at Bloomberg events and through referrals (Sep 2025 and Dec 2025 Reddit reports). As of Oct 4, 2026, Bloomberg's public job search showed no 2027 SWE new grad or intern postings, consistent with link-based recruiting."
+    },
+    {
+      "stage": "Round 1 technical (60 min, video or on campus)",
+      "details": "Official step: video interview with an engineer from the department. Reported: about 10 to 15 min intro, resume and project questions and 'why Bloomberg', then 40 to 45 min for 1 to 2 LeetCode-style mediums (often Bloomberg-tagged), then 5 to 10 min for your questions. One Dec 2025 candidate coded in a HackerRank pad where they had to define the node classes themselves. Usually no OA beforehand."
+    },
+    {
+      "stage": "Virtual onsite: 2 technical interviews",
+      "details": "About 1 hour each, often 2 interviewers, 1 to 2 problems per round ranging easy to hard (graphs, backtracking, trees, linked lists, design-a-class). Some candidates get a third technical. In London, one round can be system design (HLD of a Terminal feature, top-N news). Sometimes scheduled back to back on one day with the HR round."
+    },
+    {
+      "stage": "HR interview (about 30 min)",
+      "details": "Why Bloomberg, motivation, 4 to 5 general behavioral questions, other offers or processes, and salary expectations; one candidate was walked through what the first two months at Bloomberg look like."
+    },
+    {
+      "stage": "Engineering Manager interview (30 to 80 min)",
+      "details": "In-depth project walkthrough: design choices, technology tradeoffs, scalability and reliability, how you handle competing priorities; sometimes a light design question (e.g. modernizing a legacy system). Reported as conversational and the most variable round."
+    },
+    {
+      "stage": "Offer",
+      "details": "Offer call 2 days to 2 weeks after the EM round. Example Feb 2025 NYC offer: $158K base, about $23.5K performance bonus (80% guaranteed in year one), $10K relocation, no sign-on."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Round 1 technical (60 min video)",
+      "details": "About 10 min resume/behavioral, then 45 to 50 min of 1 to 2 LeetCode-style questions. Summer 2026 NYC candidates (Sep to Oct 2025) reported BFS and graph problems; one reported a LeetCode hard and another a trie. Invites arrived within days of applying in mid-Sep 2025."
+    },
+    {
+      "stage": "Rounds 2 and 3 technical",
+      "details": "Two more technical interviews, often back to back or on a 'super interview day' (London, Nov 2025). A 2025 London intern got an O(1) add/remove/random-pick lottery system plus questions on JUnit testing, and a design round on a real-time stock price feed with price history."
+    },
+    {
+      "stage": "HR round (30 min)",
+      "details": "Ambitions, why Bloomberg, working alone vs in a team; the 2025 London intern discussed Bloomberg's values and philanthropy."
+    },
+    {
+      "stage": "Engineering Manager round",
+      "details": "Background, deeper technical discussion of your experience, sometimes a light system design chat (Nov 2025 Reddit)."
+    },
+    {
+      "stage": "Offer",
+      "details": "2025 London intern: applied in November, offer in March. Levels.fyi Summer 2026: NYC $52/hr, London about $27.5/hr."
+    }
+  ],
+  "process_experienced_notes": "Official experienced-hire process: one or two phone interviews (HR or engineer, then a 45 to 60 min technical call on coding fluency, problem solving and CS fundamentals), then in-house interviews lasting two hours to a full day, each round about an hour with two engineers from the hiring team. Questions are open-ended with multiple solutions and cover coding, data structures, algorithms and design; you can choose paper, whiteboard or laptop and your language. For 1 to 3 years you still interview as 'Software Engineer', but system design shows up more consistently and the EM round goes deeper into ownership and production experience.",
+  "timeline": "US new grad 2026 example: applied Nov 11, 2025; round 1 Nov 25; full loop (2 technicals plus HR) Jan 15, 2026; EM round Jan 21 (about 2 months). Feb 2025 example: HR scheduled each next round about a week later, with a month gap over the holidays. Summer 2026 intern invites went out mid-September 2025. Offers came 2 days to 2 weeks after the EM round. No hiring committee or team match before the offer is reported; official page says entry-level and intern roles are not team-specific and Bloomberg helps you find a team.",
+  "oa": {
+    "platform": "Usually none for US SWE new grad and intern (reported); some roles use a Plum assessment or other assessments per the official How We Hire page",
+    "format": "Not applicable for most SWE candidates; round 1 is a live technical interview",
+    "notes": "Official: certain entry-level roles require a Plum assessment; some roles use pre-recorded video interviews or virtual skills assessments, and the recruiter tells you if one applies. A Sep 2025 commenter said Bloomberg does not do OAs for new grad SWE."
+  },
+  "coding": {
+    "rounds": "3 technical (round 1 plus 2 onsite), sometimes 2 or 4",
+    "style": "LeetCode easy to medium with occasional hards; many questions match or resemble the Bloomberg-tagged list; design-a-class problems (hit counter, min stack, O(1) randomized set, underground system) are common.",
+    "environment": "Zoom or on campus with a shared coding pad (HackerRank pad reported); in-house you can choose paper, whiteboard or laptop (official). Some interviewers do not compile the code; others ask you to run and dry-run it.",
+    "graded_on": "Official four pillars: data structure knowledge, algorithms knowledge, problem solving skills, communication skills. Official: 'We'll focus more on your problem-solving skills and coding fluency than on finding the most optimal solution and running code.'"
+  },
+  "system_design": "Not standard for US new grads (a Feb 2025 NYC new grad reported no system design; a Jan 2026 NYC candidate got about 10 minutes of design questions in a technical round and a legacy-modernization question from the EM). London and European grad loops often include a full system design round (HLD of a Bloomberg Terminal feature, top-N news articles, real-time stock price feed with history). Standard for experienced hires.",
+  "behavioral": {
+    "framework": "Bloomberg values plus motivation ('why Bloomberg'). Official experienced-hire guide asks for STAR-style stories on collaboration, leadership, innovation and overcoming challenges.",
+    "values_url": "https://www.bloomberg.com/company/values/",
+    "what_they_look_for": [
+      "Official: what draws you to Bloomberg, how the role fits your long-term goals, and your understanding of Bloomberg's business",
+      "Official: clear communication; listening when the interviewer tries to help",
+      "Official: representing yourself accurately and honestly, including any use of AI",
+      "Passion for and command of your own projects",
+      "Being someone the interviewer would like to work with (repeated in 2025 reports)"
+    ],
+    "sample_questions": [
+      "Why Bloomberg? Why this role, and how does it fit your long-term goals?",
+      "Walk me through a project on your resume. Why did you choose that technology?",
+      "Tell me about a time you showed collaboration, leadership or innovation, or overcame a challenge (situation, actions, outcome).",
+      "What are your strengths and weaknesses?",
+      "How do you approach working alone versus with a team?",
+      "How do you handle competing priorities?",
+      "Do you have other offers or processes going on?",
+      "What are your salary expectations?"
+    ]
+  },
+  "non_leetcode_formats": "Engineering Manager in-depth project walkthrough; system design for London and European grads; design-a-class problems such as a Wordle checker, an O(1) lottery system and a hit counter; questions on unit testing (JUnit) for interns.",
+  "reported_questions": [
+    {
+      "title": "Design Hit Counter, follow-ups to reach O(1) time and space",
+      "url": "https://leetcode.com/problems/design-hit-counter/",
+      "role": "SWE New Grad NYC, round 1",
+      "date": "2025-02",
+      "source_url": "https://www.reddit.com/r/leetcode/comments/1ii2apq/new_grad_2025_bloomberg_swe_interview_experience/"
+    },
+    {
+      "title": "Find Peak Element variant (slightly more complex)",
+      "url": "https://leetcode.com/problems/find-peak-element/",
+      "role": "SWE New Grad NYC, round 2",
+      "date": "2025-02",
+      "source_url": "https://www.reddit.com/r/leetcode/comments/1ii2apq/new_grad_2025_bloomberg_swe_interview_experience/"
+    },
+    {
+      "title": "Combination Sum (word for word)",
+      "url": "https://leetcode.com/problems/combination-sum/",
+      "role": "SWE New Grad NYC, round 2",
+      "date": "2025-02",
+      "source_url": "https://www.reddit.com/r/leetcode/comments/1ii2apq/new_grad_2025_bloomberg_swe_interview_experience/"
+    },
+    {
+      "title": "Min Stack style question",
+      "url": "https://leetcode.com/problems/min-stack/",
+      "role": "SWE New Grad NYC, round 3",
+      "date": "2025-02",
+      "source_url": "https://www.reddit.com/r/leetcode/comments/1ii2apq/new_grad_2025_bloomberg_swe_interview_experience/"
+    },
+    {
+      "title": "Wordle checker: given a guess and a target, mark letters correct, misplaced or absent",
+      "url": "",
+      "role": "SWE New Grad NYC, round 3",
+      "date": "2025-02",
+      "source_url": "https://www.reddit.com/r/leetcode/comments/1ii2apq/new_grad_2025_bloomberg_swe_interview_experience/"
+    },
+    {
+      "title": "Minimum-cost root-to-leaf path in an n-ary tree, then return the path",
+      "url": "",
+      "role": "SWE Graduate London, round 1",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6449189/bloomberg-software-engineer-grad-london-rg9jy/"
+    },
+    {
+      "title": "Sort words by a Welsh dictionary order (multi-letter characters), follow-up with unknown max letter length (compare Verifying an Alien Dictionary)",
+      "url": "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+      "role": "SWE Graduate London, round 2",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6449189/bloomberg-software-engineer-grad-london-rg9jy/"
+    },
+    {
+      "title": "System design: show the top N news articles",
+      "url": "",
+      "role": "SWE Graduate London, round 3",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6449189/bloomberg-software-engineer-grad-london-rg9jy/"
+    },
+    {
+      "title": "High-level design of a Bloomberg Terminal feature",
+      "url": "",
+      "role": "SWE New Grad London, system design round",
+      "date": "2025-03",
+      "source_url": "https://leetcode.com/discuss/post/6589914/bloomberg-new-grad-london-offer-by-ignry-u4ic/"
+    },
+    {
+      "title": "Is a string valid if all characters occur equally often, allowing removal of one character (poster: similar to LeetCode 1941; closest match is 2423)",
+      "url": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
+      "role": "SWE Intern London, round 1",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6607794/bloomberg-intern-swe-london-offered-by-k-jnlw/"
+    },
+    {
+      "title": "Lottery system with addParticipant, removeParticipant and randomPick all in O(1)",
+      "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+      "role": "SWE Intern London, round 2",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6607794/bloomberg-intern-swe-london-offered-by-k-jnlw/"
+    },
+    {
+      "title": "Design: real-time stock price feed for a stock plus price history",
+      "url": "",
+      "role": "SWE Intern London, design round",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6607794/bloomberg-intern-swe-london-offered-by-k-jnlw/"
+    },
+    {
+      "title": "Valid Triangle Number",
+      "url": "https://leetcode.com/problems/valid-triangle-number/",
+      "role": "SWE New Grad NYC, phone screen",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6680865/bloomberg-new-grad-nyc-onsite-reject-by-24t64/"
+    },
+    {
+      "title": "Currency conversion through a graph of exchange rates (same idea as Evaluate Division)",
+      "url": "https://leetcode.com/problems/evaluate-division/",
+      "role": "SWE New Grad NYC, onsite",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6680865/bloomberg-new-grad-nyc-onsite-reject-by-24t64/"
+    },
+    {
+      "title": "Minimum Number of Steps to Make Two Strings Anagram",
+      "url": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+      "role": "SWE New Grad 2026, round 1",
+      "date": "2025-11",
+      "source_url": "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/"
+    },
+    {
+      "title": "Sort Characters By Frequency (alphanumeric)",
+      "url": "https://leetcode.com/problems/sort-characters-by-frequency/",
+      "role": "SWE New Grad 2026, round 1",
+      "date": "2025-11",
+      "source_url": "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/"
+    },
+    {
+      "title": "Invalid Transactions (verbatim)",
+      "url": "https://leetcode.com/problems/invalid-transactions/",
+      "role": "SWE New Grad 2026, round 2",
+      "date": "2025-11",
+      "source_url": "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/"
+    },
+    {
+      "title": "Grid path from one cell to another, follow-ups adding gas stops",
+      "url": "",
+      "role": "SWE New Grad 2026, round 1",
+      "date": "2025-11",
+      "source_url": "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/"
+    },
+    {
+      "title": "EM round: how would you convert a legacy software system into a modern one?",
+      "url": "",
+      "role": "SWE New Grad NYC 2026, EM round",
+      "date": "2026-01",
+      "source_url": "https://www.reddit.com/r/csMajors/comments/1qk8bo2/bloomberg_sde_new_grad_nyc_2026_entire_process/"
+    }
+  ],
+  "focus_topics": [
+    "Arrays, strings and hash maps (Two Sum, Group Anagrams, Longest Substring Without Repeating Characters)",
+    "Linked lists (two linked-list mediums in one Jan 2026 round 1)",
+    "Trees and n-ary trees",
+    "Graphs: BFS/DFS, shortest paths, weighted graphs (currency conversion)",
+    "Stacks (Decode String, Min Stack)",
+    "Design-a-class problems (Hit Counter, LRU Cache, Insert Delete GetRandom O(1), Design Underground System)",
+    "Intervals and two pointers (Merge Intervals, Container With Most Water, Trapping Rain Water)",
+    "Backtracking (Combination Sum)",
+    "Basic system design for London/Europe and experienced roles (real-time feeds, news ranking)"
+  ],
+  "tips": [
+    "Work through the Bloomberg-tagged LeetCode list for the last 3 to 6 months; several 2025 to 2026 candidates got tagged questions verbatim (one solved about 150 tagged questions before the Jan 2026 loop).",
+    "Practice writing the full program in a plain editor, including your own node and class definitions; a Dec 2025 round 1 used a HackerRank pad with no scaffolding.",
+    "Think out loud the whole time and take hints; Bloomberg grades communication as one of four pillars and says thought process matters more than the most optimal solution.",
+    "Prepare a 10-minute resume walkthrough and one project you can defend in depth; every round opens with it and the EM round goes through one project in depth.",
+    "Get the application link early: attend Bloomberg campus events and career-readiness programs (Launch, Insight Week, Tech Labs, Engineering Accelerator); official page says completing select programs gives early access to internship and full-time applications.",
+    "If you are interviewing in London or Europe, prepare one system design (real-time price feed, top-N news) even as a new grad.",
+    "Have a specific 'why Bloomberg' answer that covers the Terminal, financial data, and Bloomberg Philanthropies; HR rounds have asked about values and philanthropy.",
+    "Block 3 to 4 hours for the onsite day; the second technical and the HR round often follow the first with short gaps."
+  ],
+  "compensation_note": "Levels.fyi (checked Oct 4, 2026): 'Software Engineer' level averages about $206K total comp in the US (16 data points, median 3 YOE, no stock component). New grad NYC entries from Sep 2026: $158K base plus $30K to $32.5K bonus, i.e. $188K to $190.5K. A Feb 2025 NYC new grad offer on Reddit: $158K base, about $23.5K bonus, $10K relocation. London Software Engineer median about £98.7K. Interns (Levels.fyi): NYC $52/hr (Summer 2026), San Francisco $50/hr (Summer 2025), London about $27.5/hr (Summer 2026).",
+  "sources": [
+    "https://www.bloomberg.com/company/careers/how-we-hire/",
+    "https://www.bloomberg.com/company/careers/application-process/engineering-experienced-hire/",
+    "https://www.bloomberg.com/company/careers/interview-tips/interview-guide-experienced-hires/",
+    "https://www.bloomberg.com/company/what-we-do/engineering-cto/",
+    "https://www.bloomberg.com/company/what-we-do/",
+    "https://www.bloomberg.com/company/early-careers/",
+    "https://www.bloomberg.com/company/early-careers/internship/",
+    "https://www.bloomberg.com/company/early-careers/full-time/",
+    "https://www.bloomberg.com/company/early-careers/student-programs/",
+    "https://www.bloomberg.com/company/values/",
+    "https://bloomberg.avature.net/careers/SearchJobs",
+    "https://www.levels.fyi/companies/bloomberg/salaries/software-engineer",
+    "https://www.levels.fyi/companies/bloomberg/salaries/software-engineer/levels/software-engineer",
+    "https://www.levels.fyi/companies/bloomberg/salaries/software-engineer/levels/software-engineer/locations/london-metro-area",
+    "https://www.levels.fyi/internships/Bloomberg/Software-Engineer-Intern/",
+    "https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/Bloomberg/2.%20Three%20Months.csv",
+    "https://www.reddit.com/r/leetcode/comments/1ii2apq/new_grad_2025_bloomberg_swe_interview_experience/",
+    "https://www.reddit.com/r/csMajors/comments/1nr9400/bloomberg_new_grad_interview_questions_new_grad_26/",
+    "https://www.reddit.com/r/csMajors/comments/1qk8bo2/bloomberg_sde_new_grad_nyc_2026_entire_process/",
+    "https://www.reddit.com/r/csMajors/comments/1pcstr9/bloomberg_interview_process_overview/",
+    "https://www.reddit.com/r/csMajors/comments/1pnfdyo/bloomberg_2026_new_grad_swe_r1_experience/",
+    "https://www.reddit.com/r/csMajors/comments/1nknl8s/bloomberg_2026_swe_intern_round_1_interview_advice/",
+    "https://www.reddit.com/r/csMajors/comments/1npnoyq/bloomberg_swe_intern_2026_interview_process/",
+    "https://www.reddit.com/r/csMajors/comments/1otzq80/bloomberg_swe_new_grad_final_interview_what/",
+    "https://www.reddit.com/r/csMajors/comments/1pcedov/time_interval_after_bloomberg_swe_london_2026/",
+    "https://leetcode.com/discuss/post/6449189/bloomberg-software-engineer-grad-london-rg9jy/",
+    "https://leetcode.com/discuss/post/6589914/bloomberg-new-grad-london-offer-by-ignry-u4ic/",
+    "https://leetcode.com/discuss/post/6607794/bloomberg-intern-swe-london-offered-by-k-jnlw/",
+    "https://leetcode.com/discuss/post/6680865/bloomberg-new-grad-nyc-onsite-reject-by-24t64/"
+  ],
+  "confidence_notes": "Verification (Oct 4, 2026): bloomberg.com How We Hire, experienced-hire process, interview guide and Engineering & CTO pages were loaded by a crawler [VERIFIED]; early-careers, internship, full-time, student-programs and values pages were confirmed through Wayback Machine snapshots from Dec 2025 to May 2026 because bloomberg.com shows a bot check to scripts [VERIFIED via archive]. The values page loads but its values text is rendered by script and was not extracted, so no specific value names are given here. The engineering recruitment steps (apply, video interview with an employee, video or in-person interviews with employees, HR and managers, offer) come from step images on the archived internship page. Reddit posts confirmed via the Arctic Shift archive API; LeetCode posts via LeetCode's GraphQL API. Uncertain: number of technical rounds varies (2 to 4) by office and interviewer; system design for new grads is common in London but rare in NYC; whether any OA is used varies (official mentions Plum and other assessments for certain entry-level roles). The 'reapply after about 6 months' claim seen in one Reddit comment was not confirmed and is excluded. Levels.fyi new grad entries are self-reported."
+}

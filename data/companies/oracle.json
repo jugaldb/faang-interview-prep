@@ -1,0 +1,319 @@
+{
+  "slug": "oracle",
+  "name": "Oracle",
+  "category": "Big Tech",
+  "one_liner": "Database, OCI cloud, Oracle Health and enterprise apps. Interviews: HackerRank DSA, CS fundamentals with Java/SQL, a 'bartender' bar-raiser round, and design even at IC2.",
+  "careers_url": "https://www.oracle.com/careers/",
+  "students_url": "https://www.oracle.com/careers/students-grads/",
+  "interview_prep_url": "https://www.oracle.com/careers/opportunities/getting-hired/",
+  "levels": {
+    "intern": "Oracle Technical Intern Program (official name; US summer; teams named in candidate reports include OCI and Oracle Health and Analytics). India: 6-month intern plus FTE offers for campus hires (ASE track) and 'Project Intern' roles. Oracle Veteran Internship Program also exists.",
+    "new_grad": "IC1 (Levels.fyi: entry level). US campus titles vary by org, e.g. 'Undergrad Software Engineer - Oracle Cloud Infrastructure (OCI)' cohort. India: MTS / MTS-1 at IC1, Applications Developer 1, AI Application Engineer 1; Associate Software Engineer (ASE) is a lower IC0 band on some campuses. Official graduate program name for engineering and development hires: Oracle Global Tech Program.",
+    "early_career": "IC1 for 0 to about 2 yrs; IC2 (Levels.fyi 'Member of Technical Staff', often 'Software Developer 2' or 'SDE-2' in posts) for about 2 to 5 yrs; IC3 Senior MTS (SMTS / Software Developer 3) after that. Down-leveling by one band after the loop is common (SMTS offered MTS; SDE2 offered IC2)."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "careers.oracle.com (Oracle Recruiting Cloud). Campus roles are tagged 'Campus'. US OCI Feb 2027 undergrad cohort (posted Sep 30, 2026): Bachelor's by Jan 2027, fully in office in Nashville, and no visa sponsorship of any kind, explicitly including F-1 OPT and CPT. Minimum qualifications must be visible on your resume (two or more languages, three or more CS areas)."
+    },
+    {
+      "stage": "Online assessment (India campus)",
+      "details": "2 coding questions plus MCQ sections: aptitude and logical reasoning, reading comprehension, probability, OS, DBMS, computer networks, OOP, SQL, REST/API basics. Some campus OAs are DP plus bit manipulation."
+    },
+    {
+      "stage": "Technical interviews (India campus: 2 to 3 rounds)",
+      "details": "Resume walkthrough (internships, projects, messaging queues, Redis AOF vs RDB), DSA on the simpler side (linked lists, LIS, LCA, Dijkstra, arrays/strings, basic DP), CS fundamentals (OOP, DBMS indexing, process vs thread), SQL queries (joins, second-highest sale), simple LLD (parking lot, library management), and puzzles. ML/AI projects were given extra preference in 2025."
+    },
+    {
+      "stage": "HR round",
+      "details": "Final HR or managerial conversation."
+    },
+    {
+      "stage": "IC1/IC2 loop (OCI and other orgs; US and India)",
+      "details": "Recruiter call, a 60-min technical screen on HackerRank/CodePair (2 problems or 1 problem plus experience questions), then about 4 x 60-min onsite rounds: coding, design-and-code, system design, and a 'bartender' (bar-raiser) round. Behavioral questions appear in every round. A 'junior' IC2 loop (Oct 2025; org and country not stated) included two LeetCode hards, a system design (review app), and a union-find medium."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "US intern interview",
+      "details": "A 1-hour slot combining behavioral and coding (Feb 2026 report). Coding can be hard: Consecutive Numbers Sum was asked for a SWE intern (Oct 2025)."
+    },
+    {
+      "stage": "Team placement",
+      "details": "A Summer 2026 candidate who interviewed for a Java SWE intern role (Oracle Health and Analytics) was moved to a full-stack AI/data platform intern role after the team turned FT-only; offer $46/hr, start dates in May or June."
+    },
+    {
+      "stage": "India campus intern",
+      "details": "Same campus process as new grads (OA, 2 to 3 technical rounds, HR); ASE track pays a 6-month internship stipend and converts to FTE."
+    },
+    {
+      "stage": "Posting status",
+      "details": "As of Oct 4, 2026, a search of Oracle's US campus listings showed the OCI Feb 2027 undergrad role and Summer 2027 sales and finance intern roles, but no Summer 2027 SWE intern requisition yet."
+    }
+  ],
+  "process_experienced_notes": "IC2 (2 to 5 yrs) India: recruiter screen (sometimes via Naukri), then 2 rounds (DSA plus Core Java on a live HackerRank link; hiring manager) or a 5-round loop: DSA (Cheapest Flights Within K Stops), Java plus SQL plus string coding, HM with HLD (log ingestion, auth vs authorization, JWT), experience and behavioral, microservices plus spotting bugs in Java snippets plus a pick/not-pick DP. OCI loops: phone screen mixing project walkthrough, cloud concepts (load balancers, caching, API gateways) and a DSA design problem; then coding with thread-safety follow-ups (thread-safe LRU), a bartender round run by a PMTS (project 'why' questions, difficult stakeholders), HM HLD (concurrent job orchestrator with priorities), and a 20-min design (menu content management). Oracle Health loops (Feb 2025): coding plus a behavioral question in each round, a senior-manager bar-raiser-style round, and inventory-management system design.",
+  "timeline": "India campus: OA and interviews Aug to Oct, offers at or soon after the drive. Experienced: verbal offer to written offer letter took over a month for several candidates in Dec 2025 to Mar 2026, with recruiters citing internal approvals or a hiring freeze (Jan and Apr 2026 reports); a senior Java role was put on hold for budget after all rounds (Mar 2026). Oracle layoffs hitting OCI and India teams were reported in Aug 2025. US OCI Feb 2027 undergrad cohort posted Sep 30, 2026 (applications accepted for at least 3 days after posting).",
+  "oa": {
+    "platform": "HackerRank for screening tests and live coding pads; campus OA platform not consistently named in reports.",
+    "format": "India campus: 2 coding questions plus MCQ sections (aptitude, reading comprehension, probability, OS, DBMS, networks, OOP, SQL, REST). Experienced: 60-min HackerRank coding test or a live HackerRank session with 2 problems.",
+    "notes": "Reported campus OA problems: Minimize Maximum of Array, a JSON diff tool for two large JSON objects, '01' to '10' simultaneous swaps (Time Needed to Rearrange a Binary String), skip up to k classes to minimize daily span, make all elements equal with *2/+1/-1/ceil-half operations (Aug to Nov 2025)."
+  },
+  "coding": {
+    "rounds": "Campus: 2 to 3 technical rounds with DSA. US OCI: phone screen plus 2 to 3 onsite coding or design-and-code rounds.",
+    "style": "Campus: LeetCode easy to medium (linked lists, LIS, LCA, Dijkstra). US OCI and IC2: medium to hard (sliding-window hard, design-and-code a file system, union-find, Implement Trie, Merge k Sorted Lists style), often with thread-safety or scaling follow-ups.",
+    "environment": "HackerRank CodePair; some interviewers let you pick any language (Python allowed in an IC2 round). OCI expects a dry run and working code.",
+    "graded_on": "Working code that passes all test cases (an IC2 candidate was rejected for not passing every case on two problems), dry run, complexity, edge cases, plus behavioral signals collected in every OCI round."
+  },
+  "system_design": "Campus (IC0/IC1): simple LLD such as parking lot or library management. US OCI IC2 (even 'junior' roles): a full system design round (review app, Oct 2025) and a design-and-code file system problem. India IC2/SMTS: HLD inside the HM round (log ingestion, concurrent job orchestrator with priorities and autoscaling, menu content management), plus Java microservices questions. Oracle Health: inventory management with third-party vendor APIs.",
+  "behavioral": {
+    "framework": "No public interview framework. Oracle's Code of Ethics lists core values: Integrity, Ethics, Mutual Respect, Teamwork, Communication, Innovation, Customer Satisfaction, Quality, Fairness, Compliance. Loops across OCI, Oracle Health and other orgs include a 'bartender' round (Oracle's bar raiser) led by a senior engineer (PMTS) or senior manager, reported from IC2 to Principal level between Oct 2025 and Aug 2026; besides behavioral and project deep dives it can include an HLD (URL shortener, hospital management). Behavioral questions also appear in other rounds.",
+    "values_url": "https://www.oracle.com/us/assets/cebc-176732.pdf",
+    "what_they_look_for": [
+      "Clear reasons behind every design choice in your projects",
+      "Handling difficult stakeholders and disagreements with managers",
+      "Customer focus (prioritizing customer needs)",
+      "Delivering under deadlines and pressure",
+      "Ownership: going above and beyond, cutting scope sensibly",
+      "Communication across teams"
+    ],
+    "sample_questions": [
+      "Tell me about a time you disagreed with your manager.",
+      "How do you handle deadlines and pressure?",
+      "How do you manage difficult stakeholders?",
+      "Tell me about a big obstacle you overcame.",
+      "Tell me about a time you prioritized customer needs over your team's needs.",
+      "Tell me about a time you went above and beyond.",
+      "Tell me about a time you reduced the scope of an epic."
+    ]
+  },
+  "non_leetcode_formats": "Bartender (bar-raiser) round focused on behavioral and project walkthrough, sometimes with an HLD. CS-fundamentals and aptitude MCQs in campus OAs. SQL query writing (joins, aggregations, second-highest). Java/microservices rounds including finding bugs in given Java snippets. Design-and-code rounds (file system, phone directory with range queries). Puzzles in campus interviews. Official 'Getting hired' page links Oracle recruiter guides on technical interviews, behavioral interviews, interview mistakes, campus resumes, and AI use in job search.",
+  "reported_questions": [
+    {
+      "title": "Implement Trie (Prefix Tree)",
+      "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      "role": "SWE phone screen (USA)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7203577/oracle-phone-screen-usa-by-user9970gk-cxb4/"
+    },
+    {
+      "title": "Consecutive Numbers Sum",
+      "url": "https://leetcode.com/problems/consecutive-numbers-sum/",
+      "role": "SWE Intern",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7291262/leetcode-hard-for-an-oracle-intern-inter-xko3/"
+    },
+    {
+      "title": "OA: seconds until no '01' remains when every '01' becomes '10' simultaneously",
+      "url": "https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/",
+      "role": "Campus OA (India)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7342290/oracle-oa-on-campus-by-anonymous_user-4qv0/"
+    },
+    {
+      "title": "OA: binary timetable matrix, skip up to k classes to minimize total hours spanned",
+      "url": "",
+      "role": "Campus OA (India)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7342290/oracle-oa-on-campus-by-anonymous_user-4qv0/"
+    },
+    {
+      "title": "OA: Minimize Maximum of Array (binary search plus greedy)",
+      "url": "https://leetcode.com/problems/minimize-maximum-of-array/",
+      "role": "Associate Software Developer, 6-month intern plus FTE (India on campus)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7101940/oracle-ase-6m-fte-interview-experience-b-3l8t/"
+    },
+    {
+      "title": "OA: build a JSON diff tool for two JSON objects (size up to 1e5)",
+      "url": "",
+      "role": "Associate Software Developer, 6-month intern plus FTE (India on campus)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7101940/oracle-ase-6m-fte-interview-experience-b-3l8t/"
+    },
+    {
+      "title": "Longest Increasing Subsequence (recursion to O(n log n))",
+      "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+      "role": "Associate Software Developer (India on campus)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7101940/oracle-ase-6m-fte-interview-experience-b-3l8t/"
+    },
+    {
+      "title": "Remove Nth Node From End of List",
+      "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "role": "Associate Software Developer (India on campus)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7101940/oracle-ase-6m-fte-interview-experience-b-3l8t/"
+    },
+    {
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      "role": "Associate Software Developer (India on campus)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7101940/oracle-ase-6m-fte-interview-experience-b-3l8t/"
+    },
+    {
+      "title": "Count pairs whose sum is divisible by 60",
+      "url": "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/",
+      "role": "Associate Software Developer (India on campus)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7101940/oracle-ase-6m-fte-interview-experience-b-3l8t/"
+    },
+    {
+      "title": "Linked List Cycle (Floyd's algorithm), then implement a linked list",
+      "url": "https://leetcode.com/problems/linked-list-cycle/",
+      "role": "ASE (India on campus)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7238629/my-oracle-ase-on-campus-interview-experi-dcyt/"
+    },
+    {
+      "title": "Phone dictionary: add unique names, list all, find names between two characters",
+      "url": "",
+      "role": "OCI phone screen",
+      "date": "2025-07",
+      "source_url": "https://leetcode.com/discuss/post/6912374/oracle-phone-screening-round-by-anonymou-61ti/"
+    },
+    {
+      "title": "Count least steps to make an array zig-zag (live HackerRank)",
+      "url": "",
+      "role": "IC2 / SDE-2 (India)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7252680/oracle-ic2-sde2-by-anonymous_user-v2jm/"
+    },
+    {
+      "title": "Design and code a file system (LeetCode-hard style)",
+      "url": "",
+      "role": "IC2 junior role onsite (org and country not stated)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7246275/oracle-ic2-oct-2025-rejected-by-sapan299-4ynh/"
+    },
+    {
+      "title": "System design: a review app",
+      "url": "",
+      "role": "IC2 junior role onsite (org and country not stated)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7246275/oracle-ic2-oct-2025-rejected-by-sapan299-4ynh/"
+    },
+    {
+      "title": "Cheapest Flights Within K Stops",
+      "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+      "role": "Experienced SWE (5-round loop)",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8474251/oracle-interview-experience-by-6npqo57mi-tk8r/"
+    },
+    {
+      "title": "HLD: design a log ingestion system",
+      "url": "",
+      "role": "Experienced SWE, HM round",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8474251/oracle-interview-experience-by-6npqo57mi-tk8r/"
+    },
+    {
+      "title": "LRU Cache, then make it thread safe",
+      "url": "https://leetcode.com/problems/lru-cache/",
+      "role": "OCI SMTS loop (4 YOE, offered MTS)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7327102/oracle-oci-interview-experience-rejected-fgch/"
+    },
+    {
+      "title": "Convert a prefix expression to postfix",
+      "url": "",
+      "role": "OCI SMTS loop (4 YOE, offered MTS)",
+      "date": "2025-11",
+      "source_url": "https://leetcode.com/discuss/post/7327102/oracle-oci-interview-experience-rejected-fgch/"
+    },
+    {
+      "title": "Evaluate a postfix expression from a string array",
+      "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+      "role": "Oracle Health SDE2 loop (down-leveled to IC2)",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6439974/oracle-health-sde2-feb-2025-down-leveled-tyfg/"
+    },
+    {
+      "title": "Meeting Rooms II",
+      "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+      "role": "IC3 loop, technical round (DSA plus OOP)",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8486479/oracle-ic3-by-anonymous_user-rgra/"
+    },
+    {
+      "title": "Time Based Key-Value Store (inside an HLD round)",
+      "url": "https://leetcode.com/problems/time-based-key-value-store/",
+      "role": "IC3 loop, HLD round",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8486479/oracle-ic3-by-anonymous_user-rgra/"
+    }
+  ],
+  "focus_topics": [
+    "Linked lists (cycle, nth from end, intersection, sorted merges)",
+    "Trees (LCA, BST construction, Trie)",
+    "DP (LIS, pick/not-pick, Consecutive Numbers Sum style math)",
+    "Binary search on answer and greedy (Minimize Maximum of Array)",
+    "Graphs (Dijkstra, Cheapest Flights, union-find)",
+    "Stacks and expression conversion (postfix/prefix)",
+    "Design-and-code: file system, LRU with thread safety, phone directory",
+    "CS fundamentals: OS, DBMS, networks, OOP, SQL",
+    "Java, Spring Boot, microservices (experienced)"
+  ],
+  "tips": [
+    "International students: read the visa line on every US Oracle posting; the OCI Feb 2027 undergrad cohort posting says no sponsorship at all, including F-1 OPT and CPT.",
+    "For India campus OAs, revise OS, DBMS, networks, OOP, SQL and aptitude; the MCQ sections carry real weight alongside 2 coding questions.",
+    "Prepare for the 'bartender' round like a bar raiser: 6 to 8 STAR stories on stakeholders, disagreements, customer focus and scope cuts, plus a detailed project walkthrough.",
+    "In OCI rounds, finish with a dry run and working code, then expect a thread-safety or scaling follow-up (thread-safe LRU, concurrent schedulers).",
+    "Learn basic system design before your first OCI loop; even 'junior' IC2 loops included a full design round.",
+    "If the role lists Java, prepare Core Java, Spring Boot, microservices and SQL; one round asked candidates to find bugs in Java snippets.",
+    "On campus, check whether an offer is ASE (IC0) or MTS (IC1); base pay and RSUs differ sharply.",
+    "Do not resign on a verbal offer; several 2026 candidates waited over a month for the written letter during a reported freeze."
+  ],
+  "compensation_note": "Levels.fyi (data as of Oct 4, 2026), US: IC-1 entry level median TC about $162K (base $117K, stock $43K/yr, bonus $3K); IC-2 about $181K. Official US OCI 'February 2027 Undergrad Software Engineer' (Nashville) hiring range: $74,100 to $148,300 base, may be eligible for bonus and equity. US SWE intern offer reported at $46/hr (Feb 2026). India: Levels.fyi IC-1 median about INR 22.6L TC. Reported FY2025 campus MTS (IC1): annual gross pay INR 18.68L (B.Tech) or INR 19.18L (M.Tech) plus $48K RSUs vesting 40/30/20/10; ASE (IC0): INR 15.23L plus $16K RSUs and INR 60K/month 6-month internship stipend; 2025 grad Applications Developer 1 and AI Application Engineer 1: base about INR 18.7L to 20.2L plus $48K RSUs (40/30/20/10). OCI IC2 Bengaluru (Dec 2025, 2 yrs): INR 25L base plus $35K RSUs; joining bonus reported discontinued in OCI.",
+  "sources": [
+    "https://www.oracle.com/careers/",
+    "https://www.oracle.com/careers/students-grads/",
+    "https://www.oracle.com/careers/students-grads/development-engineering/",
+    "https://www.oracle.com/careers/students-grads/internships/",
+    "https://www.oracle.com/careers/campus-recruiting/",
+    "https://www.oracle.com/in/careers/students-grads/",
+    "https://www.oracle.com/careers/opportunities/getting-hired/",
+    "https://www.oracle.com/careers/life-at-oracle/",
+    "https://www.oracle.com/us/assets/cebc-176732.pdf",
+    "https://careers.oracle.com/en/sites/jobsearch/jobs",
+    "https://careers.oracle.com/en/sites/jobsearch/job/346357",
+    "https://www.levels.fyi/companies/oracle/salaries/software-engineer",
+    "https://www.levels.fyi/companies/oracle/salaries/software-engineer/locations/india",
+    "https://leetcode.com/discuss/post/7203577/oracle-phone-screen-usa-by-user9970gk-cxb4/",
+    "https://leetcode.com/discuss/post/7291262/leetcode-hard-for-an-oracle-intern-inter-xko3/",
+    "https://leetcode.com/discuss/post/7582388/recent-experience-on-interview-for-oracl-hnvk/",
+    "https://leetcode.com/discuss/post/7610414/swe-internship-decision-nordstrom-seattl-coli/",
+    "https://leetcode.com/discuss/post/7342290/oracle-oa-on-campus-by-anonymous_user-4qv0/",
+    "https://leetcode.com/discuss/post/7332199/need-help-solving-this-ques-asked-in-ora-aod5/",
+    "https://leetcode.com/discuss/post/7101940/oracle-ase-6m-fte-interview-experience-b-3l8t/",
+    "https://leetcode.com/discuss/post/7238629/my-oracle-ase-on-campus-interview-experi-dcyt/",
+    "https://leetcode.com/discuss/post/7246445/oracle-ig-unit-interview-exp-by-ghanshya-71z8/",
+    "https://leetcode.com/discuss/post/7295603/oracle-fresher-understand-the-difference-tu4v/",
+    "https://leetcode.com/discuss/post/7293936/oracle-mtsmember-of-technical-staff-fte-fn6k8/",
+    "https://leetcode.com/discuss/post/7293922/oracle-associate-software-engineer-ase-i-a7k8/",
+    "https://leetcode.com/discuss/post/7553062/oracle-applications-developer-1-fresher-zirlp/",
+    "https://leetcode.com/discuss/post/7406815/oracle-ai-application-engineer-1-2025-pa-sqyh/",
+    "https://leetcode.com/discuss/post/7172906/oracle-fresher-by-anonymous_user-5xy7/",
+    "https://leetcode.com/discuss/post/6912374/oracle-phone-screening-round-by-anonymou-61ti/",
+    "https://leetcode.com/discuss/post/7252680/oracle-ic2-sde2-by-anonymous_user-v2jm/",
+    "https://leetcode.com/discuss/post/7246275/oracle-ic2-oct-2025-rejected-by-sapan299-4ynh/",
+    "https://leetcode.com/discuss/post/7414206/oracle-oci-ic-2-bengaluru-dec-2025-accep-ws9e/",
+    "https://leetcode.com/discuss/post/8474251/oracle-interview-experience-by-6npqo57mi-tk8r/",
+    "https://leetcode.com/discuss/post/7327102/oracle-oci-interview-experience-rejected-fgch/",
+    "https://leetcode.com/discuss/post/7410443/oracle-interviewbar-tender-round-by-anon-kqnk/",
+    "https://leetcode.com/discuss/post/7330761/oracle-interview-experience-by-sanjay130-qdh4/",
+    "https://leetcode.com/discuss/post/6439974/oracle-health-sde2-feb-2025-down-leveled-tyfg/",
+    "https://leetcode.com/discuss/post/8316171/oracle-full-loop-by-anonymous_user-uzbz/",
+    "https://leetcode.com/discuss/post/7812208/oracle-hiring-freeze-offer-letter-stuck-3e7ap/",
+    "https://leetcode.com/discuss/post/7527593/oracle-verbal-offer-but-no-offer-letter-62qje/",
+    "https://leetcode.com/discuss/post/7627060/oracle-interview-by-anonymous_user-ea5q/",
+    "https://leetcode.com/discuss/post/7650721/got-offer-from-oracle-oco-by-anonymous_u-n7l3/",
+    "https://leetcode.com/discuss/post/7080813/oracle-layoffs-august-2025-by-vishall001-fa1q/",
+    "https://leetcode.com/discuss/post/8486479/oracle-ic3-by-anonymous_user-rgra/",
+    "https://leetcode.com/discuss/post/7308170/seeking-clarity-for-oracle-ic3-interview-b7op/",
+    "https://leetcode.com/discuss/post/7413047/oracle-ic4-interview-experience-by-cprit-qj7q/",
+    "https://leetcode.com/discuss/post/8428854/oracle-se4-feb-2026-by-nca5hrnpxo-3ehc/",
+    "https://leetcode.com/discuss/post/8493478/upcoming-bartender-round-with-oci-by-sol-qtuk/"
+  ],
+  "confidence_notes": "Oracle runs many semi-independent orgs (OCI, Oracle Health, Analytics, Applications, NetSuite, IGIU/CGIU in India) and loops differ by org; most 2025 to 2026 reports are India campus or experienced hires, with thin US new-grad data. Level names conflict: Levels.fyi labels IC-2 'Member of Technical Staff', while India campus posts call IC1 'MTS-1' and IC0 'ASE'. 'Bartender' as Oracle's bar-raiser round name comes from eight candidate reports (Oct 2025 to Aug 2026, OCI, Oracle Health and other orgs, IC2 to Principal), not an official page. Oracle's official interview-advice posts are linked from the Getting hired page (blogs.oracle.com/jobsatoracle: ace-your-technical-interview, how-to-prepare-for-behavioral-interview-questions, top-tips-to-prepare-for-an-interview) but returned 403 when fetched on Oct 4, 2026: [UNVERIFIED] content. The values list comes from the 2017 Code of Ethics PDF; no newer careers-facing values page was found. Layoff and hiring-freeze notes are candidate reports, not official statements. The no-sponsorship rule is stated for the OCI Nashville undergrad cohort posting only; check each posting. LeetCode posts read in full via LeetCode's API on Oct 4, 2026. Fact-check pass (Oct 4, 2026): OCI Feb 2027 undergrad posting re-verified via Oracle's recruiting REST API (Nashville, fully in office, no sponsorship incl. F-1 OPT/CPT, $74,100 to $148,300, apply window at least 3 days); Code of Ethics values re-read from the PDF (2017 edition); Oracle jobsatoracle blog posts still return 403. Fixes: the Oct 2025 'junior IC2' loop names neither OCI nor a country, so it is no longer labeled 'US OCI'; intern team names are attributed to candidate reports."
+}

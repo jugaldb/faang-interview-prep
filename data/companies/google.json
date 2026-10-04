@@ -1,0 +1,389 @@
+{
+ "slug": "google",
+ "name": "Google",
+ "category": "FAANG",
+ "one_liner": "Builds Search, Cloud, Android, YouTube and Gemini; known for story-wrapped algorithm problems coded in a doc without running code, Googleyness, and slow team matching.",
+ "careers_url": "https://www.google.com/about/careers/applications/",
+ "students_url": "https://www.google.com/about/careers/applications/students/",
+ "interview_prep_url": "https://www.google.com/about/careers/applications/interview-tips/",
+ "levels": {
+  "intern": "Software Engineering Intern (BS, MS, PhD tracks; US, EMEA, India). India also runs 6-month SWE internships and a 2nd-year Associate Software Developer Intern (ASDI) program. STEP (1st/2nd-year US program) is discontinued as a named program.",
+  "new_grad": "L3 (Software Engineer II, 'SWE II'). Postings say 'Software Engineer, Early Career' (US) or 'Software Engineer, University Graduate' (India). Levels.fyi: 'L3 / T3 is the new grad software engineering role at Google'.",
+  "early_career": "L3 for 0 to about 2 years; L4 (SWE III) typically from about 2 to 3+ years (Levels.fyi L4 data points start at 2 YOE; Hello Interview's L4 guide says 3+ years). Candidates with 1 to 3 years are often interviewed for L3; strong L3 feedback can trigger an L4 check (Europe Dec 2025 report, where one interviewer blocked L4)."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Application and resume screen",
+   "details": "Apply on Google Careers (referral helps). Official how-we-hire page: the process typically takes 'roughly 6-8 weeks'. University Graduate 2026 candidates (Aug 2025 posts; location not stated, but 'University Graduate' is the title Google uses for India postings) reported a 'Hiring Interest Form' about a month after applying, then interviews 1 to 3 months later."
+  },
+  {
+   "stage": "Google Hiring Assessment (GHA) and optional coding exercise",
+   "details": "Official: before interviews 'you may be asked to take the Google Hiring Assessment, designed to measure workstyle skills', and possibly a role-related assessment like a coding exercise. GHA is a situational Likert-scale questionnaire (Aced: 50 to 75 items; answer consistently; on policy violations answer per policy). Coding OA when given: 1 to 2 questions in 60 to 90 min on HackerRank or Google's platform (Aced). Referral or recruiter-sourced candidates often skip the coding OA."
+  },
+  {
+   "stage": "Recruiter conversation(s)",
+   "details": "Official: 'one or two shorter conversations over phone or video with your recruiter' covering key skills, preferences, location."
+  },
+  {
+   "stage": "Technical screen (TPS)",
+   "details": "45 min, one coding problem (sometimes two) in Google's shared interview editor, which does not run code; you walk through your code line by line on your own example; follow-ups on complexity and language functions (Aced new grad guide; LeetCode reports 2025 to 2026). Some loops call this the elimination round."
+  },
+  {
+   "stage": "Googleyness and Leadership (G&L) screen",
+   "details": "45 min behavioral, often back-to-back with the technical screen for US Early Career (LeetCode Dec 2025: 'Round-1 (45-min technical and 45-min behavioral)'). In some India University Graduate loops the last 15 min of a technical round is Googleyness instead."
+  },
+  {
+   "stage": "Onsite coding rounds",
+   "details": "Two 45-min coding rounds, one problem each with follow-ups. Official interview-tips page: 'We've reintroduced in-person interviews for some roles. In many cases, you'll complete initial interviews virtually before coming onsite.' A 2027-start Early Career posting says 'In most instances, this position requires in-person interviews'. In person you code on a Google-provided Chromebook in the same shared editor (Aced; LeetCode: Kirkland in-person invite for Feb 27, 2026; Bangalore onsites Jan 2026 and Sep 2026). Some L3 loops run 3 coding rounds plus G&L (Europe Dec 2025; India Apr to May 2025 after a 45-min elimination round). An extra round may be added when signal is mixed or code comprehension is weak (University Grad 2026 report, Aug 2025)."
+  },
+  {
+   "stage": "Feedback, team matching, hiring committee, offer",
+   "details": "Recruiter shares round feedback; packet goes to team matching (fit calls with hiring managers) and Hiring Committee review, then compensation call and offer. Order varies: India L3 Sep 2026 had team match in 2 business days, then HC, offer 3 days later; Hello Interview notes EU offices often team-match before HC. Validity of passed interviews: interviewing.io says 'good for about a year'; an India L3 candidate who cleared in May 2025 reported the packet expired unmatched in Jun 2026; a Feb 2026 London/Dublin candidate's recruiter said 18 months."
+  },
+  {
+   "stage": "2026 pilot (select US teams)",
+   "details": "Business Insider (May 2026): Google is piloting, for junior to mid-level SWE roles on select US teams (Cloud, Platforms and Devices first), a 'code comprehension' round where candidates use Gemini to 'read, debug, and optimize' existing code from the second half of 2026; the G&L round adds a technical design discussion of a past project; for junior candidates one technical round becomes an open-ended engineering challenge. Standard loops still ban AI ('AI tools are not permitted to be used during your interviews', official)."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Apply in the short window",
+   "details": "US Summer 2027 BS SWE intern posting (posted about Jul 20 to 21, 2026, now closed): 'The anticipated application window is open until July 24th, 2026'; the posting was an 'early consideration' window and said 'the same applications will open again during our regular fall recruiting cycle'; it is 'intended for students in all academic years'. Needs resume plus a current unofficial or official transcript in English; hearing back 'can take upwards of 90+ days'. EMEA: the London 'Software Engineering, Site Reliability Engineering BS/MS Intern, 2027' posting was open on Oct 4, 2026 with 'Please complete your application before 23rd October 2026'; it requires at least 13 weeks over Summer 2027 and offers no immigration sponsorship."
+  },
+  {
+   "stage": "Recruiter or staffing call",
+   "details": "Short Google Meet call: resume, projects, preferred coding language, how much DSA practice you have; it can filter candidates with little prep (Aced intern guide; India 2025 reports)."
+  },
+  {
+   "stage": "Online assessment (some candidates)",
+   "details": "Off-campus: 1 to 2 questions, 60 to 90 min, Codility or HackerRank, plus the Hiring Assessment questionnaire (Aced). India on-campus OAs are harder: 2 problems rated roughly Codeforces 1800 to 2000 with hidden test cases (LeetCode Aug 2025, IIT Hyderabad Nov 2025)."
+  },
+  {
+   "stage": "Two technical interviews",
+   "details": "45 to 60 min each, shared doc with no IDE, no autocomplete, no running code; easy to medium with twists (intervals, streams, heaps, trees, BFS); interviewers expect clarifying questions and self-written test cases (Aced). Some India 6-month intern rounds are 30 min with one tree problem plus follow-ups."
+  },
+  {
+   "stage": "Host (team) matching",
+   "details": "After passing, a questionnaire on product interests, then 30 to 60 min calls with hosts; can take weeks and some candidates who pass are never matched (Aced intern guide)."
+  }
+ ],
+ "process_experienced_notes": "With 1 to 3 years you are usually interviewed for L3 (L4 from about 2 to 3+ years). Expect a technical phone screen or elimination round, then 2 to 4 coding rounds plus Googleyness; 2026 India L3 reports show 1 virtual coding + 1 virtual Googleyness, then 2 in-person coding rounds at the office. System design is not part of L3 or L4 loops: Hello Interview says Google reserves system design for L5 and above, and its L4 loop is 3 to 4 coding rounds plus one behavioral round (interviewing.io only notes that more experience brings more design and domain questions). Down-leveling happens (a Jan 2025 India candidate with 5.7 years was steered to L3) and strong L3 feedback can trigger an L4 check (Europe Dec 2025). Team matching for India L3 candidates has taken 4 to 11+ months in 2025 to 2026 reports; in May 2025 an India candidate was told the position had been filled after clearing onsites, and an Apr 2026 post reported a packet expiring after about 12 months without a match.",
+ "timeline": "Official: 'roughly 6-8 weeks'. Reported 2025 to 2026: India L3 GHA Jul 1, phone screens Jul 15 to 16, onsite later; University Grad 2026 (location not stated): applied Apr, interviews Jun to Aug 2025. Team match ranges from days to months; HC after or alongside team match; then comp call and offer within about a week. 2027-start Early Career postings were live on Oct 4, 2026 (for example 'Software Engineer, Infrastructure, PhD, Early Career, 2027 Start'). Summer 2027 US BS intern posting went up about Jul 20, 2026 with a short early window (Jugal's Aug 2026 post, citing Extern, describes a mid-Oct to early-Nov 2025 window for Summer 2026). interviewing.io: you can interview at Google three times in 5 years.",
+ "oa": {
+  "platform": "Google Hiring Assessment (online workstyle questionnaire) for most applicants; coding OA on HackerRank, Codility or Google's internal platform for some roles and campuses",
+  "format": "GHA: situational statements rated on an agree/disagree scale (Aced: 50 to 75 items). Coding OA: 1 to 2 problems in 60 to 90 min; India campus OA: 2 hard problems with hidden tests (you do not see pass/fail until after).",
+  "notes": "Referral and recruiter-sourced candidates often skip the coding OA but usually take the GHA. Answer the GHA consistently and pick clear positions; on ethics scenarios follow company policy regardless of seniority (LeetCode Sep 2026 report). Extern reports that failing a coding sample blocks another for 6 months [UNVERIFIED against Google]."
+ },
+ "coding": {
+  "rounds": "New grad: 1 technical screen + 2 onsite coding rounds (some loops 3). Intern: 2 technical interviews.",
+  "style": "Custom, story-wrapped DSA problems rather than verbatim LeetCode; medium to hard; one main problem per 45 min plus layered follow-ups (new constraints, streams, files, scale, top K). Many involve designing a small class or API (AdService, chat log processor, BookShelfManager).",
+  "environment": "Google's shared interview editor: no code execution and no autocomplete; Hello Interview calls the current tool VIP (syntax highlighting, real-time collaboration) and says it replaced plain Google Docs, while candidates still describe a 'shared doc'. In-person rounds use a Google-provided Chromebook with the same interface. Official: 'Google Search and AI are amazing tools, but are not permitted to be used during your interviews', except the 2026 Gemini pilot round.",
+  "graded_on": "Structured rubrics (official: 'Every candidate is assessed using clear rubrics'). Reported focus: clarifying questions before coding, choice of data structures and representation, clean readable code ('code comprehension' feedback), complexity analysis, self-testing with dry runs, communication, and how you use hints."
+ },
+ "system_design": "No dedicated system design round for L3 new grads, interns, or L4 (Hello Interview: Google reserves system design for L5 and above; Sep 2024 blog: 'System design interviews are not conducted for entry-level (L3) or mid-level (L4) positions'). Coding rounds often contain light object design (implement a class with several methods, e.g. AdService, BookShelfManager). In the 2026 pilot, the Googleyness and Leadership round adds a technical design discussion about a past project, so be ready to defend your own architecture choices.",
+ "behavioral": {
+  "framework": "Googleyness and Leadership (G&L); Google Hiring Assessment for workstyle",
+  "values_url": "https://about.google/company-info/philosophy/",
+  "what_they_look_for": [
+   "Collaboration and resolving conflict toward a team outcome rather than winning",
+   "Handling ambiguity and unclear requirements",
+   "Ownership, prioritization, and decision-making under deadlines",
+   "Doing the right thing on ethics and policy questions",
+   "Learning from feedback and failure",
+   "Leadership without a title (influencing peers, mentoring)",
+   "Concrete actions under follow-up: exactly what you would say and do",
+   "How you use AI tools in daily work (asked in 2026)"
+  ],
+  "sample_questions": [
+   "How do you handle conflict in a team?",
+   "How do you handle requirements that are unclear?",
+   "A stakeholder sets an unreasonable deadline and keeps following up. What do you do?",
+   "Someone has taken credit for your work multiple times. How do you deal with it?",
+   "Tell me about a time you missed a deadline.",
+   "How do you use AI in your daily work?",
+   "What would you want at work that does not exist today?",
+   "How would you handle another team rewriting code you wrote, where the rewrite broke functionality?",
+   "Tell me about a time you received critical feedback and what you changed.",
+   "Tell me about a time you had to get people on the same page about a decision."
+  ]
+ },
+ "non_leetcode_formats": "Google Hiring Assessment (workstyle questionnaire). 2026 pilot: 'code comprehension' round reading, debugging and optimizing an existing codebase with Gemini, plus an open-ended engineering challenge round for junior candidates (Business Insider, May 2026). Occasional 'explain this code, give complexity, optimize it' round without writing code (US Early Career L3, Jul 2025). Official page mentions project work for some roles (case study, writing or code samples). Some API-call-minimization problems (rook placement with a countRooks rectangle query).",
+ "reported_questions": [
+  {
+   "title": "Variation of Maximum Good Subarray Sum: return any index pair instead of the max sum",
+   "url": "https://leetcode.com/problems/maximum-good-subarray-sum/",
+   "role": "L3 SWE II, India",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8543506/google-india-l3-interview-experience-off-1uw5/"
+  },
+  {
+   "title": "String of only 'a' and 'b' (even counts): make at most 2 cuts so Alice and Bob get equal numbers of each letter; return the cut indices (also reported Jun 2025 as a diamonds and rubies garland)",
+   "url": "",
+   "role": "L3 SWE II, India (onsite)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8543506/google-india-l3-interview-experience-off-1uw5/"
+  },
+  {
+   "title": "Remove one element, then decide if the remaining array can be split into two subarrays with equal sum",
+   "url": "",
+   "role": "L3 SWE II, India (onsite)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8543506/google-india-l3-interview-experience-off-1uw5/"
+  },
+  {
+   "title": "Longest increasing subsequence where consecutive elements differ by exactly 1; follow-up: difference in range 1 to d",
+   "url": "https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/",
+   "role": "L3 SWE II, India (phone screen)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8527382/google-swe-ii-l3-interview-experience-in-hkeb/"
+  },
+  {
+   "title": "Directed graph with edge security levels: minimum S needed to travel from u to v (minimize the max edge on the path)",
+   "url": "",
+   "role": "L3, India (Sep 2026) and Europe (Dec 2025) onsite",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8527382/google-swe-ii-l3-interview-experience-in-hkeb/"
+  },
+  {
+   "title": "Binary tree with edge weights: minimum total cut cost to disconnect the root from all leaves; follow-ups: N-ary tree, negative weights",
+   "url": "",
+   "role": "L3 SWE II, India (onsite)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8527382/google-swe-ii-l3-interview-experience-in-hkeb/"
+  },
+  {
+   "title": "Roster of [name, start, end]: return every time interval with the list of people present (sweep line)",
+   "url": "",
+   "role": "L3 SWE (Sep 2026, location not stated) and L3 London phone screen (Jan 2026)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8524882/google-l3-swe-interviews-content-safety-pmcnq/"
+  },
+  {
+   "title": "AdService with insertAd(content, score) and getAd(): highest score first, never the same ad twice in a row, score drops by 1 after each use",
+   "url": "",
+   "role": "L3 SWE",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8524882/google-l3-swe-interviews-content-safety-pmcnq/"
+  },
+  {
+   "title": "Count triplets (i, j, k) where adjacent substrings s[i..j] and s[j+1..k] have the same set of distinct characters",
+   "url": "",
+   "role": "L3 SWE",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8524882/google-l3-swe-interviews-content-safety-pmcnq/"
+  },
+  {
+   "title": "N x N board with N-1 non-attacking rooks hidden; using only countRooksInsideRectangle(a, b, c, d), find where to place the Nth rook with few API calls",
+   "url": "",
+   "role": "L3 London (Jan 2026) and L3 Bangalore (May 2026)",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7490325/google-phone-screen-l3-london-by-anonymo-3z60/"
+  },
+  {
+   "title": "Chat log processor: registerEvent(sender, receiver, timestamp) and getMostActiveUser(); follow-ups: top K users, write-heavy workload",
+   "url": "",
+   "role": "L3 London",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7490325/google-phone-screen-l3-london-by-anonymo-3z60/"
+  },
+  {
+   "title": "Design a BookShelfManager class: addBooks, removeBooks, moveBooks, getBooks, set/get bookmark index",
+   "url": "",
+   "role": "L3 London",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7490325/google-phone-screen-l3-london-by-anonymo-3z60/"
+  },
+  {
+   "title": "Flights between airports with departure and arrival times: BFS over time-feasible connections",
+   "url": "",
+   "role": "L3 Bangalore (onsite)",
+   "date": "2026-05",
+   "source_url": "https://leetcode.com/discuss/post/8268786/google-l3-bangalore-india-interview-expe-dt1h/"
+  },
+  {
+   "title": "Count ordered pairs (i, j) with a[i] - a[j] = i - j (complement of Count Number of Bad Pairs)",
+   "url": "https://leetcode.com/problems/count-number-of-bad-pairs/",
+   "role": "L3 Europe (phone screen)",
+   "date": "2025-12",
+   "source_url": "https://leetcode.com/discuss/post/7406634/google-europe-l3-interview-experience-by-tk0f/"
+  },
+  {
+   "title": "Split a data size into the minimum number of packets of bounded capacity, minimizing the largest packet",
+   "url": "",
+   "role": "L3 Europe (onsite)",
+   "date": "2025-12",
+   "source_url": "https://leetcode.com/discuss/post/7406634/google-europe-l3-interview-experience-by-tk0f/"
+  },
+  {
+   "title": "Events sorted by timestamp with IDs: does any event exceed a timeout? Follow-ups: O(1) space, events stored in one or many files",
+   "url": "",
+   "role": "L3 Europe (onsite)",
+   "date": "2025-12",
+   "source_url": "https://leetcode.com/discuss/post/7406634/google-europe-l3-interview-experience-by-tk0f/"
+  },
+  {
+   "title": "From an endless stream of integers, emit triplets as soon as max minus min is at most d, never reusing elements",
+   "url": "",
+   "role": "Early Career II, US (phone screen)",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6950564/google-early-career-ii-us-onsite-by-anon-e7n3/"
+  },
+  {
+   "title": "Shortest path (fewest edges) in a directed graph from A to B avoiding obstacle nodes",
+   "url": "",
+   "role": "Early Career II, US (onsite)",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6950564/google-early-career-ii-us-onsite-by-anon-e7n3/"
+  },
+  {
+   "title": "Merge Intervals variation",
+   "url": "https://leetcode.com/problems/merge-intervals/",
+   "role": "Early Career II, US (onsite)",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6950564/google-early-career-ii-us-onsite-by-anon-e7n3/"
+  },
+  {
+   "title": "Word transformation: minimum single-character edits from source to target using a word list; follow-up: return the path",
+   "url": "https://leetcode.com/problems/word-ladder/",
+   "role": "SWE Intern (virtual onsite)",
+   "date": "2026-03",
+   "source_url": "https://leetcode.com/discuss/post/7654954/google-sde-intern-vo-r1-by-oavo-wvk9/"
+  },
+  {
+   "title": "Routers on a 2D plane relay messages within range 10: can a message from A reach B?",
+   "url": "",
+   "role": "University Graduate 2026, India",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7371064/google-new-grad-2026-interview-experienc-fk5v/"
+  },
+  {
+   "title": "Count 'islands' of 1-valued nodes in a binary tree; follow-up: size of each island",
+   "url": "",
+   "role": "University Graduate 2026, India",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7371064/google-new-grad-2026-interview-experienc-fk5v/"
+  },
+  {
+   "title": "Trapping Rain Water variation with fountains: water flows from given indices until a higher wall",
+   "url": "https://leetcode.com/problems/trapping-rain-water/",
+   "role": "University Graduate 2026, India",
+   "date": "2025-09",
+   "source_url": "https://leetcode.com/discuss/post/7146872/google-university-grad-2026-interview-ex-ic3h/"
+  },
+  {
+   "title": "Binary tree of doubles: replace values with reciprocals, swap children, delete the subtree rooted at any node equal to the mode",
+   "url": "",
+   "role": "Software Development Intern 2026 (round 1, 45 min; location not stated)",
+   "date": "2025-10",
+   "source_url": "https://leetcode.com/discuss/post/7310358/google-software-development-intern-2026-dhev9/"
+  },
+  {
+   "title": "Campus OA: for each tree node, |root-to-node path sum minus subtree sum|, summed; binary string with point updates and queries for the longest substring starting and ending with 1",
+   "url": "",
+   "role": "On-campus OA (University Graduate), India",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7334362/google-oa-on-campus-by-anonymous_user-ixq0/"
+  },
+  {
+   "title": "Weighted graph: remove a node and its edges, return the maximum remaining edge weight; optimize to O(1) per query",
+   "url": "",
+   "role": "L3 SWE II",
+   "date": "2026-05",
+   "source_url": "https://leetcode.com/discuss/post/8173874/google-interview-experience-2-rounds-swe-ku5d/"
+  },
+  {
+   "title": "Stream of sequence numbers starting at x: add(y) and getMinimumMissing() (MEX-like); follow-ups on where to do the work and real-world frame loss",
+   "url": "",
+   "role": "L3 SDE-II, India (elimination round)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6848596/google-l3-sde-ii-interview-experience-5-9ffz2/"
+  }
+ ],
+ "focus_topics": [
+  "Graphs: BFS/DFS, shortest path, minimax paths (Dijkstra or binary search plus BFS)",
+  "Intervals and sweep line",
+  "Heaps and priority queues, often inside a small class design",
+  "Hashing and prefix sums",
+  "Dynamic programming including tree DP and 2D DP",
+  "Binary search on the answer",
+  "Monotonic stack",
+  "Trees (binary and N-ary) and recursion",
+  "Strings and parsing",
+  "Union-Find",
+  "Tries combined with hash maps",
+  "Streams, files and scale follow-ups"
+ ],
+ "tips": [
+  "Practice in a plain doc with no autocomplete and no run button, then dry-run your own test cases out loud; Google's doc does not execute code and AI tools are banned in standard rounds.",
+  "Ask clarifying questions before coding; prompts are short, story-wrapped and sometimes deliberately vague (Aced).",
+  "Budget 10 minutes for follow-ups: new constraints, top K, streams or files. Reports show candidates losing rounds on the follow-up, not the main problem.",
+  "Model data cleanly (structs or classes, named fields); interviewers comment on representation and 'code comprehension', not just correctness.",
+  "Prepare Googleyness answers for hypotheticals (conflict, unclear requirements, credit-taking) and a concrete story about how you use AI at work.",
+  "Treat the Google Hiring Assessment seriously: answer consistently and choose clear positions.",
+  "Expect in-person onsite rounds on a Chromebook and plan travel; for the 2026 pilot, practice reading and debugging unfamiliar code with an AI assistant (Jugal's Jul 2026 post).",
+  "After passing, drive team matching: tell your recruiter your interests and stay flexible on team and location; matches can take weeks to months."
+ ],
+ "compensation_note": "Levels.fyi (fetched Oct 4, 2026), US Software Engineer L3: average total comp $216,032 from 58 recent data points; p25 $180,000, median $204,000, p75 $224,000 (page range $169K to $242K+); median base $164,000, median stock $25,000/yr. L4: average $306,501. India L3 total comp starts around INR 3.55M (Levels.fyi India page). UK L3 around GBP 118K (Levels.fyi UK page). Intern: US Summer 2027 BS posting lists a $98,000 to $131,000 annualized base; Simplify cites $47 to $63/hour; India interns reported INR 1.35 lakh/month stipend (2025).",
+ "sources": [
+  "https://www.google.com/about/careers/applications/",
+  "https://www.google.com/about/careers/applications/students/",
+  "https://www.google.com/about/careers/applications/how-we-hire/",
+  "https://www.google.com/about/careers/applications/interview-tips/",
+  "https://www.google.com/about/careers/applications/internships",
+  "https://about.google/company-info/philosophy/",
+  "https://jobs.anitab.org/companies/google-24698/jobs/87002495-software-engineering-intern-bs-summer-2027",
+  "https://www.google.com/about/careers/applications/jobs/results/100028133205254854",
+  "https://www.google.com/about/careers/applications/jobs/results/84680705375642310",
+  "https://www.businessinsider.com/google-job-interview-software-engineers-ai-assistant-coding-2026-5",
+  "https://www.aced.io/blog/google-ai-coding-interview",
+  "https://www.aced.io/guides/google-software-engineer-new-grad-interview",
+  "https://www.aced.io/guides/google-software-engineer-intern-interview",
+  "https://www.aced.io/guides/google-software-engineer-interview",
+  "https://www.hellointerview.com/blog/google-interview-process",
+  "https://www.hellointerview.com/guides/google/l4",
+  "https://interviewing.io/guides/hiring-process/google",
+  "https://simplify.jobs/blog/google-internships-faq",
+  "https://www.extern.com/post/google-internship-guide",
+  "https://www.levels.fyi/companies/google/salaries/software-engineer/levels/l3",
+  "https://www.levels.fyi/companies/google/salaries/software-engineer/locations/india",
+  "https://www.levels.fyi/companies/google/salaries/software-engineer/locations/united-kingdom",
+  "https://github.com/liquidslr/leetcode-company-wise-problems",
+  "https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-e6e",
+  "https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer",
+  "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already",
+  "https://leetcode.com/discuss/post/5963463/googlyness-frequently-asked-questions-by-55sh/",
+  "https://leetcode.com/discuss/post/8367035/google-googliness-round-2025-and-2026-by-qemm/",
+  "https://leetcode.com/discuss/post/7603486/google-l3-swe-aiml-onsite-confusion-in-p-kkya/",
+  "https://leetcode.com/discuss/post/7595211/google-l3-interview-2026-by-anonymous_us-cxtr/",
+  "https://leetcode.com/discuss/post/7450821/google-us-early-career-new-grad-round-1-kybtk/",
+  "https://leetcode.com/discuss/post/7106001/google-university-grad-2026-extra-round-e3r2z/",
+  "https://leetcode.com/discuss/post/6915619/sde-2-early-career-l3-usa-onsite-intervi-uit9/",
+  "https://leetcode.com/discuss/post/7088564/my-recent-google-interview-experience-un-k7x8/",
+  "https://leetcode.com/discuss/post/7081205/my-recent-google-interview-experience-un-xipu/",
+  "https://leetcode.com/discuss/post/7060805/google-swe-intern-2026-selected-by-anony-xl04/",
+  "https://leetcode.com/discuss/post/6629847/google-swe-intern-2025-bangaluru-by-anon-hciy/",
+  "https://leetcode.com/discuss/post/6709758/google-summer-intern-interview-experienc-qunp/",
+  "https://leetcode.com/discuss/post/6828725/google-india-6-month-software-developer-e40ox/",
+  "https://leetcode.com/discuss/post/8345294/google-l3-swe-india-interview-experience-z8un/",
+  "https://leetcode.com/discuss/post/8543506/google-india-l3-interview-experience-off-1uw5/",
+  "https://leetcode.com/discuss/post/8527382/google-swe-ii-l3-interview-experience-in-hkeb/",
+  "https://leetcode.com/discuss/post/8524882/google-l3-swe-interviews-content-safety-pmcnq/",
+  "https://leetcode.com/discuss/post/7490325/google-phone-screen-l3-london-by-anonymo-3z60/",
+  "https://leetcode.com/discuss/post/8268786/google-l3-bangalore-india-interview-expe-dt1h/",
+  "https://leetcode.com/discuss/post/7406634/google-europe-l3-interview-experience-by-tk0f/",
+  "https://leetcode.com/discuss/post/6950564/google-early-career-ii-us-onsite-by-anon-e7n3/",
+  "https://leetcode.com/discuss/post/7654954/google-sde-intern-vo-r1-by-oavo-wvk9/",
+  "https://leetcode.com/discuss/post/7371064/google-new-grad-2026-interview-experienc-fk5v/",
+  "https://leetcode.com/discuss/post/7146872/google-university-grad-2026-interview-ex-ic3h/",
+  "https://leetcode.com/discuss/post/7310358/google-software-development-intern-2026-dhev9/",
+  "https://leetcode.com/discuss/post/7334362/google-oa-on-campus-by-anonymous_user-ixq0/",
+  "https://leetcode.com/discuss/post/8173874/google-interview-experience-2-rounds-swe-ku5d/",
+  "https://leetcode.com/discuss/post/7379818/google-l3-technical-phone-screening-2025-2rh3/",
+  "https://leetcode.com/discuss/post/6848596/google-l3-sde-ii-interview-experience-5-9ffz2/",
+  "https://leetcode.com/discuss/post/7248284/stuck-in-google-team-matching-l3-for-4-m-zahc/",
+  "https://leetcode.com/discuss/post/7819881/google-l3-team-matching-11-months-and-ex-xwiq/",
+  "https://leetcode.com/discuss/post/6776747/google-hiring-freeze-google-onsite-clear-yhry/",
+  "https://leetcode.com/discuss/post/6340252/google-india-downgrade-to-l3-by-anonymou-7mof/"
+ ],
+ "confidence_notes": "Re-verified Oct 4, 2026 by a second agent: every URL in sources returned HTTP 200 (LeetCode Discuss posts read through LeetCode's GraphQL API, which also confirmed every post slug and every LeetCode problem slug). Official Google pages: how-we-hire and interview-tips text is present in the page HTML; confirmed quotes include 'roughly 6-8 weeks', the Google Hiring Assessment, 'one or two shorter conversations', 'Every candidate is assessed using clear rubrics', 'AI tools are not permitted', and 'We've reintroduced in-person interviews for some roles' [VERIFIED]. CORRECTED in this pass: L4 loops do not include a dedicated system design round (Hello Interview L4 guide and Sep 2024 blog), so earlier 'L4 can include one design round' was removed; L4 experience range widened to 2 to 3+ years; US location removed from University Grad and roster-question claims where posts do not state it; hiring-freeze wording fixed (recruiter said the position was filled; 'hiring freeze' was the candidate's word); intern 'round 1' post does not state India. The 2026 AI-assisted pilot is confirmed by Business Insider (May 7, 2026; Google spokesperson and VP of recruiting Brian Ong quoted): junior to mid-level roles, select US teams, Cloud and Platforms and Devices first, Gemini allowed in the code comprehension round from the second half of 2026 [VERIFIED secondary]. Validity of results (about 12 vs 18 months) and the 6-month coding-sample cooldown (Extern) remain recruiter or third-party claims [UNVERIFIED]. Google Tech Dev Guide and Interview Warmup (cited in Jugal's Part 3 post) have moved. STEP is not listed among Google's internship programs (official internships page lists Engineering and technical, Research, Business); Simplify's Google FAQ still describes STEP (stale)."
+}

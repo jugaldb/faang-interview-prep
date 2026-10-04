@@ -1,0 +1,306 @@
+{
+  "slug": "tiktok",
+  "name": "TikTok (ByteDance)",
+  "category": "Big Tech",
+  "one_liner": "Short-video, live, e-commerce and recommendation systems; team-by-team hiring with LeetCode medium/hard coding plus OS, networking and database fundamentals questions.",
+  "careers_url": "https://lifeattiktok.com/",
+  "students_url": "https://lifeattiktok.com/earlycareers",
+  "interview_prep_url": "https://lifeattiktok.com/interview",
+  "levels": {
+    "intern": "Intern (Undergrad/Masters, MBA, PhD tracks), not leveled",
+    "new_grad": "1-2 (entry level on Levels.fyi)",
+    "early_career": "1-2 to 2-1 (2-1 is mid level)"
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "Apply to a specific team's Graduate posting (for example '... Graduate (team) - 2027 Start'). Graduates must have less than a year of work experience (official FAQ) and, per postings, finish the degree within 12 months and commit to an onboarding date. Limit: official FAQ says up to two Early Career positions per program in each application period (Jan to Jun, Jul to Dec), across TikTok and its affiliates globally (PhD and Project Intern roles exempt); 2027 postings add that applications are considered in the order you submit them."
+    },
+    {
+      "stage": "Technical online assessment",
+      "details": "Sent after resume screen (postings: 'Candidates who pass resume screening will be invited to participate in ... technical online assessment'). Reported formats: early 2025 AMS (Americas) grad and intern OAs with 7 questions (5 MCQs on topics such as DP and Dijkstra, plus 2 coding, one a JS/TS debugging task for front-end); Aug 2025 Sydney grad OA and Dec 2025 US research intern OA on CodeSignal, 4 problems in 70 minutes scored out of 600. Passing does not guarantee an interview: a 600/600 Sydney candidate was rejected, and the official FAQ says many pass while interviewer slots per role are limited."
+    },
+    {
+      "stage": "Recruiter contact",
+      "details": "If shortlisted, a recruiter contacts you to arrange team interviews (official). TikTok says it cannot give individual status updates or guarantee a timeline after the OA; failed OAs should get a rejection email."
+    },
+    {
+      "stage": "Technical rounds (2 to 3)",
+      "details": "About 1 hour each, scheduled one at a time after positive feedback (often about a week apart). Many detailed 2026 reports come from China-based interviewers (often in Mandarin by choice): self intro and detailed project walkthrough, CS fundamentals (OS memory, TCP handshake, HTTPS/TLS, MySQL indexes, caching, Kafka), then 1 to 2 coding problems you must test. A Sep 2026 US TikTok USDS loop: round 1 two coding problems (Longest Substring Without Repeating Characters, Course Schedule II), round 2 a Course Schedule variant plus monitoring, tracing and telemetry questions, round 3 a high-level payment system design plus project walkthrough. Some rounds run two problems in about 25 minutes."
+    },
+    {
+      "stage": "Hiring manager / HR round",
+      "details": "Behavioral and fit with the hiring manager or a skip-level manager (interviewing.io), then an HR call. A Sep 2026 USDS candidate's HR call focused on immigration questions before a decision."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Application",
+      "details": "Most intern and graduate roles open in early August (official). Two application periods per year (Jan to Jun, Jul to Dec); up to two Early Career positions per program per period. Internships are 12 weeks (summer start May/June, fall start Aug/Sep) and target penultimate-year students (AMS early careers page); you must be a current student."
+    },
+    {
+      "stage": "Technical online assessment",
+      "details": "Technical online assessment on algorithms and data structures after resume screen. Early 2025 AMS intern OA reported a medium array optimization problem (choose i <= j <= k to maximize a weighted score)."
+    },
+    {
+      "stage": "Technical interviews",
+      "details": "Usually 1 to 2 rounds of about 1 hour: fundamentals (virtual memory, TCP three-way handshake, TLS handshake, compile and link pipeline, TCP vs UDP, C++ vs Go), detailed project walkthrough, and one coding problem (path sum, all paths in a graph, spiral matrix). An Aug to Sep 2026 e-commerce backend intern candidate had one 1-hour round. Interviews can run in Mandarin if both sides choose it."
+    },
+    {
+      "stage": "Offer",
+      "details": "Some teams add a hiring manager conversation (Extern)."
+    }
+  ],
+  "process_experienced_notes": "1 to 3 years (level 2-1): interviewing.io lists a 30-minute recruiter call, a 30-minute HackerRank screen, a second 1-hour technical screen, then a coding round with the team, a system design round with a hiring manager (for example a configurable monitoring and alerting system) and a behavioral round with a skip-level manager. A 2025 mid-level (2-1) offer reported 2 coding problems (including Shortest Path in a Grid with Obstacles Elimination), 1 system design and 1 behavioral. Process varies heavily by team because hiring is decentralized; mobile roles add platform rounds (Android ANRs, iOS-specific coding on HackerRank) and client-side system design.",
+  "timeline": "Most intern and graduate roles open in early August (official); Extern counts the Summer 2027 engineering wave from mid-July 2026, peaking the week of July 27, with more added through September. Rolling review. Apply early: only two applications count per period. Data point (Aug to Sep 2026, e-commerce backend intern, referral): applied Aug 6, OA Aug 7, HR scheduled Aug 23, interview Sep 11, rejection Sep 26. Rounds are scheduled one at a time, often about 1 week apart, so expect 4 to 8 weeks end to end. Interviewers may be in China, so slots can be late evening US time, and a Jul 2026 report had a same-day reschedule to late night. Hiring decisions sit with the team and hiring manager, not a central committee.",
+  "oa": {
+    "platform": "CodeSignal in most 2025 reports that name a platform (Sydney grad, Dec 2025 US research intern); HackerRank is used for live phone screens. Varies by team and region.",
+    "format": "Early 2025 AMS (Americas) grad and intern OAs: 7 questions, 5 MCQs (algorithms, DP, shortest paths) plus 2 coding, with a JS/TS debugging task for front-end. CodeSignal OAs (Aug and Dec 2025): 4 problems, 70 minutes, scored out of 600.",
+    "notes": "Hidden test cases matter; candidates who passed only part of the tests worried about advancing. TikTok says it sends a 'preparation kit with sample challenge questions' before the assessment (official FAQ). Passing does not guarantee an interview."
+  },
+  "coding": {
+    "rounds": "New grad 2 to 3 technical rounds; intern 1 to 2; each round usually includes coding.",
+    "style": "LeetCode medium to hard, often classic problems verbatim (LRU cache, in-memory file system, subtree sums, tic-tac-toe) plus optimization follow-ups such as pushing a check from O(n^2) to O(1).",
+    "environment": "Video interview with HackerRank or a shared editor; you write and run your own test cases. AI use is strictly prohibited (interviewing.io).",
+    "graded_on": "Correct optimal solution, complexity analysis, writing your own tests, fixing your own bugs, and depth on CS fundamentals and your projects."
+  },
+  "system_design": "Not standard for interns. New grads may get backend fundamentals questions instead (REST, WebSocket vs SSE, SQL vs NoSQL, cache breakdown). From 2-1 up, expect a full system design round (monitoring and alerting, messaging apps, recommendation flows). ML new grad loops have reported ML system design (video captioning under compute limits).",
+  "behavioral": {
+    "framework": "ByteStyle: Always day 1; Champion diversity and inclusion; Be candid and clear; Seek truth and be pragmatic; Be courageous and aim for the highest; Grow together",
+    "values_url": "https://lifeattiktok.com/culture",
+    "what_they_look_for": [
+      "Clear reasons for wanting TikTok and the specific team (official prep page)",
+      "Ownership and depth in your own projects",
+      "Candid, clear communication",
+      "Pragmatism and speed",
+      "Ambition (aim for the highest)",
+      "Comfort working across time zones with China-based teams"
+    ],
+    "sample_questions": [
+      "Why do you want to join TikTok?",
+      "What is your favorite project and why?",
+      "What was your biggest challenge or conflict, and what would you do differently?",
+      "Tell me about your past projects and motivations (standard situational questions)"
+    ]
+  },
+  "non_leetcode_formats": "CS fundamentals rapid-fire (OS, networking, databases, compilers, C++ vs Go), detailed project walkthroughs, and for some 2026 intern loops AI agent topics (agent evaluation metrics, debugging tool calls with tracing). Mobile roles include platform-specific rounds.",
+  "reported_questions": [
+    {
+      "title": "Design an in-memory file system (ls, mkdir, ...)",
+      "url": "https://leetcode.com/problems/design-in-memory-file-system/",
+      "role": "New grad 2026 SDE (virtual onsite)",
+      "date": "2026-04",
+      "source_url": "https://leetcode.com/discuss/post/7875289/tiktok-26ng-sde-vo-by-oavoserving-ovy8/"
+    },
+    {
+      "title": "Most Frequent Subtree Sum",
+      "url": "https://leetcode.com/problems/most-frequent-subtree-sum/",
+      "role": "SWE interview",
+      "date": "2026-04",
+      "source_url": "https://leetcode.com/discuss/post/7875303/tiktok-interview-question-most-frequent-vf4ti/"
+    },
+    {
+      "title": "Tic-tac-toe game-over check, optimized from O(n^2) to O(1) per move",
+      "url": "https://leetcode.com/problems/design-tic-tac-toe/",
+      "role": "New grad (TikTok e-commerce, round 1)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-experiences/bytedance-new-grad-software-engineer-interview-experience-tiktok-e-commerce-first-round-tic-tac-toe-game-over-check-pushed-down-to-o-1"
+    },
+    {
+      "title": "Construct binary tree from preorder and postorder, plus Kafka, MySQL index, cache breakdown questions",
+      "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
+      "role": "New grad (technical screen, China-based interviewer)",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/bytedance-new-grad-software-engineer-interview-experience-backend-fundamentals-databases-and-one-dfs-problem"
+    },
+    {
+      "title": "Longest Substring Without Repeating Characters (round 1 also had Course Schedule II)",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "role": "Software Engineer, TikTok USDS (round 1)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/coding-questions/longest-contiguous-substring-in-which-no-character-repeats"
+    },
+    {
+      "title": "Course Schedule II, then a Course Schedule variant in round 2 alongside monitoring, tracing and telemetry questions",
+      "url": "https://leetcode.com/problems/course-schedule-ii/",
+      "role": "Software Engineer, TikTok USDS (rounds 1 and 2)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-experiences/bytedance-software-engineer-interview-experience-three-rounds-and-an-hr-call-then-silence"
+    },
+    {
+      "title": "Design a payment system (quick high-level design), then project walkthrough",
+      "url": "",
+      "role": "Software Engineer, TikTok USDS (round 3 system design)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-experiences/bytedance-software-engineer-interview-experience-three-rounds-and-an-hr-call-then-silence"
+    },
+    {
+      "title": "Path Sum II (output all root-to-leaf paths), plus TLS handshake and compile pipeline questions",
+      "url": "https://leetcode.com/problems/path-sum-ii/",
+      "role": "Intern (round 2)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-experiences/tiktok-intern-software-engineer-interview-experience-ai-agent-second-round-in-mandarin"
+    },
+    {
+      "title": "All paths from start to end in a directed graph, then find all cycles; plus TCP handshake and agent metrics",
+      "url": "https://leetcode.com/problems/all-paths-from-source-to-target/",
+      "role": "Intern (technical screen)",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/tiktok-intern-software-engineer-interview-experience-agent-metrics-tool-debugging-and-graphs"
+    },
+    {
+      "title": "Spiral matrix traversal with O(1) extra space and no mutation",
+      "url": "https://leetcode.com/problems/spiral-matrix/",
+      "role": "Intern (ByteDance e-commerce backend)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/coding-questions/clockwise-spiral-traversal-of-a-matrix-with-o-1-extra-space-and-no-mutation"
+    },
+    {
+      "title": "C++ vs Go for backend services: memory, concurrency, trade-offs",
+      "url": "",
+      "role": "Intern (fundamentals)",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-questions/cplusplus-vs-go-for-backend-services-memory-concurrency-and-trade-offs"
+    },
+    {
+      "title": "Implement an LRU cache",
+      "url": "https://leetcode.com/problems/lru-cache/",
+      "role": "Software Engineer",
+      "date": "2025-12",
+      "source_url": "https://prachub.com/coding-questions/implement-an-lru-cache-2"
+    },
+    {
+      "title": "Shortest Path in a Grid with Obstacles Elimination",
+      "url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+      "role": "Mid level 2-1 (onsite)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7150750/tiktokbytedance-interview-experience-by-8vcmw/"
+    },
+    {
+      "title": "Split friends into groups (BFS tracking even and odd levels)",
+      "url": "https://leetcode.com/problems/is-graph-bipartite/",
+      "role": "Mid level 2-1 (onsite)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7150750/tiktokbytedance-interview-experience-by-8vcmw/"
+    },
+    {
+      "title": "Design a monitoring system with user-configurable alerts",
+      "url": "",
+      "role": "Mid level 2-1 (system design)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7150750/tiktokbytedance-interview-experience-by-8vcmw/"
+    },
+    {
+      "title": "Dot product of two sparse vectors, then find the first 'b' in a g...gb...b string (binary search)",
+      "url": "https://leetcode.com/problems/dot-product-of-two-sparse-vectors/",
+      "role": "SDE virtual onsite",
+      "date": "2025-07",
+      "source_url": "https://leetcode.com/discuss/post/6947465/tiktok-sde-vo-two-code-questions-by-1hjf-sicy/"
+    },
+    {
+      "title": "Power a phone for 16 minutes with batteries of given capacity and recharge time, minimize depletions",
+      "url": "",
+      "role": "Interview (round not stated)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7139996/tiktok-by-anonymous_user-4t9h/"
+    },
+    {
+      "title": "Graduate OA (Sydney, CodeSignal): 2 simulations, multi-source BFS plus two pointers, dictionary preprocessing with offline queries",
+      "url": "",
+      "role": "Graduate Backend SWE OA",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7123217/graduate-backend-software-engineer-tikto-pcg1/"
+    },
+    {
+      "title": "AMS intern OA: maximize e[i] + r*e[j] + r^2*e[k] with i <= j <= k",
+      "url": "",
+      "role": "Intern OA (2025 start)",
+      "date": "2025-01",
+      "source_url": "https://leetcode.com/discuss/post/6291359/tiktok-ams-intern-assessment-2025-start-hb6hm/"
+    },
+    {
+      "title": "AMS front-end grad OA: 5 MCQs, a DP 'maximum likes' problem, and a JS/TS trending content tracker bug fix",
+      "url": "",
+      "role": "Front-end graduate OA",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6437333/tiktok-front-end-by-anonymous_user-nys0/"
+    },
+    {
+      "title": "Word Search, and min window in sorted array where max minus min >= target; client-side messaging app design",
+      "url": "https://leetcode.com/problems/word-search/",
+      "role": "Android SWE 2-2 Singapore",
+      "date": "2025-03",
+      "source_url": "https://leetcode.com/discuss/post/6802671/tiktokbytedance-interview-android-swe-2-qnvdy/"
+    }
+  ],
+  "focus_topics": [
+    "Trees and DFS/backtracking",
+    "Graphs: BFS, bipartite checks, path enumeration, cycles",
+    "Design data structures (LRU, file system, tic-tac-toe)",
+    "Sliding window and two pointers",
+    "Binary search",
+    "CS fundamentals: OS memory, TCP/TLS, MySQL indexes, caching, message queues",
+    "Detailed project walkthroughs",
+    "System design for 2-1 and above"
+  ],
+  "tips": [
+    "Pick your applications carefully: TikTok and its affiliates (including ByteDance) count only two Early Career positions per program per application period, considered in the order you apply.",
+    "Apply in the first weeks of August when most intern and graduate roles open.",
+    "Review OS, networking and database basics (virtual memory, TCP and TLS handshakes, MySQL composite index leftmost prefix, cache breakdown) alongside LeetCode; 2027 US intern postings list operating systems and networking (and databases on some) next to data structures and algorithms.",
+    "Prepare a 5-minute walkthrough of each resume project, including design trade-offs and how you debugged a hard issue.",
+    "Practice solving two problems in about 25 minutes, then add an optimization follow-up.",
+    "Write and run your own test cases out loud; interviewers watch whether you catch your own bugs.",
+    "Expect evening interview slots and rescheduling; confirm times in your time zone and keep following up with the recruiter.",
+    "Do not use AI tools in any round; interviewing.io reports TikTok strictly prohibits it.",
+    "If you are on a visa, be ready for immigration questions in the HR call (reported in a Sep 2026 TikTok USDS loop), and check whether a role sits with TikTok USDS (careers.tiktokusds.com) or the main TikTok board."
+  ],
+  "compensation_note": "Levels.fyi lists TikTok under ByteDance (the TikTok company URL returns 404). ByteDance US (Oct 4, 2026): 1-2 entry median total comp $203K/yr (base $158K, stock $22.6K/yr, bonus $23.3K), range $175K to $230K+; 2-1 median $289K. Levels.fyi lists several ByteDance RSU vesting schedules; the first shown is 30/30/40 over 3 years (others are 4-year). Official 2027 postings: SWE intern $45/hr (San Jose); ML Engineer Graduate base $128,000 to $256,000. A 2025 mid-level 2-1 offer reported $211K base, 25 percent bonus, $36K RSU/yr (about $300K TC).",
+  "sources": [
+    "https://lifeattiktok.com/",
+    "https://lifeattiktok.com/earlycareers",
+    "https://lifeattiktok.com/earlycareers/ams",
+    "https://lifeattiktok.com/interview",
+    "https://lifeattiktok.com/culture",
+    "https://lifeattiktok.com/search/7675159726676101381",
+    "https://lifeattiktok.com/search/7669691374918011141",
+    "https://joinbytedance.com/",
+    "https://joinbytedance.com/search/7668650945276168453",
+    "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already",
+    "https://en.wikipedia.org/wiki/TikTok_USDS",
+    "https://www.levels.fyi/companies/bytedance/salaries/software-engineer",
+    "https://www.levels.fyi/companies/bytedance/salaries/software-engineer/levels/1-2",
+    "https://interviewing.io/tiktok-interview-questions",
+    "https://www.techprep.app/blog/tiktok-interview-process",
+    "https://www.extern.com/post/tiktok-internship-guide",
+    "https://prachub.com/companies/tiktok",
+    "https://prachub.com/companies/bytedance",
+    "https://prachub.com/interview-experiences/bytedance-new-grad-software-engineer-interview-experience-tiktok-e-commerce-first-round-tic-tac-toe-game-over-check-pushed-down-to-o-1",
+    "https://prachub.com/interview-experiences/bytedance-new-grad-software-engineer-interview-experience-backend-fundamentals-databases-and-one-dfs-problem",
+    "https://prachub.com/interview-experiences/tiktok-intern-software-engineer-interview-experience-ai-agent-second-round-in-mandarin",
+    "https://prachub.com/interview-experiences/tiktok-intern-software-engineer-interview-experience-agent-metrics-tool-debugging-and-graphs",
+    "https://prachub.com/interview-experiences/tiktok-software-engineer-interview-experience-late-reschedule-and-25-minute-coding-sprint-845ddc54c7",
+    "https://prachub.com/interview-experiences/bytedance-intern-software-engineer-interview-experience-e-commerce-backend-one-technical-round-ending-on-spiral-matrix-follow-ups",
+    "https://prachub.com/coding-questions/longest-contiguous-substring-in-which-no-character-repeats",
+    "https://prachub.com/coding-questions/clockwise-spiral-traversal-of-a-matrix-with-o-1-extra-space-and-no-mutation",
+    "https://prachub.com/interview-questions/cplusplus-vs-go-for-backend-services-memory-concurrency-and-trade-offs",
+    "https://prachub.com/coding-questions/implement-an-lru-cache-2",
+    "https://leetcode.com/discuss/post/7875289/tiktok-26ng-sde-vo-by-oavoserving-ovy8/",
+    "https://leetcode.com/discuss/post/7875303/tiktok-interview-question-most-frequent-vf4ti/",
+    "https://leetcode.com/discuss/post/7150750/tiktokbytedance-interview-experience-by-8vcmw/",
+    "https://leetcode.com/discuss/post/7139996/tiktok-by-anonymous_user-4t9h/",
+    "https://leetcode.com/discuss/post/7123217/graduate-backend-software-engineer-tikto-pcg1/",
+    "https://leetcode.com/discuss/post/7111244/received-tiktok-oa-link-today-usa-locati-byfk/",
+    "https://leetcode.com/discuss/post/6947465/tiktok-sde-vo-two-code-questions-by-1hjf-sicy/",
+    "https://leetcode.com/discuss/post/6802671/tiktokbytedance-interview-android-swe-2-qnvdy/",
+    "https://leetcode.com/discuss/post/6696631/tiktok-ios-position-interview-round2-by-7fnwb/",
+    "https://leetcode.com/discuss/post/6683981/bytedance-ams-oa-2025-by-divya_ls-gx9b/",
+    "https://leetcode.com/discuss/post/6437333/tiktok-front-end-by-anonymous_user-nys0/",
+    "https://leetcode.com/discuss/post/6412403/tiktok-graduate-oa-by-anonymous_user-w0bm/",
+    "https://leetcode.com/discuss/post/6291359/tiktok-ams-intern-assessment-2025-start-hb6hm/",
+    "https://careers.tiktokusds.com/",
+    "https://lifeattiktok.com/usds",
+    "https://prachub.com/interview-experiences/bytedance-software-engineer-interview-experience-three-rounds-and-an-hr-call-then-silence",
+    "https://leetcode.com/discuss/post/7423011/tiktok-oa-report-research-assistant-inte-9smy/"
+  ],
+  "confidence_notes": "Changes to flag (as of Oct 2026): TikTok's US operations moved into TikTok USDS Joint Venture LLC, established Jan 22, 2026 (Wikipedia). careers.tiktokusds.com loads as the USDS careers site (verified Oct 4, 2026) and lifeattiktok.com has a USDS team page; Extern counts 31 of 273 Summer 2027 intern requisitions on the USDS board. jobs.bytedance.com now redirects to joinbytedance.com (the ByteDance link in Jugal's Aug 2026 post still resolves via redirect). Re-verified Oct 4, 2026 (fact-check pass): lifeattiktok.com early careers FAQ, AMS page, culture page and 2027 postings, joinbytedance.com posting, Levels.fyi, interviewing.io, Extern, every PracHub page, and LeetCode Discuss posts via LeetCode's public GraphQL API. Corrections made: the application limit is 'two per program per application period' (FAQ) plus 'considered in the order submitted' (postings), not a lifetime global cap; the 7-question OA reports are AMS (Americas) from early 2025, not specifically US; one PracHub item was Aug 2026, not Sep 2026; the 'Longest Substring' question came from a TikTok USDS loop, not a new grad loop. Process varies a lot by team and region (US, Singapore, Sydney); many PracHub reports come from China-based interviewers in Mandarin and may over-weight CS fundamentals relative to US loops. Levels: Levels.fyi shows 1-2 as entry; some teams may hire grads differently. Extern's requisition counts and pay figures are secondary except where matched by official postings ($45/hr SWE intern, San Jose)."
+}

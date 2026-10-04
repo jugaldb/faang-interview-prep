@@ -1,0 +1,317 @@
+{
+  "slug": "phonepe",
+  "name": "PhonePe",
+  "category": "India and Asia",
+  "one_liner": "Indian UPI payments app and fintech group (PhonePe Group also runs Share.Market, insurance, lending and the Indus Appstore). Known for machine coding rounds, story-wrapped hard DSA and fintech-flavored design.",
+  "careers_url": "https://www.phonepe.com/careers/",
+  "students_url": "",
+  "interview_prep_url": "",
+  "levels": {
+    "intern": "SDE Intern (Bengaluru/Pune); summer 2027 intern interviews ran in July 2026 (LeetCode).",
+    "new_grad": "Software Engineer (campus SDE). PhonePe uses a flat title; a Feb 2025 offer post says 'Software Engineer (PhonePe has flat hierarchy)'. Levels.fyi maps entry to Software Engineer 1.",
+    "early_career": "Job titles carry experience bands instead of levels. On SmartRecruiters (Oct 2026): 'Software Engineer (5-7) Lending', 'Site Reliability Engineer - On-Prem (1 to 4 Years)'. Candidate posts cite 'SDE (0-3 years)', 'SE (1-3Y)', 'Software Engineer (1-3 yrs)' and 'Backend (3-5 years)' roles. Levels.fyi ladder: Software Engineer 1, Software Engineer 2, Senior Software Engineer (median YOE 2, 5, 7). Candidates compare the 3 to 5 band with SDE 2 roles elsewhere (Amazon SDE II vs PhonePe SDE 3-5 yrs, Aug 2025), and the same Logger-library machine coding problem appears in posts titled 'SDE-2' (Mar 2026) and 'Backend (3-5 years)' (Sep 2026)."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Campus OA",
+      "details": "4 problems, DP-heavy and Codeforces-style statements; camera on, so no screenshots (2027 grads, around 20 July 2026). On-campus example set: Nth valid number avoiding 'hated' digits with n up to 1e18, minimum node-cost path under a latency limit, a two-channel energy simulation, a tree DP like House Robber III. 2025 campus OA: 4 questions (2 DP, 1 tree, 1 digit-subsequence counting); solving 2 fully and 2 partially still got one candidate shortlisted."
+    },
+    {
+      "stage": "Technical round 1",
+      "details": "About 70 minutes. 2 problems, full code written on paper plus a dry run (2025 campus: Burning Tree and Shortest Path to Get All Keys)."
+    },
+    {
+      "stage": "Hiring manager round",
+      "details": "Ad hoc discussion on projects, problem solving and fit. One 2025 campus candidate felt it went poorly and still advanced."
+    },
+    {
+      "stage": "Technical round 2",
+      "details": "2 more problems at Codeforces difficulty (Codeforces 2028C plus a custom bitmask-DP problem), again on paper (2025 campus)."
+    },
+    {
+      "stage": "Off-campus 0 to 3 years alternative",
+      "details": "Apply via referral, Instahyre or the careers site (jobs are hosted on SmartRecruiters). Either OA on CodeSignal (4 DSA, 70 minutes, 1 easy, 2 medium-hard, 1 hard reported Apr 2025) then 2 DSA rounds on Google Meet then HM, or a 90 minute machine coding assignment plus 30 minute review then DSA then HM. HM rounds can include a HLD exercise on CodeSignal (library management) and a math/BFS problem. After HM: debrief, then an offer discussion with the head of engineering and an engineering manager (Sep 2025). A Feb 2025 SDE 1 backend round mixed DSA (Sort Colors, palindrome number) with HTTP methods, ACID, microservices vs monolith and Kafka questions."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Online assessment",
+      "details": "Same campus OA style as full time (4 problems, camera on). Off-campus 2027-grad OA in July 2026 included 'Luna and the Colorful Socks' (Codeforces 731C)."
+    },
+    {
+      "stage": "Technical round 1 (DSA)",
+      "details": "2 DSA problems, no other discussion; code written on paper (summer 2027 intern, July 2026): Shortest Bridge and a coverage-range variant of Minimum Number of Taps to Open to Water a Garden."
+    },
+    {
+      "stage": "Technical round 2 (DSA)",
+      "details": "2 to 3 problems: count substrings with equal vowels and consonants, Shortest Path in a Grid with Obstacles Elimination, then an easy subtree-average problem if time remains."
+    },
+    {
+      "stage": "HR round",
+      "details": "Resume deep dive (projects, achievements) and behavioral questions."
+    }
+  ],
+  "process_experienced_notes": "For 1 to 3 yrs the loop is usually 3 to 4 rounds: (1) Machine coding: 90 minutes to 2 hours on CodeSignal or your own IDE (one 2026 candidate was told it would be on a HackerEarth smart browser), solution zipped and emailed even if written on CodeSignal; functions listed in decreasing order of importance; longer take-home versions were reported for the 3 to 5 band (Logger library in 24 hours, Mar 2026; Logger library in about 6 hours, Sep 2026); then a 30 to 60 minute review on design choices, concurrency and thread safety, and optimizing brute-force functions; (2) DSA/PS: 2 problems in 60 minutes, often story-wrapped, LeetCode medium to hard (Burst Balloons and the celebrity problem were asked to a 2 YOE candidate); explain brute force, optimal and complexity; (3) For the 3 to 5 band: HLD (Shazam-like song identification, Sep 2026; Job Scheduler, Jul 2026); (4) Hiring manager: 45 to 75 minutes on project walkthrough, hardest technical problems, on-call, behavioral and situational questions; one HM rejected a 1 YOE candidate citing skills and cultural fit (Apr 2025). Some loops replace MC with an OA on CodeSignal (4 questions). AI tools are explicitly banned in the MC assignment instructions (Sep 2026).",
+  "timeline": "Campus OA for the next year's graduates runs in July (2027-grad OA posts dated 20 July 2026), with interviews in July to August. Off-campus: rounds are often scheduled within days of each other (OA, then round 1 about a week later, round 2 next day, HM the following week, Oct 2025). Post-HM there is a 'debrief' status and then an offer call; HM rescheduling and a location change offer (Bangalore vs another city) were reported (Sep 2026). A Sep 2025 thread asks about the cooldown period after rejection; its length is not confirmed anywhere public.",
+  "oa": {
+    "platform": "CodeSignal for lateral and off-campus roles (2025 posts; problem statements show CodeSignal execution and memory limits). Campus 2026 OA platform not named but camera-proctored.",
+    "format": "4 coding problems; lateral OA about 70 minutes (1 easy, 2 medium-hard, 1 hard reported); campus OA 4 problems, DP-heavy with long story statements.",
+    "notes": "Problems read like Codeforces (Socks 731C, digit DP, constrained path counting modulo 1e9+7). Strip the story first. Partial solutions still get shortlisted in some cycles."
+  },
+  "coding": {
+    "rounds": "Campus/intern: 2 DSA rounds. Lateral 0 to 3 yrs: 1 machine coding (plus review) and 1 to 2 DSA rounds.",
+    "style": "LeetCode medium to hard and Codeforces-level, frequently disguised in a story. Machine coding is practical LLD in code (issue resolution, booking, leaderboard, communication layer, app version rollout, hackathon platform).",
+    "environment": "Campus and intern: pen and paper with dry run. Lateral DSA: Google Meet with a shared editor. Machine coding: CodeSignal or local IDE (IntelliJ etc.), any language, in-memory storage, driver class or tests, no REST layer, avoid third-party libraries.",
+    "graded_on": "MC (from PhonePe problem sheets): completeness of functional requirements, OO design and SOLID, code efficiency, readability and maintainability, testability, corner cases, language proficiency, separation of data access from business logic, proper error codes. DSA: brute force to optimal with complexity, correctness on tricky interpretation."
+  },
+  "system_design": "New grads: no dedicated system design round reported; a light HLD prompt can appear inside the HM round (library management on CodeSignal, Sep 2025), and backend fundamentals (HTTP, ACID, Kafka) can come up in a DSA round (Feb 2025). 0 to 3 yrs: machine coding is the design signal (LLD in running code with concurrency). 3 to 5 yrs (SDE 2): a HLD round is standard, with unusual prompts (Shazam-style audio matching, Sep 2026; Job Scheduler, Jul 2026). A promotional LeetCode post claims a 'Design a Digital Wallet' SDE 2 round (Jun 2026). Interviewers probe concurrency, data storage choices and trade-offs.",
+  "behavioral": {
+    "framework": "PhonePe values on the Life at PhonePe page: integrity and honesty as 'the price of admission', zero tolerance for politics, audacious goals and calculated risks, transparency, first-principles problem solving, customer first, complete ownership ('We never say this is not my job'), removing complexity.",
+    "values_url": "https://www.phonepe.com/careers/life-at-phonepe/",
+    "what_they_look_for": [
+      "Deep ownership of your projects: architecture, your decisions, hardest problems",
+      "First-principles reasoning and data-driven decisions",
+      "Candor: admit mistakes, voice unpopular opinions",
+      "No over-engineering: alignment with stated requirements (a Logger MC candidate was rejected for adding an extra sink-selection API)",
+      "Cultural fit with a fast, high-ownership environment (an HM rejection of a 1 YOE candidate cited skills and cultural fit, Apr 2025)"
+    ],
+    "sample_questions": [
+      "Deep dive into one project: why this design, what would you change?",
+      "What is the most difficult technical problem you have handled?",
+      "Explain the architecture and tech stack at your current company.",
+      "Situational questions on handling production issues and deadlines (reported generically).",
+      "Why PhonePe and why this location?"
+    ]
+  },
+  "non_leetcode_formats": "Machine coding assignments with a later review: Customer Issue Resolution System (agents, strategies, work history), Fitness Class Booking (tiers, waitlist, thread safety), Leaderboard service for many games with concurrent score submissions, Communication layer (email/SMS/soundbox providers with auth and random provider selection), App Version Management (beta and percentage rollouts, diff patches), Hackathon platform (filters, scoring strategy, recommendations), Logger library with sinks (24 hours, SDE 2). HLD for SDE 2. HM rounds may include an HLD mini-exercise and a math puzzle.",
+  "reported_questions": [
+    {
+      "title": "Shortest Bridge (code on paper)",
+      "url": "https://leetcode.com/problems/shortest-bridge/",
+      "role": "SDE Intern (summer 2027)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8418761/phonepe-sde-intern-interview-experience-q4q3x/"
+    },
+    {
+      "title": "Coverage-range array: minimum indices to cover all positions (equivalent to Minimum Number of Taps to Open to Water a Garden)",
+      "url": "https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/",
+      "role": "SDE Intern (summer 2027)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8418761/phonepe-sde-intern-interview-experience-q4q3x/"
+    },
+    {
+      "title": "Count substrings with equal numbers of vowels and consonants",
+      "url": "",
+      "role": "SDE Intern (summer 2027)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8418761/phonepe-sde-intern-interview-experience-q4q3x/"
+    },
+    {
+      "title": "Shortest Path in a Grid with Obstacles Elimination",
+      "url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+      "role": "SDE Intern (summer 2027)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8418761/phonepe-sde-intern-interview-experience-q4q3x/"
+    },
+    {
+      "title": "OA: Luna and the Colorful Socks, minimum total repaint cost (per-color costs) so each day's sock pair matches (a weighted variant of Codeforces 731C 'Socks'; the post itself names no source)",
+      "url": "",
+      "role": "2027 grad OA (off campus)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8409804/phonepe-online-assissment-off-campus-202-ncgk/"
+    },
+    {
+      "title": "OA: Nth positive integer that avoids a set of hated digits (n up to 1e18); minimum node-cost path with total latency at most L",
+      "url": "",
+      "role": "2027 grad OA (on campus)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8410002/phonepe-oa-on-campus-by-anonymous_user-kluy/"
+    },
+    {
+      "title": "OA: count substrings of S that do not contain T as a subsequence; DP task assignment with context-switch idle days; count K-jump sequences modulo 1e9+7",
+      "url": "",
+      "role": "SDE 1 OA",
+      "date": "2026-08",
+      "source_url": "https://leetcode.com/discuss/post/8444588/phonepe-sde-1-oa-experience-august-2026-ouj8k/"
+    },
+    {
+      "title": "Maximize the number of even-sum subarrays by changing at most one element",
+      "url": "",
+      "role": "SDE 1 (face to face)",
+      "date": "2026-02",
+      "source_url": "https://leetcode.com/discuss/post/7615254/phonepe-sde1-interview-ctc-40lakhs-got-c-83l6/"
+    },
+    {
+      "title": "Burning Tree (Amount of Time for Binary Tree to Be Infected), full code on paper with dry run",
+      "url": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
+      "role": "SDE (2025 campus)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7087077/phonepe-oa-interview-experience-2025-cam-xtjm/"
+    },
+    {
+      "title": "Shortest Path to Get All Keys",
+      "url": "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
+      "role": "SDE (2025 campus)",
+      "date": "2025-08",
+      "source_url": "https://leetcode.com/discuss/post/7087077/phonepe-oa-interview-experience-2025-cam-xtjm/"
+    },
+    {
+      "title": "Evaluate Division; minimize total cost of repeatedly removing two elements (cost = their sum)",
+      "url": "https://leetcode.com/problems/evaluate-division/",
+      "role": "SDE backend (0 to 3 years), ~1 YOE",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7222612/phonepe-interview-experience-sde-0-3-yea-5nll/"
+    },
+    {
+      "title": "Amount of Time for Binary Tree to Be Infected with a follow-up for multiple infected nodes",
+      "url": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
+      "role": "SDE backend (0 to 3 years)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7222612/phonepe-interview-experience-sde-0-3-yea-5nll/"
+    },
+    {
+      "title": "Min Stack (single question, multiple approaches)",
+      "url": "https://leetcode.com/problems/min-stack/",
+      "role": "Software Engineer (1 to 3 years)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7286629/phonepe-se-1-3y-interview-experience-by-qdo0q/"
+    },
+    {
+      "title": "Accounts Merge; variation of Meeting Rooms (minimum rooms)",
+      "url": "https://leetcode.com/problems/accounts-merge/",
+      "role": "Software Engineer (1 to 3 years)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7286629/phonepe-se-1-3y-interview-experience-by-qdo0q/"
+    },
+    {
+      "title": "Machine coding: Customer Issue Resolution System for failed/pending transactions (createIssue, addAgent, assignIssue with strategy, getIssues, resolveIssue, agent work history), 90 minutes, review on concurrency",
+      "url": "",
+      "role": "SDE (0 to 3 years)",
+      "date": "2025-09",
+      "source_url": "https://leetcode.com/discuss/post/7218643/phonepe-machine-coding-round-for-sde0-3-k5jh1/"
+    },
+    {
+      "title": "Machine coding: Fitness Class Booking with Platinum/Gold/Silver tiers, waitlist promotion, cancellation 30 minutes before, thread-safe booking",
+      "url": "",
+      "role": "SDE 1",
+      "date": "2025-07",
+      "source_url": "https://leetcode.com/discuss/post/6980677/phonepe-machine-coding-round-sde-intervi-wqqs/"
+    },
+    {
+      "title": "Remove k from either end to maximize sum (Maximum Points You Can Obtain from Cards); minimum insertions to make a string a palindrome; remove k adjacent duplicates",
+      "url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+      "role": "Software Engineer backend (0 to 3 years), Pune, 2 YOE",
+      "date": "2025-07",
+      "source_url": "https://leetcode.com/discuss/post/6965107/phonepe-software-engineer-backend-0-to-3-3a64/"
+    },
+    {
+      "title": "All Nodes Distance K in Binary Tree; implement a stack with getMin",
+      "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+      "role": "SDE 1 backend (0 to 3 years), Pune",
+      "date": "2025-04",
+      "source_url": "https://leetcode.com/discuss/post/6680307/phonepe-interview-for-sde1-backend-0-3-y-i9lr/"
+    },
+    {
+      "title": "Machine coding: daily/weekly Leaderboard service for multiple games with concurrent score submissions",
+      "url": "",
+      "role": "Not stated (first-round machine coding assignment)",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7474219/machine-coding-assignment-phonepe-first-1e4a0/"
+    },
+    {
+      "title": "HLD: design a Shazam-like song identification service",
+      "url": "",
+      "role": "SDE 2 backend",
+      "date": "2026-09",
+      "source_url": "https://leetcode.com/discuss/post/8547106/phonepe-sde-2-backend-interview-experien-vcqt/"
+    },
+    {
+      "title": "DSA round: 3Sum, Generate Parentheses, Candy",
+      "url": "https://leetcode.com/problems/candy/",
+      "role": "SDE 1, India",
+      "date": "2025-01",
+      "source_url": "https://leetcode.com/discuss/post/6306400/phonepe-sde1-india-20-jan-2025-by-anonym-e8tv/"
+    },
+    {
+      "title": "Sort Colors and palindrome number in O(1) space, plus POST vs PUT, ACID, microservices vs monolith, Kafka",
+      "url": "https://leetcode.com/problems/sort-colors/",
+      "role": "SDE 1 backend",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6437867/my-phonepe-sde-1-interview-experience-by-gha9/"
+    },
+    {
+      "title": "Machine coding: Hackathon platform (90 minutes, emailed); DSA: Count Bowl Subarrays and Reconstruct Itinerary; HLD: Job Scheduler",
+      "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+      "role": "Software Engineer (3 to 5 years)",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8382058/phonepe-software-engineer-3-5-years-by-a-iwkf/"
+    }
+  ],
+  "focus_topics": [
+    "Graphs: multi-source BFS, BFS with state (keys, obstacle eliminations), Dijkstra with constraints, union-find",
+    "Dynamic programming including digit DP and bitmask DP",
+    "Trees: BFS from a node (burning tree), distance K",
+    "Greedy and interval problems (meeting rooms, taps)",
+    "Stacks and monotonic stacks (Min Stack, remove duplicate letters)",
+    "String counting with prefix sums and two pointers",
+    "Machine coding: OOD, SOLID, strategy pattern, thread safety, in-memory repositories",
+    "Fintech system design for SDE 2: idempotency, ledger consistency, reconciliation"
+  ],
+  "tips": [
+    "Practice Codeforces Div 2 C-level problems with long stories; PhonePe OAs and campus rounds read like contest problems (a 2025 campus candidate was asked Codeforces 2028C; a 2026 OA problem is a weighted variant of Codeforces 731C).",
+    "For campus and intern rounds, write complete code on paper and dry run it; interviewers ask for both.",
+    "In machine coding, implement the required functions in the order listed (they are ranked by importance) and submit on time even if partial; the instructions say a partial on-time solution beats a late one.",
+    "Do not add unrequested features or leak implementation details through the API; a Logger candidate was rejected for an extra sink-specific log method (Mar 2026).",
+    "Expect the MC review to focus on concurrency: know how your assign/book methods behave under simultaneous calls and how you would make them thread safe.",
+    "For SDE 2 HLD, lead with what cannot go wrong with money (idempotency, consistency, reconciliation) and be ready for unusual prompts like Shazam. This framing comes from general fintech design practice and a promotional LeetCode post, not from a verified PhonePe rubric.",
+    "Prepare a crisp architecture walkthrough of your current project for the HM round; HM feedback can override strong technical rounds.",
+    "On offers, joining bonus is easier to move than base: one candidate negotiated signing bonus from INR 3 lakh to 5 lakh and base from 19.25 to 20 lakh by citing an expected competing offer (Feb 2025)."
+  ],
+  "compensation_note": "Levels.fyi (India, updated Oct 4 2026): Software Engineer 1 median total comp about INR 29.2 lakh/yr (base about INR 24.3 lakh, stock about INR 4.75 lakh/yr); Software Engineer 2 about INR 45.9 lakh. LeetCode offers: 7 months experience, Bengaluru, Feb 2025: base INR 20 lakh + INR 5 lakh signing + INR 8.5 lakh ESOPs over 4 years after negotiation (initial base 19.25 lakh, signing 3 lakh; poster notes campus offers had a 5 lakh joining bonus); SDE 0 to 3 years, ~1 YOE, Sep 2025: base INR 21 lakh + INR 3 lakh joining + INR 14 lakh ESOPs over 4 years; 1.5 YOE Pune, Oct 2025: base INR 22 lakh + INR 2 lakh signing + INR 19 lakh ESOPs over 4 years. Campus 2027 OA post title claims '50 LPA CTC' and an SDE 1 post title claims '40 Lakhs CTC' (candidate claims, unverified).",
+  "sources": [
+    "https://www.phonepe.com/careers/",
+    "https://www.phonepe.com/careers/life-at-phonepe/",
+    "https://www.phonepe.com/careers/job-openings/",
+    "https://jobs.smartrecruiters.com/PHONEPELIMITED",
+    "https://tech.phonepe.com/",
+    "https://www.levels.fyi/companies/phonepe/salaries/software-engineer",
+    "https://leetcode.com/discuss/post/8418761/phonepe-sde-intern-interview-experience-q4q3x/",
+    "https://leetcode.com/discuss/post/8409804/phonepe-online-assissment-off-campus-202-ncgk/",
+    "https://leetcode.com/discuss/post/8409327/phonepe-oa-50lpa-ctc-2027-grad-camera-on-7to7/",
+    "https://leetcode.com/discuss/post/8410002/phonepe-oa-on-campus-by-anonymous_user-kluy/",
+    "https://leetcode.com/discuss/post/8444588/phonepe-sde-1-oa-experience-august-2026-ouj8k/",
+    "https://leetcode.com/discuss/post/7615254/phonepe-sde1-interview-ctc-40lakhs-got-c-83l6/",
+    "https://leetcode.com/discuss/post/7087077/phonepe-oa-interview-experience-2025-cam-xtjm/",
+    "https://leetcode.com/discuss/post/7222612/phonepe-interview-experience-sde-0-3-yea-5nll/",
+    "https://leetcode.com/discuss/post/7286629/phonepe-se-1-3y-interview-experience-by-qdo0q/",
+    "https://leetcode.com/discuss/post/7286689/phonepe-offer-software-engineer-backend-lzkfp/",
+    "https://leetcode.com/discuss/post/7218643/phonepe-machine-coding-round-for-sde0-3-k5jh1/",
+    "https://leetcode.com/discuss/post/7126839/customer-support-system-phone-pe-machine-swtd/",
+    "https://leetcode.com/discuss/post/6980677/phonepe-machine-coding-round-sde-intervi-wqqs/",
+    "https://leetcode.com/discuss/post/6759550/phonepe-software-engineer-backend-machin-7det/",
+    "https://leetcode.com/discuss/post/6759565/phonepe-se-backend-1-3-years-dsa-round-i-c4a1/",
+    "https://leetcode.com/discuss/post/6965107/phonepe-software-engineer-backend-0-to-3-3a64/",
+    "https://leetcode.com/discuss/post/6903844/phonepe-software-engineer-backend-dsa-ro-310o/",
+    "https://leetcode.com/discuss/post/6680307/phonepe-interview-for-sde1-backend-0-3-y-i9lr/",
+    "https://leetcode.com/discuss/post/6306400/phonepe-sde1-india-20-jan-2025-by-anonym-e8tv/",
+    "https://leetcode.com/discuss/post/6451014/phonepe-sde-1-offer-by-anonymous_user-45o1/",
+    "https://leetcode.com/discuss/post/7474219/machine-coding-assignment-phonepe-first-1e4a0/",
+    "https://leetcode.com/discuss/post/7570752/phonepe-machine-coding-by-anonymous_user-33cz/",
+    "https://leetcode.com/discuss/post/7702027/phonepe-sde-2-interview-experience-machi-4c1q/",
+    "https://leetcode.com/discuss/post/7211822/phonepe-machine-coding-round-by-anonymou-qda4/",
+    "https://leetcode.com/discuss/post/6661034/phonepe-machine-coding-round-lld-by-anon-kzmp/",
+    "https://leetcode.com/discuss/post/7143252/phonepe-oa-communication-layer-discussio-4513/",
+    "https://leetcode.com/discuss/post/6957160/phonepe-machine-coding-by-jagzz-w9f2/",
+    "https://leetcode.com/discuss/post/7206530/phonepe-sde-2-interview-experience-by-an-cwih/",
+    "https://leetcode.com/discuss/post/8547106/phonepe-sde-2-backend-interview-experien-vcqt/",
+    "https://leetcode.com/discuss/post/8359466/cleared-my-phonepe-hld-round-using-this-yqwju/",
+    "https://leetcode.com/discuss/post/8420715/fintech-system-design-interviews-are-dif-dgyj/",
+    "https://careers.smartrecruiters.com/PHONEPELIMITED",
+    "https://leetcode.com/discuss/post/7201050/phonepe-cooldown-period-by-anonymous_use-i195/",
+    "https://leetcode.com/discuss/post/6437867/my-phonepe-sde-1-interview-experience-by-gha9/",
+    "https://leetcode.com/discuss/post/8382058/phonepe-software-engineer-3-5-years-by-a-iwkf/",
+    "https://leetcode.com/discuss/post/8538192/phonepe-backend-3-5-years-interview-expe-lrdd/",
+    "https://leetcode.com/discuss/post/7123326/amazon-sde-ii-vs-phonepe-sde-3-5-yrs-by-pn38o/"
+  ],
+  "confidence_notes": "Fact-checked 2026-10-04: every URL was re-fetched (LeetCode Discuss posts through LeetCode's public GraphQL API with slugs matched to post IDs; LeetCode problem slugs checked through the GraphQL question API; phonepe.com pages with curl and a browser; SmartRecruiters through its public postings API). PhonePe has no public interview-prep page and no dedicated students page; campus hiring runs through college placement cells. PhonePe's job board moved from Greenhouse (job-boards.greenhouse.io/phonepe now returns 404) to SmartRecruiters (company id PHONEPELIMITED; phonepe.com job links point to jobs.smartrecruiters.com). Corrections made: the 'Codeforces 731C' label was the previous writer's mapping, not the poster's, and the OA problem is a weighted variant; the '3 to 5 years' band and 'SDE 2' label are now sourced; the cooldown claim now cites its Sep 2025 thread; 'digital wallet' HLD is now attributed to a promotional post (8359466) rather than stated as fact; one-liner no longer claims 'largest' (not verifiable on official pages). The two posts recommending a design site (8359466, 8420715) read as promotional and are used only as context. OA platform for the 2026 campus test is not named. Process varies by team and band: some 0 to 3 loops start with MC, others with an OA; HM-round content varies widely. Comp titles ('50 LPA', '40 Lakhs') are candidate claims. Levels.fyi figures are per-level values at the site's displayed rate. Web search budget was exhausted, so Glassdoor, Reddit, Blind and YouTube were not checked; LeetCode Discuss search was used instead."
+}

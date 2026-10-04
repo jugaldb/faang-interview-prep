@@ -1,0 +1,316 @@
+{
+ "slug": "databricks",
+ "name": "Databricks",
+ "category": "High-growth tech",
+ "one_liner": "Data and AI platform (Spark, Delta Lake, lakehouse). Interviews are LeetCode medium-hard plus concurrency, low-level design and practical twists like IP/CIDR parsing.",
+ "careers_url": "https://www.databricks.com/company/careers",
+ "students_url": "https://www.databricks.com/company/careers/university-recruiting",
+ "interview_prep_url": "https://www.databricks.com/company/careers/interview-prep",
+ "levels": {
+  "intern": "Software Engineering Intern (12 or 16 weeks; SF, Mountain View, Bellevue, Amsterdam, Berlin, Belgrade, Bangalore)",
+  "new_grad": "L3 (entry level per Levels.fyi, 0 to 1 yrs)",
+  "early_career": "L3 for 0 to 2 yrs (Levels.fyi median 0 YOE); L4 (Software Engineer IV) for roughly 2 to 5 yrs (Levels.fyi median 2 YOE, average 3.2; e.g. a 3 YOE Microsoft engineer weighing an India L4 offer, Jul 2025). L5 is Senior Software Engineer."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Application",
+   "details": "University roles typically open in August, reviewed on a rolling basis (official FAQ). India new grads also hired through on-campus drives (IIIT Hyderabad, Tier-1 campuses, 2024 to 2025 season)."
+  },
+  {
+   "stage": "Recruiter screen (about 20 to 30 min)",
+   "details": "Resume walkthrough, 'what role are you looking for', previous internship impact (Bellevue NG, Sep 2025)."
+  },
+  {
+   "stage": "Technical phone screen (60 min)",
+   "details": "One algorithmic problem, often multi-part with new constraints added, on CoderPad with runnable code. Screens reported across levels: IP firewall with CIDR rules (L4), multi-modal transport grid, Find All Anagrams (graduate). One 2026 candidate was offered a choice between an algorithm screen and an architecture screen."
+  },
+  {
+   "stage": "Virtual onsite (4 interviews)",
+   "details": "Typical NG loop: 2 coding (one algorithm, one implementation or OOP-style with clean code), 1 low-level system design, 1 behavioral with a hiring manager (Belgrade NG Jan 2025; US NG Oct 2025). All virtual on Google Meet unless told otherwise."
+  },
+  {
+   "stage": "Team matching, hiring committee, references",
+   "details": "The official engineering prep guide (written for experienced back-end roles) lists team matching as an internal step between the technical screen and the full panel, and a hiring committee after the panel, then references and offer. Candidates also report team-matching calls with several hiring managers after the onsite (SDE-II, Feb 2026), and interviewing.io says about a quarter of candidates switch teams after the onsite."
+  },
+  {
+   "stage": "India on-campus variant",
+   "details": "Resume shortlist, two technical rounds (tree traversal cost problem, server selection DP), hiring manager round (IIIT Hyderabad 2025 grad, interviews and offer Nov 2024, posted Feb 2025)."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Online assessment (sometimes)",
+   "details": "CodeSignal (US Aug 2025; Netherlands Jan 2025: proctored with camera on, 3 questions of increasing difficulty). Many 2025 intern candidates had no OA at all (Singapore: 'no online assessment this year'; Mountain View: went straight to interviews)."
+  },
+  {
+   "stage": "Recruiter screen",
+   "details": "Resume, why Databricks, what you want from an internship."
+  },
+  {
+   "stage": "Two technical interviews (1 hour each, often back to back)",
+   "details": "One algorithm question (graphs, BFS, topological sort, sliding window, LC medium to hard) and one implementation or OOP design coding question (LazyArray, N x N tic-tac-toe with variable win length). Some loops add a third technical round (US, Sep 2025) or an optional follow-up interview (US, Aug 2025); one SF loop (Nov 2025) added system design and debugging rounds."
+  },
+  {
+   "stage": "Hiring manager behavioral (about 45 min)",
+   "details": "Deep dive into a past internship or project, negative feedback you received, what you know about Databricks and its values. Then offer. Whole process about 3 weeks in one Mountain View report."
+  }
+ ],
+ "process_experienced_notes": "For L4 (about 3+ yrs) the official engineering guide lists: recruiter screen (30 min), technical screen (1 hour), team matching, then a full panel of 4 to 6 one-hour interviews chosen from Coding (production-quality code with tests), Algorithms, System Programming (multithreading, synchronization, I/O, caching, in pseudocode), Architecture (end-to-end design in CoderPad Draw), Domain Deep Dive, and Cross-Functional/Hiring Manager, followed by hiring committee and references. Database roles add Storage, Stream Processing and a 'Database Papers' seminar round. Reported L4 to SDE-II rounds: CIDR firewall, Fibonacci tree path, tic-tac-toe design, CachedFile range-cache LLD, thread-safe EventWriter, plus multiple team-matching calls with hiring managers.",
+ "timeline": "Official: two to three months end to end, varies by role and region; feedback aimed within 48 hours of the final interview (interview-prep FAQ). University applications typically open in August on academic calendars and are reviewed on a rolling basis (official). interviewing.io says the process can take up to 8 weeks. Jugal's Substack notes Databricks posts internships early, often July to August. Official engineering PDF order: recruiter screen, technical screen, team matching (internal), full panel, hiring committee (internal), references, offer. Intern loops can finish in about 3 weeks; NG onsite rounds often scheduled back to back within a month.",
+ "oa": {
+  "platform": "CodeSignal when used (proctored, camera on); many 2025 to 2026 intern and NG candidates skipped the OA entirely",
+  "format": "3 questions of increasing difficulty (Netherlands, Jan 2025); second question often a matrix operation; one candidate reports a limit of 3 CodeSignal tests in 6 months",
+  "notes": "Inconsistent by region and season. Older Databricks OA questions (2023 to 2024) were LC hard style (partition array into K subarrays by max cost; prefix removal with at most K distinct characters)."
+ },
+ "coding": {
+  "rounds": "NG: 1 phone screen plus 2 onsite coding (algorithm plus implementation). Intern: 2 technical. L4: phone screen plus 2 to 3 coding-type rounds including system programming.",
+  "style": "LeetCode medium to hard with Databricks twists: bit manipulation (IPv4, CIDR masks), custom recursive structures (Fibonacci trees), graph search with extra state (transport modes), iterator and snapshot design, game-board design, concurrency. Follow-ups add constraints mid-interview.",
+  "environment": "CoderPad (official prep links CoderPad sandbox), code is run; Google Meet video. Language agnostic but fluency expected.",
+  "graded_on": "Official university page: 'Brush up on data structures and algorithms. We're evaluating code quality and cleanliness.' Official engineering rubric: production-quality code, clean organization, comprehensive tests and edge cases, Big-O analysis, data structure choice, clear articulation of approach. Some interviewers ask for complexity before you code."
+ },
+ "system_design": "Appears even for new grads: NG loops include one low-level system design round (Belgrade Jan 2025) or a system design round (US Oct 2025), and some intern loops added a system design or debugging round (SF Nov 2025). Flavor is LLD and systems: caching file ranges, thread-safe writers, snapshot structures. L4+ gets an Architecture round (scalability, storage, replication, consistency, failure handling) in CoderPad Draw (official PDF) and a System Programming round on concurrency; interviewing.io notes some interviewers run design in Google Docs. One 2026 candidate was offered an architecture round instead of an algorithm round for the phone screen.",
+ "behavioral": {
+  "framework": "Databricks culture principles: Customer Obsessed, Raise the Bar, Truth Seeking, First Principles, Bias for Action, Company First. Assessed in a Cross-Functional/Hiring Manager interview with structured competencies.",
+  "values_url": "https://www.databricks.com/company/careers/culture",
+  "what_they_look_for": [
+   "Technical depth when explaining your own projects without company jargon",
+   "Career trajectory and clear motivation for Databricks",
+   "How you handle negative feedback and disagreement",
+   "Cross-team collaboration and leadership at your level",
+   "Data-driven, first-principles decision making",
+   "Bias for action and ownership"
+  ],
+  "sample_questions": [
+   "Why Databricks?",
+   "How do you deal with disagreement?",
+   "What negative feedback have you received?",
+   "What do you know about Databricks and the company values?",
+   "Describe your strengths and weaknesses.",
+   "Tell me about a time you demonstrated leadership.",
+   "How did your work at your previous internship end, and what was the result?"
+  ]
+ },
+ "non_leetcode_formats": "System Programming round (concurrency, buffering, caching, I/O, pseudocode allowed). LLD or machine-coding rounds (CachedFile over a remote StorageClient, thread-safe EventWriter with fsync durability, Map with load-measurement methods). Architecture round in CoderPad Draw. Domain Deep Dive conversation. Database Papers seminar for database roles (open book). Front-end loops build a data-fetching app in CoderPad and include a product design round.",
+ "reported_questions": [
+  {
+   "title": "IP firewall: ALLOW/DENY rules with IPs and CIDR blocks, decide if an IP is allowed and which rule matched (related: IP to CIDR)",
+   "url": "",
+   "role": "L4 technical phone screen",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6889797/databricks-interview-experience-l4-offer-mibw/"
+  },
+  {
+   "title": "IP firewall with CIDR rules (repeat of the same screen question)",
+   "url": "",
+   "role": "L4 technical phone screen",
+   "date": "2025-02",
+   "source_url": "https://leetcode.com/discuss/post/6479010/databricks-tech-phonescreen-l4-experienc-upj3/"
+  },
+  {
+   "title": "Fibonacci tree shortest path: return U/L/R moves between two pre-order-numbered nodes in a tree of order n",
+   "url": "",
+   "role": "SDE-II technical screen",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7614788/databricks-sde-ii-interview-experience-b-6n8v/"
+  },
+  {
+   "title": "Design tic-tac-toe on an n x m board with k in a row, follow-up: random AI player (closest LC: Design Tic-Tac-Toe, LC Premium)",
+   "url": "https://leetcode.com/problems/design-tic-tac-toe/",
+   "role": "SDE-II onsite DSA",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7614788/databricks-sde-ii-interview-experience-b-6n8v/"
+  },
+  {
+   "title": "Tic-tac-toe on an N x N board with a variable win line length (closest LC: Design Tic-Tac-Toe, LC Premium)",
+   "url": "https://leetcode.com/problems/design-tic-tac-toe/",
+   "role": "Software Engineering Intern (US)",
+   "date": "2025-09",
+   "source_url": "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineering-intern-united-states-september-1-2025-no-offer-neutral-c5a917c0/"
+  },
+  {
+   "title": "CachedFile: serve arbitrary byte ranges of a remote file via getFileSize/fetch while minimizing network calls (chunking, thread pool)",
+   "url": "",
+   "role": "SDE-II onsite LLD",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7614788/databricks-sde-ii-interview-experience-b-6n8v/"
+  },
+  {
+   "title": "Multi-modal transport grid: fastest path S to D using one mode (tie-break by cost); follow-up allows switching with a time penalty",
+   "url": "",
+   "role": "Technical phone screen / L4 onsite",
+   "date": "2025-02",
+   "source_url": "https://leetcode.com/discuss/post/6411153/databricks-technical-phone-screen-bfs-by-3txb/"
+  },
+  {
+   "title": "Snapshot set: add/remove/contains with an iterator that sees the set as of when iteration started",
+   "url": "",
+   "role": "L4 phone screen",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6809493/databricks-l4-phone-screening-question-b-p476/"
+  },
+  {
+   "title": "Thread-safe EventWriter: many threads append buffers to one file, return only after data is durable (fsync batching)",
+   "url": "",
+   "role": "L4 onsite LLD and concurrency",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6889797/databricks-interview-experience-l4-offer-mibw/"
+  },
+  {
+   "title": "Count encrypted and unencrypted files in a directory tree; follow-up: minimum time to encrypt all using file vs directory APIs",
+   "url": "",
+   "role": "L4 technical phone screen",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7318054/technical-phone-screen-l4-interview-by-a-pdmr/"
+  },
+  {
+   "title": "Run-length plus bit-packing encoder and decoder",
+   "url": "",
+   "role": "Senior engineer onsite coding",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7736707/brutal-system-design-round-databricks-se-kfng/"
+  },
+  {
+   "title": "Key-value map with put/get plus measure_put_load and measure_get_load averaged over a 5-minute window (poster compares to Time Based Key-Value Store)",
+   "url": "https://leetcode.com/problems/time-based-key-value-store/",
+   "role": "SDE machine coding round",
+   "date": "2025-03",
+   "source_url": "https://leetcode.com/discuss/post/6525129/databricks-interview-sde-by-anonymous_us-gl2r/"
+  },
+  {
+   "title": "Find All Anagrams in a String (candidate says similar to LC 438); asked for complexity before coding",
+   "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+   "role": "Graduate Software Engineer technical (North Holland)",
+   "date": "2025-10",
+   "source_url": "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-graduate-october-1-2025-declined-offer-negative-1772a5ef/"
+  },
+  {
+   "title": "Topological sort over a graph of jobs",
+   "url": "",
+   "role": "Software Engineer Intern (Amsterdam)",
+   "date": "2025-10",
+   "source_url": "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-intern-amsterdam-october-28-2025-accepted-offer-positive-cd02b72d/"
+  },
+  {
+   "title": "Build a LazyArray class supporting two methods (OOP implementation)",
+   "url": "",
+   "role": "Software Engineering Intern (US)",
+   "date": "2025-09",
+   "source_url": "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-internship-united-states-september-1-2025-no-offer-positive-43f9df2d/"
+  },
+  {
+   "title": "Minimum cost to visit all target nodes in an undirected tree from the root and return; follow-up: start anywhere",
+   "url": "https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/",
+   "role": "Software Engineer New Grad (Bengaluru, on-campus)",
+   "date": "2024-11",
+   "source_url": "https://leetcode.com/discuss/post/6459213/databricks-swe-bengaluru-nov-2024-offer-fhuqp/"
+  },
+  {
+   "title": "Server selection: choosing server i also covers the next i servers; minimum cost to cover all (O(n log n) then O(n))",
+   "url": "",
+   "role": "Software Engineer New Grad (Bengaluru, on-campus)",
+   "date": "2024-11",
+   "source_url": "https://leetcode.com/discuss/post/6459213/databricks-swe-bengaluru-nov-2024-offer-fhuqp/"
+  },
+  {
+   "title": "Randomly merge n connected graphs into one so every ordering is equally likely",
+   "url": "",
+   "role": "Technical phone screen (San Francisco)",
+   "date": "2025-01",
+   "source_url": "https://leetcode.com/discuss/post/6331345/databricks-technical-phone-screen-san-fr-dvnw/"
+  },
+  {
+   "title": "System design: credit card processing for an online game platform (refunds, credits, items), deep dive on concurrent transactions",
+   "url": "",
+   "role": "Senior engineer onsite system design",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7736707/brutal-system-design-round-databricks-se-kfng/"
+  },
+  {
+   "title": "Frontend: design an employee rating system; Backend: OOP problem for a game",
+   "url": "",
+   "role": "Full Stack Engineer Intern (US)",
+   "date": "2025-02",
+   "source_url": "https://www.jointaro.com/interviews/companies/databricks/experiences/full-stack-engineer-intern-united-states-february-14-2025-no-offer-positive-b877bd88/"
+  }
+ ],
+ "focus_topics": [
+  "graphs: BFS, Dijkstra with extra state, topological sort",
+  "trees and custom recursive structures",
+  "bit manipulation (IPv4, CIDR masks)",
+  "design-style coding: iterators, snapshots, game boards",
+  "concurrency and multithreading (locks, thread pools, durable writes)",
+  "caching, chunking and file I/O",
+  "strings: sliding window, run-length encoding",
+  "dynamic programming",
+  "low-level design and clean OOP",
+  "storage and distributed systems for architecture rounds"
+ ],
+ "tips": [
+  "Do the Databricks-tagged LeetCode list; several 2025 intern and NG candidates said tagged questions repeat, and the CIDR firewall and transport-grid problems recur across years.",
+  "Get fluent with IPv4 to 32-bit integer conversion and CIDR masks before your screen; multiple candidates lost the screen on bit representation, not logic.",
+  "Prepare concurrency fundamentals (mutexes, condition variables, producer-consumer, batching writes, thread pools); the official guide includes a System Programming round.",
+  "Write tests and handle edge cases in CoderPad without being asked; the official university page says SWE interviews evaluate code quality and cleanliness, and the engineering rubric grades production-quality code and test coverage.",
+  "State time and space complexity before coding; some interviewers ask for it up front.",
+  "For the hiring manager round, prepare a technical deep dive of your last internship plus a story about negative feedback, and learn the six culture principles.",
+  "Apply in July to August when university roles open and highlight ML work: the current university page says ideal intern candidates know deep learning and PyTorch.",
+  "If you have seen a question before, say so; one 2025 screen candidate was rejected with an 'integrity' reason after solving a known problem quickly."
+ ],
+ "compensation_note": "Levels.fyi (US, page updated Oct 4 2026): L3 entry median total comp about $271K (base about $146K, stock about $88.7K/yr, bonus plus sign-on about $36.4K); L4 about $419K. Levels.fyi lists two RSU schedules: 40/30/20/10 vesting monthly over 4 years (front-loaded) and 25% per year. India L3 median about INR 67.5 lakh (base about INR 37 lakh). LeetCode offer posts for 2025 India campus grads: INR 36 lakh base, 10% bonus, about INR 23 lakh/yr RSUs, INR 5 lakh joining bonus, INR 75K relocation, total CTC about INR 68.35 lakh; a Feb 2025 fresher post lists 1,500 RSUs over 4 years at a private-company valuation ('no IPO').",
+ "sources": [
+  "https://www.databricks.com/company/careers",
+  "https://www.databricks.com/company/careers/university-recruiting",
+  "https://www.databricks.com/company/careers/interview-prep",
+  "https://www.databricks.com/sites/default/files/2025-04/engineering-careers-site-interview-prep-april-2025-002.pdf",
+  "https://www.databricks.com/company/careers/culture",
+  "https://www.databricks.com/company/careers/open-positions",
+  "https://interviewing.io/databricks-interview-questions",
+  "https://www.hellointerview.com/learn/system-design/problem-breakdowns/payment-system",
+  "https://www.levels.fyi/companies/databricks/salaries/software-engineer",
+  "https://www.levels.fyi/companies/databricks/salaries/software-engineer/levels/l3",
+  "https://www.levels.fyi/companies/databricks/salaries/software-engineer/locations/india",
+  "https://leetcode.com/discuss/post/7614788/databricks-sde-ii-interview-experience-b-6n8v/",
+  "https://leetcode.com/discuss/post/7736707/brutal-system-design-round-databricks-se-kfng/",
+  "https://leetcode.com/discuss/post/7928239/databricks-phone-screen-algo-or-architec-w1fi/",
+  "https://leetcode.com/discuss/post/7318054/technical-phone-screen-l4-interview-by-a-pdmr/",
+  "https://leetcode.com/discuss/post/7377977/databricks-screening-sse-by-anonymous_us-80uq/",
+  "https://leetcode.com/discuss/post/7293675/databricks-new-grad-final-round-by-anony-shqo/",
+  "https://leetcode.com/discuss/post/6889797/databricks-interview-experience-l4-offer-mibw/",
+  "https://leetcode.com/discuss/post/6809493/databricks-l4-phone-screening-question-b-p476/",
+  "https://leetcode.com/discuss/post/6813648/shocking-experience-with-databricks-by-a-gd1h/",
+  "https://leetcode.com/discuss/post/6525129/databricks-interview-sde-by-anonymous_us-gl2r/",
+  "https://leetcode.com/discuss/post/6479010/databricks-tech-phonescreen-l4-experienc-upj3/",
+  "https://leetcode.com/discuss/post/6459213/databricks-swe-bengaluru-nov-2024-offer-fhuqp/",
+  "https://leetcode.com/discuss/post/6411153/databricks-technical-phone-screen-bfs-by-3txb/",
+  "https://leetcode.com/discuss/post/6366787/databricks-swe-fresher-bangalore-by-anon-7soe/",
+  "https://leetcode.com/discuss/post/6331345/databricks-technical-phone-screen-san-fr-dvnw/",
+  "https://leetcode.com/discuss/post/6926481/tier-1-india-2025-tech-placement-offers-iyvci/",
+  "https://leetcode.com/discuss/post/6947012/databricks-l4-vs-google-l4-by-anonymous_-93bp/",
+  "https://leetcode.com/discuss/post/6461105/databricks-behavioral-interview-prep-by-mhj1i/",
+  "https://leetcode.com/discuss/post/4664222/databricks-oa-2024-by-anonymous_user-st8x/",
+  "https://leetcode.com/discuss/post/4231140/databricks-oa-2023-by-anonymous_user-dgb9/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/swe-intern-mountain-view-california-october-1-2025-no-offer-positive-856297da/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineerinternship-united-states-august-24-2025-no-offer-positive-54b57645/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-new-grad-bellevue-wa-september-2-2025-no-offer-positive-c52ddc79/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-intern-bellevue-wa-september-1-2025-no-offer-positive-fd3f02f1/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/swe-intern-singapore-october-4-2025-no-offer-positive-f7fdef89/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineering-intern-united-states-september-1-2025-no-offer-neutral-c5a917c0/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineerinternship-october-13-2025-no-offer-positive-aba9444c/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-graduate-october-1-2025-declined-offer-negative-1772a5ef/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/swe-new-grad-october-1-2025-accepted-offer-positive-9d41880a/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-intern-amsterdam-october-28-2025-accepted-offer-positive-cd02b72d/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-intern-mountain-view-california-september-1-2025-accepted-offer-positive-cbab67da/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/swe-intern-san-francisco-california-november-3-2025-no-offer-neutral-0335ae59/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/graduate-software-engineer-amsterdam-north-holland-october-1-2025-no-offer-positive-cab239d5/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-internship-united-states-september-1-2025-no-offer-positive-43f9df2d/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-intern-netherlands-january-13-2025-no-offer-neutral-26be8d4a/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/full-stack-engineer-intern-united-states-february-14-2025-no-offer-positive-b877bd88/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/new-grad-software-engineer-united-states-april-8-2025-no-offer-positive-3cb7286b/",
+  "https://www.jointaro.com/interviews/companies/databricks/experiences/software-engineer-new-grad-belgrade-central-serbia-january-1-2025-accepted-offer-positive-b0604547/",
+  "https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer",
+  "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already",
+  "https://jugaldb.substack.com/p/top-30-ai-certifications-you-need",
+  "https://jugaldb.substack.com/p/the-hidden-ai-career-paying-up-to",
+  "https://www.databricks.com/learn/certification/genai-engineer-associate"
+ ],
+ "confidence_notes": "All URLs above were loaded and checked on 2026-10-04 (LeetCode Discuss via LeetCode's public GraphQL API because HTML is behind Cloudflare; jointaro pages fetched directly; the official engineering prep PDF was downloaded and read; the PDF link had itm_* tracking params, stripped here). Fact-check corrections (2026-10-04): the official PDF puts team matching BEFORE the full panel (hiring committee after), the earlier text said both came after; L4 years adjusted to Levels.fyi data (median 2 YOE); the vesting note now reflects both schedules Levels.fyi lists; the unsupported '2-hour combined block' intern format was removed; the IIIT Hyderabad campus questions are from Nov 2024 interviews. OA use is inconsistent: CodeSignal reported for some US and EU intern applicants in 2025, but several 2025 intern loops had none. The official PDF is for experienced roles; new grad loops are shorter (about 4 onsite rounds). Glassdoor reviews surfaced in search could not be fetched (403) and were not used. Prepfully's Databricks guide is dated 2023 and was not relied on. Several 2026 LeetCode posts link to paid question banks (offerretriever), treat as lower confidence. Jugal's Substack: Databricks posts internships early (July to August) and is expanding intern headcount in the AI wave (how-to-prepare-for-faang-ai-engineer, Jul 2026); Databricks invests in Forward Deployed Engineers (hidden-ai-career post); Summer 2027 PM intern link listed (494 internships post); Databricks GenAI Engineer Associate cert covered in the certifications post. Comp is crowd-sourced; RSU value depends on Databricks' private valuation or listing status (an April 2026 LeetCode post called an IPO 'looming'; IPO status not verified here because web search was unavailable during this check)."
+}

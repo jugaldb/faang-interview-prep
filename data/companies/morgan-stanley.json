@@ -1,0 +1,280 @@
+{
+ "slug": "morgan-stanley",
+ "name": "Morgan Stanley",
+ "category": "Finance and quant",
+ "one_liner": "Global investment bank and wealth manager with a large Java/Python tech org. Interviews: OA with debugging and aptitude, Java/OOP-heavy technical rounds, values-based behavioral.",
+ "careers_url": "https://www.morganstanley.com/people",
+ "students_url": "https://www.morganstanley.com/people-opportunities/students-graduates",
+ "interview_prep_url": "https://www.morganstanley.com/people-opportunities/students-graduates/resources/interview-preparation",
+ "levels": {
+  "intern": "Technology intern (US Summer Analyst; exact US program title not captured). One April 2026 candidate post (2027 batch, SHL/AMCAT OA) calls the SDE intern role 'Technology Apprenticeship Program' (not confirmed on an official page).",
+  "new_grad": "L3 Analyst (Technology Analyst)",
+  "early_career": "L3 Analyst (0 to 1 yrs US on Levels.fyi), then L4 Associate (Levels.fyi US median about 5 to 6 yrs; India candidates with 2 to 4 yrs interview for Associate)"
+ },
+ "process_new_grad": [
+  {
+   "stage": "Apply",
+   "details": "Apply through the Students & Graduates opportunity search (technology business area). Official 3-step path: Explore, Apply, Interview."
+  },
+  {
+   "stage": "Online assessment",
+   "details": "India campus (2025 to 2026 reports are for the 2027 SDE intern OA; no first-hand new grad OA post found): SHL/AMCAT test of about 111 minutes: Debugging (7 questions, 15 min, fix 1 to 2 bugs in C++/Java/Python snippets), Aptitude (24 interactive questions in 36 min: drag-and-drop scheduling, graph plotting, logical reasoning), Coding (3 questions, 60 min, LeetCode medium in April 2026; a Sept 2026 on-campus candidate reported 2 coding problems). US (secondary sources only): HackerRank coding test (2 to 3 problems, 60 to 90 min) plus a HireVue recording with 2 to 3 behavioral prompts."
+  },
+  {
+   "stage": "Technical interview(s)",
+   "details": "India on-campus Sept 2026 (2027 SDE intern hiring, used here as the closest campus data): technical round with introduction, project deep dive (RAG architecture follow-ups), and a backtracking DSA question. US secondary guides describe a 45 to 60 minute technical screen with live coding."
+  },
+  {
+   "stage": "Behavioral and HR / Superday",
+   "details": "India on-campus Sept 2026 (2027 SDE intern hiring): behavioral round (hackathon impact, why GPA is lower, is AI reliable in fintech) and HR round (projects, interest in post-grad studies, relocation); 6 of 12 interviewed were selected. US secondary guides describe a Superday of 3 to 5 back-to-back interviews mixing coding, possibly design, and behavioral."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Online assessment",
+   "details": "India SDE intern (2027 batch, April 2026, SHL/AMCAT): Debugging 7 Q / 15 min, Aptitude 24 Q / 36 min, Coding 3 Q / 60 min (shuffle array, Delete and Earn variant, count ways to choose k zeros). Aug 2025 on-campus intern OA: debugging (choose Java, C or C++; save your code), a G+ reasoning test (scheduling, probability, percentages), and 3 coding questions in 60 minutes. Sept 2026 on-campus OA on SHL: debugging (7 questions), aptitude, and 2 coding problems (XOR with array traversal, a 3D knapsack)."
+  },
+  {
+   "stage": "Interviews",
+   "details": "Sept 2026 on-campus (2027 intern): 3 rounds, technical (project + DSA), behavioral, HR. Code to Give hackathon is another entry route with its own OA (candidate posts; location not stated) (Feb 2025: debugging 10 Q / 20 min, aptitude 24 Q / 40 min, coding 3 Q / 60 min)."
+  },
+  {
+   "stage": "Offer",
+   "details": "No official or first-hand 2025 to 2026 data on return offers or the intern-to-full-time timeline was found."
+  }
+ ],
+ "process_experienced_notes": "Lateral hiring (2 to 4 yrs, Associate) 2025 to 2026, mostly India (Mumbai, Bangalore; several posts do not state location): HackerRank test (70 to 90 min) mixing Java MCQs, a SQL query, a Spring Boot debugging task with unit tests, and a coding question; then usually 4 rounds: 2 technical (resume deep dive, DSA such as Group Anagrams, Spiral Matrix, Next Permutation, LRU Cache; Java, Spring Boot, Spring Security, microservices, SQL, Kubernetes, LLD like Snake and Ladder or a full Controller-Service-DAO service on paper; HLD like Design Uber), 1 techno-managerial with a VP or Executive Director (concurrency, Kafka, deadlocks, production checks), 1 HR/culture fit (expected CTC and justification). Round 2 is sometimes in person. Weak Spring Security or Java depth was the stated reason for two Jan 2026 rejections. US mid-level (interviewing.io): recruiter call, optional 45 min HackerRank, then a 3 to 4 hour onsite with language-specific coding, DSA, a non-coding OOP interview and a behavioral round with the hiring manager; most teams skip system design; hiring is decentralized and often takes over 6 weeks.",
+ "timeline": "India campus: OA in April 2026 for the 2027 intern batch; on-campus interviews in Sept 2026 completed in a few rounds. Code to Give OA links went out in late Feb 2025. India lateral: recruiter call about a month after a referral, round feedback in about 4 days, hiring drives with 2 rounds on the same day and a third a week later, results after the drive closes. US: interviewing.io says expect more than 6 weeks for experienced hires. No official recruiting calendar found.",
+ "oa": {
+  "platform": "SHL/AMCAT (India campus 2026), HackerRank (lateral Java roles; per secondary sources also US)",
+  "format": "India campus: 3 sections, about 111 min: Debugging (7 Q, 15 min), interactive Aptitude (24 Q, 36 min), Coding (3 Q, 60 min, LeetCode medium). Lateral HackerRank: 70 to 90 min with Java MCQs, SQL, Spring Boot debugging, 1 coding question.",
+  "notes": "Coding questions are often reworded LeetCode classics (House Robber, Delete and Earn, Subarrays with K Different Integers). The debugging section requires saving your code. Aptitude items are interactive, not plain MCQ, in 2026."
+ },
+ "coding": {
+  "rounds": "New grad/intern: 1 technical round with DSA (India campus); US Superday reportedly includes 1 to 2 coding interviews. Experienced: 2 technical rounds.",
+  "style": "LeetCode easy to medium, classic problems (stock buy/sell, anagrams, spiral matrix, LRU cache, next permutation), recursion/backtracking, plus Java/Spring and SQL depth for Java roles. Some interviewers rush straight to code.",
+  "environment": "Online video rounds; some second rounds in person (Mumbai, India); LLD sometimes written on paper.",
+  "graded_on": "Correct working code and complexity; language fundamentals; SQL; explaining project architecture; how you work through a scenario (official prep page)."
+ },
+ "system_design": "New grad: little or no system design; OOP/LLD questions possible. 0 to 3 yrs (India Associate): LLD (Snake and Ladder; Controller-Service-DAO-Entity service on paper; SOLID), HLD (Design Uber, explain your project's architecture), microservices (distributed tracing, API gateway, CI/CD), Kafka consumer groups. interviewing.io notes most US teams do not run a system design interview.",
+ "behavioral": {
+  "framework": "Five core values: Do the Right Thing, Put Clients First, Lead with Exceptional Ideas, Commit to Diversity & Inclusion, Give Back",
+  "values_url": "https://www.morganstanley.com/about-us/morgan-stanley-core-values",
+  "what_they_look_for": [
+   "Who you are and what motivates you; whether you understand the business and the job (official prep page)",
+   "Knowing your resume well enough to discuss everything on it without reading it (official)",
+   "A compelling reason for this industry, this firm and this division (official)",
+   "Knowledge of 1 or 2 areas of the industry you can discuss with conviction (official)",
+   "How you work through a scenario rather than always having the right answer (official)",
+   "Collaboration and passion for learning (official)"
+  ],
+  "sample_questions": [
+   "Why Morgan Stanley? What do you know about the firm and its stock? (Backend engineer HR round, Nov 2025)",
+   "How would you react if asked to report to someone junior to you? (Backend engineer, Nov 2025)",
+   "How would you react if you were not promoted? (Backend engineer, Nov 2025)",
+   "Do you solve first and ask later, or understand from others first? (Backend engineer, Nov 2025)",
+   "Why is your CGPA lower than other candidates'? (SDE intern 2027, Sept 2026)",
+   "Is using AI in a fintech company reliable? (SDE intern 2027, Sept 2026)",
+   "Tell us about a hackathon you joined and how your solution solves a real problem (SDE intern 2027, Sept 2026)"
+  ]
+ },
+ "non_leetcode_formats": "Debugging section (fix bugs in short code snippets) and interactive aptitude test in India OAs; Spring Boot debugging task where you fix a small web app until unit tests pass (Associate Java OA, April 2025); Java MCQs and SQL queries; LLD written on paper; Code to Give hackathon (Feb 2025 candidate posts; location not stated).",
+ "reported_questions": [
+  {
+   "title": "Generate all strings of length 3 or more from given characters (recursion and backtracking)",
+   "url": "",
+   "role": "SDE Intern 2027, on-campus India",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8538469/morgan-stanely-intern-2027-oa-interview-ve4gb/"
+  },
+  {
+   "title": "OA: XOR operation with array traversal",
+   "url": "",
+   "role": "SDE Intern 2027, on-campus India",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8538469/morgan-stanely-intern-2027-oa-interview-ve4gb/"
+  },
+  {
+   "title": "OA: 3D knapsack problem",
+   "url": "",
+   "role": "SDE Intern 2027, on-campus India",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8538469/morgan-stanely-intern-2027-oa-interview-ve4gb/"
+  },
+  {
+   "title": "OA: Shuffle an even-length array by alternating first-half and second-half elements",
+   "url": "https://leetcode.com/problems/shuffle-the-array/",
+   "role": "SDE intern ('Technology Apprenticeship Program' per the post), 2027 batch, SHL/AMCAT OA",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7894986/morgan-stanley-oa-experience-2027-batch-7y7nr/"
+  },
+  {
+   "title": "OA: Delete and Earn variant (pick x, remove all x-1 and x+1)",
+   "url": "https://leetcode.com/problems/delete-and-earn/",
+   "role": "SDE intern ('Technology Apprenticeship Program' per the post), 2027 batch, SHL/AMCAT OA",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7894986/morgan-stanley-oa-experience-2027-batch-7y7nr/"
+  },
+  {
+   "title": "OA: Number of ways to convert exactly k zeros to ones in a binary shipment string",
+   "url": "",
+   "role": "SDE intern ('Technology Apprenticeship Program' per the post), 2027 batch, SHL/AMCAT OA",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7894986/morgan-stanley-oa-experience-2027-batch-7y7nr/"
+  },
+  {
+   "title": "OA: House Robber (reworded)",
+   "url": "https://leetcode.com/problems/house-robber/",
+   "role": "Code to Give hackathon OA",
+   "date": "2025-02",
+   "source_url": "https://leetcode.com/discuss/post/6459996/morgan-stanley-code-to-give-online-asses-y74n/"
+  },
+  {
+   "title": "OA: Count removable subarrays so the rest is strictly increasing (variant of Shortest Subarray to be Removed)",
+   "url": "https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/",
+   "role": "Code to Give hackathon OA",
+   "date": "2025-02",
+   "source_url": "https://leetcode.com/discuss/post/6459996/morgan-stanley-code-to-give-online-asses-y74n/"
+  },
+  {
+   "title": "OA: Subarrays with K Different Integers (reworded)",
+   "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+   "role": "Code to Give hackathon OA",
+   "date": "2025-02",
+   "source_url": "https://leetcode.com/discuss/post/6459996/morgan-stanley-code-to-give-online-asses-y74n/"
+  },
+  {
+   "title": "Best Time to Buy and Sell Stock, plus SQL joins and aggregations, Linux and AWS basics",
+   "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+   "role": "Associate Full Stack (3 YOE), Mumbai",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7798454/morgan-stanley-associate-full-stack-deve-2bj2/"
+  },
+  {
+   "title": "LRU Cache",
+   "url": "https://leetcode.com/problems/lru-cache/",
+   "role": "Associate Full Stack (3 YOE), Mumbai",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7798454/morgan-stanley-associate-full-stack-deve-2bj2/"
+  },
+  {
+   "title": "Reverse Nodes in k-Group, plus Design Uber (HLD), in person",
+   "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+   "role": "Associate Full Stack (3 YOE), Mumbai",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7798454/morgan-stanley-associate-full-stack-deve-2bj2/"
+  },
+  {
+   "title": "Group Anagrams, plus Spring Security and multithreading questions",
+   "url": "https://leetcode.com/problems/group-anagrams/",
+   "role": "Java developer (4 YOE), India",
+   "date": "2026-01",
+   "source_url": "https://leetcode.com/discuss/post/7545868/morgan-stanley-r1-jan-2026-by-anonymous_-fzsx/"
+  },
+  {
+   "title": "Spiral Matrix, plus writing a Controller-Service-DAO-Entity service on paper",
+   "url": "https://leetcode.com/problems/spiral-matrix/",
+   "role": "Backend Engineer, Java + Microservices (2.4 YOE), India",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7372939/morgan-stanley-interview-experience-back-pqc9/"
+  },
+  {
+   "title": "Find the highest number in a random matrix using threads; CAS in Java",
+   "url": "",
+   "role": "Backend Engineer, Java + Microservices (2.4 YOE), India",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7372939/morgan-stanley-interview-experience-back-pqc9/"
+  },
+  {
+   "title": "Next Permutation, plus Snake and Ladder LLD",
+   "url": "https://leetcode.com/problems/next-permutation/",
+   "role": "Associate (4 YOE), location not stated",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6969746/morgan-stanley-interview-experience-asso-pyug/"
+  },
+  {
+   "title": "For each height, distance to the next taller height, -1 if none (monotonic stack; variant of Daily Temperatures)",
+   "url": "https://leetcode.com/problems/daily-temperatures/",
+   "role": "Associate (4 YOE), location not stated",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6969746/morgan-stanley-interview-experience-asso-pyug/"
+  },
+  {
+   "title": "Rate limiter by IP: 10 requests per minute per IP, deny until the window resets",
+   "url": "",
+   "role": "Round 1 (role not stated)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6888524/interview-r1-question-morgan-stanley-by-00h3e/"
+  },
+  {
+   "title": "Return buy and sell days that maximize stock profit; find the number closest to the array average; implement a stack",
+   "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+   "role": "Software Engineer hiring drive (location not stated)",
+   "date": "2025-04",
+   "source_url": "https://leetcode.com/discuss/post/6656563/morgan-stanley-interview-experience-by-a-26u7/"
+  },
+  {
+   "title": "OA: SQL query for emails whose date falls on a weekend; Spring Boot bug fix until unit tests pass; password validation",
+   "url": "",
+   "role": "Associate Java Backend OA (HackerRank, 70 min, 4 sections)",
+   "date": "2025-04",
+   "source_url": "https://leetcode.com/discuss/post/6727190/morgan-stanley-hackerrank-online-assessm-eiqc/"
+  }
+ ],
+ "focus_topics": [
+  "arrays and strings",
+  "DP basics (House Robber, Delete and Earn, knapsack)",
+  "sliding window and two pointers",
+  "recursion and backtracking",
+  "linked lists",
+  "monotonic stack",
+  "LRU cache / hash map design",
+  "core Java (collections, GC, exceptions, concurrency)",
+  "Spring Boot and Spring Security for Java roles",
+  "SQL joins, date functions, window functions",
+  "OOP and LLD",
+  "debugging and aptitude (India OA)"
+ ],
+ "tips": [
+  "For India campus OAs, rehearse all three sections under time: 7 debugging fixes in 15 minutes, 24 interactive aptitude items in 36 minutes, 3 coding problems in 60 minutes; save code in the debugging section.",
+  "Practice reworded classics: House Robber, Delete and Earn, Subarrays with K Different Integers and Shuffle the Array all appeared in disguise.",
+  "Learn your resume line by line; the official prep page says to articulate everything without reading it.",
+  "Prepare a specific 'why Morgan Stanley, why finance, why this division' answer and 1 or 2 industry topics you can discuss with conviction, as the official prep page advises.",
+  "For Java roles, revise Spring Boot, Spring Security, multithreading and SQL window functions; two Jan 2026 rejections came from Spring Security or Java depth, not DSA.",
+  "Practice one LLD on paper end to end (Controller, Service, DAO, Entity) and one game LLD (Snake and Ladder).",
+  "If AI or RAG projects are on your resume, expect architecture follow-ups and a question on AI reliability in fintech.",
+  "Read the five core values and map one story to each before behavioral and HR rounds."
+ ],
+ "compensation_note": "US new grad (L3 Analyst): Levels.fyi median total comp $112,251 (typical 0 to 1 yrs, as of Oct 2026). 2025 to 2026 entries: NYC $110K base with $0 to $12.5K bonus ($110K to $122.5K), Alpharetta $90K base + $2K, NYC $75K + $10.5K (Nov 2025). No stock at entry. SWE interns (Levels.fyi internship data): US NYC $52.89/hr (2025, plus $2,000 relocation and $500 transport), Alpharetta $43.27/hr (2025 and 2026); outside the US, London $40.71/hr (2026), Montreal $21.33/hr (2025). L4 Associate US median $152,178. India: the Levels.fyi India view starts at about Rs 20.8 lakh (L3) as of Oct 2026.",
+ "sources": [
+  "https://www.morganstanley.com/people",
+  "https://www.morganstanley.com/people-opportunities/students-graduates",
+  "https://www.morganstanley.com/people-opportunities/students-graduates/resources/interview-preparation",
+  "https://www.morganstanley.com/about-us/morgan-stanley-core-values",
+  "https://www.morganstanley.com/careers/career-opportunities-search?opportunity=sg",
+  "https://www.levels.fyi/companies/morgan-stanley/salaries/software-engineer",
+  "https://www.levels.fyi/companies/morgan-stanley/salaries/software-engineer/locations/united-states",
+  "https://www.levels.fyi/internships/",
+  "https://interviewing.io/morgan-stanley-interview-questions",
+  "https://www.techinterview.org/companies/morgan-stanley/",
+  "https://www.techprep.app/blog/morgan-stanley-interview-process",
+  "https://leetcode.com/discuss/post/8538469/morgan-stanely-intern-2027-oa-interview-ve4gb/",
+  "https://leetcode.com/discuss/post/7894986/morgan-stanley-oa-experience-2027-batch-7y7nr/",
+  "https://leetcode.com/discuss/post/7076774/morgan-stanley-on-campus-sde-intern-by-a-rqsz/",
+  "https://leetcode.com/discuss/post/6459996/morgan-stanley-code-to-give-online-asses-y74n/",
+  "https://leetcode.com/discuss/post/6465592/morgan-stanley-code-to-give-by-anonymous-im8o/",
+  "https://leetcode.com/discuss/post/7798454/morgan-stanley-associate-full-stack-deve-2bj2/",
+  "https://leetcode.com/discuss/post/7641031/interview-experience-for-swe-role-at-mor-j4qc/",
+  "https://leetcode.com/discuss/post/7545868/morgan-stanley-r1-jan-2026-by-anonymous_-fzsx/",
+  "https://leetcode.com/discuss/post/7537321/expectation-in-morgan-stanley-r1-and-r2-c1luo/",
+  "https://leetcode.com/discuss/post/7372939/morgan-stanley-interview-experience-back-pqc9/",
+  "https://leetcode.com/discuss/post/7175782/morgan-stanley-online-assessment-hackerr-tue5/",
+  "https://leetcode.com/discuss/post/7043498/advice-related-to-morgan-stanley-intervi-onv9/",
+  "https://leetcode.com/discuss/post/6969746/morgan-stanley-interview-experience-asso-pyug/",
+  "https://leetcode.com/discuss/post/6888524/interview-r1-question-morgan-stanley-by-00h3e/",
+  "https://leetcode.com/discuss/post/6804603/morgan-stanley-oa-by-padmachandana-7v7m/",
+  "https://leetcode.com/discuss/post/6727190/morgan-stanley-hackerrank-online-assessm-eiqc/",
+  "https://leetcode.com/discuss/post/6656563/morgan-stanley-interview-experience-by-a-26u7/"
+ ],
+ "confidence_notes": "All sources fetched 2026-10-04 (LeetCode Discuss via its public GraphQL API; Levels.fyi via page data; Morgan Stanley pages via curl because WebFetch timed out). Nearly all 2025 to 2026 first-hand reports are from India (campus SDE intern and lateral Associate Java roles). US Technology Analyst / Summer Analyst process details (HackerRank + HireVue, Superday of 3 to 5 interviews) come only from secondary guides (techinterview.org and TechPrep, both 2026, partly auto-generated in style) and an older interviewing.io page aimed at mid-level hires; treat US stage counts and durations as unconfirmed. Glassdoor, Reddit and Blind were not reachable. The official student site lists programs only through a JavaScript job search, so official program names, durations and deadlines for US technology programs were not captured. Code to Give is documented only through candidate posts here. Levels.fyi percentiles default to India on the main page; US numbers come from the United States location page. Fact-check pass 2026-10-04: all URLs re-fetched (official pages, Levels.fyi page data and internship JSON, all LeetCode posts via GraphQL with slug match, all problem slugs); the five core values are unchanged on the official page as of Oct 2026. Corrected: 'India' labels removed where posts do not state a location (7894986, 6459996, 6969746, 6656563, 6727190); Code to Give is not shown to be India-only; the 'new grad' campus stages are 2027 SDE intern reports and are now labeled as such; the Sept 2026 campus OA had 2 coding problems, not 3."
+}

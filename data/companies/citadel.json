@@ -1,0 +1,251 @@
+{
+ "slug": "citadel",
+ "name": "Citadel",
+ "category": "Finance and quant",
+ "one_liner": "Multi-strategy hedge fund; Citadel Securities is a market maker. One joint SWE process: hard HackerRank OA, 45-minute DSA rounds, then team-specific leadership interviews.",
+ "careers_url": "https://www.citadel.com/careers/",
+ "students_url": "https://www.citadel.com/careers/internships/",
+ "interview_prep_url": "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/",
+ "levels": {
+  "intern": "Software Engineer, Intern (US: Greenwich, Houston, Miami, New York; Europe: London). 11-week program starting with a 1-week offsite.",
+  "new_grad": "Software Engineer, University Graduate (two-year early-career development period)",
+  "early_career": "Software Engineer (flat public title; Levels.fyi lists a single Software Engineer level). Related roles: Quantitative Developer, UI Engineer, Site Reliability Engineer."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Apply (one application covers Citadel and Citadel Securities)",
+   "details": "Official: interviewing means talking with two firms at once; the process is the same for both and placement depends on skills, experience and business needs. Typically only one role at a time (e.g., engineering or quant). Ascend: applications open as early as June to August and many close by September to October. The official application form (as of Oct 2026) asks for your top two interview languages (C++, Python, Java, JavaScript, TypeScript), any late-stage competing processes, and a 150 to 300 word personal story."
+  },
+  {
+   "stage": "HackerRank online assessment (reported)",
+   "details": "Campus SWE assessment for Citadel and Citadel Securities: 2 to 3 coding problems, medium to hard, heavy on DP, combinatorics with mod 1e9+7, counting, and graph/design style tasks (2025 to 2026 posts). A May 2025 candidate for Citadel's Launch internship was given 66 minutes. C++ engineer roles at Citadel Securities get a single optimization task (May 2026 report) on unproctored HackerRank (Sept 2026 report): 'refactor and speed up this slow C++ function', with a 100-microsecond timing check."
+  },
+  {
+   "stage": "First round (45 min, video)",
+   "details": "Official: coding, data structures and algorithms and problem-solving, plus questions on technical interests, past internships, school projects and why Citadel. You may be asked to explain your approach."
+  },
+  {
+   "stage": "Second round (3 x 45 min)",
+   "details": "Official: usually three 45-minute interviews mixing technical and behavioral, with time for your questions. Next steps within two weeks. Rounds 1 and 2 are a general assessment, not team-specific."
+  },
+  {
+   "stage": "Leadership interview(s)",
+   "details": "Official: hiring managers across Citadel and Citadel Securities review your resume and feedback; an interested team brings you in to interview with a senior engineer; multiple interested teams can mean multiple interviews."
+  },
+  {
+   "stage": "Final review and offer",
+   "details": "Official: hiring managers decide team fit; if several teams want you, you choose with your recruiter. About 8 weeks start to finish. Interviews run Monday to Friday business hours only; tell recruiters early about competing offers."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Apply",
+   "details": "Software Engineer, Intern (US) posting lists Greenwich, Houston, Miami, New York; requires a bachelor's, master's or PhD in CS/computer engineering or related, 'exceptional programming and design skills' and familiarity with probability and statistics. Summer is standard (June to August per the application form, with occasional Sept to Dec or Jan to Apr options); fall/winter internships may exist (official FAQ). Program: a 1-week offsite then 10 weeks of work (official internships page)."
+  },
+  {
+   "stage": "HackerRank OA",
+   "details": "Summer 2026 campus OA links went out in Oct 2025; problems reported for 2025 include counting length-5 palindromic subsequences of a binary string, a friend recommendation system by most common friends, and sum of (i mod j + j mod i) mod 1e9+7."
+  },
+  {
+   "stage": "First round + Superday",
+   "details": "Same official campus engineering process as new grads: 45-minute first round, then a second round of three 45-minute technical interviews (a Sept 2025 candidate called it a Superday of 3 x 45 min technical interviews), then team review."
+  },
+  {
+   "stage": "Early-pipeline programs",
+   "details": "Discover Citadel (invite-only 2-day event for first and second years; Dec 2027 to June 2029 grads; US event in New York early April 2027, apply by March 5, 2027), Datathons (60-minute assessment quiz via Correlation One to get in; win cash and eligibility to interview; Women's Datathon Miami early Feb 2027, apply by Jan 11, 2027), Terminal (online team games-based programming competition with cash prizes; short assessment quiz to apply; no upcoming events listed as of Oct 2026), Conference Travel Grant."
+  }
+ ],
+ "process_experienced_notes": "Experienced engineers follow similar DSA-heavy rounds, often with practical data-stream problems. 2025 to 2026 posts: a 3-YOE candidate in the Citadel NXT process got Find Median from Data Stream in round 1 (rejected next day after missing the empty-stream case); a phone screen asked Implement Trie plus a longest-shared-prefix extension; a 7-YOE onsite asked to merge K timestamped price-delta feeds into absolute prices with a min-heap; Citadel Securities options C++ engineers got C++-specific coding (in-place word reversal with pointer ranges). A 2025 NXT candidate said the HackerRank invite listed 90 minutes with 14 MCQs and 1 coding problem. Secondary guides add system design for experienced hires (low-latency, market data).",
+ "timeline": "Official: about 8 weeks from first round to decision; next steps within two weeks after the second round. Summer 2026 internship Superdays were being scheduled by Sept 2025 and campus OAs were still going out in Oct 2025. Ascend: Citadel applications open as early as June to August for next summer and many close by September to October, so apply in the first weeks. Team matching happens inside the process (leadership interview), not after the offer.",
+ "oa": {
+  "platform": "HackerRank",
+  "format": "Campus SWE: 2 to 3 coding problems, medium to hard (a May 2025 Launch internship invite: 66 minutes, 2 questions). Citadel Securities C++ roles: 1 performance-refactor problem, unproctored, with a 100-microsecond runtime check. NXT: 90 minutes, 14 MCQ + 1 coding (per a 2025 invite).",
+  "notes": "Passing all hidden tests matters; a May 2026 candidate passed 4/15 cases on a greedy problem and only solved the DP one fully. Expect modular arithmetic, combinatorics, number theory (coprimality, MEX) and DP. Clearing the OA does not guarantee an interview (2025 reports of no invite after passing)."
+ },
+ "coding": {
+  "rounds": "1 first-round coding interview (45 min) + 3 x 45 min second-round interviews, then team leadership interview(s).",
+  "style": "LeetCode medium to hard DSA and problem solving; practical data-structure design (streams, tries, heaps); C++ depth for C++ roles. Interviewers explore the boundaries of your knowledge and give hints.",
+  "environment": "Video interviews ('we use video, so be sure you're camera-ready'); weekday business hours only.",
+  "graded_on": "Officially: problem-solving process, assessing before coding, clarifying questions, sharing thought process, discussing trade-offs, being clear about what you know and do not know, taking hints. Plus correctness and edge cases (empty input mattered in a 2025 rejection)."
+ },
+ "system_design": "Not a formal new grad round in the official process; rounds are technical + behavioral DSA-focused. Design-flavored coding appears (data structures for streams, recommendation systems). For experienced hires, secondary guides describe system design focused on latency, reliability and market data. Official engineering work spans research platforms, trading connectivity, risk tools, real-time market data distribution and TypeScript/React front ends.",
+ "behavioral": {
+  "framework": "Core values: Integrity, Winning, Meritocracy, Learning, Extraordinary Colleagues; 'the best idea wins'",
+  "values_url": "https://www.citadel.com/who-we-are/our-culture/",
+  "what_they_look_for": [
+   "Stellar technical skills and passion for complex real-world problems (official)",
+   "Eagerness to collaborate across the firm (official)",
+   "Desire to drive commercial outcomes (official)",
+   "Ability to thrive in a fast-paced environment using good judgment (official)",
+   "Confidence and a commercial mindset, quick learning, comfort with ambiguity, ownership (official engineering FAQ)",
+   "A clear personal story and how your past internship contributed to business outcomes (official prep advice)"
+  ],
+  "sample_questions": [
+   "Why do you want to work at Citadel? (official prep advice says interviewers ask your reasons for exploring Citadel)",
+   "Tell me about your past internship and how your work contributed to business outcomes (official prep advice)",
+   "What are your technical interests and which school projects are you proudest of? (official first-round description)"
+  ]
+ },
+ "non_leetcode_formats": "Citadel Securities C++ performance refactor OA (speed up correct but slow code under a 100-microsecond limit). Terminal (online team games-based programming competition, head-to-head round robin, cash prizes for top teams). Datathons (team data analysis presented to judges; winners earn eligibility to interview). Discover Citadel (2-day event for first and second years with mock interviews). Quant roles use separate probability/statistics-heavy processes not covered here.",
+ "reported_questions": [
+  {
+   "title": "OA: Count palindromic subsequences of length 5 in a binary string, mod 1e9+7",
+   "url": "https://leetcode.com/problems/count-palindromic-subsequences/",
+   "role": "SWE campus assessment (Citadel and Citadel Securities)",
+   "date": "2025-04",
+   "source_url": "https://leetcode.com/discuss/post/6632842/citadel-citadel-securities-software-engi-y0cr/"
+  },
+  {
+   "title": "OA: Friend recommendation, for each user recommend the non-friend with most common friends (min index on ties)",
+   "url": "",
+   "role": "SWE campus assessment (Citadel and Citadel Securities)",
+   "date": "2025-04",
+   "source_url": "https://leetcode.com/discuss/post/6632842/citadel-citadel-securities-software-engi-y0cr/"
+  },
+  {
+   "title": "OA: Sum over all 1 <= i, j <= n of (i mod j + j mod i), mod 1e9+7 (O(n^2) too slow)",
+   "url": "",
+   "role": "SWE Intern OA",
+   "date": "2025-08",
+   "source_url": "https://leetcode.com/discuss/post/7110127/citadel-oa-internship-2025-by-anonymous_-50yi/"
+  },
+  {
+   "title": "OA: Refactor and speed up a correct but slow C++ function (max squared difference to a larger element on the right, sqrt if perfect square)",
+   "url": "",
+   "role": "SWE OA (US)",
+   "date": "2025-08",
+   "source_url": "https://leetcode.com/discuss/post/7117319/citadel-sde-oa-us-most-weird-oa-by-anony-tn2l/"
+  },
+  {
+   "title": "OA: Same C++ refactor task with a 100-microsecond time limit, unproctored HackerRank",
+   "url": "",
+   "role": "C++ Software Engineer, Citadel Securities",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8495692/what-is-the-solution-to-the-following-oa-ralw/"
+  },
+  {
+   "title": "OA: Count ways to schedule processes into time slots so no process occupies consecutive slots, mod 1e9+7",
+   "url": "",
+   "role": "SWE OA, Citadel Securities",
+   "date": "2026-07",
+   "source_url": "https://leetcode.com/discuss/post/8369333/citadel-securities-online-assessment-hac-c7mg/"
+  },
+  {
+   "title": "OA: Modify elements (cost 1 each, values up to maxValue) so a chosen number is coprime with all others; maximize number minus cost",
+   "url": "",
+   "role": "SWE OA, Citadel Securities",
+   "date": "2026-07",
+   "source_url": "https://leetcode.com/discuss/post/8369333/citadel-securities-online-assessment-hac-c7mg/"
+  },
+  {
+   "title": "OA: Return all achievable MEX values after incrementing memory blocks (only while value < n-1)",
+   "url": "",
+   "role": "SDE OA",
+   "date": "2026-03",
+   "source_url": "https://leetcode.com/discuss/post/7691369/citadel-sde-oa-question-by-oavo-zf7t/"
+  },
+  {
+   "title": "Find Median from Data Stream (insert, findMedian)",
+   "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+   "role": "Citadel NXT first round (3 YOE)",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6972253/citadel-nxt-first-interview-experience-b-6w1v/"
+  },
+  {
+   "title": "Implement Trie (insert, search, startsWith), optimize child storage, then longest common prefix of words starting with a prefix",
+   "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+   "role": "Phone screen (role not stated)",
+   "date": "2025-06",
+   "source_url": "https://leetcode.com/discuss/post/6829651/citadel-phone-screen-by-anonymous_user-5q4j/"
+  },
+  {
+   "title": "C++: reverse each word in place using reverse(char* begin, char* end)",
+   "url": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+   "role": "Options Software Engineer C++, Citadel Securities",
+   "date": "2025-02",
+   "source_url": "https://leetcode.com/discuss/post/6477953/option-software-engineer-c-citadel-secur-458y/"
+  },
+  {
+   "title": "Merge K timestamped price-delta feeds into chronological absolute prices (min-heap, like Merge k Sorted Lists)",
+   "url": "",
+   "role": "Software Engineer onsite (7 YOE)",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7542502/citadel-onsite-7yoe-by-anonymous_user-3pka/"
+  },
+  {
+   "title": "OA: one greedy/optimization problem and one DP problem",
+   "url": "",
+   "role": "Software Engineer Campus Hire OA",
+   "date": "2026-05",
+   "source_url": "https://leetcode.com/discuss/post/8286090/citadel-oa-experience-by-sakshichate-sgwq/"
+  }
+ ],
+ "focus_topics": [
+  "dynamic programming",
+  "combinatorics and modular arithmetic",
+  "number theory (gcd, coprimality, MEX)",
+  "graphs and adjacency counting",
+  "heaps and data streams",
+  "tries",
+  "strings",
+  "C++ performance and STL (Citadel Securities C++ roles)",
+  "probability and statistics familiarity (listed in job requirements)",
+  "behavioral: why Citadel, internship impact"
+ ],
+ "tips": [
+  "Apply in June to August and finish the OA within days; Ascend notes many quant/HFT roles close by September to October.",
+  "Practice counting problems with mod 1e9+7 (palindromic subsequences, no-consecutive scheduling) and DP until you can pass all hidden tests, not just samples.",
+  "For C++ roles, practice profiling and rewriting O(n^2) STL-heavy code into O(n) passes; know std::find_if, iterator costs and avoiding std::pow for squares.",
+  "Treat round 1 as a 45-minute LeetCode medium/hard with talk-through; Citadel's guide says to assess before coding, ask clarifying questions and take hints.",
+  "Always handle empty and degenerate inputs; a 2025 candidate was rejected after missing the empty-stream case in Find Median.",
+  "Prepare a crisp story on how your internship work moved a business outcome; it is one of Citadel's three official prep steps.",
+  "Underclassmen: apply to Discover Citadel (deadline March 5, 2027 for the US event) and Datathons, which can lead to interview eligibility.",
+  "Tell your recruiter about competing offers early; Citadel says it tries to accommodate deadlines and only interviews on weekdays."
+ ],
+ "compensation_note": "Official pay ranges (US postings, Oct 2026): Software Engineer University Graduate base $235,000 to $300,000 plus discretionary incentive comp; Software Engineer Intern base $4,500 to $5,800 per week plus possible sign-on, housing and travel. Levels.fyi 2026 new grad entries (NYC): base $250K to $301.6K, first-year total $375K to $587.5K including bonus (small sample). Levels.fyi internship data: $120/hr (2025) to $132.50/hr NYC and $145/hr Greenwich/Houston (2026 to 2027), with $10K to $20K sign-on bonuses and corporate housing; Citadel Securities SWE intern NYC $122.31 to $132.50/hr; London about $114/hr. Levels.fyi overall Citadel SWE US median TC $400,000 (all levels).",
+ "sources": [
+  "https://www.citadel.com/careers/",
+  "https://www.citadel.com/careers/internships/",
+  "https://www.citadel.com/careers/engineering/",
+  "https://www.citadel.com/careers/open-opportunities/",
+  "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/",
+  "https://www.citadel.com/careers/career-perspectives/candidate-faqs-engineering/",
+  "https://www.citadel.com/careers/details/software-engineer-intern-us/",
+  "https://www.citadel.com/careers/details/software-engineer-university-graduate-us/",
+  "https://www.citadel.com/who-we-are/our-culture/",
+  "https://www.citadel.com/careers/programs-and-events/",
+  "https://www.citadel.com/careers/programs-and-events/datathons/",
+  "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
+  "https://www.citadel.com/careers/programs-and-events/terminal/",
+  "https://www.citadel.com/careers/programs-and-events/conference-travel-grant/",
+  "https://www.citadelsecurities.com/careers/",
+  "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/",
+  "https://www.levels.fyi/companies/citadel/salaries/software-engineer",
+  "https://www.levels.fyi/companies/citadel/salaries/software-engineer/locations/united-states",
+  "https://www.levels.fyi/internships/",
+  "https://jugaldb.substack.com/p/how-to-break-into-300k-hft-roles",
+  "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already",
+  "https://jugaldb.substack.com/p/how-students-can-find-and-apply-for",
+  "https://www.techprep.app/blog/citadel-interview-process",
+  "https://www.techinterview.org/companies/citadel-hedge-fund-interview-guide/",
+  "https://leetcode.com/discuss/post/6632842/citadel-citadel-securities-software-engi-y0cr/",
+  "https://leetcode.com/discuss/post/7110127/citadel-oa-internship-2025-by-anonymous_-50yi/",
+  "https://leetcode.com/discuss/post/7117319/citadel-sde-oa-us-most-weird-oa-by-anony-tn2l/",
+  "https://leetcode.com/discuss/post/8495692/what-is-the-solution-to-the-following-oa-ralw/",
+  "https://leetcode.com/discuss/post/8451656/citadel-oa-question-off-campus-c-develop-ivmh/",
+  "https://leetcode.com/discuss/post/8369333/citadel-securities-online-assessment-hac-c7mg/",
+  "https://leetcode.com/discuss/post/8286090/citadel-oa-experience-by-sakshichate-sgwq/",
+  "https://leetcode.com/discuss/post/8282634/citadel-securities-online-assessment-by-jbdg7/",
+  "https://leetcode.com/discuss/post/7691369/citadel-sde-oa-question-by-oavo-zf7t/",
+  "https://leetcode.com/discuss/post/7542502/citadel-onsite-7yoe-by-anonymous_user-3pka/",
+  "https://leetcode.com/discuss/post/7294433/citadel-software-engineering-campus-oa-s-s0f1/",
+  "https://leetcode.com/discuss/post/7174903/citadel-superday-summer-2026-internships-evk2/",
+  "https://leetcode.com/discuss/post/6972253/citadel-nxt-first-interview-experience-b-6w1v/",
+  "https://leetcode.com/discuss/post/6829651/citadel-phone-screen-by-anonymous_user-5q4j/",
+  "https://leetcode.com/discuss/post/6708769/first-round-oa-internship-with-citadel-b-nhyh/",
+  "https://leetcode.com/discuss/post/6640790/citadel-interview-of-tier-3-college-stud-3owo/",
+  "https://leetcode.com/discuss/post/6612845/citadel-nxt-oa-hackerrank-by-anonymous_u-8i2r/",
+  "https://leetcode.com/discuss/post/6477953/option-software-engineer-c-citadel-secur-458y/"
+ ],
+ "confidence_notes": "All sources fetched 2026-10-04. Citadel and Citadel Securities sites block curl/WebFetch (403) and were read in a real browser session (re-read in the 2026-10-04 fact-check); the official campus engineering interview guide is dated Nov 9, 2024 and still live (FAQ page modified May 2025). LeetCode Discuss posts read via the public GraphQL API. The official process describes interviews only (no OA), so the HackerRank OA details come from candidate posts and vary by role (campus SWE vs Citadel Securities C++ vs NXT). Few 2025 to 2026 posts describe actual intern/new grad interview questions (most describe OAs); interview examples here partly come from experienced candidates. 'NXT' appears in candidate posts and a Citadel article title but its scope was not confirmed. Levels.fyi new grad sample is small (4 entries with 0 to 2 yrs), and first-year totals mix sign-on and bonus. Quant research/trading processes differ and are not covered. Glassdoor, Reddit and Blind were not reachable. Fact-check pass 2026-10-04: all official Citadel/Citadel Securities pages confirmed in a browser (process, FAQ, postings with pay ranges, internships page, culture values, Discover/Datathon dates, Software Engineer Intern (Europe) posting exists); Levels.fyi page data and internship JSON confirmed; all LeetCode posts via GraphQL with slug match. Corrected: Terminal is described officially as a games-based competition (no 'tower-defense' or job-access claim on the page); the 66-minute OA was for the Launch internship; the NXT 14 MCQ format is from an invite, not a completed test."
+}

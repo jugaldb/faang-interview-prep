@@ -1,0 +1,392 @@
+{
+ "slug": "amazon",
+ "name": "Amazon",
+ "category": "FAANG",
+ "one_liner": "Builds retail, AWS, Alexa, Prime Video and devices; known for Leadership Principles in every round, the Bar Raiser, LLD for SDE I, and AI-assisted OAs.",
+ "careers_url": "https://www.amazon.jobs/",
+ "students_url": "https://www.amazon.jobs/content/en/career-programs/university",
+ "interview_prep_url": "https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa",
+ "levels": {
+  "intern": "SDE Intern (US: 12-week, in office, Summer 2027 posting also lets you pick Winter or Fall 2027; India: 6-month SDE intern with PPO). Amazon University Talent Acquisition (AUTA) runs student hiring.",
+  "new_grad": "SDE I (L4). US posting example: 'Software Development Engineer - 2026 (US)'.",
+  "early_career": "SDE I (L4) for 0 to about 2 to 3 years (Hello Interview: 'Most L4 candidates have 0 to 2 years of experience'; Levels.fyi SDE I data spans 0 to 6 YOE); SDE II (L5) usually from about 3+ years (Levels.fyi SDE II data starts at 3 YOE; Amazon's SDE II prep material targets roles that require at least two years). Some India SDE-1 roles in 2026 were fixed-term contracts (FTC, 'green badge'; one Jul 2026 post describes an 8-month FTC that required a full SDE-1 loop to convert to a permanent role)."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Application",
+   "details": "Apply to the AUTA new grad posting (rolling review; one posting covers many teams and locations; job IDs sometimes close and reopen under a new ID mid-process, Sep 2026 report). 2026 posting lists 'AI tools for development productivity' among preferred experience and 'Leverage... GenAI and AI-powered tools' in duties."
+  },
+  {
+   "stage": "Online assessment (OA)",
+   "details": "Official (full-time SDE): Coding assessment (average 70 min), Workstyles Assessment (15 min), Work Simulation (60 min), Feedback Survey (5 min); one or two parts depending on country; 'set aside up to two hours'; public online resources like language docs allowed, no copy-paste, print screen ends the session. Reported from May 2026: a 'Coding Challenge' of about 100 min with 1 traditional DSA problem (about 40 to 45 min) plus 1 AI-assisted repository task (about 55 to 60 min: fix bugs or build a backend feature in a provided web app, choosing Node/MERN, Java Spring Boot or Python Django, with an in-tool AI assistant), then Work Simulation and Work Style survey. Aced: 'live loop coding rounds prohibit AI use' even though the OA now includes an AI-assisted task."
+  },
+  {
+   "stage": "Interview loop",
+   "details": "3 to 4 interviews of about 1 hour, same day or spread over 1 to 6 weeks; increasingly in person at Amazon offices for new grads (US example: 3 in-person rounds in Seattle plus a virtual Bar Raiser, Aug 2026; other 2026 examples, location not stated: 3 in-person eliminatory rounds with results given minutes after each round, Feb 2026; 3 onsite rounds in one day with the Bar Raiser online 5 weeks later, May to Jun 2026). Each round typically opens with 10 to 15 min of Leadership Principles (LP) questions, then about 45 min technical. Common 2026 four-round mix: 1 to 2 DSA rounds, 1 low-level design (OOD) round, 1 hiring manager round that opens with a GenAI fluency discussion (up to 30 min) and then DSA, and 1 Bar Raiser round that is mostly LP. Some interviewers ask you to write test cases for your function."
+  },
+  {
+   "stage": "Decision and offer",
+   "details": "Interviewers and the Bar Raiser (an interviewer from outside the hiring team; Hello Interview says entry-level loops lost this requirement during COVID and Amazon brought it back in 2024) debrief; offers reported 3 to 9 days after the final round (2026 posts). Amazon's SDE II prep page promises an 'Interview Outcome (within 5 business days)'."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Apply",
+   "details": "US Summer 2027 SDE intern posted Sep 17, 2026: one application considered for all US intern locations; in office Monday to Friday; basic qualifications include 'Experience using AI-assisted development tools in academic or professional settings' and degree conferral between Oct 2027 and Sep 2029. India runs on-campus and off-campus 6-month internships with PPOs, plus hiring challenges (HackOn, Amazon ML Challenge)."
+  },
+  {
+   "stage": "Online assessment",
+   "details": "Official (intern): 'about 90 minutes': Coding Assessment (70 min), Workstyles (15 min), Feedback Survey (5 min). 2026 reports (on-campus and off-campus, including an India SDE Intern 2027 OA invite): a 100-min Coding Challenge with 1 DSA problem plus 1 AI-assisted repository task (e.g. a Django ticketing app with 6 test cases), then Work Simulation ('Work at Amazon' inbox scenarios, about 45 min) and a Work Style survey (about 6 min). One on-campus candidate was shortlisted with 2/6 repo tests passing after fully solving the DSA problem (15/15)."
+  },
+  {
+   "stage": "Interviews",
+   "details": "Usually 1 to 2 rounds of about 1 hour: DSA (1 to 2 problems with brute force to optimal) plus LP questions. In 2026 one round is often a 'GenAI fluency' or hiring manager round: deep dive into an AI project, 'How much do you trust AI?', 'Which AI tools do you use?', then DSA. Some India campus interviews were face to face with code written on paper."
+  },
+  {
+   "stage": "Result",
+   "details": "Results reported 1 to 2 weeks after interviews; some candidates waitlisted. Return offers depend on the internship project review."
+  }
+ ],
+ "process_experienced_notes": "With 1 to 3 years you usually interview for SDE I (L4): OA, then a 4-round loop (often 1 to 2 DSA + LP, 1 hiring manager round with DSA or LLD and a GenAI discussion, 1 Bar Raiser with LP and sometimes a technical question). LLD is expected (parking lot, rate limiter, billing service); large-scale system design is light (Hello Interview: 'For L4, the design interview covers object oriented design instead of large scale systems'). SDE II (L5) per Amazon's official pages: OA with 90 min for 2 coding questions plus 15 to 20 min of System Design scenarios and an 8 to 10 min Work Style survey (the SDE II OA page and SDE II prep page give slightly different timings), then 'four 55-minute interviews' with 'at least one question on software systems design'. Some India SDE-1 roles in 2026 were fixed-term contracts (FTC); a Jul 2026 post describes an FTC employee doing a full SDE-1 loop to convert to a permanent role, and a Sep 2026 post asks about conversion after one year. Confirm the offer type before accepting.",
+ "timeline": "OA usually sent within days of applying (sometimes months for AUTA pools); OA result emails per section; interviews 1 to 8 weeks after the OA; offer within about 1 to 2 weeks of the final round. Example US new grad 2026: applied Feb 10 with referral, OA Jul 10, interviews Aug 20 and 24, offer Aug 27. US Summer 2027 intern posting opened Sep 17, 2026. Hiring context: AWS CEO Matt Garman said in June 2026 Amazon is 'hiring 11,000 interns and new college grads this year'; Amazon also cut roughly 30,000 corporate jobs since Oct 2025 (Reuters via USA Today, Apr 2026).",
+ "oa": {
+  "platform": "Amazon's proctored online assessment (the SDE II OA page says to 'get comfortable coding within HackerRank'; the university OA page has a webcam section in its FAQ). The 2026 AI-assisted task runs in a provided repository environment with an in-tool AI assistant.",
+  "format": "Official full-time: coding 70 min + Workstyles 15 min + Work Simulation 60 min + feedback 5 min. Official intern: coding 70 + Workstyles 15 + feedback 5 (about 90 min). Reported 2026: Coding Challenge about 100 min = 1 DSA problem + 1 AI-assisted repository task (Node/MERN, Spring Boot or Django), Work Simulation about 45 min, Work Style survey about 6 min.",
+  "notes": "Partial credit counts; a full DSA solution plus partial repo tests has advanced candidates. Practice repo setup speed: one Sep 2026 candidate lost 40 of 60 minutes to dependency installs. Hello Interview describes an older 105-min format with a 7-snippet debugging section; it is being replaced."
+ },
+ "coding": {
+  "rounds": "2 to 3 coding rounds inside a 3 to 4 round loop; interns 1 to 2 rounds.",
+  "style": "LeetCode medium with some hard, often wrapped in Amazon scenarios; interviewers expect brute force, then better, then optimal, plus complexity and sometimes written test cases. Common: intervals, heaps, monotonic stack, BFS/DFS, Union-Find, binary search on answer, DP (House Robber style), design-a-data-structure (Insert Delete GetRandom O(1)).",
+  "environment": "Virtual: interviews 'may take place on Zoom or Amazon Chime' (official platforms page) with a shared code editor; in person: laptop, whiteboard or paper depending on office. Code is generally not run. Amazon guidelines (Feb 2025, via Business Insider): 'please do not use GenAI tools during your interview unless explicitly permitted' or risk disqualification.",
+  "graded_on": "Technical competencies (problem solving, code quality, data structures) and Leadership Principles in every round; Bar Raiser can veto; LP answers judged on 'I' not 'we', depth under follow-ups, and metrics."
+ },
+ "system_design": "SDE I and interns: an object-oriented / low-level design round is common for new grads (parking lot, rate limiter, AWS billing service for one user, train fare calculator with weekend cap); no large-scale HLD expected. SDE II: at least one system design question (official). Amazon's official topics page lists object-oriented design, databases and distributed computing among interview topics.",
+ "behavioral": {
+  "framework": "16 Leadership Principles, STAR answers, Bar Raiser",
+  "values_url": "https://www.amazon.jobs/content/en/our-workplace/leadership-principles",
+  "what_they_look_for": [
+   "Customer Obsession and Ownership (taking work outside your scope)",
+   "Dive Deep: specifics and data under repeated 'why' follow-ups",
+   "Bias for Action and Deliver Results under deadlines",
+   "Earn Trust and Have Backbone; Disagree and Commit",
+   "Learn and Be Curious, including how you use and verify GenAI",
+   "Insist on the Highest Standards",
+   "Use 'I' not 'we' and quantify results (Jugal's Amazon post)",
+   "6 to 7 stories each mapped to 2 to 3 LPs (Jugal's Amazon post)"
+  ],
+  "sample_questions": [
+   "Tell me about a time you had a blocker in your work and how you resolved it. What would you have done differently?",
+   "Tell me about a time you took on work outside your responsibility.",
+   "Tell me about a time you missed a deadline.",
+   "Tell me about a time you got stuck during your internship. What did you do?",
+   "Where have you used GenAI and later felt it was unnecessary?",
+   "Where in your current org do you see a GenAI opportunity that has not been explored?",
+   "How much do you trust AI? What do you use it for?",
+   "Tell me about a bad decision you made. If you went back, what would you change?",
+   "Tell me about a disagreement with your manager and how you handled it.",
+   "Tell me about a time you had to make a decision without complete information.",
+   "How do you verify whether an AI-generated solution is correct? When do you trust an LLM and when do you not?",
+   "Tell me about a time you delivered under a tight deadline."
+  ]
+ },
+ "non_leetcode_formats": "AI-assisted repository task in the OA (debug or extend a small web app in MERN, Spring Boot or Django with an AI assistant; graded by test cases). Work Simulation (simulated inbox and workplace scenarios ranked by effectiveness) and Workstyles survey. GenAI fluency round (discussion of AI usage plus coding). Low-level design round. Interviewers sometimes ask you to write unit-test style cases for your function.",
+ "reported_questions": [
+  {
+   "title": "Path Sum II, then a harder follow-up variation",
+   "url": "https://leetcode.com/problems/path-sum-ii/",
+   "role": "SDE I new grad, US (AWS, Seattle onsite)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8520348/amazon-sde-1-newgrad-sde-interview-exper-picx/"
+  },
+  {
+   "title": "LLD: design a billing service for AWS for a single user given service usage and rates",
+   "url": "",
+   "role": "SDE I new grad, US",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8520348/amazon-sde-1-newgrad-sde-interview-exper-picx/"
+  },
+  {
+   "title": "First non-repeating character, then a Merge Intervals modification",
+   "url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+   "role": "SDE I new grad, US (HM round after 30 min GenAI discussion)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8520348/amazon-sde-1-newgrad-sde-interview-exper-picx/"
+  },
+  {
+   "title": "LLD: design a rate limiter (OOP in C++)",
+   "url": "",
+   "role": "SDE I new grad, US (S3 Glacier, Seattle onsite)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8535500/amazon-swe-new-grad-2026-usa-interview-e-oqe0/"
+  },
+  {
+   "title": "Train route fare: calculateFare(start, stop) with a route model; follow-up: weekend fare cap",
+   "url": "",
+   "role": "SDE new grad (rejected after 4 rounds)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8500377/amazon-sde-new-grad-interview-experience-plj4/"
+  },
+  {
+   "title": "All Nodes Distance K in Binary Tree ('GenAI Essential + Coding' round)",
+   "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+   "role": "SDE I new grad",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7584467/amazon-genai-fluency-coding-round-for-sd-t833/"
+  },
+  {
+   "title": "Design a data structure with Insert, Delete and GetRandom in O(1)",
+   "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+   "role": "SDE I (2 YOE)",
+   "date": "2026-05",
+   "source_url": "https://leetcode.com/discuss/post/8293563/amazon-sde-1-full-interview-loop-experie-n3xm/"
+  },
+  {
+   "title": "Integer to English Words (HM round after GenAI questions)",
+   "url": "https://leetcode.com/problems/integer-to-english-words/",
+   "role": "SDE I (2 YOE)",
+   "date": "2026-05",
+   "source_url": "https://leetcode.com/discuss/post/8293563/amazon-sde-1-full-interview-loop-experie-n3xm/"
+  },
+  {
+   "title": "LLD: Parking Lot with multiple vehicle types and spot categories, then 5 to 6 extensibility follow-ups",
+   "url": "",
+   "role": "SDE I (2 YOE)",
+   "date": "2026-05",
+   "source_url": "https://leetcode.com/discuss/post/8293563/amazon-sde-1-full-interview-loop-experie-n3xm/"
+  },
+  {
+   "title": "Variation of Rotting Oranges (multi-source BFS), then Search in Rotated Sorted Array",
+   "url": "https://leetcode.com/problems/rotting-oranges/",
+   "role": "SDE I (1 YOE), in-person onsite round 1",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8471051/amazon-sde-1-interview-experience-offer-6msy0/"
+  },
+  {
+   "title": "Currency conversion rate from A to B given pairwise rates (graph BFS/DFS); follow-up: Q queries with weighted Union-Find (Evaluate Division pattern), then Decode String",
+   "url": "https://leetcode.com/problems/evaluate-division/",
+   "role": "SDE I (1 YOE), in-person onsite round 2",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8471051/amazon-sde-1-interview-experience-offer-6msy0/"
+  },
+  {
+   "title": "Two knights on an infinite chessboard move alternately: minimum total moves to meet (BFS with optimization follow-ups), after an AI fluency discussion with the hiring manager",
+   "url": "",
+   "role": "SDE I (1 YOE), in-person onsite round 3 (SDM)",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8471051/amazon-sde-1-interview-experience-offer-6msy0/"
+  },
+  {
+   "title": "Binary string where each 0 becomes 00 and each 1 becomes 10; after k transformations, return the bit at index i (Bar Raiser coding question)",
+   "url": "",
+   "role": "SDE I (1 YOE), Bar Raiser (online)",
+   "date": "2026-08",
+   "source_url": "https://leetcode.com/discuss/post/8471051/amazon-sde-1-interview-experience-offer-6msy0/"
+  },
+  {
+   "title": "Word search in a grid for a list of words, worded differently from Word Search II (Trie + DFS)",
+   "url": "https://leetcode.com/problems/word-search-ii/",
+   "role": "SDE I loop (India, FTC to full-time conversion)",
+   "date": "2026-07",
+   "source_url": "https://leetcode.com/discuss/post/8387416/amazon-sde-1-april-2026-ftc-to-fte-conve-c3ul/"
+  },
+  {
+   "title": "Stream of numbers and K: print the K most frequent elements at each point (LFU-style design), asked by the Bar Raiser after about 40 min of LP questions",
+   "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+   "role": "SDE I (2 YOE), Bar Raiser",
+   "date": "2026-05",
+   "source_url": "https://leetcode.com/discuss/post/8293563/amazon-sde-1-full-interview-loop-experie-n3xm/"
+  },
+  {
+   "title": "Open the Lock style BFS problem plus an easy warm-up",
+   "url": "https://leetcode.com/problems/open-the-lock/",
+   "role": "SDE I new grad (3 in-person eliminatory rounds)",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7578011/amazon-interview-experience-sde-1-new-gr-iqca/"
+  },
+  {
+   "title": "Merge two sorted arrays, then k sorted arrays",
+   "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+   "role": "SDE I new grad (in person, Coding + LP round)",
+   "date": "2026-02",
+   "source_url": "https://leetcode.com/discuss/post/7578011/amazon-interview-experience-sde-1-new-gr-iqca/"
+  },
+  {
+   "title": "OA: maximize the bitwise AND of exactly deployment_size capacities after adding at most budget in total",
+   "url": "",
+   "role": "SDE I OA (1 DSA + 1 AI-assisted repo task), Oct 2026",
+   "date": "2026-10",
+   "source_url": "https://leetcode.com/discuss/post/8552696/greedy-bitwise-question-for-amazon-sde-1-bzy3/"
+  },
+  {
+   "title": "OA: make server powers non-decreasing by adding x to contiguous segments; minimize the sum of x",
+   "url": "",
+   "role": "SDE intern OA (on campus), Sep 2026",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8523471/amazon-sde-intern-oa-experience-by-kevin-4hnn/"
+  },
+  {
+   "title": "OA AI-assisted repo debugging: Django ticketing app where new tickets and replies fail",
+   "url": "",
+   "role": "SDE intern OA, Sep 2026",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8523471/amazon-sde-intern-oa-experience-by-kevin-4hnn/"
+  },
+  {
+   "title": "Remove K Digits",
+   "url": "https://leetcode.com/problems/remove-k-digits/",
+   "role": "SDE intern (face to face, code on paper)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8510382/amazon-sde-intern-interview-experience-s-jqok/"
+  },
+  {
+   "title": "Minimum machines to run jobs given start and end times (Meeting Rooms II pattern)",
+   "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+   "role": "SDE intern",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8510382/amazon-sde-intern-interview-experience-s-jqok/"
+  },
+  {
+   "title": "Next smaller ticket price for each ticket (Daily Temperatures pattern)",
+   "url": "https://leetcode.com/problems/daily-temperatures/",
+   "role": "SDE intern",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8510382/amazon-sde-intern-interview-experience-s-jqok/"
+  },
+  {
+   "title": "House Robber and House Robber II variations",
+   "url": "https://leetcode.com/problems/house-robber/",
+   "role": "SDE intern (on campus)",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/8098488/amazon-interview-sde-1-intern-dsa-round-srof2/"
+  },
+  {
+   "title": "Group strings that are equal or one swap apart (Similar String Groups) in a GenAI + DSA round",
+   "url": "https://leetcode.com/problems/similar-string-groups/",
+   "role": "SDE intern (on campus)",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/8098488/amazon-interview-sde-1-intern-dsa-round-srof2/"
+  },
+  {
+   "title": "Aggressive Cows (binary search on answer)",
+   "url": "https://leetcode.com/problems/magnetic-force-between-two-balls/",
+   "role": "SDE intern (on campus)",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/8098488/amazon-interview-sde-1-intern-dsa-round-srof2/"
+  },
+  {
+   "title": "Implement pow(x, n) and find compound words built from other words in a list",
+   "url": "https://leetcode.com/problems/concatenated-words/",
+   "role": "SDE intern",
+   "date": "2026-03",
+   "source_url": "https://leetcode.com/discuss/post/7675697/amazon-intern-two-rounds-coding-by-oavo-aeps/"
+  },
+  {
+   "title": "Top X most frequent tags among posts by friends and friends of friends",
+   "url": "",
+   "role": "SDE intern (virtual onsite round 2)",
+   "date": "2026-03",
+   "source_url": "https://leetcode.com/discuss/post/7656219/amazon-intern-vo-sde-round2-by-oavo-gyg4/"
+  },
+  {
+   "title": "Best buy and sell dates from a list of {date, price} records",
+   "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+   "role": "SDE intern (virtual onsite round 1)",
+   "date": "2026-03",
+   "source_url": "https://leetcode.com/discuss/post/7656216/amazon-intern-sde-vo-round1-by-oavo-sqie/"
+  },
+  {
+   "title": "BFS similar to Time Needed to Inform All Employees, then a hard DSU problem similar to Making A Large Island",
+   "url": "https://leetcode.com/problems/time-needed-to-inform-all-employees/",
+   "role": "SDE intern 6-month, on campus India (selected)",
+   "date": "2026-09",
+   "source_url": "https://leetcode.com/discuss/post/8536395/amazon-sde-intern-interview-experience-o-1c4x/"
+  },
+  {
+   "title": "Count negatives in a row- and column-sorted matrix in O(m + n); Insert Delete GetRandom O(1)",
+   "url": "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/",
+   "role": "SDE intern 6-month, off campus",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7335489/my-amazon-sde-intern-interview-experienc-f8rp/"
+  }
+ ],
+ "focus_topics": [
+  "Arrays and strings with sliding window and hashing",
+  "Heaps and top K",
+  "Intervals and meeting-room scheduling",
+  "Monotonic stack (next smaller, remove K digits)",
+  "Graphs: BFS/DFS, multi-source BFS, Union-Find",
+  "Trees (path sums, distance K)",
+  "Binary search on the answer",
+  "Dynamic programming (House Robber, subsequences)",
+  "Design a data structure (LRU, GetRandom O(1))",
+  "Object-oriented / low-level design",
+  "Leadership Principles stories",
+  "Using and verifying GenAI tools"
+ ],
+ "tips": [
+  "Build 6 to 7 real stories, each mapped to 2 to 3 Leadership Principles, and say 'I' not 'we'; the Bar Raiser digs with 'why' follow-ups (Jugal's Amazon roadmap, Oct 2025).",
+  "Expect every round to open with about 15 minutes of LP questions; keep answers to about 2 minutes with a number in the result.",
+  "Before the OA, practice fixing bugs in a small web app in one stack you know (Spring Boot, Django or MERN) and get fast at installing dependencies and running tests.",
+  "Prepare a GenAI fluency answer set: which tools you use, where AI was wrong and how you caught it, and where it was unnecessary.",
+  "Learn basic LLD (parking lot, rate limiter, billing): classes, interfaces, extensibility, SOLID; new grad loops include one OOD round.",
+  "Solve Amazon-tagged problems in pattern clusters and cap mediums at 30 minutes, then revisit in 3 days (Jugal's Amazon roadmap).",
+  "Always present brute force, then better, then optimal, state complexity, and be ready to write test cases.",
+  "In India, confirm whether an SDE-1 offer is permanent or a fixed-term contract before accepting."
+ ],
+ "compensation_note": "Levels.fyi (fetched Oct 4, 2026), US SDE I (L4): average total comp $183,628 from 77 recent data points; p25 $172,000, median $181,750, p75 $196,300 (page range $156K to $215K+); median base $137,000, median stock $30,000/yr. SDE II average $273,812. Official posting 'Software Development Engineer - 2026 (US)': base $110,500 to $160,000 (Seattle) plus sign-on and RSUs. Summer 2027 SDE intern: $109,395 annualized (Seattle and Arlington). India SDE I total comp starts around INR 2.75M (Levels.fyi India); India intern stipends reported INR 1.1 to 1.3 lakh/month (2026 posts).",
+ "sources": [
+  "https://www.amazon.jobs/",
+  "https://www.amazon.jobs/content/en/career-programs/university",
+  "https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa",
+  "https://www.amazon.jobs/content/en/how-we-hire",
+  "https://www.amazon.jobs/content/en/how-we-hire/interview-loop",
+  "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep",
+  "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-oa-prep",
+  "https://amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics",
+  "https://amazon.jobs/content/en/how-we-hire/remote-interview/platforms",
+  "https://www.amazon.jobs/content/en/our-workplace/leadership-principles",
+  "https://amazon.jobs/en/jobs/3177934/software-development-engineer-2026-us",
+  "https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa",
+  "https://www.businessinsider.com/amazon-stop-people-using-ai-cheat-job-interviews-2025-2",
+  "https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/",
+  "https://www.usatoday.com/story/money/2026/04/28/amazon-ai-job-interviews/89842247007/",
+  "https://www.hellointerview.com/guides/amazon/l4",
+  "https://interviewing.io/guides/hiring-process/amazon",
+  "https://www.aced.io/guides/amazon-software-development-engineer-interview",
+  "https://www.aced.io/blog/amazon-interview-process",
+  "https://www.levels.fyi/companies/amazon/salaries/software-engineer/levels/sde-i",
+  "https://www.levels.fyi/companies/amazon/salaries/software-engineer/locations/india",
+  "https://github.com/liquidslr/leetcode-company-wise-problems",
+  "https://jugaldb.substack.com/p/amazon-is-still-hiring-after-the",
+  "https://jugaldb.substack.com/p/how-to-crack-faang-interviews-part-7f8",
+  "https://jugaldb.substack.com/p/how-to-prepare-for-faang-ai-engineer",
+  "https://leetcode.com/discuss/post/8279707/amazon-oa-sde-1-assessment-experience-ne-becb/",
+  "https://leetcode.com/discuss/post/8543404/amazon-sde-intern-2027-india-oa-assessme-xbze/",
+  "https://leetcode.com/discuss/post/8516494/amazon-sde-internship-2027-oa-experience-54ub/",
+  "https://leetcode.com/discuss/post/8522904/amazon-internship-oa-experience-exam-pat-pjc9/",
+  "https://leetcode.com/discuss/post/8503529/amazon-sde-1-oa-repo-coding-issue-by-lak-fu4v/",
+  "https://leetcode.com/discuss/post/8546875/amazon-sde-1-interview-experience-2026-b-30gn/",
+  "https://leetcode.com/discuss/post/8343668/amazon-sde-1-interview-experience-2026-s-uroi/",
+  "https://leetcode.com/discuss/post/8471051/amazon-sde-1-interview-experience-offer-6msy0/",
+  "https://leetcode.com/discuss/post/7407012/sde-1-fresher-interview-experience-off-c-yfoq/",
+  "https://leetcode.com/discuss/post/8387416/amazon-sde-1-april-2026-ftc-to-fte-conve-c3ul/",
+  "https://leetcode.com/discuss/post/8511161/amazon-sde-1-ftc-offer-concerns-and-ques-rjve/",
+  "https://leetcode.com/discuss/post/7643209/amazon-sde-intern-interview-experience-b-ebh1/",
+  "https://leetcode.com/discuss/post/8520348/amazon-sde-1-newgrad-sde-interview-exper-picx/",
+  "https://leetcode.com/discuss/post/8535500/amazon-swe-new-grad-2026-usa-interview-e-oqe0/",
+  "https://leetcode.com/discuss/post/8500377/amazon-sde-new-grad-interview-experience-plj4/",
+  "https://leetcode.com/discuss/post/7584467/amazon-genai-fluency-coding-round-for-sd-t833/",
+  "https://leetcode.com/discuss/post/8293563/amazon-sde-1-full-interview-loop-experie-n3xm/",
+  "https://leetcode.com/discuss/post/7578011/amazon-interview-experience-sde-1-new-gr-iqca/",
+  "https://leetcode.com/discuss/post/8552696/greedy-bitwise-question-for-amazon-sde-1-bzy3/",
+  "https://leetcode.com/discuss/post/8523471/amazon-sde-intern-oa-experience-by-kevin-4hnn/",
+  "https://leetcode.com/discuss/post/8510382/amazon-sde-intern-interview-experience-s-jqok/",
+  "https://leetcode.com/discuss/post/8098488/amazon-interview-sde-1-intern-dsa-round-srof2/",
+  "https://leetcode.com/discuss/post/7675697/amazon-intern-two-rounds-coding-by-oavo-aeps/",
+  "https://leetcode.com/discuss/post/7656219/amazon-intern-vo-sde-round2-by-oavo-gyg4/",
+  "https://leetcode.com/discuss/post/7656216/amazon-intern-sde-vo-round1-by-oavo-sqie/",
+  "https://leetcode.com/discuss/post/8536395/amazon-sde-intern-interview-experience-o-1c4x/",
+  "https://leetcode.com/discuss/post/7335489/my-amazon-sde-intern-interview-experienc-f8rp/"
+ ],
+ "confidence_notes": "Re-verified Oct 4, 2026 by a second agent: every URL in sources returned HTTP 200 except USA Today, which now returns 402 to non-browser clients; its Reuters text (Apr 28, 2026: roughly 30,000 corporate jobs cut since October; Connect Talent is mass-hiring software for seasonal roles) was confirmed through a Wayback Machine capture of Aug 22, 2026. LeetCode Discuss posts and problem slugs re-checked via LeetCode's GraphQL API. Official pages re-read: university OA page (full-time: coding 70 + Workstyles 15 + Work Simulation 60 + feedback 5 min, 'set aside up to two hours', one or two parts by country; intern: 'about 90 minutes'), SDE II OA and prep pages, Zoom or Chime platforms page, topics page (algorithms, object-oriented design, databases, distributed computing, operating systems), 16 Leadership Principles, and both job postings (2026 US SDE base 110,500 to 160,000 USD Seattle; Summer 2027 intern 109,395 USD annually, posted Sep 17, 2026 per the amazon.jobs search API) [VERIFIED]. The AI-assisted repository task is not on the official OA page but is reported consistently in May to Oct 2026 posts and by Aced and Hello Interview ('As of mid-2026, Amazon is rolling out an AI-assisted coding round') [VERIFIED secondary]. CORRECTED in this pass: 'Germany' and 'US' removed from the intern OA report list (no source post states them); 'India' removed from question roles where the post does not state it; Bangalore and Hyderabad removed as named in-person locations (no source names them); the four-round mix rewritten to match the posts (it previously listed five round types); FTC wording changed from '1-year' to what posts say; L4 experience aligned with Hello Interview; unsourced 'Tell me about a time you failed' replaced with a sourced question. Loop shape varies by team and country: 3 vs 4 rounds, in person vs virtual, HM round position. The 'GenAI fluency' label comes from candidate posts and recruiter emails, not an official page. Jugal's Oct 2025 post links amazon.jobs/en/teams/university-recruiting, which now returns 404; use the AUTA page instead."
+}

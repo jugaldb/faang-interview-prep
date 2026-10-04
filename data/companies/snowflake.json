@@ -1,0 +1,326 @@
+{
+ "slug": "snowflake",
+ "name": "Snowflake",
+ "category": "High-growth tech",
+ "one_liner": "Cloud data platform (the 'AI Data Cloud'). Known for hard HackerRank OAs, LeetCode medium-hard rounds and database or infrastructure flavored design.",
+ "careers_url": "https://careers.snowflake.com/us/en",
+ "students_url": "https://careers.snowflake.com/us/en/university",
+ "interview_prep_url": "https://careers.snowflake.com/us/en/gethired",
+ "levels": {
+  "intern": "Software Engineer Intern (North America cohorts in Spring, Summer and Fall; EMEA and APAC year-round, 12 to 16 weeks)",
+  "new_grad": "IC1 (entry level per Levels.fyi); Snowflake does not post roles labeled new grad, so match by years of experience in the job description",
+  "early_career": "IC1 (Software Engineer I) and IC2 (Software Engineer II); IC3 is Senior Software Engineer. Levels.fyi medians: IC1 about 1 YOE, IC2 about 5 YOE (small US sample), IC3 about 9 YOE. Titles vary by team and country (a Jun 2026 LeetCode post reports a Pune IC3 data-engineering offer at about 3.5 YOE), so confirm the level with your recruiter."
+ },
+ "process_new_grad": [
+  {
+   "stage": "Application",
+   "details": "Snowflake says employment regulations stop it posting roles specifically for recent graduates; apply to roles whose required years of experience fit (official internship FAQ). No reply in 30 days usually means no match."
+  },
+  {
+   "stage": "Initial screen (30 min)",
+   "details": "Recruiter or hiring manager call on background and skills; your first meeting may be with your future manager (official how-we-hire page)."
+  },
+  {
+   "stage": "Technical screens (60 min each, usually 2 to 3)",
+   "details": "Live coding on CoderPad or HackerRank over Zoom. Toronto NG (Jul 2025): LC easy (strings, hashmap), LC medium-hard (BFS, topological sort) and a React frontend screen. Other early-career screens: two 1-hour coding rounds, LC medium with follow-ups."
+  },
+  {
+   "stage": "Panel (3 to 5 interviews of 60 min)",
+   "details": "Official: three to five 60-minute interviews (technical, expertise, system design, behavioral and collaboration); a 30-minute tech talk may be added by level. Official how-we-hire page: you may be asked to attend at least one interview in person. Official AI blog (Jan 20 2026): coding interviews are done without any coding or AI assistants, and one coding interview is conducted in person."
+  },
+  {
+   "stage": "Hiring manager call and team match",
+   "details": "Toronto NG (Jul 2025) ended the loop with a hiring manager call. Several 2025 candidates report waiting for team match after the panel; one 2025 US Software Engineer offer took 2 months, mostly waiting for a team."
+  },
+  {
+   "stage": "Decision",
+   "details": "Team debriefs within a few days of the panel; reference and background checks before onboarding (official)."
+  }
+ ],
+ "process_intern": [
+  {
+   "stage": "Online assessment (sent automatically after applying)",
+   "details": "Official internship FAQ: technical roles start with a coding assessment. Reports: HackerRank, up to about 2 hours, 2 to 3 problems that are often LC hard (DP, backtracking, graphs, tree manipulation). Some variants are recorded or proctored with no live interviewer (Berlin intern, Mar 2025). ML intern OA (Poland, Jul 2025) had 1 algorithm plus 2 ML questions. A Canada full-time SWE OA (Jul 2025) had 2 algorithm questions plus SQL logic puzzles in 90 minutes."
+  },
+  {
+   "stage": "Recruiter call",
+   "details": "Mostly logistics, little behavioral (US intern, Mar 2025)."
+  },
+  {
+   "stage": "Two technical interviews (45 to 60 min each)",
+   "details": "LC medium to hard (graphs, trees, trapping rain water, merge k lists), sometimes a distributed systems or concurrency question; interviewers probe why you chose an approach and which inputs favor each alternative; you may be asked to write test cases."
+  },
+  {
+   "stage": "Hiring manager or team-match calls",
+   "details": "One or more calls with team managers, often more recruiting than evaluation; showing interest in several areas helps (US intern, Mar 2025). Then offer. If rejected you must wait for the next seasonal program to reapply (official FAQ)."
+  }
+ ],
+ "process_experienced_notes": "For IC2 and IC3 (about 1 to 5 yrs): recruiter (and optional hiring manager) call, then two 1-hour coding screens or a 2-hour phone screen (sometimes 1 coding plus 1 system design), then a panel of 3 to 5 one-hour rounds: coding with a Snowflake twist (database internals), an expertise or project deep dive, system design that recruiters describe as infrastructure style rather than product style (key-value stores with versioning and time travel, real-time analytics with high availability, memory usage tracking), behavioral and collaboration. IC3+ may give a 30-minute tech talk. interviewing.io (Dec 2025) notes some candidates now go through a team matching process. Aced reports an emerging AI screening interview step; not confirmed elsewhere.",
+ "timeline": "Official engineering process: four stages in about two to four weeks, but candidates report up to 2 months when team matching is slow. University: applications reviewed year-round as roles post; Snowflake aims to respond in 2 to 3 weeks. North America internships run in Spring, Summer and Fall cohorts; EMEA and APAC are year-round. A hiring committee step is mentioned by one Summer/Fall 2025 intern candidate, followed by team matching.",
+ "oa": {
+  "platform": "HackerRank (most reports); some proctored or self-recorded variants; Aced also lists CodeSignal",
+  "format": "2 to 3 coding problems in about 90 to 120 minutes; frequently LC hard (DP, backtracking, graphs, trees); some variants add SQL puzzles (Canada SWE, Jul 2025) or ML questions (ML intern, Jul 2025).",
+  "notes": "Widely called one of the hardest intern OAs. Copy-paste and tab switching are restricted. Official policy (Jan 2026) bans AI on any assessment, even though one 2025 Berlin report claimed otherwise."
+ },
+ "coding": {
+  "rounds": "Intern: 2 technical after the OA. NG and IC2: 2 to 3 screens plus 1 to 2 coding rounds in the panel.",
+  "style": "LeetCode medium to hard, plus problems with a database twist (constraint checks, parent-array forests, log streams, distributed tree counting by message passing). Follow-ups push scale (large sorted files, chunking).",
+  "environment": "CoderPad or HackerRank over Zoom; at least one coding interview in person since Jan 2026; no AI or coding assistants.",
+  "graded_on": "Correct, efficient code; reasoning about why an approach fits and its trade-offs; complexity analysis; test cases; edge cases; communication."
+ },
+ "system_design": "Usually absent for interns, though one 2025 intern reported a distributed systems and reliability question. For IC2 and above, expect an infrastructure or data-systems design round (database internals, storage, versioning and time travel, high availability) rather than consumer product design. Frontend roles may get UI design plus a surprise LC hard.",
+ "behavioral": {
+  "framework": "Snowflake values: Put Customers First, Integrity Always, Think Big, Be Excellent, Get It Done, Own It, Make Each Other The Best, Embrace Each Other's Differences",
+  "values_url": "https://www.snowflake.com/en/company/overview/about-snowflake/",
+  "what_they_look_for": [
+   "Ownership of a project you can explain end to end (most proud project deep dive)",
+   "Impact measured with data and results",
+   "Collaboration with difficult or new teammates",
+   "Integrity, including honest use of AI in the process",
+   "Genuine interest in Snowflake's product and teams"
+  ],
+  "sample_questions": [
+   "Tell me about a cool or difficult project you took on recently.",
+   "Tell me about a time you worked with difficult people.",
+   "What is your ideal work environment?",
+   "Why are you interested in working at Snowflake?",
+   "Are you interested in working here?",
+   "Walk me through your most proud project.",
+   "Tell me about a time you made a mistake."
+  ]
+ },
+ "non_leetcode_formats": "Expertise round (deep dive into your domain and past impact); infrastructure-style system design; 30-minute tech talk for some levels; React UI coding screens for frontend roles (merge async APIs where one fails intermittently); SQL plus algorithm hybrid OAs for some teams; ML OA and transformer-architecture interview for ML interns; take-home assignment reported for the SnowConvert AI team (Mar 2026).",
+ "reported_questions": [
+  {
+   "title": "Find All Anagrams in a String",
+   "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+   "role": "Phone screen (1 of 2)",
+   "date": "2025-05",
+   "source_url": "https://leetcode.com/discuss/post/6799130/snowflake-2-phone-screening-interviews-b-etg0/"
+  },
+  {
+   "title": "Word Search II",
+   "url": "https://leetcode.com/problems/word-search-ii/",
+   "role": "Phone screen (2 of 2)",
+   "date": "2025-05",
+   "source_url": "https://leetcode.com/discuss/post/6799130/snowflake-2-phone-screening-interviews-b-etg0/"
+  },
+  {
+   "title": "Trapping Rain Water",
+   "url": "https://leetcode.com/problems/trapping-rain-water/",
+   "role": "Software Engineer Intern (New York)",
+   "date": "2025-03",
+   "source_url": "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineerinternship-new-york-ny-march-22-2025-declined-offer-positive-19cdc02e/"
+  },
+  {
+   "title": "Merge k Sorted Lists",
+   "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+   "role": "Software Engineer Intern (New York)",
+   "date": "2025-03",
+   "source_url": "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineerinternship-new-york-ny-march-22-2025-declined-offer-positive-19cdc02e/"
+  },
+  {
+   "title": "Minimize deletions so a tree has height at most k, tie-break by deleting deeper nodes",
+   "url": "",
+   "role": "Software Engineer Intern interview",
+   "date": "2025-12",
+   "source_url": "https://leetcode.com/discuss/post/7452152/snowflake-intern-interview-technical-que-zqq3/"
+  },
+  {
+   "title": "Minimize deletions to target tree height (binary tree, maximize sum of depths of deleted nodes)",
+   "url": "",
+   "role": "Coding interview (role not stated)",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7327204/tree-question-snowflake-by-gavieeen-mboq/"
+  },
+  {
+   "title": "OA: tree manipulation and splitting to minimize height",
+   "url": "",
+   "role": "SWE Intern OA (Bellevue)",
+   "date": "2025-10",
+   "source_url": "https://www.jointaro.com/interviews/companies/snowflake/experiences/swe-intern-bellevue-wa-october-1-2025-no-offer-positive-b02a687c/"
+  },
+  {
+   "title": "OA: one LC hard DP, one vowel-substring sliding window, one hard graph problem",
+   "url": "",
+   "role": "Software Intern OA (US)",
+   "date": "2025-09",
+   "source_url": "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-intern-united-states-september-1-2025-no-offer-neutral-aad776fa/"
+  },
+  {
+   "title": "SET card game: validate 3 cards; follow-ups for N attributes and for finding a valid set among N cards",
+   "url": "",
+   "role": "Screening",
+   "date": "2025-09",
+   "source_url": "https://leetcode.com/discuss/post/7206810/snowflake-screening-by-anonymous_user-6u3n/"
+  },
+  {
+   "title": "Per product: number of unique customers and total revenue from products and sales lists (hash map plus set)",
+   "url": "",
+   "role": "Software Engineer Intern",
+   "date": "2026-04",
+   "source_url": "https://leetcode.com/discuss/post/7754090/snowflake-interview-question-intern-prod-g9mu/"
+  },
+  {
+   "title": "Remove a node from a forest stored as a parent-index array, keeping invariants",
+   "url": "",
+   "role": "Backend Engineer",
+   "date": "2026-06",
+   "source_url": "https://leetcode.com/discuss/post/8354847/snowflake-interview-experience-backend-e-32sz/"
+  },
+  {
+   "title": "Count nodes of a distributed N-ary tree where each node is a process communicating by async messages; print at root",
+   "url": "",
+   "role": "Backend Engineer",
+   "date": "2026-06",
+   "source_url": "https://leetcode.com/discuss/post/8354847/snowflake-interview-experience-backend-e-32sz/"
+  },
+  {
+   "title": "Key constraint check: given referenced rows and keys to insert, detect violations; follow-ups for sorted rows and very large files",
+   "url": "",
+   "role": "Backend Engineer technical screen",
+   "date": "2025-05",
+   "source_url": "https://leetcode.com/discuss/post/6794302/snowflake-coding-screening-weird-questio-ud43/"
+  },
+  {
+   "title": "Currency exchange rates via graph DFS (Evaluate Division pattern)",
+   "url": "https://leetcode.com/problems/evaluate-division/",
+   "role": "IC3 coding screen (Seattle)",
+   "date": "2025-04",
+   "source_url": "https://leetcode.com/discuss/post/6726727/snowflake-ic3-seattle-by-anonymous_user-4i9n/"
+  },
+  {
+   "title": "Filter a stream of log entries, dropping DELETE operations; production scaling follow-ups",
+   "url": "",
+   "role": "IC3 coding screen (Seattle)",
+   "date": "2025-04",
+   "source_url": "https://leetcode.com/discuss/post/6726727/snowflake-ic3-seattle-by-anonymous_user-4i9n/"
+  },
+  {
+   "title": "Variant of Trapping Rain Water (day 2); IP/CIDR prefix problem (day 1)",
+   "url": "https://leetcode.com/problems/trapping-rain-water/",
+   "role": "Mid-level SWE assessment",
+   "date": "2025-11",
+   "source_url": "https://leetcode.com/discuss/post/7330752/snowflake-day-2-task-by-stanii-owpq/"
+  },
+  {
+   "title": "Parallel Courses III (LC hard) asked in a frontend loop",
+   "url": "https://leetcode.com/problems/parallel-courses-iii/",
+   "role": "Software Engineer Front End (Menlo Park)",
+   "date": "2025-04",
+   "source_url": "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-front-end-menlo-park-ca-april-1-2025-no-offer-negative-0ca8f0f3/"
+  },
+  {
+   "title": "Merge temperature and rain APIs in React or vanilla JS when the rain API fails every other call and is slow",
+   "url": "",
+   "role": "Frontend phone screen",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6968724/snowflake-frontend-phone-screen-by-scala-7t02/"
+  },
+  {
+   "title": "Optimize a CI test pipeline's end-to-end time; connect-four canPlayWin; design a key-value store with global versioning and time travel",
+   "url": "",
+   "role": "SDE full loop",
+   "date": "2025-07",
+   "source_url": "https://leetcode.com/discuss/post/6930095/snowflake-sde-5-round-interview-experien-ytqe/"
+  },
+  {
+   "title": "Design a system that supports real-time analytics with high availability",
+   "url": "",
+   "role": "Software Engineer (Canada)",
+   "date": "2025-07",
+   "source_url": "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-canada-july-25-2025-no-offer-positive-7cf8eeb3/"
+  },
+  {
+   "title": "Design a system tracking how much memory (storage) each user has written, like Google Drive",
+   "url": "",
+   "role": "Software Engineer (San Francisco)",
+   "date": "2025-02",
+   "source_url": "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-san-francisco-ca-february-11-2025-no-offer-positive-15c681b5/"
+  }
+ ],
+ "focus_topics": [
+  "graphs: BFS, topological sort, DFS on weighted relations",
+  "trees: height, pruning, deletion problems",
+  "dynamic programming (hard)",
+  "backtracking and tries (Word Search II)",
+  "sliding window on strings",
+  "heaps and k-way merge",
+  "database internals: keys, constraints, sorted data, large files",
+  "distributed systems basics: message passing, availability, versioning",
+  "concurrency",
+  "SQL for data-oriented roles"
+ ],
+ "tips": [
+  "Train for the OA with timed LC hards (DP, graphs, tree manipulation); intern candidates repeatedly call it the hardest OA they took.",
+  "Plan for one coding interview in person and no AI or coding assistants anywhere in the process (official policy, Jan 2026).",
+  "Learn database basics (primary and foreign keys, indexes, sorted scans, MVCC and time travel) because coding and design rounds carry a database twist.",
+  "Search roles by required years of experience, not 'new grad'; Snowflake says it cannot post roles labeled for recent graduates.",
+  "When you pick an approach, be ready to explain which inputs favor it over the alternative; interviewers grade the why.",
+  "Write a brute-force solution quickly and leave time for the optimization follow-up; several rejections came from running out of time on follow-ups.",
+  "In hiring manager and team calls, show interest in several areas; team match can be the slowest step.",
+  "Apply early for each seasonal cohort; if rejected for an internship you must wait for the next season to reapply."
+ ],
+ "compensation_note": "Levels.fyi (US, page updated Oct 4 2026): IC1 entry median total comp about $236K (base about $168K, stock about $60K/yr, bonus about $8K); IC2 about $357K. RSUs vest over 4 years, 25% per year (Levels.fyi lists a 1-year cliff then quarterly, quarterly from the start, and a 1-year cliff then monthly). India data on Levels.fyi starts at IC2 with a median of about INR 27.7 lakh (base about INR 19 lakh), but from only 2 samples. A Jun 2026 LeetCode post describes a Pune IC3 data-engineering offer (about 3.5 YOE) with no RSUs, comparable to a Goldman Sachs SDE2 offer of about INR 35 lakh base. Intern pay was not found on a verifiable source.",
+ "sources": [
+  "https://careers.snowflake.com/us/en",
+  "https://careers.snowflake.com/us/en/university",
+  "https://careers.snowflake.com/us/en/gethired",
+  "https://careers.snowflake.com/us/en/blogarticle/ai-cheat-sheet-how-and-when-to-use-ai-in-your-snowflake-interview",
+  "https://careers.snowflake.com/us/en/blogarticle/navigating-the-data-slopes-applying-and-interviewing-at-snowflake",
+  "https://careers.snowflake.com/us/en/blogarticle/snowflake-internship-faqs",
+  "https://www.snowflake.com/en/company/overview/about-snowflake/",
+  "https://interviewing.io/snowflake-interview-questions",
+  "https://www.aced.io/guides/snowflake-software-engineer-interview",
+  "https://www.levels.fyi/companies/snowflake/salaries/software-engineer",
+  "https://www.levels.fyi/companies/snowflake/salaries/software-engineer/levels/ic1",
+  "https://www.levels.fyi/companies/snowflake/salaries/software-engineer/locations/india",
+  "https://leetcode.com/discuss/post/8354847/snowflake-interview-experience-backend-e-32sz/",
+  "https://leetcode.com/discuss/post/8339519/snowflake-ic2-upcoming-round-for-snowcon-m1om/",
+  "https://leetcode.com/discuss/post/8329603/help-me-choose-an-offer-sde2-at-goldman-t3mgk/",
+  "https://leetcode.com/discuss/post/7754090/snowflake-interview-question-intern-prod-g9mu/",
+  "https://leetcode.com/discuss/post/7661818/snowconvert-ai-take-home-assignment-by-m-fyt4/",
+  "https://leetcode.com/discuss/post/7646514/are-leetcode-tagged-questions-enough-for-93nu/",
+  "https://leetcode.com/discuss/post/7485328/snowflake-senior-software-engineer-prep-2vk8p/",
+  "https://leetcode.com/discuss/post/7452152/snowflake-intern-interview-technical-que-zqq3/",
+  "https://leetcode.com/discuss/post/7335584/snowflake-onsite-loop-ic2-by-srcharug-3qlx/",
+  "https://leetcode.com/discuss/post/7330752/snowflake-day-2-task-by-stanii-owpq/",
+  "https://leetcode.com/discuss/post/7327204/tree-question-snowflake-by-gavieeen-mboq/",
+  "https://leetcode.com/discuss/post/7206810/snowflake-screening-by-anonymous_user-6u3n/",
+  "https://leetcode.com/discuss/post/7196984/snowflake-system-design-round-by-mihikaa-fydt/",
+  "https://leetcode.com/discuss/post/6968724/snowflake-frontend-phone-screen-by-scala-7t02/",
+  "https://leetcode.com/discuss/post/6930095/snowflake-sde-5-round-interview-experien-ytqe/",
+  "https://leetcode.com/discuss/post/6800717/snowflake-oa-by-gavieeen-yuy2/",
+  "https://leetcode.com/discuss/post/6799130/snowflake-2-phone-screening-interviews-b-etg0/",
+  "https://leetcode.com/discuss/post/6794302/snowflake-coding-screening-weird-questio-ud43/",
+  "https://leetcode.com/discuss/post/6761504/snowflake-oa-by-gavieeen-p3ad/",
+  "https://leetcode.com/discuss/post/6726727/snowflake-ic3-seattle-by-anonymous_user-4i9n/",
+  "https://leetcode.com/discuss/post/6613120/snowflake-software-engineer-interview-by-fqzt/",
+  "https://leetcode.com/discuss/post/6472310/summer-2025-core-engineering-intern-test-ydj5/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-new-grad-toronto-on-july-1-2025-no-offer-neutral-ba984880/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineerinternship-united-states-march-1-2025-accepted-offer-positive-ccc51028/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineerinternship-new-york-ny-march-22-2025-declined-offer-positive-19cdc02e/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineerinternship-san-mateo-ca-june-1-2025-no-offer-negative-2107e229/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineerinternship-san-mateo-ca-march-18-2025-no-offer-positive-e9af3343/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineerinternship-menlo-park-ca-july-23-2025-accepted-offer-positive-eae5d791/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineerinternship-hong-kong-april-24-2025-no-offer-neutral-e2450d0c/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineering-intern-berlin-march-3-2025-no-offer-neutral-be154383/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/swe-intern-toronto-on-march-12-2025-accepted-offer-positive-dd5ed6af/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/swe-intern-bellevue-wa-october-1-2025-no-offer-positive-b02a687c/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-intern-canada-september-1-2025-no-offer-negative-72c7604c/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-intern-united-states-june-30-2025-no-offer-neutral-414a15a2/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-intern-united-states-september-1-2025-no-offer-neutral-aad776fa/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-intern-united-states-april-28-2025-no-offer-positive-92fa7974/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/machine-learning-intern-poland-july-10-2025-accepted-offer-positive-61f7c922/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/sde-intern-india-january-29-2025-no-offer-negative-5d87ba8f/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/swe-intern-india-march-26-2025-no-offer-neutral-4b3438ba/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-canada-july-25-2025-no-offer-positive-7cf8eeb3/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-front-end-menlo-park-ca-april-1-2025-no-offer-negative-0ca8f0f3/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-san-francisco-ca-february-11-2025-no-offer-positive-15c681b5/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-united-states-june-8-2025-accepted-offer-positive-974ad82b/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-berlin-july-1-2025-accepted-offer-positive-e3ed9297/",
+  "https://www.jointaro.com/interviews/companies/snowflake/experiences/software-engineer-ic2-san-francisco-ca-march-1-2025-no-offer-neutral-61629b75/",
+  "https://jugaldb.substack.com/p/494-summer-2027-internships-are-already"
+ ],
+ "confidence_notes": "All URLs above were loaded and checked on 2026-10-04 (LeetCode Discuss via LeetCode's public GraphQL API; jointaro pages fetched directly; Snowflake careers blog text extracted from page data, publish dates read from page metadata: AI blog 2026-01-20, data-slopes blog 2025-01-01, internship FAQ 2024-08-06). Fact-check corrections (2026-10-04): the 90-minute algorithm plus SQL OA was a full-time Canada SWE report, not an intern one; the 'shape-pattern aptitude test' claim came from an unrelated, uncertain teaser on a jointaro page and was removed; the 2-month team-match wait was a 2025 US Software Engineer offer, not a confirmed new grad; the unsupported claim that 1 to 3 yr loops are usually IC2 was replaced with Levels.fyi medians. Biggest recent change: the Jan 20 2026 official blog says coding interviews must be done without AI or coding assistants, AI is banned on assessments and take-homes, and one coding interview is in person. Level for new grads (IC1 vs IC2) is not documented officially; Levels.fyi lists IC1 as entry level. OA difficulty and format vary a lot by team (core/database, infrastructure automation, AI/ML, frontend). Aced's 'AI screening interview' step (it names HackerRank's AI interviewer) and its CodeSignal mention were not confirmed by candidate reports. Team matching and HC timing come from individual reports and an interviewing.io Dec 2025 edit. Glassdoor reviews could not be fetched (403) and were not used. One 2025 SDE loop post (6930095) links to a paid question bank, so treat its details as lower confidence. Jugal's Substack lists a Snowflake AI Research Scientist New Grad role (Agents and RL, Bellevue) in the Aug 2026 internships post; there is no Snowflake-specific interview post."
+}

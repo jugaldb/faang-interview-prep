@@ -1,0 +1,199 @@
+# OpenAI interview guide
+
+Builds ChatGPT, the API and Codex; interviews favor practical multi-part coding, demanding system design and a project walkthrough. Updated October 2026.
+
+| | |
+|---|---|
+| **Category** | AI lab |
+| **Intern level** | Software Engineer Intern via the Emerging Talent program (Levels.fyi lists $60/hr in San Francisco for Summer 2025 and Summer 2026). |
+| **New grad level** | L2 on Levels.fyi (median 0 YOE). Posting title for 2027 new grads: 'Software Engineer, Applied Emerging Talent (2027)'. Many engineers carry the title Member of Technical Staff. |
+| **0 to 3 years** | L2 to L3 for 0 to 3 years (Levels.fyi median YOE: L2 = 0, L3 = 2, L4 = 3). OpenAI's Emerging Talent page says early-career roles are designed for 0 to 3 years of experience. interviewing.io and Hello Interview both report that OpenAI tends to downlevel incoming candidates. |
+| **Online assessment** | HackerRank (asynchronous OA); live rounds on CoderPad : 2 coding questions. One Jan 2025 OA: 110 minutes, camera on, full-screen share required. Emerging Talent reports (Oct 2025): both DP. Topics named in an invite: DP, graphs, arrays. |
+| **Coding rounds** | 1 live screen (60 min) plus 1 to 2 coding rounds in the final loop |
+| **Behavioral** | OpenAI values (Humanity first; Act with humility; Feel the AGI; Ship joy) and operating principles (Find a way; Creativity over control; Update quickly; Intense focus), plus the OpenAI Charter. |
+| **Timeline** | Official: resume review takes about 1 week; you hear within about a week after each stage; decision within one week of finals. Reported totals: 2 to 8 weeks (IGotAnOffer, 2026), 6 to 8 weeks for experienced hires (interviewing.io). 2024 intern cycle: event Sep 18, OA Sep 26, technical Oct 16, onsite Oct 30, offer Nov 15. New grad 2027 posting went live Sep 14, 2026; OA invites in prior cycles arrived early October. No company-wide hiring committee is reported; hiring is per team, and new grads do team-matching interviews after the final round. |
+| **New grad pay** | Levels.fyi (checked Oct 4, 2026, US): L2 averages about $249.5K total comp (13 data points, median 0 YOE); typical new grad entries from Dec 2025 to Feb 2026 are $170K base plus $75K to $90K stock per year, i.e. $245K to $271K. L3 averages about $336.6K (median 2 YOE). OpenAI's own Sep 2026 posting for Software Engineer, Applied Emerging Talent (2027) lists $180K base plus equity. Interns: $60/hr in San Francisco (Levels.fyi, Summer 2025 and Summer 2026). Equity is in a private company, so its value is uncertain. |
+| **Official links** | [Careers](https://openai.com/careers/), [Students](https://openai.com/careers/emerging-talent/), [Official interview prep](https://openai.com/interview-guide/), [Values](https://openai.com/careers/) |
+
+## Interview process
+
+### New grad
+
+1. **Application (Emerging Talent).** Apply to the Emerging Talent posting. As of Oct 4, 2026 the live posting is 'Software Engineer, Applied Emerging Talent (2027)' (San Francisco, posted Sep 14, 2026, 0 to 1 years, JavaScript/React plus a backend language (Python), Postgres/MySQL, $180K base plus equity). Join the Emerging Talent Community form for events and Q&As. Campus events can give priority links: a 2024 intern applied with a priority link from an OpenAI event at CMU.
+2. **Online assessment (HackerRank).** Two algorithmic questions. A Jan 2025 report: 110 minutes on HackerRank with camera on and full-screen share of all tabs. Oct 2025 Emerging Talent reports: both questions were DP. A Nov 2024 OA email listed DP, graphs and arrays. Scored on test cases (one Oct 2025 candidate reported a full score on one question and 12/15 test cases on the other).
+3. **Intro call.** Official guide: a recruiter or hiring manager call about your work, academic experience, motivations and goals. Read OpenAI's recent blog posts, especially those related to the team.
+4. **Virtual coding interview (60 min).** Live practical coding, reported on CoderPad. Example from a new grad screen (Nov 2024): compute an account balance at any timestamp from unsorted post/delete events, close to Time Based Key-Value Store. Spring 2026 Emerging Talent interviews were on CoderPad with camera and mic on (Feb 2026 Reddit comment).
+5. **Virtual final round.** For the 2025 new grad cycle a recruiter's candidate portal listed: coding interview plus behavioral interview. The official guide describes final interviews generally as 4 to 6 hours with 4 to 6 people over 1 to 2 days, virtual by default with an optional onsite in San Francisco.
+6. **Team matching, references, offer.** Same candidate portal (Oct 2025): Team Matching Interviews, then Professional References, then Offer. Official guide: expect a decision within one week of final interviews; the recruiter may ask for references at this stage.
+
+### Intern
+
+1. **Application.** Internships run under Emerging Talent. A Summer 2025 SWE intern applied after an OpenAI event at their university (Sep 18, 2024).
+2. **HackerRank OA.** Two questions; the Nov 2024 OA email listed DP, graphs and arrays. The same intern reported a full score (Sep 26, 2024).
+3. **Technical interview.** One live technical interview (Oct 16, 2024 in that report).
+4. **Virtual onsite.** Another technical interview plus a project walkthrough round (the candidate called it a 'project deep-dive') on your own work (Oct 30, 2024).
+5. **Offer.** Verbal offer about 2 months after the event (Nov 15, 2024). Reported Summer 2025 package: $60/hr plus about $7,000 sign-on, 12 weeks in San Francisco, no housing stipend.
+
+### With 1 to 3 years of experience
+
+For 1 to 3+ years the loop is team-specific and decentralized. Typical: 30-min recruiter call; then a technical screen that can be a 1-hour CoderPad coding round, a 1-hour system design screen (Excalidraw), both back to back, or a take-home (Hello Interview: 48-hour window, about 6 hours, e.g. a webhook delivery service with retries, dead-letter queue and status API, built in your own setup, then extended live with an engineer). Onsite 4 to 6 hours: coding (own IDE with screen share or CoderPad), system design, a technical project walkthrough or presentation (about 30 min presenting a past project then Q&A; slides expected), behavioral with a senior manager, and a working-with-teams behavioral. interviewing.io reports a beta 'agentic coding' round where you work in an existing codebase with an AI coding agent. A Jan 2025 report for a 'junior level' role (2.7 YOE) said the final was 2 technical plus 1 behavioral. Most current SWE postings ask for 4 to 9+ years; early-career exceptions exist (e.g. a Performance Modeling Engineer role for 1 to 2 years).
+
+## Online assessment
+
+- **Platform:** HackerRank (asynchronous OA); live rounds on CoderPad
+- **Format:** 2 coding questions. One Jan 2025 OA: 110 minutes, camera on, full-screen share required. Emerging Talent reports (Oct 2025): both DP. Topics named in an invite: DP, graphs, arrays.
+- **Notes:** The OA appears mainly in the Emerging Talent (intern and new grad) funnel. Experienced candidates usually start with live screens or a take-home. Expect proctoring; practice HackerRank stdin/stdout input parsing.
+
+Prepare with [How to pass an OA](../online-assessments/strategy.md) and compare formats in [OA formats by company](../online-assessments/company-oa-formats.md).
+
+## Coding rounds
+
+- **Rounds:** 1 live screen (60 min) plus 1 to 2 coding rounds in the final loop
+- **Style:** Practical and multi-part (about four parts per question per interviewing.io), production-like components rather than trick puzzles: time-based key-value store, KV store serialization, resumable iterator, in-memory database with SQL-like operations, unix cd with symlinks, spreadsheet formulas with cycle detection, multithreaded web crawler. Candidates report typing for the whole hour. Some roles get math-flavored coding (KL divergence, cross entropy, expected iterations).
+- **Environment:** CoderPad with code execution (can run tests) for live rounds; own IDE with screen share is allowed in some onsite coding rounds; HackerRank for the OA. AI tools are not allowed unless the round says so (the official guide says rules vary by interview; the agentic coding pilot is the exception).
+- **Graded on:** Official guide: well-designed solutions, high-quality code, optimal performance and good test coverage, plus communication and collaboration. Hello Interview reports candidates hearing that a 2/4 or low 3/4 coding score can block an offer even if other rounds go well.
+- **Reported focus topics:** Class and API design that survives new requirements (multi-part problems), Time-based and versioned key-value stores, Stateful iterators and generators, In-memory databases and SQL-like query handling, Serialization, encoding and parsing, Graphs: dependency resolution, cycle detection, BFS/DFS, Concurrency: threads, coroutines, worker pools, Dynamic programming (Emerging Talent OA), Writing your own tests, System design: webhooks, queues and retries, CI/CD, chat, payments, LLM serving (experienced), Probability and information theory basics for some roles
+
+Run every practice problem through [the 45-minute framework](../coding/interview-framework.md) and the [code quality rubric](../coding/code-quality.md).
+
+## What they ask (data)
+
+Based on **5** distinct problems tagged to OpenAI in the last 6 months (2 in the last 30 days, 3 in the last 3 months, 18 all-time) across two open datasets of LeetCode company tags. Tags are user-reported, so treat frequency as a signal, not a promise.
+
+**Difficulty mix (last 6 months):** Medium 100%
+
+**Most tagged topics (share of problems):** Array 60%, Design 60%, Hash Table 40%, Simulation 20%, Breadth-First Search 20%, Matrix 20%, Linked List 20%, Doubly-Linked List 20%, String 20%, Bit Manipulation 20%
+
+> **Watch out:** OpenAI has thin LeetCode data. Weight the reported questions and the format notes above more than this list.
+
+### Most frequent problems
+
+Ranked by frequency, weighted toward the last 30 days. Classics like Two Sum sit near the top of almost every company's list because users tag them everywhere. Solve those fast. The signature list below is more specific to this company.
+
+| # | Problem | Difficulty | Last seen | Topics |
+|---|---|---|---|---|
+| 1 | [Design Memory Allocator](https://leetcode.com/problems/design-memory-allocator/) | Medium | 30 days | Array, Hash Table, Design, Simulation |
+| 2 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | 30 days | Array, Breadth-First Search, Matrix |
+| 3 | [Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/) | Medium | 3 months | Hash Table, Linked List, Design, Doubly-Linked List |
+| 4 | [IP to CIDR](https://leetcode.com/problems/ip-to-cidr/) | Medium | 6 months | String, Bit Manipulation |
+| 5 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | Medium | 6 months | Array, Binary Search, Design, Queue |
+
+### Signature problems
+
+Problems where OpenAI accounts for a large share of all recent tags across companies. These are the most OpenAI-specific questions in the data.
+
+| # | Problem | Difficulty | Last seen | Topics |
+|---|---|---|---|---|
+| 1 | [Design Memory Allocator](https://leetcode.com/problems/design-memory-allocator/) | Medium | 30 days | Array, Hash Table, Design, Simulation |
+
+### Reported in 2025 to 2026 interviews
+
+Questions candidates said they got, each linked to the post where it was reported.
+
+| Question | Role | When | Source |
+|---|---|---|---|
+| [Balance tracker: transaction(ts, id, amount, expiration_ts), subtract(ts, amount), get_balance(ts) with unordered events and expiring credits (variant of Time Based Key-Value Store; the same base question appeared in a Nov 2024 new grad screen)](https://leetcode.com/problems/time-based-key-value-store/) | SWE coding round (experienced) | 2025-10 | [post](https://leetcode.com/discuss/post/7281078/bombed-my-coding-round-and-dont-really-k-cm96/) |
+| OA: given two 2D grids, count regions (4-directional, same non-zero value) that are identical in both grids | SWE online assessment (HackerRank) | 2025-01 | [post](https://leetcode.com/discuss/post/6345468/openai-online-assessment-by-anonymous_us-giv7/) |
+| OA: count runs of consecutive numbers from 1..n that contain no forbidden pair | SWE online assessment (HackerRank) | 2025-01 | [post](https://leetcode.com/discuss/post/6345468/openai-online-assessment-by-anonymous_us-giv7/) |
+| System design screen: webhook delivery platform at billions of requests | SWE screening round | 2026-02 | [post](https://leetcode.com/discuss/post/7572435/openai-interview-do-they-just-not-hire-n-lwpb/) |
+| Coding: design a type system for a hobby programming language | SWE screening round | 2026-02 | [post](https://leetcode.com/discuss/post/7572435/openai-interview-do-they-just-not-hire-n-lwpb/) |
+| System design: CI/CD system like GitHub Actions (reliability first, then performance) | SWE onsite | 2026-02 | [post](https://leetcode.com/discuss/post/7572435/openai-interview-do-they-just-not-hire-n-lwpb/) |
+| Coding: count machines in a tree (tree traversal twist) | SWE onsite | 2026-02 | [post](https://leetcode.com/discuss/post/7572435/openai-interview-do-they-just-not-hire-n-lwpb/) |
+| [KV store serialize/deserialize where keys and values may contain any character (length-prefix encoding, close to Encode and Decode Strings)](https://leetcode.com/problems/encode-and-decode-strings/) | SWE coding | 2025-08 | [post](https://www.hellointerview.com/blog/openai-coding-questions) |
+| Resumable iterator that can pause, resume, skip and reset | SWE coding | 2025-08 | [post](https://www.hellointerview.com/blog/openai-coding-questions) |
+| [In-memory database with SQL operations (tables, insert, select with WHERE); compare Design SQL](https://leetcode.com/problems/design-sql/) | SWE coding | 2025-08 | [post](https://www.hellointerview.com/blog/openai-coding-questions) |
+| [Unix cd command with symbolic link resolution and cycle detection (extends Simplify Path)](https://leetcode.com/problems/simplify-path/) | SWE coding | 2025-08 | [post](https://www.hellointerview.com/blog/openai-coding-questions) |
+| [Spreadsheet formula evaluation with cell dependencies and cycle detection (compare Design Excel Sum Formula)](https://leetcode.com/problems/design-excel-sum-formula/) | SWE coding | 2025-08 | [post](https://www.hellointerview.com/blog/openai-coding-questions) |
+| [Multithreaded web crawler (dedupe URLs, coordinate threads, handle failures)](https://leetcode.com/problems/web-crawler-multithreaded/) | SWE coding | 2025-08 | [post](https://www.hellointerview.com/blog/openai-coding-questions) |
+| Design a credit tracking service for user token balances | SWE coding (L4 guide) |  | [post](https://www.hellointerview.com/guides/openai/l4) |
+| Implement KL divergence for continuous distributions (formula provided) | SWE coding (math-flavored) |  | [post](https://interviewing.io/openai-interview-questions) |
+| [Design Memory Allocator (most frequent OpenAI-tagged LeetCode problem in the last 30 days and 3 months, data as of Jun 2025)](https://leetcode.com/problems/design-memory-allocator/) | LeetCode company tag | 2025-06 | [post](https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/5.%20All.csv) |
+| [Rotting Oranges (OpenAI-tagged, last 30 days and 3 months, data as of Jun 2025)](https://leetcode.com/problems/rotting-oranges/) | LeetCode company tag | 2025-06 | [post](https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/5.%20All.csv) |
+
+## Beyond LeetCode
+
+Project walkthrough or technical presentation (2024 interns had a project walkthrough round; experienced loops expect about 30 minutes of slides plus Q&A). Take-home with live extension (48-hour window, about 6 hours, webhook delivery service). Agentic coding round (beta): existing codebase plus an AI coding agent. Practical component builds instead of puzzles. For Applied Emerging Talent roles the job is product engineering (React, Python, Postgres), so shipped full-stack work is directly relevant.
+
+## System design
+
+Not part of the reported 2025 new grad loop (coding plus behavioral). For 1 to 3+ years, expect 1 to 2 system design rounds (one can be a phone screen) in Excalidraw, with heavy drilling into how components work internally (queues, caches, load balancers, database internals, sometimes GPU and model serving). Reported prompts: webhook delivery platform with 24-hour retries, Slack MVP in two weeks, CI/CD like GitHub Actions, payment system, online chess, ChatGPT, notifications system. interviewing.io advises not to name-drop technologies you cannot explain in depth.
+
+Start with [who needs system design](../system-design/index.md), then the [framework](../system-design/framework.md).
+
+## Behavioral
+
+**Framework:** OpenAI values (Humanity first; Act with humility; Feel the AGI; Ship joy) and operating principles (Find a way; Creativity over control; Update quickly; Intense focus), plus the OpenAI Charter. ([official page](https://openai.com/careers/))
+
+**What they look for:**
+
+- Official: collaboration, effective communication, openness to feedback, and alignment with the mission and values
+- Official: high potential, meaning you ramp up quickly in a new domain and produce results; not credential-driven
+- Ownership beyond your defined role
+- Cross-functional work with researchers, product and safety teams
+- A considered view on AI safety and ethics
+
+**Questions to prepare:**
+
+- Why OpenAI?
+- Tell me about a conflict and how you resolved it.
+- Tell me about a time you did something outside your defined responsibilities.
+- Describe a time you failed and how you handled it.
+- Tell me about a time you had to influence a peer who disagreed with you.
+- Tell me about a time you had to consider AI safety implications.
+- If you were deciding whether to release a new AI model, what criteria would you use?
+- Walk me through a past project: your decisions versus the team's, tradeoffs, and what you would change.
+
+Build your answers with the [story bank](../behavioral/story-bank.md). Company detail: [behavioral guide](../behavioral/other-companies.md).
+
+## Tips
+
+- Practice building one component per hour in your interview language with no AI: time-based KV store, in-memory DB with WHERE/ORDER BY/DELETE, resumable iterator, spreadsheet with cycle detection. Get a working version, then extend it.
+- Write tests as you code. The official guide grades design, code quality, performance and test coverage together.
+- Read every line of the prompt before coding. One 2025 candidate burned time optimizing when the instructions said performance did not matter.
+- For the Emerging Talent OA, drill DP and graph problems in HackerRank format with stdin parsing, camera on and screen shared.
+- Go to OpenAI campus events and join the Emerging Talent Community: a 2024 intern applied with a priority link from a campus event.
+- Prepare one project for an in-depth walkthrough: what you did versus the team, the architecture, a key request path, tradeoffs and numbers.
+- Read the OpenAI Charter and recent blog posts for your target team; have a specific 'why OpenAI' and a view on AI safety.
+- The 2027 Applied Emerging Talent posting asks for React, Python and Postgres. A shipped full-stack project with real users matches that job better than extra LeetCode volume.
+
+## 4-week plan for OpenAI
+
+Do this after you finish a core list like [Grind 75 or NeetCode 150](../coding/problem-lists.md).
+
+- [ ] Week 1: Solve problems 1 to 20 from the most frequent list. Time-box each at 30 minutes.
+- [ ] Week 2: Solve problems 21 to 40. Re-solve any you failed in week 1 without looking.
+- [ ] Week 3: Solve the signature problems and every reported question above. Do 2 timed mock interviews.
+- [ ] Week 4: Write 8 stories for the OpenAI values (Humanity first; Act with humility; Feel the AGI; Ship joy) and operating principles (Find a way; Creativity over control; Update quickly; Intense focus), plus the OpenAI Charter. round. Do 2 full mock loops. Review the online assessment and system design notes above.
+
+## Sources
+
+- Question data: [liquidslr/leetcode-company-wise-problems](https://github.com/liquidslr/leetcode-company-wise-problems) and [snehasishroy/leetcode-companywise-interview-questions](https://github.com/snehasishroy/leetcode-companywise-interview-questions), merged and ranked by [scripts/build_question_data.py](https://github.com/jugaldb/faang-interview-prep/blob/main/scripts/build_question_data.py).
+- <https://openai.com/interview-guide/>
+- <https://openai.com/careers/>
+- <https://openai.com/careers/emerging-talent/>
+- <https://openai.com/residency/>
+- <https://openai.com/charter/>
+- <https://openai.com/student-collective/>
+- <https://jobs.ashbyhq.com/openai/55150071-fce8-48f5-aea4-14ed78b83511>
+- <https://jugaldb.substack.com/p/openai-will-pay-you-to-lead-ai-on>
+- <https://www.levels.fyi/companies/openai/salaries/software-engineer>
+- <https://www.levels.fyi/companies/openai/salaries/software-engineer/levels/l2>
+- <https://www.levels.fyi/companies/openai/salaries/software-engineer/levels/l3>
+- <https://www.levels.fyi/internships/OpenAI/Software-Engineer-Intern/>
+- <https://www.hellointerview.com/guides/openai/l4>
+- <https://www.hellointerview.com/blog/openai-coding-questions>
+- <https://interviewing.io/openai-interview-questions>
+- <https://igotanoffer.com/en/advice/openai-software-engineer-interview>
+- <https://github.com/liquidslr/leetcode-company-wise-problems>
+- <https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/OpenAI/5.%20All.csv>
+- <https://leetcode.com/discuss/post/7572435/openai-interview-do-they-just-not-hire-n-lwpb/>
+- <https://leetcode.com/discuss/post/6345468/openai-online-assessment-by-anonymous_us-giv7/>
+- <https://leetcode.com/discuss/post/7281078/bombed-my-coding-round-and-dont-really-k-cm96/>
+- <https://leetcode.com/discuss/post/6028435/openai-phone-screen-questions-results-ne-p8s5/>
+- <https://leetcode.com/discuss/post/6296394/openai-final-round-for-swe-by-anonymous_-tqzf/>
+- <https://www.reddit.com/r/csMajors/comments/1o6is4y/openai_swe_newgrad_ng_technical_interview/>
+- <https://www.reddit.com/r/csMajors/comments/1nw5221/openai_new_grad_swe_oa/>
+
+> **Watch out:** All URLs above were fetched and checked on Oct 4, 2026 [VERIFIED]: openai.com pages via a browser (curl gets 403 from Cloudflare); LeetCode Discuss posts via LeetCode's GraphQL API (the web pages block curl); Reddit posts via the Arctic Shift archive API plus a crawler load. Uncertain: (1) OpenAI's process is decentralized and changes by team; the new grad loop shape comes from one recruiter portal description in Oct 2025 plus intern reports from 2024. (2) OA details rest on a handful of posts. (3) Levels.fyi samples are small (13 at L2, 14 at L3). (4) The agentic coding round is a pilot per interviewing.io. (5) Hello Interview and interviewing.io guides target experienced hires. (6) The OpenAI Residency's 2026 applications are closed (official page); it is a 6-month paid program, not a new grad role. (7) The OpenAI Student Collective (Jugal's Aug 2026 post) is a paid campus-lead community role for undergraduates, not an engineering internship. Reddit subs r/InterviewCoderHQ, r/Hack2Hire and r/OfferEngineering promote paid tools and were not used as sources of fact. A Nov 2024 new grad phone screen (balance at timestamp) is older than 2025 and is referenced only as context.
+
+Next: [All companies](index.md)

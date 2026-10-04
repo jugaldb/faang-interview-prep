@@ -1,0 +1,211 @@
+# Qualcomm interview guide
+
+Snapdragon chips, modems, WiFi and on-device AI. Team-run, low-level interviews: C/C++ internals, pointers, bit manipulation, OS, plus LeetCode easy/medium coding. Updated October 2026.
+
+| | |
+|---|---|
+| **Category** | Big Tech |
+| **Intern level** | Intern (US titles like Software Engineering Intern, Embedded Software Engineer Intern; India 'Interim Engineering Intern'). US internships are 12 to 14 weeks in summer. |
+| **New grad level** | Associate Engineer (Levels.fyi entry level; India reports typically 0 to 1 years). Some 0 YOE campus hires report role titles without 'Associate' (ML Systems Engineer, IIT MTech, Bengaluru, May 2025); the band behind that title is not stated. |
+| **0 to 3 years** | Engineer (Levels.fyi India: typically 2 to 3 years; India offers at 2 YOE in Nov 2025 and about 3 YOE in Sep 2026 were 'Engineer'), then Senior Engineer. Ladder: Associate Engineer, Engineer, Senior Engineer, Staff, Senior Staff, Principal. |
+| **Online assessment** | Not consistently named in reports; India campus OAs are proctored online MCQ tests. Many US loops have no OA. : India campus (Aug 2026): 60 questions in 90 min, 3 sections of 20 (aptitude, technical, course-specific), 30 min each, +1 / -0.25 marking; heavy on C/C++ output prediction, bit manipulation, pointers, OS, computer architecture and data structures. Some India hiring drives instead start with an in-person coding round (3 LeetCode mediums plus 1 hard). Experienced embedded roles: an initial screening with 3 coding questions (linked lists, strings, math). |
+| **Coding rounds** | 2 to 4 rounds with coding, often several small problems per round (one negative US review mentions 5 to 6 LeetCode questions in a loop). |
+| **Behavioral** | No branded framework. Careers page: 'We are limitless' (a culture of collaboration, inventiveness, tenacity and passion). Expect a hiring manager behavioral round and resume questions. The interview policy also tells you not to disclose confidential or trade secret information from current or past employers; describe past projects at a high level. |
+| **Timeline** | US internship applications open in September and close April to May; program runs May/June to August/September (official Americas page). India: summer and 6-month internship postings open July, close December; 11-month program opens March, closes June (official India page). Campus loops in India often finish in one day (R2 started 30 min after R1). Panel interviews for some US roles took over a month to complete. No hiring committee or team matching: each team runs its own loop, and you may be re-routed to another team (one US intern was redirected from systems to software engineering). Official FAQ: replies can take longer than a few days; tell your recruiter about urgent deadlines. |
+| **New grad pay** | Levels.fyi (updated 2026-10-04): Greater San Diego Associate Engineer average total comp about $127.7K (base $107.5K, stock $12.3K/yr, bonus $7.9K); Engineer about $156.3K (base $122.7K, stock $27K, bonus $6.7K). India medians: Associate Engineer ₹1.97M, Engineer ₹3.04M. Levels.fyi Qualcomm intern page: US SWE intern median about $52/hr across 2025 to 2026 (5 US reports, $51 to $54; a Summer 2026 San Diego report lists $54/hr plus $1,500/month housing and relocation). India offers (LeetCode): Associate Engineer Hyderabad 2025 grad ₹15L base plus $10K RSUs over 3 years, about ₹30L total (Jun 2025); ML Systems Engineer (IIT MTech, 0 YOE) about ₹51L including $16K RSUs and $10K variable (May 2025). RSUs vest over 3 years in most India offers. |
+| **Official links** | [Careers](https://www.qualcomm.com/company/careers), [Students](https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities), [Official interview prep](https://www.qualcomm.com/company/careers/faqs), [Values](https://www.qualcomm.com/company/careers) |
+
+## Interview process
+
+### New grad
+
+1. **Application or campus/event contact.** Apply per job on the Qualcomm careers site (you may apply to as many roles as you like). Recruiters also source at events: one US intern was contacted before Grace Hopper; another came through a student accelerator program.
+2. **Recruiter or hiring manager screen.** 20 to 30 min phone/video: background, coursework, a project deep dive, and quick technical checks (C/C++ definitions and macros, virtual memory, MMU, TCP vs UDP). Some include one live coding question.
+3. **Technical interviews.** Typically 2 to 3 rounds (in person on a whiteboard or virtual), each mixing LeetCode easy/medium (Two Sum, two pointers, linked lists, graph traversal, merge k sorted lists) with C/C++ depth (pointers, memory management, structs, memory leaks) and OS. Team-specific content: ML training loops and transformer design for AI teams, graphics pipeline for GPU teams, embedded C for firmware/DSP.
+4. **Hiring manager / behavioral.** Behavioral plus role fit. Official FAQ: the talent team guides you through the interview phase including trip arrangements and pre-interview preparation.
+5. **Offer.** Official: results are reviewed and, if you are the most qualified, a recruiter presents the offer. Teams interview independently, and candidates report slow or no feedback.
+
+### Intern
+
+1. **Eligibility and timing (US).** Must be enrolled in a Bachelors, Masters or PhD program with at least one term left after the internship; available 11 to 14 weeks in summer. US and Canada postings open in September and close April to May; internships start May to June and end August to September.
+2. **Screen.** A screening test or call, then one or two interviews.
+3. **Interviews.** US 2025 reports: two interviews with LeetCode easy/medium plus resume behavioral; in-person whiteboard LeetCode plus C++ and Python questions; a two-pointer medium followed by a systems C++ round (pointers, memory, structs, leaks, Python set properties). Hardware interns get ASIC/RTL questions instead.
+4. **Campus (India-style).** Campus OA (Aug 2026): 60 MCQs in 90 min (aptitude, technical, course-specific; -0.25 negative marking), then Technical 1 (OS/RTOS depth), Technical 2 (bit manipulation, linked list code on paper, C output prediction), HR. Official India page: summer and 6-month intern postings open July and close December; the 11-month program opens March and closes June.
+
+### With 1 to 3 years of experience
+
+For 1 to 3 years: usually 2 to 3 elimination rounds (two technical plus hiring manager) or a screening coding test plus 3 to 4 onsite rounds. Difficulty rises to medium/hard: Binary Tree Maximum Path Sum, a twisted LRU cache, Reverse Nodes in k-Group, plus OS memory topics (thrashing, fragmentation, virtual memory) and C++ (virtual functions, storage classes). Domain rounds go deep (WiFi: hostapd, cfg80211/nl80211, association flow; device drivers: bit tricks and linked lists; Linux kernel). One CV engineer (3 YOE) had a single 2.5-hour interview split into five 30-min sections (behavioral, projects, DSA, computer vision, advanced ML). Several India candidates were interviewed by multiple teams in sequence without feedback.
+
+## Online assessment
+
+- **Platform:** Not consistently named in reports; India campus OAs are proctored online MCQ tests. Many US loops have no OA.
+- **Format:** India campus (Aug 2026): 60 questions in 90 min, 3 sections of 20 (aptitude, technical, course-specific), 30 min each, +1 / -0.25 marking; heavy on C/C++ output prediction, bit manipulation, pointers, OS, computer architecture and data structures. Some India hiring drives instead start with an in-person coding round (3 LeetCode mediums plus 1 hard). Experienced embedded roles: an initial screening with 3 coding questions (linked lists, strings, math).
+- **Notes:** Qualcomm's Interview Policy forbids using AI tools, bots or LLMs during assessments or interviews (unless Qualcomm asks you to), forbids recording or transcribing interviews, and allows identity verification at any stage.
+
+Prepare with [How to pass an OA](../online-assessments/strategy.md) and compare formats in [OA formats by company](../online-assessments/company-oa-formats.md).
+
+## Coding rounds
+
+- **Rounds:** 2 to 4 rounds with coding, often several small problems per round (one negative US review mentions 5 to 6 LeetCode questions in a loop).
+- **Style:** LeetCode easy/medium (linked lists, arrays, bit manipulation, trees, graphs, two pointers), occasionally hard for experienced. Plus C snippets: guess the output, find the bug (e.g., a faulty factorial), implement sizeof, reverse bytes, custom malloc.
+- **Environment:** Whiteboard or pen and paper in person; shared editor or verbal pseudo-code on video calls. Interviewers may dry-run your paper code themselves.
+- **Graded on:** Correct, low-level reasoning (memory, pointers, bit ops), clean edge-case handling, and explaining concepts from first principles; silly mistakes in C snippets were blamed for at least one rejection (Aug 2026).
+- **Reported focus topics:** C pointers, memory layout, struct padding, storage classes, C++ internals (virtual functions, smart pointers, STL, memory management), Bit manipulation (XOR tricks, set/clear/toggle, swap bits, reverse bytes), Linked lists (cycle, insert, reverse in groups, merge k), Operating systems and RTOS (deadlock, priority inversion, scheduling, virtual memory, paging, mutex), Computer architecture (cache, memory hierarchy, assembly basics), Trees, graphs and stacks (LeetCode easy/medium), Domain: WiFi, graphics, DSP, embedded, on-device ML
+
+Run every practice problem through [the 45-minute framework](../coding/interview-framework.md) and the [code quality rubric](../coding/code-quality.md).
+
+## What they ask (data)
+
+Based on **13** distinct problems tagged to Qualcomm in the last 6 months (0 in the last 30 days, 2 in the last 3 months, 60 all-time) across two open datasets of LeetCode company tags. Tags are user-reported, so treat frequency as a signal, not a promise.
+
+**Difficulty mix (last 6 months):** Medium 38%, Easy 38%, Hard 23%
+
+**Most tagged topics (share of problems):** Array 38%, Hash Table 31%, String 31%, Two Pointers 23%, Linked List 15%, Math 15%, Stack 15%, Dynamic Programming 15%, Depth-First Search 8%, Breadth-First Search 8%
+
+> **Watch out:** Qualcomm has thin LeetCode data. Weight the reported questions and the format notes above more than this list.
+
+### Most frequent problems
+
+Ranked by frequency, weighted toward the last 30 days. Classics like Two Sum sit near the top of almost every company's list because users tag them everywhere. Solve those fast. The signature list below is more specific to this company.
+
+| # | Problem | Difficulty | Last seen | Topics |
+|---|---|---|---|---|
+| 1 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | 3 months | Array, Depth-First Search, Breadth-First Search, Union-Find |
+| 2 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | 3 months | Array, Hash Table |
+| 3 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | 6 months | Linked List, Recursion |
+| 4 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | 6 months | Hash Table, Linked List, Design, Doubly-Linked List |
+| 5 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 6 months | Hash Table, String, Sliding Window |
+| 6 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | 6 months | Array, Hash Table, Divide and Conquer, Sorting |
+| 7 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | 6 months | Math |
+| 8 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | 6 months | String, Stack, Bracket Sequences |
+| 9 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | 6 months | Two Pointers, String |
+| 10 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | 6 months | Array, Two Pointers, Dynamic Programming, Stack |
+| 11 | [Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/) | Hard | 6 months | Two Pointers, String, Lyndon Factorization |
+| 12 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Medium | 6 months | Array, Binary Search, Ternary Search |
+| 13 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | 6 months | Math, Dynamic Programming, Combinatorics |
+
+### Signature problems
+
+Problems where Qualcomm accounts for a large share of all recent tags across companies. These are the most Qualcomm-specific questions in the data.
+
+| # | Problem | Difficulty | Last seen | Topics |
+|---|---|---|---|---|
+| 1 | [Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/) | Hard | 6 months | Two Pointers, String, Lyndon Factorization |
+
+### Reported in 2025 to 2026 interviews
+
+Questions candidates said they got, each linked to the post where it was reported.
+
+| Question | Role | When | Source |
+|---|---|---|---|
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Entry Level SWE (6-round loop) | 2025-03 | [post](https://leetcode.com/discuss/post/6594115/qualcomm-swe-interview-experience-by-jas-a0zl/) |
+| Implement a secure password generator with length and character-type constraints | Entry Level SWE (6-round loop) | 2025-03 | [post](https://leetcode.com/discuss/post/6594115/qualcomm-swe-interview-experience-by-jas-a0zl/) |
+| Frontend design: reusable, accessible 5-star rating React component | Entry Level SWE (6-round loop) | 2025-03 | [post](https://leetcode.com/discuss/post/6594115/qualcomm-swe-interview-experience-by-jas-a0zl/) |
+| Given a failing job in a dependency graph, list every job that will fail (DFS / topological order) | Entry Level SWE (6-round loop) | 2025-03 | [post](https://leetcode.com/discuss/post/6594115/qualcomm-swe-interview-experience-by-jas-a0zl/) |
+| [Two Sum (plus other LeetCode easy/medium and resume behavioral)](https://leetcode.com/problems/two-sum/) | Software Engineer Intern (US) | 2025-10 | [post](https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-engineer-intern-united-states-october-3-2025-no-offer-neutral-626ae82f) |
+| Two-pointer LeetCode medium; then C++ pointers, memory management, structs, finding a memory leak, Python set properties | Software Engineering Intern (San Diego, offer) | 2025-11 | [post](https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-engineering-intern-san-diego-california-november-7-2025-accepted-offer-positive-329884b0) |
+| Linked list question plus a graph traversal question | Software Internship (US) | 2025-04 | [post](https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-internship-united-states-april-13-2025-no-offer-neutral-153d93e1) |
+| [Merge N sorted linked lists into one sorted list (in C)](https://leetcode.com/problems/merge-k-sorted-lists/) | Display Software Engineer (US) | 2025-02 | [post](https://www.jointaro.com/interviews/companies/qualcomm/experiences/display-software-engineer-united-states-february-1-2025-no-offer-positive-67cf594b) |
+| [LRU cache implementation (plus OS, cache, virtual memory, assembly)](https://leetcode.com/problems/lru-cache/) | Software Engineer, AI (Austin) | 2025-06 | [post](https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-engineer-ai-austin-tx-june-9-2025-no-offer-positive-e8b252d5) |
+| Spot and fix a buggy factorial program, then a LeetCode question | Embedded Software Developer (California) | 2025-04 | [post](https://www.jointaro.com/interviews/companies/qualcomm/experiences/embedded-software-developer-california-city-ca-april-1-2025-no-offer-positive-3070e748) |
+| [Binary Tree Maximum Path Sum (after max element in a binary tree)](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Engineer, C++ (~1 YOE) | 2025-06 | [post](https://leetcode.com/discuss/post/6806397/qualcomm-engineer-interview-experience-b-6ndk/) |
+| [Asteroid Collision (similar)](https://leetcode.com/problems/asteroid-collision/) | Engineer, C++ (~1 YOE) | 2025-06 | [post](https://leetcode.com/discuss/post/6806397/qualcomm-engineer-interview-experience-b-6ndk/) |
+| [Reverse Nodes in k-Group (similar) and a twisted LRU cache](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Engineer, C++ (~1 YOE) | 2025-06 | [post](https://leetcode.com/discuss/post/6806397/qualcomm-engineer-interview-experience-b-6ndk/) |
+| [Single Number via XOR, then Single Number II (others appear three times)](https://leetcode.com/problems/single-number-ii/) | Software Engineer, WiFi | 2025-09 | [post](https://leetcode.com/discuss/post/7182259/interview-experience-qualcomm-software-e-mrwb/) |
+| Implement a custom malloc | Software Engineer, WiFi | 2025-09 | [post](https://leetcode.com/discuss/post/7182259/interview-experience-qualcomm-software-e-mrwb/) |
+| [Find two non-repeating elements where all others repeat twice](https://leetcode.com/problems/single-number-iii/) | Engineer, Device Driver Development | 2026-03 | [post](https://leetcode.com/discuss/post/7631959/qualcomm-interview-problems-engineer-dev-mpk4/) |
+| Swap two bits of an integer; count how often y's bit pattern appears in x's | Engineer, Device Driver Development | 2026-03 | [post](https://leetcode.com/discuss/post/7631959/qualcomm-interview-problems-engineer-dev-mpk4/) |
+| [Detect and remove a cycle in a linked list (written on paper)](https://leetcode.com/problems/linked-list-cycle-ii/) | Software Engineer, on-campus | 2026-08 | [post](https://leetcode.com/discuss/post/8472889/qualcomm-software-engineer-oncampus-inte-sfli/) |
+| Find the size of a struct without sizeof; struct padding; remove duplicates from an unsorted linked list without extra memory | Software Engineer, on-campus | 2026-08 | [post](https://leetcode.com/discuss/post/8472889/qualcomm-software-engineer-oncampus-inte-sfli/) |
+| Implement smart pointers; C++ memory management and language internals | C++/AIML Engineer hiring drive (Pune) | 2026-06 | [post](https://leetcode.com/discuss/post/8338035/qualcomm-interview-experience-2026-caiml-kpzt/) |
+| Insert a node at any position in a linked list; map variables to C memory segments; recursive sum of first N numbers | Associate Software Engineer, WiFi (Bengaluru, onsite) | 2025-09 | [post](https://leetcode.com/discuss/post/7182460/interview-experience-qualcomm-associate-vkijg/) |
+| [Merge K sorted 'trains' (linked lists) into one sorted train](https://leetcode.com/problems/merge-k-sorted-lists/) | Engineer, Device Driver Development | 2026-03 | [post](https://leetcode.com/discuss/post/7631959/qualcomm-interview-problems-engineer-dev-mpk4/) |
+| Implement sizeof yourself; reverse the bytes in a number; structure padding; pointer output questions; static variables in C | Interview (role not stated; C and WinDbg questions) | 2025-12 | [post](https://leetcode.com/discuss/post/7387409/qualcomm-interview-experience-by-nithesh-1d2k/) |
+| Implement a mutex; stack and queue coding questions; a backtracking problem after a project grilling (4-round onsite after a 3-question screening) | Embedded Software Engineer | 2025-06 | [post](https://leetcode.com/discuss/post/6831002/interview-experience-at-qualcomm-embedde-m37q/) |
+
+## Beyond LeetCode
+
+C/C++ output prediction (multi-level pointers, static variables, arrays), struct padding and implementing sizeof without the operator, C memory layout (text, data, BSS, heap, stack), compilation stages, custom malloc, smart pointers, bit masking (set/clear/toggle, swap bits, count a bit pattern), OS/RTOS (priority inversion, scheduling, deadlock, virtual memory, paging), domain rounds (WiFi frames and power save, hostapd; GPU pipeline; DSP), ML coding (training loops), hardware intern RTL (frequency dividers f/2, f/3, ASIC flow), debugging WinDbg experience, and practical API tasks (match report from a public API) in one entry-level loop.
+
+## System design
+
+Not standard for new grads. Low-level design shows up instead: LRU cache variants, custom malloc, smart pointer implementation, scheduler design criteria, circular buffers. Frontend teams may ask component design (a reusable 5-star rating React component in a 6-round entry-level loop). AI/ML teams ask encoder/decoder or training-loop system design (San Diego SWE, Oct 2025).
+
+Start with [who needs system design](../system-design/index.md), then the [framework](../system-design/framework.md).
+
+## Behavioral
+
+**Framework:** No branded framework. Careers page: 'We are limitless' (a culture of collaboration, inventiveness, tenacity and passion). Expect a hiring manager behavioral round and resume questions. The interview policy also tells you not to disclose confidential or trade secret information from current or past employers; describe past projects at a high level. ([official page](https://www.qualcomm.com/company/careers))
+
+**What they look for:**
+
+- Depth over breadth: can you explain how something works internally
+- Clear explanation of your own projects (embedded, image processing, ML)
+- Interest in the specific team domain (WiFi, graphics, DSP, AI)
+- Calm communication under pressure (several rejections cite nerves)
+- Personal participation and honesty (interview policy bans AI help and impersonation)
+- Respect for confidentiality: do not share prior employers' trade secrets
+
+**Questions to prepare:**
+
+- How do you deal with a strict manager? (Entry Level SWE, Mar 2025)
+- How do you handle strict deadlines and unclear instructions? (Entry Level SWE, Mar 2025)
+- Tell me about yourself. (Display Software Engineer, US, Feb 2025)
+- Describe your current responsibilities and key achievements. (Software Engineer, WiFi, Sep 2025)
+- What do you know about the company, and how does your background fit the role? (Embedded SWE, San Diego, Jan 2025)
+- What do you know about the graphics pipeline? (Computer Graphics Engineer, US, Jul 2025)
+
+Build your answers with the [story bank](../behavioral/story-bank.md). Company detail: [behavioral guide](../behavioral/other-companies.md).
+
+## Tips
+
+- Drill C output-prediction questions with multi-level pointers, statics and arrays; one 2026 on-campus rejection came from small mistakes there.
+- Be able to write code on paper or a whiteboard without an IDE; interviewers may dry-run it themselves.
+- Revise OS deeply (deadlock, priority inversion, virtual memory, paging, scheduling) and explain with diagrams.
+- Apply to US internships in September; the official Americas page says postings open in September and close April to May.
+- Read the team's domain in the JD (WiFi, GPU, DSP, AI) and prepare 2 domain questions; domain rounds are where experienced candidates fail.
+- Expect independent team loops: interviewing with several Qualcomm teams in a row, without feedback, is normal.
+- Follow the Interview Policy: no AI tools, no recording or transcription, same person in every round; violations disqualify you.
+- Citizens of US-embargoed countries: Qualcomm must get US government export authorization before you start, so raise it early with the recruiter.
+
+## 4-week plan for Qualcomm
+
+Do this after you finish a core list like [Grind 75 or NeetCode 150](../coding/problem-lists.md).
+
+- [ ] Week 1: Solve problems 1 to 20 from the most frequent list. Time-box each at 30 minutes.
+- [ ] Week 2: Solve problems 21 to 40. Re-solve any you failed in week 1 without looking.
+- [ ] Week 3: Solve the signature problems and every reported question above. Do 2 timed mock interviews.
+- [ ] Week 4: Write 8 stories for the No branded framework. Careers page: 'We are limitless' (a culture of collaboration, inventiveness, tenacity and passion). Expect a hiring manager behavioral round and resume questions. The interview policy also tells you not to disclose confidential or trade secret information from current or past employers; describe past projects at a high level. round. Do 2 full mock loops. Review the online assessment and system design notes above.
+
+## Sources
+
+- Question data: [liquidslr/leetcode-company-wise-problems](https://github.com/liquidslr/leetcode-company-wise-problems) and [snehasishroy/leetcode-companywise-interview-questions](https://github.com/snehasishroy/leetcode-companywise-interview-questions), merged and ranked by [scripts/build_question_data.py](https://github.com/jugaldb/faang-interview-prep/blob/main/scripts/build_question_data.py).
+- <https://www.qualcomm.com/company/careers>
+- <https://www.qualcomm.com/company/careers/faqs>
+- <https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities>
+- <https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities/americas>
+- <https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities/india>
+- <https://www.qualcomm.com/site/privacy/qualcomm-interview-policy>
+- <https://careers.qualcomm.com/careers>
+- <https://www.levels.fyi/companies/qualcomm/salaries/software-engineer>
+- <https://www.levels.fyi/companies/qualcomm/salaries/software-engineer/levels/associate-engineer/locations/greater-san-diego-area>
+- <https://www.levels.fyi/companies/qualcomm/salaries/software-engineer/levels/engineer/locations/greater-san-diego-area>
+- <https://www.levels.fyi/internships/Qualcomm/Software-Engineer-Intern/>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-engineering-intern-san-diego-california-november-7-2025-accepted-offer-positive-329884b0>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/embedded-software-engineer-intern-united-states-november-1-2025-accepted-offer-positive-60b80d64>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/dsp-software-engineer-united-states-october-23-2025-no-offer-neutral-4f867dc1>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/display-software-engineer-united-states-february-1-2025-no-offer-positive-67cf594b>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-internship-united-states-april-13-2025-no-offer-neutral-153d93e1>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-engineer-united-states-june-1-2025-no-offer-negative-dec673a0>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/gpu-software-engineer-united-states-october-8-2025-no-offer-neutral-3c4cd950>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-engineer-intern-united-states-october-3-2025-no-offer-neutral-626ae82f>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/embedded-software-developer-california-city-ca-april-1-2025-no-offer-positive-3070e748>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-engineer-san-diego-ca-october-5-2025-no-offer-negative-22630ca8>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/embedded-software-engineer-san-diego-ca-january-1-2025-no-offer-neutral-7cffc826>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/software-engineer-ai-austin-tx-june-9-2025-no-offer-positive-e8b252d5>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/embedded-software-engineer-san-diego-ca-february-1-2025-no-offer-negative-f0fed87f>
+- <https://www.jointaro.com/interviews/companies/qualcomm/experiences/swe-san-diego-ca-june-7-2025-accepted-offer-positive-8fee1360>
+
+> **Watch out:** Re-verified 2026-10-04 by a second fact-check pass: every URL fetched (Qualcomm careers pages are JavaScript apps; their text was read from the public AEM '.model.json' data for the same URL, and the HTML URLs return 200; LeetCode posts and problem slugs via LeetCode's public GraphQL API; Taro pages read server-rendered). Fixes in this pass: removed the 'Engineering human progress' tagline (not found on the cited pages) and qualcomm.com/company/about (it redirects to /company and supported only that tagline); the early-career line no longer claims a 3 YOE 'Senior Engineer' report (the ~3 YOE Sep 2026 offer was 'Engineer'); 'India' tags were removed where the post does not say where the candidate interviewed; the generic Levels.fyi internships link was replaced with the Qualcomm intern page. Glassdoor returned 403 and is not used. Many detailed question reports are from India; US reports (Taro, data ending late 2025) are short. The 6-round 'Entry Level SWE' post (Mar 2025) does not state a location and looks like a frontend/full-stack team, so it is not typical of systems teams. The 60-question campus OA post (Aug 2026) does not name the country; its aptitude-heavy format matches Indian campus tests. Level titles for US new grads with MS degrees (Associate Engineer vs Engineer) are not confirmed by an official source. India candidates reported a hiring freeze with offers on hold after positive feedback (Aug to Sep 2025); 2026 posts show offers again, so treat hiring volume as variable. No Jugal Substack post covers Qualcomm.
+
+Next: [All companies](index.md)

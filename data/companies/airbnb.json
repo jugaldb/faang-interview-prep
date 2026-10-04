@@ -1,0 +1,307 @@
+{
+  "slug": "airbnb",
+  "name": "Airbnb",
+  "category": "Big Tech",
+  "one_liner": "Travel marketplace (stays, experiences). Known for hard multi-part coding with runnable code, a CodeSignal progressive OA (2026), a code review round (since 2024), and a separate core values interview.",
+  "careers_url": "https://careers.airbnb.com/",
+  "students_url": "https://careers.airbnb.com/internship-programs/",
+  "interview_prep_url": "",
+  "levels": {
+    "intern": "Software Engineering Intern (12-week US summer program; 2026 posting was US remote-eligible)",
+    "new_grad": "G7 (Software Engineer, entry level on Levels.fyi)",
+    "early_career": "G7 for roughly 0 to 3 yrs (an India G7 offer in Mar 2026 went to a 2y10m engineer); G8 (Software Engineer, mid) for stronger 2 to 5 yr candidates. G9 = Senior."
+  },
+  "process_new_grad": [
+    {
+      "stage": "Application",
+      "details": "New grad postings appear in spring, not fall: 'Software Engineer New Grad' and 'iOS Software Engineer New Grad' posted Apr 28 to 30, 2026 (Seattle or SF, hybrid 3 days/week on-site, base $128K to $142K, <1 yr full-time experience). Postings ask for CS fundamentals plus foundational AI/ML awareness (LLM APIs, model evaluation)."
+    },
+    {
+      "stage": "Recruiter screen",
+      "details": "30 min. Background, motivation, 'why Airbnb'. Hello Interview G8 guide says the first call may be with a recruiter or hiring manager."
+    },
+    {
+      "stage": "Online assessment (CodeSignal, often auto-sent)",
+      "details": "Changed in 2026: Jul to Sep 2026 reports say Airbnb emails a CodeSignal Industry Coding Assessment right after you apply (one Sep 2026 candidate: 'probably sent automatically'). One progressive build in a single codebase with 4 levels; the next level unlocks only after the current level's tests pass; scored out of 600; screen share and mic stay on for the whole test. Reported tasks: banking system, cloud storage / in-memory file system, task management system. A perfect score still ended in rejection a week later for one Aug 2026 candidate. Reports are labeled Software Engineer or SSE; not confirmed for the new grad postings specifically."
+    },
+    {
+      "stage": "Technical screen",
+      "details": "60 min live coding on CoderPad. Hello Interview says one or two problems; candidate reports usually describe one long multi-part problem (DP, graph, simulation). Code must run: interviewing.io says 'Pseudocode is not allowed' and you must write working code and run it; Hello Interview says production quality code, not pseudocode sketches."
+    },
+    {
+      "stage": "Virtual onsite",
+      "details": "Coding (60 min, multi-part, production-quality code), Code Review (60 min, review about 3 GitHub pull requests and leave written comments; Hello Interview says it replaced the second coding round in 2024, and a Mar 2026 candidate confirmed 3 PRs), plus a system design or technical-experience round depending on level. At G7 the design bar is lower, but candidates report it still appears in some loops."
+    },
+    {
+      "stage": "Core values interview",
+      "details": "Separate gate, often scheduled after the technical onsite. interviewing.io calls these 'Host' interviews 'conducted by non-engineers' and says 'fail these and you won't get an offer'; Hello Interview lists it as a 30-min mandatory gatekeeper. Questions map to the four values (Champion the Mission, Be a Host, Embrace the Adventure, Be a Cereal Entrepreneur). A Jan 2026 candidate (PracHub) said it ended early after about 20 minutes."
+    },
+    {
+      "stage": "Team match and offer",
+      "details": "Post-onsite conversations with hiring managers. A Mar 2026 candidate reported hearing team match can take months (claim, not measured)."
+    }
+  ],
+  "process_intern": [
+    {
+      "stage": "Application window",
+      "details": "Short fixed windows. Summer 2026 SWE intern posting: Dec 8 to 17, 2025 and Jan 12 to 21, 2026 (first window 'offers the best chance to be considered'), 12 weeks, BS/MS with 1 to 2 semesters left (graduating Dec 2026 to Jun 2027). Official internship page: USA summer program is 12 weeks (May to August), applications December to February, open to full-time students with at least one semester remaining."
+    },
+    {
+      "stage": "Recruiter screen",
+      "details": "Short call."
+    },
+    {
+      "stage": "Technical interviews",
+      "details": "Reported: two 45-min coding interviews on Zoom plus CoderPad (DSA, edge cases, complexity), LeetCode medium to hard. Source is a Nov 2025 Glassdoor intern review seen only in search snippets (UNVERIFIED)."
+    },
+    {
+      "stage": "Values interview",
+      "details": "Reported: one 45-min cross-team values interview (collaboration, ownership, communication, product sense). Same UNVERIFIED Glassdoor source. Example values prompts reported: most memorable trip, an organization you admire, a time you stood up for something."
+    },
+    {
+      "stage": "Decision",
+      "details": "About two weeks from scheduling to decision per the same UNVERIFIED snippet. Official page: Airbnb's goal is for interns to join full time, but conversion depends on 'individual performance and business-need'."
+    }
+  ],
+  "process_experienced_notes": "For 1 to 3 yrs the loop is the same centralized process (interviewing.io: everyone follows one process, grading shifts by level). Expect a 60-min system design screen or onsite round (Miro/Excalidraw) and a Technical Experience deep dive on one past project (scope and impact decide G7 vs G8). G8 loop per Hello Interview (2026): recruiter/HM screen, CoderPad coding screen, system design screen, onsite coding, code review, system design, 30-min core values. India hiring (Bangalore, 'Work from Anywhere (India)') uses the same format: a Mar 2026 India SWE loop had a topological-sort screen, two 45-min coding rounds with strict timeboxing and a dry run at the end.",
+  "timeline": "Hello Interview: 3 to 5 weeks from first contact to decision, plus team matching. interviewing.io: offers typically within about a week of successful team matching. 2026: the CodeSignal OA invite can arrive the same day you apply. Intern hiring runs Dec to Feb in fixed windows; new grad roles were posted late April 2026. Connect Engineering Apprenticeship (about 5 months, SF hybrid) opens in April; it requires no 4-year CS degree, at least 2 years of work experience, and less than 1 year of professional software engineering experience.",
+  "oa": {
+    "platform": "CodeSignal Industry Coding Assessment (progressive, 4 levels), reported Jul to Sep 2026 and often auto-sent after applying; live coding screens use CoderPad",
+    "format": "CodeSignal: one task, 4 levels, score out of 600, screen share and mic on. Reported tasks: banking system (create_account, deposit, transfer; top_spenders; scheduled payments; merge accounts), cloud storage / in-memory file system (add, copy, prefix and suffix search; users with capacity; compress and decompress), task management system (add/update/get; search and priority sort; user quotas with expiring assignments; overdue report). Live screen: 1 problem, 60 min, must run.",
+    "notes": "Keep level 1 data structures flexible because later levels reuse them; a failing test can come from an earlier level's data handling (Jul 2026). Scores reported: 400/600 (Jul 2026), 440 stuck on level 3 (Sep 2026), 600/600 then rejected (Aug 2026). Timestamp ordering is the trap in the scheduled-payments level. Time is the main constraint."
+  },
+  "coding": {
+    "rounds": "1 screen + 1 onsite coding round for most loops (second coding round replaced by code review since 2024); some 2026 India loops still had 2 coding rounds",
+    "style": "LeetCode medium to hard with an Airbnb-flavored story (bookings, stays, menus, ski runs, accounts). Heavy on DP, graphs, union-find, simulation. Multi-part: interviewers add follow-ups once part 1 runs",
+    "environment": "CoderPad for the coding screen (Hello Interview; interviewing.io says Airbnb uses CoderPad for technical interviews); code review round uses GitHub-style PRs; CodeSignal for the OA",
+    "graded_on": "Working, tested code within the hour; clean names and modular functions; reasoning about complexity; ability to extend for follow-ups. Passing all test cases mattered more than reaching the optimal approach in one Mar 2026 report"
+  },
+  "system_design": "Not the focus for interns. New grad (G7): light or absent; some candidates still get a design or technical-experience round. 1 to 3 yrs (G8): a 60-min design screen plus a 60-min onsite design. Reported prompts: booking platform that prevents double bookings plus search, with a hot-partition follow-up for a big event (Jan 2026); group chat like WhatsApp (Jan 2026); Hello Interview list: chat/messaging, job scheduler, notification system, reservation system.",
+  "behavioral": {
+    "framework": "Four core values: Champion the Mission, Be a Host, Embrace the Adventure, Be a Cereal Entrepreneur",
+    "values_url": "https://careers.airbnb.com/life-at-airbnb/",
+    "what_they_look_for": [
+      "An authentic reason to join tied to belonging, travel, hosting, or community",
+      "Hospitality toward teammates (Be a Host)",
+      "Ownership and creative problem solving under constraints (Cereal Entrepreneur)",
+      "Curiosity and resilience after setbacks (Embrace the Adventure)",
+      "Community involvement, mentoring, volunteering (new grad postings list this as a plus)"
+    ],
+    "sample_questions": [
+      "Why Airbnb?",
+      "How have you contributed to a community, or what volunteer work have you done? (Mar 2026 report)",
+      "Tell me about a conflict, failure, tight deadline, or complex project you owned (technical experience round, Jan 2026)",
+      "Describe a time you stood up for something you believe in",
+      "Anything you really want to do in the future?",
+      "Tell me about your most memorable trip"
+    ]
+  },
+  "non_leetcode_formats": "Code Review round: about 3 pull requests, comment on bugs first, then edge cases, performance, readability; a Jan 2026 candidate (PracHub) said the interviewer stayed mostly silent while they annotated the code. Technical Experience round: deep dive on past projects to set level. CodeSignal progressive OA (bank, file storage, task manager) that tests OOP and incremental design more than algorithms.",
+  "reported_questions": [
+    {
+      "title": "Allocate K people to hotels: minimize number of hotels used, then total capacity",
+      "url": "",
+      "role": "Senior SWE",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517460/airbnb-senior-engineer-interview-experie-yr5o/"
+    },
+    {
+      "title": "Job sequencing with deadlines: unit-time jobs, maximize jobs and total profit",
+      "url": "",
+      "role": "Senior SWE",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517460/airbnb-senior-engineer-interview-experie-yr5o/"
+    },
+    {
+      "title": "Maximum Candies You Can Get from Boxes",
+      "url": "https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/",
+      "role": "Senior SWE",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517460/airbnb-senior-engineer-interview-experie-yr5o/"
+    },
+    {
+      "title": "System design: booking platform that prevents double bookings, plus search; hot partitions during a big local event",
+      "url": "",
+      "role": "Senior SWE",
+      "date": "2026-01",
+      "source_url": "https://leetcode.com/discuss/post/7517460/airbnb-senior-engineer-interview-experie-yr5o/"
+    },
+    {
+      "title": "Task scheduling with deadlines and reward points: output order that maximizes reward (screen)",
+      "url": "",
+      "role": "SWE (5 YOE)",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7308464/airbnb-se-screening-round-interview-exp-yxl9q/"
+    },
+    {
+      "title": "Split stay / property booking optimizer: pick properties in a neighborhood with minimum total capacity >= group size, ties by fewer properties",
+      "url": "",
+      "role": "Senior SWE (screen); also asked onsite Mar 2026",
+      "date": "2025-05",
+      "source_url": "https://leetcode.com/discuss/post/6717917/airbnb-technical-screen-interview-senior-fzjk/"
+    },
+    {
+      "title": "Most cost-effective menu order: combo items priced together, buy a required order at minimum cost",
+      "url": "",
+      "role": "SSE onsite; phone screen in a Mar 2026 report",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6384132/airbnb-sse-onsite-by-anonymous_user-ki91/"
+    },
+    {
+      "title": "Shortest unique substring that identifies each movie title (variant of LC 3076)",
+      "url": "https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/",
+      "role": "Technical phone screen",
+      "date": "2025-02",
+      "source_url": "https://leetcode.com/discuss/post/6467985/airbnb-tps-by-anonymous_user-5sb6/"
+    },
+    {
+      "title": "Connect Four: simulate moves, stop on win or invalid move, print grid; well-structured code over cleverness",
+      "url": "",
+      "role": "Phone screen",
+      "date": "2025-10",
+      "source_url": "https://leetcode.com/discuss/post/7291517/airbnb-phone-screen-connect-four-by-anon-t3w6/"
+    },
+    {
+      "title": "Airflow-style task scheduling: execution order from dependencies (topological sort)",
+      "url": "https://leetcode.com/problems/course-schedule-ii/",
+      "role": "SWE (India)",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7692459/airbnb-swe-role-india-by-anonymously_you-6xxq/"
+    },
+    {
+      "title": "Ski tournament: best downhill route maximizing checkpoint points minus travel time, print path (DFS + DP on DAG)",
+      "url": "",
+      "role": "SWE (India); also SWE onsite Jan 2026 on PracHub",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7692459/airbnb-swe-role-india-by-anonymously_you-6xxq/"
+    },
+    {
+      "title": "Find duplicate accounts sharing any identifier (email, phone, gov ID) via union-find",
+      "url": "https://leetcode.com/problems/accounts-merge/",
+      "role": "SWE (India)",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7692459/airbnb-swe-role-india-by-anonymously_you-6xxq/"
+    },
+    {
+      "title": "Code review round: review 3 pull requests, logic bugs first, then style and maintainability",
+      "url": "",
+      "role": "Senior SWE",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7621156/airbnb-offer-received-interview-experien-cjhk/"
+    },
+    {
+      "title": "Design a group chat (WhatsApp-like)",
+      "url": "",
+      "role": "Software Engineer",
+      "date": "2026-01",
+      "source_url": "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-passed-onsite-and-core-value-now-waiting-on-team-match"
+    },
+    {
+      "title": "Board-game maze scoring with shortest path (Connect-Four-like technical screen)",
+      "url": "",
+      "role": "Software Engineer",
+      "date": "2026-01",
+      "source_url": "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-passed-onsite-and-core-value-now-waiting-on-team-match"
+    },
+    {
+      "title": "OA: 4-level progressive implementation (the same poster's earlier post names CodeSignal), extend methods each level, scored 400/600",
+      "url": "",
+      "role": "SSE",
+      "date": "2026-07",
+      "source_url": "https://leetcode.com/discuss/post/8407430/airbnb-oa-sse-role-by-anonymous_user-mxmx/"
+    },
+    {
+      "title": "Core values: how have you contributed to a community or volunteered?",
+      "url": "",
+      "role": "Senior SWE",
+      "date": "2026-03",
+      "source_url": "https://leetcode.com/discuss/post/7621156/airbnb-offer-received-interview-experien-cjhk/"
+    },
+    {
+      "title": "CodeSignal OA: banking system in 4 levels (create_account/deposit/transfer, top_spenders ranking, scheduled payments by timestamp, merge accounts)",
+      "url": "",
+      "role": "Software Engineer",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-four-level-banking-system-oa-stuck-on-level-3-at-440-points"
+    },
+    {
+      "title": "CodeSignal OA: cloud storage system in 4 levels (add/get/copy files, prefix and suffix search, users with capacity limits, compress and decompress)",
+      "url": "",
+      "role": "Software Engineer",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-a-perfect-cloud-storage-oa-score-followed-by-rejection"
+    },
+    {
+      "title": "CodeSignal OA: task management system in 4 levels (add/update/get, search by name and sort by priority, user quotas with expiring assignments, overdue report)",
+      "url": "",
+      "role": "Software Engineer",
+      "date": "2026-09",
+      "source_url": "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-auto-sent-codesignal-oa-with-a-four-level-task-management-system"
+    },
+    {
+      "title": "CodeSignal OA: in-memory file system (copy respects the user's remaining capacity; compress halves file size and updates consumed capacity)",
+      "url": "",
+      "role": "Software Engineer",
+      "date": "2026-08",
+      "source_url": "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-in-memory-file-system-oa-four-levels-deep"
+    }
+  ],
+  "focus_topics": [
+    "Dynamic programming (subset/knapsack style, bitmask over items)",
+    "Graphs: DAG DP, topological sort, BFS shortest path",
+    "Union-find",
+    "Simulation and state machines (board games, water pouring)",
+    "Greedy scheduling with deadlines",
+    "OOP and incremental system builds for the CodeSignal OA (bank, file storage, task manager)",
+    "String processing",
+    "Code review: spotting bugs, edge cases, readability",
+    "Booking/reservation system design (double booking, search, hot partitions)"
+  ],
+  "tips": [
+    "Practice CodeSignal-style 4-level builds (in-memory bank, file storage, task manager) under a 90-minute clock: in 2026 the Airbnb OA often arrives minutes after you apply, and you need most levels done to score well.",
+    "Practice writing code that runs on the first try in CoderPad: Airbnb rejects pseudocode, and passing the interviewer's tests is the bar.",
+    "Drill DP and graph problems wrapped in long product stories (stays, menus, ski runs); a Mar 2026 candidate called the coding rounds 'super heavy on DP'.",
+    "Expect a follow-up after part 1 works, so leave 10 to 15 minutes and structure code with small functions you can extend.",
+    "Prepare for the code review round by reviewing real PRs: comment on correctness first, then edge cases, tests, naming.",
+    "Write 1 or 2 stories per core value, including one about community or volunteering; the values round can reject you on its own.",
+    "Apply in the first intern window (early December); the 2026 posting said the first window gives the best chance.",
+    "Check sponsorship before applying: the Summer 2026 intern posting said Airbnb is 'unable to sponsor visas for this position'. Use the H-1B check from Jugal's post: https://jugaldb.substack.com/p/how-to-check-if-a-company-sponsors",
+    "New grad roles posted in late April 2026, so keep applying in spring instead of assuming Airbnb only hires in fall."
+  ],
+  "compensation_note": "Levels.fyi (Oct 4, 2026, small samples): G7 average total comp $175K (median $179K, n=11; average base $135K, stock $32K/yr, bonus $8K); G8 average $297K (median $275K, n=10). RSUs vest 35/30/20/15. New grad postings (Apr 2026): base $128K to $142K plus bonus, equity, travel credits. Intern: $7,900 to $8,100/month in the Summer 2026 posting; Levels.fyi Summer 2025 $49.38/hr remote. India G7 offer (Mar 2026, LeetCode): 24L base, 15% target bonus, $50K stock over 4 yrs, about 45L year-1 TC.",
+  "sources": [
+    "https://careers.airbnb.com/",
+    "https://careers.airbnb.com/internship-programs/",
+    "https://careers.airbnb.com/connect-engineering-apprenticeship/",
+    "https://careers.airbnb.com/life-at-airbnb/",
+    "https://www.hellointerview.com/guides/airbnb/g8",
+    "https://www.hellointerview.com/guides/airbnb/g9",
+    "https://interviewing.io/airbnb-interview-questions",
+    "https://www.levels.fyi/companies/airbnb/salaries/software-engineer",
+    "https://www.levels.fyi/companies/airbnb/salaries/software-engineer/levels/g7",
+    "https://www.levels.fyi/internships/Airbnb/Software-Engineer-Intern/",
+    "https://builtin.com/job/software-engineering-intern/7916098",
+    "https://simplify.jobs/p/795685dd-1306-4b4b-94cb-b3c15022ba1c",
+    "https://simplify.jobs/p/b9b819e6-441f-4b6b-ac77-2e5fd9851f8b",
+    "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-passed-onsite-and-core-value-now-waiting-on-team-match",
+    "https://leetcode.com/discuss/post/7517460/airbnb-senior-engineer-interview-experie-yr5o/",
+    "https://leetcode.com/discuss/post/7308464/airbnb-se-screening-round-interview-exp-yxl9q/",
+    "https://leetcode.com/discuss/post/6717917/airbnb-technical-screen-interview-senior-fzjk/",
+    "https://leetcode.com/discuss/post/6384132/airbnb-sse-onsite-by-anonymous_user-ki91/",
+    "https://leetcode.com/discuss/post/6467985/airbnb-tps-by-anonymous_user-5sb6/",
+    "https://leetcode.com/discuss/post/7291517/airbnb-phone-screen-connect-four-by-anon-t3w6/",
+    "https://leetcode.com/discuss/post/7692459/airbnb-swe-role-india-by-anonymously_you-6xxq/",
+    "https://leetcode.com/discuss/post/7621156/airbnb-offer-received-interview-experien-cjhk/",
+    "https://leetcode.com/discuss/post/8407430/airbnb-oa-sse-role-by-anonymous_user-mxmx/",
+    "https://leetcode.com/discuss/post/7644078/airbnb-grade-7-offer-sde-1-by-anonymous_-47mb/",
+    "https://jugaldb.substack.com/p/how-to-check-if-a-company-sponsors",
+    "https://leetcode.com/discuss/post/8400142/airbnb-oa-by-anonymous_user-526s/",
+    "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-four-level-banking-system-oa-stuck-on-level-3-at-440-points",
+    "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-a-four-level-banking-system-online-assessment",
+    "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-a-perfect-cloud-storage-oa-score-followed-by-rejection",
+    "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-auto-sent-codesignal-oa-with-a-four-level-task-management-system",
+    "https://prachub.com/interview-experiences/airbnb-software-engineer-interview-experience-in-memory-file-system-oa-four-levels-deep",
+    "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs"
+  ],
+  "confidence_notes": "Public 2025 to 2026 data is mostly Senior/G8+ and India; intern and new grad loop details are thin. The intern format (2 coding + 1 values, 45 min each) comes from Glassdoor reviews seen only through search snippets (Glassdoor blocks fetching), so treat it as UNVERIFIED. No official Airbnb interview prep page exists; process facts come from Hello Interview (2026), interviewing.io, PracHub, and LeetCode posts. The 'code review replaced second coding round in 2024' claim is from Hello Interview, not Airbnb. Changed recently: (1) CodeSignal progressive OA now described in 6 posts from Jul to Sep 2026 (LeetCode 8400142 names CodeSignal; PracHub posts describe bank, file storage, task manager tasks), often auto-sent on application; (2) new grad postings in Apr 2026 require 3 days/week in SF or Seattle; (3) Summer 2026 intern posting was US remote-eligible with no visa sponsorship; India roles are 'Work from Anywhere (India)'. ATS check (Oct 4, 2026): Airbnb's board runs on Greenhouse (boards-api.greenhouse.io/v1/boards/airbnb lists 154 jobs, job links carry gh_jid), so Jugal's Sep 2025 Substack line listing Airbnb under Workday (https://jugaldb.substack.com/p/stop-applying-to-ghost-jobs) is wrong for Airbnb. Only early-career SWE opening on Oct 4, 2026: 'Early Career Software Engineer, Quality Engineering' in Sao Paulo. Several LeetCode posts promote a paid question site (offerretriever); questions were kept only when the poster said they were asked. PracHub posts are candidate-submitted and 'curated and edited by PracHub'. Reddit could not be fetched from this environment."
+}
