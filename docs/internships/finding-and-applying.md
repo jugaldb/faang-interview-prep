@@ -16,6 +16,7 @@ Counts are from Oct 4, 2026.
 | [SWEList](https://swelist.com/) | Email alerts for new rows in the Simplify lists, made by a community member | Turn on daily alerts so you see new roles the day they post |
 | [speedyapply 2027 SWE College Jobs](https://github.com/speedyapply/2027-SWE-College-Jobs) | 881 US and 618 international internships, with a salary column | Outside the US: open the international internships file. Check weekly |
 | [speedyapply 2027 AI College Jobs](https://github.com/speedyapply/2027-AI-College-Jobs) | AI and ML internships and new grad roles, updated daily | Second source if you target AI/ML roles, which now outnumber SWE roles in the Simplify list |
+| [landed Summer 2027 AI Internships](https://github.com/landedjobs/summer-2027-ai-internships) | About 300 AI, ML, research, data and software internships, US first, with company stage and valuation on each row. Refreshed every 2 days | Another source for AI/ML roles. Start with the rows marked as top-rated companies |
 | [zapplyjobs Internships 2027](https://github.com/zapplyjobs/Internships-2027) | Another daily list | Cross-check once a week for roles Simplify missed |
 | [NUFT 2027 Quant Internships](https://github.com/northwesternfintech/2027QuantInternships) | Quant intern list by Northwestern FinTech. Last update Jul 30, 2026 | Use it as a company list, then check each firm's own careers page |
 | [vanshb03 Summer 2027 Internships](https://github.com/vanshb03/Summer2027-Internships) | Community list. No commits from Aug 23 to Oct 4, 2026 | Cross-check only. Do not rely on it |
